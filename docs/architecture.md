@@ -22,7 +22,7 @@ data/sources.json → Zod → React → Vite → GitHub Pages
 Источник → снимок → адаптер → проверка → публичный JSON → сайт
 ```
 
-Будущие сущности: `Vendor`, `Agent`, `Model`, `RunConfiguration`, `SubscriptionPlan`, `QuotaPool`, `Benchmark`, `BenchmarkResult`, `Recommendation`, `PurchaseOffer`, `Evidence`. Идентификаторы и схемы будут определены при первой реализации каталога, это перечень границ, а не готовый API.
+Первый слой каталога: `Vendor`, `Agent`, `Model`, `RunConfiguration`, `Benchmark`, `BenchmarkResult`, `Recommendation`, `Evidence`. Он описывает результаты, методологии и рекомендации с контекстом задачи. `SubscriptionPlan` и `QuotaPool` дополняют его сведениями о доступе. `PurchaseOffer` может появиться позже. Идентификаторы и схемы будут определены при первой реализации каталога, это перечень границ, а не готовый API.
 
 ## Обновление и ошибки
 

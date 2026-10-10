@@ -1,66 +1,78 @@
 # Vibe Atlas
 
-Навигатор по AI-подпискам для разработки. Собираем модели, агентов, бенчмарки, лимиты, рекомендации и способы покупки, чтобы помочь выбрать подписки и решить, кого запускать для конкретной задачи.
+[![CI](https://github.com/WarLikeLaux/vibe-atlas/actions/workflows/pages.yml/badge.svg?branch=main)](https://github.com/WarLikeLaux/vibe-atlas/actions/workflows/pages.yml)
 
-[Сайт](https://warlikelaux.github.io/vibe-atlas/) · [Цели проекта](PRODUCT.md) · [План разработки](docs/roadmap.md) · [Данные и источники](docs/data-policy.md) · [Архитектура](docs/architecture.md)
+English | [Русский](README-ru.md)
 
-## Что уже есть
+Vibe Atlas collects coding agent and model benchmarks, vendor guidance, and recommendations from developers and vibe coders. Each published finding will include its source, verification date, and the exact agent, model, and evaluation settings.
 
-- React, TypeScript и Vite.
-- Стартовая страница с поиском и фильтрацией реестра источников.
-- Типизированная схема реестра и проверка данных через Zod.
-- Строгие проверки кода, доступности JSX, стилей, Markdown и форматирования.
-- Проверка неиспользуемых файлов, экспортов и зависимостей.
-- CI и автоматическая публикация на GitHub Pages после успешных проверок.
-- Husky запускает полную проверку перед коммитом.
+Benchmarks and recommendations come first. Subscription information will describe available models, plans, and usage limits alongside the evidence. Task-based selection and integration with HAPI come later.
 
-Это начальный каркас проекта. Импорт бенчмарков, проверенные тарифы, отзывы и персональные рекомендации пока не реализованы. Стартовая страница явно показывает этот статус и не выдаёт зарегистрированную ссылку за проверенный факт.
+[Website](https://warlikelaux.github.io/vibe-atlas/) · [Product goals](PRODUCT.md) · [Roadmap](docs/roadmap.md) · [Data policy](docs/data-policy.md) · [Architecture](docs/architecture.md)
 
-## Запуск
+## Current status
 
-Нужен Node.js 22.12 или новее. В CI используется Node.js 22.
+The project has a React and TypeScript foundation, a searchable source registry, quality checks, and deployment to GitHub Pages. Benchmark imports, published findings, verified subscription details, and recommendations have not been implemented yet. The site labels registered sources as awaiting verification.
+
+The interface and product documents currently use Russian. Both READMEs describe the same scope and development commands.
+
+## Priorities
+
+1. Build a broad registry of relevant coding benchmarks and import results, starting with [Artificial Analysis Coding Agents](https://artificialanalysis.ai/agents/coding-agents). Preserve each benchmark's methodology and exact run configuration.
+2. Collect vendor guidance, independent evaluations, and recommendations from developers and vibe coders. Keep authorship, dates, task context, and commercial disclosures.
+3. Add reference information about subscription plans, available models, compatibility, prices, and limits in their original units.
+4. Use this evidence for task-based recommendations and a future versioned export for HAPI.
+
+## Development
+
+Requires Node.js 22.12 or newer. CI uses Node.js 22.
 
 ```sh
 npm ci
 npm run dev
 ```
 
-Vite выведет локальный адрес с префиксом `/vibe-atlas/`.
+Vite prints the local URL with the `/vibe-atlas/` prefix.
 
 ```sh
 npm run check
 npm run preview
 ```
 
-`check` проверяет типы, данные, код, стили, документы, форматирование и неиспользуемый код, затем собирает сайт. `preview` запускает собранную версию из `dist/`.
+`check` runs type checking, data validation, linters, formatting checks, unused-code analysis, and a production build. `preview` serves the build from `dist/`. Husky runs `check` before each commit.
 
-## Проверки
+## Quality checks
 
-| Команда                 | Что проверяет                                                                                                                         |
-| ----------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
-| `npm run typecheck`     | TypeScript strict, необработанные индексы, точные optional-поля, неиспользуемые переменные                                            |
-| `npm run validate:data` | Структура реестра источников через Zod                                                                                                |
-| `npm run lint:code`     | ESLint, typescript-eslint strict со знанием типов, React Hooks, React Refresh, JSX accessibility, imports, Security, SonarJS, Unicorn |
-| `npm run lint:styles`   | Stylelint standard                                                                                                                    |
-| `npm run lint:docs`     | markdownlint-cli2                                                                                                                     |
-| `npm run format:check`  | Prettier                                                                                                                              |
-| `npm run check:unused`  | Knip                                                                                                                                  |
-| `npm run build`         | Проверка TypeScript и production-сборка Vite                                                                                          |
+| Command                    | Checks                                                                                                                          |
+| -------------------------- | ------------------------------------------------------------------------------------------------------------------------------- |
+| `npm run typecheck`        | Strict TypeScript, checked indexed access, exact optional properties, unused variables                                          |
+| `npm run validate:data`    | Source registry validation with Zod                                                                                             |
+| `npm run lint:code`        | ESLint, type-aware strict typescript-eslint, React Hooks, React Refresh, JSX accessibility, imports, Security, SonarJS, Unicorn |
+| `npm run lint:styles`      | Stylelint standard                                                                                                              |
+| `npm run lint:docs`        | markdownlint-cli2                                                                                                               |
+| `npm run format:check`     | Prettier                                                                                                                        |
+| `npm run check:unused`     | Knip                                                                                                                            |
+| `npm run build`            | TypeScript checking and a Vite production build                                                                                 |
+| `npm run audit:production` | Vulnerability audit of runtime dependencies                                                                                     |
 
-Для форматирования: `npm run format`. ESLint работает с нулевым допуском к предупреждениям. Локальное исправление стилей: `npx stylelint 'src/**/*.css' --fix`.
+Run `npm run format` to format files. ESLint allows zero warnings. To fix CSS findings, run `npx stylelint 'src/**/*.css' --fix`.
 
-`npm run audit:production` проверяет зависимости сайта и выполняется в CI. Полный `npm audit` на 10 октября 2026 сообщает о восьми связанных high findings в инструментах разработки из-за `braces@3.0.3` ([advisory](https://github.com/advisories/GHSA-vfj7-8cjw-p6xm)). Исправленной версии `braces` в npm на эту дату нет. Шаблоны glob в командах проекта заданы явно, `braces` не входит в клиентские зависимости. Overrides для `smol-toml` и `katex` устраняют отдельные исправленные advisories, обновления отслеживает Dependabot.
+`npm run audit:production` also runs in CI and checks the dependencies shipped with the site.
 
-ESLint 9 и Unicorn 62 выбраны как совместимый набор с `eslint-plugin-jsx-a11y`, который пока не объявляет поддержку ESLint 10. Обновлять этот набор нужно вместе, без `--force` и `--legacy-peer-deps`.
+ESLint 9 and Unicorn 62 form a compatible toolchain with `eslint-plugin-jsx-a11y`, whose declared support currently stops at ESLint 9. TypeScript must stay within the peer range supported by typescript-eslint, and Node types must match the Node 22 runtime. Upgrade constrained majors together without `--force` or `--legacy-peer-deps`.
 
-## Публикация
+As of October 10, 2026, the full `npm audit` reports eight related high-severity findings in development tools through `braces@3.0.3` ([advisory](https://github.com/advisories/GHSA-vfj7-8cjw-p6xm)). No patched braces release is available in npm on that date. Project glob patterns are explicitly defined, and braces is not a runtime dependency. Overrides for smol-toml and katex address separate patched advisories. Dependabot tracks updates.
 
-Публичный репозиторий публикуется бесплатно на GitHub Pages. В Settings → Pages должен быть выбран источник GitHub Actions. Workflow `.github/workflows/pages.yml` выполняет проверки и сборку для pull request, а для `main` дополнительно публикует проверенный артефакт. Pull request не получает права на деплой.
+## Deployment
 
-Путь Vite настроен на `/vibe-atlas/`. Сайт использует ссылки на секции, поэтому не требует серверного SPA fallback. Официальные инструкции: [Vite](https://vite.dev/guide/static-deploy.html#github-pages), [GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages).
+The public repository uses free GitHub Pages hosting. Settings → Pages must use GitHub Actions as its source. `.github/workflows/pages.yml` checks pull requests and publishes checked builds from `main`. Deployment permissions are restricted to the deployment job.
 
-## Работа с данными
+Vite's base path is `/vibe-atlas/`. Section links use anchors and do not need a server-side SPA fallback. Official guides: [Vite](https://vite.dev/guide/static-deploy.html#github-pages), [GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages).
 
-`data/sources.json` содержит реестр выбранных источников. Новый источник имеет статус `registered` и `lastCheckedAt: null`. Дата регистрации не является датой проверки тарифов или результатов.
+## Sources and contributions
 
-Будущий импорт Artificial Analysis должен сохранять исходный снимок, точные названия связок и условия измерений. Секреты импорта остаются в GitHub Actions Secrets. Политика происхождения, свежести и коммерческих ссылок описана в [документе о данных](docs/data-policy.md).
+`data/sources.json` registers selected sources. A new entry has `status: registered` and `lastCheckedAt: null`. Registration dates do not verify benchmark results, recommendations, or subscription terms.
+
+To suggest a benchmark, recommendation, or correction, [open an issue](https://github.com/WarLikeLaux/vibe-atlas/issues/new) with the original URL, author or publisher, publication date when available, and the relevant agent, model, or task. Do not invent missing scores, quotas, or testimonials.
+
+Future imports will retain source snapshots, exact identifiers, and evaluation conditions. Import credentials belong in GitHub Actions Secrets. See the [data policy](docs/data-policy.md) for provenance, freshness, and affiliate-link rules.
