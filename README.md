@@ -16,6 +16,8 @@ The project has a React and TypeScript foundation, a searchable source registry,
 
 The interface and product documents currently use Russian. Both READMEs describe the same scope and development commands.
 
+The user's selected models form the core scope, with the latest versions of specific vendor lineages and variants added for comparison. See the [model scope](docs/model-scope.md) and [continuation context](docs/handoff.md), currently in Russian, for the agreed distinctions between models, versions, agents, and effort settings.
+
 ## Priorities
 
 1. Build a broad registry of relevant coding benchmarks and import results, starting with [Artificial Analysis Coding Agents](https://artificialanalysis.ai/agents/coding-agents). Preserve each benchmark's methodology and exact run configuration.
