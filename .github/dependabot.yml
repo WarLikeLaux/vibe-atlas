@@ -4,6 +4,19 @@ updates:
       directory: /
       schedule:
           interval: weekly
+      # Upgrade this toolchain together after its peers support the new major.
+      ignore:
+          - dependency-name: '@eslint/js'
+            update-types: ['version-update:semver-major']
+          - dependency-name: eslint
+            update-types: ['version-update:semver-major']
+          - dependency-name: eslint-plugin-unicorn
+            update-types: ['version-update:semver-major']
+          - dependency-name: typescript
+            update-types: ['version-update:semver-major']
+          # Match the Node 22 runtime used locally and in CI.
+          - dependency-name: '@types/node'
+            update-types: ['version-update:semver-major']
       groups:
           development:
               dependency-type: development
