@@ -1,0 +1,63 @@
+{
+    "name": "vibe-atlas",
+    "version": "0.1.0",
+    "private": true,
+    "type": "module",
+    "engines": {
+        "node": ">=22.12.0"
+    },
+    "scripts": {
+        "dev": "vite",
+        "build": "tsc -b && vite build",
+        "preview": "vite preview",
+        "typecheck": "tsc -b",
+        "lint:code": "eslint . --max-warnings 0",
+        "lint:styles": "stylelint 'src/**/*.css'",
+        "lint:docs": "markdownlint-cli2 '**/*.md' '#node_modules' '#dist'",
+        "lint": "npm run lint:code && npm run lint:styles && npm run lint:docs",
+        "format": "prettier --write .",
+        "format:check": "prettier --check .",
+        "check:unused": "knip",
+        "check": "npm run typecheck && npm run validate:data && npm run lint && npm run format:check && npm run check:unused && npm run build",
+        "validate:data": "node --experimental-strip-types scripts/validate-data.ts",
+        "prepare": "husky",
+        "audit:production": "npm audit --omit=dev --audit-level=high"
+    },
+    "dependencies": {
+        "@fontsource-variable/manrope": "^5.3.0",
+        "react": "^19.3.0",
+        "react-dom": "^19.3.0",
+        "zod": "^4.6.5"
+    },
+    "devDependencies": {
+        "@eslint/js": "^9.39.5",
+        "@types/node": "^22.20.5",
+        "@types/react": "^19.3.0",
+        "@types/react-dom": "^19.3.0",
+        "@vitejs/plugin-react": "^6.1.2",
+        "eslint": "^9.39.5",
+        "eslint-config-prettier": "^10.1.8",
+        "eslint-import-resolver-typescript": "^4.4.5",
+        "eslint-plugin-import-x": "^4.17.1",
+        "eslint-plugin-jsx-a11y": "^6.10.2",
+        "eslint-plugin-react-hooks": "^7.1.1",
+        "eslint-plugin-react-refresh": "^0.5.7",
+        "eslint-plugin-security": "^4.2.0",
+        "eslint-plugin-sonarjs": "^4.2.2",
+        "eslint-plugin-unicorn": "^62.0.0",
+        "globals": "^17.13.0",
+        "husky": "^9.1.7",
+        "knip": "^6.41.0",
+        "markdownlint-cli2": "^0.23.3",
+        "prettier": "^3.9.10",
+        "stylelint": "^17.16.0",
+        "stylelint-config-standard": "^40.0.0",
+        "typescript": "^5.9.3",
+        "typescript-eslint": "^8.71.1",
+        "vite": "^8.3.4"
+    },
+    "overrides": {
+        "smol-toml": "^1.9.1",
+        "katex": "^0.18.2"
+    }
+}

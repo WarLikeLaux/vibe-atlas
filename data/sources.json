@@ -1,0 +1,75 @@
+{
+    "version": 1,
+    "sources": [
+        {
+            "id": "artificial-analysis-coding",
+            "name": "Artificial Analysis",
+            "subject": "Бенчмарки связок агента и модели",
+            "url": "https://artificialanalysis.ai/agents/coding-agents",
+            "kind": "benchmark",
+            "status": "registered",
+            "registeredAt": "2026-10-10",
+            "lastCheckedAt": null
+        },
+        {
+            "id": "openai-codex",
+            "name": "OpenAI / Codex",
+            "subject": "Доступ по подписке и ограничения Codex",
+            "url": "https://developers.openai.com/codex/pricing/",
+            "kind": "vendor",
+            "status": "registered",
+            "registeredAt": "2026-10-10",
+            "lastCheckedAt": null
+        },
+        {
+            "id": "anthropic-claude",
+            "name": "Anthropic / Claude",
+            "subject": "Планы подписки и условия доступа",
+            "url": "https://claude.com/pricing",
+            "kind": "vendor",
+            "status": "registered",
+            "registeredAt": "2026-10-10",
+            "lastCheckedAt": null
+        },
+        {
+            "id": "cursor",
+            "name": "Cursor",
+            "subject": "Тарифы и включённое использование",
+            "url": "https://cursor.com/pricing",
+            "kind": "vendor",
+            "status": "registered",
+            "registeredAt": "2026-10-10",
+            "lastCheckedAt": null
+        },
+        {
+            "id": "google-ai",
+            "name": "Google AI / Antigravity",
+            "subject": "Подписки Google AI и условия доступа",
+            "url": "https://one.google.com/about/google-ai-plans/",
+            "kind": "vendor",
+            "status": "registered",
+            "registeredAt": "2026-10-10",
+            "lastCheckedAt": null
+        },
+        {
+            "id": "minimax",
+            "name": "MiniMax",
+            "subject": "Документация планов и ограничений",
+            "url": "https://platform.minimax.io/docs",
+            "kind": "vendor",
+            "status": "registered",
+            "registeredAt": "2026-10-10",
+            "lastCheckedAt": null
+        },
+        {
+            "id": "opencode",
+            "name": "OpenCode",
+            "subject": "Документация инструментов и доступа к моделям",
+            "url": "https://opencode.ai/docs/",
+            "kind": "vendor",
+            "status": "registered",
+            "registeredAt": "2026-10-10",
+            "lastCheckedAt": null
+        }
+    ]
+}
