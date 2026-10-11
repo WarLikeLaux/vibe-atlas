@@ -1,0 +1,400 @@
+{
+    "generatedAt": "2026-10-10T19:09:21.608959+00:00",
+    "hashAlgorithm": "SHA-256",
+    "note": "Это суммы файлов передачи. Суммы полученных ответов оригиналов находятся в sources.json. task.md и сам индекс не хэшируются этим индексом. HTML и статьи целиком не архивировались.",
+    "artifacts": [
+        {
+            "path": "cards/aider-polyglot.md",
+            "sha256": "d95b60790ead359bc4eb607781b714082ca93cce8abc5b960da7d1dd8fad009d",
+            "bytes": 6005,
+            "sourceIds": [
+                "aider",
+                "aider-polyglot-method"
+            ],
+            "role": "research-handoff"
+        },
+        {
+            "path": "cards/bigcodebench.md",
+            "sha256": "f78a603d0e95c8e04cc0ae6d197d221fff95f837c933c75c5786b25d8cd0add7",
+            "bytes": 6119,
+            "sourceIds": [
+                "bigcodebench",
+                "bigcodebench-repository"
+            ],
+            "role": "research-handoff"
+        },
+        {
+            "path": "cards/evalplus.md",
+            "sha256": "42d60be16490cb0c8b3e3ccd5edefde005cc4acec3936b84c153b2fa6811910e",
+            "bytes": 5581,
+            "sourceIds": [
+                "evalplus",
+                "evalplus-repository"
+            ],
+            "role": "research-handoff"
+        },
+        {
+            "path": "cards/livecodebench.md",
+            "sha256": "cba6ea804ee49b8724eac9672c7bdddf1731a99f7f26e32c74e41f485af24efb",
+            "bytes": 6102,
+            "sourceIds": [
+                "lcb-leaderboard",
+                "lcb-repository"
+            ],
+            "role": "research-handoff"
+        },
+        {
+            "path": "cards/programbench.md",
+            "sha256": "d61b4d36d2b26431b916be3d3acfbea72b96d061b30e4f7552ba438c2d9a0587",
+            "bytes": 6621,
+            "sourceIds": [
+                "programbench",
+                "programbench-repository"
+            ],
+            "role": "research-handoff"
+        },
+        {
+            "path": "cards/swe-bench-family.md",
+            "sha256": "f51ef6f99ae94fc865af2041c70128f2e77b8d6bb836c93c00918b796f1f9d8e",
+            "bytes": 6210,
+            "sourceIds": [
+                "swe-bench",
+                "swe-verified-method"
+            ],
+            "role": "research-handoff"
+        },
+        {
+            "path": "cards/swe-bench-pro-legacy.md",
+            "sha256": "70154a0ac13920a7293e9a0895edb7dae947777839e321542766d7d55264c25e",
+            "bytes": 5852,
+            "sourceIds": [
+                "swe-pro"
+            ],
+            "role": "research-handoff"
+        },
+        {
+            "path": "cards/swe-bench-pro-v2.md",
+            "sha256": "e015d266688678bf38b73b8fe5083b69291a175dd9872cfd0f4a465044712674",
+            "bytes": 6876,
+            "sourceIds": [
+                "swe-pro-v2-leaderboard",
+                "swe-pro-v2-readme"
+            ],
+            "role": "research-handoff"
+        },
+        {
+            "path": "cards/swe-rebench.md",
+            "sha256": "52dfa265510d4faf286bc79bf5a0aded8ab530aa00a691303dd1ff92177608e9",
+            "bytes": 7110,
+            "sourceIds": [
+                "swe-rebench",
+                "swe-rebench-paper"
+            ],
+            "role": "research-handoff"
+        },
+        {
+            "path": "coverage.json",
+            "sha256": "0248055943edbfe90a25edb342c5e9cd8d14ff1da135c0819c856f5c73a05ee2",
+            "bytes": 6393,
+            "sourceIds": [],
+            "role": "research-handoff",
+            "beforeFormattingSha256": "6cd5259407d34651ff900b50969ee1a1ee4333fd2f92ff092b844c0ec705c6ae",
+            "beforeFormattingBytes": 5465
+        },
+        {
+            "path": "evidence/aider-tables.json",
+            "sha256": "f7b368c06053326e081f611d83315f22e7657f4513b4b555dcdddf2b4d18ddca",
+            "bytes": 126708,
+            "sourceIds": [
+                "aider"
+            ],
+            "role": "extracted-source-data"
+        },
+        {
+            "path": "evidence/bigcodebench-full-data.json",
+            "sha256": "3e6e4c945a0716e418636b93a9d3a434a7295ec9a574e79e3cecdf83e7e99a6b",
+            "bytes": 64809,
+            "sourceIds": [
+                "bigcodebench-full-data"
+            ],
+            "role": "extracted-source-data"
+        },
+        {
+            "path": "evidence/bigcodebench-hard-data.json",
+            "sha256": "4523ab3b66c2e44f9a74d4c4c5e1a749e3b1104decb9ed030d00887c120525e5",
+            "bytes": 64751,
+            "sourceIds": [
+                "bigcodebench-hard-data"
+            ],
+            "role": "extracted-source-data"
+        },
+        {
+            "path": "evidence/evalplus-data.json",
+            "sha256": "2a94d4023a9293ce76779ff26d338d44ea4132f8bfc330d69af0012207adecc5",
+            "bytes": 34301,
+            "sourceIds": [
+                "evalplus-data"
+            ],
+            "role": "extracted-source-data"
+        },
+        {
+            "path": "evidence/lcb-generation-data.json",
+            "sha256": "4edcd5be6fbe72e0f876f496fe7b5186cd12f3529014b0ef6422610d831fb67f",
+            "bytes": 5649411,
+            "sourceIds": [
+                "lcb-generation-data"
+            ],
+            "role": "extracted-source-data"
+        },
+        {
+            "path": "evidence/programbench-extended-tables.json",
+            "sha256": "07f54ef52464eadddccf3cbdbae973ef6e558ca46293bb9a3e977a3ec60bd603",
+            "bytes": 4055,
+            "sourceIds": [
+                "programbench-extended"
+            ],
+            "role": "extracted-source-data"
+        },
+        {
+            "path": "evidence/programbench-muse-max-tables.json",
+            "sha256": "4e8c67b4abc236735b62ea7a307441e9d5cdff2b4acf7c39b1cba327d3db0396",
+            "bytes": 37280,
+            "sourceIds": [
+                "programbench-muse-max"
+            ],
+            "role": "extracted-source-data"
+        },
+        {
+            "path": "evidence/programbench-muse-xhigh-tables.json",
+            "sha256": "28c47ccefa8f58d91ce13992b2ee87081d88d845c3627da29a9938c8fd35bf1f",
+            "bytes": 37422,
+            "sourceIds": [
+                "programbench-muse-xhigh"
+            ],
+            "role": "extracted-source-data"
+        },
+        {
+            "path": "evidence/programbench-results.json",
+            "sha256": "6c833f31d941e63bfa341071ca6488f728406bc3c0722ce2662d19745e28dfa7",
+            "bytes": 6737,
+            "sourceIds": [
+                "programbench"
+            ],
+            "role": "extracted-source-data"
+        },
+        {
+            "path": "evidence/programbench-tables.json",
+            "sha256": "6e6064c377e73322b4c656020105d613dd20fed7fd2a65bc7fb63074b5cb9dad",
+            "bytes": 3796,
+            "sourceIds": [
+                "programbench"
+            ],
+            "role": "extracted-source-data"
+        },
+        {
+            "path": "evidence/sources.json",
+            "sha256": "eba4808bf6c3c9ef63aca4f3c091e0c03b4dfe527aeac2c924bc7b3c504a0aa2",
+            "bytes": 14965,
+            "sourceIds": [
+                "swe-bench",
+                "livecodebench",
+                "aider",
+                "bigcodebench",
+                "evalplus",
+                "lcb-leaderboard",
+                "bigcodebench-full-data",
+                "bigcodebench-hard-data",
+                "evalplus-data",
+                "swe-pro",
+                "swe-rebench",
+                "programbench",
+                "lcb-generation-data",
+                "swe-pro-v2-readme",
+                "programbench-extended",
+                "swe-pro-v2-leaderboard",
+                "swe-pro-v2-blog",
+                "swe-rebench-v2",
+                "swe-rebench-paper",
+                "programbench-muse-max",
+                "programbench-muse-xhigh",
+                "swe-verified-method",
+                "swe-multilingual-method",
+                "lcb-repository",
+                "aider-polyglot-method",
+                "aider-notes",
+                "bigcodebench-repository",
+                "evalplus-repository",
+                "programbench-repository",
+                "swe-rebench-dataset"
+            ],
+            "role": "research-handoff"
+        },
+        {
+            "path": "evidence/swe-bench-leaderboards.json",
+            "sha256": "c49b31766c3b03cdc070c8e2af5f88a6b945dbdeb5049b625e17fe774032bfb1",
+            "bytes": 3832243,
+            "sourceIds": [
+                "swe-bench"
+            ],
+            "role": "extracted-source-data"
+        },
+        {
+            "path": "evidence/swe-pro-v2-charts.json",
+            "sha256": "e7211e7417f907f34515cbe2515e7d0ce5ac6b7c2da2c550e1ec0658f36dccb7",
+            "bytes": 20113,
+            "sourceIds": [
+                "swe-pro-v2-blog"
+            ],
+            "role": "extracted-source-data"
+        },
+        {
+            "path": "evidence/swe-pro-v2-variants.json",
+            "sha256": "d7491c26e66dad26651ab2cebaa3c97724eedc8027074301b057905788244e86",
+            "bytes": 9731,
+            "sourceIds": [
+                "swe-pro-v2-leaderboard"
+            ],
+            "role": "extracted-source-data"
+        },
+        {
+            "path": "evidence/swe-pro-variants.json",
+            "sha256": "4991583222d7840b337d4dcec9d38c2a9ccc998a0f5ddf1e909fc271808310de",
+            "bytes": 14959,
+            "sourceIds": [
+                "swe-pro"
+            ],
+            "role": "extracted-source-data"
+        },
+        {
+            "path": "evidence/swe-rebench-datasets.json",
+            "sha256": "3455c3e541613f7ede2059f66b8b285273fd9e299cee8e9dbb3266e5541b85da",
+            "bytes": 11741252,
+            "sourceIds": [
+                "swe-rebench"
+            ],
+            "role": "extracted-source-data"
+        },
+        {
+            "path": "evidence/swe-rebench-mapping-context.json",
+            "sourceIds": [
+                "swe-rebench"
+            ],
+            "role": "research-handoff",
+            "sha256": "df185b29c707de5df771d21fe8d90313f5c5a1301dcd21fe92373c3dc53d213e",
+            "bytes": 1210
+        },
+        {
+            "path": "methodology.md",
+            "sha256": "0b268b79bae0013b1a6904765ce3a189d62efcd5948348494fe7ae8ba9b9d95b",
+            "bytes": 24531,
+            "sourceIds": [
+                "aider",
+                "aider-notes",
+                "aider-polyglot-method",
+                "bigcodebench-full-data",
+                "bigcodebench-hard-data",
+                "bigcodebench-repository",
+                "evalplus",
+                "evalplus-data",
+                "evalplus-repository",
+                "lcb-generation-data",
+                "lcb-leaderboard",
+                "lcb-repository",
+                "livecodebench",
+                "programbench",
+                "programbench-extended",
+                "programbench-muse-max",
+                "programbench-muse-xhigh",
+                "programbench-repository",
+                "swe-bench",
+                "swe-multilingual-method",
+                "swe-pro",
+                "swe-pro-v2-blog",
+                "swe-pro-v2-leaderboard",
+                "swe-pro-v2-readme",
+                "swe-rebench",
+                "swe-rebench-dataset",
+                "swe-rebench-paper",
+                "swe-rebench-v2",
+                "swe-verified-method"
+            ],
+            "role": "research-handoff",
+            "beforeFormattingSha256": "fcccc36517d9ea1228448b673f35fffdf4e4408a6d10e1f8ef5e2b4a34212767",
+            "beforeFormattingBytes": 22913
+        },
+        {
+            "path": "report.md",
+            "sha256": "63353e866f3f4d02b340381dfb955a0c1e60cc4ce5e5335e8a865074f7a4ede4",
+            "bytes": 31228,
+            "sourceIds": [
+                "aider",
+                "aider-notes",
+                "aider-polyglot-method",
+                "bigcodebench",
+                "bigcodebench-full-data",
+                "bigcodebench-hard-data",
+                "bigcodebench-repository",
+                "evalplus",
+                "evalplus-data",
+                "evalplus-repository",
+                "lcb-generation-data",
+                "lcb-leaderboard",
+                "lcb-repository",
+                "livecodebench",
+                "programbench",
+                "programbench-extended",
+                "programbench-muse-max",
+                "programbench-muse-xhigh",
+                "programbench-repository",
+                "swe-bench",
+                "swe-multilingual-method",
+                "swe-pro",
+                "swe-pro-v2-blog",
+                "swe-pro-v2-leaderboard",
+                "swe-pro-v2-readme",
+                "swe-rebench",
+                "swe-rebench-dataset",
+                "swe-rebench-paper",
+                "swe-rebench-v2",
+                "swe-verified-method"
+            ],
+            "role": "research-handoff",
+            "beforeFormattingSha256": "4412714bc5cc78ed69c66c1cb231218db42010cb82335f2f50a9b450e58655a0",
+            "beforeFormattingBytes": 27463
+        },
+        {
+            "path": "results.json",
+            "sha256": "244e4f9b1ff04d218f7ffe72a347cde58a5466deed023c7de79c0c51b5144b76",
+            "bytes": 2611313,
+            "sourceIds": [
+                "programbench",
+                "programbench-muse-max",
+                "programbench-muse-xhigh",
+                "swe-pro-v2-blog",
+                "swe-pro-v2-leaderboard",
+                "swe-rebench"
+            ],
+            "role": "research-handoff",
+            "beforeFormattingSha256": "90621acc4f9b248b6579c1c690bd1a3bbc3826c6bf7d0e297c67f1578a36bb0b",
+            "beforeFormattingBytes": 2011429
+        },
+        {
+            "path": "scope.json",
+            "sha256": "a6d128b409ab1cc3ad728ad2530409a53037bcdf61c60b23d1beaafc96160fe1",
+            "bytes": 7518,
+            "sourceIds": [],
+            "role": "research-handoff",
+            "beforeFormattingSha256": "70543c3aa447733876b9c6dc545c26be2417df9c1853ffbb9e9aad7b894637bc",
+            "beforeFormattingBytes": 6190
+        },
+        {
+            "path": "validation.json",
+            "sha256": "c3e7b218c77ce8d0ced2520bfbe443007a24c82f74edcadad7abcd0e83aa36e2",
+            "bytes": 2347,
+            "sourceIds": [],
+            "role": "research-handoff",
+            "beforeFormattingSha256": "c4b61884cb4e667c8cfded79d3a9ba3906a385f39d7b9d713b48a38f0ae6d60e",
+            "beforeFormattingBytes": 2227
+        }
+    ]
+}

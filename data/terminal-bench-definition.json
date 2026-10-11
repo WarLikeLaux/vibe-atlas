@@ -1,0 +1,83 @@
+{
+    "version": 1,
+    "modelAliases": {
+        "Opus 5.5": "claude-opus-5-5",
+        "Sonnet 5.5": "claude-sonnet-5-5",
+        "Fable 5.1": "claude-fable-5-1",
+        "GPT-6 Astra": "gpt-6-astra",
+        "GPT-6.1 Sol": "gpt-6-1-sol",
+        "GPT-5.6 Terra": "gpt-5-6-terra",
+        "GPT-6 Luna": "gpt-6-luna",
+        "GLM-5.3": "glm-5-3",
+        "GLM-5.3-Flash": "glm-5-3-flash",
+        "Grok 4.7": "grok-4-7",
+        "Qwen3.8-Max-0902": "qwen3-8-max",
+        "Gemini 3.8 Flash": "gemini-3-8-flash",
+        "Muse Spark 1.3": "muse-spark-1-3"
+    },
+    "protocols": [
+        {
+            "id": "4.0-claude-code",
+            "agent": "Claude Code"
+        },
+        {
+            "id": "4.0-codex",
+            "agent": "Codex"
+        },
+        {
+            "id": "4.0-grok-build",
+            "agent": "Grok Build"
+        },
+        {
+            "id": "4.0-mini-swe-agent",
+            "agent": "mini-SWE-agent"
+        },
+        {
+            "id": "4.0-muse-code",
+            "agent": "Muse Code"
+        }
+    ],
+    "passport": {
+        "author": "Команда Terminal-Bench / Harbor",
+        "purpose": "Выполнение агентом задач в терминальном окружении. Оценивается связка модели, агента и среды; результат не является универсальной оценкой модели.",
+        "requirements": "Набор terminal-bench/terminal-bench 4.0.0 и Harbor. В версии 4.0 установлен единый таймаут агента 8 часов и изменены CPU, память и лимиты задач. Подтверждение соблюдения всех условий каждым запуском отдельно не выполнено.",
+        "scoring": "Поле accuracy уже дано в процентах 0–100. Дополнительные pass@2–5 — доли 0–1. Число задач и попыток на задачу для конкретных записей пока не подтверждено отдельно; n_trials сохраняется без вывода этих чисел.",
+        "reviews": [
+            {
+                "dimension": "independence",
+                "status": "supported",
+                "explanation": "Замеры публикует команда Terminal-Bench. В статье заявлены гранты OpenAI, Anthropic, Z.ai, SpaceXAI и Laude Institute; полная финансовая независимость не подтверждена. Независимый повтор конкретных запусков не проверен.",
+                "sourceUrl": "https://www.tbench.ai/news/terminal-bench-4-0",
+                "checkedAt": "2026-10-10T17:42:11.000Z"
+            },
+            {
+                "dimension": "contamination",
+                "status": "supported",
+                "explanation": "В 4.0 удалены две задачи с опубликованными решениями. Открытость остальных задач сохраняет риск пересечения с обучением; удаление известных случаев не доказывает отсутствие утечки.",
+                "sourceUrl": "https://www.tbench.ai/news/terminal-bench-4-0",
+                "checkedAt": "2026-10-10T17:42:11.000Z"
+            },
+            {
+                "dimension": "saturation",
+                "status": "supported",
+                "explanation": "Две насыщенные задачи удалены: команда использует критерий 5/5 успешных попыток у всех основных семейств последнего поколения. Это мера для конкретных задач, не доказательство отсутствия насыщения всего набора.",
+                "sourceUrl": "https://www.tbench.ai/news/terminal-bench-4-0",
+                "checkedAt": "2026-10-10T17:42:11.000Z"
+            },
+            {
+                "dimension": "reproducibility",
+                "status": "supported",
+                "explanation": "Есть открытый релиз 4.0.0 и Harbor. Таблица раскрывает effort, агента, число попыток и доверительный интервал; точные версии агентов, повтор запусков и метод расчёта интервала ещё не проверены.",
+                "sourceUrl": "https://www.tbench.ai/news/terminal-bench-4-0",
+                "checkedAt": "2026-10-10T17:42:11.000Z"
+            },
+            {
+                "dimension": "comparability",
+                "status": "supported",
+                "explanation": "Релиз 4.0 меняет ресурсы и задачи и требует нового запуска; баллы 3.0 не пересчитываются автоматически. Агентов разделяем на столбцы; effort остаётся отдельным запуском. Похожий тест в AA использует отдельный протокол.",
+                "sourceUrl": "https://www.tbench.ai/news/terminal-bench-4-0",
+                "checkedAt": "2026-10-10T17:42:11.000Z"
+            }
+        ]
+    }
+}

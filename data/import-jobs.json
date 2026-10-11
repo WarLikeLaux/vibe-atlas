@@ -1,0 +1,9 @@
+{
+    "version": 1,
+    "jobs": [
+        { "id": "artificial-analysis", "script": "scripts/import-artificial-analysis.ts" },
+        { "id": "aa-models", "script": "scripts/import-aa-models.ts" },
+        { "id": "cursor", "script": "scripts/import-cursor.ts" },
+        { "id": "terminal-bench", "script": "scripts/import-terminal-bench.ts" }
+    ]
+}

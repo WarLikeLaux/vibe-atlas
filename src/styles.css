@@ -211,6 +211,263 @@ h1 {
     border-radius: 50%;
 }
 
+.benchmarks-section {
+    padding-block: 24px 70px;
+}
+
+.benchmark-context {
+    max-width: 75ch;
+    color: var(--muted);
+    font-size: 14px;
+    margin-bottom: 12px;
+}
+
+.benchmark-date {
+    font-size: 12px;
+    margin-bottom: 28px;
+}
+
+.benchmark-table-scroll {
+    overflow-x: auto;
+    scrollbar-color: #627089 var(--surface);
+    border-block: 1px solid var(--line);
+}
+
+.table-scroll-controls {
+    display: none;
+}
+
+.overflow-controls {
+    display: flex;
+    gap: 12px;
+    margin-block: 12px;
+}
+
+.overflow-controls button {
+    min-height: 44px;
+    padding: 8px 14px;
+    border: 1px solid var(--line);
+    background: #fff;
+    color: var(--blue);
+    border-radius: 8px;
+    font-size: 12px;
+}
+
+.benchmark-table {
+    width: 100%;
+    min-width: 0;
+    border-collapse: collapse;
+    font-size: 14px;
+    font-variant-numeric: tabular-nums;
+}
+
+.benchmark-table caption {
+    text-align: left;
+    padding-block: 14px;
+    color: var(--muted);
+    font-size: 12px;
+}
+
+.benchmark-table th,
+.benchmark-table td {
+    padding: 15px 12px;
+    text-align: right;
+}
+
+.benchmark-table thead {
+    background: var(--surface);
+    font-size: 12px;
+}
+
+.benchmark-table th:first-child {
+    text-align: left;
+    width: 36%;
+}
+
+.benchmark-table tbody {
+    border-bottom: 1px solid var(--line);
+}
+
+.benchmark-table tbody > tr:last-child > td {
+    padding-top: 0;
+    text-align: left;
+}
+
+.model-name,
+.agent-name,
+.availability-note {
+    display: block;
+}
+
+.model-name {
+    font-weight: 750;
+    overflow-wrap: anywhere;
+}
+
+.agent-name,
+.availability-note {
+    margin-top: 5px;
+    font-size: 12px;
+    font-weight: 500;
+    color: var(--muted);
+}
+
+.selected-score {
+    color: var(--blue);
+    font-weight: 800;
+}
+
+summary {
+    position: relative;
+    display: block;
+    min-height: 44px;
+    padding-block: 10px;
+    padding-inline-end: 30px;
+    list-style: none;
+    cursor: pointer;
+}
+
+summary::-webkit-details-marker {
+    display: none;
+}
+
+summary::after {
+    content: '';
+    position: absolute;
+    inset-inline-end: 6px;
+    top: 50%;
+    width: 16px;
+    height: 16px;
+    background: currentcolor;
+    mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='m6 9 6 6 6-6' fill='none' stroke='black' stroke-width='1.75' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E")
+        center / contain no-repeat;
+    transform: translateY(-50%);
+    pointer-events: none;
+}
+
+:where(details[open]) > summary::after {
+    transform: translateY(-50%) rotate(180deg);
+}
+
+summary:hover {
+    color: var(--blue);
+}
+
+.run-details summary {
+    width: fit-content;
+    font-size: 12px;
+    color: var(--muted);
+}
+
+.run-details[open] {
+    padding-bottom: 15px;
+}
+
+.run-details :where(p) {
+    max-width: 75ch;
+    font-size: 13px;
+}
+
+.run-details :where(summary + p) {
+    margin-top: 16px;
+}
+
+.telemetry-list {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 16px 28px;
+    margin-block: 24px;
+}
+
+.telemetry-list dt {
+    font-size: 12px;
+    color: var(--muted);
+}
+
+.telemetry-list dd {
+    margin: 5px 0 0;
+    font-weight: 700;
+}
+
+.telemetry-list small {
+    display: block;
+    font-weight: 500;
+    color: var(--muted);
+}
+
+.run-versions {
+    font-size: 12px;
+}
+
+.run-versions :where(div + div) {
+    margin-top: 12px;
+}
+
+.run-versions dd {
+    margin: 5px 0 0;
+    color: var(--muted);
+}
+
+.benchmark-empty {
+    background: var(--surface);
+}
+
+.benchmark-methodology {
+    margin-top: 50px;
+}
+
+.benchmark-methodology h3 {
+    font-size: 24px;
+}
+
+.benchmark-passport {
+    border-top: 1px solid var(--line);
+    padding-block: 20px;
+}
+
+.benchmark-passport summary {
+    font-weight: 750;
+}
+
+.benchmark-passport :where(summary > span) {
+    display: inline-block;
+    margin-left: 20px;
+    font-size: 12px;
+    font-weight: 500;
+    color: var(--muted);
+}
+
+.benchmark-passport :where(p) {
+    font-size: 14px;
+    max-width: 75ch;
+    margin-block: 18px;
+}
+
+.review-list :where(div) {
+    padding-block: 16px;
+    border-top: 1px solid var(--line);
+}
+
+.review-list dt {
+    font-size: 14px;
+    font-weight: 750;
+}
+
+.review-list :where(dt > span) {
+    margin-left: 12px;
+    font-size: 12px;
+    font-weight: 500;
+    color: var(--muted);
+}
+
+.review-list dd {
+    margin: 8px 0 0;
+    font-size: 13px;
+    line-height: 1.7;
+    max-width: 75ch;
+    color: var(--muted);
+}
+
 .decision-note {
     background: var(--blue);
     color: #fff;
@@ -498,6 +755,372 @@ input::placeholder {
     margin-left: auto;
 }
 
+.models-section {
+    padding-bottom: 65px;
+}
+
+.models-results > summary {
+    color: var(--blue);
+    font-weight: 750;
+    padding-block: 14px;
+}
+
+.models-results[open] > summary {
+    margin-bottom: 24px;
+}
+
+.column-picker {
+    margin-top: 20px;
+    font-size: 13px;
+}
+
+.column-picker fieldset {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 4px 20px;
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    margin-top: 16px;
+    padding: 12px 18px;
+}
+
+.column-picker legend {
+    padding-inline: 8px;
+    color: var(--muted);
+    font-size: 12px;
+}
+
+.column-picker label,
+.archive-toggle {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    min-height: 44px;
+    margin-bottom: 0;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.column-picker :where(input),
+.archive-toggle :where(input) {
+    width: 18px;
+    height: 18px;
+    flex: 0 0 18px;
+    accent-color: var(--blue);
+}
+
+.show-more {
+    padding: 12px 18px;
+    min-height: 44px;
+    margin-top: 24px;
+    color: var(--blue);
+    background: #fff;
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.show-more:hover {
+    background: var(--surface);
+}
+
+.metric-unit {
+    display: block;
+    color: var(--muted);
+    font-weight: 500;
+    margin-top: 5px;
+}
+
+.comparison-tools {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.comparison-tools :where(.kind-field) {
+    width: auto;
+}
+
+.sort-context {
+    margin-top: 8px;
+    font-size: 11px;
+    color: var(--muted);
+    overflow-wrap: anywhere;
+}
+
+.comparison-tools :where(input, select) {
+    width: 100%;
+    min-width: 0;
+}
+
+.benchmark-search {
+    max-width: 440px;
+    margin-top: 16px;
+}
+
+.column-picker :where(small) {
+    display: block;
+    margin-top: 3px;
+    color: var(--muted);
+    font-weight: 500;
+}
+
+.comparison-section .overflow-controls {
+    align-items: center;
+    font-size: 12px;
+    color: var(--muted);
+}
+
+.comparison-table :where(th, td) {
+    min-width: 180px;
+    vertical-align: top;
+}
+
+.comparison-table {
+    border-collapse: separate;
+    border-spacing: 0;
+}
+
+.comparison-table :where(tbody tr:first-child > *) {
+    border-bottom: 1px solid var(--line);
+}
+
+.comparison-table th:first-child {
+    position: sticky;
+    left: 0;
+    z-index: 1;
+    width: 220px;
+    min-width: 220px;
+    max-width: 220px;
+    background: #fff;
+    border-right: 1px solid var(--line);
+    transform: translateZ(0);
+}
+
+.comparison-table thead th:first-child {
+    background: var(--surface);
+}
+
+.comparison-table tbody > tr:first-child > td {
+    padding-top: 15px;
+    text-align: right;
+}
+
+.table-sort,
+.achievement-sorts :where(button),
+.inline-action {
+    min-height: 44px;
+    border: 0;
+    padding: 4px 0;
+    background: transparent;
+    color: inherit;
+    font-weight: 700;
+    text-align: inherit;
+    cursor: pointer;
+}
+
+.table-sort:hover,
+.achievement-sorts button:hover,
+.inline-action:hover {
+    color: var(--blue);
+}
+
+.achievement-sorts {
+    display: flex;
+    gap: 16px;
+    justify-content: flex-end;
+}
+
+.achievement-sorts :where([aria-pressed='true']) {
+    color: var(--blue);
+    text-decoration: underline;
+    text-underline-offset: 4px;
+}
+
+.achievements {
+    min-width: 190px;
+    font-weight: 500;
+}
+
+.achievements > span {
+    display: block;
+    margin-top: 10px;
+    color: var(--muted);
+    font-size: 11px;
+    white-space: nowrap;
+}
+
+.medal-counts {
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+}
+
+.medal {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    min-height: 30px;
+    font-weight: 750;
+}
+
+.medal-gold {
+    color: #855900;
+}
+
+.medal-silver {
+    color: #546076;
+}
+
+.medal-bronze {
+    color: #92502c;
+}
+
+.result-cell {
+    width: 100%;
+    min-height: 74px;
+    padding: 0 2px;
+    border: 0;
+    background: transparent;
+    color: inherit;
+    font: inherit;
+    text-align: right;
+    cursor: pointer;
+}
+
+.result-cell:hover :where(strong) {
+    color: var(--blue);
+    text-decoration: underline;
+    text-underline-offset: 4px;
+}
+
+.result-cell strong {
+    font-size: 17px;
+}
+
+.cell-place,
+.cell-range,
+.missing-score {
+    display: block;
+    margin-top: 7px;
+    color: var(--muted);
+    font-size: 11px;
+    font-weight: 500;
+}
+
+.missing-score {
+    font-size: 12px;
+}
+
+.model-origin {
+    margin-top: 8px;
+    font-size: 11px;
+    font-weight: 500;
+}
+
+.model-origin :where(summary) {
+    color: var(--muted);
+}
+
+.comparison-detail {
+    width: min(740px, calc(100vw - 64px));
+    padding-block: 24px;
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--ink);
+    overflow-wrap: anywhere;
+}
+
+.comparison-detail h3 {
+    max-width: 38ch;
+    font-size: 19px;
+}
+
+.comparison-detail .show-more {
+    margin-top: 0;
+}
+
+.comparison-detail .kind-field {
+    margin-block: 24px;
+}
+
+.comparison-detail select {
+    width: 100%;
+}
+
+.run-evidence-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 24px;
+}
+
+.run-evidence-list > li {
+    padding-block: 20px;
+    border-top: 1px solid var(--line);
+}
+
+.run-evidence-heading {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.run-evidence-heading > span {
+    flex-shrink: 0;
+    font-weight: 750;
+}
+
+.run-evidence-list :where(p) {
+    margin-top: 12px;
+    max-width: 75ch;
+}
+
+.comparison-rules {
+    max-width: 75ch;
+    margin-top: 24px;
+    font-size: 13px;
+}
+
+.comparison-rules :where(p) {
+    margin-top: 16px;
+}
+
+@media (width <= 900px) {
+    .comparison-tools {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+@media (width <= 640px) {
+    .comparison-tools {
+        grid-template-columns: minmax(0, 1fr);
+    }
+
+    .comparison-table th:first-child {
+        width: 146px;
+        min-width: 146px;
+        max-width: 146px;
+    }
+
+    .comparison-section .overflow-controls {
+        flex-wrap: wrap;
+    }
+
+    .comparison-section .overflow-controls > span {
+        flex-basis: 100%;
+    }
+
+    .comparison-detail .section-heading,
+    .run-evidence-heading {
+        flex-wrap: wrap;
+    }
+}
+
+.model-methodology {
+    margin-top: 35px;
+    font-size: 14px;
+}
+
 @media (width <= 900px) {
     .wrap {
         width: calc(100% - 48px);
@@ -535,6 +1158,35 @@ input::placeholder {
 }
 
 @media (width <= 640px) {
+    .telemetry-list {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .telemetry-list dd {
+        overflow-wrap: anywhere;
+    }
+
+    .table-scroll-controls {
+        display: flex;
+        gap: 12px;
+        margin-block: 12px;
+    }
+
+    .table-scroll-controls button {
+        min-height: 44px;
+        padding: 8px 14px;
+        border: 1px solid var(--line);
+        background: #fff;
+        color: var(--blue);
+        border-radius: 8px;
+        font-size: 12px;
+    }
+
+    .benchmark-passport :where(summary > span) {
+        display: block;
+        margin: 8px 0 0 18px;
+    }
+
     .wrap {
         width: calc(100% - 36px);
     }

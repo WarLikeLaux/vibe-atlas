@@ -12,11 +12,13 @@ Benchmarks and recommendations come first. Subscription information will describ
 
 ## Current status
 
-The project has a React and TypeScript foundation, a searchable source registry, quality checks, and deployment to GitHub Pages. Benchmark imports, published findings, verified subscription details, and recommendations have not been implemented yet. The site labels registered sources as awaiting verification.
+The project has a React and TypeScript foundation, a searchable source registry, quality checks, and deployment to GitHub Pages. The first Artificial Analysis Coding Agents import contains 37 configurations and 111 component scores, checked on October 10, 2026. The site shows searchable results, run settings, benchmark passports, and explicit review status. The AA Models import adds 697 configurations, checked on the same date, with the complete source snapshot preserved. A [unified model table](docs/model-comparison.md) shows selected versions, configuration ranges, benchmark sorting, and medal counts. Ten rows are shown at a time. The editorial model set still needs a full vendor-source freshness audit. See the [model import](docs/aa-models-import.md). Remaining AA sections, verified model identity mapping, subscription details, and recommendations remain to be added. See the [import workflow](docs/artificial-analysis-import.md). The [Cursor import](docs/cursor-import.md) adds 68 CursorBench 4.0 configurations and 14 Composer-page scores, preserving versions, source precision, and vendor attribution.
 
 The interface and product documents currently use Russian. Both READMEs describe the same scope and development commands.
 
 The user's selected models form the core scope, with the latest versions of specific vendor lineages and variants added for comparison. See the [model scope](docs/model-scope.md) and [continuation context](docs/handoff.md), currently in Russian, for the agreed distinctions between models, versions, agents, and effort settings.
+
+The [official Terminal-Bench 4.0 import](docs/terminal-bench-import.md) adds 35 runs across five agent protocols. New benchmarks use a shared data pack without hand-editing the table. Every build produces a standalone `dist/vibe-atlas.html`; refresh commands and current limits are documented in the [automation guide](docs/benchmark-automation.md).
 
 ## Priorities
 
@@ -41,7 +43,7 @@ npm run check
 npm run preview
 ```
 
-`check` runs type checking, data validation, linters, formatting checks, unused-code analysis, and a production build. `preview` serves the build from `dist/`. Husky runs `check` before each commit.
+`check` runs type checking, data validation, import regression checks, linters, formatting checks, unused-code analysis, and a production build. `preview` serves the build from `dist/`. Husky runs `check` before each commit.
 
 ## Quality checks
 
@@ -77,4 +79,4 @@ Vite's base path is `/vibe-atlas/`. Section links use anchors and do not need a 
 
 To suggest a benchmark, recommendation, or correction, [open an issue](https://github.com/WarLikeLaux/vibe-atlas/issues/new) with the original URL, author or publisher, publication date when available, and the relevant agent, model, or task. Do not invent missing scores, quotas, or testimonials.
 
-Future imports will retain source snapshots, exact identifiers, and evaluation conditions. Import credentials belong in GitHub Actions Secrets. See the [data policy](docs/data-policy.md) for provenance, freshness, and affiliate-link rules.
+The first import retains source snapshots, source identifiers, and evaluation conditions. Import credentials belong in GitHub Actions Secrets. See the [data policy](docs/data-policy.md) for provenance, freshness, and affiliate-link rules.

@@ -1,0 +1,292 @@
+{
+    "checkedAt": "2026-10-11T04:28:19.604191Z",
+    "snapshotPath": "data/snapshots/slopcode/current.json",
+    "snapshotSha256": "dd6708f74834f34c271045c36ca830e798b6bd88752c003cd301f23c00b0b682",
+    "runs": [
+        {
+            "runId": "slopcode-glm-5-3-pi-xhigh-strict",
+            "scorePointer": "/aggregate/pct_checkpoints_solved",
+            "score": 12.244897959183673,
+            "sourceUrl": "https://raw.githubusercontent.com/michaelasper/benchmarks/main/data/glm-5.3-pi-xhigh-2026-08-19/result.json",
+            "sourceModelName": "openrouter/z-ai/glm-5.3",
+            "configuration": {
+                "model": "openrouter/z-ai/glm-5.3",
+                "agent": "pi",
+                "agentVersion": "0.84.2",
+                "effort": "xhigh",
+                "prompt": "just-solve",
+                "seed": 42,
+                "evaluation": "all-cases",
+                "benchmarkVersion": "SlopCodeBench v1.0",
+                "catalogueRevision": "4d38d300059667d57e43c31969bc455f5c338b52",
+                "attemptTimeoutSeconds": 7200,
+                "environment": "Python 3.12 Docker"
+            },
+            "transformations": [],
+            "label": "pi 0.84.2 · xhigh · just-solve",
+            "notes": [
+                "Точная модель openrouter/z-ai/glm-5.3, обычный GLM-5.3.",
+                "14 продолжений после неуспешной попытки, 12 evaluations без prior tests. Условия не эквивалентны чистому непрерывному прогону.",
+                "Runner revision и dirty-runtime правка неизвестны. Checkpoint records и trajectories не проверены.",
+                "Одна модель и один прогон, награды отключены. Категории токенов не складываются."
+            ],
+            "observationSourceUrl": "https://raw.githubusercontent.com/michaelasper/benchmarks/main/data/glm-5.3-pi-xhigh-2026-08-19/result.json",
+            "telemetryPointers": [
+                {
+                    "name": "Опубликованная стоимость всего запуска",
+                    "unit": "USD/run",
+                    "valuePointer": "/aggregate/costs/total",
+                    "transformations": []
+                },
+                {
+                    "name": "Полностью пройдено в данной метрике",
+                    "unit": "checkpoints",
+                    "valuePointer": "/aggregate/checkpoints_solved",
+                    "transformations": []
+                }
+            ],
+            "configurationPointers": {
+                "model": "/publishedConfiguration/model",
+                "agent": "/publishedConfiguration/agent",
+                "agentVersion": "/publishedConfiguration/agentVersion",
+                "effort": "/publishedConfiguration/effort",
+                "prompt": "/publishedConfiguration/prompt",
+                "seed": "/publishedConfiguration/seed",
+                "evaluation": "/publishedConfiguration/evaluation",
+                "benchmarkVersion": "/publishedConfiguration/benchmarkVersion",
+                "catalogueRevision": "/publishedConfiguration/catalogueRevision",
+                "attemptTimeoutSeconds": "/publishedConfiguration/attemptTimeoutSeconds",
+                "environment": "/publishedConfiguration/environment"
+            },
+            "sourceModelNamePointer": "/publishedConfiguration/model"
+        },
+        {
+            "runId": "slopcode-glm-5-3-pi-xhigh-isolated",
+            "scorePointer": "/aggregate/pct_checkpoints_iso_solved",
+            "score": 27.040816326530614,
+            "sourceUrl": "https://raw.githubusercontent.com/michaelasper/benchmarks/main/data/glm-5.3-pi-xhigh-2026-08-19/result.json",
+            "sourceModelName": "openrouter/z-ai/glm-5.3",
+            "configuration": {
+                "model": "openrouter/z-ai/glm-5.3",
+                "agent": "pi",
+                "agentVersion": "0.84.2",
+                "effort": "xhigh",
+                "prompt": "just-solve",
+                "seed": 42,
+                "evaluation": "all-cases",
+                "benchmarkVersion": "SlopCodeBench v1.0",
+                "catalogueRevision": "4d38d300059667d57e43c31969bc455f5c338b52",
+                "attemptTimeoutSeconds": 7200,
+                "environment": "Python 3.12 Docker"
+            },
+            "transformations": [],
+            "label": "pi 0.84.2 · xhigh · just-solve",
+            "notes": [
+                "Точная модель openrouter/z-ai/glm-5.3, обычный GLM-5.3.",
+                "14 продолжений после неуспешной попытки, 12 evaluations без prior tests. Условия не эквивалентны чистому непрерывному прогону.",
+                "Runner revision и dirty-runtime правка неизвестны. Checkpoint records и trajectories не проверены.",
+                "Одна модель и один прогон, награды отключены. Категории токенов не складываются."
+            ],
+            "observationSourceUrl": "https://raw.githubusercontent.com/michaelasper/benchmarks/main/data/glm-5.3-pi-xhigh-2026-08-19/result.json",
+            "telemetryPointers": [
+                {
+                    "name": "Опубликованная стоимость всего запуска",
+                    "unit": "USD/run",
+                    "valuePointer": "/aggregate/costs/total",
+                    "transformations": []
+                },
+                {
+                    "name": "Полностью пройдено в данной метрике",
+                    "unit": "checkpoints",
+                    "valuePointer": "/aggregate/checkpoints_iso_solved",
+                    "transformations": []
+                }
+            ],
+            "configurationPointers": {
+                "model": "/publishedConfiguration/model",
+                "agent": "/publishedConfiguration/agent",
+                "agentVersion": "/publishedConfiguration/agentVersion",
+                "effort": "/publishedConfiguration/effort",
+                "prompt": "/publishedConfiguration/prompt",
+                "seed": "/publishedConfiguration/seed",
+                "evaluation": "/publishedConfiguration/evaluation",
+                "benchmarkVersion": "/publishedConfiguration/benchmarkVersion",
+                "catalogueRevision": "/publishedConfiguration/catalogueRevision",
+                "attemptTimeoutSeconds": "/publishedConfiguration/attemptTimeoutSeconds",
+                "environment": "/publishedConfiguration/environment"
+            },
+            "sourceModelNamePointer": "/publishedConfiguration/model"
+        },
+        {
+            "runId": "slopcode-glm-5-3-pi-xhigh-core",
+            "scorePointer": "/aggregate/pct_checkpoints_core_solved",
+            "score": 66.3265306122449,
+            "sourceUrl": "https://raw.githubusercontent.com/michaelasper/benchmarks/main/data/glm-5.3-pi-xhigh-2026-08-19/result.json",
+            "sourceModelName": "openrouter/z-ai/glm-5.3",
+            "configuration": {
+                "model": "openrouter/z-ai/glm-5.3",
+                "agent": "pi",
+                "agentVersion": "0.84.2",
+                "effort": "xhigh",
+                "prompt": "just-solve",
+                "seed": 42,
+                "evaluation": "all-cases",
+                "benchmarkVersion": "SlopCodeBench v1.0",
+                "catalogueRevision": "4d38d300059667d57e43c31969bc455f5c338b52",
+                "attemptTimeoutSeconds": 7200,
+                "environment": "Python 3.12 Docker"
+            },
+            "transformations": [],
+            "label": "pi 0.84.2 · xhigh · just-solve",
+            "notes": [
+                "Точная модель openrouter/z-ai/glm-5.3, обычный GLM-5.3.",
+                "14 продолжений после неуспешной попытки, 12 evaluations без prior tests. Условия не эквивалентны чистому непрерывному прогону.",
+                "Runner revision и dirty-runtime правка неизвестны. Checkpoint records и trajectories не проверены.",
+                "Одна модель и один прогон, награды отключены. Категории токенов не складываются."
+            ],
+            "observationSourceUrl": "https://raw.githubusercontent.com/michaelasper/benchmarks/main/data/glm-5.3-pi-xhigh-2026-08-19/result.json",
+            "telemetryPointers": [
+                {
+                    "name": "Опубликованная стоимость всего запуска",
+                    "unit": "USD/run",
+                    "valuePointer": "/aggregate/costs/total",
+                    "transformations": []
+                },
+                {
+                    "name": "Полностью пройдено в данной метрике",
+                    "unit": "checkpoints",
+                    "valuePointer": "/aggregate/checkpoints_core_solved",
+                    "transformations": []
+                }
+            ],
+            "configurationPointers": {
+                "model": "/publishedConfiguration/model",
+                "agent": "/publishedConfiguration/agent",
+                "agentVersion": "/publishedConfiguration/agentVersion",
+                "effort": "/publishedConfiguration/effort",
+                "prompt": "/publishedConfiguration/prompt",
+                "seed": "/publishedConfiguration/seed",
+                "evaluation": "/publishedConfiguration/evaluation",
+                "benchmarkVersion": "/publishedConfiguration/benchmarkVersion",
+                "catalogueRevision": "/publishedConfiguration/catalogueRevision",
+                "attemptTimeoutSeconds": "/publishedConfiguration/attemptTimeoutSeconds",
+                "environment": "/publishedConfiguration/environment"
+            },
+            "sourceModelNamePointer": "/publishedConfiguration/model"
+        },
+        {
+            "runId": "slopcode-glm-5-3-pi-xhigh-problems",
+            "scorePointer": "/aggregate/pct_problems_solved",
+            "score": 0.0,
+            "sourceUrl": "https://raw.githubusercontent.com/michaelasper/benchmarks/main/data/glm-5.3-pi-xhigh-2026-08-19/result.json",
+            "sourceModelName": "openrouter/z-ai/glm-5.3",
+            "configuration": {
+                "model": "openrouter/z-ai/glm-5.3",
+                "agent": "pi",
+                "agentVersion": "0.84.2",
+                "effort": "xhigh",
+                "prompt": "just-solve",
+                "seed": 42,
+                "evaluation": "all-cases",
+                "benchmarkVersion": "SlopCodeBench v1.0",
+                "catalogueRevision": "4d38d300059667d57e43c31969bc455f5c338b52",
+                "attemptTimeoutSeconds": 7200,
+                "environment": "Python 3.12 Docker"
+            },
+            "transformations": [],
+            "label": "pi 0.84.2 · xhigh · just-solve",
+            "notes": [
+                "Точная модель openrouter/z-ai/glm-5.3, обычный GLM-5.3.",
+                "14 продолжений после неуспешной попытки, 12 evaluations без prior tests. Условия не эквивалентны чистому непрерывному прогону.",
+                "Runner revision и dirty-runtime правка неизвестны. Checkpoint records и trajectories не проверены.",
+                "Одна модель и один прогон, награды отключены. Категории токенов не складываются."
+            ],
+            "observationSourceUrl": "https://raw.githubusercontent.com/michaelasper/benchmarks/main/data/glm-5.3-pi-xhigh-2026-08-19/result.json",
+            "telemetryPointers": [
+                {
+                    "name": "Опубликованная стоимость всего запуска",
+                    "unit": "USD/run",
+                    "valuePointer": "/aggregate/costs/total",
+                    "transformations": []
+                },
+                {
+                    "name": "Полностью пройдено в данной метрике",
+                    "unit": "problems",
+                    "valuePointer": "/aggregate/problem_solved",
+                    "transformations": []
+                }
+            ],
+            "configurationPointers": {
+                "model": "/publishedConfiguration/model",
+                "agent": "/publishedConfiguration/agent",
+                "agentVersion": "/publishedConfiguration/agentVersion",
+                "effort": "/publishedConfiguration/effort",
+                "prompt": "/publishedConfiguration/prompt",
+                "seed": "/publishedConfiguration/seed",
+                "evaluation": "/publishedConfiguration/evaluation",
+                "benchmarkVersion": "/publishedConfiguration/benchmarkVersion",
+                "catalogueRevision": "/publishedConfiguration/catalogueRevision",
+                "attemptTimeoutSeconds": "/publishedConfiguration/attemptTimeoutSeconds",
+                "environment": "/publishedConfiguration/environment"
+            },
+            "sourceModelNamePointer": "/publishedConfiguration/model"
+        },
+        {
+            "runId": "slopcode-glm-5-3-pi-xhigh-partial",
+            "scorePointer": "/aggregate/pct_problems_partial",
+            "score": 38.88888888888889,
+            "sourceUrl": "https://raw.githubusercontent.com/michaelasper/benchmarks/main/data/glm-5.3-pi-xhigh-2026-08-19/result.json",
+            "sourceModelName": "openrouter/z-ai/glm-5.3",
+            "configuration": {
+                "model": "openrouter/z-ai/glm-5.3",
+                "agent": "pi",
+                "agentVersion": "0.84.2",
+                "effort": "xhigh",
+                "prompt": "just-solve",
+                "seed": 42,
+                "evaluation": "all-cases",
+                "benchmarkVersion": "SlopCodeBench v1.0",
+                "catalogueRevision": "4d38d300059667d57e43c31969bc455f5c338b52",
+                "attemptTimeoutSeconds": 7200,
+                "environment": "Python 3.12 Docker"
+            },
+            "transformations": [],
+            "label": "pi 0.84.2 · xhigh · just-solve",
+            "notes": [
+                "Точная модель openrouter/z-ai/glm-5.3, обычный GLM-5.3.",
+                "14 продолжений после неуспешной попытки, 12 evaluations без prior tests. Условия не эквивалентны чистому непрерывному прогону.",
+                "Runner revision и dirty-runtime правка неизвестны. Checkpoint records и trajectories не проверены.",
+                "Одна модель и один прогон, награды отключены. Категории токенов не складываются."
+            ],
+            "observationSourceUrl": "https://raw.githubusercontent.com/michaelasper/benchmarks/main/data/glm-5.3-pi-xhigh-2026-08-19/result.json",
+            "telemetryPointers": [
+                {
+                    "name": "Опубликованная стоимость всего запуска",
+                    "unit": "USD/run",
+                    "valuePointer": "/aggregate/costs/total",
+                    "transformations": []
+                },
+                {
+                    "name": "Полностью пройдено в данной метрике",
+                    "unit": "problems",
+                    "valuePointer": "/aggregate/problem_partial",
+                    "transformations": []
+                }
+            ],
+            "configurationPointers": {
+                "model": "/publishedConfiguration/model",
+                "agent": "/publishedConfiguration/agent",
+                "agentVersion": "/publishedConfiguration/agentVersion",
+                "effort": "/publishedConfiguration/effort",
+                "prompt": "/publishedConfiguration/prompt",
+                "seed": "/publishedConfiguration/seed",
+                "evaluation": "/publishedConfiguration/evaluation",
+                "benchmarkVersion": "/publishedConfiguration/benchmarkVersion",
+                "catalogueRevision": "/publishedConfiguration/catalogueRevision",
+                "attemptTimeoutSeconds": "/publishedConfiguration/attemptTimeoutSeconds",
+                "environment": "/publishedConfiguration/environment"
+            },
+            "sourceModelNamePointer": "/publishedConfiguration/model"
+        }
+    ]
+}

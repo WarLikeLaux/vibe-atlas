@@ -1,0 +1,213 @@
+{
+    "version": 1,
+    "benchmarks": [
+        {
+            "id": "cursorbench-4.0",
+            "name": "CursorBench",
+            "version": "4.0",
+            "author": "Cursor",
+            "purpose": "Работа агента над неоднозначными задачами с изменениями в нескольких файлах. Версия 4.0 добавляет длительные задачи.",
+            "requirements": "Для повторения нужны набор внутренних задач Cursor, среда агента и конфигурация оценивания. В публикации полного комплекта нет.",
+            "scoring": "Опубликованный процент корректности; выше лучше. Точная формула и знаменатель замера не раскрыты.",
+            "datasetTaskCount": null,
+            "evaluatedTaskCount": null,
+            "attemptsPerTask": null,
+            "judge": null,
+            "sourceUrl": "https://cursor.com/evals",
+            "checkedAt": "2026-10-10T16:51:41.353Z",
+            "reviews": [
+                {
+                    "dimension": "independence",
+                    "status": "supported",
+                    "explanation": "Cursor публикует свои замеры, включая собственную модель Composer. Для сторонних моделей в публичных тестах отдельно отмечена перепубликация заявленных баллов.",
+                    "sourceUrl": "https://cursor.com/composer",
+                    "checkedAt": "2026-10-10T16:51:41.353Z"
+                },
+                {
+                    "dimension": "contamination",
+                    "status": "unknown",
+                    "explanation": "Независимый аудит пересечений с обучением не выполнен. Внутреннее происхождение задач или публичность репозиториев сами по себе не доказывают отсутствие или наличие утечки.",
+                    "sourceUrl": "https://cursor.com/blog/cursorbench",
+                    "checkedAt": "2026-10-10T16:51:41.353Z"
+                },
+                {
+                    "dimension": "saturation",
+                    "status": "not-reviewed",
+                    "explanation": "Насыщение для этой версии, выборки и периода не оценено. Одного максимального балла для такого вывода недостаточно.",
+                    "sourceUrl": "https://cursor.com/evals",
+                    "checkedAt": "2026-10-10T16:51:41.353Z"
+                },
+                {
+                    "dimension": "reproducibility",
+                    "status": "unknown",
+                    "explanation": "Не раскрыт полный протокол конкретных замеров: число задач и попыток, версия агента, бюджеты и конфигурация judge. Независимый повтор не проверен.",
+                    "sourceUrl": "https://cursor.com/evals",
+                    "checkedAt": "2026-10-10T16:51:41.353Z"
+                },
+                {
+                    "dimension": "comparability",
+                    "status": "supported",
+                    "explanation": "Сравнение ограничено одной версией. CursorBench 3.1 и 4.0 имеют разные задачи; небольшие разницы могут быть шумом.",
+                    "sourceUrl": "https://cursor.com/evals",
+                    "checkedAt": "2026-10-10T16:51:41.353Z"
+                }
+            ]
+        },
+        {
+            "id": "cursorbench-3.1",
+            "name": "CursorBench",
+            "version": "3.1",
+            "author": "Cursor",
+            "purpose": "Внутренние задачи разработки; в 3.1 добавлены понимание кодовой базы, поиск ошибок, планирование и ревью.",
+            "requirements": "Нужны соответствующая версия внутренних заданий, Cursor harness и оценивание. Условия нельзя переносить с 4.0.",
+            "scoring": "Опубликованный процент корректности; выше лучше. Распределение задач отличается от 4.0.",
+            "datasetTaskCount": null,
+            "evaluatedTaskCount": null,
+            "attemptsPerTask": null,
+            "judge": null,
+            "sourceUrl": "https://cursor.com/composer",
+            "checkedAt": "2026-10-10T16:51:41.353Z",
+            "reviews": [
+                {
+                    "dimension": "independence",
+                    "status": "supported",
+                    "explanation": "Cursor публикует свои замеры, включая собственную модель Composer. Для сторонних моделей в публичных тестах отдельно отмечена перепубликация заявленных баллов.",
+                    "sourceUrl": "https://cursor.com/composer",
+                    "checkedAt": "2026-10-10T16:51:41.353Z"
+                },
+                {
+                    "dimension": "contamination",
+                    "status": "unknown",
+                    "explanation": "Независимый аудит пересечений с обучением не выполнен. Внутреннее происхождение задач или публичность репозиториев сами по себе не доказывают отсутствие или наличие утечки.",
+                    "sourceUrl": "https://cursor.com/blog/cursorbench",
+                    "checkedAt": "2026-10-10T16:51:41.353Z"
+                },
+                {
+                    "dimension": "saturation",
+                    "status": "not-reviewed",
+                    "explanation": "Насыщение для этой версии, выборки и периода не оценено. Одного максимального балла для такого вывода недостаточно.",
+                    "sourceUrl": "https://cursor.com/composer",
+                    "checkedAt": "2026-10-10T16:51:41.353Z"
+                },
+                {
+                    "dimension": "reproducibility",
+                    "status": "unknown",
+                    "explanation": "Не раскрыт полный протокол конкретных замеров: число задач и попыток, версия агента, бюджеты и конфигурация judge. Независимый повтор не проверен.",
+                    "sourceUrl": "https://cursor.com/composer",
+                    "checkedAt": "2026-10-10T16:51:41.353Z"
+                },
+                {
+                    "dimension": "comparability",
+                    "status": "supported",
+                    "explanation": "Сравнение ограничено одной версией. CursorBench 3.1 и 4.0 имеют разные задачи; небольшие разницы могут быть шумом.",
+                    "sourceUrl": "https://cursor.com/evals",
+                    "checkedAt": "2026-10-10T16:51:41.353Z"
+                }
+            ]
+        },
+        {
+            "id": "cursor-terminal-bench-2.0",
+            "name": "Terminal-Bench",
+            "version": "2.0",
+            "author": "Terminal-Bench team",
+            "purpose": "Решение задач агентом в терминальной среде.",
+            "requirements": "Нужны датасет 2.0, контейнеры задач, Harbor и точные настройки агента. Harness запусков Composer 2.5 на этой странице не указан.",
+            "scoring": "Опубликованный процент решения задач; выше лучше. 89 — размер датасета, не подтверждённый знаменатель этих запусков. Число попыток неизвестно.",
+            "datasetTaskCount": 89,
+            "evaluatedTaskCount": null,
+            "attemptsPerTask": null,
+            "judge": null,
+            "sourceUrl": "https://arxiv.org/abs/2601.11868v1",
+            "checkedAt": "2026-10-10T17:03:10.524Z",
+            "reviews": [
+                {
+                    "dimension": "independence",
+                    "status": "supported",
+                    "explanation": "Cursor публикует свои замеры, включая собственную модель Composer. Для сторонних моделей в публичных тестах отдельно отмечена перепубликация заявленных баллов.",
+                    "sourceUrl": "https://cursor.com/composer",
+                    "checkedAt": "2026-10-10T16:51:41.353Z"
+                },
+                {
+                    "dimension": "contamination",
+                    "status": "unknown",
+                    "explanation": "Независимый аудит пересечений с обучением не выполнен. Внутреннее происхождение задач или публичность репозиториев сами по себе не доказывают отсутствие или наличие утечки.",
+                    "sourceUrl": "https://cursor.com/blog/cursorbench",
+                    "checkedAt": "2026-10-10T16:51:41.353Z"
+                },
+                {
+                    "dimension": "saturation",
+                    "status": "not-reviewed",
+                    "explanation": "Насыщение для этой версии, выборки и периода не оценено. Одного максимального балла для такого вывода недостаточно.",
+                    "sourceUrl": "https://arxiv.org/abs/2601.11868v1",
+                    "checkedAt": "2026-10-10T17:03:10.524Z"
+                },
+                {
+                    "dimension": "reproducibility",
+                    "status": "unknown",
+                    "explanation": "Не раскрыт полный протокол конкретных замеров: число задач и попыток, версия агента, бюджеты и конфигурация judge. Независимый повтор не проверен.",
+                    "sourceUrl": "https://arxiv.org/abs/2601.11868v1",
+                    "checkedAt": "2026-10-10T17:03:10.524Z"
+                },
+                {
+                    "dimension": "comparability",
+                    "status": "supported",
+                    "explanation": "Авторы исправили 28 из 89 задач версии 2.0 в выпуске 2.1: изменились внешние зависимости, ресурсные ограничения и несоответствия между условиями и проверками. Эти баллы 2.0 нельзя автоматически сравнивать с 2.1 или 4.0. Условия запусков из таблицы Cursor также не раскрыты полностью.",
+                    "sourceUrl": "https://www.tbench.ai/news/terminal-bench-2-1",
+                    "checkedAt": "2026-10-10T17:03:10.524Z"
+                }
+            ]
+        },
+        {
+            "id": "cursor-swe-bench-multilingual",
+            "name": "SWE-bench Multilingual",
+            "version": null,
+            "author": "Kabir Khandpur, Kilian Lieret, Carlos E. Jimenez, Ofir Press, John Yang",
+            "purpose": "Исправление реальных задач репозиториев на нескольких языках; тестовые проверки F2P и P2P.",
+            "requirements": "Нужны датасет, контейнеры задач и SWE-bench evaluation harness. Ревизия датасета и агентные настройки этих замеров неизвестны.",
+            "scoring": "Опубликованный процент решения задач; выше лучше. 300 — размер описанного датасета, не подтверждённый знаменатель этих запусков.",
+            "datasetTaskCount": 300,
+            "evaluatedTaskCount": null,
+            "attemptsPerTask": null,
+            "judge": null,
+            "sourceUrl": "https://www.swebench.com/multilingual.html",
+            "checkedAt": "2026-10-10T16:51:41.353Z",
+            "reviews": [
+                {
+                    "dimension": "independence",
+                    "status": "supported",
+                    "explanation": "Cursor публикует свои замеры, включая собственную модель Composer. Для сторонних моделей в публичных тестах отдельно отмечена перепубликация заявленных баллов.",
+                    "sourceUrl": "https://cursor.com/composer",
+                    "checkedAt": "2026-10-10T16:51:41.353Z"
+                },
+                {
+                    "dimension": "contamination",
+                    "status": "unknown",
+                    "explanation": "Независимый аудит пересечений с обучением не выполнен. Внутреннее происхождение задач или публичность репозиториев сами по себе не доказывают отсутствие или наличие утечки.",
+                    "sourceUrl": "https://cursor.com/blog/cursorbench",
+                    "checkedAt": "2026-10-10T16:51:41.353Z"
+                },
+                {
+                    "dimension": "saturation",
+                    "status": "not-reviewed",
+                    "explanation": "Насыщение для этой версии, выборки и периода не оценено. Одного максимального балла для такого вывода недостаточно.",
+                    "sourceUrl": "https://www.swebench.com/multilingual.html",
+                    "checkedAt": "2026-10-10T16:51:41.353Z"
+                },
+                {
+                    "dimension": "reproducibility",
+                    "status": "unknown",
+                    "explanation": "Не раскрыт полный протокол конкретных замеров: число задач и попыток, версия агента, бюджеты и конфигурация judge. Независимый повтор не проверен.",
+                    "sourceUrl": "https://www.swebench.com/multilingual.html",
+                    "checkedAt": "2026-10-10T16:51:41.353Z"
+                },
+                {
+                    "dimension": "comparability",
+                    "status": "supported",
+                    "explanation": "Таблица смешивает измерения Composer и перепечатанные заявления других вендоров. Одинаковые названия тестов не подтверждают одинаковые harness и бюджеты.",
+                    "sourceUrl": "https://cursor.com/composer",
+                    "checkedAt": "2026-10-10T16:51:41.353Z"
+                }
+            ]
+        }
+    ]
+}

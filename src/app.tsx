@@ -1,5 +1,6 @@
 import { useState } from 'react'
 
+import { ComparisonSection } from './comparison-section'
 import { catalog } from './data/catalog'
 import type { Source } from './data/catalog'
 
@@ -42,6 +43,7 @@ export function App() {
                     <span>Vibe Atlas</span>
                 </a>
                 <nav aria-label="Основная навигация">
+                    <a href="#benchmarks">Бенчмарки</a>
                     <a href="#sources">Источники</a>
                     <a href="#principles">Методология</a>
                     <a href="#roadmap">План</a>
@@ -59,8 +61,8 @@ export function App() {
                             Собираем бенчмарки, рекомендации вендоров и опыт разработчиков.
                             Сравниваем агентов и модели по задачам, источникам и условиям запуска.
                         </p>
-                        <a className="primary-link" href="#sources">
-                            Посмотреть источники
+                        <a className="primary-link" href="#benchmarks">
+                            Посмотреть результаты
                         </a>
                         <p className="launch-status">
                             <span aria-hidden="true" />
@@ -90,12 +92,14 @@ export function App() {
                     </aside>
                 </section>
 
+                <ComparisonSection />
+
                 <section className="catalog-section" id="sources" aria-labelledby="sources-title">
                     <div className="wrap">
                         <div className="section-heading">
                             <div>
-                                <h2 id="sources-title">С чего начинаем</h2>
-                                <p>Реестр источников для будущего каталога.</p>
+                                <h2 id="sources-title">Источники атласа</h2>
+                                <p>Откуда взяты результаты и что ещё предстоит собрать.</p>
                             </div>
                             <a className="text-link" href={`${repository}/issues/new`}>
                                 Предложить источник
@@ -147,16 +151,31 @@ export function App() {
                                             {sourceKind(source.kind)}
                                         </span>
                                         <div className="source-status">
-                                            <span>Ожидает проверки</span>
+                                            <span>
+                                                {source.status === 'imported'
+                                                    ? 'Результаты собраны'
+                                                    : 'Ожидает проверки'}
+                                            </span>
                                             <small>
-                                                Зарегистрирован{' '}
-                                                <time dateTime={source.registeredAt}>
+                                                {source.lastCheckedAt
+                                                    ? 'Проверен '
+                                                    : 'Зарегистрирован '}
+                                                <time
+                                                    dateTime={
+                                                        source.lastCheckedAt ?? source.registeredAt
+                                                    }
+                                                >
                                                     {new Intl.DateTimeFormat('ru', {
                                                         day: 'numeric',
                                                         month: 'short',
                                                         year: 'numeric',
                                                         timeZone: 'UTC',
-                                                    }).format(new Date(source.registeredAt))}
+                                                    }).format(
+                                                        new Date(
+                                                            source.lastCheckedAt ??
+                                                                source.registeredAt,
+                                                        ),
+                                                    )}
                                                 </time>
                                             </small>
                                         </div>
@@ -179,8 +198,8 @@ export function App() {
                             </div>
                         )}
                         <p className="catalog-footnote">
-                            Дата регистрации относится к ссылке. Проверенные результаты и
-                            рекомендации появятся после сбора данных.
+                            Дата регистрации относится к ссылке. У собранных результатов указана
+                            дата успешной проверки; проверка результатов и методологии различается.
                         </p>
                     </div>
                 </section>

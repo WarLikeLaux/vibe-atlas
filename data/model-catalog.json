@@ -1,0 +1,664 @@
+{
+    "version": 1,
+    "models": [
+        {
+            "id": "gpt-6-1-sol",
+            "name": "GPT-6.1 Sol",
+            "vendor": "OpenAI",
+            "lineage": "Sol",
+            "status": "selected",
+            "sources": {
+                "aaModels": [
+                    "gpt-6-1-sol-xhigh",
+                    "gpt-6-1-sol-high",
+                    "gpt-6-1-sol-medium",
+                    "gpt-6-1-sol",
+                    "gpt-6-1-sol-low"
+                ],
+                "aaCoding": [
+                    "93acd59f31f8e5478686d650aa650f79",
+                    "ea296ce785422d3b97cfff4427f2e0d2",
+                    "4aee8aa2d4a0bad6068644f40edae235",
+                    "fa589dad83ffcdd6cce72a467e552063",
+                    "ed8c1d0b0a2fe4560bbfa0a9f47e8941"
+                ],
+                "cursorModels": []
+            },
+            "evidence": {
+                "url": "https://artificialanalysis.ai/leaderboards/models",
+                "checkedAt": "2026-10-10T15:43:08.000Z"
+            },
+            "note": "Редакционный выбор версии по изученным публикациям. Сверка актуальности всех линеек по документации вендора ещё не завершена."
+        },
+        {
+            "id": "gpt-6-luna",
+            "name": "GPT-6 Luna",
+            "vendor": "OpenAI",
+            "lineage": "Luna",
+            "status": "selected",
+            "sources": {
+                "aaModels": [
+                    "gpt-6-luna-xhigh",
+                    "gpt-6-luna-medium",
+                    "gpt-6-luna-non-reasoning",
+                    "gpt-6-luna",
+                    "gpt-6-luna-high",
+                    "gpt-6-luna-low"
+                ],
+                "aaCoding": ["ac8276cd5d15ac2daacb9956ad44c132"],
+                "cursorModels": []
+            },
+            "evidence": {
+                "url": "https://artificialanalysis.ai/leaderboards/models",
+                "checkedAt": "2026-10-10T15:43:08.000Z"
+            },
+            "note": "Редакционный выбор версии по изученным публикациям. Сверка актуальности всех линеек по документации вендора ещё не завершена."
+        },
+        {
+            "id": "gpt-6-astra",
+            "name": "GPT-6 Astra",
+            "vendor": "OpenAI",
+            "lineage": "Astra",
+            "status": "selected",
+            "sources": {
+                "aaModels": [
+                    "gpt-6-astra-xhigh",
+                    "gpt-6-astra",
+                    "gpt-6-astra-low",
+                    "gpt-6-astra-high",
+                    "gpt-6-astra-medium"
+                ],
+                "aaCoding": ["9e810ff3c6cce5ebaaff7c744c687a47"],
+                "cursorModels": []
+            },
+            "evidence": {
+                "url": "https://artificialanalysis.ai/leaderboards/models",
+                "checkedAt": "2026-10-10T15:43:08.000Z"
+            },
+            "note": "Редакционный выбор версии по изученным публикациям. Сверка актуальности всех линеек по документации вендора ещё не завершена."
+        },
+        {
+            "id": "gpt-5-6-terra",
+            "name": "GPT-5.6 Terra",
+            "vendor": "OpenAI",
+            "lineage": "Terra",
+            "status": "selected",
+            "sources": {
+                "aaModels": [
+                    "gpt-5-6-terra-medium",
+                    "gpt-5-6-terra-high",
+                    "gpt-5-6-terra-non-reasoning",
+                    "gpt-5-6-terra-xhigh",
+                    "gpt-5-6-terra",
+                    "gpt-5-6-terra-low"
+                ],
+                "aaCoding": [],
+                "cursorModels": ["GPT-5.6 Terra"]
+            },
+            "evidence": {
+                "url": "https://artificialanalysis.ai/leaderboards/models",
+                "checkedAt": "2026-10-10T15:43:08.000Z"
+            },
+            "note": "Редакционный выбор версии по изученным публикациям. Сверка актуальности всех линеек по документации вендора ещё не завершена."
+        },
+        {
+            "id": "claude-opus-5-5",
+            "name": "Claude Opus 5.5",
+            "vendor": "Anthropic",
+            "lineage": "Opus",
+            "status": "selected",
+            "sources": {
+                "aaModels": [
+                    "claude-opus-5-5",
+                    "claude-opus-5-5-low",
+                    "claude-opus-5-5-xhigh",
+                    "claude-opus-5-5-medium",
+                    "claude-opus-5-5-high"
+                ],
+                "aaCoding": ["ab5074e404be48bbd4ac3c488ad9a3e2"],
+                "cursorModels": ["Opus 5.5"]
+            },
+            "evidence": {
+                "url": "https://artificialanalysis.ai/leaderboards/models",
+                "checkedAt": "2026-10-10T15:43:08.000Z"
+            },
+            "note": "Редакционный выбор версии по изученным публикациям. Сверка актуальности всех линеек по документации вендора ещё не завершена."
+        },
+        {
+            "id": "claude-sonnet-5-5",
+            "name": "Claude Sonnet 5.5",
+            "vendor": "Anthropic",
+            "lineage": "Sonnet",
+            "status": "selected",
+            "sources": {
+                "aaModels": [
+                    "claude-sonnet-5-5-medium",
+                    "claude-sonnet-5-5-high",
+                    "claude-sonnet-5-5-xhigh",
+                    "claude-sonnet-5-5",
+                    "claude-sonnet-5-5-low"
+                ],
+                "aaCoding": [
+                    "33e80f383dc644527161435b076798ad",
+                    "666605c66ad569c503ce53c01682e285",
+                    "a2c87c062f3cef73d8525e7578f14742",
+                    "e9f9d3ae5b03aa060114dd4b3275d67d",
+                    "4d6aa9e9c8df931d54dba5956d94973c"
+                ],
+                "cursorModels": ["Sonnet 5.5"]
+            },
+            "evidence": {
+                "url": "https://artificialanalysis.ai/leaderboards/models",
+                "checkedAt": "2026-10-10T15:43:08.000Z"
+            },
+            "note": "Редакционный выбор версии по изученным публикациям. Сверка актуальности всех линеек по документации вендора ещё не завершена."
+        },
+        {
+            "id": "claude-haiku-5-5",
+            "name": "Claude Haiku 5.5",
+            "vendor": "Anthropic",
+            "lineage": "Haiku",
+            "status": "selected",
+            "sources": {
+                "aaModels": [
+                    "claude-haiku-5-5-high",
+                    "claude-haiku-5-5-xhigh",
+                    "claude-haiku-5-5-low",
+                    "claude-haiku-5-5",
+                    "claude-haiku-5-5-medium"
+                ],
+                "aaCoding": [
+                    "da2f03dcda6604f53d83189400698b0a",
+                    "e52072ed5528ec319d2f8030a2cf63a2",
+                    "430db5363624407d35b63d80ec863ab6",
+                    "69061178d1f87a145d332b38f566b7d0",
+                    "b4a228ec941f485bc4e96489bb773dea"
+                ],
+                "cursorModels": ["Haiku 5.5"]
+            },
+            "evidence": {
+                "url": "https://artificialanalysis.ai/leaderboards/models",
+                "checkedAt": "2026-10-10T15:43:08.000Z"
+            },
+            "note": "Редакционный выбор версии по изученным публикациям. Сверка актуальности всех линеек по документации вендора ещё не завершена."
+        },
+        {
+            "id": "claude-fable-5-1",
+            "name": "Claude Fable 5.1",
+            "vendor": "Anthropic",
+            "lineage": "Fable",
+            "status": "selected",
+            "sources": {
+                "aaModels": [
+                    "claude-fable-5-1-low",
+                    "claude-fable-5-1-medium",
+                    "claude-fable-5-1",
+                    "claude-fable-5-1-xhigh",
+                    "claude-fable-5-1-high"
+                ],
+                "aaCoding": ["29a1cdad0d140781d05b9b4746cfdd0d"],
+                "cursorModels": ["Fable 5.1"]
+            },
+            "evidence": {
+                "url": "https://artificialanalysis.ai/leaderboards/models",
+                "checkedAt": "2026-10-10T15:43:08.000Z"
+            },
+            "note": "Редакционный выбор версии по изученным публикациям. Сверка актуальности всех линеек по документации вендора ещё не завершена."
+        },
+        {
+            "id": "glm-5-3",
+            "name": "GLM-5.3",
+            "vendor": "Z AI",
+            "lineage": "GLM",
+            "status": "selected",
+            "sources": {
+                "aaModels": ["glm-5-3-low", "glm-5-3"],
+                "aaCoding": ["45493c2782f1bd94f6d30d4911f317a0"],
+                "cursorModels": ["GLM 5.3"]
+            },
+            "evidence": {
+                "url": "https://artificialanalysis.ai/leaderboards/models",
+                "checkedAt": "2026-10-10T15:43:08.000Z"
+            },
+            "note": "Редакционный выбор версии по изученным публикациям. Сверка актуальности всех линеек по документации вендора ещё не завершена."
+        },
+        {
+            "id": "glm-5-3-flash",
+            "name": "GLM-5.3-Flash",
+            "vendor": "Z AI",
+            "lineage": "GLM Flash",
+            "status": "selected",
+            "sources": {
+                "aaModels": ["glm-5-3-flash"],
+                "aaCoding": [],
+                "cursorModels": ["GLM 5.3 Flash"]
+            },
+            "evidence": {
+                "url": "https://artificialanalysis.ai/leaderboards/models",
+                "checkedAt": "2026-10-10T15:43:08.000Z"
+            },
+            "note": "Редакционный выбор версии по изученным публикациям. Сверка актуальности всех линеек по документации вендора ещё не завершена."
+        },
+        {
+            "id": "composer-2-5",
+            "name": "Composer 2.5",
+            "vendor": "Cursor",
+            "lineage": "Composer",
+            "status": "selected",
+            "sources": {
+                "aaModels": [],
+                "aaCoding": [],
+                "cursorModels": ["Composer 2.5"]
+            },
+            "evidence": {
+                "url": "https://cursor.com/composer",
+                "checkedAt": "2026-10-10T16:58:33.361Z"
+            },
+            "note": "Редакционный выбор версии по изученным публикациям. Сверка актуальности всех линеек по документации вендора ещё не завершена."
+        },
+        {
+            "id": "grok-4-7",
+            "name": "Grok 4.7",
+            "vendor": "SpaceXAI",
+            "lineage": "Grok",
+            "status": "selected",
+            "sources": {
+                "aaModels": ["grok-4-7-low", "grok-4-7-high", "grok-4-7"],
+                "aaCoding": ["f927d9c41b5c3021996eb14c3dd1341e"],
+                "cursorModels": ["Grok 4.7"]
+            },
+            "evidence": {
+                "url": "https://artificialanalysis.ai/leaderboards/models",
+                "checkedAt": "2026-10-10T15:43:08.000Z"
+            },
+            "note": "Редакционный выбор версии по изученным публикациям. Сверка актуальности всех линеек по документации вендора ещё не завершена."
+        },
+        {
+            "id": "gemini-3-8-flash",
+            "name": "Gemini 3.8 Flash",
+            "vendor": "Google",
+            "lineage": "Gemini Flash",
+            "status": "selected",
+            "sources": {
+                "aaModels": ["gemini-3-8-flash-medium", "gemini-3-8-flash", "gemini-3-8-flash-low"],
+                "aaCoding": ["d1003684d8f29b95a3b14d2a7722221a"],
+                "cursorModels": ["Gemini 3.8 Flash"]
+            },
+            "evidence": {
+                "url": "https://artificialanalysis.ai/leaderboards/models",
+                "checkedAt": "2026-10-10T15:43:08.000Z"
+            },
+            "note": "Редакционный выбор версии по изученным публикациям. Сверка актуальности всех линеек по документации вендора ещё не завершена."
+        },
+        {
+            "id": "gemini-4-argon",
+            "name": "Gemini 4 Argon",
+            "vendor": "Google",
+            "lineage": "Gemini Argon",
+            "status": "selected",
+            "sources": {
+                "aaModels": ["gemini-4-argon"],
+                "aaCoding": ["ef63fafa9b4a635522183c879ae8435b"],
+                "cursorModels": []
+            },
+            "evidence": {
+                "url": "https://artificialanalysis.ai/leaderboards/models",
+                "checkedAt": "2026-10-10T15:43:08.000Z"
+            },
+            "note": "Редакционный выбор версии по изученным публикациям. Сверка актуальности всех линеек по документации вендора ещё не завершена."
+        },
+        {
+            "id": "gemini-3-5-flash-lite",
+            "name": "Gemini 3.5 Flash-Lite",
+            "vendor": "Google",
+            "lineage": "Gemini Flash-Lite",
+            "status": "selected",
+            "sources": {
+                "aaModels": ["gemini-3-5-flash-lite"],
+                "aaCoding": [],
+                "cursorModels": []
+            },
+            "evidence": {
+                "url": "https://artificialanalysis.ai/leaderboards/models",
+                "checkedAt": "2026-10-10T15:43:08.000Z"
+            },
+            "note": "Редакционный выбор версии по изученным публикациям. Сверка актуальности всех линеек по документации вендора ещё не завершена."
+        },
+        {
+            "id": "gemini-3-1-pro-preview",
+            "name": "Gemini 3.1 Pro Preview",
+            "vendor": "Google",
+            "lineage": "Gemini Pro",
+            "status": "selected",
+            "sources": {
+                "aaModels": ["gemini-3-1-pro-preview"],
+                "aaCoding": [],
+                "cursorModels": []
+            },
+            "evidence": {
+                "url": "https://artificialanalysis.ai/leaderboards/models",
+                "checkedAt": "2026-10-10T15:43:08.000Z"
+            },
+            "note": "Редакционный выбор версии по изученным публикациям. Сверка актуальности всех линеек по документации вендора ещё не завершена."
+        },
+        {
+            "id": "gemini-3-deep-think",
+            "name": "Gemini 3 Deep Think",
+            "vendor": "Google",
+            "lineage": "Gemini Deep Think",
+            "status": "selected",
+            "sources": {
+                "aaModels": ["gemini-3-deep-think"],
+                "aaCoding": [],
+                "cursorModels": []
+            },
+            "evidence": {
+                "url": "https://artificialanalysis.ai/leaderboards/models",
+                "checkedAt": "2026-10-10T15:43:08.000Z"
+            },
+            "note": "Редакционный выбор версии по изученным публикациям. Сверка актуальности всех линеек по документации вендора ещё не завершена."
+        },
+        {
+            "id": "minimax-m3",
+            "name": "MiniMax-M3",
+            "vendor": "MiniMax",
+            "lineage": "MiniMax M",
+            "status": "selected",
+            "sources": {
+                "aaModels": ["minimax-m3"],
+                "aaCoding": [],
+                "cursorModels": []
+            },
+            "evidence": {
+                "url": "https://artificialanalysis.ai/leaderboards/models",
+                "checkedAt": "2026-10-10T15:43:08.000Z"
+            },
+            "note": "Редакционный выбор версии по изученным публикациям. Сверка актуальности всех линеек по документации вендора ещё не завершена."
+        },
+        {
+            "id": "muse-spark-1-3",
+            "name": "Muse Spark 1.3",
+            "vendor": "Meta",
+            "lineage": "Muse Spark",
+            "status": "selected",
+            "sources": {
+                "aaModels": ["muse-spark-1-3", "muse-spark-1-3-xhigh"],
+                "aaCoding": [
+                    "cd60470c35fd626a116af80fd5915dfa",
+                    "f2de07373c3626f1b9269a6ecad7804c"
+                ],
+                "cursorModels": ["Muse Spark 1.3"]
+            },
+            "evidence": {
+                "url": "https://artificialanalysis.ai/leaderboards/models",
+                "checkedAt": "2026-10-10T15:43:08.000Z"
+            },
+            "note": "Редакционный выбор версии по изученным публикациям. Сверка актуальности всех линеек по документации вендора ещё не завершена."
+        },
+        {
+            "id": "muse-glimmer",
+            "name": "Muse Glimmer",
+            "vendor": "Meta",
+            "lineage": "Muse Glimmer",
+            "status": "selected",
+            "sources": {
+                "aaModels": ["muse-glimmer"],
+                "aaCoding": [],
+                "cursorModels": []
+            },
+            "evidence": {
+                "url": "https://artificialanalysis.ai/leaderboards/models",
+                "checkedAt": "2026-10-10T15:43:08.000Z"
+            },
+            "note": "Редакционный выбор версии по изученным публикациям. Сверка актуальности всех линеек по документации вендора ещё не завершена."
+        },
+        {
+            "id": "qwen3-8-max",
+            "name": "Qwen3.8 Max (0902)",
+            "vendor": "Alibaba",
+            "lineage": "Qwen Max",
+            "status": "selected",
+            "sources": {
+                "aaModels": ["qwen3-8-max"],
+                "aaCoding": ["cd4c865dc2f539b650d741fd2ebf7f2d"],
+                "cursorModels": []
+            },
+            "evidence": {
+                "url": "https://artificialanalysis.ai/leaderboards/models",
+                "checkedAt": "2026-10-10T15:43:08.000Z"
+            },
+            "note": "Редакционный выбор версии по изученным публикациям. Сверка актуальности всех линеек по документации вендора ещё не завершена."
+        },
+        {
+            "id": "qwen3-8-flash-next",
+            "name": "Qwen3.8-Flash-Next",
+            "vendor": "Alibaba",
+            "lineage": "Qwen Flash Next",
+            "status": "selected",
+            "sources": {
+                "aaModels": ["qwen3-8-flash-next"],
+                "aaCoding": [],
+                "cursorModels": []
+            },
+            "evidence": {
+                "url": "https://artificialanalysis.ai/leaderboards/models",
+                "checkedAt": "2026-10-10T15:43:08.000Z"
+            },
+            "note": "Редакционный выбор версии по изученным публикациям. Сверка актуальности всех линеек по документации вендора ещё не завершена."
+        },
+        {
+            "id": "qwen3-7-plus",
+            "name": "Qwen3.7 Plus",
+            "vendor": "Alibaba",
+            "lineage": "Qwen Plus",
+            "status": "selected",
+            "sources": {
+                "aaModels": ["qwen3-7-plus"],
+                "aaCoding": [],
+                "cursorModels": []
+            },
+            "evidence": {
+                "url": "https://artificialanalysis.ai/leaderboards/models",
+                "checkedAt": "2026-10-10T15:43:08.000Z"
+            },
+            "note": "Редакционный выбор версии по изученным публикациям. Сверка актуальности всех линеек по документации вендора ещё не завершена."
+        },
+        {
+            "id": "qwen3-coder-next",
+            "name": "Qwen3 Coder Next",
+            "vendor": "Alibaba",
+            "lineage": "Qwen Coder Next",
+            "status": "selected",
+            "sources": {
+                "aaModels": ["qwen3-coder-next"],
+                "aaCoding": [],
+                "cursorModels": []
+            },
+            "evidence": {
+                "url": "https://artificialanalysis.ai/leaderboards/models",
+                "checkedAt": "2026-10-10T15:43:08.000Z"
+            },
+            "note": "Редакционный выбор версии по изученным публикациям. Сверка актуальности всех линеек по документации вендора ещё не завершена."
+        },
+        {
+            "id": "qwen3-8-27b",
+            "name": "Qwen3.8 27B",
+            "vendor": "Alibaba",
+            "lineage": "Qwen 27B",
+            "status": "selected",
+            "sources": {
+                "aaModels": [
+                    "qwen3-8-27b-non-reasoning",
+                    "qwen3-8-27b-medium",
+                    "qwen3-8-27b-low",
+                    "qwen3-8-27b"
+                ],
+                "aaCoding": [],
+                "cursorModels": []
+            },
+            "evidence": {
+                "url": "https://artificialanalysis.ai/leaderboards/models",
+                "checkedAt": "2026-10-10T15:43:08.000Z"
+            },
+            "note": "Редакционный выбор версии по изученным публикациям. Сверка актуальности всех линеек по документации вендора ещё не завершена."
+        },
+        {
+            "id": "qwen3-8-2-4t-a95b",
+            "name": "Qwen3.8 2.4T A95B",
+            "vendor": "Alibaba",
+            "lineage": "Qwen 2.4T A95B",
+            "status": "selected",
+            "sources": {
+                "aaModels": ["qwen3-8-2-4t-a95b"],
+                "aaCoding": [],
+                "cursorModels": []
+            },
+            "evidence": {
+                "url": "https://artificialanalysis.ai/leaderboards/models",
+                "checkedAt": "2026-10-10T15:43:08.000Z"
+            },
+            "note": "Редакционный выбор версии по изученным публикациям. Сверка актуальности всех линеек по документации вендора ещё не завершена."
+        },
+        {
+            "id": "deepseek-v4-1-flash",
+            "name": "DeepSeek V4.1 Flash",
+            "vendor": "DeepSeek",
+            "lineage": "DeepSeek Flash",
+            "status": "selected",
+            "sources": {
+                "aaModels": ["deepseek-v4-1-flash-non-reasoning", "deepseek-v4-1-flash"],
+                "aaCoding": [],
+                "cursorModels": []
+            },
+            "evidence": {
+                "url": "https://artificialanalysis.ai/leaderboards/models",
+                "checkedAt": "2026-10-10T15:43:08.000Z"
+            },
+            "note": "Редакционный выбор версии по изученным публикациям. Сверка актуальности всех линеек по документации вендора ещё не завершена."
+        },
+        {
+            "id": "deepseek-v4-pro",
+            "name": "DeepSeek V4 Pro 0813",
+            "vendor": "DeepSeek",
+            "lineage": "DeepSeek Pro",
+            "status": "selected",
+            "sources": {
+                "aaModels": ["deepseek-v4-pro", "deepseek-v4-pro-non-reasoning"],
+                "aaCoding": ["542590ecc1aa12a718d158565d464daa"],
+                "cursorModels": []
+            },
+            "evidence": {
+                "url": "https://artificialanalysis.ai/leaderboards/models",
+                "checkedAt": "2026-10-10T15:43:08.000Z"
+            },
+            "note": "Редакционный выбор версии по изученным публикациям. Сверка актуальности всех линеек по документации вендора ещё не завершена."
+        },
+        {
+            "id": "deepseek-v4-flash-vision",
+            "name": "DeepSeek V4 Flash Vision",
+            "vendor": "DeepSeek",
+            "lineage": "DeepSeek Flash Vision",
+            "status": "selected",
+            "sources": {
+                "aaModels": ["deepseek-v4-flash-vision"],
+                "aaCoding": [],
+                "cursorModels": []
+            },
+            "evidence": {
+                "url": "https://artificialanalysis.ai/leaderboards/models",
+                "checkedAt": "2026-10-10T15:43:08.000Z"
+            },
+            "note": "Редакционный выбор версии по изученным публикациям. Сверка актуальности всех линеек по документации вендора ещё не завершена."
+        },
+        {
+            "id": "kimi-k3",
+            "name": "Kimi K3",
+            "vendor": "Kimi",
+            "lineage": "Kimi K",
+            "status": "selected",
+            "sources": {
+                "aaModels": ["kimi-k3-low", "kimi-k3"],
+                "aaCoding": ["55b029d6971b4d378335bb168eb98b3b"],
+                "cursorModels": []
+            },
+            "evidence": {
+                "url": "https://artificialanalysis.ai/leaderboards/models",
+                "checkedAt": "2026-10-10T15:43:08.000Z"
+            },
+            "note": "Редакционный выбор версии по изученным публикациям. Сверка актуальности всех линеек по документации вендора ещё не завершена."
+        },
+        {
+            "id": "kimi-k2-7-code",
+            "name": "Kimi K2.7 Code",
+            "vendor": "Kimi",
+            "lineage": "Kimi Code",
+            "status": "selected",
+            "sources": {
+                "aaModels": ["kimi-k2-7-code"],
+                "aaCoding": [],
+                "cursorModels": []
+            },
+            "evidence": {
+                "url": "https://artificialanalysis.ai/leaderboards/models",
+                "checkedAt": "2026-10-10T15:43:08.000Z"
+            },
+            "note": "Редакционный выбор версии по изученным публикациям. Сверка актуальности всех линеек по документации вендора ещё не завершена."
+        },
+        {
+            "id": "step-5",
+            "name": "Step 5 Preview",
+            "vendor": "StepFun",
+            "lineage": "Step",
+            "status": "selected",
+            "sources": {
+                "aaModels": ["step-5"],
+                "aaCoding": ["af5216a16f1d1e725b798b216da90479"],
+                "cursorModels": []
+            },
+            "evidence": {
+                "url": "https://artificialanalysis.ai/leaderboards/models",
+                "checkedAt": "2026-10-10T15:43:08.000Z"
+            },
+            "note": "Редакционный выбор версии по изученным публикациям. Сверка актуальности всех линеек по документации вендора ещё не завершена."
+        },
+        {
+            "id": "gpt-6-1-luna-requested",
+            "name": "GPT-6.1 Luna",
+            "vendor": "OpenAI",
+            "lineage": "Luna — запрошенная версия",
+            "status": "requested-unconfirmed",
+            "sources": {
+                "aaModels": [],
+                "aaCoding": [],
+                "cursorModels": []
+            },
+            "note": "Запрошено пользователем. В импортированных измерениях точная версия не найдена; существование и актуальность требуют подтверждения первоисточником."
+        },
+        {
+            "id": "minimax-m3-1-flash-preview-requested",
+            "name": "MiniMax-M3.1-Flash-Preview",
+            "vendor": "MiniMax",
+            "lineage": "MiniMax M Flash Preview",
+            "status": "requested-unconfirmed",
+            "sources": {
+                "aaModels": [],
+                "aaCoding": [],
+                "cursorModels": []
+            },
+            "note": "Запрошено пользователем. В импортированных измерениях точная версия не найдена; существование и актуальность требуют подтверждения первоисточником."
+        },
+        {
+            "id": "muse-spark-1-3-contributor-requested",
+            "name": "Muse Spark 1.3 Contributor",
+            "vendor": "Meta",
+            "lineage": "Muse Spark Contributor",
+            "status": "requested-unconfirmed",
+            "sources": {
+                "aaModels": [],
+                "aaCoding": [],
+                "cursorModels": []
+            },
+            "note": "Запрошено пользователем. В импортированных измерениях точная версия не найдена; существование и актуальность требуют подтверждения первоисточником."
+        }
+    ]
+}

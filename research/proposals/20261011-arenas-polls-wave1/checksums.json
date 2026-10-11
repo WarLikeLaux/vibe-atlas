@@ -1,0 +1,31 @@
+{
+    "schema_version": 1,
+    "algorithm": "SHA-256",
+    "files": [
+        {
+            "file": "arena-webdev.json",
+            "sha256": "9405b38898fff6f8ab74b8b6c9306a793f37224ab2f0b01a0d994efe958e852f",
+            "rows": 142
+        },
+        {
+            "file": "arena-coding.json",
+            "sha256": "7ce9964aa77dd3eac5f35dadb87c413845cd5bfea67292f8942a42f3a0111509",
+            "rows": 409
+        },
+        {
+            "file": "arena-image-to-webdev.json",
+            "sha256": "7f71ce70a27dd04ba647411160c2dce5ba1b1bc25872e8521a599422385c9d85",
+            "rows": 64
+        },
+        {
+            "file": "arena-fullstack.json",
+            "sha256": "cd13776531d3617bff24f74ede35bdda7e7c109fd296464d823df0a3d5c1bf98",
+            "rows": 78
+        },
+        {
+            "file": "poll-stackoverflow-coding-agents.json",
+            "sha256": "4fcf5ccfeaa0837b8a95dd2202ec666bd26df0ce8c48d0f9e894ddb1ef589c1f",
+            "rows": 33
+        }
+    ]
+}

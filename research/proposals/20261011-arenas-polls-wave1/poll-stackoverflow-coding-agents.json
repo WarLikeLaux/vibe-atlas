@@ -1,0 +1,185 @@
+{
+  "schema_version": 1,
+  "status": "source-verified",
+  "source_url": "https://survey.stackoverflow.co/2026/ai/data",
+  "methodology_url": "https://survey.stackoverflow.co/2026/methodology",
+  "checked_at": "2026-10-10T18:49:34Z",
+  "published_at": null,
+  "fielding_start": "2026-06-23",
+  "fielding_end": "2026-08-05",
+  "question_paraphrase_ru": "Какие coding agents или assistants использовали за последний год и какие хотите использовать в следующие шесть месяцев?",
+  "selection": "Used",
+  "respondents": 12255,
+  "unit": "respondents and published percent",
+  "multi_response": true,
+  "model_versions": null,
+  "licence": "ODbL 1.0",
+  "attribution": "Stack Exchange Inc. (2026), Stack Overflow Developer Survey 2026",
+  "rows": [
+    {
+      "option": "Claude Code",
+      "respondents_raw": "8,030",
+      "percent_raw": "65.5%"
+    },
+    {
+      "option": "GitHub Copilot",
+      "respondents_raw": "7,196",
+      "percent_raw": "58.7%"
+    },
+    {
+      "option": "OpenAI Codex",
+      "respondents_raw": "3,620",
+      "percent_raw": "29.5%"
+    },
+    {
+      "option": "Cursor",
+      "respondents_raw": "3,127",
+      "percent_raw": "25.5%"
+    },
+    {
+      "option": "Google Antigravity",
+      "respondents_raw": "1,956",
+      "percent_raw": "16.0%"
+    },
+    {
+      "option": "Gemini Code Assist",
+      "respondents_raw": "1,789",
+      "percent_raw": "14.6%"
+    },
+    {
+      "option": "Open Code",
+      "respondents_raw": "1,662",
+      "percent_raw": "13.6%"
+    },
+    {
+      "option": "JetBrains AI",
+      "respondents_raw": "1,569",
+      "percent_raw": "12.8%"
+    },
+    {
+      "option": "Windsurf",
+      "respondents_raw": "796",
+      "percent_raw": "6.5%"
+    },
+    {
+      "option": "Warp",
+      "respondents_raw": "641",
+      "percent_raw": "5.2%"
+    },
+    {
+      "option": "Cline",
+      "respondents_raw": "551",
+      "percent_raw": "4.5%"
+    },
+    {
+      "option": "Pi",
+      "respondents_raw": "535",
+      "percent_raw": "4.4%"
+    },
+    {
+      "option": "Amazon Q Developer",
+      "respondents_raw": "476",
+      "percent_raw": "3.9%"
+    },
+    {
+      "option": "Continue",
+      "respondents_raw": "466",
+      "percent_raw": "3.8%"
+    },
+    {
+      "option": "Mistral Vibe",
+      "respondents_raw": "393",
+      "percent_raw": "3.2%"
+    },
+    {
+      "option": "Kilo Code",
+      "respondents_raw": "392",
+      "percent_raw": "3.2%"
+    },
+    {
+      "option": "Devin",
+      "respondents_raw": "360",
+      "percent_raw": "2.9%"
+    },
+    {
+      "option": "Google Jules",
+      "respondents_raw": "307",
+      "percent_raw": "2.5%"
+    },
+    {
+      "option": "Replit Agent",
+      "respondents_raw": "285",
+      "percent_raw": "2.3%"
+    },
+    {
+      "option": "Tabnine",
+      "respondents_raw": "257",
+      "percent_raw": "2.1%"
+    },
+    {
+      "option": "Aider",
+      "respondents_raw": "256",
+      "percent_raw": "2.1%"
+    },
+    {
+      "option": "Codium (Qodo)",
+      "respondents_raw": "206",
+      "percent_raw": "1.7%"
+    },
+    {
+      "option": "BLACKBOX AI",
+      "respondents_raw": "202",
+      "percent_raw": "1.6%"
+    },
+    {
+      "option": "Supermaven",
+      "respondents_raw": "158",
+      "percent_raw": "1.3%"
+    },
+    {
+      "option": "Trae",
+      "respondents_raw": "154",
+      "percent_raw": "1.3%"
+    },
+    {
+      "option": "Augment Code",
+      "respondents_raw": "145",
+      "percent_raw": "1.2%"
+    },
+    {
+      "option": "Sourcegraph Cody",
+      "respondents_raw": "114",
+      "percent_raw": "0.9%"
+    },
+    {
+      "option": "Emdash",
+      "respondents_raw": "85",
+      "percent_raw": "0.7%"
+    },
+    {
+      "option": "Approxima",
+      "respondents_raw": "69",
+      "percent_raw": "0.6%"
+    },
+    {
+      "option": "ECA",
+      "respondents_raw": "68",
+      "percent_raw": "0.6%"
+    },
+    {
+      "option": "Sweep",
+      "respondents_raw": "68",
+      "percent_raw": "0.6%"
+    },
+    {
+      "option": "Kavia AI",
+      "respondents_raw": "63",
+      "percent_raw": "0.5%"
+    },
+    {
+      "option": "Syntropy",
+      "respondents_raw": "63",
+      "percent_raw": "0.5%"
+    }
+  ]
+}

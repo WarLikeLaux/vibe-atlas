@@ -1,0 +1,158 @@
+{
+    "version": 1,
+    "benchmarks": [
+        {
+            "id": "deep-swe-v1.1",
+            "name": "DeepSWE",
+            "version": "1.1",
+            "author": "Datacurve",
+            "evaluator": "Artificial Analysis",
+            "sourceUrl": "https://artificialanalysis.ai/methodology/coding-agents-benchmarking",
+            "checkedAt": "2026-10-10T14:53:23.000Z",
+            "taskCount": 113,
+            "attemptsPerTask": 3,
+            "purpose": "Изменения и исправления в репозиториях.",
+            "requirements": "Среда выполнения и отдельный верификатор. Интернет ограничен API моделей.",
+            "scoring": "Проверка патча; pass@1.",
+            "reviews": [
+                {
+                    "dimension": "independence",
+                    "status": "unknown",
+                    "explanation": "Замер проводит Artificial Analysis. Финансирование и связи участников этой серии отдельно не проверены.",
+                    "sourceUrl": "https://artificialanalysis.ai/methodology/coding-agents-benchmarking",
+                    "checkedAt": "2026-10-10T14:53:23.000Z"
+                },
+                {
+                    "dimension": "contamination",
+                    "status": "not-reviewed",
+                    "explanation": "Проверка попадания заданий в обучающие данные моделей ещё не выполнена. Открытые задания сами по себе не доказывают утечку.",
+                    "sourceUrl": "https://artificialanalysis.ai/methodology/coding-agents-benchmarking",
+                    "checkedAt": "2026-10-10T14:53:23.000Z"
+                },
+                {
+                    "dimension": "saturation",
+                    "status": "not-reviewed",
+                    "explanation": "Нужен анализ распределения результатов и неопределённости для конкретной версии и группы участников.",
+                    "sourceUrl": "https://artificialanalysis.ai/methodology/coding-agents-benchmarking",
+                    "checkedAt": "2026-10-10T14:53:23.000Z"
+                },
+                {
+                    "dimension": "reproducibility",
+                    "status": "unknown",
+                    "explanation": "Методология опубликована; независимое воспроизведение этих замеров пока не проверено.",
+                    "sourceUrl": "https://artificialanalysis.ai/methodology/coding-agents-benchmarking",
+                    "checkedAt": "2026-10-10T14:53:23.000Z"
+                },
+                {
+                    "dimension": "comparability",
+                    "status": "supported",
+                    "explanation": "Сравниваются связки агента, модели и настроек. Различия effort, версий и ресурсов нужно учитывать при выборе.",
+                    "sourceUrl": "https://artificialanalysis.ai/methodology/coding-agents-benchmarking",
+                    "checkedAt": "2026-10-10T14:53:23.000Z"
+                }
+            ]
+        },
+        {
+            "id": "terminal-bench-v4",
+            "name": "Terminal-Bench",
+            "version": "4.0",
+            "author": "Laude Institute",
+            "evaluator": "Artificial Analysis",
+            "sourceUrl": "https://artificialanalysis.ai/methodology/coding-agents-benchmarking",
+            "checkedAt": "2026-10-10T14:53:23.000Z",
+            "taskCount": 66,
+            "attemptsPerTask": 3,
+            "purpose": "Задачи с терминалом и инструментами.",
+            "requirements": "Среды и лимиты конкретных заданий; доступ к сети.",
+            "scoring": "Тесты; pass@1. Обнаруженный reward hacking обнуляет попытку.",
+            "reviews": [
+                {
+                    "dimension": "independence",
+                    "status": "unknown",
+                    "explanation": "Замер проводит Artificial Analysis. Финансирование и связи участников этой серии отдельно не проверены.",
+                    "sourceUrl": "https://artificialanalysis.ai/methodology/coding-agents-benchmarking",
+                    "checkedAt": "2026-10-10T14:53:23.000Z"
+                },
+                {
+                    "dimension": "contamination",
+                    "status": "not-reviewed",
+                    "explanation": "Проверка попадания заданий в обучающие данные моделей ещё не выполнена. Открытые задания сами по себе не доказывают утечку.",
+                    "sourceUrl": "https://artificialanalysis.ai/methodology/coding-agents-benchmarking",
+                    "checkedAt": "2026-10-10T14:53:23.000Z"
+                },
+                {
+                    "dimension": "saturation",
+                    "status": "not-reviewed",
+                    "explanation": "Нужен анализ распределения результатов и неопределённости для конкретной версии и группы участников.",
+                    "sourceUrl": "https://artificialanalysis.ai/methodology/coding-agents-benchmarking",
+                    "checkedAt": "2026-10-10T14:53:23.000Z"
+                },
+                {
+                    "dimension": "reproducibility",
+                    "status": "unknown",
+                    "explanation": "Методология опубликована; независимое воспроизведение этих замеров пока не проверено.",
+                    "sourceUrl": "https://artificialanalysis.ai/methodology/coding-agents-benchmarking",
+                    "checkedAt": "2026-10-10T14:53:23.000Z"
+                },
+                {
+                    "dimension": "comparability",
+                    "status": "supported",
+                    "explanation": "Сравниваются связки агента, модели и настроек. Различия effort, версий и ресурсов нужно учитывать при выборе.",
+                    "sourceUrl": "https://artificialanalysis.ai/methodology/coding-agents-benchmarking",
+                    "checkedAt": "2026-10-10T14:53:23.000Z"
+                }
+            ]
+        },
+        {
+            "id": "swe-atlas-qna",
+            "name": "SWE-Atlas-QnA",
+            "version": null,
+            "author": "Scale AI",
+            "evaluator": "Artificial Analysis",
+            "sourceUrl": "https://artificialanalysis.ai/methodology/coding-agents-benchmarking",
+            "checkedAt": "2026-10-10T14:53:23.000Z",
+            "taskCount": 124,
+            "attemptsPerTask": 3,
+            "purpose": "Вопросы о поведении кода репозитория.",
+            "requirements": "Репозиторий и рубрика; судья Claude Opus 4.5.",
+            "scoring": "Все пункты рубрики должны пройти; изменение отслеживаемых файлов считается неудачей.",
+            "reviews": [
+                {
+                    "dimension": "independence",
+                    "status": "unknown",
+                    "explanation": "Замер проводит Artificial Analysis. Финансирование и связи участников этой серии отдельно не проверены.",
+                    "sourceUrl": "https://artificialanalysis.ai/methodology/coding-agents-benchmarking",
+                    "checkedAt": "2026-10-10T14:53:23.000Z"
+                },
+                {
+                    "dimension": "contamination",
+                    "status": "not-reviewed",
+                    "explanation": "Проверка попадания заданий в обучающие данные моделей ещё не выполнена. Открытые задания сами по себе не доказывают утечку.",
+                    "sourceUrl": "https://artificialanalysis.ai/methodology/coding-agents-benchmarking",
+                    "checkedAt": "2026-10-10T14:53:23.000Z"
+                },
+                {
+                    "dimension": "saturation",
+                    "status": "not-reviewed",
+                    "explanation": "Нужен анализ распределения результатов и неопределённости для конкретной версии и группы участников.",
+                    "sourceUrl": "https://artificialanalysis.ai/methodology/coding-agents-benchmarking",
+                    "checkedAt": "2026-10-10T14:53:23.000Z"
+                },
+                {
+                    "dimension": "reproducibility",
+                    "status": "unknown",
+                    "explanation": "Методология опубликована; независимое воспроизведение этих замеров пока не проверено.",
+                    "sourceUrl": "https://artificialanalysis.ai/methodology/coding-agents-benchmarking",
+                    "checkedAt": "2026-10-10T14:53:23.000Z"
+                },
+                {
+                    "dimension": "comparability",
+                    "status": "supported",
+                    "explanation": "Сравниваются связки агента, модели и настроек. Различия effort, версий и ресурсов нужно учитывать при выборе.",
+                    "sourceUrl": "https://artificialanalysis.ai/methodology/coding-agents-benchmarking",
+                    "checkedAt": "2026-10-10T14:53:23.000Z"
+                }
+            ]
+        }
+    ]
+}

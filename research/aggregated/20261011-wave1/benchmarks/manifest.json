@@ -1,0 +1,47 @@
+{
+    "checkedAt": "2026-10-11T04:28:19.604191Z",
+    "status": "reviewed-candidates",
+    "packs": [
+        {
+            "sourceId": "swe-pro-v2-hard51",
+            "pack": "swe-pro-v2-hard51.pack.json",
+            "definitions": "swe-pro-v2-hard51.definitions.json",
+            "receipt": "swe-pro-v2-hard51.receipt.json",
+            "snapshot": "data/snapshots/swe-pro-v2-hard51/current.json",
+            "destinationSnapshot": "data/snapshots/swe-pro-v2-hard51/current.json",
+            "snapshotSha256": "d87ce7a848b53a2992be6377bdfb8c89ba60573599ac7b7bb1810366c8041385",
+            "benchmarkCount": 3,
+            "runCount": 12,
+            "mappedRunCount": 7
+        },
+        {
+            "sourceId": "programbench",
+            "pack": "programbench.pack.json",
+            "definitions": "programbench.definitions.json",
+            "receipt": "programbench.receipt.json",
+            "snapshot": "data/snapshots/programbench/current.json",
+            "destinationSnapshot": "data/snapshots/programbench/current.json",
+            "snapshotSha256": "869a7e7143e5402110264572ab34970f7db633a62c53d8ecec762b20b16f7ebb",
+            "benchmarkCount": 3,
+            "runCount": 6,
+            "mappedRunCount": 6
+        },
+        {
+            "sourceId": "slopcode",
+            "pack": "slopcode.pack.json",
+            "definitions": "slopcode.definitions.json",
+            "receipt": "slopcode.receipt.json",
+            "snapshot": "data/snapshots/slopcode/current.json",
+            "destinationSnapshot": "data/snapshots/slopcode/current.json",
+            "snapshotSha256": "dd6708f74834f34c271045c36ca830e798b6bd88752c003cd301f23c00b0b682",
+            "benchmarkCount": 5,
+            "runCount": 5,
+            "mappedRunCount": 5
+        }
+    ],
+    "excluded": [
+        "SWE-Pro V2 Full, Private, harness-study: independent fetch unavailable",
+        "SWE-rebench: exact boundary/denominator and conditional agent-model mapping not verified",
+        "LiveCodeBench, Aider, BigCodeBench, EvalPlus, official SWE-bench: no exact current catalogue rows found in checked scope"
+    ]
+}

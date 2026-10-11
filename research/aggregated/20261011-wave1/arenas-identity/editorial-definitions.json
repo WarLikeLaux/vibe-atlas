@@ -1,0 +1,390 @@
+{
+    "version": 1,
+    "id": "arena-coding-wave1",
+    "sourceId": "arena",
+    "checkedAt": "2026-10-11T04:24:56.000Z",
+    "parserVersion": "arena-snapshot/1",
+    "snapshotPath": "data/snapshots/arena/current.json",
+    "benchmarks": [
+        {
+            "id": "arena-webdev:2026-10-08",
+            "name": "Arena WebDev",
+            "context": "Human preference · 2026-10-08",
+            "unit": "Arena Score points",
+            "format": "number",
+            "awardEligible": true,
+            "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
+            "methodologyUrl": "https://arena.ai/blog/arena-rank",
+            "checkedAt": "2026-10-11T04:24:56.000Z",
+            "passport": {
+                "author": "Arena",
+                "purpose": "Human preference for generated web applications. Does not measure percent of tasks solved.",
+                "requirements": "Published WebDev Overall scenario; browser/tool harness version and budgets not disclosed.",
+                "scoring": "Published Arena Score (Bradley-Terry preference rating), higher is better; not percent accuracy. Published score intervals and rank spreads are retained. Confidence level and fitting settings of this snapshot are unknown. Medals reflect point-estimate order, not a significant difference.",
+                "reviews": [
+                    {
+                        "dimension": "independence",
+                        "status": "unknown",
+                        "explanation": "Arena publishes human preference measurements; provider relationships and commercial evaluations are disclosed, full financial independence of this snapshot was not established.",
+                        "sourceUrl": "https://arena.ai/faq",
+                        "checkedAt": "2026-10-11T04:24:56.000Z"
+                    },
+                    {
+                        "dimension": "contamination",
+                        "status": "not-reviewed",
+                        "explanation": "Training-data overlap and vote manipulation of this exact snapshot have not been audited. Absence of evidence is not proof of absence.",
+                        "sourceUrl": "https://arena.ai/faq",
+                        "checkedAt": "2026-10-11T04:24:56.000Z"
+                    },
+                    {
+                        "dimension": "saturation",
+                        "status": "unknown",
+                        "explanation": "Preference points have no percentage ceiling. Rank spreads overlap, especially in Text Coding. No saturation audit was performed.",
+                        "sourceUrl": "https://arena.ai/blog/arena-rank",
+                        "checkedAt": "2026-10-11T04:24:56.000Z"
+                    },
+                    {
+                        "dimension": "reproducibility",
+                        "status": "unknown",
+                        "explanation": "Arena-Rank source is public, but complete votes, model snapshots, harness and fitting settings for these dated category tables were not reproduced.",
+                        "sourceUrl": "https://arena.ai/blog/arena-rank",
+                        "checkedAt": "2026-10-11T04:24:56.000Z"
+                    },
+                    {
+                        "dimension": "comparability",
+                        "status": "unknown",
+                        "explanation": "Compare within this source scenario and date only. Effort labels are literal source strings; their semantics and equal budgets are unknown. Separate scenarios may have overlapping people and requests.",
+                        "sourceUrl": "https://arena.ai/blog/arena-rank",
+                        "checkedAt": "2026-10-11T04:24:56.000Z"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "arena-coding:2026-10-08",
+            "name": "Arena Text Coding",
+            "context": "Human preference · 2026-10-08",
+            "unit": "Arena Score points",
+            "format": "number",
+            "awardEligible": true,
+            "sourceUrl": "https://arena.ai/leaderboard/chat/text/coding",
+            "methodologyUrl": "https://arena.ai/blog/arena-rank",
+            "checkedAt": "2026-10-11T04:24:56.000Z",
+            "passport": {
+                "author": "Arena",
+                "purpose": "Human preference for text coding answers. Does not establish repository task execution success.",
+                "requirements": "Published Text Coding category; prompts, budgets and precise model serving snapshots not fully disclosed.",
+                "scoring": "Published Arena Score (Bradley-Terry preference rating), higher is better; not percent accuracy. Published score intervals and rank spreads are retained. Confidence level and fitting settings of this snapshot are unknown. Medals reflect point-estimate order, not a significant difference.",
+                "reviews": [
+                    {
+                        "dimension": "independence",
+                        "status": "unknown",
+                        "explanation": "Arena publishes human preference measurements; provider relationships and commercial evaluations are disclosed, full financial independence of this snapshot was not established.",
+                        "sourceUrl": "https://arena.ai/faq",
+                        "checkedAt": "2026-10-11T04:24:56.000Z"
+                    },
+                    {
+                        "dimension": "contamination",
+                        "status": "not-reviewed",
+                        "explanation": "Training-data overlap and vote manipulation of this exact snapshot have not been audited. Absence of evidence is not proof of absence.",
+                        "sourceUrl": "https://arena.ai/faq",
+                        "checkedAt": "2026-10-11T04:24:56.000Z"
+                    },
+                    {
+                        "dimension": "saturation",
+                        "status": "unknown",
+                        "explanation": "Preference points have no percentage ceiling. Rank spreads overlap, especially in Text Coding. No saturation audit was performed.",
+                        "sourceUrl": "https://arena.ai/blog/arena-rank",
+                        "checkedAt": "2026-10-11T04:24:56.000Z"
+                    },
+                    {
+                        "dimension": "reproducibility",
+                        "status": "unknown",
+                        "explanation": "Arena-Rank source is public, but complete votes, model snapshots, harness and fitting settings for these dated category tables were not reproduced.",
+                        "sourceUrl": "https://arena.ai/blog/arena-rank",
+                        "checkedAt": "2026-10-11T04:24:56.000Z"
+                    },
+                    {
+                        "dimension": "comparability",
+                        "status": "unknown",
+                        "explanation": "Compare within this source scenario and date only. Effort labels are literal source strings; their semantics and equal budgets are unknown. Separate scenarios may have overlapping people and requests.",
+                        "sourceUrl": "https://arena.ai/blog/arena-rank",
+                        "checkedAt": "2026-10-11T04:24:56.000Z"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "arena-image-to-webdev:2026-10-09",
+            "name": "Arena Image-to-WebDev",
+            "context": "Human preference · 2026-10-09",
+            "unit": "Arena Score points",
+            "format": "number",
+            "awardEligible": true,
+            "sourceUrl": "https://arena.ai/leaderboard/code/image-to-webdev",
+            "methodologyUrl": "https://arena.ai/blog/arena-rank",
+            "checkedAt": "2026-10-11T04:24:56.000Z",
+            "passport": {
+                "author": "Arena",
+                "purpose": "Human preference for websites generated from reference images/screenshots.",
+                "requirements": "Image input and generated website output in published Image-to-WebDev scenario; exact harness/budgets unknown.",
+                "scoring": "Published Arena Score (Bradley-Terry preference rating), higher is better; not percent accuracy. Published score intervals and rank spreads are retained. Confidence level and fitting settings of this snapshot are unknown. Medals reflect point-estimate order, not a significant difference.",
+                "reviews": [
+                    {
+                        "dimension": "independence",
+                        "status": "unknown",
+                        "explanation": "Arena publishes human preference measurements; provider relationships and commercial evaluations are disclosed, full financial independence of this snapshot was not established.",
+                        "sourceUrl": "https://arena.ai/faq",
+                        "checkedAt": "2026-10-11T04:24:56.000Z"
+                    },
+                    {
+                        "dimension": "contamination",
+                        "status": "not-reviewed",
+                        "explanation": "Training-data overlap and vote manipulation of this exact snapshot have not been audited. Absence of evidence is not proof of absence.",
+                        "sourceUrl": "https://arena.ai/faq",
+                        "checkedAt": "2026-10-11T04:24:56.000Z"
+                    },
+                    {
+                        "dimension": "saturation",
+                        "status": "unknown",
+                        "explanation": "Preference points have no percentage ceiling. Rank spreads overlap, especially in Text Coding. No saturation audit was performed.",
+                        "sourceUrl": "https://arena.ai/blog/arena-rank",
+                        "checkedAt": "2026-10-11T04:24:56.000Z"
+                    },
+                    {
+                        "dimension": "reproducibility",
+                        "status": "unknown",
+                        "explanation": "Arena-Rank source is public, but complete votes, model snapshots, harness and fitting settings for these dated category tables were not reproduced.",
+                        "sourceUrl": "https://arena.ai/blog/arena-rank",
+                        "checkedAt": "2026-10-11T04:24:56.000Z"
+                    },
+                    {
+                        "dimension": "comparability",
+                        "status": "unknown",
+                        "explanation": "Compare within this source scenario and date only. Effort labels are literal source strings; their semantics and equal budgets are unknown. Separate scenarios may have overlapping people and requests.",
+                        "sourceUrl": "https://arena.ai/blog/arena-rank",
+                        "checkedAt": "2026-10-11T04:24:56.000Z"
+                    }
+                ]
+            }
+        }
+    ],
+    "modelMappings": [
+        {
+            "sourceModelName": "claude-fable-5.1-max",
+            "modelId": "claude-fable-5-1",
+            "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
+            "checkedAt": "2026-10-11T04:24:56.000Z",
+            "basis": "Explicit published model/version string corresponds to the existing editorial catalog entry. Source suffix/harness preserved verbatim; API snapshot and effort semantics are not inferred."
+        },
+        {
+            "sourceModelName": "claude-haiku-5.5-high",
+            "modelId": "claude-haiku-5-5",
+            "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
+            "checkedAt": "2026-10-11T04:24:56.000Z",
+            "basis": "Explicit published model/version string corresponds to the existing editorial catalog entry. Source suffix/harness preserved verbatim; API snapshot and effort semantics are not inferred."
+        },
+        {
+            "sourceModelName": "claude-opus-5.5-high",
+            "modelId": "claude-opus-5-5",
+            "sourceUrl": "https://arena.ai/leaderboard/chat/text/coding",
+            "checkedAt": "2026-10-11T04:24:56.000Z",
+            "basis": "Explicit published model/version string corresponds to the existing editorial catalog entry. Source suffix/harness preserved verbatim; API snapshot and effort semantics are not inferred."
+        },
+        {
+            "sourceModelName": "claude-opus-5.5-max",
+            "modelId": "claude-opus-5-5",
+            "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
+            "checkedAt": "2026-10-11T04:24:56.000Z",
+            "basis": "Explicit published model/version string corresponds to the existing editorial catalog entry. Source suffix/harness preserved verbatim; API snapshot and effort semantics are not inferred."
+        },
+        {
+            "sourceModelName": "claude-sonnet-5.5-high",
+            "modelId": "claude-sonnet-5-5",
+            "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
+            "checkedAt": "2026-10-11T04:24:56.000Z",
+            "basis": "Explicit published model/version string corresponds to the existing editorial catalog entry. Source suffix/harness preserved verbatim; API snapshot and effort semantics are not inferred."
+        },
+        {
+            "sourceModelName": "claude-sonnet-5.5-xhigh",
+            "modelId": "claude-sonnet-5-5",
+            "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
+            "checkedAt": "2026-10-11T04:24:56.000Z",
+            "basis": "Explicit published model/version string corresponds to the existing editorial catalog entry. Source suffix/harness preserved verbatim; API snapshot and effort semantics are not inferred."
+        },
+        {
+            "sourceModelName": "deepseek-v4.1-flash-max",
+            "modelId": "deepseek-v4-1-flash",
+            "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
+            "checkedAt": "2026-10-11T04:24:56.000Z",
+            "basis": "Explicit published model/version string corresponds to the existing editorial catalog entry. Source suffix/harness preserved verbatim; API snapshot and effort semantics are not inferred."
+        },
+        {
+            "sourceModelName": "gemini-3.1-pro-preview",
+            "modelId": "gemini-3-1-pro-preview",
+            "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
+            "checkedAt": "2026-10-11T04:24:56.000Z",
+            "basis": "Explicit published model/version string corresponds to the existing editorial catalog entry. Source suffix/harness preserved verbatim; API snapshot and effort semantics are not inferred."
+        },
+        {
+            "sourceModelName": "gemini-3.5-flash-lite",
+            "modelId": "gemini-3-5-flash-lite",
+            "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
+            "checkedAt": "2026-10-11T04:24:56.000Z",
+            "basis": "Explicit published model/version string corresponds to the existing editorial catalog entry. Source suffix/harness preserved verbatim; API snapshot and effort semantics are not inferred."
+        },
+        {
+            "sourceModelName": "gemini-3.8-flash-high",
+            "modelId": "gemini-3-8-flash",
+            "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
+            "checkedAt": "2026-10-11T04:24:56.000Z",
+            "basis": "Explicit published model/version string corresponds to the existing editorial catalog entry. Source suffix/harness preserved verbatim; API snapshot and effort semantics are not inferred."
+        },
+        {
+            "sourceModelName": "gemini-4-argon-high",
+            "modelId": "gemini-4-argon",
+            "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
+            "checkedAt": "2026-10-11T04:24:56.000Z",
+            "basis": "Explicit published model/version string corresponds to the existing editorial catalog entry. Source suffix/harness preserved verbatim; API snapshot and effort semantics are not inferred."
+        },
+        {
+            "sourceModelName": "glm-5.3-flash",
+            "modelId": "glm-5-3-flash",
+            "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
+            "checkedAt": "2026-10-11T04:24:56.000Z",
+            "basis": "Explicit published model/version string corresponds to the existing editorial catalog entry. Source suffix/harness preserved verbatim; API snapshot and effort semantics are not inferred."
+        },
+        {
+            "sourceModelName": "glm-5.3-max",
+            "modelId": "glm-5-3",
+            "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
+            "checkedAt": "2026-10-11T04:24:56.000Z",
+            "basis": "Explicit published model/version string corresponds to the existing editorial catalog entry. Source suffix/harness preserved verbatim; API snapshot and effort semantics are not inferred."
+        },
+        {
+            "sourceModelName": "gpt-5.6-terra-xhigh",
+            "modelId": "gpt-5-6-terra",
+            "sourceUrl": "https://arena.ai/leaderboard/chat/text/coding",
+            "checkedAt": "2026-10-11T04:24:56.000Z",
+            "basis": "Explicit published model/version string corresponds to the existing editorial catalog entry. Source suffix/harness preserved verbatim; API snapshot and effort semantics are not inferred."
+        },
+        {
+            "sourceModelName": "gpt-5.6-terra-xhigh (codex-harness)",
+            "modelId": "gpt-5-6-terra",
+            "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
+            "checkedAt": "2026-10-11T04:24:56.000Z",
+            "basis": "Explicit published model/version string corresponds to the existing editorial catalog entry. Source suffix/harness preserved verbatim; API snapshot and effort semantics are not inferred."
+        },
+        {
+            "sourceModelName": "gpt-6-astra-max",
+            "modelId": "gpt-6-astra",
+            "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
+            "checkedAt": "2026-10-11T04:24:56.000Z",
+            "basis": "Explicit published model/version string corresponds to the existing editorial catalog entry. Source suffix/harness preserved verbatim; API snapshot and effort semantics are not inferred."
+        },
+        {
+            "sourceModelName": "gpt-6-luna-max",
+            "modelId": "gpt-6-luna",
+            "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
+            "checkedAt": "2026-10-11T04:24:56.000Z",
+            "basis": "Explicit published model/version string corresponds to the existing editorial catalog entry. Source suffix/harness preserved verbatim; API snapshot and effort semantics are not inferred."
+        },
+        {
+            "sourceModelName": "gpt-6.1-sol-max",
+            "modelId": "gpt-6-1-sol",
+            "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
+            "checkedAt": "2026-10-11T04:24:56.000Z",
+            "basis": "Explicit published model/version string corresponds to the existing editorial catalog entry. Source suffix/harness preserved verbatim; API snapshot and effort semantics are not inferred."
+        },
+        {
+            "sourceModelName": "grok-4.7-xhigh",
+            "modelId": "grok-4-7",
+            "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
+            "checkedAt": "2026-10-11T04:24:56.000Z",
+            "basis": "Explicit published model/version string corresponds to the existing editorial catalog entry. Source suffix/harness preserved verbatim; API snapshot and effort semantics are not inferred."
+        },
+        {
+            "sourceModelName": "kimi-k2.7-code",
+            "modelId": "kimi-k2-7-code",
+            "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
+            "checkedAt": "2026-10-11T04:24:56.000Z",
+            "basis": "Explicit published model/version string corresponds to the existing editorial catalog entry. Source suffix/harness preserved verbatim; API snapshot and effort semantics are not inferred."
+        },
+        {
+            "sourceModelName": "kimi-k3-max",
+            "modelId": "kimi-k3",
+            "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
+            "checkedAt": "2026-10-11T04:24:56.000Z",
+            "basis": "Explicit published model/version string corresponds to the existing editorial catalog entry. Source suffix/harness preserved verbatim; API snapshot and effort semantics are not inferred."
+        },
+        {
+            "sourceModelName": "minimax-m3",
+            "modelId": "minimax-m3",
+            "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
+            "checkedAt": "2026-10-11T04:24:56.000Z",
+            "basis": "Explicit published model/version string corresponds to the existing editorial catalog entry. Source suffix/harness preserved verbatim; API snapshot and effort semantics are not inferred."
+        },
+        {
+            "sourceModelName": "muse-spark-1.3 (xHigh)",
+            "modelId": "muse-spark-1-3",
+            "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
+            "checkedAt": "2026-10-11T04:24:56.000Z",
+            "basis": "Explicit published model/version string corresponds to the existing editorial catalog entry. Source suffix/harness preserved verbatim; API snapshot and effort semantics are not inferred."
+        },
+        {
+            "sourceModelName": "muse-spark-1.3-max",
+            "modelId": "muse-spark-1-3",
+            "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
+            "checkedAt": "2026-10-11T04:24:56.000Z",
+            "basis": "Explicit published model/version string corresponds to the existing editorial catalog entry. Source suffix/harness preserved verbatim; API snapshot and effort semantics are not inferred."
+        },
+        {
+            "sourceModelName": "qwen3.7-plus",
+            "modelId": "qwen3-7-plus",
+            "sourceUrl": "https://arena.ai/leaderboard/chat/text/coding",
+            "checkedAt": "2026-10-11T04:24:56.000Z",
+            "basis": "Explicit published model/version string corresponds to the existing editorial catalog entry. Source suffix/harness preserved verbatim; API snapshot and effort semantics are not inferred."
+        },
+        {
+            "sourceModelName": "qwen3.8-27b",
+            "modelId": "qwen3-8-27b",
+            "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
+            "checkedAt": "2026-10-11T04:24:56.000Z",
+            "basis": "Explicit published model/version string corresponds to the existing editorial catalog entry. Source suffix/harness preserved verbatim; API snapshot and effort semantics are not inferred."
+        },
+        {
+            "sourceModelName": "qwen3.8-flash-next",
+            "modelId": "qwen3-8-flash-next",
+            "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
+            "checkedAt": "2026-10-11T04:24:56.000Z",
+            "basis": "Explicit published model/version string corresponds to the existing editorial catalog entry. Source suffix/harness preserved verbatim; API snapshot and effort semantics are not inferred."
+        },
+        {
+            "sourceModelName": "qwen3.8-max-0902",
+            "modelId": "qwen3-8-max",
+            "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
+            "checkedAt": "2026-10-11T04:24:56.000Z",
+            "basis": "Explicit published model/version string corresponds to the existing editorial catalog entry. Source suffix/harness preserved verbatim; API snapshot and effort semantics are not inferred."
+        }
+    ],
+    "excludedScenarios": [
+        {
+            "id": "arena-fullstack",
+            "reason": "Overlapping WebDev subset retained only in source snapshot, creates no separate award."
+        }
+    ],
+    "mappingExclusions": [
+        {
+            "sourceModelName": "qwen3.8-max",
+            "reason": "Rolling ID is not proven equivalent to dated 0902 snapshot."
+        },
+        {
+            "sourceModelName": "deepseek-v4-pro variants",
+            "reason": "Conflicting serving identity in primary vendor documentation; no catalog model assignment."
+        },
+        {
+            "sourceModelName": "step-5-preview-high",
+            "reason": "Preview variant not proven equal to catalog Step 5."
+        }
+    ]
+}

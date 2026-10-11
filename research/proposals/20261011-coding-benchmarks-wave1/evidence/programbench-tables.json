@@ -1,0 +1,241 @@
+[
+  [
+    [
+      "Rank",
+      "",
+      "Model",
+      "Agent",
+      "Resolved help_outline The number of fully solved instances as measured by the hidden behavioral tests. Note that behavioral tests can never cover all possible inputs. The behavioral tests of ProgramBench can be easily extended should any false positives arise.",
+      "Almost help_outline Instances where the agent's solution solves ≥ 95% of all behavioral tests. See extended results .",
+      "Cost help_outline Average API cost in USD per benchmark task, as shown on the Pareto curve."
+    ],
+    [
+      "1",
+      "",
+      "Claude Opus 5 (xhigh)",
+      "mini-SWE-agent",
+      "4.5 %",
+      "37.0 %",
+      "$50.53"
+    ],
+    [
+      "2",
+      "",
+      "Muse Spark 1.3 (max)",
+      "mini-SWE-agent",
+      "2.5 %",
+      "25.0 %",
+      "$6.46"
+    ],
+    [
+      "3",
+      "",
+      "Muse Spark 1.3 (xhigh)",
+      "mini-SWE-agent",
+      "1.0 %",
+      "16.5 %",
+      "$2.02"
+    ],
+    [
+      "4",
+      "",
+      "GPT-5.6 Sol (xhigh)",
+      "mini-SWE-agent",
+      "1.0 %",
+      "15.5 %",
+      "$6.08"
+    ],
+    [
+      "5",
+      "",
+      "GPT 5.5 (xhigh)",
+      "mini-SWE-agent",
+      "0.5 %",
+      "13.5 %",
+      "$8.85"
+    ],
+    [
+      "6",
+      "",
+      "GPT 5.5 (high)",
+      "mini-SWE-agent",
+      "0.5 %",
+      "5.0 %",
+      "$3.65"
+    ],
+    [
+      "7",
+      "",
+      "Gemini 3.6 Flash",
+      "mini-SWE-agent",
+      "0.5 %",
+      "4.0 %",
+      "$4.83"
+    ],
+    [
+      "8",
+      "",
+      "GPT-5.6 Sol",
+      "mini-SWE-agent",
+      "0.5 %",
+      "2.5 %",
+      "$1.00"
+    ],
+    [
+      "9",
+      "",
+      "Claude Opus 4.8 (xhigh)",
+      "mini-SWE-agent",
+      "0 %",
+      "16.5 %",
+      "$21.02"
+    ],
+    [
+      "10",
+      "",
+      "GLM-5.2",
+      "mini-SWE-agent",
+      "0 %",
+      "8.5 %",
+      "$25.36"
+    ],
+    [
+      "11",
+      "",
+      "Gemini 3.7 Flash",
+      "mini-SWE-agent",
+      "0 %",
+      "5.5 %",
+      "$2.04"
+    ],
+    [
+      "12",
+      "",
+      "Muse Spark 1.2 (xhigh)",
+      "mini-SWE-agent",
+      "0 %",
+      "4.5 %",
+      "$1.48"
+    ],
+    [
+      "13",
+      "",
+      "Claude Opus 4.7 (xhigh)",
+      "mini-SWE-agent",
+      "0 %",
+      "4.5 %",
+      "$10.96"
+    ],
+    [
+      "14",
+      "",
+      "Muse Spark 1.1 (xhigh)",
+      "mini-SWE-agent",
+      "0 %",
+      "4.0 %",
+      "$0.73"
+    ],
+    [
+      "15",
+      "",
+      "Gemini 3.5 Flash",
+      "mini-SWE-agent",
+      "0 %",
+      "3.0 %",
+      "$5.60"
+    ],
+    [
+      "16",
+      "",
+      "Claude Opus 4.7",
+      "mini-SWE-agent",
+      "0 %",
+      "3.0 %",
+      "$3.81"
+    ],
+    [
+      "17",
+      "",
+      "Claude Opus 4.6",
+      "mini-SWE-agent",
+      "0 %",
+      "2.5 %",
+      "$11.38"
+    ],
+    [
+      "18",
+      "",
+      "GPT 5.5",
+      "mini-SWE-agent",
+      "0 %",
+      "1.5 %",
+      "$1.21"
+    ],
+    [
+      "19",
+      "",
+      "Claude Sonnet 4.6",
+      "mini-SWE-agent",
+      "0 %",
+      "1.0 %",
+      "$26.73"
+    ],
+    [
+      "20",
+      "",
+      "GPT 5.4",
+      "mini-SWE-agent",
+      "0 %",
+      "0.0 %",
+      "$0.33"
+    ],
+    [
+      "21",
+      "",
+      "Gemini 3.1 Pro",
+      "mini-SWE-agent",
+      "0 %",
+      "0.0 %",
+      "$1.51"
+    ],
+    [
+      "22",
+      "",
+      "Gemini 3 Flash",
+      "mini-SWE-agent",
+      "0 %",
+      "0.0 %",
+      "$0.30"
+    ],
+    [
+      "23",
+      "",
+      "Claude Haiku 4.5",
+      "mini-SWE-agent",
+      "0 %",
+      "0.0 %",
+      "$0.80"
+    ],
+    [
+      "24",
+      "",
+      "GPT 5.4 mini",
+      "mini-SWE-agent",
+      "0 %",
+      "0.0 %",
+      "$0.04"
+    ],
+    [
+      "25",
+      "",
+      "GPT 5 mini",
+      "mini-SWE-agent",
+      "0 %",
+      "0.0 %",
+      "$0.03"
+    ],
+    [
+      "Load more"
+    ]
+  ]
+]

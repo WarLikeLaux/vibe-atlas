@@ -1,0 +1,392 @@
+{
+    "id": "swe-bench-pro-v2-hard51-reviewed",
+    "sourceId": "swe-pro-v2-hard51",
+    "checkedAt": "2026-10-11T04:28:19.604191Z",
+    "parserVersion": "wave1-reviewed-observations/1",
+    "snapshotPath": "data/snapshots/swe-pro-v2-hard51/current.json",
+    "snapshotSha256": "d87ce7a848b53a2992be6377bdfb8c89ba60573599ac7b7bb1810366c8041385",
+    "benchmarks": [
+        {
+            "id": "swe-pro:v2-hard51-claude-code",
+            "name": "SWE-Bench Pro V2 HARD",
+            "context": "HARD-51 · Claude Code",
+            "unit": "% Pass@1",
+            "format": "percent",
+            "awardEligible": false,
+            "sourceUrl": "https://labs.scale.com/leaderboard/swe_bench_pro_public_v2",
+            "methodologyUrl": "https://raw.githubusercontent.com/scaleapi/SWE-bench_Pro-os/main/v2/README.md",
+            "checkedAt": "2026-10-11T04:28:19.604191Z",
+            "passport": {
+                "author": "Scale AI / Reflection",
+                "purpose": "Исправление задач репозиториев. HARD-51 является отобранным поднабором V2.",
+                "requirements": "Заявленный locked protocol V2, HARD-51, агент Claude Code. Точная версия агента неизвестна. Требования README не подтверждают условия каждой строки.",
+                "scoring": "Опубликованный Pass@1, проценты 0–100. 51 задача. Число попыток и уровень показанного интервала отдельно не установлены.",
+                "reviews": [
+                    {
+                        "dimension": "independence",
+                        "status": "unknown",
+                        "explanation": "Scale и Reflection разработали V2 совместно. Финансирование и независимый повтор этих замеров не проверены.",
+                        "sourceUrl": "https://labs.scale.com/leaderboard/swe_bench_pro_public_v2",
+                        "checkedAt": "2026-10-11T04:28:19.604191Z"
+                    },
+                    {
+                        "dimension": "contamination",
+                        "status": "unknown",
+                        "explanation": "V2 заявляет изоляцию сети и повторную проверку patch. Trusted relay и исполняемый код patch остаются ограничениями. Пересечение с обучением не проверено.",
+                        "sourceUrl": "https://labs.scale.com/leaderboard/swe_bench_pro_public_v2",
+                        "checkedAt": "2026-10-11T04:28:19.604191Z"
+                    },
+                    {
+                        "dimension": "saturation",
+                        "status": "not-reviewed",
+                        "explanation": "HARD выбран по провалам нескольких семейств. Разброс оценок не доказывает статистическую различимость всех моделей.",
+                        "sourceUrl": "https://labs.scale.com/leaderboard/swe_bench_pro_public_v2",
+                        "checkedAt": "2026-10-11T04:28:19.604191Z"
+                    },
+                    {
+                        "dimension": "reproducibility",
+                        "status": "unknown",
+                        "explanation": "Публичный V2 README даёт набор и процедуру. Версии агентов и выполнение именно этого протокола каждым замером не подтверждены.",
+                        "sourceUrl": "https://labs.scale.com/leaderboard/swe_bench_pro_public_v2",
+                        "checkedAt": "2026-10-11T04:28:19.604191Z"
+                    },
+                    {
+                        "dimension": "comparability",
+                        "status": "disputed",
+                        "explanation": "HARD-51 отделён от Full. V2 README указывает 50 минут, страница также содержит старые лимиты 250 turns. Агенты разделены по столбцам, условия строк не полностью проверены.",
+                        "sourceUrl": "https://labs.scale.com/leaderboard/swe_bench_pro_public_v2",
+                        "checkedAt": "2026-10-11T04:28:19.604191Z"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "swe-pro:v2-hard51-codex",
+            "name": "SWE-Bench Pro V2 HARD",
+            "context": "HARD-51 · Codex",
+            "unit": "% Pass@1",
+            "format": "percent",
+            "awardEligible": true,
+            "sourceUrl": "https://labs.scale.com/leaderboard/swe_bench_pro_public_v2",
+            "methodologyUrl": "https://raw.githubusercontent.com/scaleapi/SWE-bench_Pro-os/main/v2/README.md",
+            "checkedAt": "2026-10-11T04:28:19.604191Z",
+            "passport": {
+                "author": "Scale AI / Reflection",
+                "purpose": "Исправление задач репозиториев. HARD-51 является отобранным поднабором V2.",
+                "requirements": "Заявленный locked protocol V2, HARD-51, агент Codex. Точная версия агента неизвестна. Требования README не подтверждают условия каждой строки.",
+                "scoring": "Опубликованный Pass@1, проценты 0–100. 51 задача. Число попыток и уровень показанного интервала отдельно не установлены.",
+                "reviews": [
+                    {
+                        "dimension": "independence",
+                        "status": "unknown",
+                        "explanation": "Scale и Reflection разработали V2 совместно. Финансирование и независимый повтор этих замеров не проверены.",
+                        "sourceUrl": "https://labs.scale.com/leaderboard/swe_bench_pro_public_v2",
+                        "checkedAt": "2026-10-11T04:28:19.604191Z"
+                    },
+                    {
+                        "dimension": "contamination",
+                        "status": "unknown",
+                        "explanation": "V2 заявляет изоляцию сети и повторную проверку patch. Trusted relay и исполняемый код patch остаются ограничениями. Пересечение с обучением не проверено.",
+                        "sourceUrl": "https://labs.scale.com/leaderboard/swe_bench_pro_public_v2",
+                        "checkedAt": "2026-10-11T04:28:19.604191Z"
+                    },
+                    {
+                        "dimension": "saturation",
+                        "status": "not-reviewed",
+                        "explanation": "HARD выбран по провалам нескольких семейств. Разброс оценок не доказывает статистическую различимость всех моделей.",
+                        "sourceUrl": "https://labs.scale.com/leaderboard/swe_bench_pro_public_v2",
+                        "checkedAt": "2026-10-11T04:28:19.604191Z"
+                    },
+                    {
+                        "dimension": "reproducibility",
+                        "status": "unknown",
+                        "explanation": "Публичный V2 README даёт набор и процедуру. Версии агентов и выполнение именно этого протокола каждым замером не подтверждены.",
+                        "sourceUrl": "https://labs.scale.com/leaderboard/swe_bench_pro_public_v2",
+                        "checkedAt": "2026-10-11T04:28:19.604191Z"
+                    },
+                    {
+                        "dimension": "comparability",
+                        "status": "disputed",
+                        "explanation": "HARD-51 отделён от Full. V2 README указывает 50 минут, страница также содержит старые лимиты 250 turns. Агенты разделены по столбцам, условия строк не полностью проверены.",
+                        "sourceUrl": "https://labs.scale.com/leaderboard/swe_bench_pro_public_v2",
+                        "checkedAt": "2026-10-11T04:28:19.604191Z"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "swe-pro:v2-hard51-mini-swe-agent",
+            "name": "SWE-Bench Pro V2 HARD",
+            "context": "HARD-51 · mini-swe-agent",
+            "unit": "% Pass@1",
+            "format": "percent",
+            "awardEligible": true,
+            "sourceUrl": "https://labs.scale.com/leaderboard/swe_bench_pro_public_v2",
+            "methodologyUrl": "https://raw.githubusercontent.com/scaleapi/SWE-bench_Pro-os/main/v2/README.md",
+            "checkedAt": "2026-10-11T04:28:19.604191Z",
+            "passport": {
+                "author": "Scale AI / Reflection",
+                "purpose": "Исправление задач репозиториев. HARD-51 является отобранным поднабором V2.",
+                "requirements": "Заявленный locked protocol V2, HARD-51, агент mini-swe-agent. Точная версия агента неизвестна. Требования README не подтверждают условия каждой строки.",
+                "scoring": "Опубликованный Pass@1, проценты 0–100. 51 задача. Число попыток и уровень показанного интервала отдельно не установлены.",
+                "reviews": [
+                    {
+                        "dimension": "independence",
+                        "status": "unknown",
+                        "explanation": "Scale и Reflection разработали V2 совместно. Финансирование и независимый повтор этих замеров не проверены.",
+                        "sourceUrl": "https://labs.scale.com/leaderboard/swe_bench_pro_public_v2",
+                        "checkedAt": "2026-10-11T04:28:19.604191Z"
+                    },
+                    {
+                        "dimension": "contamination",
+                        "status": "unknown",
+                        "explanation": "V2 заявляет изоляцию сети и повторную проверку patch. Trusted relay и исполняемый код patch остаются ограничениями. Пересечение с обучением не проверено.",
+                        "sourceUrl": "https://labs.scale.com/leaderboard/swe_bench_pro_public_v2",
+                        "checkedAt": "2026-10-11T04:28:19.604191Z"
+                    },
+                    {
+                        "dimension": "saturation",
+                        "status": "not-reviewed",
+                        "explanation": "HARD выбран по провалам нескольких семейств. Разброс оценок не доказывает статистическую различимость всех моделей.",
+                        "sourceUrl": "https://labs.scale.com/leaderboard/swe_bench_pro_public_v2",
+                        "checkedAt": "2026-10-11T04:28:19.604191Z"
+                    },
+                    {
+                        "dimension": "reproducibility",
+                        "status": "unknown",
+                        "explanation": "Публичный V2 README даёт набор и процедуру. Версии агентов и выполнение именно этого протокола каждым замером не подтверждены.",
+                        "sourceUrl": "https://labs.scale.com/leaderboard/swe_bench_pro_public_v2",
+                        "checkedAt": "2026-10-11T04:28:19.604191Z"
+                    },
+                    {
+                        "dimension": "comparability",
+                        "status": "disputed",
+                        "explanation": "HARD-51 отделён от Full. V2 README указывает 50 минут, страница также содержит старые лимиты 250 turns. Агенты разделены по столбцам, условия строк не полностью проверены.",
+                        "sourceUrl": "https://labs.scale.com/leaderboard/swe_bench_pro_public_v2",
+                        "checkedAt": "2026-10-11T04:28:19.604191Z"
+                    }
+                ]
+            }
+        }
+    ],
+    "runs": [
+        {
+            "id": "swe-pro-hard51-reviewed-1",
+            "sourceModelName": "Opus 5 (Claude Code) xhigh",
+            "benchmarkId": "swe-pro:v2-hard51-claude-code",
+            "label": "Claude Code · xhigh",
+            "score": 98,
+            "sourceUrl": "https://labs.scale.com/leaderboard/swe_bench_pro_public_v2",
+            "checkedAt": "2026-10-11T04:28:19.604191Z",
+            "notes": [
+                "Версия агента неизвестна. Время измерения неизвестно.",
+                "HARD-51 не является независимым набором от Full V2.",
+                "Ранг из источника не переносится. Нули старого поля confidenceInterval_upper не являются подтверждением нулевой неопределённости.",
+                "Заявленные locked-условия не подтверждены отдельно для каждой строки. Страница содержит также исторические лимиты."
+            ],
+            "telemetry": [],
+            "estimated": false
+        },
+        {
+            "id": "swe-pro-hard51-reviewed-2",
+            "sourceModelName": "Fable 5.1 (Claude Code) high",
+            "benchmarkId": "swe-pro:v2-hard51-claude-code",
+            "label": "Claude Code · high",
+            "score": 92.2,
+            "sourceUrl": "https://labs.scale.com/leaderboard/swe_bench_pro_public_v2",
+            "checkedAt": "2026-10-11T04:28:19.604191Z",
+            "notes": [
+                "Версия агента неизвестна. Время измерения неизвестно.",
+                "HARD-51 не является независимым набором от Full V2.",
+                "Ранг из источника не переносится. Нули старого поля confidenceInterval_upper не являются подтверждением нулевой неопределённости.",
+                "Заявленные locked-условия не подтверждены отдельно для каждой строки. Страница содержит также исторические лимиты."
+            ],
+            "telemetry": [],
+            "estimated": false,
+            "modelId": "claude-fable-5-1"
+        },
+        {
+            "id": "swe-pro-hard51-reviewed-3",
+            "sourceModelName": "GPT-6 Astra (Codex) high ",
+            "benchmarkId": "swe-pro:v2-hard51-codex",
+            "label": "Codex · high",
+            "score": 90.2,
+            "sourceUrl": "https://labs.scale.com/leaderboard/swe_bench_pro_public_v2",
+            "checkedAt": "2026-10-11T04:28:19.604191Z",
+            "notes": [
+                "Версия агента неизвестна. Время измерения неизвестно.",
+                "HARD-51 не является независимым набором от Full V2.",
+                "Ранг из источника не переносится. Нули старого поля confidenceInterval_upper не являются подтверждением нулевой неопределённости.",
+                "Заявленные locked-условия не подтверждены отдельно для каждой строки. Страница содержит также исторические лимиты."
+            ],
+            "telemetry": [],
+            "estimated": false,
+            "modelId": "gpt-6-astra"
+        },
+        {
+            "id": "swe-pro-hard51-reviewed-4",
+            "sourceModelName": "Kimi-K3 (mini-swe-agent) max",
+            "benchmarkId": "swe-pro:v2-hard51-mini-swe-agent",
+            "label": "mini-swe-agent · max",
+            "score": 88.2,
+            "sourceUrl": "https://labs.scale.com/leaderboard/swe_bench_pro_public_v2",
+            "checkedAt": "2026-10-11T04:28:19.604191Z",
+            "notes": [
+                "Версия агента неизвестна. Время измерения неизвестно.",
+                "HARD-51 не является независимым набором от Full V2.",
+                "Ранг из источника не переносится. Нули старого поля confidenceInterval_upper не являются подтверждением нулевой неопределённости.",
+                "Заявленные locked-условия не подтверждены отдельно для каждой строки. Страница содержит также исторические лимиты."
+            ],
+            "telemetry": [],
+            "estimated": false,
+            "modelId": "kimi-k3"
+        },
+        {
+            "id": "swe-pro-hard51-reviewed-5",
+            "sourceModelName": "Sonnet 5 (Claude Code) xhigh",
+            "benchmarkId": "swe-pro:v2-hard51-claude-code",
+            "label": "Claude Code · xhigh",
+            "score": 88.2,
+            "sourceUrl": "https://labs.scale.com/leaderboard/swe_bench_pro_public_v2",
+            "checkedAt": "2026-10-11T04:28:19.604191Z",
+            "notes": [
+                "Версия агента неизвестна. Время измерения неизвестно.",
+                "HARD-51 не является независимым набором от Full V2.",
+                "Ранг из источника не переносится. Нули старого поля confidenceInterval_upper не являются подтверждением нулевой неопределённости.",
+                "Заявленные locked-условия не подтверждены отдельно для каждой строки. Страница содержит также исторические лимиты."
+            ],
+            "telemetry": [],
+            "estimated": false
+        },
+        {
+            "id": "swe-pro-hard51-reviewed-6",
+            "sourceModelName": "GPT-5.6 Terra (Codex) xhigh",
+            "benchmarkId": "swe-pro:v2-hard51-codex",
+            "label": "Codex · xhigh",
+            "score": 86.3,
+            "sourceUrl": "https://labs.scale.com/leaderboard/swe_bench_pro_public_v2",
+            "checkedAt": "2026-10-11T04:28:19.604191Z",
+            "notes": [
+                "Версия агента неизвестна. Время измерения неизвестно.",
+                "HARD-51 не является независимым набором от Full V2.",
+                "Ранг из источника не переносится. Нули старого поля confidenceInterval_upper не являются подтверждением нулевой неопределённости.",
+                "Заявленные locked-условия не подтверждены отдельно для каждой строки. Страница содержит также исторические лимиты."
+            ],
+            "telemetry": [],
+            "estimated": false,
+            "modelId": "gpt-5-6-terra"
+        },
+        {
+            "id": "swe-pro-hard51-reviewed-7",
+            "sourceModelName": "GLM-5.3 (mini-swe-agent) max",
+            "benchmarkId": "swe-pro:v2-hard51-mini-swe-agent",
+            "label": "mini-swe-agent · max",
+            "score": 84.3,
+            "sourceUrl": "https://labs.scale.com/leaderboard/swe_bench_pro_public_v2",
+            "checkedAt": "2026-10-11T04:28:19.604191Z",
+            "notes": [
+                "Версия агента неизвестна. Время измерения неизвестно.",
+                "HARD-51 не является независимым набором от Full V2.",
+                "Ранг из источника не переносится. Нули старого поля confidenceInterval_upper не являются подтверждением нулевой неопределённости.",
+                "Заявленные locked-условия не подтверждены отдельно для каждой строки. Страница содержит также исторические лимиты."
+            ],
+            "telemetry": [],
+            "estimated": false,
+            "modelId": "glm-5-3"
+        },
+        {
+            "id": "swe-pro-hard51-reviewed-8",
+            "sourceModelName": "GPT-5.6 Sol (Codex) xhigh",
+            "benchmarkId": "swe-pro:v2-hard51-codex",
+            "label": "Codex · xhigh",
+            "score": 82.4,
+            "sourceUrl": "https://labs.scale.com/leaderboard/swe_bench_pro_public_v2",
+            "checkedAt": "2026-10-11T04:28:19.604191Z",
+            "notes": [
+                "Версия агента неизвестна. Время измерения неизвестно.",
+                "HARD-51 не является независимым набором от Full V2.",
+                "Ранг из источника не переносится. Нули старого поля confidenceInterval_upper не являются подтверждением нулевой неопределённости.",
+                "Заявленные locked-условия не подтверждены отдельно для каждой строки. Страница содержит также исторические лимиты."
+            ],
+            "telemetry": [],
+            "estimated": false
+        },
+        {
+            "id": "swe-pro-hard51-reviewed-9",
+            "sourceModelName": "Gemini 3.8 Flash (mini-swe-agent) high",
+            "benchmarkId": "swe-pro:v2-hard51-mini-swe-agent",
+            "label": "mini-swe-agent · high",
+            "score": 58.8,
+            "sourceUrl": "https://labs.scale.com/leaderboard/swe_bench_pro_public_v2",
+            "checkedAt": "2026-10-11T04:28:19.604191Z",
+            "notes": [
+                "Версия агента неизвестна. Время измерения неизвестно.",
+                "HARD-51 не является независимым набором от Full V2.",
+                "Ранг из источника не переносится. Нули старого поля confidenceInterval_upper не являются подтверждением нулевой неопределённости.",
+                "Заявленные locked-условия не подтверждены отдельно для каждой строки. Страница содержит также исторические лимиты."
+            ],
+            "telemetry": [],
+            "estimated": false,
+            "modelId": "gemini-3-8-flash"
+        },
+        {
+            "id": "swe-pro-hard51-reviewed-10",
+            "sourceModelName": "Inkling (mini-swe-agent) xhigh",
+            "benchmarkId": "swe-pro:v2-hard51-mini-swe-agent",
+            "label": "mini-swe-agent · xhigh",
+            "score": 56.9,
+            "sourceUrl": "https://labs.scale.com/leaderboard/swe_bench_pro_public_v2",
+            "checkedAt": "2026-10-11T04:28:19.604191Z",
+            "notes": [
+                "Версия агента неизвестна. Время измерения неизвестно.",
+                "HARD-51 не является независимым набором от Full V2.",
+                "Ранг из источника не переносится. Нули старого поля confidenceInterval_upper не являются подтверждением нулевой неопределённости.",
+                "Заявленные locked-условия не подтверждены отдельно для каждой строки. Страница содержит также исторические лимиты."
+            ],
+            "telemetry": [],
+            "estimated": false
+        },
+        {
+            "id": "swe-pro-hard51-reviewed-11",
+            "sourceModelName": "Haiku 5.5 (mini-swe-agent) high",
+            "benchmarkId": "swe-pro:v2-hard51-mini-swe-agent",
+            "label": "mini-swe-agent · high",
+            "score": 52.94,
+            "sourceUrl": "https://labs.scale.com/leaderboard/swe_bench_pro_public_v2",
+            "checkedAt": "2026-10-11T04:28:19.604191Z",
+            "notes": [
+                "Версия агента неизвестна. Время измерения неизвестно.",
+                "HARD-51 не является независимым набором от Full V2.",
+                "Ранг из источника не переносится. Нули старого поля confidenceInterval_upper не являются подтверждением нулевой неопределённости.",
+                "Заявленные locked-условия не подтверждены отдельно для каждой строки. Страница содержит также исторические лимиты.",
+                "Страница сейчас показывает ±13.01 для Haiku 5.5, старое извлечение содержало 0. Метод и уровень интервала неизвестны."
+            ],
+            "telemetry": [
+                {
+                    "name": "Показанная неопределённость (уровень неизвестен)",
+                    "value": 13.01,
+                    "unit": "percentage-points"
+                }
+            ],
+            "estimated": false,
+            "modelId": "claude-haiku-5-5"
+        },
+        {
+            "id": "swe-pro-hard51-reviewed-12",
+            "sourceModelName": "Haiku 4.5 (Claude Code) xhigh",
+            "benchmarkId": "swe-pro:v2-hard51-claude-code",
+            "label": "Claude Code · xhigh",
+            "score": 25.5,
+            "sourceUrl": "https://labs.scale.com/leaderboard/swe_bench_pro_public_v2",
+            "checkedAt": "2026-10-11T04:28:19.604191Z",
+            "notes": [
+                "Версия агента неизвестна. Время измерения неизвестно.",
+                "HARD-51 не является независимым набором от Full V2.",
+                "Ранг из источника не переносится. Нули старого поля confidenceInterval_upper не являются подтверждением нулевой неопределённости.",
+                "Заявленные locked-условия не подтверждены отдельно для каждой строки. Страница содержит также исторические лимиты."
+            ],
+            "telemetry": [],
+            "estimated": false
+        }
+    ]
+}

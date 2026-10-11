@@ -1,0 +1,423 @@
+{
+  "taskId": "20261011-developer-media-wave1",
+  "checkedAt": "2026-10-10T18:52:58Z",
+  "kind": "research-extraction",
+  "integrationStatus": "not-integrated",
+  "puter": {
+    "sourceUrl": "https://developer.puter.com/blog/glm-5-3-review/",
+    "publishedAt": "2026-08-27",
+    "effort": "max",
+    "tasks": 8,
+    "attemptsPerTask": 1,
+    "models": [
+      {
+        "sourceName": "GLM-5.2",
+        "sourceModelId": "z-ai/glm-5.2",
+        "passed": 8,
+        "outputTokensTotal": 12471,
+        "outputTokensMean": 1558.9
+      },
+      {
+        "sourceName": "GLM-5.3",
+        "sourceModelId": "z-ai/glm-5.3",
+        "passed": 8,
+        "outputTokensTotal": 14076,
+        "outputTokensMean": 1759.5
+      }
+    ],
+    "perTaskTokens": [
+      {
+        "task": "palindrome",
+        "GLM-5.2": 957,
+        "GLM-5.3": 452,
+        "publishedRatioPercent": 47
+      },
+      {
+        "task": "two_sum",
+        "GLM-5.2": 333,
+        "GLM-5.3": 200,
+        "publishedRatioPercent": 60
+      },
+      {
+        "task": "merge_intervals",
+        "GLM-5.2": 1694,
+        "GLM-5.3": 2695,
+        "publishedRatioPercent": 159
+      },
+      {
+        "task": "lru_cache",
+        "GLM-5.2": 1836,
+        "GLM-5.3": 1236,
+        "publishedRatioPercent": 67
+      },
+      {
+        "task": "flatten",
+        "GLM-5.2": 1630,
+        "GLM-5.3": 2477,
+        "publishedRatioPercent": 152
+      },
+      {
+        "task": "lcm_list",
+        "GLM-5.2": 3248,
+        "GLM-5.3": 1020,
+        "publishedRatioPercent": 31
+      },
+      {
+        "task": "linked_list_cycle",
+        "GLM-5.2": 1242,
+        "GLM-5.3": 1164,
+        "publishedRatioPercent": 94
+      },
+      {
+        "task": "csv_line",
+        "GLM-5.2": 1531,
+        "GLM-5.3": 4832,
+        "publishedRatioPercent": 316
+      }
+    ],
+    "reasoningShareEstimatePercentRange": [
+      93,
+      94
+    ],
+    "reasoningShareMethod": "source tokenized reasoning and content separately and apportioned reported completion total",
+    "cost": null,
+    "time": null
+  },
+  "datallm": {
+    "sourceUrl": "https://www.datallmlab.com/blog/glm-5-3-review.html",
+    "publishedAt": "2026-08-22",
+    "updatedAt": "2026-10-03",
+    "measuredAt": "2026-08-22",
+    "sourceModelId": "z-ai/glm-5.3",
+    "passed": 9,
+    "tasks": 9,
+    "costUsdPer1000Tasks": 3.35,
+    "costKind": "source calculation from response usage and dated list prices, not invoice",
+    "meanFullResponseSeconds": 14.2,
+    "reasoningTokensPerCall": 631,
+    "outputTokensSuite": 6640,
+    "listPriceInputUsdPerMillion": 1.4,
+    "listPriceOutputUsdPerMillion": 4.4,
+    "contextTokens": 1048576,
+    "temperatureRequested": 0,
+    "maxTokens": 4000,
+    "executionTimeoutSeconds": 12,
+    "effort": null,
+    "comparison": {
+      "sourceName": "GLM-5.2",
+      "measuredAt": null,
+      "passed": 9,
+      "tasks": 9,
+      "costUsdPer1000Tasks": 1.99,
+      "meanFullResponseSeconds": 12.3,
+      "reasoningTokensPerCall": 559,
+      "listPriceInputUsdPerMillion": 0.97,
+      "listPriceOutputUsdPerMillion": 3.04,
+      "contextTokens": 1048576
+    }
+  },
+  "sshFlashRepairs": {
+    "sourceUrl": "https://github.com/SSHdotCodes/glm-5.3-flash-pro6000/blob/main/docs/benchmarks.md",
+    "measurementDate": "2026-09-20",
+    "model": "GLM-5.3-Flash",
+    "quantization": "UD-IQ3_XXS",
+    "runtime": "legacy llama.cpp",
+    "exactRepairEffort": null,
+    "rows": [
+      {
+        "task": "Token-bucket clock rollback",
+        "outputTokens": 859,
+        "decodeTokensPerSecond": 59.12,
+        "httpWallSeconds": 16.27,
+        "passedChecks": 4
+      },
+      {
+        "task": "SQLite migration atomicity",
+        "outputTokens": 1035,
+        "decodeTokensPerSecond": 57.48,
+        "httpWallSeconds": 19.62,
+        "passedChecks": 5
+      }
+    ],
+    "comparisonWarmup": "different from control completed-task checks, no paired speedup claim"
+  },
+  "minimaxM3": {
+    "sourceUrl": "https://minimax-ai.chat/blog/minimax-m3-coding-benchmark/",
+    "publishedAtAsDisplayed": "2026-07-20",
+    "measuredAtAsDisplayed": "2026-07-28",
+    "dateConflict": "publication precedes measurement, revision history not established",
+    "protocolId": "minimax-m3-coding-10-v1",
+    "model": "MiniMax-M3",
+    "tier": "Standard",
+    "thinking": "Adaptive Thinking enabled",
+    "effort": null,
+    "temperature": 0.1,
+    "topP": 0.95,
+    "completionLimit": 4096,
+    "maxCallsPerTask": 7,
+    "requestTimeoutSeconds": 180,
+    "attemptsPerTask": 1,
+    "tasksResolved": 7,
+    "tasks": 10,
+    "passAt1Percent": 70,
+    "ci95Percent": [
+      39.7,
+      89.2
+    ],
+    "ciMethod": "Wilson",
+    "hiddenAssertionsPassed": 92,
+    "hiddenAssertions": 114,
+    "hiddenAssertionPercent": 80.7,
+    "jsPassed": 3,
+    "jsTasks": 5,
+    "pythonPassed": 4,
+    "pythonTasks": 5,
+    "apiCallsCompleted": 54,
+    "apiCallsAttempted": 54,
+    "inputTokens": 107738,
+    "cachedInputTokens": 87380,
+    "outputTokens": 35225,
+    "reasoningTokens": 27793,
+    "tokenComponentsAdditive": false,
+    "costUsdTotal": 0.05362,
+    "costUsdPerAttemptedTask": 0.005362,
+    "costUsdPerResolvedTask": 0.00766,
+    "costKind": "source response-usage calculation",
+    "taskLatencySeconds": {
+      "p50Rounded": 37.5,
+      "p95Rounded": 56.0,
+      "maxRounded": 60.2,
+      "p50Detailed": 37.53,
+      "p95Detailed": 56.05,
+      "minDetailed": 21.35,
+      "maxDetailed": 60.19
+    },
+    "apiCallLatencySeconds": {
+      "p50": 1.74,
+      "p95": 33.54,
+      "max": 52.31
+    },
+    "humanInterventions": 0,
+    "generationRetries": 0,
+    "perTask": [
+      {
+        "taskId": "JS-01",
+        "passedAssertions": 10,
+        "assertions": 10,
+        "passed": true,
+        "apiCalls": 5,
+        "seconds": 26.22,
+        "costUsdRounded": 0.004749
+      },
+      {
+        "taskId": "PY-02",
+        "passedAssertions": 12,
+        "assertions": 12,
+        "passed": true,
+        "apiCalls": 7,
+        "seconds": 44.22,
+        "costUsdRounded": 0.007018
+      },
+      {
+        "taskId": "JS-03",
+        "passedAssertions": 9,
+        "assertions": 9,
+        "passed": true,
+        "apiCalls": 5,
+        "seconds": 26.59,
+        "costUsdRounded": 0.004786
+      },
+      {
+        "taskId": "PY-04",
+        "passedAssertions": 9,
+        "assertions": 9,
+        "passed": true,
+        "apiCalls": 7,
+        "seconds": 21.35,
+        "costUsdRounded": 0.003156
+      },
+      {
+        "taskId": "JS-05",
+        "passedAssertions": 5,
+        "assertions": 12,
+        "passed": false,
+        "apiCalls": 3,
+        "seconds": 45.91,
+        "costUsdRounded": 0.005554
+      },
+      {
+        "taskId": "PY-06",
+        "passedAssertions": 11,
+        "assertions": 11,
+        "passed": true,
+        "apiCalls": 7,
+        "seconds": 47.11,
+        "costUsdRounded": 0.00772
+      },
+      {
+        "taskId": "JS-07",
+        "passedAssertions": 12,
+        "assertions": 12,
+        "passed": true,
+        "apiCalls": 5,
+        "seconds": 30.84,
+        "costUsdRounded": 0.005203
+      },
+      {
+        "taskId": "PY-08",
+        "passedAssertions": 7,
+        "assertions": 14,
+        "passed": false,
+        "apiCalls": 5,
+        "seconds": 60.19,
+        "costUsdRounded": 0.005864
+      },
+      {
+        "taskId": "JS-09",
+        "passedAssertions": 6,
+        "assertions": 14,
+        "passed": false,
+        "apiCalls": 3,
+        "seconds": 50.99,
+        "costUsdRounded": 0.00553
+      },
+      {
+        "taskId": "PY-10",
+        "passedAssertions": 11,
+        "assertions": 11,
+        "passed": true,
+        "apiCalls": 7,
+        "seconds": 26.57,
+        "costUsdRounded": 0.00404
+      }
+    ],
+    "postHoc8192Diagnostic": {
+      "tasksResolved": 2,
+      "tasks": 3,
+      "assertionsPassed": 33,
+      "assertions": 40,
+      "costUsd": 0.020855,
+      "includedInPrimaryScore": false
+    }
+  },
+  "museContributor": {
+    "sourceUrl": "https://www.datacamp.com/tutorial/muse-spark-1-3-tutorial",
+    "author": "Josep Ferrer",
+    "publishedAt": "2026-09-07",
+    "models": [
+      "muse-spark-1.2-contributor",
+      "muse-spark-1.3-contributor"
+    ],
+    "effortRequested": "high",
+    "agent": "Muse Code",
+    "versionsObserved": [
+      "1.0.2",
+      "1.0.3"
+    ],
+    "parallelToolCalls": false,
+    "approvalMode": "never",
+    "repo": "python-humanize/humanize",
+    "repoCommit": "823ad6096e1e5ba82ea876ce761fc2efebd76157",
+    "resetBetweenTasks": false,
+    "trialsPerCell": 1,
+    "allSixRunsPassedTheirTests": true,
+    "costKind": "source calculation, dollar symbol, no independent invoice check",
+    "rows": [
+      {
+        "task": "bug_fix",
+        "sourceModelVersion": "1.2",
+        "completions": 13,
+        "inputTokens": 584063,
+        "cachedInputTokens": 526028,
+        "uncachedInputTokens": 58035,
+        "outputTokens": 1737,
+        "reasoningTokens": 422,
+        "costUsdAsReported": 0.0072
+      },
+      {
+        "task": "bug_fix",
+        "sourceModelVersion": "1.3",
+        "completions": 10,
+        "inputTokens": 373519,
+        "cachedInputTokens": 326649,
+        "uncachedInputTokens": 46870,
+        "outputTokens": 3573,
+        "reasoningTokens": 2150,
+        "costUsdAsReported": 0.0061
+      },
+      {
+        "task": "feature",
+        "sourceModelVersion": "1.2",
+        "completions": 19,
+        "inputTokens": 672060,
+        "cachedInputTokens": 629731,
+        "uncachedInputTokens": 42329,
+        "outputTokens": 7209,
+        "reasoningTokens": 3577,
+        "costUsdAsReported": 0.0069
+      },
+      {
+        "task": "feature",
+        "sourceModelVersion": "1.3",
+        "completions": 13,
+        "inputTokens": 368556,
+        "cachedInputTokens": 335564,
+        "uncachedInputTokens": 32992,
+        "outputTokens": 3315,
+        "reasoningTokens": 1117,
+        "costUsdAsReported": 0.0046
+      },
+      {
+        "task": "refactor",
+        "sourceModelVersion": "1.2",
+        "completions": 33,
+        "inputTokens": 2451691,
+        "cachedInputTokens": 2337184,
+        "uncachedInputTokens": 114507,
+        "outputTokens": 17734,
+        "reasoningTokens": 9203,
+        "costUsdAsReported": 0.0197
+      },
+      {
+        "task": "refactor",
+        "sourceModelVersion": "1.3",
+        "completions": 56,
+        "inputTokens": 4181027,
+        "cachedInputTokens": 4072135,
+        "uncachedInputTokens": 108892,
+        "outputTokens": 40725,
+        "reasoningTokens": 29348,
+        "costUsdAsReported": 0.0272
+      }
+    ],
+    "publishedDeltasPercent": [
+      {
+        "task": "bug_fix",
+        "completions": -23.1,
+        "uncachedInput": -19.2,
+        "output": 105.7,
+        "reasoning": 409.5,
+        "cost": -15.9
+      },
+      {
+        "task": "feature",
+        "completions": -31.6,
+        "uncachedInput": -22.1,
+        "output": -54.0,
+        "reasoning": -68.8,
+        "cost": -33.2
+      },
+      {
+        "task": "refactor",
+        "completions": 69.7,
+        "uncachedInput": -4.9,
+        "output": 129.6,
+        "reasoning": 218.9,
+        "cost": 38.2
+      }
+    ],
+    "publishedAggregateCostIncreasePercent": 12,
+    "standardTierCounterfactualCostUsd": 0.91,
+    "standardTierActuallyTested": false
+  }
+}

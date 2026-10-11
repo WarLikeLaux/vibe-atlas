@@ -18,10 +18,19 @@
         "format": "prettier --write .",
         "format:check": "prettier --check .",
         "check:unused": "knip",
-        "check": "npm run typecheck && npm run validate:data && npm run lint && npm run format:check && npm run check:unused && npm run build",
+        "check": "npm run typecheck && npm run validate:data && npm test && npm run lint && npm run format:check && npm run check:unused && npm run build",
+        "test": "node --experimental-strip-types --test scripts/*.test.ts",
         "validate:data": "node --experimental-strip-types scripts/validate-data.ts",
+        "import:artificial-analysis": "node --experimental-strip-types scripts/import-artificial-analysis.ts",
+        "import:aa-models": "node --experimental-strip-types scripts/import-aa-models.ts",
         "prepare": "husky",
-        "audit:production": "npm audit --omit=dev --audit-level=high"
+        "audit:production": "npm audit --omit=dev --audit-level=high",
+        "import:cursor": "node --experimental-strip-types scripts/import-cursor.ts",
+        "import:terminal-bench": "node --experimental-strip-types scripts/import-terminal-bench.ts",
+        "export:html": "npm run build",
+        "refresh:benchmarks": "node --experimental-strip-types scripts/refresh-benchmarks.ts",
+        "aggregate:research": "node --experimental-strip-types scripts/aggregate-research.ts",
+        "import:research": "node --experimental-strip-types scripts/import-research-benchmarks.ts"
     },
     "dependencies": {
         "@fontsource-variable/manrope": "^5.3.0",

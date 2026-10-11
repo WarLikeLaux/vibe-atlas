@@ -1,0 +1,841 @@
+[
+  [
+    [
+      "",
+      "Model",
+      "Percent correct",
+      "Cost",
+      "Command",
+      "Correct edit format",
+      "Edit Format"
+    ],
+    [
+      "▶",
+      "gpt-5 (high)",
+      "88.0%",
+      "$29.08",
+      "aider --model openai/gpt-5",
+      "91.6%",
+      "diff"
+    ],
+    [
+      "Dirname\n                  \n                  : 2025-08-23-15-47-21--gpt-5-high Test cases\n                  \n                  : 225 Model\n                  \n                  : gpt-5 (high) Edit format\n                  \n                  : diff Commit hash\n                  \n                  : 32faf82 Reasoning effort\n                  \n                  : high Pass rate 1\n                  \n                  : 52.0 Pass rate 2\n                  \n                  : 88.0 Pass num 1\n                  \n                  : 117 Pass num 2\n                  \n                  : 198 Percent cases well formed\n                  \n                  : 91.6 Error outputs\n                  \n                  : 23 Num malformed responses\n                  \n                  : 22 Num with malformed responses\n                  \n                  : 19 User asks\n                  \n                  : 96 Lazy comments\n                  \n                  : 3 Syntax errors\n                  \n                  : 0 Indentation errors\n                  \n                  : 0 Exhausted context windows\n                  \n                  : 0 Prompt tokens\n                  \n                  : 2675561 Completion tokens\n                  \n                  : 2623429 Test timeouts\n                  \n                  : 3 Total tests\n                  \n                  : 225 Command\n                  \n                  : aider --model openai/gpt-5 Date\n                  \n                  : 2025-08-23 Versions\n                  \n                  : 0.86.2.dev Seconds per case\n                  \n                  : 194.0 Total cost\n                  \n                  : 29.0829"
+    ],
+    [
+      "▶",
+      "gpt-5 (medium)",
+      "86.7%",
+      "$17.69",
+      "aider --model openai/gpt-5",
+      "88.4%",
+      "diff"
+    ],
+    [
+      "Dirname\n                  \n                  : 2025-08-25-13-23-27--gpt-5-medium Test cases\n                  \n                  : 225 Model\n                  \n                  : gpt-5 (medium) Edit format\n                  \n                  : diff Commit hash\n                  \n                  : 32faf82 Reasoning effort\n                  \n                  : medium Pass rate 1\n                  \n                  : 49.8 Pass rate 2\n                  \n                  : 86.7 Pass num 1\n                  \n                  : 112 Pass num 2\n                  \n                  : 195 Percent cases well formed\n                  \n                  : 88.4 Error outputs\n                  \n                  : 40 Num malformed responses\n                  \n                  : 40 Num with malformed responses\n                  \n                  : 26 User asks\n                  \n                  : 102 Lazy comments\n                  \n                  : 0 Syntax errors\n                  \n                  : 0 Indentation errors\n                  \n                  : 0 Exhausted context windows\n                  \n                  : 0 Prompt tokens\n                  \n                  : 2827261 Completion tokens\n                  \n                  : 1468799 Test timeouts\n                  \n                  : 0 Total tests\n                  \n                  : 225 Command\n                  \n                  : aider --model openai/gpt-5 Date\n                  \n                  : 2025-08-25 Versions\n                  \n                  : 0.86.2.dev Seconds per case\n                  \n                  : 118.7 Total cost\n                  \n                  : 17.693"
+    ],
+    [
+      "▶",
+      "o3-pro (high)",
+      "84.9%",
+      "$146.32",
+      "aider --model o3-pro",
+      "97.8%",
+      "diff"
+    ],
+    [
+      "Dirname\n                  \n                  : 2025-06-28-00-38-18--o3-pro-high Test cases\n                  \n                  : 225 Model\n                  \n                  : o3-pro (high) Edit format\n                  \n                  : diff Commit hash\n                  \n                  : 5318380 Reasoning effort\n                  \n                  : high Pass rate 1\n                  \n                  : 43.6 Pass rate 2\n                  \n                  : 84.9 Pass num 1\n                  \n                  : 98 Pass num 2\n                  \n                  : 191 Percent cases well formed\n                  \n                  : 97.8 Error outputs\n                  \n                  : 20 Num malformed responses\n                  \n                  : 8 Num with malformed responses\n                  \n                  : 5 User asks\n                  \n                  : 100 Lazy comments\n                  \n                  : 0 Syntax errors\n                  \n                  : 0 Indentation errors\n                  \n                  : 0 Exhausted context windows\n                  \n                  : 0 Prompt tokens\n                  \n                  : 2372636 Completion tokens\n                  \n                  : 1235902 Test timeouts\n                  \n                  : 1 Total tests\n                  \n                  : 225 Command\n                  \n                  : aider --model o3-pro Date\n                  \n                  : 2025-06-28 Versions\n                  \n                  : 0.85.1.dev Seconds per case\n                  \n                  : 449.0 Total cost\n                  \n                  : 146.3249"
+    ],
+    [
+      "▶",
+      "gemini-2.5-pro-preview-06-05 (32k think)",
+      "83.1%",
+      "$49.88",
+      "aider --model gemini/gemini-2.5-pro-preview-06-05 --thinking-tokens 32k",
+      "99.6%",
+      "diff-fenced"
+    ],
+    [
+      "Dirname\n                  \n                  : 2025-06-06-16-36-21--gemini0605-32k-think-diff-fenced Test cases\n                  \n                  : 225 Model\n                  \n                  : gemini-2.5-pro-preview-06-05 (32k think) Edit format\n                  \n                  : diff-fenced Commit hash\n                  \n                  : f827f22 Thinking tokens\n                  \n                  : 32768 Pass rate 1\n                  \n                  : 46.2 Pass rate 2\n                  \n                  : 83.1 Pass num 1\n                  \n                  : 104 Pass num 2\n                  \n                  : 187 Percent cases well formed\n                  \n                  : 99.6 Error outputs\n                  \n                  : 1 Num malformed responses\n                  \n                  : 1 Num with malformed responses\n                  \n                  : 1 User asks\n                  \n                  : 112 Lazy comments\n                  \n                  : 0 Syntax errors\n                  \n                  : 0 Indentation errors\n                  \n                  : 0 Exhausted context windows\n                  \n                  : 0 Prompt tokens\n                  \n                  : 2719961 Completion tokens\n                  \n                  : 4648227 Test timeouts\n                  \n                  : 0 Total tests\n                  \n                  : 225 Command\n                  \n                  : aider --model gemini/gemini-2.5-pro-preview-06-05 --thinking-tokens 32k Date\n                  \n                  : 2025-06-06 Versions\n                  \n                  : 0.84.1.dev Seconds per case\n                  \n                  : 200.3 Total cost\n                  \n                  : 49.8822"
+    ],
+    [
+      "▶",
+      "gpt-5 (low)",
+      "81.3%",
+      "$10.37",
+      "aider --model openai/gpt-5",
+      "86.7%",
+      "diff"
+    ],
+    [
+      "Dirname\n                  \n                  : 2025-08-25-14-16-37--gpt-5-low Test cases\n                  \n                  : 225 Model\n                  \n                  : gpt-5 (low) Edit format\n                  \n                  : diff Commit hash\n                  \n                  : 32faf82 Reasoning effort\n                  \n                  : low Pass rate 1\n                  \n                  : 43.1 Pass rate 2\n                  \n                  : 81.3 Pass num 1\n                  \n                  : 97 Pass num 2\n                  \n                  : 183 Percent cases well formed\n                  \n                  : 86.7 Error outputs\n                  \n                  : 46 Num malformed responses\n                  \n                  : 46 Num with malformed responses\n                  \n                  : 30 User asks\n                  \n                  : 113 Lazy comments\n                  \n                  : 1 Syntax errors\n                  \n                  : 0 Indentation errors\n                  \n                  : 0 Exhausted context windows\n                  \n                  : 0 Prompt tokens\n                  \n                  : 2534059 Completion tokens\n                  \n                  : 779568 Test timeouts\n                  \n                  : 1 Total tests\n                  \n                  : 225 Command\n                  \n                  : aider --model openai/gpt-5 Date\n                  \n                  : 2025-08-25 Versions\n                  \n                  : 0.86.2.dev Seconds per case\n                  \n                  : 62.4 Total cost\n                  \n                  : 10.3713"
+    ],
+    [
+      "▶",
+      "o3 (high)",
+      "81.3%",
+      "$21.23",
+      "aider --model o3 --reasoning-effort high",
+      "94.7%",
+      "diff"
+    ],
+    [
+      "Dirname\n                  \n                  : 2025-06-25-21-04-24--o3-price-reduction-high Test cases\n                  \n                  : 225 Model\n                  \n                  : o3 (high) Edit format\n                  \n                  : diff Commit hash\n                  \n                  : c48fea6 Reasoning effort\n                  \n                  : high Pass rate 1\n                  \n                  : 40.0 Pass rate 2\n                  \n                  : 81.3 Pass num 1\n                  \n                  : 90 Pass num 2\n                  \n                  : 183 Percent cases well formed\n                  \n                  : 94.7 Error outputs\n                  \n                  : 25 Num malformed responses\n                  \n                  : 23 Num with malformed responses\n                  \n                  : 12 User asks\n                  \n                  : 116 Lazy comments\n                  \n                  : 0 Syntax errors\n                  \n                  : 0 Indentation errors\n                  \n                  : 0 Exhausted context windows\n                  \n                  : 1 Prompt tokens\n                  \n                  : 3148932 Completion tokens\n                  \n                  : 2047615 Test timeouts\n                  \n                  : 2 Total tests\n                  \n                  : 225 Command\n                  \n                  : aider --model o3 --reasoning-effort high Date\n                  \n                  : 2025-06-25 Versions\n                  \n                  : 0.84.1.dev Seconds per case\n                  \n                  : 197.3 Total cost\n                  \n                  : 21.2259"
+    ],
+    [
+      "▶",
+      "grok-4 (high)",
+      "79.6%",
+      "$59.62",
+      "aider --model openrouter/x-ai/grok-4",
+      "97.3%",
+      "diff"
+    ],
+    [
+      "Dirname\n                  \n                  : 2025-07-11-19-37-40--xai-or-grok4-high Test cases\n                  \n                  : 225 Model\n                  \n                  : grok-4 (high) Edit format\n                  \n                  : diff Commit hash\n                  \n                  : f7870b6-dirty Reasoning effort\n                  \n                  : high Pass rate 1\n                  \n                  : 40.9 Pass rate 2\n                  \n                  : 79.6 Pass num 1\n                  \n                  : 92 Pass num 2\n                  \n                  : 179 Percent cases well formed\n                  \n                  : 97.3 Error outputs\n                  \n                  : 11 Num malformed responses\n                  \n                  : 8 Num with malformed responses\n                  \n                  : 6 User asks\n                  \n                  : 133 Lazy comments\n                  \n                  : 0 Syntax errors\n                  \n                  : 0 Indentation errors\n                  \n                  : 0 Exhausted context windows\n                  \n                  : 0 Prompt tokens\n                  \n                  : 2815347 Completion tokens\n                  \n                  : 3411480 Test timeouts\n                  \n                  : 0 Total tests\n                  \n                  : 225 Command\n                  \n                  : aider --model openrouter/x-ai/grok-4 Date\n                  \n                  : 2025-07-11 Versions\n                  \n                  : 0.85.2.dev Seconds per case\n                  \n                  : 403.2 Total cost\n                  \n                  : 59.6182"
+    ],
+    [
+      "▶",
+      "gemini-2.5-pro-preview-06-05 (default think)",
+      "79.1%",
+      "$45.6",
+      "aider --model gemini/gemini-2.5-pro-preview-06-05",
+      "100.0%",
+      "diff-fenced"
+    ],
+    [
+      "Dirname\n                  \n                  : 2025-06-06-18-38-56--gemini0605-diff-fenced Test cases\n                  \n                  : 225 Model\n                  \n                  : gemini-2.5-pro-preview-06-05 (default think) Edit format\n                  \n                  : diff-fenced Commit hash\n                  \n                  : 4c161f9-dirty Pass rate 1\n                  \n                  : 44.9 Pass rate 2\n                  \n                  : 79.1 Pass num 1\n                  \n                  : 101 Pass num 2\n                  \n                  : 178 Percent cases well formed\n                  \n                  : 100.0 Error outputs\n                  \n                  : 4 Num malformed responses\n                  \n                  : 0 Num with malformed responses\n                  \n                  : 0 User asks\n                  \n                  : 105 Lazy comments\n                  \n                  : 0 Syntax errors\n                  \n                  : 0 Indentation errors\n                  \n                  : 0 Exhausted context windows\n                  \n                  : 4 Prompt tokens\n                  \n                  : 2751296 Completion tokens\n                  \n                  : 4142197 Test timeouts\n                  \n                  : 1 Total tests\n                  \n                  : 225 Command\n                  \n                  : aider --model gemini/gemini-2.5-pro-preview-06-05 Date\n                  \n                  : 2025-06-06 Versions\n                  \n                  : 0.84.1.dev Seconds per case\n                  \n                  : 175.2 Total cost\n                  \n                  : 45.5961"
+    ],
+    [
+      "▶",
+      "o3 (high) + gpt-4.1",
+      "78.2%",
+      "$17.55",
+      "aider --model o3",
+      "100.0%",
+      "architect"
+    ],
+    [
+      "Dirname\n                  \n                  : 2025-06-27-23-53-57--o3-mini-high-diff-arch Test cases\n                  \n                  : 224 Model\n                  \n                  : o3 (high) + gpt-4.1 Edit format\n                  \n                  : architect Commit hash\n                  \n                  : 4f4f00f-dirty Editor model\n                  \n                  : gpt-4.1 Editor edit format\n                  \n                  : editor-diff Reasoning effort\n                  \n                  : high Pass rate 1\n                  \n                  : 34.8 Pass rate 2\n                  \n                  : 78.2 Pass num 1\n                  \n                  : 78 Pass num 2\n                  \n                  : 176 Percent cases well formed\n                  \n                  : 100.0 Error outputs\n                  \n                  : 18 Num malformed responses\n                  \n                  : 0 Num with malformed responses\n                  \n                  : 0 User asks\n                  \n                  : 172 Lazy comments\n                  \n                  : 0 Syntax errors\n                  \n                  : 0 Indentation errors\n                  \n                  : 0 Exhausted context windows\n                  \n                  : 1 Prompt tokens\n                  \n                  : 1306877 Completion tokens\n                  \n                  : 1327154 Test timeouts\n                  \n                  : 1 Total tests\n                  \n                  : 225 Command\n                  \n                  : aider --model o3 Date\n                  \n                  : 2025-06-27 Versions\n                  \n                  : 0.85.1.dev Seconds per case\n                  \n                  : 121.8 Total cost\n                  \n                  : 17.5518"
+    ],
+    [
+      "▶",
+      "o3",
+      "76.9%",
+      "$13.75",
+      "aider --model o3",
+      "93.8%",
+      "diff"
+    ],
+    [
+      "Dirname\n                  \n                  : 2025-06-25-20-30-16--o3-price-reduction Test cases\n                  \n                  : 225 Model\n                  \n                  : o3 Edit format\n                  \n                  : diff Commit hash\n                  \n                  : c48fea6 Pass rate 1\n                  \n                  : 40.9 Pass rate 2\n                  \n                  : 76.9 Pass num 1\n                  \n                  : 92 Pass num 2\n                  \n                  : 173 Percent cases well formed\n                  \n                  : 93.8 Error outputs\n                  \n                  : 22 Num malformed responses\n                  \n                  : 22 Num with malformed responses\n                  \n                  : 14 User asks\n                  \n                  : 108 Lazy comments\n                  \n                  : 2 Syntax errors\n                  \n                  : 0 Indentation errors\n                  \n                  : 0 Exhausted context windows\n                  \n                  : 0 Prompt tokens\n                  \n                  : 2893189 Completion tokens\n                  \n                  : 1154767 Test timeouts\n                  \n                  : 1 Total tests\n                  \n                  : 225 Command\n                  \n                  : aider --model o3 Date\n                  \n                  : 2025-06-25 Versions\n                  \n                  : 0.84.1.dev Seconds per case\n                  \n                  : 101.7 Total cost\n                  \n                  : 13.7517"
+    ],
+    [
+      "▶",
+      "Gemini 2.5 Pro Preview 05-06",
+      "76.9%",
+      "$37.41",
+      "aider --model gemini/gemini-2.5-pro-preview-05-06",
+      "97.3%",
+      "diff-fenced"
+    ],
+    [
+      "Dirname\n                  \n                  : 2025-05-07-19-32-40--gemini0506-diff-fenced-completion_cost Test cases\n                  \n                  : 225 Model\n                  \n                  : Gemini 2.5 Pro Preview 05-06 Edit format\n                  \n                  : diff-fenced Commit hash\n                  \n                  : 3b08327-dirty Pass rate 1\n                  \n                  : 36.4 Pass rate 2\n                  \n                  : 76.9 Pass num 1\n                  \n                  : 82 Pass num 2\n                  \n                  : 173 Percent cases well formed\n                  \n                  : 97.3 Error outputs\n                  \n                  : 15 Num malformed responses\n                  \n                  : 7 Num with malformed responses\n                  \n                  : 6 User asks\n                  \n                  : 105 Lazy comments\n                  \n                  : 0 Syntax errors\n                  \n                  : 0 Indentation errors\n                  \n                  : 0 Exhausted context windows\n                  \n                  : 0 Test timeouts\n                  \n                  : 2 Total tests\n                  \n                  : 225 Command\n                  \n                  : aider --model gemini/gemini-2.5-pro-preview-05-06 Date\n                  \n                  : 2025-05-07 Versions\n                  \n                  : 0.82.4.dev Seconds per case\n                  \n                  : 165.3 Total cost\n                  \n                  : 37.4104"
+    ],
+    [
+      "▶",
+      "DeepSeek-V3.2-Exp (Reasoner)",
+      "74.2%",
+      "$1.3",
+      "aider --model deepseek/deepseek-reasoner",
+      "97.3%",
+      "diff"
+    ],
+    [
+      "Dirname\n                  \n                  : 2025-10-03-09-45-34--deepseek-v3.2-reasoner Test cases\n                  \n                  : 225 Model\n                  \n                  : DeepSeek-V3.2-Exp (Reasoner) Edit format\n                  \n                  : diff Commit hash\n                  \n                  : cbb5376 Pass rate 1\n                  \n                  : 39.6 Pass rate 2\n                  \n                  : 74.2 Pass num 1\n                  \n                  : 89 Pass num 2\n                  \n                  : 167 Percent cases well formed\n                  \n                  : 97.3 Error outputs\n                  \n                  : 8 Num malformed responses\n                  \n                  : 6 Num with malformed responses\n                  \n                  : 6 User asks\n                  \n                  : 67 Lazy comments\n                  \n                  : 0 Syntax errors\n                  \n                  : 0 Indentation errors\n                  \n                  : 0 Exhausted context windows\n                  \n                  : 1 Prompt tokens\n                  \n                  : 2191446 Completion tokens\n                  \n                  : 1645129 Test timeouts\n                  \n                  : 1 Total tests\n                  \n                  : 225 Command\n                  \n                  : aider --model deepseek/deepseek-reasoner Date\n                  \n                  : 2025-10-03 Versions\n                  \n                  : 0.86.2.dev Seconds per case\n                  \n                  : 291.2 Total cost\n                  \n                  : 1.3045"
+    ],
+    [
+      "▶",
+      "Gemini 2.5 Pro Preview 03-25",
+      "72.9%",
+      "",
+      "aider --model gemini/gemini-2.5-pro-preview-03-25",
+      "92.4%",
+      "diff-fenced"
+    ],
+    [
+      "Dirname\n                  \n                  : 2025-04-12-04-55-50--gemini-25-pro-diff-fenced Test cases\n                  \n                  : 225 Model\n                  \n                  : Gemini 2.5 Pro Preview 03-25 Edit format\n                  \n                  : diff-fenced Commit hash\n                  \n                  : 0282574 Pass rate 1\n                  \n                  : 40.9 Pass rate 2\n                  \n                  : 72.9 Pass num 1\n                  \n                  : 92 Pass num 2\n                  \n                  : 164 Percent cases well formed\n                  \n                  : 92.4 Error outputs\n                  \n                  : 21 Num malformed responses\n                  \n                  : 21 Num with malformed responses\n                  \n                  : 17 User asks\n                  \n                  : 69 Lazy comments\n                  \n                  : 0 Syntax errors\n                  \n                  : 0 Indentation errors\n                  \n                  : 0 Exhausted context windows\n                  \n                  : 0 Test timeouts\n                  \n                  : 2 Total tests\n                  \n                  : 225 Command\n                  \n                  : aider --model gemini/gemini-2.5-pro-preview-03-25 Date\n                  \n                  : 2025-04-12 Versions\n                  \n                  : 0.81.3.dev Seconds per case\n                  \n                  : 45.3 Total cost\n                  \n                  : 0"
+    ],
+    [
+      "▶",
+      "claude-opus-4-20250514 (32k thinking)",
+      "72.0%",
+      "$65.75",
+      "aider --model claude-opus-4-20250514",
+      "97.3%",
+      "diff"
+    ],
+    [
+      "Dirname\n                  \n                  : 2025-05-25-20-40-51--opus4-diff-exuser Test cases\n                  \n                  : 225 Model\n                  \n                  : claude-opus-4-20250514 (32k thinking) Edit format\n                  \n                  : diff Commit hash\n                  \n                  : 9ef3211 Thinking tokens\n                  \n                  : 32000 Pass rate 1\n                  \n                  : 37.3 Pass rate 2\n                  \n                  : 72.0 Pass num 1\n                  \n                  : 84 Pass num 2\n                  \n                  : 162 Percent cases well formed\n                  \n                  : 97.3 Error outputs\n                  \n                  : 10 Num malformed responses\n                  \n                  : 6 Num with malformed responses\n                  \n                  : 6 User asks\n                  \n                  : 97 Lazy comments\n                  \n                  : 0 Syntax errors\n                  \n                  : 0 Indentation errors\n                  \n                  : 0 Exhausted context windows\n                  \n                  : 0 Prompt tokens\n                  \n                  : 2567514 Completion tokens\n                  \n                  : 363142 Test timeouts\n                  \n                  : 4 Total tests\n                  \n                  : 225 Command\n                  \n                  : aider --model claude-opus-4-20250514 Date\n                  \n                  : 2025-05-25 Versions\n                  \n                  : 0.83.3.dev Seconds per case\n                  \n                  : 44.1 Total cost\n                  \n                  : 65.7484"
+    ],
+    [
+      "▶",
+      "o4-mini (high)",
+      "72.0%",
+      "$19.64",
+      "aider --model o4-mini",
+      "90.7%",
+      "diff"
+    ],
+    [
+      "Dirname\n                  \n                  : 2025-04-16-22-01-58--o4-mini-high-diff-exsys Test cases\n                  \n                  : 225 Model\n                  \n                  : o4-mini (high) Edit format\n                  \n                  : diff Commit hash\n                  \n                  : b66901f-dirty Pass rate 1\n                  \n                  : 19.6 Pass rate 2\n                  \n                  : 72.0 Pass num 1\n                  \n                  : 44 Pass num 2\n                  \n                  : 162 Percent cases well formed\n                  \n                  : 90.7 Error outputs\n                  \n                  : 26 Num malformed responses\n                  \n                  : 24 Num with malformed responses\n                  \n                  : 21 User asks\n                  \n                  : 66 Lazy comments\n                  \n                  : 0 Syntax errors\n                  \n                  : 0 Indentation errors\n                  \n                  : 0 Exhausted context windows\n                  \n                  : 1 Test timeouts\n                  \n                  : 2 Total tests\n                  \n                  : 225 Command\n                  \n                  : aider --model o4-mini Date\n                  \n                  : 2025-04-16 Versions\n                  \n                  : 0.82.1.dev Seconds per case\n                  \n                  : 176.5 Total cost\n                  \n                  : 19.6399"
+    ],
+    [
+      "▶",
+      "DeepSeek R1 (0528)",
+      "71.4%",
+      "$4.8",
+      "aider --model deepseek/deepseek-reasoner",
+      "94.6%",
+      "diff"
+    ],
+    [
+      "Dirname\n                  \n                  : 2025-06-06-16-47-07--r1-diff Test cases\n                  \n                  : 224 Model\n                  \n                  : DeepSeek R1 (0528) Edit format\n                  \n                  : diff Commit hash\n                  \n                  : 4c161f9-dirty Pass rate 1\n                  \n                  : 34.4 Pass rate 2\n                  \n                  : 71.4 Pass num 1\n                  \n                  : 77 Pass num 2\n                  \n                  : 160 Percent cases well formed\n                  \n                  : 94.6 Error outputs\n                  \n                  : 28 Num malformed responses\n                  \n                  : 15 Num with malformed responses\n                  \n                  : 12 User asks\n                  \n                  : 105 Lazy comments\n                  \n                  : 0 Syntax errors\n                  \n                  : 0 Indentation errors\n                  \n                  : 0 Exhausted context windows\n                  \n                  : 0 Prompt tokens\n                  \n                  : 2644169 Completion tokens\n                  \n                  : 1842168 Test timeouts\n                  \n                  : 2 Total tests\n                  \n                  : 225 Command\n                  \n                  : aider --model deepseek/deepseek-reasoner Date\n                  \n                  : 2025-06-06 Versions\n                  \n                  : 0.84.1.dev Seconds per case\n                  \n                  : 716.6 Total cost\n                  \n                  : 4.8016"
+    ],
+    [
+      "▶",
+      "claude-opus-4-20250514 (no think)",
+      "70.7%",
+      "$68.63",
+      "aider --model claude-opus-4-20250514",
+      "98.7%",
+      "diff"
+    ],
+    [
+      "Dirname\n                  \n                  : 2025-05-25-19-57-20--opus4-diff-exuser Test cases\n                  \n                  : 225 Model\n                  \n                  : claude-opus-4-20250514 (no think) Edit format\n                  \n                  : diff Commit hash\n                  \n                  : 9ef3211 Pass rate 1\n                  \n                  : 32.9 Pass rate 2\n                  \n                  : 70.7 Pass num 1\n                  \n                  : 74 Pass num 2\n                  \n                  : 159 Percent cases well formed\n                  \n                  : 98.7 Error outputs\n                  \n                  : 3 Num malformed responses\n                  \n                  : 3 Num with malformed responses\n                  \n                  : 3 User asks\n                  \n                  : 105 Lazy comments\n                  \n                  : 0 Syntax errors\n                  \n                  : 0 Indentation errors\n                  \n                  : 0 Exhausted context windows\n                  \n                  : 0 Prompt tokens\n                  \n                  : 2671437 Completion tokens\n                  \n                  : 380717 Test timeouts\n                  \n                  : 3 Total tests\n                  \n                  : 225 Command\n                  \n                  : aider --model claude-opus-4-20250514 Date\n                  \n                  : 2025-05-25 Versions\n                  \n                  : 0.83.3.dev Seconds per case\n                  \n                  : 42.5 Total cost\n                  \n                  : 68.6253"
+    ],
+    [
+      "▶",
+      "DeepSeek-V3.2-Exp (Chat)",
+      "70.2%",
+      "$0.88",
+      "aider --model deepseek/deepseek-chat",
+      "98.2%",
+      "diff"
+    ],
+    [
+      "Dirname\n                  \n                  : 2025-10-03-09-21-36--deepseek-v3.2-chat Test cases\n                  \n                  : 225 Model\n                  \n                  : DeepSeek-V3.2-Exp (Chat) Edit format\n                  \n                  : diff Commit hash\n                  \n                  : cbb5376 Pass rate 1\n                  \n                  : 38.7 Pass rate 2\n                  \n                  : 70.2 Pass num 1\n                  \n                  : 87 Pass num 2\n                  \n                  : 158 Percent cases well formed\n                  \n                  : 98.2 Error outputs\n                  \n                  : 6 Num malformed responses\n                  \n                  : 4 Num with malformed responses\n                  \n                  : 4 User asks\n                  \n                  : 60 Lazy comments\n                  \n                  : 0 Syntax errors\n                  \n                  : 0 Indentation errors\n                  \n                  : 0 Exhausted context windows\n                  \n                  : 1 Prompt tokens\n                  \n                  : 2266868 Completion tokens\n                  \n                  : 573477 Test timeouts\n                  \n                  : 4 Total tests\n                  \n                  : 225 Command\n                  \n                  : aider --model deepseek/deepseek-chat Date\n                  \n                  : 2025-10-03 Versions\n                  \n                  : 0.86.2.dev Seconds per case\n                  \n                  : 104.0 Total cost\n                  \n                  : 0.8756"
+    ],
+    [
+      "▶",
+      "claude-3-7-sonnet-20250219 (32k thinking tokens)",
+      "64.9%",
+      "$36.83",
+      "aider --model anthropic/claude-3-7-sonnet-20250219 --thinking-tokens 32k",
+      "97.8%",
+      "diff"
+    ],
+    [
+      "Dirname\n                  \n                  : 2025-02-24-21-47-23--sonnet37-diff-think-32k-64k Test cases\n                  \n                  : 225 Model\n                  \n                  : claude-3-7-sonnet-20250219 (32k thinking tokens) Edit format\n                  \n                  : diff Commit hash\n                  \n                  : 60d11a6, 93edbda Pass rate 1\n                  \n                  : 29.3 Pass rate 2\n                  \n                  : 64.9 Pass num 1\n                  \n                  : 66 Pass num 2\n                  \n                  : 146 Percent cases well formed\n                  \n                  : 97.8 Error outputs\n                  \n                  : 66 Num malformed responses\n                  \n                  : 5 Num with malformed responses\n                  \n                  : 5 User asks\n                  \n                  : 5 Lazy comments\n                  \n                  : 0 Syntax errors\n                  \n                  : 0 Indentation errors\n                  \n                  : 0 Exhausted context windows\n                  \n                  : 0 Test timeouts\n                  \n                  : 1 Total tests\n                  \n                  : 225 Command\n                  \n                  : aider --model anthropic/claude-3-7-sonnet-20250219 --thinking-tokens 32k Date\n                  \n                  : 2025-02-24 Versions\n                  \n                  : 0.75.1.dev Seconds per case\n                  \n                  : 105.2 Total cost\n                  \n                  : 36.8343"
+    ],
+    [
+      "▶",
+      "DeepSeek R1 + claude-3-5-sonnet-20241022",
+      "64.0%",
+      "$13.29",
+      "aider --architect --model r1 --editor-model sonnet",
+      "100.0%",
+      "architect"
+    ],
+    [
+      "Dirname\n                  \n                  : 2025-01-23-19-14-48--r1-architect-sonnet Test cases\n                  \n                  : 225 Model\n                  \n                  : DeepSeek R1 + claude-3-5-sonnet-20241022 Edit format\n                  \n                  : architect Commit hash\n                  \n                  : 05a77c7 Editor model\n                  \n                  : claude-3-5-sonnet-20241022 Editor edit format\n                  \n                  : editor-diff Pass rate 1\n                  \n                  : 27.1 Pass rate 2\n                  \n                  : 64.0 Pass num 1\n                  \n                  : 61 Pass num 2\n                  \n                  : 144 Percent cases well formed\n                  \n                  : 100.0 Error outputs\n                  \n                  : 2 Num malformed responses\n                  \n                  : 0 Num with malformed responses\n                  \n                  : 0 User asks\n                  \n                  : 392 Lazy comments\n                  \n                  : 6 Syntax errors\n                  \n                  : 0 Indentation errors\n                  \n                  : 0 Exhausted context windows\n                  \n                  : 0 Test timeouts\n                  \n                  : 5 Total tests\n                  \n                  : 225 Command\n                  \n                  : aider --architect --model r1 --editor-model sonnet Date\n                  \n                  : 2025-01-23 Versions\n                  \n                  : 0.72.3.dev Seconds per case\n                  \n                  : 251.6 Total cost\n                  \n                  : 13.2933"
+    ],
+    [
+      "▶",
+      "o1-2024-12-17 (high)",
+      "61.7%",
+      "$186.5",
+      "aider --model openrouter/openai/o1",
+      "91.5%",
+      "diff"
+    ],
+    [
+      "Dirname\n                  \n                  : 2024-12-21-19-23-03--polyglot-o1-hard-diff Test cases\n                  \n                  : 224 Model\n                  \n                  : o1-2024-12-17 (high) Edit format\n                  \n                  : diff Commit hash\n                  \n                  : a755079-dirty Pass rate 1\n                  \n                  : 23.7 Pass rate 2\n                  \n                  : 61.7 Pass num 1\n                  \n                  : 53 Pass num 2\n                  \n                  : 139 Percent cases well formed\n                  \n                  : 91.5 Error outputs\n                  \n                  : 25 Num malformed responses\n                  \n                  : 24 Num with malformed responses\n                  \n                  : 19 User asks\n                  \n                  : 16 Lazy comments\n                  \n                  : 0 Syntax errors\n                  \n                  : 0 Indentation errors\n                  \n                  : 0 Exhausted context windows\n                  \n                  : 0 Test timeouts\n                  \n                  : 2 Total tests\n                  \n                  : 225 Command\n                  \n                  : aider --model openrouter/openai/o1 Date\n                  \n                  : 2024-12-21 Versions\n                  \n                  : 0.69.2.dev Seconds per case\n                  \n                  : 133.2 Total cost\n                  \n                  : 186.4958"
+    ],
+    [
+      "▶",
+      "claude-sonnet-4-20250514 (32k thinking)",
+      "61.3%",
+      "$26.58",
+      "aider --model claude-sonnet-4-20250514",
+      "97.3%",
+      "diff"
+    ],
+    [
+      "Dirname\n                  \n                  : 2025-05-24-22-10-36--sonnet4-diff-exuser-think32k Test cases\n                  \n                  : 225 Model\n                  \n                  : claude-sonnet-4-20250514 (32k thinking) Edit format\n                  \n                  : diff Commit hash\n                  \n                  : e3cb907 Thinking tokens\n                  \n                  : 32000 Pass rate 1\n                  \n                  : 25.8 Pass rate 2\n                  \n                  : 61.3 Pass num 1\n                  \n                  : 58 Pass num 2\n                  \n                  : 138 Percent cases well formed\n                  \n                  : 97.3 Error outputs\n                  \n                  : 10 Num malformed responses\n                  \n                  : 10 Num with malformed responses\n                  \n                  : 6 User asks\n                  \n                  : 111 Lazy comments\n                  \n                  : 0 Syntax errors\n                  \n                  : 0 Indentation errors\n                  \n                  : 0 Exhausted context windows\n                  \n                  : 0 Prompt tokens\n                  \n                  : 2863068 Completion tokens\n                  \n                  : 1271074 Test timeouts\n                  \n                  : 6 Total tests\n                  \n                  : 225 Command\n                  \n                  : aider --model claude-sonnet-4-20250514 Date\n                  \n                  : 2025-05-24 Versions\n                  \n                  : 0.83.3.dev Seconds per case\n                  \n                  : 79.9 Total cost\n                  \n                  : 26.5755"
+    ],
+    [
+      "▶",
+      "claude-3-7-sonnet-20250219 (no thinking)",
+      "60.4%",
+      "$17.72",
+      "aider --model sonnet",
+      "93.3%",
+      "diff"
+    ],
+    [
+      "Dirname\n                  \n                  : 2025-02-24-19-54-07--sonnet37-diff Test cases\n                  \n                  : 225 Model\n                  \n                  : claude-3-7-sonnet-20250219 (no thinking) Edit format\n                  \n                  : diff Commit hash\n                  \n                  : 75e9ee6 Pass rate 1\n                  \n                  : 24.4 Pass rate 2\n                  \n                  : 60.4 Pass num 1\n                  \n                  : 55 Pass num 2\n                  \n                  : 136 Percent cases well formed\n                  \n                  : 93.3 Error outputs\n                  \n                  : 16 Num malformed responses\n                  \n                  : 16 Num with malformed responses\n                  \n                  : 15 User asks\n                  \n                  : 12 Lazy comments\n                  \n                  : 0 Syntax errors\n                  \n                  : 0 Indentation errors\n                  \n                  : 0 Exhausted context windows\n                  \n                  : 0 Test timeouts\n                  \n                  : 0 Total tests\n                  \n                  : 225 Command\n                  \n                  : aider --model sonnet Date\n                  \n                  : 2025-02-24 Versions\n                  \n                  : 0.74.4.dev Seconds per case\n                  \n                  : 28.3 Total cost\n                  \n                  : 17.7191"
+    ],
+    [
+      "▶",
+      "o3-mini (high)",
+      "60.4%",
+      "$18.16",
+      "aider --model o3-mini --reasoning-effort high",
+      "93.3%",
+      "diff"
+    ],
+    [
+      "Dirname\n                  \n                  : 2025-01-31-20-42-47--o3-mini-diff-high Test cases\n                  \n                  : 224 Model\n                  \n                  : o3-mini (high) Edit format\n                  \n                  : diff Commit hash\n                  \n                  : b0d58d1-dirty Pass rate 1\n                  \n                  : 21.0 Pass rate 2\n                  \n                  : 60.4 Pass num 1\n                  \n                  : 47 Pass num 2\n                  \n                  : 136 Percent cases well formed\n                  \n                  : 93.3 Error outputs\n                  \n                  : 26 Num malformed responses\n                  \n                  : 24 Num with malformed responses\n                  \n                  : 15 User asks\n                  \n                  : 19 Lazy comments\n                  \n                  : 0 Syntax errors\n                  \n                  : 0 Indentation errors\n                  \n                  : 0 Exhausted context windows\n                  \n                  : 1 Test timeouts\n                  \n                  : 7 Total tests\n                  \n                  : 225 Command\n                  \n                  : aider --model o3-mini --reasoning-effort high Date\n                  \n                  : 2025-01-31 Versions\n                  \n                  : 0.72.4.dev Seconds per case\n                  \n                  : 124.6 Total cost\n                  \n                  : 18.1584"
+    ],
+    [
+      "▶",
+      "Qwen3 235B A22B diff, no think, Alibaba API",
+      "59.6%",
+      "",
+      "aider --model openai/qwen3-235b-a22b",
+      "92.9%",
+      "diff"
+    ],
+    [
+      "Dirname\n                  \n                  : 2025-05-09-17-02-02--qwen3-235b-a22b.unthink_16k_diff Test cases\n                  \n                  : 225 Model\n                  \n                  : Qwen3 235B A22B diff, no think, Alibaba API Edit format\n                  \n                  : diff Commit hash\n                  \n                  : 91d7fbd-dirty Pass rate 1\n                  \n                  : 28.9 Pass rate 2\n                  \n                  : 59.6 Pass num 1\n                  \n                  : 65 Pass num 2\n                  \n                  : 134 Percent cases well formed\n                  \n                  : 92.9 Error outputs\n                  \n                  : 22 Num malformed responses\n                  \n                  : 22 Num with malformed responses\n                  \n                  : 16 User asks\n                  \n                  : 111 Lazy comments\n                  \n                  : 0 Syntax errors\n                  \n                  : 0 Indentation errors\n                  \n                  : 0 Exhausted context windows\n                  \n                  : 0 Prompt tokens\n                  \n                  : 2816192 Completion tokens\n                  \n                  : 342062 Test timeouts\n                  \n                  : 1 Total tests\n                  \n                  : 225 Command\n                  \n                  : aider --model openai/qwen3-235b-a22b Date\n                  \n                  : 2025-05-09 Versions\n                  \n                  : 0.82.4.dev Seconds per case\n                  \n                  : 45.4 Total cost\n                  \n                  : 0.0"
+    ],
+    [
+      "▶",
+      "Kimi K2",
+      "59.1%",
+      "$1.24",
+      "aider --model openrouter/moonshotai/kimi-k2",
+      "92.9%",
+      "diff"
+    ],
+    [
+      "Dirname\n                  \n                  : 2025-07-17-17-41-54--kimi-k2-diff-or-pricing Test cases\n                  \n                  : 225 Model\n                  \n                  : Kimi K2 Edit format\n                  \n                  : diff Commit hash\n                  \n                  : 915ebff-dirty Pass rate 1\n                  \n                  : 20.4 Pass rate 2\n                  \n                  : 59.1 Pass num 1\n                  \n                  : 46 Pass num 2\n                  \n                  : 133 Percent cases well formed\n                  \n                  : 92.9 Error outputs\n                  \n                  : 19 Num malformed responses\n                  \n                  : 19 Num with malformed responses\n                  \n                  : 16 User asks\n                  \n                  : 61 Lazy comments\n                  \n                  : 0 Syntax errors\n                  \n                  : 0 Indentation errors\n                  \n                  : 0 Exhausted context windows\n                  \n                  : 0 Prompt tokens\n                  \n                  : 2355141 Completion tokens\n                  \n                  : 363846 Test timeouts\n                  \n                  : 4 Total tests\n                  \n                  : 225 Command\n                  \n                  : aider --model openrouter/moonshotai/kimi-k2 Date\n                  \n                  : 2025-07-17 Versions\n                  \n                  : 0.85.3.dev Seconds per case\n                  \n                  : 67.6 Total cost\n                  \n                  : 1.2357"
+    ],
+    [
+      "▶",
+      "DeepSeek R1",
+      "56.9%",
+      "$5.42",
+      "aider --model deepseek/deepseek-reasoner",
+      "96.9%",
+      "diff"
+    ],
+    [
+      "Dirname\n                  \n                  : 2025-01-20-19-11-38--ds-turns-upd-cur-msgs-fix-with-summarizer Test cases\n                  \n                  : 225 Model\n                  \n                  : DeepSeek R1 Edit format\n                  \n                  : diff Commit hash\n                  \n                  : 5650697-dirty Pass rate 1\n                  \n                  : 26.7 Pass rate 2\n                  \n                  : 56.9 Pass num 1\n                  \n                  : 60 Pass num 2\n                  \n                  : 128 Percent cases well formed\n                  \n                  : 96.9 Error outputs\n                  \n                  : 8 Num malformed responses\n                  \n                  : 7 Num with malformed responses\n                  \n                  : 7 User asks\n                  \n                  : 15 Lazy comments\n                  \n                  : 0 Syntax errors\n                  \n                  : 0 Indentation errors\n                  \n                  : 0 Exhausted context windows\n                  \n                  : 1 Test timeouts\n                  \n                  : 5 Total tests\n                  \n                  : 225 Command\n                  \n                  : aider --model deepseek/deepseek-reasoner Date\n                  \n                  : 2025-01-20 Versions\n                  \n                  : 0.71.2.dev Seconds per case\n                  \n                  : 113.7 Total cost\n                  \n                  : 5.4193"
+    ],
+    [
+      "▶",
+      "claude-sonnet-4-20250514 (no thinking)",
+      "56.4%",
+      "$15.82",
+      "aider --model claude-sonnet-4-20250514",
+      "98.2%",
+      "diff"
+    ],
+    [
+      "Dirname\n                  \n                  : 2025-05-24-21-17-54--sonnet4-diff-exuser Test cases\n                  \n                  : 225 Model\n                  \n                  : claude-sonnet-4-20250514 (no thinking) Edit format\n                  \n                  : diff Commit hash\n                  \n                  : ef3f8bb-dirty Pass rate 1\n                  \n                  : 20.4 Pass rate 2\n                  \n                  : 56.4 Pass num 1\n                  \n                  : 46 Pass num 2\n                  \n                  : 127 Percent cases well formed\n                  \n                  : 98.2 Error outputs\n                  \n                  : 6 Num malformed responses\n                  \n                  : 4 Num with malformed responses\n                  \n                  : 4 User asks\n                  \n                  : 129 Lazy comments\n                  \n                  : 0 Syntax errors\n                  \n                  : 0 Indentation errors\n                  \n                  : 0 Exhausted context windows\n                  \n                  : 1 Prompt tokens\n                  \n                  : 3460663 Completion tokens\n                  \n                  : 433373 Test timeouts\n                  \n                  : 7 Total tests\n                  \n                  : 225 Command\n                  \n                  : aider --model claude-sonnet-4-20250514 Date\n                  \n                  : 2025-05-24 Versions\n                  \n                  : 0.83.3.dev Seconds per case\n                  \n                  : 29.8 Total cost\n                  \n                  : 15.8155"
+    ],
+    [
+      "▶",
+      "gemini-2.5-flash-preview-05-20 (24k think)",
+      "55.1%",
+      "$8.56",
+      "aider --model gemini/gemini-2.5-flash-preview-05-20",
+      "95.6%",
+      "diff"
+    ],
+    [
+      "Dirname\n                  \n                  : 2025-05-25-22-58-44--flash25-05-20-24k-think Test cases\n                  \n                  : 225 Model\n                  \n                  : gemini-2.5-flash-preview-05-20 (24k think) Edit format\n                  \n                  : diff Commit hash\n                  \n                  : a8568c3-dirty Thinking tokens\n                  \n                  : 24576 Pass rate 1\n                  \n                  : 26.2 Pass rate 2\n                  \n                  : 55.1 Pass num 1\n                  \n                  : 59 Pass num 2\n                  \n                  : 124 Percent cases well formed\n                  \n                  : 95.6 Error outputs\n                  \n                  : 15 Num malformed responses\n                  \n                  : 15 Num with malformed responses\n                  \n                  : 10 User asks\n                  \n                  : 101 Lazy comments\n                  \n                  : 0 Syntax errors\n                  \n                  : 0 Indentation errors\n                  \n                  : 0 Exhausted context windows\n                  \n                  : 0 Prompt tokens\n                  \n                  : 3666792 Completion tokens\n                  \n                  : 2703162 Test timeouts\n                  \n                  : 4 Total tests\n                  \n                  : 225 Command\n                  \n                  : aider --model gemini/gemini-2.5-flash-preview-05-20 Date\n                  \n                  : 2025-05-25 Versions\n                  \n                  : 0.83.3.dev Seconds per case\n                  \n                  : 53.9 Total cost\n                  \n                  : 8.5625"
+    ],
+    [
+      "▶",
+      "DeepSeek V3 (0324)",
+      "55.1%",
+      "$1.12",
+      "aider --model deepseek/deepseek-chat",
+      "99.6%",
+      "diff"
+    ],
+    [
+      "Dirname\n                  \n                  : 2025-03-24-15-41-33--deepseek-v3-0324-polyglot-diff Test cases\n                  \n                  : 225 Model\n                  \n                  : DeepSeek V3 (0324) Edit format\n                  \n                  : diff Commit hash\n                  \n                  : 502b863 Pass rate 1\n                  \n                  : 28.0 Pass rate 2\n                  \n                  : 55.1 Pass num 1\n                  \n                  : 63 Pass num 2\n                  \n                  : 124 Percent cases well formed\n                  \n                  : 99.6 Error outputs\n                  \n                  : 32 Num malformed responses\n                  \n                  : 1 Num with malformed responses\n                  \n                  : 1 User asks\n                  \n                  : 96 Lazy comments\n                  \n                  : 0 Syntax errors\n                  \n                  : 0 Indentation errors\n                  \n                  : 0 Exhausted context windows\n                  \n                  : 2 Test timeouts\n                  \n                  : 4 Total tests\n                  \n                  : 225 Command\n                  \n                  : aider --model deepseek/deepseek-chat Date\n                  \n                  : 2025-03-24 Versions\n                  \n                  : 0.78.1.dev Seconds per case\n                  \n                  : 290.0 Total cost\n                  \n                  : 1.1164"
+    ],
+    [
+      "▶",
+      "Quasar Alpha",
+      "54.7%",
+      "",
+      "aider --model openrouter/openrouter/quasar-alpha",
+      "98.2%",
+      "diff"
+    ],
+    [
+      "Dirname\n                  \n                  : 2025-04-04-02-57-25--qalpha-diff-exsys Test cases\n                  \n                  : 225 Model\n                  \n                  : Quasar Alpha Edit format\n                  \n                  : diff Commit hash\n                  \n                  : 8a34a6c-dirty Pass rate 1\n                  \n                  : 21.8 Pass rate 2\n                  \n                  : 54.7 Pass num 1\n                  \n                  : 49 Pass num 2\n                  \n                  : 123 Percent cases well formed\n                  \n                  : 98.2 Error outputs\n                  \n                  : 4 Num malformed responses\n                  \n                  : 4 Num with malformed responses\n                  \n                  : 4 User asks\n                  \n                  : 187 Lazy comments\n                  \n                  : 0 Syntax errors\n                  \n                  : 0 Indentation errors\n                  \n                  : 0 Exhausted context windows\n                  \n                  : 0 Test timeouts\n                  \n                  : 4 Total tests\n                  \n                  : 225 Command\n                  \n                  : aider --model openrouter/openrouter/quasar-alpha Date\n                  \n                  : 2025-04-04 Versions\n                  \n                  : 0.80.5.dev Seconds per case\n                  \n                  : 14.8 Total cost\n                  \n                  : 0.0"
+    ],
+    [
+      "▶",
+      "o3-mini (medium)",
+      "53.8%",
+      "$8.86",
+      "aider --model o3-mini",
+      "95.1%",
+      "diff"
+    ],
+    [
+      "Dirname\n                  \n                  : 2025-01-31-20-27-46--o3-mini-diff2 Test cases\n                  \n                  : 225 Model\n                  \n                  : o3-mini (medium) Edit format\n                  \n                  : diff Commit hash\n                  \n                  : 2fb517b-dirty Pass rate 1\n                  \n                  : 19.1 Pass rate 2\n                  \n                  : 53.8 Pass num 1\n                  \n                  : 43 Pass num 2\n                  \n                  : 121 Percent cases well formed\n                  \n                  : 95.1 Error outputs\n                  \n                  : 28 Num malformed responses\n                  \n                  : 28 Num with malformed responses\n                  \n                  : 11 User asks\n                  \n                  : 17 Lazy comments\n                  \n                  : 0 Syntax errors\n                  \n                  : 0 Indentation errors\n                  \n                  : 0 Exhausted context windows\n                  \n                  : 0 Test timeouts\n                  \n                  : 2 Total tests\n                  \n                  : 225 Command\n                  \n                  : aider --model o3-mini Date\n                  \n                  : 2025-01-31 Versions\n                  \n                  : 0.72.4.dev Seconds per case\n                  \n                  : 47.2 Total cost\n                  \n                  : 8.8599"
+    ],
+    [
+      "▶",
+      "Grok 3 Beta",
+      "53.3%",
+      "$11.03",
+      "aider --model openrouter/x-ai/grok-3-beta",
+      "99.6%",
+      "diff"
+    ],
+    [
+      "Dirname\n                  \n                  : 2025-04-10-04-21-31--grok3-diff-exuser Test cases\n                  \n                  : 225 Model\n                  \n                  : Grok 3 Beta Edit format\n                  \n                  : diff Commit hash\n                  \n                  : 2dd40fc-dirty Pass rate 1\n                  \n                  : 22.2 Pass rate 2\n                  \n                  : 53.3 Pass num 1\n                  \n                  : 50 Pass num 2\n                  \n                  : 120 Percent cases well formed\n                  \n                  : 99.6 Error outputs\n                  \n                  : 1 Num malformed responses\n                  \n                  : 1 Num with malformed responses\n                  \n                  : 1 User asks\n                  \n                  : 68 Lazy comments\n                  \n                  : 0 Syntax errors\n                  \n                  : 0 Indentation errors\n                  \n                  : 0 Exhausted context windows\n                  \n                  : 0 Test timeouts\n                  \n                  : 2 Total tests\n                  \n                  : 225 Command\n                  \n                  : aider --model openrouter/x-ai/grok-3-beta Date\n                  \n                  : 2025-04-10 Versions\n                  \n                  : 0.81.2.dev Seconds per case\n                  \n                  : 15.3 Total cost\n                  \n                  : 11.0338"
+    ],
+    [
+      "▶",
+      "Optimus Alpha",
+      "52.9%",
+      "",
+      "aider --model openrouter/openrouter/optimus-alpha",
+      "97.3%",
+      "diff"
+    ],
+    [
+      "Dirname\n                  \n                  : 2025-04-10-19-02-44--oalpha-diff-exsys Test cases\n                  \n                  : 225 Model\n                  \n                  : Optimus Alpha Edit format\n                  \n                  : diff Commit hash\n                  \n                  : 532bc45-dirty Pass rate 1\n                  \n                  : 21.3 Pass rate 2\n                  \n                  : 52.9 Pass num 1\n                  \n                  : 48 Pass num 2\n                  \n                  : 119 Percent cases well formed\n                  \n                  : 97.3 Error outputs\n                  \n                  : 7 Num malformed responses\n                  \n                  : 6 Num with malformed responses\n                  \n                  : 6 User asks\n                  \n                  : 182 Lazy comments\n                  \n                  : 0 Syntax errors\n                  \n                  : 0 Indentation errors\n                  \n                  : 0 Exhausted context windows\n                  \n                  : 0 Test timeouts\n                  \n                  : 3 Total tests\n                  \n                  : 225 Command\n                  \n                  : aider --model openrouter/openrouter/optimus-alpha Date\n                  \n                  : 2025-04-10 Versions\n                  \n                  : 0.81.2.dev Seconds per case\n                  \n                  : 18.4 Total cost\n                  \n                  : 0.0"
+    ],
+    [
+      "▶",
+      "gpt-4.1",
+      "52.4%",
+      "$9.86",
+      "aider --model gpt-4.1",
+      "98.2%",
+      "diff"
+    ],
+    [
+      "Dirname\n                  \n                  : 2025-04-14-21-05-54--gpt41-diff-exuser Test cases\n                  \n                  : 225 Model\n                  \n                  : gpt-4.1 Edit format\n                  \n                  : diff Commit hash\n                  \n                  : 7a87db5-dirty Pass rate 1\n                  \n                  : 20.0 Pass rate 2\n                  \n                  : 52.4 Pass num 1\n                  \n                  : 45 Pass num 2\n                  \n                  : 118 Percent cases well formed\n                  \n                  : 98.2 Error outputs\n                  \n                  : 6 Num malformed responses\n                  \n                  : 5 Num with malformed responses\n                  \n                  : 4 User asks\n                  \n                  : 171 Lazy comments\n                  \n                  : 0 Syntax errors\n                  \n                  : 0 Indentation errors\n                  \n                  : 0 Exhausted context windows\n                  \n                  : 1 Test timeouts\n                  \n                  : 5 Total tests\n                  \n                  : 225 Command\n                  \n                  : aider --model gpt-4.1 Date\n                  \n                  : 2025-04-14 Versions\n                  \n                  : 0.81.4.dev Seconds per case\n                  \n                  : 20.5 Total cost\n                  \n                  : 9.8556"
+    ],
+    [
+      "▶",
+      "claude-3-5-sonnet-20241022",
+      "51.6%",
+      "$14.41",
+      "aider --model claude-3-5-sonnet-20241022",
+      "99.6%",
+      "diff"
+    ],
+    [
+      "Dirname\n                  \n                  : 2025-01-17-19-44-33--sonnet-baseline-jan-17 Test cases\n                  \n                  : 225 Model\n                  \n                  : claude-3-5-sonnet-20241022 Edit format\n                  \n                  : diff Commit hash\n                  \n                  : 6451d59 Pass rate 1\n                  \n                  : 22.2 Pass rate 2\n                  \n                  : 51.6 Pass num 1\n                  \n                  : 50 Pass num 2\n                  \n                  : 116 Percent cases well formed\n                  \n                  : 99.6 Error outputs\n                  \n                  : 2 Num malformed responses\n                  \n                  : 1 Num with malformed responses\n                  \n                  : 1 User asks\n                  \n                  : 11 Lazy comments\n                  \n                  : 0 Syntax errors\n                  \n                  : 0 Indentation errors\n                  \n                  : 0 Exhausted context windows\n                  \n                  : 1 Test timeouts\n                  \n                  : 8 Total tests\n                  \n                  : 225 Command\n                  \n                  : aider --model claude-3-5-sonnet-20241022 Date\n                  \n                  : 2025-01-17 Versions\n                  \n                  : 0.71.2.dev Seconds per case\n                  \n                  : 21.4 Total cost\n                  \n                  : 14.4063"
+    ],
+    [
+      "▶",
+      "Grok 3 Mini Beta (high)",
+      "49.3%",
+      "$0.73",
+      "aider --model xai/grok-3-mini-beta --reasoning-effort high",
+      "99.6%",
+      "whole"
+    ],
+    [
+      "Dirname\n                  \n                  : 2025-04-10-23-59-02--xai-grok3-mini-whole-high Test cases\n                  \n                  : 225 Model\n                  \n                  : Grok 3 Mini Beta (high) Edit format\n                  \n                  : whole Commit hash\n                  \n                  : 8ee33da-dirty Pass rate 1\n                  \n                  : 17.3 Pass rate 2\n                  \n                  : 49.3 Pass num 1\n                  \n                  : 39 Pass num 2\n                  \n                  : 111 Percent cases well formed\n                  \n                  : 99.6 Error outputs\n                  \n                  : 1 Num malformed responses\n                  \n                  : 1 Num with malformed responses\n                  \n                  : 1 User asks\n                  \n                  : 64 Lazy comments\n                  \n                  : 0 Syntax errors\n                  \n                  : 0 Indentation errors\n                  \n                  : 0 Exhausted context windows\n                  \n                  : 0 Test timeouts\n                  \n                  : 0 Total tests\n                  \n                  : 225 Command\n                  \n                  : aider --model xai/grok-3-mini-beta --reasoning-effort high Date\n                  \n                  : 2025-04-10 Versions\n                  \n                  : 0.81.3.dev Seconds per case\n                  \n                  : 79.1 Total cost\n                  \n                  : 0.7346"
+    ],
+    [
+      "▶",
+      "DeepSeek Chat V3 (prev)",
+      "48.4%",
+      "$0.34",
+      "aider --model deepseek/deepseek-chat",
+      "98.7%",
+      "diff"
+    ],
+    [
+      "Dirname\n                  \n                  : 2024-12-25-13-31-51--deepseekv3preview-diff2 Test cases\n                  \n                  : 225 Model\n                  \n                  : DeepSeek Chat V3 (prev) Edit format\n                  \n                  : diff Commit hash\n                  \n                  : 0a23c4a-dirty Pass rate 1\n                  \n                  : 22.7 Pass rate 2\n                  \n                  : 48.4 Pass num 1\n                  \n                  : 51 Pass num 2\n                  \n                  : 109 Percent cases well formed\n                  \n                  : 98.7 Error outputs\n                  \n                  : 7 Num malformed responses\n                  \n                  : 7 Num with malformed responses\n                  \n                  : 3 User asks\n                  \n                  : 19 Lazy comments\n                  \n                  : 0 Syntax errors\n                  \n                  : 0 Indentation errors\n                  \n                  : 0 Exhausted context windows\n                  \n                  : 0 Test timeouts\n                  \n                  : 8 Total tests\n                  \n                  : 225 Command\n                  \n                  : aider --model deepseek/deepseek-chat Date\n                  \n                  : 2024-12-25 Versions\n                  \n                  : 0.69.2.dev Seconds per case\n                  \n                  : 34.8 Total cost\n                  \n                  : 0.3369"
+    ],
+    [
+      "▶",
+      "gemini-2.5-flash-preview-04-17 (default)",
+      "47.1%",
+      "$1.85",
+      "aider --model gemini/gemini-2.5-flash-preview-04-17",
+      "85.3%",
+      "diff"
+    ],
+    [
+      "Dirname\n                  \n                  : 2025-04-20-19-54-31--flash25-diff-no-think Test cases\n                  \n                  : 225 Model\n                  \n                  : gemini-2.5-flash-preview-04-17 (default) Edit format\n                  \n                  : diff Commit hash\n                  \n                  : 7fcce5d-dirty Pass rate 1\n                  \n                  : 21.8 Pass rate 2\n                  \n                  : 47.1 Pass num 1\n                  \n                  : 49 Pass num 2\n                  \n                  : 106 Percent cases well formed\n                  \n                  : 85.3 Error outputs\n                  \n                  : 60 Num malformed responses\n                  \n                  : 55 Num with malformed responses\n                  \n                  : 33 User asks\n                  \n                  : 82 Lazy comments\n                  \n                  : 1 Syntax errors\n                  \n                  : 0 Indentation errors\n                  \n                  : 0 Exhausted context windows\n                  \n                  : 5 Test timeouts\n                  \n                  : 4 Total tests\n                  \n                  : 225 Command\n                  \n                  : aider --model gemini/gemini-2.5-flash-preview-04-17 Date\n                  \n                  : 2025-04-20 Versions\n                  \n                  : 0.82.3.dev Seconds per case\n                  \n                  : 50.1 Total cost\n                  \n                  : 1.8451"
+    ],
+    [
+      "▶",
+      "chatgpt-4o-latest (2025-03-29)",
+      "45.3%",
+      "$19.74",
+      "aider --model chatgpt-4o-latest",
+      "64.4%",
+      "diff"
+    ],
+    [
+      "Dirname\n                  \n                  : 2025-03-29-05-24-55--chatgpt4o-mar28-diff Test cases\n                  \n                  : 225 Model\n                  \n                  : chatgpt-4o-latest (2025-03-29) Edit format\n                  \n                  : diff Commit hash\n                  \n                  : 0decbad Pass rate 1\n                  \n                  : 16.4 Pass rate 2\n                  \n                  : 45.3 Pass num 1\n                  \n                  : 37 Pass num 2\n                  \n                  : 102 Percent cases well formed\n                  \n                  : 64.4 Error outputs\n                  \n                  : 85 Num malformed responses\n                  \n                  : 85 Num with malformed responses\n                  \n                  : 80 User asks\n                  \n                  : 174 Lazy comments\n                  \n                  : 0 Syntax errors\n                  \n                  : 0 Indentation errors\n                  \n                  : 0 Exhausted context windows\n                  \n                  : 0 Test timeouts\n                  \n                  : 4 Total tests\n                  \n                  : 225 Command\n                  \n                  : aider --model chatgpt-4o-latest Date\n                  \n                  : 2025-03-29 Versions\n                  \n                  : 0.79.3.dev Seconds per case\n                  \n                  : 10.3 Total cost\n                  \n                  : 19.7416"
+    ],
+    [
+      "▶",
+      "gpt-4.5-preview",
+      "44.9%",
+      "$183.18",
+      "aider --model openai/gpt-4.5-preview",
+      "97.3%",
+      "diff"
+    ],
+    [
+      "Dirname\n                  \n                  : 2025-02-27-20-26-15--gpt45-diff3 Test cases\n                  \n                  : 224 Model\n                  \n                  : gpt-4.5-preview Edit format\n                  \n                  : diff Commit hash\n                  \n                  : b462e55-dirty Pass rate 1\n                  \n                  : 22.3 Pass rate 2\n                  \n                  : 44.9 Pass num 1\n                  \n                  : 50 Pass num 2\n                  \n                  : 101 Percent cases well formed\n                  \n                  : 97.3 Error outputs\n                  \n                  : 10 Num malformed responses\n                  \n                  : 8 Num with malformed responses\n                  \n                  : 6 User asks\n                  \n                  : 15 Lazy comments\n                  \n                  : 0 Syntax errors\n                  \n                  : 0 Indentation errors\n                  \n                  : 0 Exhausted context windows\n                  \n                  : 1 Test timeouts\n                  \n                  : 2 Total tests\n                  \n                  : 225 Command\n                  \n                  : aider --model openai/gpt-4.5-preview Date\n                  \n                  : 2025-02-27 Versions\n                  \n                  : 0.75.2.dev Seconds per case\n                  \n                  : 113.5 Total cost\n                  \n                  : 183.1802"
+    ],
+    [
+      "▶",
+      "gemini-2.5-flash-preview-05-20 (no think)",
+      "44.0%",
+      "$1.14",
+      "aider --model gemini/gemini-2.5-flash-preview-05-20",
+      "93.8%",
+      "diff"
+    ],
+    [
+      "Dirname\n                  \n                  : 2025-05-26-15-56-31--flash25-05-20-24k-think Test cases\n                  \n                  : 225 Model\n                  \n                  : gemini-2.5-flash-preview-05-20 (no think) Edit format\n                  \n                  : diff Commit hash\n                  \n                  : 214b811-dirty Thinking tokens\n                  \n                  : 0 Pass rate 1\n                  \n                  : 20.9 Pass rate 2\n                  \n                  : 44.0 Pass num 1\n                  \n                  : 47 Pass num 2\n                  \n                  : 99 Percent cases well formed\n                  \n                  : 93.8 Error outputs\n                  \n                  : 16 Num malformed responses\n                  \n                  : 16 Num with malformed responses\n                  \n                  : 14 User asks\n                  \n                  : 79 Lazy comments\n                  \n                  : 0 Syntax errors\n                  \n                  : 0 Indentation errors\n                  \n                  : 0 Exhausted context windows\n                  \n                  : 0 Prompt tokens\n                  \n                  : 5512458 Completion tokens\n                  \n                  : 514145 Test timeouts\n                  \n                  : 4 Total tests\n                  \n                  : 225 Command\n                  \n                  : aider --model gemini/gemini-2.5-flash-preview-05-20 Date\n                  \n                  : 2025-05-26 Versions\n                  \n                  : 0.83.3.dev Seconds per case\n                  \n                  : 12.2 Total cost\n                  \n                  : 1.1354"
+    ],
+    [
+      "▶",
+      "gpt-oss-120b (high)",
+      "41.8%",
+      "$0.74",
+      "aider --model openrouter/openai/gpt-oss-120b --reasoning-effort high",
+      "79.1%",
+      "diff"
+    ],
+    [
+      "Dirname\n                  \n                  : 2025-08-06-04-54-48--gpt-oss-120b-high-polyglot Test cases\n                  \n                  : 225 Model\n                  \n                  : gpt-oss-120b (high) Edit format\n                  \n                  : diff Commit hash\n                  \n                  : 1af0e59 Pass rate 1\n                  \n                  : 13.8 Pass rate 2\n                  \n                  : 41.8 Pass num 1\n                  \n                  : 31 Pass num 2\n                  \n                  : 94 Percent cases well formed\n                  \n                  : 79.1 Error outputs\n                  \n                  : 95 Num malformed responses\n                  \n                  : 77 Num with malformed responses\n                  \n                  : 47 User asks\n                  \n                  : 142 Lazy comments\n                  \n                  : 0 Syntax errors\n                  \n                  : 0 Indentation errors\n                  \n                  : 0 Exhausted context windows\n                  \n                  : 0 Prompt tokens\n                  \n                  : 3123768 Completion tokens\n                  \n                  : 856495 Test timeouts\n                  \n                  : 4 Total tests\n                  \n                  : 225 Command\n                  \n                  : aider --model openrouter/openai/gpt-oss-120b --reasoning-effort high Date\n                  \n                  : 2025-08-06 Versions\n                  \n                  : 0.85.3.dev Seconds per case\n                  \n                  : 35.5 Total cost\n                  \n                  : 0.7406"
+    ],
+    [
+      "▶",
+      "Qwen3 32B",
+      "40.0%",
+      "$0.76",
+      "aider --model openrouter/qwen/qwen3-32b",
+      "83.6%",
+      "diff"
+    ],
+    [
+      "Dirname\n                  \n                  : 2025-05-08-03-20-24--qwen3-32b-default Test cases\n                  \n                  : 225 Model\n                  \n                  : Qwen3 32B Edit format\n                  \n                  : diff Commit hash\n                  \n                  : aaacee5-dirty, aeaf259 Pass rate 1\n                  \n                  : 14.2 Pass rate 2\n                  \n                  : 40.0 Pass num 1\n                  \n                  : 32 Pass num 2\n                  \n                  : 90 Percent cases well formed\n                  \n                  : 83.6 Error outputs\n                  \n                  : 119 Num malformed responses\n                  \n                  : 50 Num with malformed responses\n                  \n                  : 37 User asks\n                  \n                  : 97 Lazy comments\n                  \n                  : 0 Syntax errors\n                  \n                  : 0 Indentation errors\n                  \n                  : 0 Exhausted context windows\n                  \n                  : 12 Prompt tokens\n                  \n                  : 317591 Completion tokens\n                  \n                  : 120418 Test timeouts\n                  \n                  : 5 Total tests\n                  \n                  : 225 Command\n                  \n                  : aider --model openrouter/qwen/qwen3-32b Date\n                  \n                  : 2025-05-08 Versions\n                  \n                  : 0.82.4.dev Seconds per case\n                  \n                  : 372.2 Total cost\n                  \n                  : 0.7603"
+    ],
+    [
+      "▶",
+      "gemini-exp-1206",
+      "38.2%",
+      "",
+      "aider --model gemini/gemini-exp-1206",
+      "98.2%",
+      "whole"
+    ],
+    [
+      "Dirname\n                  \n                  : 2024-12-22-18-43-25--gemini-exp-1206-polyglot-whole-2 Test cases\n                  \n                  : 225 Model\n                  \n                  : gemini-exp-1206 Edit format\n                  \n                  : whole Commit hash\n                  \n                  : b1bc2f8 Pass rate 1\n                  \n                  : 19.6 Pass rate 2\n                  \n                  : 38.2 Pass num 1\n                  \n                  : 44 Pass num 2\n                  \n                  : 86 Percent cases well formed\n                  \n                  : 98.2 Error outputs\n                  \n                  : 8 Num malformed responses\n                  \n                  : 8 Num with malformed responses\n                  \n                  : 4 User asks\n                  \n                  : 32 Lazy comments\n                  \n                  : 0 Syntax errors\n                  \n                  : 0 Indentation errors\n                  \n                  : 0 Exhausted context windows\n                  \n                  : 0 Test timeouts\n                  \n                  : 9 Total tests\n                  \n                  : 225 Command\n                  \n                  : aider --model gemini/gemini-exp-1206 Date\n                  \n                  : 2024-12-22 Versions\n                  \n                  : 0.69.2.dev Seconds per case\n                  \n                  : 45.5 Total cost\n                  \n                  : 0.0"
+    ],
+    [
+      "▶",
+      "Gemini 2.0 Pro exp-02-05",
+      "35.6%",
+      "",
+      "aider --model gemini/gemini-2.0-pro-exp-02-05",
+      "100.0%",
+      "whole"
+    ],
+    [
+      "Dirname\n                  \n                  : 2025-02-25-20-23-07--gemini-pro Test cases\n                  \n                  : 225 Model\n                  \n                  : Gemini 2.0 Pro exp-02-05 Edit format\n                  \n                  : whole Commit hash\n                  \n                  : 2fccd47 Pass rate 1\n                  \n                  : 20.4 Pass rate 2\n                  \n                  : 35.6 Pass num 1\n                  \n                  : 46 Pass num 2\n                  \n                  : 80 Percent cases well formed\n                  \n                  : 100.0 Error outputs\n                  \n                  : 430 Num malformed responses\n                  \n                  : 0 Num with malformed responses\n                  \n                  : 0 User asks\n                  \n                  : 13 Lazy comments\n                  \n                  : 0 Syntax errors\n                  \n                  : 0 Indentation errors\n                  \n                  : 0 Exhausted context windows\n                  \n                  : 0 Test timeouts\n                  \n                  : 5 Total tests\n                  \n                  : 225 Command\n                  \n                  : aider --model gemini/gemini-2.0-pro-exp-02-05 Date\n                  \n                  : 2025-02-25 Versions\n                  \n                  : 0.75.2.dev Seconds per case\n                  \n                  : 34.8 Total cost\n                  \n                  : 0.0"
+    ],
+    [
+      "▶",
+      "Grok 3 Mini Beta (low)",
+      "34.7%",
+      "$0.79",
+      "aider --model openrouter/x-ai/grok-3-mini-beta",
+      "100.0%",
+      "whole"
+    ],
+    [
+      "Dirname\n                  \n                  : 2025-04-10-18-47-24--grok3-mini-whole-exuser Test cases\n                  \n                  : 225 Model\n                  \n                  : Grok 3 Mini Beta (low) Edit format\n                  \n                  : whole Commit hash\n                  \n                  : 14ffe77-dirty Pass rate 1\n                  \n                  : 11.1 Pass rate 2\n                  \n                  : 34.7 Pass num 1\n                  \n                  : 25 Pass num 2\n                  \n                  : 78 Percent cases well formed\n                  \n                  : 100.0 Error outputs\n                  \n                  : 3 Num malformed responses\n                  \n                  : 0 Num with malformed responses\n                  \n                  : 0 User asks\n                  \n                  : 73 Lazy comments\n                  \n                  : 0 Syntax errors\n                  \n                  : 0 Indentation errors\n                  \n                  : 0 Exhausted context windows\n                  \n                  : 0 Test timeouts\n                  \n                  : 5 Total tests\n                  \n                  : 225 Command\n                  \n                  : aider --model openrouter/x-ai/grok-3-mini-beta Date\n                  \n                  : 2025-04-10 Versions\n                  \n                  : 0.81.2.dev Seconds per case\n                  \n                  : 35.1 Total cost\n                  \n                  : 0.7856"
+    ],
+    [
+      "▶",
+      "o1-mini-2024-09-12",
+      "32.9%",
+      "$18.58",
+      "aider --model o1-mini",
+      "96.9%",
+      "whole"
+    ],
+    [
+      "Dirname\n                  \n                  : 2024-12-22-21-26-35--polyglot-o1mini-whole Test cases\n                  \n                  : 225 Model\n                  \n                  : o1-mini-2024-09-12 Edit format\n                  \n                  : whole Commit hash\n                  \n                  : 37df899 Pass rate 1\n                  \n                  : 5.8 Pass rate 2\n                  \n                  : 32.9 Pass num 1\n                  \n                  : 13 Pass num 2\n                  \n                  : 74 Percent cases well formed\n                  \n                  : 96.9 Error outputs\n                  \n                  : 8 Num malformed responses\n                  \n                  : 8 Num with malformed responses\n                  \n                  : 7 User asks\n                  \n                  : 27 Lazy comments\n                  \n                  : 0 Syntax errors\n                  \n                  : 0 Indentation errors\n                  \n                  : 0 Exhausted context windows\n                  \n                  : 0 Test timeouts\n                  \n                  : 3 Total tests\n                  \n                  : 225 Command\n                  \n                  : aider --model o1-mini Date\n                  \n                  : 2024-12-22 Versions\n                  \n                  : 0.69.2.dev Seconds per case\n                  \n                  : 34.7 Total cost\n                  \n                  : 18.577"
+    ],
+    [
+      "▶",
+      "gpt-4.1-mini",
+      "32.4%",
+      "$1.99",
+      "aider --model gpt-4.1-mini",
+      "92.4%",
+      "diff"
+    ],
+    [
+      "Dirname\n                  \n                  : 2025-04-14-21-27-53--gpt41mini-diff Test cases\n                  \n                  : 225 Model\n                  \n                  : gpt-4.1-mini Edit format\n                  \n                  : diff Commit hash\n                  \n                  : ffb743e-dirty Pass rate 1\n                  \n                  : 11.1 Pass rate 2\n                  \n                  : 32.4 Pass num 1\n                  \n                  : 25 Pass num 2\n                  \n                  : 73 Percent cases well formed\n                  \n                  : 92.4 Error outputs\n                  \n                  : 64 Num malformed responses\n                  \n                  : 62 Num with malformed responses\n                  \n                  : 17 User asks\n                  \n                  : 159 Lazy comments\n                  \n                  : 0 Syntax errors\n                  \n                  : 0 Indentation errors\n                  \n                  : 0 Exhausted context windows\n                  \n                  : 2 Test timeouts\n                  \n                  : 2 Total tests\n                  \n                  : 225 Command\n                  \n                  : aider --model gpt-4.1-mini Date\n                  \n                  : 2025-04-14 Versions\n                  \n                  : 0.81.4.dev Seconds per case\n                  \n                  : 19.5 Total cost\n                  \n                  : 1.9918"
+    ],
+    [
+      "▶",
+      "claude-3-5-haiku-20241022",
+      "28.0%",
+      "$6.06",
+      "aider --model claude-3-5-haiku-20241022",
+      "91.1%",
+      "diff"
+    ],
+    [
+      "Dirname\n                  \n                  : 2024-12-21-21-46-27--polyglot-haiku-diff Test cases\n                  \n                  : 225 Model\n                  \n                  : claude-3-5-haiku-20241022 Edit format\n                  \n                  : diff Commit hash\n                  \n                  : a755079-dirty Pass rate 1\n                  \n                  : 7.1 Pass rate 2\n                  \n                  : 28.0 Pass num 1\n                  \n                  : 16 Pass num 2\n                  \n                  : 63 Percent cases well formed\n                  \n                  : 91.1 Error outputs\n                  \n                  : 31 Num malformed responses\n                  \n                  : 30 Num with malformed responses\n                  \n                  : 20 User asks\n                  \n                  : 13 Lazy comments\n                  \n                  : 0 Syntax errors\n                  \n                  : 0 Indentation errors\n                  \n                  : 0 Exhausted context windows\n                  \n                  : 1 Test timeouts\n                  \n                  : 9 Total tests\n                  \n                  : 225 Command\n                  \n                  : aider --model claude-3-5-haiku-20241022 Date\n                  \n                  : 2024-12-21 Versions\n                  \n                  : 0.69.2.dev Seconds per case\n                  \n                  : 31.8 Total cost\n                  \n                  : 6.0583"
+    ],
+    [
+      "▶",
+      "chatgpt-4o-latest (2025-02-15)",
+      "27.1%",
+      "$14.37",
+      "aider --model chatgpt-4o-latest",
+      "93.3%",
+      "diff"
+    ],
+    [
+      "Dirname\n                  \n                  : 2025-02-15-19-51-22--chatgpt4o-feb15-diff Test cases\n                  \n                  : 223 Model\n                  \n                  : chatgpt-4o-latest (2025-02-15) Edit format\n                  \n                  : diff Commit hash\n                  \n                  : 108ce18-dirty Pass rate 1\n                  \n                  : 9.0 Pass rate 2\n                  \n                  : 27.1 Pass num 1\n                  \n                  : 20 Pass num 2\n                  \n                  : 61 Percent cases well formed\n                  \n                  : 93.3 Error outputs\n                  \n                  : 66 Num malformed responses\n                  \n                  : 21 Num with malformed responses\n                  \n                  : 15 User asks\n                  \n                  : 57 Lazy comments\n                  \n                  : 0 Syntax errors\n                  \n                  : 0 Indentation errors\n                  \n                  : 0 Exhausted context windows\n                  \n                  : 0 Test timeouts\n                  \n                  : 2 Total tests\n                  \n                  : 225 Command\n                  \n                  : aider --model chatgpt-4o-latest Date\n                  \n                  : 2025-02-15 Versions\n                  \n                  : 0.74.3.dev Seconds per case\n                  \n                  : 12.4 Total cost\n                  \n                  : 14.3703"
+    ],
+    [
+      "▶",
+      "QwQ-32B + Qwen 2.5 Coder Instruct",
+      "26.2%",
+      "",
+      "aider --model fireworks_ai/accounts/fireworks/models/qwq-32b --architect",
+      "100.0%",
+      "architect"
+    ],
+    [
+      "Dirname\n                  \n                  : 2025-03-07-15-11-27--qwq32b-arch-temp-topp-again Test cases\n                  \n                  : 225 Model\n                  \n                  : QwQ-32B + Qwen 2.5 Coder Instruct Edit format\n                  \n                  : architect Commit hash\n                  \n                  : 52162a5 Editor model\n                  \n                  : fireworks_ai/accounts/fireworks/models/qwen2p5-coder-32b-instruct Editor edit format\n                  \n                  : editor-diff Pass rate 1\n                  \n                  : 9.8 Pass rate 2\n                  \n                  : 26.2 Pass num 1\n                  \n                  : 22 Pass num 2\n                  \n                  : 59 Percent cases well formed\n                  \n                  : 100.0 Error outputs\n                  \n                  : 122 Num malformed responses\n                  \n                  : 0 Num with malformed responses\n                  \n                  : 0 User asks\n                  \n                  : 489 Lazy comments\n                  \n                  : 8 Syntax errors\n                  \n                  : 0 Indentation errors\n                  \n                  : 0 Exhausted context windows\n                  \n                  : 1 Test timeouts\n                  \n                  : 2 Total tests\n                  \n                  : 225 Command\n                  \n                  : aider --model fireworks_ai/accounts/fireworks/models/qwq-32b --architect Date\n                  \n                  : 2025-03-07 Versions\n                  \n                  : 0.75.3.dev Seconds per case\n                  \n                  : 137.4 Total cost\n                  \n                  : 0"
+    ],
+    [
+      "▶",
+      "gpt-4o-2024-08-06",
+      "23.1%",
+      "$7.03",
+      "aider --model gpt-4o-2024-08-06",
+      "94.2%",
+      "diff"
+    ],
+    [
+      "Dirname\n                  \n                  : 2024-12-30-20-44-54--gpt4o-ex-as-sys-clean-prompt Test cases\n                  \n                  : 225 Model\n                  \n                  : gpt-4o-2024-08-06 Edit format\n                  \n                  : diff Commit hash\n                  \n                  : 09ee197-dirty Pass rate 1\n                  \n                  : 4.9 Pass rate 2\n                  \n                  : 23.1 Pass num 1\n                  \n                  : 11 Pass num 2\n                  \n                  : 52 Percent cases well formed\n                  \n                  : 94.2 Error outputs\n                  \n                  : 21 Num malformed responses\n                  \n                  : 21 Num with malformed responses\n                  \n                  : 13 User asks\n                  \n                  : 65 Lazy comments\n                  \n                  : 0 Syntax errors\n                  \n                  : 0 Indentation errors\n                  \n                  : 0 Exhausted context windows\n                  \n                  : 0 Test timeouts\n                  \n                  : 3 Total tests\n                  \n                  : 225 Command\n                  \n                  : aider --model gpt-4o-2024-08-06 Date\n                  \n                  : 2024-12-30 Versions\n                  \n                  : 0.70.1.dev Seconds per case\n                  \n                  : 16.0 Total cost\n                  \n                  : 7.0286"
+    ],
+    [
+      "▶",
+      "gemini-2.0-flash-exp",
+      "22.2%",
+      "",
+      "aider --model gemini/gemini-2.0-flash-exp",
+      "100.0%",
+      "whole"
+    ],
+    [
+      "Dirname\n                  \n                  : 2024-12-22-20-08-13--gemini-2.0-flash-exp-polyglot-whole Test cases\n                  \n                  : 225 Model\n                  \n                  : gemini-2.0-flash-exp Edit format\n                  \n                  : whole Commit hash\n                  \n                  : b1bc2f8 Pass rate 1\n                  \n                  : 11.6 Pass rate 2\n                  \n                  : 22.2 Pass num 1\n                  \n                  : 26 Pass num 2\n                  \n                  : 50 Percent cases well formed\n                  \n                  : 100.0 Error outputs\n                  \n                  : 1 Num malformed responses\n                  \n                  : 0 Num with malformed responses\n                  \n                  : 0 User asks\n                  \n                  : 9 Lazy comments\n                  \n                  : 0 Syntax errors\n                  \n                  : 0 Indentation errors\n                  \n                  : 0 Exhausted context windows\n                  \n                  : 1 Test timeouts\n                  \n                  : 8 Total tests\n                  \n                  : 225 Command\n                  \n                  : aider --model gemini/gemini-2.0-flash-exp Date\n                  \n                  : 2024-12-22 Versions\n                  \n                  : 0.69.2.dev Seconds per case\n                  \n                  : 12.2 Total cost\n                  \n                  : 0.0"
+    ],
+    [
+      "▶",
+      "qwen-max-2025-01-25",
+      "21.8%",
+      "",
+      "OPENAI_API_BASE=https://dashscope-intl.aliyuncs.com/compatible-mode/v1 aider --model openai/qwen-max-2025-01-25",
+      "90.2%",
+      "diff"
+    ],
+    [
+      "Dirname\n                  \n                  : 2025-01-28-16-00-03--qwen-max-2025-01-25-polyglot-diff Test cases\n                  \n                  : 225 Model\n                  \n                  : qwen-max-2025-01-25 Edit format\n                  \n                  : diff Commit hash\n                  \n                  : ae7d459 Pass rate 1\n                  \n                  : 9.3 Pass rate 2\n                  \n                  : 21.8 Pass num 1\n                  \n                  : 21 Pass num 2\n                  \n                  : 49 Percent cases well formed\n                  \n                  : 90.2 Error outputs\n                  \n                  : 46 Num malformed responses\n                  \n                  : 44 Num with malformed responses\n                  \n                  : 22 User asks\n                  \n                  : 23 Lazy comments\n                  \n                  : 0 Syntax errors\n                  \n                  : 0 Indentation errors\n                  \n                  : 0 Exhausted context windows\n                  \n                  : 0 Test timeouts\n                  \n                  : 9 Total tests\n                  \n                  : 225 Command\n                  \n                  : OPENAI_API_BASE=https://dashscope-intl.aliyuncs.com/compatible-mode/v1 aider --model openai/qwen-max-2025-01-25 Date\n                  \n                  : 2025-01-28 Versions\n                  \n                  : 0.72.4.dev Seconds per case\n                  \n                  : 39.5"
+    ],
+    [
+      "▶",
+      "QwQ-32B",
+      "20.9%",
+      "",
+      "aider --model fireworks_ai/accounts/fireworks/models/qwq-32b",
+      "67.6%",
+      "diff"
+    ],
+    [
+      "Dirname\n                  \n                  : 2025-03-06-17-40-24--qwq32b-diff-temp-topp-ex-sys-remind-user-for-real Test cases\n                  \n                  : 225 Model\n                  \n                  : QwQ-32B Edit format\n                  \n                  : diff Commit hash\n                  \n                  : 51d118f-dirty Pass rate 1\n                  \n                  : 8.0 Pass rate 2\n                  \n                  : 20.9 Pass num 1\n                  \n                  : 18 Pass num 2\n                  \n                  : 47 Percent cases well formed\n                  \n                  : 67.6 Error outputs\n                  \n                  : 145 Num malformed responses\n                  \n                  : 143 Num with malformed responses\n                  \n                  : 73 User asks\n                  \n                  : 17 Lazy comments\n                  \n                  : 0 Syntax errors\n                  \n                  : 0 Indentation errors\n                  \n                  : 0 Exhausted context windows\n                  \n                  : 1 Test timeouts\n                  \n                  : 4 Total tests\n                  \n                  : 225 Command\n                  \n                  : aider --model fireworks_ai/accounts/fireworks/models/qwq-32b Date\n                  \n                  : 2025-03-06 Versions\n                  \n                  : 0.75.3.dev Seconds per case\n                  \n                  : 228.6 Total cost\n                  \n                  : 0.0"
+    ],
+    [
+      "▶",
+      "gemini-2.0-flash-thinking-exp-01-21",
+      "18.2%",
+      "",
+      "aider --model gemini/gemini-2.0-flash-thinking-exp-01-21",
+      "77.8%",
+      "diff"
+    ],
+    [
+      "Dirname\n                  \n                  : 2025-01-21-22-51-49--gemini-2.0-flash-thinking-exp-01-21-polyglot-diff Test cases\n                  \n                  : 225 Model\n                  \n                  : gemini-2.0-flash-thinking-exp-01-21 Edit format\n                  \n                  : diff Commit hash\n                  \n                  : 843720a Pass rate 1\n                  \n                  : 5.8 Pass rate 2\n                  \n                  : 18.2 Pass num 1\n                  \n                  : 13 Pass num 2\n                  \n                  : 41 Percent cases well formed\n                  \n                  : 77.8 Error outputs\n                  \n                  : 182 Num malformed responses\n                  \n                  : 180 Num with malformed responses\n                  \n                  : 50 User asks\n                  \n                  : 26 Lazy comments\n                  \n                  : 0 Syntax errors\n                  \n                  : 0 Indentation errors\n                  \n                  : 0 Exhausted context windows\n                  \n                  : 2 Test timeouts\n                  \n                  : 7 Total tests\n                  \n                  : 225 Command\n                  \n                  : aider --model gemini/gemini-2.0-flash-thinking-exp-01-21 Date\n                  \n                  : 2025-01-21 Versions\n                  \n                  : 0.72.2.dev Seconds per case\n                  \n                  : 24.2 Total cost\n                  \n                  : 0.0"
+    ],
+    [
+      "▶",
+      "gpt-4o-2024-11-20",
+      "18.2%",
+      "$6.74",
+      "aider --model gpt-4o-2024-11-20",
+      "95.1%",
+      "diff"
+    ],
+    [
+      "Dirname\n                  \n                  : 2024-12-30-20-57-12--gpt-4o-2024-11-20-ex-as-sys Test cases\n                  \n                  : 225 Model\n                  \n                  : gpt-4o-2024-11-20 Edit format\n                  \n                  : diff Commit hash\n                  \n                  : 09ee197-dirty Pass rate 1\n                  \n                  : 4.9 Pass rate 2\n                  \n                  : 18.2 Pass num 1\n                  \n                  : 11 Pass num 2\n                  \n                  : 41 Percent cases well formed\n                  \n                  : 95.1 Error outputs\n                  \n                  : 12 Num malformed responses\n                  \n                  : 12 Num with malformed responses\n                  \n                  : 11 User asks\n                  \n                  : 53 Lazy comments\n                  \n                  : 0 Syntax errors\n                  \n                  : 0 Indentation errors\n                  \n                  : 0 Exhausted context windows\n                  \n                  : 0 Test timeouts\n                  \n                  : 12 Total tests\n                  \n                  : 225 Command\n                  \n                  : aider --model gpt-4o-2024-11-20 Date\n                  \n                  : 2024-12-30 Versions\n                  \n                  : 0.70.1.dev Seconds per case\n                  \n                  : 12.1 Total cost\n                  \n                  : 6.7351"
+    ],
+    [
+      "▶",
+      "DeepSeek Chat V2.5",
+      "17.8%",
+      "$0.51",
+      "aider --model deepseek/deepseek-chat",
+      "92.9%",
+      "diff"
+    ],
+    [
+      "Dirname\n                  \n                  : 2024-12-21-20-56-21--polyglot-deepseek-diff Test cases\n                  \n                  : 225 Model\n                  \n                  : DeepSeek Chat V2.5 Edit format\n                  \n                  : diff Commit hash\n                  \n                  : a755079-dirty Pass rate 1\n                  \n                  : 5.3 Pass rate 2\n                  \n                  : 17.8 Pass num 1\n                  \n                  : 12 Pass num 2\n                  \n                  : 40 Percent cases well formed\n                  \n                  : 92.9 Error outputs\n                  \n                  : 42 Num malformed responses\n                  \n                  : 37 Num with malformed responses\n                  \n                  : 16 User asks\n                  \n                  : 23 Lazy comments\n                  \n                  : 0 Syntax errors\n                  \n                  : 0 Indentation errors\n                  \n                  : 0 Exhausted context windows\n                  \n                  : 5 Test timeouts\n                  \n                  : 5 Total tests\n                  \n                  : 225 Command\n                  \n                  : aider --model deepseek/deepseek-chat Date\n                  \n                  : 2024-12-21 Versions\n                  \n                  : 0.69.2.dev Seconds per case\n                  \n                  : 184.0 Total cost\n                  \n                  : 0.5101"
+    ],
+    [
+      "▶",
+      "Qwen2.5-Coder-32B-Instruct",
+      "16.4%",
+      "",
+      "aider --model openai/Qwen2.5-Coder-32B-Instruct",
+      "99.6%",
+      "whole"
+    ],
+    [
+      "Dirname\n                  \n                  : 2024-12-26-00-55-20--Qwen2.5-Coder-32B-Instruct Test cases\n                  \n                  : 225 Model\n                  \n                  : Qwen2.5-Coder-32B-Instruct Edit format\n                  \n                  : whole Commit hash\n                  \n                  : b51768b0 Pass rate 1\n                  \n                  : 4.9 Pass rate 2\n                  \n                  : 16.4 Pass num 1\n                  \n                  : 11 Pass num 2\n                  \n                  : 37 Percent cases well formed\n                  \n                  : 99.6 Error outputs\n                  \n                  : 1 Num malformed responses\n                  \n                  : 1 Num with malformed responses\n                  \n                  : 1 User asks\n                  \n                  : 33 Lazy comments\n                  \n                  : 0 Syntax errors\n                  \n                  : 0 Indentation errors\n                  \n                  : 0 Exhausted context windows\n                  \n                  : 0 Test timeouts\n                  \n                  : 6 Total tests\n                  \n                  : 225 Command\n                  \n                  : aider --model openai/Qwen2.5-Coder-32B-Instruct Date\n                  \n                  : 2024-12-26 Versions\n                  \n                  : 0.69.2.dev Seconds per case\n                  \n                  : 42.0 Total cost\n                  \n                  : 0.0"
+    ],
+    [
+      "▶",
+      "Llama 4 Maverick",
+      "15.6%",
+      "",
+      "aider --model nvidia_nim/meta/llama-4-maverick-17b-128e-instruct",
+      "99.1%",
+      "whole"
+    ],
+    [
+      "Dirname\n                  \n                  : 2025-04-06-08-39-52--llama-4-maverick-17b-128e-instruct-polyglot-whole Test cases\n                  \n                  : 225 Model\n                  \n                  : Llama 4 Maverick Edit format\n                  \n                  : whole Commit hash\n                  \n                  : 9445a31 Pass rate 1\n                  \n                  : 4.4 Pass rate 2\n                  \n                  : 15.6 Pass num 1\n                  \n                  : 10 Pass num 2\n                  \n                  : 35 Percent cases well formed\n                  \n                  : 99.1 Error outputs\n                  \n                  : 12 Num malformed responses\n                  \n                  : 2 Num with malformed responses\n                  \n                  : 2 User asks\n                  \n                  : 248 Lazy comments\n                  \n                  : 0 Syntax errors\n                  \n                  : 0 Indentation errors\n                  \n                  : 0 Exhausted context windows\n                  \n                  : 0 Test timeouts\n                  \n                  : 4 Total tests\n                  \n                  : 225 Command\n                  \n                  : aider --model nvidia_nim/meta/llama-4-maverick-17b-128e-instruct Date\n                  \n                  : 2025-04-06 Versions\n                  \n                  : 0.81.2.dev Seconds per case\n                  \n                  : 20.5 Total cost\n                  \n                  : 0.0"
+    ],
+    [
+      "▶",
+      "yi-lightning",
+      "12.9%",
+      "",
+      "aider --model openai/yi-lightning",
+      "92.9%",
+      "whole"
+    ],
+    [
+      "Dirname\n                  \n                  : 2024-12-23-01-11-56--yi-test Test cases\n                  \n                  : 225 Model\n                  \n                  : yi-lightning Edit format\n                  \n                  : whole Commit hash\n                  \n                  : 2b1625e Pass rate 1\n                  \n                  : 5.8 Pass rate 2\n                  \n                  : 12.9 Pass num 1\n                  \n                  : 13 Pass num 2\n                  \n                  : 29 Percent cases well formed\n                  \n                  : 92.9 Error outputs\n                  \n                  : 87 Num malformed responses\n                  \n                  : 72 Num with malformed responses\n                  \n                  : 16 User asks\n                  \n                  : 107 Lazy comments\n                  \n                  : 0 Syntax errors\n                  \n                  : 0 Indentation errors\n                  \n                  : 0 Exhausted context windows\n                  \n                  : 1 Test timeouts\n                  \n                  : 6 Total tests\n                  \n                  : 225 Command\n                  \n                  : aider --model openai/yi-lightning Date\n                  \n                  : 2024-12-23 Versions\n                  \n                  : 0.69.2.dev Seconds per case\n                  \n                  : 146.7 Total cost\n                  \n                  : 0.0"
+    ],
+    [
+      "▶",
+      "command-a-03-2025-quality",
+      "12.0%",
+      "",
+      "OPENAI_API_BASE=https://api.cohere.ai/compatibility/v1 aider --model openai/command-a-03-2025-quality",
+      "99.6%",
+      "whole"
+    ],
+    [
+      "Dirname\n                  \n                  : 2025-03-14-23-40-00--cmda-quality-whole2 Test cases\n                  \n                  : 225 Model\n                  \n                  : command-a-03-2025-quality Edit format\n                  \n                  : whole Commit hash\n                  \n                  : a1aa63f Pass rate 1\n                  \n                  : 2.2 Pass rate 2\n                  \n                  : 12.0 Pass num 1\n                  \n                  : 5 Pass num 2\n                  \n                  : 27 Percent cases well formed\n                  \n                  : 99.6 Error outputs\n                  \n                  : 2 Num malformed responses\n                  \n                  : 1 Num with malformed responses\n                  \n                  : 1 User asks\n                  \n                  : 215 Lazy comments\n                  \n                  : 0 Syntax errors\n                  \n                  : 0 Indentation errors\n                  \n                  : 0 Exhausted context windows\n                  \n                  : 1 Test timeouts\n                  \n                  : 4 Total tests\n                  \n                  : 225 Command\n                  \n                  : OPENAI_API_BASE=https://api.cohere.ai/compatibility/v1 aider --model openai/command-a-03-2025-quality Date\n                  \n                  : 2025-03-14 Versions\n                  \n                  : 0.77.1.dev Seconds per case\n                  \n                  : 85.1 Total cost\n                  \n                  : 0.0"
+    ],
+    [
+      "▶",
+      "Codestral 25.01",
+      "11.1%",
+      "$1.98",
+      "aider --model mistral/codestral-latest",
+      "100.0%",
+      "whole"
+    ],
+    [
+      "Dirname\n                  \n                  : 2025-01-13-18-17-25--codestral-whole2 Test cases\n                  \n                  : 225 Model\n                  \n                  : Codestral 25.01 Edit format\n                  \n                  : whole Commit hash\n                  \n                  : 0cba898-dirty Pass rate 1\n                  \n                  : 4.0 Pass rate 2\n                  \n                  : 11.1 Pass num 1\n                  \n                  : 9 Pass num 2\n                  \n                  : 25 Percent cases well formed\n                  \n                  : 100.0 Error outputs\n                  \n                  : 0 Num malformed responses\n                  \n                  : 0 Num with malformed responses\n                  \n                  : 0 User asks\n                  \n                  : 47 Lazy comments\n                  \n                  : 0 Syntax errors\n                  \n                  : 0 Indentation errors\n                  \n                  : 0 Exhausted context windows\n                  \n                  : 0 Test timeouts\n                  \n                  : 4 Total tests\n                  \n                  : 225 Command\n                  \n                  : aider --model mistral/codestral-latest Date\n                  \n                  : 2025-01-13 Versions\n                  \n                  : 0.71.2.dev Seconds per case\n                  \n                  : 9.3 Total cost\n                  \n                  : 1.9834"
+    ],
+    [
+      "▶",
+      "openhands-lm-32b-v0.1",
+      "10.2%",
+      "",
+      "aider --model openrouter/all-hands/openhands-lm-32b-v0.1",
+      "95.1%",
+      "whole"
+    ],
+    [
+      "Dirname\n                  \n                  : 2025-04-19-14-43-04--o4-mini-patch Test cases\n                  \n                  : 225 Model\n                  \n                  : openhands-lm-32b-v0.1 Edit format\n                  \n                  : whole Commit hash\n                  \n                  : c08336f Pass rate 1\n                  \n                  : 4.0 Pass rate 2\n                  \n                  : 10.2 Pass num 1\n                  \n                  : 9 Pass num 2\n                  \n                  : 23 Percent cases well formed\n                  \n                  : 95.1 Error outputs\n                  \n                  : 55 Num malformed responses\n                  \n                  : 41 Num with malformed responses\n                  \n                  : 11 User asks\n                  \n                  : 166 Lazy comments\n                  \n                  : 0 Syntax errors\n                  \n                  : 0 Indentation errors\n                  \n                  : 0 Exhausted context windows\n                  \n                  : 0 Test timeouts\n                  \n                  : 11 Total tests\n                  \n                  : 225 Command\n                  \n                  : aider --model openrouter/all-hands/openhands-lm-32b-v0.1 Date\n                  \n                  : 2025-04-19 Versions\n                  \n                  : 0.82.2.dev Seconds per case\n                  \n                  : 195.6 Total cost\n                  \n                  : 0.0"
+    ],
+    [
+      "▶",
+      "gpt-4.1-nano",
+      "8.9%",
+      "$0.43",
+      "aider --model gpt-4.1-nano",
+      "94.2%",
+      "whole"
+    ],
+    [
+      "Dirname\n                  \n                  : 2025-04-14-22-46-01--gpt41nano-diff Test cases\n                  \n                  : 225 Model\n                  \n                  : gpt-4.1-nano Edit format\n                  \n                  : whole Commit hash\n                  \n                  : 71d1591-dirty Pass rate 1\n                  \n                  : 3.1 Pass rate 2\n                  \n                  : 8.9 Pass num 1\n                  \n                  : 7 Pass num 2\n                  \n                  : 20 Percent cases well formed\n                  \n                  : 94.2 Error outputs\n                  \n                  : 20 Num malformed responses\n                  \n                  : 20 Num with malformed responses\n                  \n                  : 13 User asks\n                  \n                  : 316 Lazy comments\n                  \n                  : 0 Syntax errors\n                  \n                  : 0 Indentation errors\n                  \n                  : 0 Exhausted context windows\n                  \n                  : 0 Test timeouts\n                  \n                  : 8 Total tests\n                  \n                  : 225 Command\n                  \n                  : aider --model gpt-4.1-nano Date\n                  \n                  : 2025-04-14 Versions\n                  \n                  : 0.81.4.dev Seconds per case\n                  \n                  : 12.0 Total cost\n                  \n                  : 0.4281"
+    ],
+    [
+      "▶",
+      "Qwen2.5-Coder-32B-Instruct",
+      "8.0%",
+      "",
+      "aider --model openai/Qwen/Qwen2.5-Coder-32B-Instruct # via hyperbolic",
+      "71.6%",
+      "diff"
+    ],
+    [
+      "Dirname\n                  \n                  : 2024-12-22-13-22-32--polyglot-qwen-diff Test cases\n                  \n                  : 225 Model\n                  \n                  : Qwen2.5-Coder-32B-Instruct Edit format\n                  \n                  : diff Commit hash\n                  \n                  : 6d7e8be-dirty Pass rate 1\n                  \n                  : 4.4 Pass rate 2\n                  \n                  : 8.0 Pass num 1\n                  \n                  : 10 Pass num 2\n                  \n                  : 18 Percent cases well formed\n                  \n                  : 71.6 Error outputs\n                  \n                  : 158 Num malformed responses\n                  \n                  : 148 Num with malformed responses\n                  \n                  : 64 User asks\n                  \n                  : 132 Lazy comments\n                  \n                  : 0 Syntax errors\n                  \n                  : 0 Indentation errors\n                  \n                  : 0 Exhausted context windows\n                  \n                  : 1 Test timeouts\n                  \n                  : 2 Total tests\n                  \n                  : 225 Command\n                  \n                  : aider --model openai/Qwen/Qwen2.5-Coder-32B-Instruct # via hyperbolic Date\n                  \n                  : 2024-12-22 Versions\n                  \n                  : 0.69.2.dev Seconds per case\n                  \n                  : 84.4 Total cost\n                  \n                  : 0.0"
+    ],
+    [
+      "▶",
+      "gemma-3-27b-it",
+      "4.9%",
+      "",
+      "aider --model openrouter/google/gemma-3-27b-it",
+      "100.0%",
+      "whole"
+    ],
+    [
+      "Dirname\n                  \n                  : 2025-03-15-01-21-24--gemma3-27b-or Test cases\n                  \n                  : 225 Model\n                  \n                  : gemma-3-27b-it Edit format\n                  \n                  : whole Commit hash\n                  \n                  : fd21f51-dirty Pass rate 1\n                  \n                  : 1.8 Pass rate 2\n                  \n                  : 4.9 Pass num 1\n                  \n                  : 4 Pass num 2\n                  \n                  : 11 Percent cases well formed\n                  \n                  : 100.0 Error outputs\n                  \n                  : 3 Num malformed responses\n                  \n                  : 0 Num with malformed responses\n                  \n                  : 0 User asks\n                  \n                  : 181 Lazy comments\n                  \n                  : 0 Syntax errors\n                  \n                  : 0 Indentation errors\n                  \n                  : 0 Exhausted context windows\n                  \n                  : 1 Test timeouts\n                  \n                  : 3 Total tests\n                  \n                  : 225 Command\n                  \n                  : aider --model openrouter/google/gemma-3-27b-it Date\n                  \n                  : 2025-03-15 Versions\n                  \n                  : 0.77.1.dev Seconds per case\n                  \n                  : 79.7 Total cost\n                  \n                  : 0.0"
+    ],
+    [
+      "▶",
+      "gpt-4o-mini-2024-07-18",
+      "3.6%",
+      "$0.32",
+      "aider --model gpt-4o-mini-2024-07-18",
+      "100.0%",
+      "whole"
+    ],
+    [
+      "Dirname\n                  \n                  : 2024-12-21-18-41-18--polyglot-gpt-4o-mini Test cases\n                  \n                  : 225 Model\n                  \n                  : gpt-4o-mini-2024-07-18 Edit format\n                  \n                  : whole Commit hash\n                  \n                  : a755079-dirty Pass rate 1\n                  \n                  : 0.9 Pass rate 2\n                  \n                  : 3.6 Pass num 1\n                  \n                  : 2 Pass num 2\n                  \n                  : 8 Percent cases well formed\n                  \n                  : 100.0 Error outputs\n                  \n                  : 0 Num malformed responses\n                  \n                  : 0 Num with malformed responses\n                  \n                  : 0 User asks\n                  \n                  : 36 Lazy comments\n                  \n                  : 0 Syntax errors\n                  \n                  : 0 Indentation errors\n                  \n                  : 0 Exhausted context windows\n                  \n                  : 0 Test timeouts\n                  \n                  : 3 Total tests\n                  \n                  : 225 Command\n                  \n                  : aider --model gpt-4o-mini-2024-07-18 Date\n                  \n                  : 2024-12-21 Versions\n                  \n                  : 0.69.2.dev Seconds per case\n                  \n                  : 17.3 Total cost\n                  \n                  : 0.3236"
+    ]
+  ]
+]

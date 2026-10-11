@@ -1,0 +1,730 @@
+[
+  {
+    "_key": "5d574ff2df86",
+    "_type": "chart",
+    "chartType": "bar",
+    "dataJson": "[{\"label\":\"Claude Opus 5 (xhigh), Claude Code\",\"SWE-Bench Pro V2 Public (642 tasks)\":99.4,\"SWE-Bench Pro V2 Private (272 tasks)\":81.6},{\"label\":\"Kimi K3 (max), OpenCode / mini-swe-agent\",\"SWE-Bench Pro V2 Public (642 tasks)\":97.7,\"SWE-Bench Pro V2 Private (272 tasks)\":78.7},{\"label\":\"GLM-5.3 (max), mini-swe-agent\",\"SWE-Bench Pro V2 Public (642 tasks)\":95.6,\"SWE-Bench Pro V2 Private (272 tasks)\":77.6},{\"label\":\"Gemini 3.8 Flash (high), mini-swe-agent\",\"SWE-Bench Pro V2 Public (642 tasks)\":94.9,\"SWE-Bench Pro V2 Private (272 tasks)\":77.6},{\"label\":\"Inkling (xhigh), mini-swe-agent\",\"SWE-Bench Pro V2 Public (642 tasks)\":89.9,\"SWE-Bench Pro V2 Private (272 tasks)\":67.6}]",
+    "description": "Resolved counts — public, then private: Claude Opus 5 638/642 and 222/272; Kimi K3 627/642 and 214/272; GLM-5.3 614/642 and 211/272; Gemini 3.8 Flash 609/642 and 211/272; Inkling 577/642 and 184/272.",
+    "horizontal": true,
+    "inputMethod": "json",
+    "seriesColors": [
+      {
+        "_key": "c3pub",
+        "_type": "object",
+        "color": "#204E79",
+        "name": "SWE-Bench Pro V2 Public (642 tasks)"
+      },
+      {
+        "_key": "c3priv",
+        "_type": "object",
+        "color": "#E17B39",
+        "name": "SWE-Bench Pro V2 Private (272 tasks)"
+      }
+    ],
+    "title": "Public vs private",
+    "xAxisLabel": "Resolved rate (%)",
+    "decodedData": [
+      {
+        "label": "Claude Opus 5 (xhigh), Claude Code",
+        "SWE-Bench Pro V2 Public (642 tasks)": 99.4,
+        "SWE-Bench Pro V2 Private (272 tasks)": 81.6
+      },
+      {
+        "label": "Kimi K3 (max), OpenCode / mini-swe-agent",
+        "SWE-Bench Pro V2 Public (642 tasks)": 97.7,
+        "SWE-Bench Pro V2 Private (272 tasks)": 78.7
+      },
+      {
+        "label": "GLM-5.3 (max), mini-swe-agent",
+        "SWE-Bench Pro V2 Public (642 tasks)": 95.6,
+        "SWE-Bench Pro V2 Private (272 tasks)": 77.6
+      },
+      {
+        "label": "Gemini 3.8 Flash (high), mini-swe-agent",
+        "SWE-Bench Pro V2 Public (642 tasks)": 94.9,
+        "SWE-Bench Pro V2 Private (272 tasks)": 77.6
+      },
+      {
+        "label": "Inkling (xhigh), mini-swe-agent",
+        "SWE-Bench Pro V2 Public (642 tasks)": 89.9,
+        "SWE-Bench Pro V2 Private (272 tasks)": 67.6
+      }
+    ]
+  },
+  {
+    "_key": "chartPublicLeaderboard",
+    "_type": "chart",
+    "axisMin": 80,
+    "chartType": "bar",
+    "dataJson": "[{\"label\":\"Claude Opus 5 (Claude Code) xhigh\",\"Pass@1\":99.4},{\"label\":\"Fable 5.1 (Claude Code) high\",\"Pass@1\":99.1},{\"label\":\"Kimi-K3 (mini-swe-agent) max\",\"Pass@1\":97.7},{\"label\":\"GPT-6 Astra (Codex) high\",\"Pass@1\":96.9},{\"label\":\"GLM-5.3 (mini-swe-agent) max\",\"Pass@1\":95.6},{\"label\":\"GPT-5.6 Sol (Codex) xhigh\",\"Pass@1\":95.5},{\"label\":\"Gemini 3.8 Flash (mini-swe-agent)\",\"Pass@1\":94.86},{\"label\":\"Claude Sonnet 5 (Claude Code)\",\"Pass@1\":93.15},{\"label\":\"GPT-5.6 Terra (Codex)\",\"Pass@1\":92.37},{\"label\":\"Inkling (mini-swe-agent)\",\"Pass@1\":89.88}]",
+    "description": "Pass@1 on all 642 tasks. Axis starts at 80%.",
+    "horizontal": true,
+    "inputMethod": "json",
+    "seriesColors": [
+      {
+        "_key": "c1a",
+        "_type": "object",
+        "color": "#2A78D6",
+        "name": "Claude Opus 5 (Claude Code) xhigh"
+      },
+      {
+        "_key": "c1b",
+        "_type": "object",
+        "color": "#2A78D6",
+        "name": "Fable 5.1 (Claude Code) high"
+      },
+      {
+        "_key": "c1c",
+        "_type": "object",
+        "color": "#1BAF7A",
+        "name": "Kimi-K3 (mini-swe-agent) max"
+      },
+      {
+        "_key": "c1d",
+        "_type": "object",
+        "color": "#EB6834",
+        "name": "GPT-6 Astra (Codex) high"
+      },
+      {
+        "_key": "c1e",
+        "_type": "object",
+        "color": "#1BAF7A",
+        "name": "GLM-5.3 (mini-swe-agent) max"
+      },
+      {
+        "_key": "c1f",
+        "_type": "object",
+        "color": "#EB6834",
+        "name": "GPT-5.6 Sol (Codex) xhigh"
+      },
+      {
+        "_key": "c1g",
+        "_type": "object",
+        "color": "#1BAF7A",
+        "name": "Gemini 3.8 Flash (mini-swe-agent)"
+      },
+      {
+        "_key": "c1h",
+        "_type": "object",
+        "color": "#2A78D6",
+        "name": "Claude Sonnet 5 (Claude Code)"
+      },
+      {
+        "_key": "c1i",
+        "_type": "object",
+        "color": "#EB6834",
+        "name": "GPT-5.6 Terra (Codex)"
+      },
+      {
+        "_key": "c1j",
+        "_type": "object",
+        "color": "#1BAF7A",
+        "name": "Inkling (mini-swe-agent)"
+      }
+    ],
+    "title": "SWE-Bench Pro V2 — public leaderboard",
+    "xAxisLabel": "Pass@1 (%)",
+    "decodedData": [
+      {
+        "label": "Claude Opus 5 (Claude Code) xhigh",
+        "Pass@1": 99.4
+      },
+      {
+        "label": "Fable 5.1 (Claude Code) high",
+        "Pass@1": 99.1
+      },
+      {
+        "label": "Kimi-K3 (mini-swe-agent) max",
+        "Pass@1": 97.7
+      },
+      {
+        "label": "GPT-6 Astra (Codex) high",
+        "Pass@1": 96.9
+      },
+      {
+        "label": "GLM-5.3 (mini-swe-agent) max",
+        "Pass@1": 95.6
+      },
+      {
+        "label": "GPT-5.6 Sol (Codex) xhigh",
+        "Pass@1": 95.5
+      },
+      {
+        "label": "Gemini 3.8 Flash (mini-swe-agent)",
+        "Pass@1": 94.86
+      },
+      {
+        "label": "Claude Sonnet 5 (Claude Code)",
+        "Pass@1": 93.15
+      },
+      {
+        "label": "GPT-5.6 Terra (Codex)",
+        "Pass@1": 92.37
+      },
+      {
+        "label": "Inkling (mini-swe-agent)",
+        "Pass@1": 89.88
+      }
+    ]
+  },
+  {
+    "_key": "chartHardLeaderboard",
+    "_type": "chart",
+    "chartType": "bar",
+    "dataJson": "[{\"label\":\"Opus 5 (Claude Code) xhigh\",\"Pass@1\":98},{\"label\":\"Fable 5.1 (Claude Code) high\",\"Pass@1\":92.2},{\"label\":\"GPT-6 Astra (Codex) high\",\"Pass@1\":90.2},{\"label\":\"Sonnet 5 (Claude Code) xhigh\",\"Pass@1\":88.2},{\"label\":\"Kimi-K3 (mini-swe-agent) max\",\"Pass@1\":88.2},{\"label\":\"GPT-5.6 Terra (Codex) xhigh\",\"Pass@1\":86.3},{\"label\":\"GLM-5.3 (mini-swe-agent) max\",\"Pass@1\":84.3},{\"label\":\"GPT-5.6 Sol (Codex) xhigh\",\"Pass@1\":82.4},{\"label\":\"Gemini 3.8 Flash (mini-swe-agent) high\",\"Pass@1\":58.8},{\"label\":\"Inkling (mini-swe-agent) xhigh\",\"Pass@1\":56.9},{\"label\":\"Haiku 4.5 (Claude Code) xhigh\",\"Pass@1\":25.5}]",
+    "description": "Pass@1 on the 51 hardest tasks.",
+    "horizontal": true,
+    "inputMethod": "json",
+    "seriesColors": [
+      {
+        "_key": "c2a",
+        "_type": "object",
+        "color": "#2A78D6",
+        "name": "Opus 5 (Claude Code) xhigh"
+      },
+      {
+        "_key": "c2b",
+        "_type": "object",
+        "color": "#2A78D6",
+        "name": "Fable 5.1 (Claude Code) high"
+      },
+      {
+        "_key": "c2c",
+        "_type": "object",
+        "color": "#EB6834",
+        "name": "GPT-6 Astra (Codex) high"
+      },
+      {
+        "_key": "c2d",
+        "_type": "object",
+        "color": "#2A78D6",
+        "name": "Sonnet 5 (Claude Code) xhigh"
+      },
+      {
+        "_key": "c2e",
+        "_type": "object",
+        "color": "#1BAF7A",
+        "name": "Kimi-K3 (mini-swe-agent) max"
+      },
+      {
+        "_key": "c2f",
+        "_type": "object",
+        "color": "#EB6834",
+        "name": "GPT-5.6 Terra (Codex) xhigh"
+      },
+      {
+        "_key": "c2g",
+        "_type": "object",
+        "color": "#1BAF7A",
+        "name": "GLM-5.3 (mini-swe-agent) max"
+      },
+      {
+        "_key": "c2h",
+        "_type": "object",
+        "color": "#EB6834",
+        "name": "GPT-5.6 Sol (Codex) xhigh"
+      },
+      {
+        "_key": "c2i",
+        "_type": "object",
+        "color": "#1BAF7A",
+        "name": "Gemini 3.8 Flash (mini-swe-agent) high"
+      },
+      {
+        "_key": "c2j",
+        "_type": "object",
+        "color": "#1BAF7A",
+        "name": "Inkling (mini-swe-agent) xhigh"
+      },
+      {
+        "_key": "c2k",
+        "_type": "object",
+        "color": "#2A78D6",
+        "name": "Haiku 4.5 (Claude Code) xhigh"
+      }
+    ],
+    "title": "SWE-Bench Pro V2 Hard — 51 tasks",
+    "xAxisLabel": "Pass@1 (%)",
+    "decodedData": [
+      {
+        "label": "Opus 5 (Claude Code) xhigh",
+        "Pass@1": 98
+      },
+      {
+        "label": "Fable 5.1 (Claude Code) high",
+        "Pass@1": 92.2
+      },
+      {
+        "label": "GPT-6 Astra (Codex) high",
+        "Pass@1": 90.2
+      },
+      {
+        "label": "Sonnet 5 (Claude Code) xhigh",
+        "Pass@1": 88.2
+      },
+      {
+        "label": "Kimi-K3 (mini-swe-agent) max",
+        "Pass@1": 88.2
+      },
+      {
+        "label": "GPT-5.6 Terra (Codex) xhigh",
+        "Pass@1": 86.3
+      },
+      {
+        "label": "GLM-5.3 (mini-swe-agent) max",
+        "Pass@1": 84.3
+      },
+      {
+        "label": "GPT-5.6 Sol (Codex) xhigh",
+        "Pass@1": 82.4
+      },
+      {
+        "label": "Gemini 3.8 Flash (mini-swe-agent) high",
+        "Pass@1": 58.8
+      },
+      {
+        "label": "Inkling (mini-swe-agent) xhigh",
+        "Pass@1": 56.9
+      },
+      {
+        "label": "Haiku 4.5 (Claude Code) xhigh",
+        "Pass@1": 25.5
+      }
+    ]
+  },
+  {
+    "_key": "chartPass1Harness",
+    "_type": "chart",
+    "axisMin": 60,
+    "chartType": "bar",
+    "dataJson": "[{\"label\":\"mini-swe-agent\",\"GLM-5.3 (max)\":95.6,\"Kimi K3 (max)\":97.5,\"Inkling (xhigh)\":89.9},{\"label\":\"Pi\",\"GLM-5.3 (max)\":96.6,\"Kimi K3 (max)\":96,\"Inkling (xhigh)\":84.1},{\"label\":\"OpenCode\",\"GLM-5.3 (max)\":96.4,\"Kimi K3 (max)\":97.7,\"Inkling (xhigh)\":91.6}]",
+    "description": "All harnesses were run at the same settings except mini-swe-agent, which kept its 30s bash timeout. Axis starts at 60%.",
+    "inputMethod": "json",
+    "seriesColors": [
+      {
+        "_key": "c4glm",
+        "_type": "object",
+        "color": "#2A78D6",
+        "name": "GLM-5.3 (max)"
+      },
+      {
+        "_key": "c4kimi",
+        "_type": "object",
+        "color": "#EB6834",
+        "name": "Kimi K3 (max)"
+      },
+      {
+        "_key": "c4ink",
+        "_type": "object",
+        "color": "#1BAF7A",
+        "name": "Inkling (xhigh)"
+      }
+    ],
+    "title": "Pass@1 rate",
+    "yAxisLabel": "Pass@1 (%)",
+    "decodedData": [
+      {
+        "label": "mini-swe-agent",
+        "GLM-5.3 (max)": 95.6,
+        "Kimi K3 (max)": 97.5,
+        "Inkling (xhigh)": 89.9
+      },
+      {
+        "label": "Pi",
+        "GLM-5.3 (max)": 96.6,
+        "Kimi K3 (max)": 96,
+        "Inkling (xhigh)": 84.1
+      },
+      {
+        "label": "OpenCode",
+        "GLM-5.3 (max)": 96.4,
+        "Kimi K3 (max)": 97.7,
+        "Inkling (xhigh)": 91.6
+      }
+    ]
+  },
+  {
+    "_key": "chartMedianSteps",
+    "_type": "chart",
+    "chartType": "bar",
+    "dataJson": "[{\"label\":\"mini-swe-agent\",\"GLM-5.3\":61,\"Kimi K3\":48,\"Inkling\":85},{\"label\":\"Pi\",\"GLM-5.3\":53,\"Kimi K3\":33,\"Inkling\":48},{\"label\":\"OpenCode\",\"GLM-5.3\":51,\"Kimi K3\":37,\"Inkling\":72}]",
+    "inputMethod": "json",
+    "seriesColors": [
+      {
+        "_key": "c5ag",
+        "_type": "object",
+        "color": "#2A78D6",
+        "name": "GLM-5.3"
+      },
+      {
+        "_key": "c5ak",
+        "_type": "object",
+        "color": "#EB6834",
+        "name": "Kimi K3"
+      },
+      {
+        "_key": "c5ai",
+        "_type": "object",
+        "color": "#1BAF7A",
+        "name": "Inkling"
+      }
+    ],
+    "title": "Median steps per task",
+    "yAxisLabel": "Steps",
+    "decodedData": [
+      {
+        "label": "mini-swe-agent",
+        "GLM-5.3": 61,
+        "Kimi K3": 48,
+        "Inkling": 85
+      },
+      {
+        "label": "Pi",
+        "GLM-5.3": 53,
+        "Kimi K3": 33,
+        "Inkling": 48
+      },
+      {
+        "label": "OpenCode",
+        "GLM-5.3": 51,
+        "Kimi K3": 37,
+        "Inkling": 72
+      }
+    ]
+  },
+  {
+    "_key": "chartMedianMinutes",
+    "_type": "chart",
+    "chartType": "bar",
+    "dataJson": "[{\"label\":\"mini-swe-agent\",\"GLM-5.3\":13.2,\"Kimi K3\":15.6,\"Inkling\":8.6},{\"label\":\"Pi\",\"GLM-5.3\":14.6,\"Kimi K3\":12.6,\"Inkling\":4.4},{\"label\":\"OpenCode\",\"GLM-5.3\":16.2,\"Kimi K3\":13.1,\"Inkling\":10.6}]",
+    "inputMethod": "json",
+    "seriesColors": [
+      {
+        "_key": "c5bg",
+        "_type": "object",
+        "color": "#2A78D6",
+        "name": "GLM-5.3"
+      },
+      {
+        "_key": "c5bk",
+        "_type": "object",
+        "color": "#EB6834",
+        "name": "Kimi K3"
+      },
+      {
+        "_key": "c5bi",
+        "_type": "object",
+        "color": "#1BAF7A",
+        "name": "Inkling"
+      }
+    ],
+    "title": "Median minutes per task",
+    "yAxisLabel": "Minutes",
+    "decodedData": [
+      {
+        "label": "mini-swe-agent",
+        "GLM-5.3": 13.2,
+        "Kimi K3": 15.6,
+        "Inkling": 8.6
+      },
+      {
+        "label": "Pi",
+        "GLM-5.3": 14.6,
+        "Kimi K3": 12.6,
+        "Inkling": 4.4
+      },
+      {
+        "label": "OpenCode",
+        "GLM-5.3": 16.2,
+        "Kimi K3": 13.1,
+        "Inkling": 10.6
+      }
+    ]
+  },
+  {
+    "_key": "chartMedianCompletion",
+    "_type": "chart",
+    "chartType": "bar",
+    "dataJson": "[{\"label\":\"mini-swe-agent\",\"GLM-5.3\":26,\"Kimi K3\":27,\"Inkling\":28},{\"label\":\"Pi\",\"GLM-5.3\":38,\"Kimi K3\":17,\"Inkling\":11},{\"label\":\"OpenCode\",\"GLM-5.3\":34,\"Kimi K3\":18,\"Inkling\":27}]",
+    "description": "Values are thousands of tokens.",
+    "inputMethod": "json",
+    "seriesColors": [
+      {
+        "_key": "c5cg",
+        "_type": "object",
+        "color": "#2A78D6",
+        "name": "GLM-5.3"
+      },
+      {
+        "_key": "c5ck",
+        "_type": "object",
+        "color": "#EB6834",
+        "name": "Kimi K3"
+      },
+      {
+        "_key": "c5ci",
+        "_type": "object",
+        "color": "#1BAF7A",
+        "name": "Inkling"
+      }
+    ],
+    "title": "Median completion tokens per task",
+    "yAxisLabel": "Thousands of tokens",
+    "decodedData": [
+      {
+        "label": "mini-swe-agent",
+        "GLM-5.3": 26,
+        "Kimi K3": 27,
+        "Inkling": 28
+      },
+      {
+        "label": "Pi",
+        "GLM-5.3": 38,
+        "Kimi K3": 17,
+        "Inkling": 11
+      },
+      {
+        "label": "OpenCode",
+        "GLM-5.3": 34,
+        "Kimi K3": 18,
+        "Inkling": 27
+      }
+    ]
+  },
+  {
+    "_key": "chartMedianPrompt",
+    "_type": "chart",
+    "chartType": "bar",
+    "dataJson": "[{\"label\":\"mini-swe-agent\",\"GLM-5.3\":2.2,\"Kimi K3\":1.7,\"Inkling\":4.12},{\"label\":\"Pi\",\"GLM-5.3\":2.1,\"Kimi K3\":0.75,\"Inkling\":1.8},{\"label\":\"OpenCode\",\"GLM-5.3\":2.21,\"Kimi K3\":1.16,\"Inkling\":4.58}]",
+    "description": "Values are millions of tokens.",
+    "inputMethod": "json",
+    "seriesColors": [
+      {
+        "_key": "c5dg",
+        "_type": "object",
+        "color": "#2A78D6",
+        "name": "GLM-5.3"
+      },
+      {
+        "_key": "c5dk",
+        "_type": "object",
+        "color": "#EB6834",
+        "name": "Kimi K3"
+      },
+      {
+        "_key": "c5di",
+        "_type": "object",
+        "color": "#1BAF7A",
+        "name": "Inkling"
+      }
+    ],
+    "title": "Median prompt tokens per task",
+    "yAxisLabel": "Millions of tokens",
+    "decodedData": [
+      {
+        "label": "mini-swe-agent",
+        "GLM-5.3": 2.2,
+        "Kimi K3": 1.7,
+        "Inkling": 4.12
+      },
+      {
+        "label": "Pi",
+        "GLM-5.3": 2.1,
+        "Kimi K3": 0.75,
+        "Inkling": 1.8
+      },
+      {
+        "label": "OpenCode",
+        "GLM-5.3": 2.21,
+        "Kimi K3": 1.16,
+        "Inkling": 4.58
+      }
+    ]
+  },
+  {
+    "_key": "chartWhereTimeGoes",
+    "_type": "chart",
+    "chartType": "bar",
+    "dataJson": "$18",
+    "hatchLabel": "hatched: waiting on a background job",
+    "horizontal": true,
+    "inputMethod": "json",
+    "normalize": true,
+    "seriesColors": [
+      {
+        "_key": "wtTest",
+        "_type": "object",
+        "color": "#AA300A",
+        "name": "test runner"
+      },
+      {
+        "_key": "wtBuild",
+        "_type": "object",
+        "color": "#E6642D",
+        "name": "build"
+      },
+      {
+        "_key": "wtLint",
+        "_type": "object",
+        "color": "#F5AA7D",
+        "name": "type-check / lint"
+      },
+      {
+        "_key": "wtEdit",
+        "_type": "object",
+        "color": "#203A8C",
+        "name": "edit"
+      },
+      {
+        "_key": "wtAdhoc",
+        "_type": "object",
+        "color": "#D29600",
+        "name": "ad-hoc script"
+      },
+      {
+        "_key": "wtSearch",
+        "_type": "object",
+        "color": "#2E80DC",
+        "name": "search"
+      },
+      {
+        "_key": "wtRead",
+        "_type": "object",
+        "color": "#94C0E9",
+        "name": "read"
+      },
+      {
+        "_key": "wtGit",
+        "_type": "object",
+        "color": "#5A606E",
+        "name": "git"
+      },
+      {
+        "_key": "wtWait",
+        "_type": "object",
+        "color": "#7D8088",
+        "name": "waiting (unknown job)"
+      },
+      {
+        "_key": "wtOther",
+        "_type": "object",
+        "color": "#C8C8CE",
+        "name": "other (incl. installs, no-tool steps)"
+      }
+    ],
+    "stacked": true,
+    "title": "Where the time goes",
+    "decodedData": [
+      {
+        "label": "GLM-5.3 · mini-swe-agent",
+        "test runner": 12.6,
+        "test runner__hatch": 22.2,
+        "build": 2.3,
+        "build__hatch": 9.7,
+        "type-check / lint": 4,
+        "type-check / lint__hatch": 8.4,
+        "edit": 6.2,
+        "edit__hatch": 3.4,
+        "ad-hoc script": 2,
+        "search": 10.9,
+        "read": 10.3,
+        "git": 3.9,
+        "waiting (unknown job)__hatch": 4.2
+      },
+      {
+        "label": "GLM-5.3 · Pi",
+        "test runner": 27.8,
+        "build": 6.5,
+        "type-check / lint": 4.7,
+        "edit": 10.1,
+        "ad-hoc script": 4.3,
+        "search": 21.1,
+        "read": 21.6,
+        "git": 4
+      },
+      {
+        "label": "GLM-5.3 · OpenCode",
+        "test runner": 19.7,
+        "build": 5.8,
+        "type-check / lint": 5.4,
+        "edit": 17.5,
+        "ad-hoc script": 5,
+        "search": 29.4,
+        "read": 11.2,
+        "git": 4.7,
+        "other (incl. installs, no-tool steps)": 1.4
+      },
+      {
+        "label": "Kimi K3 · mini-swe-agent",
+        "test runner": 13.8,
+        "test runner__hatch": 13.2,
+        "build": 3,
+        "build__hatch": 4.9,
+        "type-check / lint": 3.9,
+        "type-check / lint__hatch": 3.7,
+        "edit": 11.9,
+        "ad-hoc script": 4.1,
+        "search": 18.7,
+        "read": 15.6,
+        "git": 5,
+        "waiting (unknown job)__hatch": 2.1
+      },
+      {
+        "label": "Kimi K3 · Pi",
+        "test runner": 24.8,
+        "build": 7.4,
+        "type-check / lint": 5.7,
+        "edit": 12.5,
+        "ad-hoc script": 4.2,
+        "search": 21.9,
+        "read": 21.1,
+        "git": 2.4
+      },
+      {
+        "label": "Kimi K3 · OpenCode",
+        "test runner": 18.8,
+        "build": 6.6,
+        "type-check / lint": 4.8,
+        "edit": 23.3,
+        "ad-hoc script": 4.7,
+        "search": 26.5,
+        "read": 9.9,
+        "git": 2.8,
+        "other (incl. installs, no-tool steps)": 2.7
+      },
+      {
+        "label": "Inkling · mini-swe-agent",
+        "test runner": 12.6,
+        "build": 5.8,
+        "type-check / lint": 3.2,
+        "edit": 12.6,
+        "ad-hoc script": 11.4,
+        "search": 22.1,
+        "read": 29.5,
+        "git": 2.8
+      },
+      {
+        "label": "Inkling · Pi",
+        "test runner": 18.6,
+        "build": 10.2,
+        "type-check / lint": 4.2,
+        "edit": 11,
+        "ad-hoc script": 9.5,
+        "search": 18.4,
+        "read": 26.6,
+        "git": 1.6
+      },
+      {
+        "label": "Inkling · OpenCode",
+        "test runner": 14.1,
+        "build": 7.2,
+        "type-check / lint": 4.5,
+        "edit": 16.1,
+        "ad-hoc script": 12.2,
+        "search": 23,
+        "read": 19.8,
+        "git": 3.2
+      }
+    ]
+  }
+]

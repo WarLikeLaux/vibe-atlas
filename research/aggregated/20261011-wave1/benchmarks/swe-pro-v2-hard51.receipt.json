@@ -1,0 +1,399 @@
+{
+    "checkedAt": "2026-10-11T04:28:19.604191Z",
+    "snapshotPath": "data/snapshots/swe-pro-v2-hard51/current.json",
+    "snapshotSha256": "d87ce7a848b53a2992be6377bdfb8c89ba60573599ac7b7bb1810366c8041385",
+    "runs": [
+        {
+            "runId": "swe-pro-hard51-reviewed-1",
+            "scorePointer": "/observations/0/score",
+            "score": 98,
+            "sourceUrl": "https://labs.scale.com/leaderboard/swe_bench_pro_public_v2",
+            "sourceModelName": "Opus 5 (Claude Code) xhigh",
+            "configuration": {
+                "agent": "Claude Code",
+                "agentVersion": null,
+                "effort": "xhigh",
+                "sampleSize": 51,
+                "sourceUnit": "percent",
+                "sourceModel": "Opus 5"
+            },
+            "transformations": [],
+            "label": "Claude Code · xhigh",
+            "notes": [
+                "Версия агента неизвестна. Время измерения неизвестно.",
+                "HARD-51 не является независимым набором от Full V2.",
+                "Ранг из источника не переносится. Нули старого поля confidenceInterval_upper не являются подтверждением нулевой неопределённости.",
+                "Заявленные locked-условия не подтверждены отдельно для каждой строки. Страница содержит также исторические лимиты."
+            ],
+            "observationSourceUrl": "https://labs.scale.com/leaderboard/swe_bench_pro_public_v2",
+            "telemetryPointers": [],
+            "configurationPointers": {
+                "agent": "/observations/0/agent",
+                "agentVersion": "/observations/0/agentVersion",
+                "effort": "/observations/0/effort",
+                "sampleSize": "/observations/0/sampleSize"
+            },
+            "sourceModelNamePointer": "/observations/0/sourceModelName"
+        },
+        {
+            "runId": "swe-pro-hard51-reviewed-2",
+            "scorePointer": "/observations/1/score",
+            "score": 92.2,
+            "sourceUrl": "https://labs.scale.com/leaderboard/swe_bench_pro_public_v2",
+            "sourceModelName": "Fable 5.1 (Claude Code) high",
+            "configuration": {
+                "agent": "Claude Code",
+                "agentVersion": null,
+                "effort": "high",
+                "sampleSize": 51,
+                "sourceUnit": "percent",
+                "sourceModel": "Fable 5.1"
+            },
+            "transformations": [],
+            "label": "Claude Code · high",
+            "notes": [
+                "Версия агента неизвестна. Время измерения неизвестно.",
+                "HARD-51 не является независимым набором от Full V2.",
+                "Ранг из источника не переносится. Нули старого поля confidenceInterval_upper не являются подтверждением нулевой неопределённости.",
+                "Заявленные locked-условия не подтверждены отдельно для каждой строки. Страница содержит также исторические лимиты."
+            ],
+            "observationSourceUrl": "https://labs.scale.com/leaderboard/swe_bench_pro_public_v2",
+            "telemetryPointers": [],
+            "configurationPointers": {
+                "agent": "/observations/1/agent",
+                "agentVersion": "/observations/1/agentVersion",
+                "effort": "/observations/1/effort",
+                "sampleSize": "/observations/1/sampleSize"
+            },
+            "sourceModelNamePointer": "/observations/1/sourceModelName"
+        },
+        {
+            "runId": "swe-pro-hard51-reviewed-3",
+            "scorePointer": "/observations/2/score",
+            "score": 90.2,
+            "sourceUrl": "https://labs.scale.com/leaderboard/swe_bench_pro_public_v2",
+            "sourceModelName": "GPT-6 Astra (Codex) high ",
+            "configuration": {
+                "agent": "Codex",
+                "agentVersion": null,
+                "effort": "high",
+                "sampleSize": 51,
+                "sourceUnit": "percent",
+                "sourceModel": "GPT-6 Astra"
+            },
+            "transformations": [],
+            "label": "Codex · high",
+            "notes": [
+                "Версия агента неизвестна. Время измерения неизвестно.",
+                "HARD-51 не является независимым набором от Full V2.",
+                "Ранг из источника не переносится. Нули старого поля confidenceInterval_upper не являются подтверждением нулевой неопределённости.",
+                "Заявленные locked-условия не подтверждены отдельно для каждой строки. Страница содержит также исторические лимиты."
+            ],
+            "observationSourceUrl": "https://labs.scale.com/leaderboard/swe_bench_pro_public_v2",
+            "telemetryPointers": [],
+            "configurationPointers": {
+                "agent": "/observations/2/agent",
+                "agentVersion": "/observations/2/agentVersion",
+                "effort": "/observations/2/effort",
+                "sampleSize": "/observations/2/sampleSize"
+            },
+            "sourceModelNamePointer": "/observations/2/sourceModelName"
+        },
+        {
+            "runId": "swe-pro-hard51-reviewed-4",
+            "scorePointer": "/observations/3/score",
+            "score": 88.2,
+            "sourceUrl": "https://labs.scale.com/leaderboard/swe_bench_pro_public_v2",
+            "sourceModelName": "Kimi-K3 (mini-swe-agent) max",
+            "configuration": {
+                "agent": "mini-swe-agent",
+                "agentVersion": null,
+                "effort": "max",
+                "sampleSize": 51,
+                "sourceUnit": "percent",
+                "sourceModel": "Kimi-K3"
+            },
+            "transformations": [],
+            "label": "mini-swe-agent · max",
+            "notes": [
+                "Версия агента неизвестна. Время измерения неизвестно.",
+                "HARD-51 не является независимым набором от Full V2.",
+                "Ранг из источника не переносится. Нули старого поля confidenceInterval_upper не являются подтверждением нулевой неопределённости.",
+                "Заявленные locked-условия не подтверждены отдельно для каждой строки. Страница содержит также исторические лимиты."
+            ],
+            "observationSourceUrl": "https://labs.scale.com/leaderboard/swe_bench_pro_public_v2",
+            "telemetryPointers": [],
+            "configurationPointers": {
+                "agent": "/observations/3/agent",
+                "agentVersion": "/observations/3/agentVersion",
+                "effort": "/observations/3/effort",
+                "sampleSize": "/observations/3/sampleSize"
+            },
+            "sourceModelNamePointer": "/observations/3/sourceModelName"
+        },
+        {
+            "runId": "swe-pro-hard51-reviewed-5",
+            "scorePointer": "/observations/4/score",
+            "score": 88.2,
+            "sourceUrl": "https://labs.scale.com/leaderboard/swe_bench_pro_public_v2",
+            "sourceModelName": "Sonnet 5 (Claude Code) xhigh",
+            "configuration": {
+                "agent": "Claude Code",
+                "agentVersion": null,
+                "effort": "xhigh",
+                "sampleSize": 51,
+                "sourceUnit": "percent",
+                "sourceModel": "Sonnet 5"
+            },
+            "transformations": [],
+            "label": "Claude Code · xhigh",
+            "notes": [
+                "Версия агента неизвестна. Время измерения неизвестно.",
+                "HARD-51 не является независимым набором от Full V2.",
+                "Ранг из источника не переносится. Нули старого поля confidenceInterval_upper не являются подтверждением нулевой неопределённости.",
+                "Заявленные locked-условия не подтверждены отдельно для каждой строки. Страница содержит также исторические лимиты."
+            ],
+            "observationSourceUrl": "https://labs.scale.com/leaderboard/swe_bench_pro_public_v2",
+            "telemetryPointers": [],
+            "configurationPointers": {
+                "agent": "/observations/4/agent",
+                "agentVersion": "/observations/4/agentVersion",
+                "effort": "/observations/4/effort",
+                "sampleSize": "/observations/4/sampleSize"
+            },
+            "sourceModelNamePointer": "/observations/4/sourceModelName"
+        },
+        {
+            "runId": "swe-pro-hard51-reviewed-6",
+            "scorePointer": "/observations/5/score",
+            "score": 86.3,
+            "sourceUrl": "https://labs.scale.com/leaderboard/swe_bench_pro_public_v2",
+            "sourceModelName": "GPT-5.6 Terra (Codex) xhigh",
+            "configuration": {
+                "agent": "Codex",
+                "agentVersion": null,
+                "effort": "xhigh",
+                "sampleSize": 51,
+                "sourceUnit": "percent",
+                "sourceModel": "GPT-5.6 Terra"
+            },
+            "transformations": [],
+            "label": "Codex · xhigh",
+            "notes": [
+                "Версия агента неизвестна. Время измерения неизвестно.",
+                "HARD-51 не является независимым набором от Full V2.",
+                "Ранг из источника не переносится. Нули старого поля confidenceInterval_upper не являются подтверждением нулевой неопределённости.",
+                "Заявленные locked-условия не подтверждены отдельно для каждой строки. Страница содержит также исторические лимиты."
+            ],
+            "observationSourceUrl": "https://labs.scale.com/leaderboard/swe_bench_pro_public_v2",
+            "telemetryPointers": [],
+            "configurationPointers": {
+                "agent": "/observations/5/agent",
+                "agentVersion": "/observations/5/agentVersion",
+                "effort": "/observations/5/effort",
+                "sampleSize": "/observations/5/sampleSize"
+            },
+            "sourceModelNamePointer": "/observations/5/sourceModelName"
+        },
+        {
+            "runId": "swe-pro-hard51-reviewed-7",
+            "scorePointer": "/observations/6/score",
+            "score": 84.3,
+            "sourceUrl": "https://labs.scale.com/leaderboard/swe_bench_pro_public_v2",
+            "sourceModelName": "GLM-5.3 (mini-swe-agent) max",
+            "configuration": {
+                "agent": "mini-swe-agent",
+                "agentVersion": null,
+                "effort": "max",
+                "sampleSize": 51,
+                "sourceUnit": "percent",
+                "sourceModel": "GLM-5.3"
+            },
+            "transformations": [],
+            "label": "mini-swe-agent · max",
+            "notes": [
+                "Версия агента неизвестна. Время измерения неизвестно.",
+                "HARD-51 не является независимым набором от Full V2.",
+                "Ранг из источника не переносится. Нули старого поля confidenceInterval_upper не являются подтверждением нулевой неопределённости.",
+                "Заявленные locked-условия не подтверждены отдельно для каждой строки. Страница содержит также исторические лимиты."
+            ],
+            "observationSourceUrl": "https://labs.scale.com/leaderboard/swe_bench_pro_public_v2",
+            "telemetryPointers": [],
+            "configurationPointers": {
+                "agent": "/observations/6/agent",
+                "agentVersion": "/observations/6/agentVersion",
+                "effort": "/observations/6/effort",
+                "sampleSize": "/observations/6/sampleSize"
+            },
+            "sourceModelNamePointer": "/observations/6/sourceModelName"
+        },
+        {
+            "runId": "swe-pro-hard51-reviewed-8",
+            "scorePointer": "/observations/7/score",
+            "score": 82.4,
+            "sourceUrl": "https://labs.scale.com/leaderboard/swe_bench_pro_public_v2",
+            "sourceModelName": "GPT-5.6 Sol (Codex) xhigh",
+            "configuration": {
+                "agent": "Codex",
+                "agentVersion": null,
+                "effort": "xhigh",
+                "sampleSize": 51,
+                "sourceUnit": "percent",
+                "sourceModel": "GPT-5.6 Sol"
+            },
+            "transformations": [],
+            "label": "Codex · xhigh",
+            "notes": [
+                "Версия агента неизвестна. Время измерения неизвестно.",
+                "HARD-51 не является независимым набором от Full V2.",
+                "Ранг из источника не переносится. Нули старого поля confidenceInterval_upper не являются подтверждением нулевой неопределённости.",
+                "Заявленные locked-условия не подтверждены отдельно для каждой строки. Страница содержит также исторические лимиты."
+            ],
+            "observationSourceUrl": "https://labs.scale.com/leaderboard/swe_bench_pro_public_v2",
+            "telemetryPointers": [],
+            "configurationPointers": {
+                "agent": "/observations/7/agent",
+                "agentVersion": "/observations/7/agentVersion",
+                "effort": "/observations/7/effort",
+                "sampleSize": "/observations/7/sampleSize"
+            },
+            "sourceModelNamePointer": "/observations/7/sourceModelName"
+        },
+        {
+            "runId": "swe-pro-hard51-reviewed-9",
+            "scorePointer": "/observations/8/score",
+            "score": 58.8,
+            "sourceUrl": "https://labs.scale.com/leaderboard/swe_bench_pro_public_v2",
+            "sourceModelName": "Gemini 3.8 Flash (mini-swe-agent) high",
+            "configuration": {
+                "agent": "mini-swe-agent",
+                "agentVersion": null,
+                "effort": "high",
+                "sampleSize": 51,
+                "sourceUnit": "percent",
+                "sourceModel": "Gemini 3.8 Flash"
+            },
+            "transformations": [],
+            "label": "mini-swe-agent · high",
+            "notes": [
+                "Версия агента неизвестна. Время измерения неизвестно.",
+                "HARD-51 не является независимым набором от Full V2.",
+                "Ранг из источника не переносится. Нули старого поля confidenceInterval_upper не являются подтверждением нулевой неопределённости.",
+                "Заявленные locked-условия не подтверждены отдельно для каждой строки. Страница содержит также исторические лимиты."
+            ],
+            "observationSourceUrl": "https://labs.scale.com/leaderboard/swe_bench_pro_public_v2",
+            "telemetryPointers": [],
+            "configurationPointers": {
+                "agent": "/observations/8/agent",
+                "agentVersion": "/observations/8/agentVersion",
+                "effort": "/observations/8/effort",
+                "sampleSize": "/observations/8/sampleSize"
+            },
+            "sourceModelNamePointer": "/observations/8/sourceModelName"
+        },
+        {
+            "runId": "swe-pro-hard51-reviewed-10",
+            "scorePointer": "/observations/9/score",
+            "score": 56.9,
+            "sourceUrl": "https://labs.scale.com/leaderboard/swe_bench_pro_public_v2",
+            "sourceModelName": "Inkling (mini-swe-agent) xhigh",
+            "configuration": {
+                "agent": "mini-swe-agent",
+                "agentVersion": null,
+                "effort": "xhigh",
+                "sampleSize": 51,
+                "sourceUnit": "percent",
+                "sourceModel": "Inkling"
+            },
+            "transformations": [],
+            "label": "mini-swe-agent · xhigh",
+            "notes": [
+                "Версия агента неизвестна. Время измерения неизвестно.",
+                "HARD-51 не является независимым набором от Full V2.",
+                "Ранг из источника не переносится. Нули старого поля confidenceInterval_upper не являются подтверждением нулевой неопределённости.",
+                "Заявленные locked-условия не подтверждены отдельно для каждой строки. Страница содержит также исторические лимиты."
+            ],
+            "observationSourceUrl": "https://labs.scale.com/leaderboard/swe_bench_pro_public_v2",
+            "telemetryPointers": [],
+            "configurationPointers": {
+                "agent": "/observations/9/agent",
+                "agentVersion": "/observations/9/agentVersion",
+                "effort": "/observations/9/effort",
+                "sampleSize": "/observations/9/sampleSize"
+            },
+            "sourceModelNamePointer": "/observations/9/sourceModelName"
+        },
+        {
+            "runId": "swe-pro-hard51-reviewed-11",
+            "scorePointer": "/observations/10/score",
+            "score": 52.94,
+            "sourceUrl": "https://labs.scale.com/leaderboard/swe_bench_pro_public_v2",
+            "sourceModelName": "Haiku 5.5 (mini-swe-agent) high",
+            "configuration": {
+                "agent": "mini-swe-agent",
+                "agentVersion": null,
+                "effort": "high",
+                "sampleSize": 51,
+                "sourceUnit": "percent",
+                "sourceModel": "Haiku 5.5"
+            },
+            "transformations": [],
+            "label": "mini-swe-agent · high",
+            "notes": [
+                "Версия агента неизвестна. Время измерения неизвестно.",
+                "HARD-51 не является независимым набором от Full V2.",
+                "Ранг из источника не переносится. Нули старого поля confidenceInterval_upper не являются подтверждением нулевой неопределённости.",
+                "Заявленные locked-условия не подтверждены отдельно для каждой строки. Страница содержит также исторические лимиты.",
+                "Страница сейчас показывает ±13.01 для Haiku 5.5, старое извлечение содержало 0. Метод и уровень интервала неизвестны."
+            ],
+            "observationSourceUrl": "https://labs.scale.com/leaderboard/swe_bench_pro_public_v2",
+            "telemetryPointers": [
+                {
+                    "name": "Показанная неопределённость (уровень неизвестен)",
+                    "unit": "percentage-points",
+                    "valuePointer": "/observations/10/displayedUncertainty",
+                    "transformations": []
+                }
+            ],
+            "configurationPointers": {
+                "agent": "/observations/10/agent",
+                "agentVersion": "/observations/10/agentVersion",
+                "effort": "/observations/10/effort",
+                "sampleSize": "/observations/10/sampleSize"
+            },
+            "sourceModelNamePointer": "/observations/10/sourceModelName"
+        },
+        {
+            "runId": "swe-pro-hard51-reviewed-12",
+            "scorePointer": "/observations/11/score",
+            "score": 25.5,
+            "sourceUrl": "https://labs.scale.com/leaderboard/swe_bench_pro_public_v2",
+            "sourceModelName": "Haiku 4.5 (Claude Code) xhigh",
+            "configuration": {
+                "agent": "Claude Code",
+                "agentVersion": null,
+                "effort": "xhigh",
+                "sampleSize": 51,
+                "sourceUnit": "percent",
+                "sourceModel": "Haiku 4.5"
+            },
+            "transformations": [],
+            "label": "Claude Code · xhigh",
+            "notes": [
+                "Версия агента неизвестна. Время измерения неизвестно.",
+                "HARD-51 не является независимым набором от Full V2.",
+                "Ранг из источника не переносится. Нули старого поля confidenceInterval_upper не являются подтверждением нулевой неопределённости.",
+                "Заявленные locked-условия не подтверждены отдельно для каждой строки. Страница содержит также исторические лимиты."
+            ],
+            "observationSourceUrl": "https://labs.scale.com/leaderboard/swe_bench_pro_public_v2",
+            "telemetryPointers": [],
+            "configurationPointers": {
+                "agent": "/observations/11/agent",
+                "agentVersion": "/observations/11/agentVersion",
+                "effort": "/observations/11/effort",
+                "sampleSize": "/observations/11/sampleSize"
+            },
+            "sourceModelNamePointer": "/observations/11/sourceModelName"
+        }
+    ]
+}

@@ -2,3 +2,8 @@ node_modules
 dist
 package-lock.json
 *.tsbuildinfo
+# Immutable numeric evidence and response manifests are checked by SHA-256 in validate:data.
+research/proposals/20261011-coding-benchmarks-wave1/evidence/*.json
+research/proposals/20261011-developer-media-wave1/evidence/*.json
+research/proposals/20261011-arenas-polls-wave1/arena-*.json
+research/proposals/20261011-arenas-polls-wave1/poll-stackoverflow-coding-agents.json

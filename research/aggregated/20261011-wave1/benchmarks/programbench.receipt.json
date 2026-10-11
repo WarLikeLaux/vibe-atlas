@@ -1,0 +1,304 @@
+{
+    "checkedAt": "2026-10-11T04:28:19.604191Z",
+    "snapshotPath": "data/snapshots/programbench/current.json",
+    "snapshotSha256": "869a7e7143e5402110264572ab34970f7db633a62c53d8ecec762b20b16f7ebb",
+    "runs": [
+        {
+            "runId": "programbench-muse-1-3-max-resolved",
+            "scorePointer": "/tables/0/2/4",
+            "score": 2.5,
+            "sourceUrl": "https://programbench.com/run/muse-spark-1-3-max/",
+            "sourceModelName": "Muse Spark 1.3 (max)",
+            "configuration": {
+                "agent": "mini-SWE-agent",
+                "agentVersion": null,
+                "effort": "max",
+                "publishedTaskCount": 200,
+                "denominator": null,
+                "sourceUnit": "percent"
+            },
+            "transformations": ["strip-percent-sign-and-whitespace-parse-number"],
+            "label": "mini-SWE-agent · max",
+            "notes": [
+                "Обычный Muse Spark 1.3. Contributor источником не указан и не получает этот результат.",
+                "Версия mini-SWE-agent, точные бюджеты, интервал и время замера не проверены.",
+                "Две effort-конфигурации и три метрики относятся к связанным запускам, не являются независимыми подтверждениями.",
+                "В текущем каталоге у теста одна точно сопоставленная модель, награды отключены."
+            ],
+            "observationSourceUrl": "https://programbench.com/",
+            "telemetryPointers": [
+                {
+                    "name": "Опубликованная средняя API-стоимость",
+                    "unit": "USD/task",
+                    "valuePointer": "/plotRows/2/cost",
+                    "transformations": []
+                },
+                {
+                    "name": "Опубликованные средние вызовы",
+                    "unit": "calls/task",
+                    "valuePointer": "/plotRows/2/calls",
+                    "transformations": []
+                },
+                {
+                    "name": "Поле tokens графика (состав и знаменатель неизвестны)",
+                    "unit": "tokens",
+                    "valuePointer": "/plotRows/2/tokens",
+                    "transformations": []
+                }
+            ],
+            "configurationPointers": {
+                "agent": "/tables/0/2/3",
+                "publishedTaskCount": "/publishedTaskCount"
+            },
+            "sourceModelNamePointer": "/plotRows/2/model"
+        },
+        {
+            "runId": "programbench-muse-1-3-max-almost",
+            "scorePointer": "/tables/0/2/5",
+            "score": 25.0,
+            "sourceUrl": "https://programbench.com/run/muse-spark-1-3-max/",
+            "sourceModelName": "Muse Spark 1.3 (max)",
+            "configuration": {
+                "agent": "mini-SWE-agent",
+                "agentVersion": null,
+                "effort": "max",
+                "publishedTaskCount": 200,
+                "denominator": null,
+                "sourceUnit": "percent"
+            },
+            "transformations": ["strip-percent-sign-and-whitespace-parse-number"],
+            "label": "mini-SWE-agent · max",
+            "notes": [
+                "Обычный Muse Spark 1.3. Contributor источником не указан и не получает этот результат.",
+                "Версия mini-SWE-agent, точные бюджеты, интервал и время замера не проверены.",
+                "Две effort-конфигурации и три метрики относятся к связанным запускам, не являются независимыми подтверждениями.",
+                "В текущем каталоге у теста одна точно сопоставленная модель, награды отключены."
+            ],
+            "observationSourceUrl": "https://programbench.com/",
+            "telemetryPointers": [
+                {
+                    "name": "Опубликованная средняя API-стоимость",
+                    "unit": "USD/task",
+                    "valuePointer": "/plotRows/2/cost",
+                    "transformations": []
+                },
+                {
+                    "name": "Опубликованные средние вызовы",
+                    "unit": "calls/task",
+                    "valuePointer": "/plotRows/2/calls",
+                    "transformations": []
+                },
+                {
+                    "name": "Поле tokens графика (состав и знаменатель неизвестны)",
+                    "unit": "tokens",
+                    "valuePointer": "/plotRows/2/tokens",
+                    "transformations": []
+                }
+            ],
+            "configurationPointers": {
+                "agent": "/tables/0/2/3",
+                "publishedTaskCount": "/publishedTaskCount"
+            },
+            "sourceModelNamePointer": "/plotRows/2/model"
+        },
+        {
+            "runId": "programbench-muse-1-3-max-behavioral",
+            "scorePointer": "/plotRows/2/score",
+            "score": 0.708,
+            "sourceUrl": "https://programbench.com/run/muse-spark-1-3-max/",
+            "sourceModelName": "Muse Spark 1.3 (max)",
+            "configuration": {
+                "agent": "mini-SWE-agent",
+                "agentVersion": null,
+                "effort": "max",
+                "publishedTaskCount": 200,
+                "denominator": null,
+                "sourceUnit": "fraction"
+            },
+            "transformations": [],
+            "label": "mini-SWE-agent · max",
+            "notes": [
+                "Обычный Muse Spark 1.3. Contributor источником не указан и не получает этот результат.",
+                "Версия mini-SWE-agent, точные бюджеты, интервал и время замера не проверены.",
+                "Две effort-конфигурации и три метрики относятся к связанным запускам, не являются независимыми подтверждениями.",
+                "В текущем каталоге у теста одна точно сопоставленная модель, награды отключены."
+            ],
+            "observationSourceUrl": "https://programbench.com/",
+            "telemetryPointers": [
+                {
+                    "name": "Опубликованная средняя API-стоимость",
+                    "unit": "USD/task",
+                    "valuePointer": "/plotRows/2/cost",
+                    "transformations": []
+                },
+                {
+                    "name": "Опубликованные средние вызовы",
+                    "unit": "calls/task",
+                    "valuePointer": "/plotRows/2/calls",
+                    "transformations": []
+                },
+                {
+                    "name": "Поле tokens графика (состав и знаменатель неизвестны)",
+                    "unit": "tokens",
+                    "valuePointer": "/plotRows/2/tokens",
+                    "transformations": []
+                }
+            ],
+            "configurationPointers": {
+                "agent": "/tables/0/2/3",
+                "publishedTaskCount": "/publishedTaskCount"
+            },
+            "sourceModelNamePointer": "/plotRows/2/model"
+        },
+        {
+            "runId": "programbench-muse-1-3-xhigh-resolved",
+            "scorePointer": "/tables/0/3/4",
+            "score": 1.0,
+            "sourceUrl": "https://programbench.com/run/muse-spark-1-3-xhigh/",
+            "sourceModelName": "Muse Spark 1.3 (xhigh)",
+            "configuration": {
+                "agent": "mini-SWE-agent",
+                "agentVersion": null,
+                "effort": "xhigh",
+                "publishedTaskCount": 200,
+                "denominator": null,
+                "sourceUnit": "percent"
+            },
+            "transformations": ["strip-percent-sign-and-whitespace-parse-number"],
+            "label": "mini-SWE-agent · xhigh",
+            "notes": [
+                "Обычный Muse Spark 1.3. Contributor источником не указан и не получает этот результат.",
+                "Версия mini-SWE-agent, точные бюджеты, интервал и время замера не проверены.",
+                "Две effort-конфигурации и три метрики относятся к связанным запускам, не являются независимыми подтверждениями.",
+                "В текущем каталоге у теста одна точно сопоставленная модель, награды отключены.",
+                "Источник показывает 199 solutions при 200 instances, есть n/a. Агрегаты сохранены без собственного пересчёта знаменателя."
+            ],
+            "observationSourceUrl": "https://programbench.com/",
+            "telemetryPointers": [
+                {
+                    "name": "Опубликованная средняя API-стоимость",
+                    "unit": "USD/task",
+                    "valuePointer": "/plotRows/5/cost",
+                    "transformations": []
+                },
+                {
+                    "name": "Опубликованные средние вызовы",
+                    "unit": "calls/task",
+                    "valuePointer": "/plotRows/5/calls",
+                    "transformations": []
+                },
+                {
+                    "name": "Поле tokens графика (состав и знаменатель неизвестны)",
+                    "unit": "tokens",
+                    "valuePointer": "/plotRows/5/tokens",
+                    "transformations": []
+                }
+            ],
+            "configurationPointers": {
+                "agent": "/tables/0/3/3",
+                "publishedTaskCount": "/publishedTaskCount"
+            },
+            "sourceModelNamePointer": "/plotRows/5/model"
+        },
+        {
+            "runId": "programbench-muse-1-3-xhigh-almost",
+            "scorePointer": "/tables/0/3/5",
+            "score": 16.5,
+            "sourceUrl": "https://programbench.com/run/muse-spark-1-3-xhigh/",
+            "sourceModelName": "Muse Spark 1.3 (xhigh)",
+            "configuration": {
+                "agent": "mini-SWE-agent",
+                "agentVersion": null,
+                "effort": "xhigh",
+                "publishedTaskCount": 200,
+                "denominator": null,
+                "sourceUnit": "percent"
+            },
+            "transformations": ["strip-percent-sign-and-whitespace-parse-number"],
+            "label": "mini-SWE-agent · xhigh",
+            "notes": [
+                "Обычный Muse Spark 1.3. Contributor источником не указан и не получает этот результат.",
+                "Версия mini-SWE-agent, точные бюджеты, интервал и время замера не проверены.",
+                "Две effort-конфигурации и три метрики относятся к связанным запускам, не являются независимыми подтверждениями.",
+                "В текущем каталоге у теста одна точно сопоставленная модель, награды отключены.",
+                "Источник показывает 199 solutions при 200 instances, есть n/a. Агрегаты сохранены без собственного пересчёта знаменателя."
+            ],
+            "observationSourceUrl": "https://programbench.com/",
+            "telemetryPointers": [
+                {
+                    "name": "Опубликованная средняя API-стоимость",
+                    "unit": "USD/task",
+                    "valuePointer": "/plotRows/5/cost",
+                    "transformations": []
+                },
+                {
+                    "name": "Опубликованные средние вызовы",
+                    "unit": "calls/task",
+                    "valuePointer": "/plotRows/5/calls",
+                    "transformations": []
+                },
+                {
+                    "name": "Поле tokens графика (состав и знаменатель неизвестны)",
+                    "unit": "tokens",
+                    "valuePointer": "/plotRows/5/tokens",
+                    "transformations": []
+                }
+            ],
+            "configurationPointers": {
+                "agent": "/tables/0/3/3",
+                "publishedTaskCount": "/publishedTaskCount"
+            },
+            "sourceModelNamePointer": "/plotRows/5/model"
+        },
+        {
+            "runId": "programbench-muse-1-3-xhigh-behavioral",
+            "scorePointer": "/plotRows/5/score",
+            "score": 0.6859999999999999,
+            "sourceUrl": "https://programbench.com/run/muse-spark-1-3-xhigh/",
+            "sourceModelName": "Muse Spark 1.3 (xhigh)",
+            "configuration": {
+                "agent": "mini-SWE-agent",
+                "agentVersion": null,
+                "effort": "xhigh",
+                "publishedTaskCount": 200,
+                "denominator": null,
+                "sourceUnit": "fraction"
+            },
+            "transformations": [],
+            "label": "mini-SWE-agent · xhigh",
+            "notes": [
+                "Обычный Muse Spark 1.3. Contributor источником не указан и не получает этот результат.",
+                "Версия mini-SWE-agent, точные бюджеты, интервал и время замера не проверены.",
+                "Две effort-конфигурации и три метрики относятся к связанным запускам, не являются независимыми подтверждениями.",
+                "В текущем каталоге у теста одна точно сопоставленная модель, награды отключены.",
+                "Источник показывает 199 solutions при 200 instances, есть n/a. Агрегаты сохранены без собственного пересчёта знаменателя."
+            ],
+            "observationSourceUrl": "https://programbench.com/",
+            "telemetryPointers": [
+                {
+                    "name": "Опубликованная средняя API-стоимость",
+                    "unit": "USD/task",
+                    "valuePointer": "/plotRows/5/cost",
+                    "transformations": []
+                },
+                {
+                    "name": "Опубликованные средние вызовы",
+                    "unit": "calls/task",
+                    "valuePointer": "/plotRows/5/calls",
+                    "transformations": []
+                },
+                {
+                    "name": "Поле tokens графика (состав и знаменатель неизвестны)",
+                    "unit": "tokens",
+                    "valuePointer": "/plotRows/5/tokens",
+                    "transformations": []
+                }
+            ],
+            "configurationPointers": {
+                "agent": "/tables/0/3/3",
+                "publishedTaskCount": "/publishedTaskCount"
+            },
+            "sourceModelNamePointer": "/plotRows/5/model"
+        }
+    ]
+}

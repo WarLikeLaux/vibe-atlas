@@ -1,0 +1,381 @@
+{
+    "id": "programbench-200-reviewed",
+    "sourceId": "programbench",
+    "checkedAt": "2026-10-11T04:28:19.604191Z",
+    "parserVersion": "wave1-reviewed-observations/1",
+    "snapshotPath": "data/snapshots/programbench/current.json",
+    "snapshotSha256": "869a7e7143e5402110264572ab34970f7db633a62c53d8ecec762b20b16f7ebb",
+    "benchmarks": [
+        {
+            "id": "programbench:200-mini-swe-resolved",
+            "name": "ProgramBench · Resolved",
+            "context": "200 задач · mini-SWE-agent",
+            "unit": "% Resolved",
+            "format": "percent",
+            "awardEligible": false,
+            "sourceUrl": "https://programbench.com/",
+            "methodologyUrl": "https://programbench.com/",
+            "checkedAt": "2026-10-11T04:28:19.604191Z",
+            "passport": {
+                "author": "Meta Superintelligence Labs / Stanford / Harvard",
+                "purpose": "Реализация программы заново по исполняемому binary и документации.",
+                "requirements": "200 задач, mini-SWE-agent, сеть и декомпиляция запрещены. Версия агента и бюджеты запуска неизвестны.",
+                "scoring": "Все behavioral tests задачи должны пройти. Источник публикует агрегат, знаменатель xhigh не подтверждён отдельно.",
+                "reviews": [
+                    {
+                        "dimension": "independence",
+                        "status": "supported",
+                        "explanation": "Среди авторов названа Meta Superintelligence Labs. Измерение Muse не считается независимым от Meta.",
+                        "sourceUrl": "https://programbench.com/",
+                        "checkedAt": "2026-10-11T04:28:19.604191Z"
+                    },
+                    {
+                        "dimension": "contamination",
+                        "status": "unknown",
+                        "explanation": "Сайт описывает запреты сети и декомпиляции. Знание публичных исходников при обучении не проверено.",
+                        "sourceUrl": "https://programbench.com/",
+                        "checkedAt": "2026-10-11T04:28:19.604191Z"
+                    },
+                    {
+                        "dimension": "saturation",
+                        "status": "not-reviewed",
+                        "explanation": "Полный аудит различимости не выполнен. Низкий Resolved не доказывает отсутствие насыщения других метрик.",
+                        "sourceUrl": "https://programbench.com/",
+                        "checkedAt": "2026-10-11T04:28:19.604191Z"
+                    },
+                    {
+                        "dimension": "reproducibility",
+                        "status": "unknown",
+                        "explanation": "Программы и артефакты доступны по ссылкам. Точная версия harness, бюджеты и собственный повтор неизвестны.",
+                        "sourceUrl": "https://programbench.com/",
+                        "checkedAt": "2026-10-11T04:28:19.604191Z"
+                    },
+                    {
+                        "dimension": "comparability",
+                        "status": "unknown",
+                        "explanation": "200 задач заявлены для таблицы. У xhigh 199 solutions и 200 строк. Правило обработки n/a и знаменатель агрегатов не уточнены.",
+                        "sourceUrl": "https://programbench.com/",
+                        "checkedAt": "2026-10-11T04:28:19.604191Z"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "programbench:200-mini-swe-almost",
+            "name": "ProgramBench · Almost Resolved",
+            "context": "200 задач · mini-SWE-agent",
+            "unit": "% Almost Resolved",
+            "format": "percent",
+            "awardEligible": false,
+            "sourceUrl": "https://programbench.com/",
+            "methodologyUrl": "https://programbench.com/",
+            "checkedAt": "2026-10-11T04:28:19.604191Z",
+            "passport": {
+                "author": "Meta Superintelligence Labs / Stanford / Harvard",
+                "purpose": "Реализация программы заново по исполняемому binary и документации.",
+                "requirements": "200 задач, mini-SWE-agent, сеть и декомпиляция запрещены. Версия агента и бюджеты запуска неизвестны.",
+                "scoring": "Не менее 95% behavioral tests задачи должны пройти. Источник публикует агрегат, знаменатель xhigh не подтверждён отдельно.",
+                "reviews": [
+                    {
+                        "dimension": "independence",
+                        "status": "supported",
+                        "explanation": "Среди авторов названа Meta Superintelligence Labs. Измерение Muse не считается независимым от Meta.",
+                        "sourceUrl": "https://programbench.com/",
+                        "checkedAt": "2026-10-11T04:28:19.604191Z"
+                    },
+                    {
+                        "dimension": "contamination",
+                        "status": "unknown",
+                        "explanation": "Сайт описывает запреты сети и декомпиляции. Знание публичных исходников при обучении не проверено.",
+                        "sourceUrl": "https://programbench.com/",
+                        "checkedAt": "2026-10-11T04:28:19.604191Z"
+                    },
+                    {
+                        "dimension": "saturation",
+                        "status": "not-reviewed",
+                        "explanation": "Полный аудит различимости не выполнен. Низкий Resolved не доказывает отсутствие насыщения других метрик.",
+                        "sourceUrl": "https://programbench.com/",
+                        "checkedAt": "2026-10-11T04:28:19.604191Z"
+                    },
+                    {
+                        "dimension": "reproducibility",
+                        "status": "unknown",
+                        "explanation": "Программы и артефакты доступны по ссылкам. Точная версия harness, бюджеты и собственный повтор неизвестны.",
+                        "sourceUrl": "https://programbench.com/",
+                        "checkedAt": "2026-10-11T04:28:19.604191Z"
+                    },
+                    {
+                        "dimension": "comparability",
+                        "status": "unknown",
+                        "explanation": "200 задач заявлены для таблицы. У xhigh 199 solutions и 200 строк. Правило обработки n/a и знаменатель агрегатов не уточнены.",
+                        "sourceUrl": "https://programbench.com/",
+                        "checkedAt": "2026-10-11T04:28:19.604191Z"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "programbench:200-mini-swe-behavioral",
+            "name": "ProgramBench · Behavioral Test Pass Rate",
+            "context": "200 задач · mini-SWE-agent",
+            "unit": "fraction",
+            "format": "number",
+            "awardEligible": false,
+            "sourceUrl": "https://programbench.com/",
+            "methodologyUrl": "https://programbench.com/",
+            "checkedAt": "2026-10-11T04:28:19.604191Z",
+            "passport": {
+                "author": "Meta Superintelligence Labs / Stanford / Harvard",
+                "purpose": "Реализация программы заново по исполняемому binary и документации.",
+                "requirements": "200 задач, mini-SWE-agent, сеть и декомпиляция запрещены. Версия агента и бюджеты запуска неизвестны.",
+                "scoring": "Исходная дробь 0–1 из embedded results, не приблизительное чтение графика. Источник публикует агрегат, знаменатель xhigh не подтверждён отдельно.",
+                "reviews": [
+                    {
+                        "dimension": "independence",
+                        "status": "supported",
+                        "explanation": "Среди авторов названа Meta Superintelligence Labs. Измерение Muse не считается независимым от Meta.",
+                        "sourceUrl": "https://programbench.com/",
+                        "checkedAt": "2026-10-11T04:28:19.604191Z"
+                    },
+                    {
+                        "dimension": "contamination",
+                        "status": "unknown",
+                        "explanation": "Сайт описывает запреты сети и декомпиляции. Знание публичных исходников при обучении не проверено.",
+                        "sourceUrl": "https://programbench.com/",
+                        "checkedAt": "2026-10-11T04:28:19.604191Z"
+                    },
+                    {
+                        "dimension": "saturation",
+                        "status": "not-reviewed",
+                        "explanation": "Полный аудит различимости не выполнен. Низкий Resolved не доказывает отсутствие насыщения других метрик.",
+                        "sourceUrl": "https://programbench.com/",
+                        "checkedAt": "2026-10-11T04:28:19.604191Z"
+                    },
+                    {
+                        "dimension": "reproducibility",
+                        "status": "unknown",
+                        "explanation": "Программы и артефакты доступны по ссылкам. Точная версия harness, бюджеты и собственный повтор неизвестны.",
+                        "sourceUrl": "https://programbench.com/",
+                        "checkedAt": "2026-10-11T04:28:19.604191Z"
+                    },
+                    {
+                        "dimension": "comparability",
+                        "status": "unknown",
+                        "explanation": "200 задач заявлены для таблицы. У xhigh 199 solutions и 200 строк. Правило обработки n/a и знаменатель агрегатов не уточнены.",
+                        "sourceUrl": "https://programbench.com/",
+                        "checkedAt": "2026-10-11T04:28:19.604191Z"
+                    }
+                ]
+            }
+        }
+    ],
+    "runs": [
+        {
+            "id": "programbench-muse-1-3-max-resolved",
+            "sourceModelName": "Muse Spark 1.3 (max)",
+            "benchmarkId": "programbench:200-mini-swe-resolved",
+            "label": "mini-SWE-agent · max",
+            "score": 2.5,
+            "sourceUrl": "https://programbench.com/run/muse-spark-1-3-max/",
+            "checkedAt": "2026-10-11T04:28:19.604191Z",
+            "notes": [
+                "Обычный Muse Spark 1.3. Contributor источником не указан и не получает этот результат.",
+                "Версия mini-SWE-agent, точные бюджеты, интервал и время замера не проверены.",
+                "Две effort-конфигурации и три метрики относятся к связанным запускам, не являются независимыми подтверждениями.",
+                "В текущем каталоге у теста одна точно сопоставленная модель, награды отключены."
+            ],
+            "telemetry": [
+                {
+                    "name": "Опубликованная средняя API-стоимость",
+                    "value": 6.4627,
+                    "unit": "USD/task"
+                },
+                {
+                    "name": "Опубликованные средние вызовы",
+                    "value": 325,
+                    "unit": "calls/task"
+                },
+                {
+                    "name": "Поле tokens графика (состав и знаменатель неизвестны)",
+                    "value": 387723,
+                    "unit": "tokens"
+                }
+            ],
+            "estimated": false,
+            "modelId": "muse-spark-1-3"
+        },
+        {
+            "id": "programbench-muse-1-3-max-almost",
+            "sourceModelName": "Muse Spark 1.3 (max)",
+            "benchmarkId": "programbench:200-mini-swe-almost",
+            "label": "mini-SWE-agent · max",
+            "score": 25.0,
+            "sourceUrl": "https://programbench.com/run/muse-spark-1-3-max/",
+            "checkedAt": "2026-10-11T04:28:19.604191Z",
+            "notes": [
+                "Обычный Muse Spark 1.3. Contributor источником не указан и не получает этот результат.",
+                "Версия mini-SWE-agent, точные бюджеты, интервал и время замера не проверены.",
+                "Две effort-конфигурации и три метрики относятся к связанным запускам, не являются независимыми подтверждениями.",
+                "В текущем каталоге у теста одна точно сопоставленная модель, награды отключены."
+            ],
+            "telemetry": [
+                {
+                    "name": "Опубликованная средняя API-стоимость",
+                    "value": 6.4627,
+                    "unit": "USD/task"
+                },
+                {
+                    "name": "Опубликованные средние вызовы",
+                    "value": 325,
+                    "unit": "calls/task"
+                },
+                {
+                    "name": "Поле tokens графика (состав и знаменатель неизвестны)",
+                    "value": 387723,
+                    "unit": "tokens"
+                }
+            ],
+            "estimated": false,
+            "modelId": "muse-spark-1-3"
+        },
+        {
+            "id": "programbench-muse-1-3-max-behavioral",
+            "sourceModelName": "Muse Spark 1.3 (max)",
+            "benchmarkId": "programbench:200-mini-swe-behavioral",
+            "label": "mini-SWE-agent · max",
+            "score": 0.708,
+            "sourceUrl": "https://programbench.com/run/muse-spark-1-3-max/",
+            "checkedAt": "2026-10-11T04:28:19.604191Z",
+            "notes": [
+                "Обычный Muse Spark 1.3. Contributor источником не указан и не получает этот результат.",
+                "Версия mini-SWE-agent, точные бюджеты, интервал и время замера не проверены.",
+                "Две effort-конфигурации и три метрики относятся к связанным запускам, не являются независимыми подтверждениями.",
+                "В текущем каталоге у теста одна точно сопоставленная модель, награды отключены."
+            ],
+            "telemetry": [
+                {
+                    "name": "Опубликованная средняя API-стоимость",
+                    "value": 6.4627,
+                    "unit": "USD/task"
+                },
+                {
+                    "name": "Опубликованные средние вызовы",
+                    "value": 325,
+                    "unit": "calls/task"
+                },
+                {
+                    "name": "Поле tokens графика (состав и знаменатель неизвестны)",
+                    "value": 387723,
+                    "unit": "tokens"
+                }
+            ],
+            "estimated": false,
+            "modelId": "muse-spark-1-3"
+        },
+        {
+            "id": "programbench-muse-1-3-xhigh-resolved",
+            "sourceModelName": "Muse Spark 1.3 (xhigh)",
+            "benchmarkId": "programbench:200-mini-swe-resolved",
+            "label": "mini-SWE-agent · xhigh",
+            "score": 1.0,
+            "sourceUrl": "https://programbench.com/run/muse-spark-1-3-xhigh/",
+            "checkedAt": "2026-10-11T04:28:19.604191Z",
+            "notes": [
+                "Обычный Muse Spark 1.3. Contributor источником не указан и не получает этот результат.",
+                "Версия mini-SWE-agent, точные бюджеты, интервал и время замера не проверены.",
+                "Две effort-конфигурации и три метрики относятся к связанным запускам, не являются независимыми подтверждениями.",
+                "В текущем каталоге у теста одна точно сопоставленная модель, награды отключены.",
+                "Источник показывает 199 solutions при 200 instances, есть n/a. Агрегаты сохранены без собственного пересчёта знаменателя."
+            ],
+            "telemetry": [
+                {
+                    "name": "Опубликованная средняя API-стоимость",
+                    "value": 2.0198,
+                    "unit": "USD/task"
+                },
+                {
+                    "name": "Опубликованные средние вызовы",
+                    "value": 253,
+                    "unit": "calls/task"
+                },
+                {
+                    "name": "Поле tokens графика (состав и знаменатель неизвестны)",
+                    "value": 216872,
+                    "unit": "tokens"
+                }
+            ],
+            "estimated": false,
+            "modelId": "muse-spark-1-3"
+        },
+        {
+            "id": "programbench-muse-1-3-xhigh-almost",
+            "sourceModelName": "Muse Spark 1.3 (xhigh)",
+            "benchmarkId": "programbench:200-mini-swe-almost",
+            "label": "mini-SWE-agent · xhigh",
+            "score": 16.5,
+            "sourceUrl": "https://programbench.com/run/muse-spark-1-3-xhigh/",
+            "checkedAt": "2026-10-11T04:28:19.604191Z",
+            "notes": [
+                "Обычный Muse Spark 1.3. Contributor источником не указан и не получает этот результат.",
+                "Версия mini-SWE-agent, точные бюджеты, интервал и время замера не проверены.",
+                "Две effort-конфигурации и три метрики относятся к связанным запускам, не являются независимыми подтверждениями.",
+                "В текущем каталоге у теста одна точно сопоставленная модель, награды отключены.",
+                "Источник показывает 199 solutions при 200 instances, есть n/a. Агрегаты сохранены без собственного пересчёта знаменателя."
+            ],
+            "telemetry": [
+                {
+                    "name": "Опубликованная средняя API-стоимость",
+                    "value": 2.0198,
+                    "unit": "USD/task"
+                },
+                {
+                    "name": "Опубликованные средние вызовы",
+                    "value": 253,
+                    "unit": "calls/task"
+                },
+                {
+                    "name": "Поле tokens графика (состав и знаменатель неизвестны)",
+                    "value": 216872,
+                    "unit": "tokens"
+                }
+            ],
+            "estimated": false,
+            "modelId": "muse-spark-1-3"
+        },
+        {
+            "id": "programbench-muse-1-3-xhigh-behavioral",
+            "sourceModelName": "Muse Spark 1.3 (xhigh)",
+            "benchmarkId": "programbench:200-mini-swe-behavioral",
+            "label": "mini-SWE-agent · xhigh",
+            "score": 0.6859999999999999,
+            "sourceUrl": "https://programbench.com/run/muse-spark-1-3-xhigh/",
+            "checkedAt": "2026-10-11T04:28:19.604191Z",
+            "notes": [
+                "Обычный Muse Spark 1.3. Contributor источником не указан и не получает этот результат.",
+                "Версия mini-SWE-agent, точные бюджеты, интервал и время замера не проверены.",
+                "Две effort-конфигурации и три метрики относятся к связанным запускам, не являются независимыми подтверждениями.",
+                "В текущем каталоге у теста одна точно сопоставленная модель, награды отключены.",
+                "Источник показывает 199 solutions при 200 instances, есть n/a. Агрегаты сохранены без собственного пересчёта знаменателя."
+            ],
+            "telemetry": [
+                {
+                    "name": "Опубликованная средняя API-стоимость",
+                    "value": 2.0198,
+                    "unit": "USD/task"
+                },
+                {
+                    "name": "Опубликованные средние вызовы",
+                    "value": 253,
+                    "unit": "calls/task"
+                },
+                {
+                    "name": "Поле tokens графика (состав и знаменатель неизвестны)",
+                    "value": 216872,
+                    "unit": "tokens"
+                }
+            ],
+            "estimated": false,
+            "modelId": "muse-spark-1-3"
+        }
+    ]
+}

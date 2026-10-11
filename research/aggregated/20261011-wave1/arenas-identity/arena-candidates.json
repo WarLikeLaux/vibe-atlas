@@ -1,0 +1,97 @@
+{
+    "version": 1,
+    "records": [
+        {
+            "id": "designarena-frontend",
+            "status": "needs-context",
+            "name": "Design Arena Frontend",
+            "kind": "benchmark-candidate",
+            "awardEligible": false,
+            "sourceArtifact": "research/proposals/20261011-arenas-polls-wave1/benchmark-designarena.md",
+            "sourceArtifactSha256": "d7c8d2eb67bf025b7e120dcb653e96d8cf06f583aa637e5cb7e9cd9244a88cad",
+            "sources": [
+                {
+                    "url": "https://www.designarena.ai/leaderboard/code",
+                    "researchCheckedAt": "2026-10-10T18:49:34Z",
+                    "integratorCheckedAt": null
+                }
+            ],
+            "unknown": {
+                "numericResults": "Current exact scores and configurations not extracted.",
+                "integration": "No score rows accepted.",
+                "independentReview": "Historical methodology card preserved from researcher; not independently rechecked in this aggregation."
+            },
+            "runs": [],
+            "rawResearchCard": "# Design Arena: Overall Frontend\n\n## Происхождение\n\n- Идентификатор: designarena-frontend.\n- Задание: 20261011-arenas-polls-wave1.\n- Состояние: needs-context, методология сверена, числовая таблица не извлечена.\n- Оригинал: [Overall Frontend](https://www.designarena.ai/leaderboard/code).\n- Методология: [About](https://www.designarena.ai/about).\n- Автор и исполнитель: Design Arena by Intelligence, человеческие сравнения.\n- Дата публикации неизвестна. Получено через web.open и публичный HTTP, отдельное время получения не записано. Проверено: 2026-10-10T18:49:34Z.\n- Повторная публикация не используется.\n\n## Тест и результаты\n\nВсе подтверждённые сведения в этом разделе относятся к [методологии](https://www.designarena.ai/about), проверенной 2026-10-10T18:49:34Z.\n\n- Название: Overall Frontend (Text-to-HTML), версия неизвестна.\n- Назначение: предпочтение дизайна по результатам одинакового запроса.\n- Слепой турнир: четыре модели, пять парных сравнений. Идентичные запросы, случайное формирование пар, имена скрыты.\n- Метрики: рейтинг Bradley-Terry, подписанный в UI как Elo Rating, и Win Rate. Выше лучше. Формула рейтинга: 400 × log10(strength). Это опубликованная формула, не собственный пересчёт.\n- Сравнения имеют одинаковый вес. Основные диаграммы исключают модели с менее чем 50 сравнениями. Preliminary обычно снимается после 200, порог зависит от категории.\n- Числа, модели, варианты, число голосов и период текущей таблицы неизвестны: web.open и HTML раскрыли оболочку, но не строки. Не переносить рейтинги агрегаторов.\n- Источник сообщает настройки temperature по моделям, конкретные настройки замера не извлечены. Агент, версия, effort, попытки и среда неизвестны.\n- Доверительные интервалы неизвестны. Машинный набор отсутствует, чисел для импорта нет.\n- Способ извлечения: ручная сверка текстовой методологии и проверка отсутствия table и целевых имён в полученном HTML. Полный HTML не сохранялся.\n- Охват: главная, индекс таблиц, Overall Frontend и About. Другие категории не разобраны.\n\n## Дополнительные данные при наличии\n\nUI содержит диаграммы Preference vs Speed и Preference vs Price, но значения не извлечены. Стоимость, время и телеметрия неизвестны. Собственные вычисления не выполнялись.\n\n## Разбор доверия\n\nПроверка 2026-10-10T18:49:34Z, источник [About](https://www.designarena.ai/about).\n\n- Независимость: unknown, финансирование и связи для замеров не проверены.\n- Утечка: not-reviewed.\n- Насыщение: not-reviewed.\n- Воспроизводимость: unknown, полный срез и код не сверены, повтор не выполнен.\n- Сопоставимость: unknown, конфигурации и результаты не извлечены. Турнирные голоса одного человека зависимы, нельзя принимать пять сравнений за пять независимых респондентов (вывод исследователя из процедуры).\n\n## Проверка и передача\n\nМетодология сверена, числа не подтверждены. Модели каталога не сопоставлены. Дубликатов среди просмотренных импортов нет. Следующий шаг: получить таблицы через публичный клиентский доступ с точными настройками и датой среза. Эта карточка не готова к числовой интеграции.\n"
+        },
+        {
+            "id": "bigcodearena-human",
+            "status": "needs-context",
+            "name": "BigCodeArena",
+            "kind": "benchmark-candidate",
+            "awardEligible": false,
+            "sourceArtifact": "research/proposals/20261011-arenas-polls-wave1/benchmark-bigcodearena.md",
+            "sourceArtifactSha256": "c271197f6dc9d7ef5e844199393c8c371d96eff9058efcfe3ab4011cac273195",
+            "sources": [
+                {
+                    "url": "https://huggingface.co/blog/bigcode/arena",
+                    "researchCheckedAt": "2026-10-10T18:49:34Z",
+                    "integratorCheckedAt": null
+                }
+            ],
+            "unknown": {
+                "numericResults": "Current exact scores and configurations not extracted.",
+                "integration": "No score rows accepted.",
+                "independentReview": "Historical methodology card preserved from researcher; not independently rechecked in this aggregation."
+            },
+            "runs": [],
+            "rawResearchCard": "# BigCodeArena: человеческие сравнения с выполнением кода\n\n## Происхождение\n\n- Идентификатор: bigcodearena-human.\n- Задание: 20261011-arenas-polls-wave1.\n- Состояние: source-verified для исторической методологии и размера выборки. Актуальные рейтинги не получены.\n- Оригинал и методология: [публикация BigCode](https://huggingface.co/blog/bigcode/arena), 2025-10-07, проверено 2026-10-10T18:49:34Z.\n- Автор: Terry Yue Zhuo / BigCode. Исполнитель: пользователи BigCodeArena.\n- [Репозиторий](https://github.com/bigcode-project/bigcodearena) и [Space](https://huggingface.co/spaces/bigcode/arena) просмотрены 2026-10-10T18:49:34Z.\n- Получено: отдельные timestamps не записаны. Проверено: 2026-10-10T18:49:34Z.\n- Повторная публикация: не используется. Материал старше 90 дней включён для методологии.\n\n## Тест и результаты\n\nПо [оригиналу](https://huggingface.co/blog/bigcode/arena), проверено 2026-10-10T18:49:34Z:\n\n- Название: BigCodeArena, версия неизвестна. Задачи: генерация кода, интерактивные приложения, отладка.\n- Метрика: Elo на Bradley-Terry по человеческим сравнениям после выполнения кода, выше лучше.\n- Более 14,000 conversations, более 500 unique users, 4,731 voting samples после фильтра. У каждой оценённой модели не менее 700 голосов. Эти величины не взаимозаменяемы.\n- Фильтр: минимум два turns и фактическое выполнение кода.\n- Три протокола: All Data, Environment Matched, Language Matched. Не объединять их в один замер.\n- Неопределённость: 95% confidence intervals, 100 bootstrap resamples. Числовые интервалы и рейтинги не извлечены из графиков.\n- Исторические модели не подменяют целевые текущие версии. Их полные конфигурации, API ID, effort и бюджеты в этой партии не подтверждены.\n- Машинный набор отсутствует. Снимок текущей таблицы не получен: Space раскрыл статус Running и iframe, не leaderboard.\n- Охват: статья, README, оболочка Space. Полные данные и iframe не разобраны.\n\n## Дополнительные данные при наличии\n\nСтоимость и время замеров, токены и шаги неизвестны. Собственные вычисления не выполнялись.\n\n## Разбор доверия\n\nДата разбора 2026-10-10T18:49:34Z, [статья](https://huggingface.co/blog/bigcode/arena), [код](https://github.com/bigcode-project/bigcodearena).\n\n- Независимость: unknown, коммерческие связи и финансирование не проверены.\n- Утечка: not-reviewed. Доступность данных не доказывает обучение на них.\n- Насыщение: not-reviewed.\n- Воспроизводимость: unknown. Авторы публикуют код и данные, их полнота и повтор не проверены.\n- Сопоставимость: unknown. Авторы выделяют контроль языка и среды. Результаты разных протоколов нужно хранить отдельно.\n\n## Проверка и передача\n\nПроверены выборка, фильтр и интервалы, исследователь арен. Дубликатов в существующих импортах нет. Для интеграции нужны точные числовые результаты и текущие конфигурации. AutoCodeArena оформлена отдельно, её автоматические решения не добавляют человеческие голоса.\n"
+        },
+        {
+            "id": "autocodearena-judge",
+            "status": "needs-context",
+            "name": "AutoCodeArena",
+            "kind": "benchmark-candidate",
+            "awardEligible": false,
+            "sourceArtifact": "research/proposals/20261011-arenas-polls-wave1/benchmark-autocodearena.md",
+            "sourceArtifactSha256": "38c1b5f439a777cc9f5bc968e558b776dce73cde1936613f7a8ef02486a35e71",
+            "sources": [
+                {
+                    "url": "https://huggingface.co/blog/bigcode/arena",
+                    "researchCheckedAt": "2026-10-10T18:49:34Z",
+                    "integratorCheckedAt": null
+                }
+            ],
+            "unknown": {
+                "numericResults": "Current exact scores and configurations not extracted.",
+                "integration": "No score rows accepted.",
+                "independentReview": "Historical methodology card preserved from researcher; not independently rechecked in this aggregation."
+            },
+            "runs": [],
+            "rawResearchCard": "# AutoCodeArena: автоматическая оценка\n\n## Происхождение\n\n- Идентификатор: autocodearena-judge.\n- Задание: 20261011-arenas-polls-wave1.\n- Состояние: source-verified для методологии, без подтверждённых текущих баллов.\n- Оригинал результатов и методология: [BigCode](https://huggingface.co/blog/bigcode/arena), опубликовано 2025-10-07, проверено 2026-10-10T18:49:34Z.\n- Автор и исполнитель: BigCode, автоматическая оценка.\n- Код: [репозиторий](https://github.com/bigcode-project/bigcodearena), проверено 2026-10-10T18:49:34Z.\n- Время получения отдельно не записано. Проверено: 2026-10-10T18:49:34Z.\n- Старый материал сохранён для методологии. Не является обычным общественным опросом.\n\n## Тест и результаты\n\n[Оригинал](https://huggingface.co/blog/bigcode/arena), сверка 2026-10-10T18:49:34Z:\n\n- Название: AutoCodeArena, версия неизвестна.\n- Задания: 600 отобранных запросов из crowdsourced data, выполнение кода с оценкой результатов.\n- Метрика опубликованного графика: Win rate относительно GPT-4.1, 50% обозначает паритет. В README также описана агрегация Elo. Не подменять одну шкалу другой.\n- Судья: Claude-3.7-Sonnet. Baseline: GPT-4.1. Судья исключён из собственного рейтинга.\n- График содержит 95% confidence intervals. Числа и числовые границы не извлечены.\n- Более 20 моделей в историческом замере. Точные актуальные целевые версии не подтверждены.\n- API ID, effort, версия агента, бюджеты, число попыток неизвестны. Машинного набора текущих результатов нет.\n- Извлечение: ручная сверка статьи и README. Графики не оцифровывались.\n\n## Дополнительные данные при наличии\n\nСтоимость, время и телеметрия замера неизвестны. Собственные вычисления не выполнялись.\n\n## Разбор доверия\n\nПроверка 2026-10-10T18:49:34Z, [BigCode](https://huggingface.co/blog/bigcode/arena).\n\n- Независимость: unknown.\n- Утечка: not-reviewed.\n- Насыщение: not-reviewed.\n- Воспроизводимость: unknown, код опубликован, повтор не выполнен.\n- Сопоставимость: unknown. Судья-модель, её собственные предпочтения и фиксированный baseline являются частью протокола. Отделить от человеческой BigCodeArena.\n\n## Проверка и передача\n\nПроверяющая роль: исследователь арен. Дубликатов среди импортов не найдено. Соответствия каталогу не установлены. Перед числовой интеграцией нужны опубликованные значения, их шкала и точные конфигурации. Это отдельный протокол той же площадки, не независимый человеческий замер.\n"
+        },
+        {
+            "id": "copilot-arena-ide",
+            "status": "needs-context",
+            "name": "Copilot Arena",
+            "kind": "benchmark-candidate",
+            "awardEligible": false,
+            "sourceArtifact": "research/proposals/20261011-arenas-polls-wave1/benchmark-copilot-arena.md",
+            "sourceArtifactSha256": "ab50bd0882a4a8a3f59a09502980270963d08cd404a907eedb899f440281c7d5",
+            "sources": [
+                {
+                    "url": "https://arxiv.org/abs/2502.09328",
+                    "researchCheckedAt": "2026-10-10T18:49:34Z",
+                    "integratorCheckedAt": null
+                }
+            ],
+            "unknown": {
+                "numericResults": "Current exact scores and configurations not extracted.",
+                "integration": "No score rows accepted.",
+                "independentReview": "Historical methodology card preserved from researcher; not independently rechecked in this aggregation."
+            },
+            "runs": [],
+            "rawResearchCard": "# Copilot Arena: парные completions в IDE\n\n## Происхождение\n\n- Идентификатор: copilot-arena-ide.\n- Задание: 20261011-arenas-polls-wave1.\n- Состояние: source-verified для описания платформы и исторического объёма. Текущих числовых рейтингов нет.\n- Оригинал: [статья, arXiv v1](https://arxiv.org/abs/2502.09328), опубликовано 2025-02-13, проверено 2026-10-10T18:49:34Z.\n- Методология и инструмент: [README](https://github.com/lmarena/copilot-arena), проверено 2026-10-10T18:49:34Z.\n- Авторы: Wayne Chi, Valerie Chen и соавторы. Исполнители оценок: пользователи расширения.\n- Время получения отдельно не записано. Проверено: 2026-10-10T18:49:34Z.\n- Старый источник включён для методологии. Финансовые связи не проверены.\n\n## Тест и результаты\n\n[Статья](https://arxiv.org/abs/2502.09328), проверено 2026-10-10T18:49:34Z, сообщает более 4.5 million suggestions, 10 models и более 11k pairwise judgements. Эти величины не обозначают одинаковую выборку. Точное число 11,604 из поискового PDF-сниппета не принято, полный PDF не прочитан.\n\n[README](https://github.com/lmarena/copilot-arena), проверено 2026-10-10T18:49:34Z, описывает paired autocomplete, inline editing, принятие верхнего/нижнего результата или отказ. Идентичность выбранной модели раскрывается после принятия. Персональный Elo открывается после 20 голосов. Персональный рейтинг не является общим текущим рейтингом.\n\n- Название: Copilot Arena, версия бенчмарка неизвестна.\n- Метрика: пользовательское предпочтение и персональный Elo, выше лучше.\n- Точные целевые модели, результаты, интервалы, effort, бюджеты и версии агента неизвестны. Полного машинного набора нет.\n- Охват: abstract и README. Полная статья, глобальная таблица и данные не разобраны.\n- Домен copilot-arena.com проверен как кандидат, web.open вернул Internal Error. Его официальная связь не установлена.\n\n## Дополнительные данные при наличии\n\nСтоимость, время, токены и шаги замеров неизвестны. Собственные вычисления не выполнялись.\n\n## Разбор доверия\n\nДата 2026-10-10T18:49:34Z, [статья](https://arxiv.org/abs/2502.09328), [README](https://github.com/lmarena/copilot-arena).\n\n- Независимость: unknown, репозиторий связан с lmarena, финансовый аудит не выполнен.\n- Утечка: not-reviewed.\n- Насыщение: not-reviewed.\n- Воспроизводимость: unknown, код открыт, актуальные данные и повтор не проверены.\n- Сопоставимость: unknown, контекст IDE и infilling отличается от свободного WebDev.\n\n## Проверка и передача\n\nПроверяющая роль: исследователь арен. Числовая интеграция не подготовлена, сопоставление моделей не выполнено. Не считать эту площадку независимым от Arena оператором лишь из-за отдельного имени. Дубликатов в просмотренных импортах не найдено.\n"
+        }
+    ]
+}

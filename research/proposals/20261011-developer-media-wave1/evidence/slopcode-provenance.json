@@ -1,0 +1,17 @@
+{
+  "sourceUrl": "https://raw.githubusercontent.com/michaelasper/benchmarks/main/data/glm-5.3-pi-xhigh-2026-08-19/result.json",
+  "retrievedAt": "2026-10-10T18:52:59Z",
+  "checkedAt": "2026-10-10T18:57:14Z",
+  "sha256": "dd306f9cda2f63e6e660037b752a3da5bd9aa1c68e19e9e023cb7d7a070702e2",
+  "scope": "complete aggregate result.json, checkpoint records and trajectories not downloaded",
+  "units": {
+    "costs": "billed USD",
+    "time": "seconds",
+    "tokens": "source token categories, overlap not independently checked",
+    "steps": "agent step counts",
+    "pct_fields": "percent 0-100",
+    "pass_rates": "source fractions"
+  },
+  "noOwnTokenTotalsCalculated": true,
+  "checkScope": "downloaded aggregate SHA-256 and JSON structure checked, narrative source check timestamp is in card 09"
+}

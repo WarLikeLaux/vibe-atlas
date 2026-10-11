@@ -1,0 +1,305 @@
+{
+    "id": "slopcode-v1-glm-5-3-pi-reviewed",
+    "sourceId": "slopcode",
+    "checkedAt": "2026-10-11T04:28:19.604191Z",
+    "parserVersion": "wave1-reviewed-observations/1",
+    "benchmarks": [
+        {
+            "id": "slopcode:v1-pi-0-84-2-strict",
+            "name": "SlopCodeBench · Strict checkpoints",
+            "context": "v1.0 · pi 0.84.2 · один замер",
+            "unit": "% Strict checkpoints",
+            "format": "percent",
+            "awardEligible": false,
+            "sourceUrl": "https://raw.githubusercontent.com/michaelasper/benchmarks/main/data/glm-5.3-pi-xhigh-2026-08-19/result.json",
+            "methodologyUrl": "https://raw.githubusercontent.com/michaelasper/benchmarks/main/data/glm-5.3-pi-xhigh-2026-08-19/README.md",
+            "checkedAt": "2026-10-11T04:28:19.604191Z",
+            "passport": {
+                "author": "SlopCodeBench / замер michaelasper",
+                "purpose": "Последовательное развитие программ через зависимые checkpoints.",
+                "requirements": "Каталог v1.0, 36 problems, 196 checkpoints. Pi 0.84.2, xhigh, just-solve, seed 42, Python 3.12 Docker. Timeout попытки 7200 секунд.",
+                "scoring": "Опубликованное поле pct_checkpoints_solved, проценты 0–100. Наблюдение 24/196. Эта метрика не подменяет остальные проверки.",
+                "reviews": [
+                    {
+                        "dimension": "independence",
+                        "status": "unknown",
+                        "explanation": "Замер публикует michaelasper. Связи и финансирование относительно Z.ai не установлены.",
+                        "sourceUrl": "https://raw.githubusercontent.com/michaelasper/benchmarks/main/data/glm-5.3-pi-xhigh-2026-08-19/README.md",
+                        "checkedAt": "2026-10-11T04:28:19.604191Z"
+                    },
+                    {
+                        "dimension": "contamination",
+                        "status": "not-reviewed",
+                        "explanation": "Пересечение с обучением и доступ к эталонам не проверены.",
+                        "sourceUrl": "https://raw.githubusercontent.com/michaelasper/benchmarks/main/data/glm-5.3-pi-xhigh-2026-08-19/README.md",
+                        "checkedAt": "2026-10-11T04:28:19.604191Z"
+                    },
+                    {
+                        "dimension": "saturation",
+                        "status": "unknown",
+                        "explanation": "Одна конфигурация не позволяет оценить насыщение.",
+                        "sourceUrl": "https://raw.githubusercontent.com/michaelasper/benchmarks/main/data/glm-5.3-pi-xhigh-2026-08-19/README.md",
+                        "checkedAt": "2026-10-11T04:28:19.604191Z"
+                    },
+                    {
+                        "dimension": "reproducibility",
+                        "status": "unknown",
+                        "explanation": "Aggregate и конфигурация доступны. Runtime revision не закреплён, условия продолжений не полностью воспроизводимы. Собственного повтора не было.",
+                        "sourceUrl": "https://raw.githubusercontent.com/michaelasper/benchmarks/main/data/glm-5.3-pi-xhigh-2026-08-19/README.md",
+                        "checkedAt": "2026-10-11T04:28:19.604191Z"
+                    },
+                    {
+                        "dimension": "comparability",
+                        "status": "unknown",
+                        "explanation": "Checkpoints зависимы, есть продолжения и проверки без prior tests. Strict, isolated и core разделены, сторонние сравнения не импортированы.",
+                        "sourceUrl": "https://raw.githubusercontent.com/michaelasper/benchmarks/main/data/glm-5.3-pi-xhigh-2026-08-19/README.md",
+                        "checkedAt": "2026-10-11T04:28:19.604191Z"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "slopcode:v1-pi-0-84-2-isolated",
+            "name": "SlopCodeBench · Isolated checkpoints",
+            "context": "v1.0 · pi 0.84.2 · один замер",
+            "unit": "% Isolated checkpoints",
+            "format": "percent",
+            "awardEligible": false,
+            "sourceUrl": "https://raw.githubusercontent.com/michaelasper/benchmarks/main/data/glm-5.3-pi-xhigh-2026-08-19/result.json",
+            "methodologyUrl": "https://raw.githubusercontent.com/michaelasper/benchmarks/main/data/glm-5.3-pi-xhigh-2026-08-19/README.md",
+            "checkedAt": "2026-10-11T04:28:19.604191Z",
+            "passport": {
+                "author": "SlopCodeBench / замер michaelasper",
+                "purpose": "Последовательное развитие программ через зависимые checkpoints.",
+                "requirements": "Каталог v1.0, 36 problems, 196 checkpoints. Pi 0.84.2, xhigh, just-solve, seed 42, Python 3.12 Docker. Timeout попытки 7200 секунд.",
+                "scoring": "Опубликованное поле pct_checkpoints_iso_solved, проценты 0–100. Наблюдение 53/196. Эта метрика не подменяет остальные проверки.",
+                "reviews": [
+                    {
+                        "dimension": "independence",
+                        "status": "unknown",
+                        "explanation": "Замер публикует michaelasper. Связи и финансирование относительно Z.ai не установлены.",
+                        "sourceUrl": "https://raw.githubusercontent.com/michaelasper/benchmarks/main/data/glm-5.3-pi-xhigh-2026-08-19/README.md",
+                        "checkedAt": "2026-10-11T04:28:19.604191Z"
+                    },
+                    {
+                        "dimension": "contamination",
+                        "status": "not-reviewed",
+                        "explanation": "Пересечение с обучением и доступ к эталонам не проверены.",
+                        "sourceUrl": "https://raw.githubusercontent.com/michaelasper/benchmarks/main/data/glm-5.3-pi-xhigh-2026-08-19/README.md",
+                        "checkedAt": "2026-10-11T04:28:19.604191Z"
+                    },
+                    {
+                        "dimension": "saturation",
+                        "status": "unknown",
+                        "explanation": "Одна конфигурация не позволяет оценить насыщение.",
+                        "sourceUrl": "https://raw.githubusercontent.com/michaelasper/benchmarks/main/data/glm-5.3-pi-xhigh-2026-08-19/README.md",
+                        "checkedAt": "2026-10-11T04:28:19.604191Z"
+                    },
+                    {
+                        "dimension": "reproducibility",
+                        "status": "unknown",
+                        "explanation": "Aggregate и конфигурация доступны. Runtime revision не закреплён, условия продолжений не полностью воспроизводимы. Собственного повтора не было.",
+                        "sourceUrl": "https://raw.githubusercontent.com/michaelasper/benchmarks/main/data/glm-5.3-pi-xhigh-2026-08-19/README.md",
+                        "checkedAt": "2026-10-11T04:28:19.604191Z"
+                    },
+                    {
+                        "dimension": "comparability",
+                        "status": "unknown",
+                        "explanation": "Checkpoints зависимы, есть продолжения и проверки без prior tests. Strict, isolated и core разделены, сторонние сравнения не импортированы.",
+                        "sourceUrl": "https://raw.githubusercontent.com/michaelasper/benchmarks/main/data/glm-5.3-pi-xhigh-2026-08-19/README.md",
+                        "checkedAt": "2026-10-11T04:28:19.604191Z"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "slopcode:v1-pi-0-84-2-core",
+            "name": "SlopCodeBench · Core checkpoints",
+            "context": "v1.0 · pi 0.84.2 · один замер",
+            "unit": "% Core checkpoints",
+            "format": "percent",
+            "awardEligible": false,
+            "sourceUrl": "https://raw.githubusercontent.com/michaelasper/benchmarks/main/data/glm-5.3-pi-xhigh-2026-08-19/result.json",
+            "methodologyUrl": "https://raw.githubusercontent.com/michaelasper/benchmarks/main/data/glm-5.3-pi-xhigh-2026-08-19/README.md",
+            "checkedAt": "2026-10-11T04:28:19.604191Z",
+            "passport": {
+                "author": "SlopCodeBench / замер michaelasper",
+                "purpose": "Последовательное развитие программ через зависимые checkpoints.",
+                "requirements": "Каталог v1.0, 36 problems, 196 checkpoints. Pi 0.84.2, xhigh, just-solve, seed 42, Python 3.12 Docker. Timeout попытки 7200 секунд.",
+                "scoring": "Опубликованное поле pct_checkpoints_core_solved, проценты 0–100. Наблюдение 130/196. Эта метрика не подменяет остальные проверки.",
+                "reviews": [
+                    {
+                        "dimension": "independence",
+                        "status": "unknown",
+                        "explanation": "Замер публикует michaelasper. Связи и финансирование относительно Z.ai не установлены.",
+                        "sourceUrl": "https://raw.githubusercontent.com/michaelasper/benchmarks/main/data/glm-5.3-pi-xhigh-2026-08-19/README.md",
+                        "checkedAt": "2026-10-11T04:28:19.604191Z"
+                    },
+                    {
+                        "dimension": "contamination",
+                        "status": "not-reviewed",
+                        "explanation": "Пересечение с обучением и доступ к эталонам не проверены.",
+                        "sourceUrl": "https://raw.githubusercontent.com/michaelasper/benchmarks/main/data/glm-5.3-pi-xhigh-2026-08-19/README.md",
+                        "checkedAt": "2026-10-11T04:28:19.604191Z"
+                    },
+                    {
+                        "dimension": "saturation",
+                        "status": "unknown",
+                        "explanation": "Одна конфигурация не позволяет оценить насыщение.",
+                        "sourceUrl": "https://raw.githubusercontent.com/michaelasper/benchmarks/main/data/glm-5.3-pi-xhigh-2026-08-19/README.md",
+                        "checkedAt": "2026-10-11T04:28:19.604191Z"
+                    },
+                    {
+                        "dimension": "reproducibility",
+                        "status": "unknown",
+                        "explanation": "Aggregate и конфигурация доступны. Runtime revision не закреплён, условия продолжений не полностью воспроизводимы. Собственного повтора не было.",
+                        "sourceUrl": "https://raw.githubusercontent.com/michaelasper/benchmarks/main/data/glm-5.3-pi-xhigh-2026-08-19/README.md",
+                        "checkedAt": "2026-10-11T04:28:19.604191Z"
+                    },
+                    {
+                        "dimension": "comparability",
+                        "status": "unknown",
+                        "explanation": "Checkpoints зависимы, есть продолжения и проверки без prior tests. Strict, isolated и core разделены, сторонние сравнения не импортированы.",
+                        "sourceUrl": "https://raw.githubusercontent.com/michaelasper/benchmarks/main/data/glm-5.3-pi-xhigh-2026-08-19/README.md",
+                        "checkedAt": "2026-10-11T04:28:19.604191Z"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "slopcode:v1-pi-0-84-2-problems",
+            "name": "SlopCodeBench · Fully solved problems",
+            "context": "v1.0 · pi 0.84.2 · один замер",
+            "unit": "% Fully solved problems",
+            "format": "percent",
+            "awardEligible": false,
+            "sourceUrl": "https://raw.githubusercontent.com/michaelasper/benchmarks/main/data/glm-5.3-pi-xhigh-2026-08-19/result.json",
+            "methodologyUrl": "https://raw.githubusercontent.com/michaelasper/benchmarks/main/data/glm-5.3-pi-xhigh-2026-08-19/README.md",
+            "checkedAt": "2026-10-11T04:28:19.604191Z",
+            "passport": {
+                "author": "SlopCodeBench / замер michaelasper",
+                "purpose": "Последовательное развитие программ через зависимые checkpoints.",
+                "requirements": "Каталог v1.0, 36 problems, 196 checkpoints. Pi 0.84.2, xhigh, just-solve, seed 42, Python 3.12 Docker. Timeout попытки 7200 секунд.",
+                "scoring": "Опубликованное поле pct_problems_solved, проценты 0–100. Наблюдение 0.0/36. Эта метрика не подменяет остальные проверки.",
+                "reviews": [
+                    {
+                        "dimension": "independence",
+                        "status": "unknown",
+                        "explanation": "Замер публикует michaelasper. Связи и финансирование относительно Z.ai не установлены.",
+                        "sourceUrl": "https://raw.githubusercontent.com/michaelasper/benchmarks/main/data/glm-5.3-pi-xhigh-2026-08-19/README.md",
+                        "checkedAt": "2026-10-11T04:28:19.604191Z"
+                    },
+                    {
+                        "dimension": "contamination",
+                        "status": "not-reviewed",
+                        "explanation": "Пересечение с обучением и доступ к эталонам не проверены.",
+                        "sourceUrl": "https://raw.githubusercontent.com/michaelasper/benchmarks/main/data/glm-5.3-pi-xhigh-2026-08-19/README.md",
+                        "checkedAt": "2026-10-11T04:28:19.604191Z"
+                    },
+                    {
+                        "dimension": "saturation",
+                        "status": "unknown",
+                        "explanation": "Одна конфигурация не позволяет оценить насыщение.",
+                        "sourceUrl": "https://raw.githubusercontent.com/michaelasper/benchmarks/main/data/glm-5.3-pi-xhigh-2026-08-19/README.md",
+                        "checkedAt": "2026-10-11T04:28:19.604191Z"
+                    },
+                    {
+                        "dimension": "reproducibility",
+                        "status": "unknown",
+                        "explanation": "Aggregate и конфигурация доступны. Runtime revision не закреплён, условия продолжений не полностью воспроизводимы. Собственного повтора не было.",
+                        "sourceUrl": "https://raw.githubusercontent.com/michaelasper/benchmarks/main/data/glm-5.3-pi-xhigh-2026-08-19/README.md",
+                        "checkedAt": "2026-10-11T04:28:19.604191Z"
+                    },
+                    {
+                        "dimension": "comparability",
+                        "status": "unknown",
+                        "explanation": "Checkpoints зависимы, есть продолжения и проверки без prior tests. Strict, isolated и core разделены, сторонние сравнения не импортированы.",
+                        "sourceUrl": "https://raw.githubusercontent.com/michaelasper/benchmarks/main/data/glm-5.3-pi-xhigh-2026-08-19/README.md",
+                        "checkedAt": "2026-10-11T04:28:19.604191Z"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "slopcode:v1-pi-0-84-2-partial",
+            "name": "SlopCodeBench · Problems with a strict pass",
+            "context": "v1.0 · pi 0.84.2 · один замер",
+            "unit": "% Problems with a strict pass",
+            "format": "percent",
+            "awardEligible": false,
+            "sourceUrl": "https://raw.githubusercontent.com/michaelasper/benchmarks/main/data/glm-5.3-pi-xhigh-2026-08-19/result.json",
+            "methodologyUrl": "https://raw.githubusercontent.com/michaelasper/benchmarks/main/data/glm-5.3-pi-xhigh-2026-08-19/README.md",
+            "checkedAt": "2026-10-11T04:28:19.604191Z",
+            "passport": {
+                "author": "SlopCodeBench / замер michaelasper",
+                "purpose": "Последовательное развитие программ через зависимые checkpoints.",
+                "requirements": "Каталог v1.0, 36 problems, 196 checkpoints. Pi 0.84.2, xhigh, just-solve, seed 42, Python 3.12 Docker. Timeout попытки 7200 секунд.",
+                "scoring": "Опубликованное поле pct_problems_partial, проценты 0–100. Наблюдение 14.0/36. Эта метрика не подменяет остальные проверки.",
+                "reviews": [
+                    {
+                        "dimension": "independence",
+                        "status": "unknown",
+                        "explanation": "Замер публикует michaelasper. Связи и финансирование относительно Z.ai не установлены.",
+                        "sourceUrl": "https://raw.githubusercontent.com/michaelasper/benchmarks/main/data/glm-5.3-pi-xhigh-2026-08-19/README.md",
+                        "checkedAt": "2026-10-11T04:28:19.604191Z"
+                    },
+                    {
+                        "dimension": "contamination",
+                        "status": "not-reviewed",
+                        "explanation": "Пересечение с обучением и доступ к эталонам не проверены.",
+                        "sourceUrl": "https://raw.githubusercontent.com/michaelasper/benchmarks/main/data/glm-5.3-pi-xhigh-2026-08-19/README.md",
+                        "checkedAt": "2026-10-11T04:28:19.604191Z"
+                    },
+                    {
+                        "dimension": "saturation",
+                        "status": "unknown",
+                        "explanation": "Одна конфигурация не позволяет оценить насыщение.",
+                        "sourceUrl": "https://raw.githubusercontent.com/michaelasper/benchmarks/main/data/glm-5.3-pi-xhigh-2026-08-19/README.md",
+                        "checkedAt": "2026-10-11T04:28:19.604191Z"
+                    },
+                    {
+                        "dimension": "reproducibility",
+                        "status": "unknown",
+                        "explanation": "Aggregate и конфигурация доступны. Runtime revision не закреплён, условия продолжений не полностью воспроизводимы. Собственного повтора не было.",
+                        "sourceUrl": "https://raw.githubusercontent.com/michaelasper/benchmarks/main/data/glm-5.3-pi-xhigh-2026-08-19/README.md",
+                        "checkedAt": "2026-10-11T04:28:19.604191Z"
+                    },
+                    {
+                        "dimension": "comparability",
+                        "status": "unknown",
+                        "explanation": "Checkpoints зависимы, есть продолжения и проверки без prior tests. Strict, isolated и core разделены, сторонние сравнения не импортированы.",
+                        "sourceUrl": "https://raw.githubusercontent.com/michaelasper/benchmarks/main/data/glm-5.3-pi-xhigh-2026-08-19/README.md",
+                        "checkedAt": "2026-10-11T04:28:19.604191Z"
+                    }
+                ]
+            }
+        }
+    ],
+    "mappings": [
+        {
+            "runId": "slopcode-glm-5-3-pi-xhigh-strict",
+            "benchmarkId": "slopcode:v1-pi-0-84-2-strict",
+            "modelId": "glm-5-3"
+        },
+        {
+            "runId": "slopcode-glm-5-3-pi-xhigh-isolated",
+            "benchmarkId": "slopcode:v1-pi-0-84-2-isolated",
+            "modelId": "glm-5-3"
+        },
+        {
+            "runId": "slopcode-glm-5-3-pi-xhigh-core",
+            "benchmarkId": "slopcode:v1-pi-0-84-2-core",
+            "modelId": "glm-5-3"
+        },
+        {
+            "runId": "slopcode-glm-5-3-pi-xhigh-problems",
+            "benchmarkId": "slopcode:v1-pi-0-84-2-problems",
+            "modelId": "glm-5-3"
+        },
+        {
+            "runId": "slopcode-glm-5-3-pi-xhigh-partial",
+            "benchmarkId": "slopcode:v1-pi-0-84-2-partial",
+            "modelId": "glm-5-3"
+        }
+    ]
+}

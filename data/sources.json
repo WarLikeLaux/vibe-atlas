@@ -7,9 +7,9 @@
             "subject": "Бенчмарки связок агента и модели",
             "url": "https://artificialanalysis.ai/agents/coding-agents",
             "kind": "benchmark",
-            "status": "registered",
+            "status": "imported",
             "registeredAt": "2026-10-10",
-            "lastCheckedAt": null
+            "lastCheckedAt": "2026-10-10T14:53:23.000Z"
         },
         {
             "id": "openai-codex",
@@ -70,6 +70,86 @@
             "status": "registered",
             "registeredAt": "2026-10-10",
             "lastCheckedAt": null
+        },
+        {
+            "id": "artificial-analysis-models",
+            "name": "Artificial Analysis / модели",
+            "subject": "Результаты моделей, контекст и API-телеметрия",
+            "url": "https://artificialanalysis.ai/leaderboards/models",
+            "kind": "benchmark",
+            "status": "imported",
+            "registeredAt": "2026-10-10",
+            "lastCheckedAt": "2026-10-10T15:43:08.000Z"
+        },
+        {
+            "id": "cursorbench",
+            "name": "Cursor / CursorBench",
+            "subject": "Вендорские замеры CursorBench с effort, расходом и шагами",
+            "url": "https://cursor.com/evals",
+            "kind": "benchmark",
+            "status": "imported",
+            "registeredAt": "2026-10-10",
+            "lastCheckedAt": "2026-10-10T16:58:33.361Z"
+        },
+        {
+            "id": "cursor-composer",
+            "name": "Cursor / Composer",
+            "subject": "Публикации Composer: CursorBench и публичные бенчмарки",
+            "url": "https://cursor.com/composer",
+            "kind": "benchmark",
+            "status": "imported",
+            "registeredAt": "2026-10-10",
+            "lastCheckedAt": "2026-10-10T16:58:33.361Z"
+        },
+        {
+            "id": "terminal-bench",
+            "name": "Terminal-Bench",
+            "subject": "Официальные замеры терминальных агентов",
+            "url": "https://www.tbench.ai/",
+            "kind": "benchmark",
+            "status": "imported",
+            "registeredAt": "2026-10-10",
+            "lastCheckedAt": "2026-10-10T17:51:30.009Z"
+        },
+        {
+            "id": "arena",
+            "name": "Arena",
+            "subject": "Человеческие предпочтения: WebDev, Text Coding и Image-to-WebDev",
+            "url": "https://arena.ai/leaderboard/code",
+            "kind": "benchmark",
+            "status": "imported",
+            "registeredAt": "2026-10-11",
+            "lastCheckedAt": "2026-10-11T04:24:56.000Z"
+        },
+        {
+            "id": "swe-pro-v2-hard51",
+            "name": "SWE-Bench Pro V2 HARD",
+            "subject": "Проверенный HARD-51 по агентским протоколам",
+            "url": "https://labs.scale.com/leaderboard/swe_bench_pro_public_v2",
+            "kind": "benchmark",
+            "status": "imported",
+            "registeredAt": "2026-10-11",
+            "lastCheckedAt": "2026-10-11T04:28:19.604191Z"
+        },
+        {
+            "id": "programbench",
+            "name": "ProgramBench",
+            "subject": "Генерация репозиториев: обычный Muse Spark 1.3",
+            "url": "https://programbench.com/",
+            "kind": "benchmark",
+            "status": "imported",
+            "registeredAt": "2026-10-11",
+            "lastCheckedAt": "2026-10-11T04:28:19.604191Z"
+        },
+        {
+            "id": "slopcode",
+            "name": "SlopCodeBench",
+            "subject": "Проверки GLM-5.3 с pi 0.84.2 и xhigh",
+            "url": "https://github.com/michaelasper/benchmarks/blob/main/glm-5.3-pi-on-slop-code-bench.md",
+            "kind": "benchmark",
+            "status": "imported",
+            "registeredAt": "2026-10-11",
+            "lastCheckedAt": "2026-10-11T04:28:19.604191Z"
         }
     ]
 }

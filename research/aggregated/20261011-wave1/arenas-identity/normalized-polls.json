@@ -1,0 +1,562 @@
+{
+    "version": 1,
+    "checkedAt": "2026-10-11T04:24:56.000Z",
+    "records": [
+        {
+            "id": "poll-stackoverflow-coding-agents",
+            "status": "ready-for-integration",
+            "kind": "usage-survey",
+            "awardEligible": false,
+            "checkedAt": "2026-10-11T04:24:56.000Z",
+            "publishedAt": null,
+            "sources": [
+                {
+                    "url": "https://survey.stackoverflow.co/2026/ai/data",
+                    "checkedAt": "2026-10-11T04:24:56.000Z"
+                },
+                {
+                    "url": "https://survey.stackoverflow.co/2026/methodology",
+                    "checkedAt": "2026-10-11T04:24:56.000Z"
+                }
+            ],
+            "sourceArtifact": "research/proposals/20261011-arenas-polls-wave1/poll-stackoverflow-coding-agents.json",
+            "sourceArtifactSha256": "4fcf5ccfeaa0837b8a95dd2202ec666bd26df0ce8c48d0f9e894ddb1ef589c1f",
+            "question": "Какие coding agents или assistants использовали за последний год и какие хотите использовать в следующие шесть месяцев?",
+            "selection": "Used",
+            "respondents": 12255,
+            "multiSelect": true,
+            "fieldingStart": "2026-06-23",
+            "fieldingEnd": "2026-08-05",
+            "rows": [
+                {
+                    "option": "Claude Code",
+                    "respondents_raw": "8,030",
+                    "percent_raw": "65.5%",
+                    "respondents": 8030,
+                    "percent": 65.5
+                },
+                {
+                    "option": "GitHub Copilot",
+                    "respondents_raw": "7,196",
+                    "percent_raw": "58.7%",
+                    "respondents": 7196,
+                    "percent": 58.7
+                },
+                {
+                    "option": "OpenAI Codex",
+                    "respondents_raw": "3,620",
+                    "percent_raw": "29.5%",
+                    "respondents": 3620,
+                    "percent": 29.5
+                },
+                {
+                    "option": "Cursor",
+                    "respondents_raw": "3,127",
+                    "percent_raw": "25.5%",
+                    "respondents": 3127,
+                    "percent": 25.5
+                },
+                {
+                    "option": "Google Antigravity",
+                    "respondents_raw": "1,956",
+                    "percent_raw": "16.0%",
+                    "respondents": 1956,
+                    "percent": 16.0
+                },
+                {
+                    "option": "Gemini Code Assist",
+                    "respondents_raw": "1,789",
+                    "percent_raw": "14.6%",
+                    "respondents": 1789,
+                    "percent": 14.6
+                },
+                {
+                    "option": "Open Code",
+                    "respondents_raw": "1,662",
+                    "percent_raw": "13.6%",
+                    "respondents": 1662,
+                    "percent": 13.6
+                },
+                {
+                    "option": "JetBrains AI",
+                    "respondents_raw": "1,569",
+                    "percent_raw": "12.8%",
+                    "respondents": 1569,
+                    "percent": 12.8
+                },
+                {
+                    "option": "Windsurf",
+                    "respondents_raw": "796",
+                    "percent_raw": "6.5%",
+                    "respondents": 796,
+                    "percent": 6.5
+                },
+                {
+                    "option": "Warp",
+                    "respondents_raw": "641",
+                    "percent_raw": "5.2%",
+                    "respondents": 641,
+                    "percent": 5.2
+                },
+                {
+                    "option": "Cline",
+                    "respondents_raw": "551",
+                    "percent_raw": "4.5%",
+                    "respondents": 551,
+                    "percent": 4.5
+                },
+                {
+                    "option": "Pi",
+                    "respondents_raw": "535",
+                    "percent_raw": "4.4%",
+                    "respondents": 535,
+                    "percent": 4.4
+                },
+                {
+                    "option": "Amazon Q Developer",
+                    "respondents_raw": "476",
+                    "percent_raw": "3.9%",
+                    "respondents": 476,
+                    "percent": 3.9
+                },
+                {
+                    "option": "Continue",
+                    "respondents_raw": "466",
+                    "percent_raw": "3.8%",
+                    "respondents": 466,
+                    "percent": 3.8
+                },
+                {
+                    "option": "Mistral Vibe",
+                    "respondents_raw": "393",
+                    "percent_raw": "3.2%",
+                    "respondents": 393,
+                    "percent": 3.2
+                },
+                {
+                    "option": "Kilo Code",
+                    "respondents_raw": "392",
+                    "percent_raw": "3.2%",
+                    "respondents": 392,
+                    "percent": 3.2
+                },
+                {
+                    "option": "Devin",
+                    "respondents_raw": "360",
+                    "percent_raw": "2.9%",
+                    "respondents": 360,
+                    "percent": 2.9
+                },
+                {
+                    "option": "Google Jules",
+                    "respondents_raw": "307",
+                    "percent_raw": "2.5%",
+                    "respondents": 307,
+                    "percent": 2.5
+                },
+                {
+                    "option": "Replit Agent",
+                    "respondents_raw": "285",
+                    "percent_raw": "2.3%",
+                    "respondents": 285,
+                    "percent": 2.3
+                },
+                {
+                    "option": "Tabnine",
+                    "respondents_raw": "257",
+                    "percent_raw": "2.1%",
+                    "respondents": 257,
+                    "percent": 2.1
+                },
+                {
+                    "option": "Aider",
+                    "respondents_raw": "256",
+                    "percent_raw": "2.1%",
+                    "respondents": 256,
+                    "percent": 2.1
+                },
+                {
+                    "option": "Codium (Qodo)",
+                    "respondents_raw": "206",
+                    "percent_raw": "1.7%",
+                    "respondents": 206,
+                    "percent": 1.7
+                },
+                {
+                    "option": "BLACKBOX AI",
+                    "respondents_raw": "202",
+                    "percent_raw": "1.6%",
+                    "respondents": 202,
+                    "percent": 1.6
+                },
+                {
+                    "option": "Supermaven",
+                    "respondents_raw": "158",
+                    "percent_raw": "1.3%",
+                    "respondents": 158,
+                    "percent": 1.3
+                },
+                {
+                    "option": "Trae",
+                    "respondents_raw": "154",
+                    "percent_raw": "1.3%",
+                    "respondents": 154,
+                    "percent": 1.3
+                },
+                {
+                    "option": "Augment Code",
+                    "respondents_raw": "145",
+                    "percent_raw": "1.2%",
+                    "respondents": 145,
+                    "percent": 1.2
+                },
+                {
+                    "option": "Sourcegraph Cody",
+                    "respondents_raw": "114",
+                    "percent_raw": "0.9%",
+                    "respondents": 114,
+                    "percent": 0.9
+                },
+                {
+                    "option": "Emdash",
+                    "respondents_raw": "85",
+                    "percent_raw": "0.7%",
+                    "respondents": 85,
+                    "percent": 0.7
+                },
+                {
+                    "option": "Approxima",
+                    "respondents_raw": "69",
+                    "percent_raw": "0.6%",
+                    "respondents": 69,
+                    "percent": 0.6
+                },
+                {
+                    "option": "ECA",
+                    "respondents_raw": "68",
+                    "percent_raw": "0.6%",
+                    "respondents": 68,
+                    "percent": 0.6
+                },
+                {
+                    "option": "Sweep",
+                    "respondents_raw": "68",
+                    "percent_raw": "0.6%",
+                    "respondents": 68,
+                    "percent": 0.6
+                },
+                {
+                    "option": "Kavia AI",
+                    "respondents_raw": "63",
+                    "percent_raw": "0.5%",
+                    "respondents": 63,
+                    "percent": 0.5
+                },
+                {
+                    "option": "Syntropy",
+                    "respondents_raw": "63",
+                    "percent_raw": "0.5%",
+                    "respondents": 63,
+                    "percent": 0.5
+                }
+            ],
+            "unknown": {
+                "modelVersions": "Survey measures tool usage, model versions unknown.",
+                "confidenceIntervals": "Not disclosed/verified.",
+                "weights": "Not verified.",
+                "publishedAt": "Not established."
+            },
+            "limitations": [
+                "Volunteer self-selection; percentages cannot generalize to all developers.",
+                "Multiple answers allowed; does not measure best model or exclusive tool preference.",
+                "Question denominator is 12255; overall sample is not this denominator."
+            ],
+            "licence": "ODbL 1.0",
+            "attribution": "Stack Exchange Inc. (2026), Stack Overflow Developer Survey 2026",
+            "rawEvidence": {
+                "schema_version": 1,
+                "status": "source-verified",
+                "source_url": "https://survey.stackoverflow.co/2026/ai/data",
+                "methodology_url": "https://survey.stackoverflow.co/2026/methodology",
+                "checked_at": "2026-10-10T18:49:34Z",
+                "published_at": null,
+                "fielding_start": "2026-06-23",
+                "fielding_end": "2026-08-05",
+                "question_paraphrase_ru": "Какие coding agents или assistants использовали за последний год и какие хотите использовать в следующие шесть месяцев?",
+                "selection": "Used",
+                "respondents": 12255,
+                "unit": "respondents and published percent",
+                "multi_response": true,
+                "model_versions": null,
+                "licence": "ODbL 1.0",
+                "attribution": "Stack Exchange Inc. (2026), Stack Overflow Developer Survey 2026",
+                "rows": [
+                    {
+                        "option": "Claude Code",
+                        "respondents_raw": "8,030",
+                        "percent_raw": "65.5%"
+                    },
+                    {
+                        "option": "GitHub Copilot",
+                        "respondents_raw": "7,196",
+                        "percent_raw": "58.7%"
+                    },
+                    {
+                        "option": "OpenAI Codex",
+                        "respondents_raw": "3,620",
+                        "percent_raw": "29.5%"
+                    },
+                    {
+                        "option": "Cursor",
+                        "respondents_raw": "3,127",
+                        "percent_raw": "25.5%"
+                    },
+                    {
+                        "option": "Google Antigravity",
+                        "respondents_raw": "1,956",
+                        "percent_raw": "16.0%"
+                    },
+                    {
+                        "option": "Gemini Code Assist",
+                        "respondents_raw": "1,789",
+                        "percent_raw": "14.6%"
+                    },
+                    {
+                        "option": "Open Code",
+                        "respondents_raw": "1,662",
+                        "percent_raw": "13.6%"
+                    },
+                    {
+                        "option": "JetBrains AI",
+                        "respondents_raw": "1,569",
+                        "percent_raw": "12.8%"
+                    },
+                    {
+                        "option": "Windsurf",
+                        "respondents_raw": "796",
+                        "percent_raw": "6.5%"
+                    },
+                    {
+                        "option": "Warp",
+                        "respondents_raw": "641",
+                        "percent_raw": "5.2%"
+                    },
+                    {
+                        "option": "Cline",
+                        "respondents_raw": "551",
+                        "percent_raw": "4.5%"
+                    },
+                    {
+                        "option": "Pi",
+                        "respondents_raw": "535",
+                        "percent_raw": "4.4%"
+                    },
+                    {
+                        "option": "Amazon Q Developer",
+                        "respondents_raw": "476",
+                        "percent_raw": "3.9%"
+                    },
+                    {
+                        "option": "Continue",
+                        "respondents_raw": "466",
+                        "percent_raw": "3.8%"
+                    },
+                    {
+                        "option": "Mistral Vibe",
+                        "respondents_raw": "393",
+                        "percent_raw": "3.2%"
+                    },
+                    {
+                        "option": "Kilo Code",
+                        "respondents_raw": "392",
+                        "percent_raw": "3.2%"
+                    },
+                    {
+                        "option": "Devin",
+                        "respondents_raw": "360",
+                        "percent_raw": "2.9%"
+                    },
+                    {
+                        "option": "Google Jules",
+                        "respondents_raw": "307",
+                        "percent_raw": "2.5%"
+                    },
+                    {
+                        "option": "Replit Agent",
+                        "respondents_raw": "285",
+                        "percent_raw": "2.3%"
+                    },
+                    {
+                        "option": "Tabnine",
+                        "respondents_raw": "257",
+                        "percent_raw": "2.1%"
+                    },
+                    {
+                        "option": "Aider",
+                        "respondents_raw": "256",
+                        "percent_raw": "2.1%"
+                    },
+                    {
+                        "option": "Codium (Qodo)",
+                        "respondents_raw": "206",
+                        "percent_raw": "1.7%"
+                    },
+                    {
+                        "option": "BLACKBOX AI",
+                        "respondents_raw": "202",
+                        "percent_raw": "1.6%"
+                    },
+                    {
+                        "option": "Supermaven",
+                        "respondents_raw": "158",
+                        "percent_raw": "1.3%"
+                    },
+                    {
+                        "option": "Trae",
+                        "respondents_raw": "154",
+                        "percent_raw": "1.3%"
+                    },
+                    {
+                        "option": "Augment Code",
+                        "respondents_raw": "145",
+                        "percent_raw": "1.2%"
+                    },
+                    {
+                        "option": "Sourcegraph Cody",
+                        "respondents_raw": "114",
+                        "percent_raw": "0.9%"
+                    },
+                    {
+                        "option": "Emdash",
+                        "respondents_raw": "85",
+                        "percent_raw": "0.7%"
+                    },
+                    {
+                        "option": "Approxima",
+                        "respondents_raw": "69",
+                        "percent_raw": "0.6%"
+                    },
+                    {
+                        "option": "ECA",
+                        "respondents_raw": "68",
+                        "percent_raw": "0.6%"
+                    },
+                    {
+                        "option": "Sweep",
+                        "respondents_raw": "68",
+                        "percent_raw": "0.6%"
+                    },
+                    {
+                        "option": "Kavia AI",
+                        "respondents_raw": "63",
+                        "percent_raw": "0.5%"
+                    },
+                    {
+                        "option": "Syntropy",
+                        "respondents_raw": "63",
+                        "percent_raw": "0.5%"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "poll-x-economists",
+            "status": "needs-context",
+            "kind": "poll-candidate",
+            "title": "Economists coding tool candidate",
+            "awardEligible": false,
+            "checkedAt": "2026-10-11T04:24:56.000Z",
+            "publishedAt": null,
+            "sources": [
+                {
+                    "url": "https://x.com/aniketapanjwani/status/2029934969141760234",
+                    "attemptedAt": "2026-10-11T04:24:56.000Z",
+                    "access": "unavailable",
+                    "verified": false
+                }
+            ],
+            "sourceArtifact": "research/proposals/20261011-arenas-polls-wave1/poll-x-candidate.md",
+            "sourceArtifactSha256": "d282adaef080c70a61737465d2550f49efed74f61a3dfacfba8a87e6ebfa53b2",
+            "respondents": null,
+            "multiSelect": null,
+            "rows": [],
+            "unknown": {
+                "originalAccess": "Original unavailable in independent web.open attempt.",
+                "question": "Not verified from original.",
+                "options": "Complete list not verified.",
+                "countsAndPercentages": "No numbers accepted into result rows.",
+                "authorAndPublishedAt": "Original not verified.",
+                "fielding": "Not verified.",
+                "modelVersions": "Unknown."
+            },
+            "limitations": ["Search snippets and reposts do not establish original poll results."],
+            "unverifiedResearchCard": "# X: кандидат опроса экономистов\n\n- Идентификатор: poll-x-economists.\n- Задание: 20261011-arenas-polls-wave1.\n- Состояние: needs-context.\n- Оригинал-кандидат: [пост](https://x.com/aniketapanjwani/status/2029934969141760234).\n- Дата попытки проверки: 2026-10-11 (UTC+06), HTTP 403 в web.open. Успешной сверки оригинала нет, время запроса отдельно не записано.\n- Автор-кандидат: Aniket Panjwani (@aniketapanjwani), найден по ссылке в поисковом сниппете [публичного материала автора](https://voxdev.org/sites/default/files/2026-03/AI_Agents_for_Economic_Research.pdf). PDF не открыт.\n- Дата: неизвестна в оригинале. Сниппеты дают 2026-03-06 и 2026-03-08. Старше 90 дней, актуальные версии моделей неизвестны.\n- Вопрос из сниппета, пересказ: какой agentic coding tool используют экономисты? Ограничение на профиль участников не сверено.\n- Варианты: сниппеты называют Mostly Claude Code, Mostly Codex и Not an economist/see poll. Третий вариант противоречит между пересказами: Neither/other либо Both equally. Полный состав неизвестен.\n- Числа-кандидаты из сниппетов: 459 votes, 51.4%, 18.1% либо 18.0%, 13.3%, 17.2%. Это неподтверждённые поисковые сведения. Числа не приняты для интеграции и не означают предпочтение всех разработчиков.\n- Период, выборка, способ набора и подсчёта: неизвестны в оригинале. Views и likes не учитываются как poll votes.\n- Следующий шаг: прочитать исходный пост и его финальные результаты. Сниппет X trending о другом опросе (587 / 53%) также не принят: оригинальный пост не найден.\n"
+        },
+        {
+            "id": "poll-reddit-onlyaicoding",
+            "status": "needs-context",
+            "kind": "poll-candidate",
+            "title": "Old Reddit coding-tool poll candidate",
+            "awardEligible": false,
+            "checkedAt": "2026-10-11T04:24:56.000Z",
+            "publishedAt": null,
+            "sources": [
+                {
+                    "url": "https://www.reddit.com/r/OnlyAICoding/comments/1i9sbq1",
+                    "attemptedAt": "2026-10-11T04:24:56.000Z",
+                    "access": "unavailable",
+                    "verified": false
+                }
+            ],
+            "sourceArtifact": "research/proposals/20261011-arenas-polls-wave1/poll-reddit-candidate.md",
+            "sourceArtifactSha256": "fe8d7dfff438f3d4b1299cdcc29aabe2cd8496e057e358f2e9e773e075a59495",
+            "respondents": null,
+            "multiSelect": null,
+            "rows": [],
+            "unknown": {
+                "originalAccess": "Original unavailable in independent web.open attempt.",
+                "question": "Not verified from original.",
+                "options": "Complete list not verified.",
+                "countsAndPercentages": "No numbers accepted into result rows.",
+                "authorAndPublishedAt": "Original not verified.",
+                "fielding": "Not verified.",
+                "modelVersions": "Unknown."
+            },
+            "limitations": ["Search snippets and reposts do not establish original poll results."],
+            "unverifiedResearchCard": "# Reddit: кандидат старого опроса\n\n- Идентификатор: poll-reddit-onlyaicoding.\n- Задание: 20261011-arenas-polls-wave1.\n- Состояние: needs-context.\n- Оригинал: [OnlyAICoding](https://www.reddit.com/r/OnlyAICoding/comments/1i9sbq1).\n- Дата попытки доступа: 2026-10-11 (UTC+06), web.open вернул Error fetching. Успешной проверки оригинала нет, время запроса отдельно не записано.\n- Заголовок в поиске: [POLL] What is your preferred AI coding tool? Поисковая дата: 2025-01-25, не сверена по оригиналу. Старше окна, актуальные версии не подтверждены. В текущие рекомендации не включать.\n- Вопрос, пересказ поискового сниппета: какой AI coding tool предпочитаете и почему?\n- Варианты: неизвестны. Сниппет автора упоминает ограничение шести вариантов, это не полный перечень.\n- Результаты, исходные единицы, размер выборки, период голосования: неизвестны. Reddit score не записан как poll votes.\n- Набор: вероятно посетители subreddit, но процедура и ограничения не проверены. Автор неизвестен в прочитанном оригинале.\n- Способ оценки: обычный poll по заголовку, наличие native poll не подтверждено доступным оригиналом.\n- Ограничения: доступ, возраст, неизвестные варианты и версии. Ни числа, ни комментарии из сниппетов не приняты как verified poll.\n- Следующий шаг: публичный доступ к оригиналу и poll results. Это кандидат для проверки, не опубликованный результат.\n"
+        },
+        {
+            "id": "poll-zdnet-138",
+            "status": "needs-context",
+            "kind": "poll-candidate",
+            "title": "ZDNET coding-tool survey candidate",
+            "awardEligible": false,
+            "checkedAt": "2026-10-11T04:24:56.000Z",
+            "publishedAt": null,
+            "sources": [
+                {
+                    "url": "https://www.zdnet.com/article/75-of-developers-i-surveyed-prefer-claude-code-heres-why-they-choose-it-over-codex/",
+                    "attemptedAt": "2026-10-11T04:24:56.000Z",
+                    "access": "unavailable",
+                    "verified": false
+                }
+            ],
+            "sourceArtifact": "research/proposals/20261011-arenas-polls-wave1/poll-zdnet-candidate.md",
+            "sourceArtifactSha256": "e6639c7b1b4293a6ad66e9c88cd792c4e32ccd4534645f17c39949096c841d41",
+            "respondents": null,
+            "multiSelect": null,
+            "rows": [],
+            "unknown": {
+                "originalAccess": "Original unavailable in independent web.open attempt.",
+                "question": "Not verified from original.",
+                "options": "Complete list not verified.",
+                "countsAndPercentages": "No numbers accepted into result rows.",
+                "authorAndPublishedAt": "Original not verified.",
+                "fielding": "Not verified.",
+                "modelVersions": "Unknown."
+            },
+            "limitations": ["Search snippets and reposts do not establish original poll results."],
+            "unverifiedResearchCard": "# ZDNET: кандидат опроса Claude Code / Codex\n\n- Идентификатор: poll-zdnet-138.\n- Задание: 20261011-arenas-polls-wave1.\n- Состояние: needs-context.\n- Предполагаемый оригинал: [ZDNET](https://www.zdnet.com/article/75-of-developers-i-surveyed-prefer-claude-code-heres-why-they-choose-it-over-codex/). Путь восстановлен из заголовка и не подтверждён успешным доступом.\n- Дата попытки доступа: 2026-10-11 (UTC+06), non-retryable error. Время запроса отдельно не записано. Поиск по zdnet.com сообщил robots.txt. Приватный доступ не использовался.\n- Автор-кандидат: David Gewirtz. Поисковая дата исходной статьи: 2026-08-13. Перевод [ZDNET France](https://www.zdnet.fr/actualites/75-des-developpeurs-que-jai-interroge-preferent-claude-code-a-codex-voici-pourquoi-500031.htm) датирован в сниппете 2026-08-17. Оригиналы не сверены.\n- Вопрос из сниппета, пересказ: используете ли Claude Code или OpenAI Codex, что выбрали и почему?\n- Числа-кандидаты: 138 ответивших, около 75% используют Claude Code, более трети используют Codex, 22% используют оба. Это сведения из поиска, не verified results. Точных counts по вариантам нет.\n- Набор-кандидат: добровольный отклик на HARO и Qwoted. Полный список вопросов, период, варианты и правила агрегации неизвестны.\n- Версии моделей и конфигурации неизвестны. Участие обоих инструментов допускается по пересказу, трактовка как взаимоисключающее голосование не подтверждена.\n- Дубликаты-кандидаты: Yahoo Tech, ZDNET France, Skim, Zetik и OTF пересказывают одну статью. Их нельзя считать новыми опросами. Открытия этих перепечаток не выполнены.\n- Следующий шаг: публичный оригинал или подтверждённая полная авторская перепечатка. Пока не использовать числа в рейтинге и не выдавать заголовок «prefer» за ответ об исключительном выборе.\n"
+        }
+    ]
+}

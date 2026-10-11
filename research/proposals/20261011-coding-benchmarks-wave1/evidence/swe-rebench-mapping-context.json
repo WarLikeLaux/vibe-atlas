@@ -1,0 +1,23 @@
+{
+  "sourceId": "swe-rebench",
+  "url": "https://swe-rebench.com/",
+  "checkedAt": "2026-10-10T19:08:21.301622+00:00",
+  "httpStatus": 200,
+  "responseSha256": "fbb1b659562843da266aa20ec2295253d727ccd9b9469c78ab32df6fad1fffed",
+  "responseBytes": 7789901,
+  "status": "source-verified",
+  "observations": [
+    {
+      "subject": "Cursor methodology, более поздние Insights",
+      "publishedModel": "Composer 2.5",
+      "publishedFlags": "--model=composer-2.5 --approve-mcps --endless-retries"
+    },
+    {
+      "subject": "Cursor methodology, исторический Insights с иллюстрацией 2026-03-20",
+      "publishedModel": "Composer 2",
+      "publishedFlags": "-p --force --output-format=stream-json --model=composer-2 --yolo --endless-retries"
+    }
+  ],
+  "conclusion": "Source item Cursor__tools содержит исторические окна, а Insights раскрывает разные модели Cursor. Для каждой оконной ячейки привязка к Composer 2.5 не установлена. Нельзя распространять последнюю конфигурацию на всю историю.",
+  "fullTextArchived": false
+}

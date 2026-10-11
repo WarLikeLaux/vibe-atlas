@@ -1,0 +1,77 @@
+{
+    "version": 1,
+    "jobs": [
+        {
+            "id": "arena",
+            "converter": "arena",
+            "snapshotSourcePath": "research/aggregated/20261011-wave1/arenas-identity/source-snapshot.json",
+            "definitionsPath": "research/aggregated/20261011-wave1/arenas-identity/editorial-definitions.json",
+            "receiptPath": "research/aggregated/20261011-wave1/arenas-identity/arena-receipts.json",
+            "candidatePath": "research/aggregated/20261011-wave1/arenas-identity/arena-pack.json",
+            "source": {
+                "id": "arena",
+                "name": "Arena",
+                "subject": "Человеческие предпочтения: WebDev, Text Coding и Image-to-WebDev",
+                "url": "https://arena.ai/leaderboard/code",
+                "kind": "benchmark",
+                "status": "imported",
+                "registeredAt": "2026-10-11",
+                "lastCheckedAt": "2026-10-11T04:24:56.000Z"
+            }
+        },
+        {
+            "id": "swe-pro-v2-hard51",
+            "converter": "reviewed",
+            "snapshotSourcePath": "research/aggregated/20261011-wave1/benchmarks/data/snapshots/swe-pro-v2-hard51/current.json",
+            "definitionsPath": "research/aggregated/20261011-wave1/benchmarks/swe-pro-v2-hard51.definitions.json",
+            "receiptPath": "research/aggregated/20261011-wave1/benchmarks/swe-pro-v2-hard51.receipt.json",
+            "candidatePath": "research/aggregated/20261011-wave1/benchmarks/swe-pro-v2-hard51.pack.json",
+            "source": {
+                "id": "swe-pro-v2-hard51",
+                "name": "SWE-Bench Pro V2 HARD",
+                "subject": "Проверенный HARD-51 по агентским протоколам",
+                "url": "https://labs.scale.com/leaderboard/swe_bench_pro_public_v2",
+                "kind": "benchmark",
+                "status": "imported",
+                "registeredAt": "2026-10-11",
+                "lastCheckedAt": "2026-10-11T04:28:19.604191Z"
+            }
+        },
+        {
+            "id": "programbench",
+            "converter": "reviewed",
+            "snapshotSourcePath": "research/aggregated/20261011-wave1/benchmarks/data/snapshots/programbench/current.json",
+            "definitionsPath": "research/aggregated/20261011-wave1/benchmarks/programbench.definitions.json",
+            "receiptPath": "research/aggregated/20261011-wave1/benchmarks/programbench.receipt.json",
+            "candidatePath": "research/aggregated/20261011-wave1/benchmarks/programbench.pack.json",
+            "source": {
+                "id": "programbench",
+                "name": "ProgramBench",
+                "subject": "Генерация репозиториев: обычный Muse Spark 1.3",
+                "url": "https://programbench.com/",
+                "kind": "benchmark",
+                "status": "imported",
+                "registeredAt": "2026-10-11",
+                "lastCheckedAt": "2026-10-11T04:28:19.604191Z"
+            }
+        },
+        {
+            "id": "slopcode",
+            "converter": "reviewed",
+            "snapshotSourcePath": "research/aggregated/20261011-wave1/benchmarks/data/snapshots/slopcode/current.json",
+            "definitionsPath": "research/aggregated/20261011-wave1/benchmarks/slopcode.definitions.json",
+            "receiptPath": "research/aggregated/20261011-wave1/benchmarks/slopcode.receipt.json",
+            "candidatePath": "research/aggregated/20261011-wave1/benchmarks/slopcode.pack.json",
+            "source": {
+                "id": "slopcode",
+                "name": "SlopCodeBench",
+                "subject": "Проверки GLM-5.3 с pi 0.84.2 и xhigh",
+                "url": "https://github.com/michaelasper/benchmarks/blob/main/glm-5.3-pi-on-slop-code-bench.md",
+                "kind": "benchmark",
+                "status": "imported",
+                "registeredAt": "2026-10-11",
+                "lastCheckedAt": "2026-10-11T04:28:19.604191Z"
+            }
+        }
+    ]
+}

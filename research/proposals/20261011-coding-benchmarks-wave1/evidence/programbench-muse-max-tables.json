@@ -1,0 +1,1871 @@
+[
+  [
+    [
+      "Original ↓ / Solution →",
+      "C",
+      "C++",
+      "Go",
+      "Rust",
+      "Python"
+    ],
+    [
+      "C 33",
+      "12 36%",
+      "1 3%",
+      "1 3%",
+      "0",
+      "19 58%"
+    ],
+    [
+      "C++ 12",
+      "0",
+      "1 8%",
+      "0",
+      "0",
+      "11 92%"
+    ],
+    [
+      "Go 46",
+      "0",
+      "0",
+      "38 83%",
+      "0",
+      "8 17%"
+    ],
+    [
+      "Rust 107",
+      "0",
+      "0",
+      "7 7%",
+      "62 58%",
+      "38 36%"
+    ],
+    [
+      "Haskell 1",
+      "0",
+      "0",
+      "0",
+      "0",
+      "1 100%"
+    ],
+    [
+      "Java 1",
+      "0",
+      "0",
+      "1 100%",
+      "0",
+      "0"
+    ]
+  ],
+  [
+    [
+      "#",
+      "Repository",
+      "Lang",
+      "Score",
+      "Cost",
+      "Calls",
+      ""
+    ],
+    [
+      "1",
+      "abishekvashok/cmatrix Terminal based \"The Matrix\" like implementation",
+      "c",
+      "100.0%",
+      "$2.01",
+      "161",
+      "trace →"
+    ],
+    [
+      "2",
+      "simeg/eureka 💡 CLI tool to input and store your ideas without leaving the terminal",
+      "rs",
+      "100.0%",
+      "$2.07",
+      "150",
+      "trace →"
+    ],
+    [
+      "3",
+      "tomarrell/wrapcheck A Go linter to check that errors from external packages are wrapped",
+      "go",
+      "100.0%",
+      "$2.75",
+      "209",
+      "trace →"
+    ],
+    [
+      "4",
+      "wintermute-cell/ngrrram A TUI tool to help you type faster and learn new layouts. Includes a free cat.",
+      "rs",
+      "100.0%",
+      "$3.22",
+      "237",
+      "trace →"
+    ],
+    [
+      "5",
+      "yaa110/nomino Batch rename utility for developers",
+      "rs",
+      "100.0%",
+      "$3.22",
+      "249",
+      "trace →"
+    ],
+    [
+      "6",
+      "chmln/sd Intuitive find & replace CLI (sed alternative)",
+      "rs",
+      "99.8%",
+      "$2.77",
+      "163",
+      "trace →"
+    ],
+    [
+      "7",
+      "agourlay/zip-password-finder Find the password of protected ZIP files.",
+      "rs",
+      "99.7%",
+      "$2.29",
+      "212",
+      "trace →"
+    ],
+    [
+      "8",
+      "wfxr/csview 📠 Pretty and fast csv viewer for cli with cjk/emoji support.",
+      "rs",
+      "99.7%",
+      "$3.95",
+      "211",
+      "trace →"
+    ],
+    [
+      "9",
+      "clog-tool/clog-cli Generate beautiful changelogs from your Git commit history",
+      "rs",
+      "99.7%",
+      "$3.25",
+      "205",
+      "trace →"
+    ],
+    [
+      "10",
+      "kyoh86/richgo Enrich `go test` outputs with text decorations.",
+      "go",
+      "99.6%",
+      "$2.43",
+      "168",
+      "trace →"
+    ],
+    [
+      "11",
+      "shashwatah/jot ⚡Rapid note management for the terminal.",
+      "rs",
+      "99.5%",
+      "$3.75",
+      "243",
+      "trace →"
+    ],
+    [
+      "12",
+      "Byron/dua-cli View disk space usage and delete unwanted data, fast.",
+      "rs",
+      "99.4%",
+      "$4.70",
+      "332",
+      "trace →"
+    ],
+    [
+      "13",
+      "mgdm/htmlq Like jq, but for HTML.",
+      "rs",
+      "99.4%",
+      "$4.00",
+      "268",
+      "trace →"
+    ],
+    [
+      "14",
+      "wfxr/code-minimap 🛰  A high performance code minimap render.",
+      "rs",
+      "99.4%",
+      "$1.59",
+      "157",
+      "trace →"
+    ],
+    [
+      "15",
+      "altdesktop/i3-style 🎨 Make your i3 config a little more stylish.",
+      "rs",
+      "99.3%",
+      "$5.17",
+      "349",
+      "trace →"
+    ],
+    [
+      "16",
+      "ekzhang/bore 🕳 bore is a simple CLI tool for making tunnels to localhost",
+      "rs",
+      "99.2%",
+      "$3.07",
+      "184",
+      "trace →"
+    ],
+    [
+      "17",
+      "tarka/xcp An extended `cp`",
+      "rs",
+      "99.2%",
+      "$4.49",
+      "274",
+      "trace →"
+    ],
+    [
+      "18",
+      "ogham/dog A command-line DNS client.",
+      "rs",
+      "99.0%",
+      "$3.80",
+      "255",
+      "trace →"
+    ],
+    [
+      "19",
+      "raviqqe/muffet Fast website link checker in Go",
+      "go",
+      "99.0%",
+      "$3.96",
+      "278",
+      "trace →"
+    ],
+    [
+      "20",
+      "sstadick/hck A sharp cut(1) clone.",
+      "rs",
+      "98.9%",
+      "$2.50",
+      "183",
+      "trace →"
+    ],
+    [
+      "21",
+      "nachoparker/dutree a tool to analyze file system usage written in Rust",
+      "rs",
+      "98.8%",
+      "$4.53",
+      "315",
+      "trace →"
+    ],
+    [
+      "22",
+      "astro/deadnix Scan Nix files for dead code",
+      "rs",
+      "98.7%",
+      "$4.81",
+      "288",
+      "trace →"
+    ],
+    [
+      "23",
+      "oppiliappan/eva a calculator REPL, similar to bc(1)",
+      "rs",
+      "98.6%",
+      "$3.29",
+      "282",
+      "trace →"
+    ],
+    [
+      "24",
+      "brocode/fblog Small command-line JSON Log viewer",
+      "rs",
+      "98.6%",
+      "$3.03",
+      "248",
+      "trace →"
+    ],
+    [
+      "25",
+      "sitkevij/hex 🔮 Futuristic take on hexdump, made in Rust.",
+      "rs",
+      "98.5%",
+      "$0.95",
+      "118",
+      "trace →"
+    ],
+    [
+      "26",
+      "madler/pigz A parallel implementation of gzip for modern multi-processor, multi-core machines.",
+      "c",
+      "98.1%",
+      "$4.65",
+      "327",
+      "trace →"
+    ],
+    [
+      "27",
+      "jarun/nnn n³ The unorthodox terminal file manager",
+      "c",
+      "97.9%",
+      "$4.85",
+      "269",
+      "trace →"
+    ],
+    [
+      "28",
+      "ismaelgv/rnr A command-line tool to batch rename files and directories",
+      "rs",
+      "97.8%",
+      "$2.01",
+      "231",
+      "trace →"
+    ],
+    [
+      "29",
+      "ajeetdsouza/zoxide A smarter cd command. Supports all major shells.",
+      "rs",
+      "97.6%",
+      "$4.34",
+      "317",
+      "trace →"
+    ],
+    [
+      "30",
+      "kyoheiu/felix tui file manager with vim-like key mapping",
+      "rs",
+      "97.4%",
+      "$4.95",
+      "278",
+      "trace →"
+    ],
+    [
+      "31",
+      "tomnomnom/gron Make JSON greppable!",
+      "go",
+      "97.3%",
+      "$2.44",
+      "178",
+      "trace →"
+    ],
+    [
+      "32",
+      "riquito/tuc When cut doesn't cut it",
+      "rs",
+      "97.2%",
+      "$1.52",
+      "114",
+      "trace →"
+    ],
+    [
+      "33",
+      "rs/curlie The power of curl, the ease of use of httpie.",
+      "go",
+      "97.1%",
+      "$3.34",
+      "247",
+      "trace →"
+    ],
+    [
+      "34",
+      "htop-dev/htop htop - an interactive process viewer",
+      "c",
+      "97.1%",
+      "$2.56",
+      "148",
+      "trace →"
+    ],
+    [
+      "35",
+      "nikolassv/bartib A simple timetracker for the command line. It saves a log of all tracked activities as a plaintext file and allows you to create flexible reports.",
+      "rs",
+      "97.1%",
+      "$3.15",
+      "194",
+      "trace →"
+    ],
+    [
+      "36",
+      "cordx56/rustowl Visualize Ownership and Lifetimes in Rust",
+      "rs",
+      "96.9%",
+      "$4.23",
+      "273",
+      "trace →"
+    ],
+    [
+      "37",
+      "pier-cli/pier A CLI to organize and run short Unix shell scripts",
+      "rs",
+      "96.7%",
+      "$3.78",
+      "211",
+      "trace →"
+    ],
+    [
+      "38",
+      "Miserlou/Loop UNIX's missing `loop` command",
+      "rs",
+      "96.6%",
+      "$3.57",
+      "320",
+      "trace →"
+    ],
+    [
+      "39",
+      "rs/jplot iTerm2 expvar/JSON monitoring tool",
+      "go",
+      "96.6%",
+      "$2.96",
+      "220",
+      "trace →"
+    ],
+    [
+      "40",
+      "sheepla/pingu 🐧ping command but with pingu",
+      "go",
+      "96.6%",
+      "$2.07",
+      "190",
+      "trace →"
+    ],
+    [
+      "41",
+      "quinn-rs/quinn Async-friendly QUIC implementation in Rust",
+      "rs",
+      "96.6%",
+      "$2.67",
+      "194",
+      "trace →"
+    ],
+    [
+      "42",
+      "lz4/lz4 Extremely Fast Compression algorithm",
+      "c",
+      "95.9%",
+      "$6.62",
+      "365",
+      "trace →"
+    ],
+    [
+      "43",
+      "zevv/duc Dude, where are my bytes: Duc, a library and suite of tools for inspecting disk usage",
+      "c",
+      "95.9%",
+      "$7.23",
+      "367",
+      "trace →"
+    ],
+    [
+      "44",
+      "orf/gping Ping, but with a graph",
+      "rs",
+      "95.9%",
+      "$4.45",
+      "271",
+      "trace →"
+    ],
+    [
+      "45",
+      "JohannesKaufmann/html-to-markdown ⚙️ Convert HTML to Markdown. Even works with entire websites and can be extended through rules.",
+      "go",
+      "95.6%",
+      "$4.85",
+      "289",
+      "trace →"
+    ],
+    [
+      "46",
+      "guumaster/hostctl Your dev tool to manage /etc/hosts like a pro!",
+      "go",
+      "95.5%",
+      "$4.83",
+      "242",
+      "trace →"
+    ],
+    [
+      "47",
+      "sharkdp/pastel A command-line tool to generate, analyze, convert and manipulate colors",
+      "rs",
+      "95.4%",
+      "$6.42",
+      "353",
+      "trace →"
+    ],
+    [
+      "48",
+      "eradman/entr Run arbitrary commands when files change",
+      "c",
+      "95.4%",
+      "$4.75",
+      "338",
+      "trace →"
+    ],
+    [
+      "49",
+      "google/brotli Brotli compression format",
+      "c",
+      "95.2%",
+      "$4.45",
+      "258",
+      "trace →"
+    ],
+    [
+      "50",
+      "rhysd/kiro-editor A small terminal UTF-8 text editor written in Rust 📝🦀",
+      "rs",
+      "95.1%",
+      "$5.77",
+      "303",
+      "trace →"
+    ],
+    [
+      "51",
+      "sharkdp/hyperfine A command-line benchmarking tool",
+      "rs",
+      "94.8%",
+      "$8.81",
+      "498",
+      "trace →"
+    ],
+    [
+      "52",
+      "sirwart/ripsecrets A command-line tool to prevent committing secret keys into your source code",
+      "rs",
+      "94.6%",
+      "$4.63",
+      "251",
+      "trace →"
+    ],
+    [
+      "53",
+      "chmln/handlr A better xdg-utils",
+      "rs",
+      "94.5%",
+      "$3.62",
+      "214",
+      "trace →"
+    ],
+    [
+      "54",
+      "peco/peco Simplistic interactive filtering tool",
+      "go",
+      "94.2%",
+      "$5.10",
+      "340",
+      "trace →"
+    ],
+    [
+      "55",
+      "pemistahl/grex A command-line tool and Rust library with Python bindings for generating regular expressions from user-provided test cases",
+      "rs",
+      "94.1%",
+      "$5.89",
+      "296",
+      "trace →"
+    ],
+    [
+      "56",
+      "git-bahn/git-graph Command line tool to show clear git graphs arranged for your branching model",
+      "rs",
+      "94.0%",
+      "$15.28",
+      "440",
+      "trace →"
+    ],
+    [
+      "57",
+      "rbakbashev/elfcat ELF visualizer. Generates HTML files from ELF binaries.",
+      "rs",
+      "93.4%",
+      "$4.16",
+      "261",
+      "trace →"
+    ],
+    [
+      "58",
+      "hatoo/oha Ohayou(おはよう), HTTP load generator, inspired by rakyll/hey with tui animation.",
+      "rs",
+      "93.4%",
+      "$17.18",
+      "555",
+      "trace →"
+    ],
+    [
+      "59",
+      "naggie/dstask Git powered terminal-based todo/note manager --  markdown note page per task. Single binary!",
+      "go",
+      "93.3%",
+      "$3.18",
+      "216",
+      "trace →"
+    ],
+    [
+      "60",
+      "rust-ethereum/ethabi Encode and decode smart contract invocations",
+      "rs",
+      "93.2%",
+      "$2.84",
+      "227",
+      "trace →"
+    ],
+    [
+      "61",
+      "bensadeh/tailspin 🌀 A log file highlighter",
+      "rs",
+      "93.2%",
+      "$5.92",
+      "323",
+      "trace →"
+    ],
+    [
+      "62",
+      "sibprogrammer/xq Command-line XML and HTML beautifier and content extractor",
+      "go",
+      "93.1%",
+      "$9.86",
+      "431",
+      "trace →"
+    ],
+    [
+      "63",
+      "ggreer/the_silver_searcher A code-searching tool similar to ack, but faster.",
+      "c",
+      "92.5%",
+      "$2.71",
+      "223",
+      "trace →"
+    ],
+    [
+      "64",
+      "oppiliappan/statix lints and suggestions for the nix programming language",
+      "rs",
+      "92.1%",
+      "$4.33",
+      "309",
+      "trace →"
+    ],
+    [
+      "65",
+      "hooklift/gowsdl WSDL2Go code generation as well as its SOAP proxy",
+      "go",
+      "92.1%",
+      "$5.48",
+      "295",
+      "trace →"
+    ],
+    [
+      "66",
+      "facebookresearch/fastText Library for fast text representation and classification.",
+      "cpp",
+      "92.0%",
+      "$5.21",
+      "299",
+      "trace →"
+    ],
+    [
+      "67",
+      "BurntSushi/ripgrep ripgrep recursively searches directories for a regex pattern while respecting your gitignore",
+      "rs",
+      "92.0%",
+      "$3.42",
+      "266",
+      "trace →"
+    ],
+    [
+      "68",
+      "codesnap-rs/codesnap 🦀️📸 Pure Rust tool to generate beautiful code snapshots, provide CLI and Library",
+      "rs",
+      "91.9%",
+      "$5.24",
+      "405",
+      "trace →"
+    ],
+    [
+      "69",
+      "dalance/amber A code search / replace tool",
+      "rs",
+      "91.9%",
+      "$3.33",
+      "232",
+      "trace →"
+    ],
+    [
+      "70",
+      "sclevine/yj CLI - Convert between YAML, TOML, JSON, and HCL. Preserves map order.",
+      "go",
+      "91.8%",
+      "$10.83",
+      "353",
+      "trace →"
+    ],
+    [
+      "71",
+      "noborus/ov 🎑Feature-rich terminal-based text viewer.  It is a so-called terminal pager.",
+      "go",
+      "91.5%",
+      "$5.19",
+      "303",
+      "trace →"
+    ],
+    [
+      "72",
+      "TheZoraiz/ascii-image-converter A cross-platform command-line tool to convert images into ascii art and print them on the console. Now supports braille art!",
+      "go",
+      "91.4%",
+      "$4.07",
+      "245",
+      "trace →"
+    ],
+    [
+      "73",
+      "psampaz/go-mod-outdated Find outdated dependencies of your Go projects. go-mod-outdated provides a table view of the go list -u -m -json all command which lists all dependencies of a Go project and their available minor and patch updates. It also provides a way to filter indirect dependencies and dependencies without updates.",
+      "go",
+      "91.2%",
+      "$0.62",
+      "86",
+      "trace →"
+    ],
+    [
+      "74",
+      "trasta298/keifu Git genealogy, untangled. A TUI for navigating commit graphs with color and clarity.",
+      "rs",
+      "91.2%",
+      "$5.75",
+      "375",
+      "trace →"
+    ],
+    [
+      "75",
+      "multiprocessio/dsq Commandline tool for running SQL queries against JSON, CSV, Excel, Parquet, and more.",
+      "go",
+      "91.0%",
+      "$7.68",
+      "511",
+      "trace →"
+    ],
+    [
+      "76",
+      "yoav-lavi/melody Melody is a language that compiles to regular expressions and aims to be more readable and maintainable",
+      "rs",
+      "90.0%",
+      "$3.69",
+      "236",
+      "trace →"
+    ],
+    [
+      "77",
+      "mookid/diffr Yet another diff highlighting tool",
+      "rs",
+      "89.9%",
+      "$9.46",
+      "380",
+      "trace →"
+    ],
+    [
+      "78",
+      "cweill/gotests Automatically generate Go test boilerplate from your source code.",
+      "go",
+      "89.6%",
+      "$7.74",
+      "481",
+      "trace →"
+    ],
+    [
+      "79",
+      "o2sh/onefetch Command-line Git information tool",
+      "rs",
+      "89.4%",
+      "$7.85",
+      "432",
+      "trace →"
+    ],
+    [
+      "80",
+      "segmentio/chamber CLI for managing secrets",
+      "go",
+      "89.1%",
+      "$5.69",
+      "324",
+      "trace →"
+    ],
+    [
+      "81",
+      "cheat/cheat cheat allows you to create and view interactive cheatsheets on the command-line. It was designed to help remind *nix system administrators of options for commands that they use frequently, but not frequently enough to remember.",
+      "go",
+      "88.9%",
+      "$11.97",
+      "622",
+      "trace →"
+    ],
+    [
+      "82",
+      "Y2Z/monolith ⬛️ CLI tool and library for saving complete web pages as a single HTML file",
+      "rs",
+      "88.6%",
+      "$5.07",
+      "311",
+      "trace →"
+    ],
+    [
+      "83",
+      "anordal/shellharden The corrective bash syntax highlighter",
+      "rs",
+      "88.6%",
+      "$6.67",
+      "355",
+      "trace →"
+    ],
+    [
+      "84",
+      "antonmedv/fx Terminal JSON viewer & processor",
+      "go",
+      "88.5%",
+      "$14.05",
+      "592",
+      "trace →"
+    ],
+    [
+      "85",
+      "Canop/rhit A nginx log explorer",
+      "rs",
+      "88.4%",
+      "$4.20",
+      "246",
+      "trace →"
+    ],
+    [
+      "86",
+      "mibk/dupl a tool for code clone detection",
+      "go",
+      "87.9%",
+      "$5.25",
+      "296",
+      "trace →"
+    ],
+    [
+      "87",
+      "hush-shell/hush Hush is a unix shell based on the Lua programming language",
+      "rs",
+      "87.2%",
+      "$9.53",
+      "401",
+      "trace →"
+    ],
+    [
+      "88",
+      "XAMPPRocky/tokei Count your code, quickly.",
+      "rs",
+      "87.2%",
+      "$18.46",
+      "492",
+      "trace →"
+    ],
+    [
+      "89",
+      "nuta/nsh A command-line shell like fish, but POSIX compatible.",
+      "rs",
+      "86.9%",
+      "$4.63",
+      "240",
+      "trace →"
+    ],
+    [
+      "90",
+      "jonas/tig Text-mode interface for git",
+      "c",
+      "86.9%",
+      "$4.91",
+      "256",
+      "trace →"
+    ],
+    [
+      "91",
+      "xorg62/tty-clock Clock using lib ncurses",
+      "c",
+      "86.8%",
+      "$2.52",
+      "159",
+      "trace →"
+    ],
+    [
+      "92",
+      "dundee/gdu Fast disk usage analyzer with console interface written in Go",
+      "go",
+      "86.6%",
+      "$9.55",
+      "370",
+      "trace →"
+    ],
+    [
+      "93",
+      "blacknon/hwatch A modern alternative to the watch command, records the differences in execution results and can check this differences at after.",
+      "rs",
+      "86.5%",
+      "$7.80",
+      "444",
+      "trace →"
+    ],
+    [
+      "94",
+      "NikolaDucak/caps-log A small TUI journaling tool. 📖",
+      "cpp",
+      "86.2%",
+      "$8.33",
+      "384",
+      "trace →"
+    ],
+    [
+      "95",
+      "astaxie/bat Go implement CLI, cURL-like tool for humans",
+      "go",
+      "86.1%",
+      "$1.17",
+      "144",
+      "trace →"
+    ],
+    [
+      "96",
+      "konradsz/igrep Interactive Grep",
+      "rs",
+      "85.7%",
+      "$4.45",
+      "339",
+      "trace →"
+    ],
+    [
+      "97",
+      "foriequal0/git-trim Automatically trims your branches whose tracking remote refs are merged or stray",
+      "rs",
+      "85.7%",
+      "$3.63",
+      "276",
+      "trace →"
+    ],
+    [
+      "98",
+      "YS-L/flamelens Flamegraph viewer in the terminal",
+      "rs",
+      "85.7%",
+      "$5.94",
+      "275",
+      "trace →"
+    ],
+    [
+      "99",
+      "kisielk/errcheck errcheck checks that you checked errors.",
+      "go",
+      "85.6%",
+      "$3.65",
+      "323",
+      "trace →"
+    ],
+    [
+      "100",
+      "alexpovel/srgn A grep-like tool which understands source code syntax and allows for manipulation in addition to search",
+      "rs",
+      "85.5%",
+      "$3.70",
+      "254",
+      "trace →"
+    ],
+    [
+      "101",
+      "elkowar/pipr A tool to interactively write shell pipelines.",
+      "rs",
+      "85.5%",
+      "$7.65",
+      "344",
+      "trace →"
+    ],
+    [
+      "102",
+      "direnv/direnv unclutter your .profile",
+      "go",
+      "85.4%",
+      "$4.58",
+      "273",
+      "trace →"
+    ],
+    [
+      "103",
+      "rcoh/angle-grinder Slice and dice logs on the command line",
+      "rs",
+      "85.3%",
+      "$3.40",
+      "250",
+      "trace →"
+    ],
+    [
+      "104",
+      "facebook/zstd Zstandard - Fast real-time compression algorithm",
+      "c",
+      "85.3%",
+      "$6.84",
+      "311",
+      "trace →"
+    ],
+    [
+      "105",
+      "mfridman/tparse CLI tool for summarizing go test output. Pipe friendly. CI/CD friendly.",
+      "go",
+      "84.9%",
+      "$4.62",
+      "262",
+      "trace →"
+    ],
+    [
+      "106",
+      "Isona/dirble Fast directory scanning and scraping tool",
+      "rs",
+      "84.9%",
+      "$6.36",
+      "435",
+      "trace →"
+    ],
+    [
+      "107",
+      "svenstaro/miniserve 🌟 For when you really just want to serve some files over HTTP right now!",
+      "rs",
+      "84.5%",
+      "$8.10",
+      "335",
+      "trace →"
+    ],
+    [
+      "108",
+      "Drew-Alleman/DataSurgeon Quickly Extracts IP's, Email Addresses, Hashes, Files, Credit Cards, Social Security Numbers and a lot More From Text",
+      "rs",
+      "84.1%",
+      "$7.76",
+      "378",
+      "trace →"
+    ],
+    [
+      "109",
+      "LuaJIT/LuaJIT Mirror of the LuaJIT git repository",
+      "c",
+      "84.0%",
+      "$7.08",
+      "325",
+      "trace →"
+    ],
+    [
+      "110",
+      "jqlang/jq Command-line JSON processor",
+      "c",
+      "83.2%",
+      "$5.87",
+      "399",
+      "trace →"
+    ],
+    [
+      "111",
+      "svenstaro/genact 🌀 A nonsense activity generator",
+      "rs",
+      "82.3%",
+      "$3.48",
+      "251",
+      "trace →"
+    ],
+    [
+      "112",
+      "bootandy/dust A more intuitive version of du in rust",
+      "rs",
+      "82.2%",
+      "$14.65",
+      "547",
+      "trace →"
+    ],
+    [
+      "113",
+      "lua/lua A copy of the Lua development repository, as seen by the Lua team. Mirrored irregularly. All communication should be through the Lua mailing list https://www.lua.org/lua-l.html",
+      "c",
+      "81.8%",
+      "$5.54",
+      "282",
+      "trace →"
+    ],
+    [
+      "114",
+      "skeema/skeema Declarative pure-SQL schema management for MySQL and MariaDB",
+      "go",
+      "81.3%",
+      "$7.30",
+      "382",
+      "trace →"
+    ],
+    [
+      "115",
+      "ninja-build/ninja a small build system with a focus on speed",
+      "cpp",
+      "81.2%",
+      "$8.58",
+      "395",
+      "trace →"
+    ],
+    [
+      "116",
+      "sharkdp/fd A simple, fast and user-friendly alternative to 'find'",
+      "rs",
+      "80.7%",
+      "$5.28",
+      "339",
+      "trace →"
+    ],
+    [
+      "117",
+      "ariga/atlas Declarative schema migrations with schema-as-code workflows",
+      "go",
+      "80.7%",
+      "$5.44",
+      "324",
+      "trace →"
+    ],
+    [
+      "118",
+      "gabotechs/dep-tree Tool for helping developers keep their code bases clean and decoupled. It allows visualising a code base complexity using a 3d force-directed graph of files and the dependencies between them.",
+      "go",
+      "80.5%",
+      "$6.62",
+      "478",
+      "trace →"
+    ],
+    [
+      "119",
+      "lh3/seqtk Toolkit for processing sequences in FASTA/Q formats",
+      "c",
+      "80.0%",
+      "$3.06",
+      "207",
+      "trace →"
+    ],
+    [
+      "120",
+      "cmatsuoka/figlet Claudio's FIGlet tree",
+      "c",
+      "79.8%",
+      "$12.24",
+      "333",
+      "trace →"
+    ],
+    [
+      "121",
+      "hairyhenderson/gomplate A flexible commandline tool for template rendering. Supports lots of local and remote datasources.",
+      "go",
+      "79.3%",
+      "$10.12",
+      "415",
+      "trace →"
+    ],
+    [
+      "122",
+      "junegunn/fzf :cherry_blossom: A command-line fuzzy finder",
+      "go",
+      "79.0%",
+      "$3.72",
+      "290",
+      "trace →"
+    ],
+    [
+      "123",
+      "sayanarijit/xplr A hackable, minimal, fast TUI file explorer",
+      "rs",
+      "79.0%",
+      "$4.61",
+      "258",
+      "trace →"
+    ],
+    [
+      "124",
+      "pls-rs/pls pls is a prettier and powerful ls(1) for the pros.",
+      "rs",
+      "78.9%",
+      "$5.27",
+      "349",
+      "trace →"
+    ],
+    [
+      "125",
+      "Epistates/treemd A (TUI/CLI) markdown navigator with tree-based structural navigation.",
+      "rs",
+      "78.4%",
+      "$13.24",
+      "490",
+      "trace →"
+    ],
+    [
+      "126",
+      "rust-embedded/svd2rust Generate Rust register maps (`struct`s) from SVD files",
+      "rs",
+      "77.1%",
+      "$14.84",
+      "471",
+      "trace →"
+    ],
+    [
+      "127",
+      "robertdavidgraham/masscan TCP port scanner, spews SYN packets asynchronously, scanning entire Internet in under 5 minutes.",
+      "c",
+      "76.9%",
+      "$5.03",
+      "300",
+      "trace →"
+    ],
+    [
+      "128",
+      "incu6us/goimports-reviser Right imports sorting & code formatting tool (goimports alternative)",
+      "go",
+      "76.8%",
+      "$4.59",
+      "393",
+      "trace →"
+    ],
+    [
+      "129",
+      "ecumene/rust-sloth A 3D software rasterizer... for the terminal!",
+      "rs",
+      "76.6%",
+      "$8.94",
+      "274",
+      "trace →"
+    ],
+    [
+      "130",
+      "noborus/trdsql CLI tool that can execute SQL queries on CSV, LTSV, JSON, YAML and TBLN. Can output to various formats.",
+      "go",
+      "75.4%",
+      "$9.09",
+      "349",
+      "trace →"
+    ],
+    [
+      "131",
+      "sqlite/sqlite Official Git mirror of the SQLite source tree",
+      "c",
+      "73.3%",
+      "$3.14",
+      "185",
+      "trace →"
+    ],
+    [
+      "132",
+      "AmmarAbouZor/tui-journal Your journal app if you live in a terminal",
+      "rs",
+      "72.4%",
+      "$7.14",
+      "433",
+      "trace →"
+    ],
+    [
+      "133",
+      "sigoden/argc A Bash CLI framework, also a Bash command runner.",
+      "rs",
+      "72.0%",
+      "$9.13",
+      "465",
+      "trace →"
+    ],
+    [
+      "134",
+      "yassinebridi/serpl A simple terminal UI for search and replace, ala VS Code.",
+      "rs",
+      "71.0%",
+      "$10.01",
+      "427",
+      "trace →"
+    ],
+    [
+      "135",
+      "Esubaalew/run Universal multi-language runner and smart REPL written in Rust.",
+      "rs",
+      "70.4%",
+      "$9.18",
+      "323",
+      "trace →"
+    ],
+    [
+      "136",
+      "lfos/calcurse A text-based calendar and scheduling application",
+      "c",
+      "68.2%",
+      "$6.62",
+      "306",
+      "trace →"
+    ],
+    [
+      "137",
+      "Canop/broot A new way to see and navigate directory trees : https://dystroy.org/broot",
+      "rs",
+      "66.0%",
+      "$7.94",
+      "343",
+      "trace →"
+    ],
+    [
+      "138",
+      "sharkdp/bat A cat(1) clone with wings.",
+      "rs",
+      "65.8%",
+      "$6.22",
+      "344",
+      "trace →"
+    ],
+    [
+      "139",
+      "rochacbruno/marmite Markdown makes sites - A Static Site Generator for Blogs",
+      "rs",
+      "65.1%",
+      "$4.28",
+      "302",
+      "trace →"
+    ],
+    [
+      "140",
+      "ArthurSonzogni/json-tui A JSON terminal UI made in C++",
+      "cpp",
+      "64.8%",
+      "$13.92",
+      "578",
+      "trace →"
+    ],
+    [
+      "141",
+      "jrnxf/thokr ✨ sleek typing tui with visualized results and historical logging",
+      "rs",
+      "63.6%",
+      "$15.28",
+      "695",
+      "trace →"
+    ],
+    [
+      "142",
+      "arq5x/bedtools2 bedtools - the swiss army knife for genome arithmetic",
+      "c",
+      "63.0%",
+      "$4.66",
+      "333",
+      "trace →"
+    ],
+    [
+      "143",
+      "axodotdev/oranda 🎁 generate beautiful landing pages for your developer tools",
+      "rs",
+      "59.8%",
+      "$7.34",
+      "417",
+      "trace →"
+    ],
+    [
+      "144",
+      "Stranger6667/jsonschema A high-performance JSON Schema validator for Rust",
+      "rs",
+      "59.1%",
+      "$3.69",
+      "236",
+      "trace →"
+    ],
+    [
+      "145",
+      "antonmedv/walk Terminal file manager",
+      "go",
+      "58.7%",
+      "$12.08",
+      "534",
+      "trace →"
+    ],
+    [
+      "146",
+      "zk-org/zk Plain text note-taking assistant",
+      "go",
+      "57.6%",
+      "$5.08",
+      "292",
+      "trace →"
+    ],
+    [
+      "147",
+      "mkj/dropbear Dropbear SSH",
+      "c",
+      "57.1%",
+      "$1.75",
+      "180",
+      "trace →"
+    ],
+    [
+      "148",
+      "jesseduffield/lazygit simple terminal UI for git commands",
+      "go",
+      "56.5%",
+      "$6.25",
+      "364",
+      "trace →"
+    ],
+    [
+      "149",
+      "mikefarah/yq yq is a portable command-line YAML, JSON, XML, CSV, TOML, HCL  and properties processor",
+      "go",
+      "56.1%",
+      "$4.15",
+      "328",
+      "trace →"
+    ],
+    [
+      "150",
+      "rvben/rumdl Fast Markdown linter and formatter written in Rust",
+      "rs",
+      "56.0%",
+      "$5.12",
+      "352",
+      "trace →"
+    ],
+    [
+      "151",
+      "go-critic/go-critic The most opinionated Go source code linter for code audit.",
+      "go",
+      "56.0%",
+      "$3.97",
+      "310",
+      "trace →"
+    ],
+    [
+      "152",
+      "mgechev/revive 🔥 ~6x faster, stricter, configurable, extensible, and beautiful drop-in replacement for golint",
+      "go",
+      "55.6%",
+      "$3.43",
+      "286",
+      "trace →"
+    ],
+    [
+      "153",
+      "ivanceras/svgbob Convert your ascii diagram scribbles into happy little SVG",
+      "rs",
+      "53.2%",
+      "$4.63",
+      "248",
+      "trace →"
+    ],
+    [
+      "154",
+      "paradigmxyz/solar Blazingly fast, modular and contributor friendly Solidity compiler, written in Rust",
+      "rs",
+      "49.0%",
+      "$5.26",
+      "272",
+      "trace →"
+    ],
+    [
+      "155",
+      "tree-sitter/tree-sitter An incremental parsing system for programming tools",
+      "rs",
+      "47.6%",
+      "$3.11",
+      "236",
+      "trace →"
+    ],
+    [
+      "156",
+      "bellard/quickjs Public repository of the QuickJS Javascript Engine.",
+      "c",
+      "47.3%",
+      "$5.47",
+      "300",
+      "trace →"
+    ],
+    [
+      "157",
+      "tukaani-project/xz XZ Utils",
+      "c",
+      "46.2%",
+      "$4.91",
+      "289",
+      "trace →"
+    ],
+    [
+      "158",
+      "WGUNDERWOOD/tex-fmt An extremely fast LaTeX formatter written in Rust",
+      "rs",
+      "45.5%",
+      "$6.04",
+      "289",
+      "trace →"
+    ],
+    [
+      "159",
+      "ast-grep/ast-grep ⚡A CLI tool for code structural search, lint and rewriting. Written in Rust",
+      "rs",
+      "45.2%",
+      "$3.96",
+      "358",
+      "trace →"
+    ],
+    [
+      "160",
+      "Lymphatus/caesium-clt Caesium Command Line Tools - Lossy/lossless image compression tool",
+      "rs",
+      "40.7%",
+      "$5.03",
+      "298",
+      "trace →"
+    ],
+    [
+      "161",
+      "stathissideris/ditaa ditaa is a small command-line utility that can convert diagrams drawn using ascii art ('drawings' that contain characters that resemble lines like | / - ), into proper bitmap graphics.",
+      "java",
+      "39.6%",
+      "$2.84",
+      "179",
+      "trace →"
+    ],
+    [
+      "162",
+      "unhappychoice/gittype A CLI code-typing game that turns your source code into typing challenges",
+      "rs",
+      "36.0%",
+      "$14.76",
+      "635",
+      "trace →"
+    ],
+    [
+      "163",
+      "samtools/samtools Tools (written in C using htslib) for manipulating next-generation sequencing data",
+      "c",
+      "32.9%",
+      "$5.51",
+      "294",
+      "trace →"
+    ],
+    [
+      "164",
+      "BLAKE3-team/BLAKE3 the official Rust and C implementations of the BLAKE3 cryptographic hash function",
+      "rs",
+      "32.8%",
+      "$8.90",
+      "365",
+      "trace →"
+    ],
+    [
+      "165",
+      "danmar/cppcheck static analysis of C/C++ code",
+      "cpp",
+      "28.9%",
+      "$4.44",
+      "263",
+      "trace →"
+    ],
+    [
+      "166",
+      "typst/typst A markup-based typesetting system that is powerful and easy to learn.",
+      "rs",
+      "28.7%",
+      "$15.60",
+      "651",
+      "trace →"
+    ],
+    [
+      "167",
+      "KSXGitHub/parallel-disk-usage Highly parallelized, blazing fast directory tree analyzer",
+      "rs",
+      "28.2%",
+      "$14.40",
+      "535",
+      "trace →"
+    ],
+    [
+      "168",
+      "hpjansson/chafa 📺🗿 Terminal graphics for the 21st century.",
+      "c",
+      "25.9%",
+      "$9.58",
+      "356",
+      "trace →"
+    ],
+    [
+      "169",
+      "HaliteChallenge/Halite @twosigma's first artificial intelligence programming challenge",
+      "cpp",
+      "24.7%",
+      "$8.46",
+      "326",
+      "trace →"
+    ],
+    [
+      "170",
+      "alecthomas/chroma A general purpose syntax highlighter in pure Go",
+      "go",
+      "23.5%",
+      "$3.81",
+      "279",
+      "trace →"
+    ],
+    [
+      "171",
+      "doxygen/doxygen Official doxygen git repository",
+      "c",
+      "23.1%",
+      "$6.05",
+      "272",
+      "trace →"
+    ],
+    [
+      "172",
+      "sharkdp/hexyl A command-line hex viewer",
+      "rs",
+      "22.7%",
+      "$6.65",
+      "286",
+      "trace →"
+    ],
+    [
+      "173",
+      "OSGeo/PROJ PROJ - Cartographic Projections and Coordinate Transformations Library",
+      "cpp",
+      "22.3%",
+      "$14.61",
+      "512",
+      "trace →"
+    ],
+    [
+      "174",
+      "duckdb/duckdb DuckDB is an analytical in-process SQL database management system",
+      "cpp",
+      "21.7%",
+      "$3.57",
+      "207",
+      "trace →"
+    ],
+    [
+      "175",
+      "Nukesor/pueue :stars: Manage your shell commands.",
+      "rs",
+      "19.1%",
+      "$15.50",
+      "496",
+      "trace →"
+    ],
+    [
+      "176",
+      "jhspetersson/fselect Find files with SQL-like queries",
+      "rs",
+      "16.2%",
+      "$5.51",
+      "354",
+      "trace →"
+    ],
+    [
+      "177",
+      "universal-ctags/ctags A maintained ctags implementation",
+      "c",
+      "15.3%",
+      "$9.86",
+      "313",
+      "trace →"
+    ],
+    [
+      "178",
+      "php/php-src The PHP Interpreter",
+      "c",
+      "15.0%",
+      "$7.32",
+      "338",
+      "trace →"
+    ],
+    [
+      "179",
+      "tinycc/tinycc Unofficial mirror of mob development branch",
+      "c",
+      "14.1%",
+      "$10.19",
+      "421",
+      "trace →"
+    ],
+    [
+      "180",
+      "FiloSottile/age A simple, modern and secure encryption tool (and Go library) with small explicit keys, no config options, and UNIX-style composability.",
+      "go",
+      "12.9%",
+      "$19.33",
+      "547",
+      "trace →"
+    ],
+    [
+      "181",
+      "boyter/scc Sloc, Cloc and Code: scc is a very fast accurate code counter with complexity calculations and COCOMO estimates written in pure Go",
+      "go",
+      "12.7%",
+      "$5.83",
+      "351",
+      "trace →"
+    ],
+    [
+      "182",
+      "gromacs/gromacs Public/backup repository of the GROMACS molecular simulation toolkit. Please do not mine the metadata blindly; we use https://gitlab.com/gromacs/gromacs for code review and issue tracking.",
+      "cpp",
+      "12.1%",
+      "$7.56",
+      "314",
+      "trace →"
+    ],
+    [
+      "183",
+      "eudoxia0/hashcards A plain text-based spaced repetition system.",
+      "rs",
+      "12.1%",
+      "$19.79",
+      "775",
+      "trace →"
+    ],
+    [
+      "184",
+      "tstack/lnav Log file navigator",
+      "cpp",
+      "9.7%",
+      "$17.81",
+      "648",
+      "trace →"
+    ],
+    [
+      "185",
+      "johnkerl/miller Miller is like awk, sed, cut, join, and sort for name-indexed data such as CSV, TSV, and tabular JSON",
+      "go",
+      "4.9%",
+      "$6.58",
+      "369",
+      "trace →"
+    ],
+    [
+      "186",
+      "stacked-git/stgit Stacked Git",
+      "rs",
+      "4.0%",
+      "$7.87",
+      "370",
+      "trace →"
+    ],
+    [
+      "187",
+      "OSGeo/gdal GDAL is an open source MIT licensed translator library for raster and vector geospatial data formats.",
+      "cpp",
+      "4.0%",
+      "$14.02",
+      "504",
+      "trace →"
+    ],
+    [
+      "188",
+      "BurntSushi/xsv A fast CSV command line toolkit written in Rust.",
+      "rs",
+      "2.7%",
+      "$1.98",
+      "172",
+      "trace →"
+    ],
+    [
+      "189",
+      "FFmpeg/FFmpeg Mirror of https://git.ffmpeg.org/ffmpeg.git",
+      "c",
+      "2.2%",
+      "$17.93",
+      "524",
+      "trace →"
+    ],
+    [
+      "190",
+      "ducaale/xh Friendly and fast tool for sending HTTP requests",
+      "rs",
+      "1.3%",
+      "$10.31",
+      "366",
+      "trace →"
+    ],
+    [
+      "191",
+      "chirlu/sox SoX, Swiss Army knife of sound processing",
+      "c",
+      "1.1%",
+      "$6.34",
+      "312",
+      "trace →"
+    ],
+    [
+      "192",
+      "dandavison/delta A syntax-highlighting pager for git, diff, grep, rg --json, and blame output",
+      "rs",
+      "0.7%",
+      "$12.41",
+      "370",
+      "trace →"
+    ],
+    [
+      "193",
+      "jgm/pandoc Universal markup converter",
+      "hs",
+      "0.2%",
+      "$6.91",
+      "341",
+      "trace →"
+    ],
+    [
+      "194",
+      "crowdagger/crowbook Converts books written in Markdown to HTML, LaTeX/PDF and EPUB",
+      "rs",
+      "0.0%",
+      "$7.00",
+      "291",
+      "trace →"
+    ],
+    [
+      "195",
+      "cslarsen/jp2a Converts jpg images to ASCII",
+      "c",
+      "0.0%",
+      "$15.57",
+      "457",
+      "trace →"
+    ],
+    [
+      "196",
+      "eliukblau/pixterm Draw images in your ANSI terminal with true color",
+      "go",
+      "0.0%",
+      "$11.73",
+      "358",
+      "trace →"
+    ],
+    [
+      "197",
+      "ip7z/7zip 7-Zip",
+      "cpp",
+      "0.0%",
+      "$5.92",
+      "291",
+      "trace →"
+    ],
+    [
+      "198",
+      "kaushiksrini/parqeye Peek inside Parquet files right from your terminal",
+      "rs",
+      "0.0%",
+      "$3.50",
+      "200",
+      "trace →"
+    ],
+    [
+      "199",
+      "parcel-bundler/lightningcss An extremely fast CSS parser, transformer, bundler, and minifier written in Rust.",
+      "rs",
+      "0.0%",
+      "$10.15",
+      "440",
+      "trace →"
+    ],
+    [
+      "200",
+      "rust-lang/mdBook Create book from markdown files. Like Gitbook but implemented in Rust",
+      "rs",
+      "0.0%",
+      "$9.38",
+      "371",
+      "trace →"
+    ]
+  ]
+]

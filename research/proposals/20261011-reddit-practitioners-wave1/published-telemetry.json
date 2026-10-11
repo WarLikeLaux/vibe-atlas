@@ -1,0 +1,58 @@
+{
+    "kind": "practitioner-published-aggregates",
+    "opinion": "O09",
+    "sourceUrl": "https://www.reddit.com/r/codex/comments/1wdynwu/11_days_of_real_codex_usage_gpt6_astra_low_might/",
+    "checkedAt": "2026-10-10T18:48:38Z",
+    "columns": ["Model", "Avg prompt", "Avg output", "Avg cost/request"],
+    "rows": [
+        {
+            "Model": "GPT-6 Astra",
+            "Avg prompt": "61.2K",
+            "Avg output": "417",
+            "Avg cost/request": "~$0.167–0.174*",
+            "reasoningAsDisclosed": "Low/Medium",
+            "costStatus": "author-estimate"
+        },
+        {
+            "Model": "GPT-5.6 Sol",
+            "Avg prompt": "137.8K",
+            "Avg output": "831",
+            "Avg cost/request": "~$0.155",
+            "reasoningAsDisclosed": "mostly High",
+            "costStatus": "as-published; invoice not independently checked"
+        },
+        {
+            "Model": "GPT-5.6 Terra",
+            "Avg prompt": "77.2K",
+            "Avg output": "478",
+            "Avg cost/request": "~$0.030",
+            "reasoningAsDisclosed": null,
+            "costStatus": "as-published; invoice not independently checked"
+        },
+        {
+            "Model": "GPT-5.6 Luna",
+            "Avg prompt": "99.4K",
+            "Avg output": "507",
+            "Avg cost/request": "~$0.004",
+            "reasoningAsDisclosed": null,
+            "costStatus": "as-published; invoice not independently checked"
+        }
+    ],
+    "totalsAsDisclosed": {
+        "scope": "across all four models",
+        "requests": "about 6.5K",
+        "tokens": "670M",
+        "usagePeriod": "last 11 days"
+    },
+    "footnoteAsDisclosed": "Astra billing hasn't appeared in Azure Cost Management yet, so its cost is estimated from the observed usage/billing structure.",
+    "unknowns": [
+        "Exact calendar range",
+        "Per-model sample sizes",
+        "Task mix",
+        "Agent version",
+        "Caching categories",
+        "System prompts",
+        "Independent billing reconciliation"
+    ],
+    "limitations": "Unequal tasks and reasoning levels. These are the author's working aggregates, not normalized benchmark results or current tariffs. Original K/M strings are preserved without recalculation."
+}

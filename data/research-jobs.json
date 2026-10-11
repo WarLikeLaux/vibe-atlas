@@ -1,0 +1,27 @@
+{
+    "version": 1,
+    "batchId": "20261011-wave1",
+    "jobs": [
+        {
+            "id": "wave1-media",
+            "kind": "media",
+            "sourcePath": "research/aggregated/20261011-wave1/media/normalized-opinions.json",
+            "reviewPath": "research/aggregated/20261011-wave1/media/review.md",
+            "minimumRecords": 39
+        },
+        {
+            "id": "wave1-polls",
+            "kind": "polls",
+            "sourcePath": "research/aggregated/20261011-wave1/arenas-identity/normalized-polls.json",
+            "reviewPath": "research/aggregated/20261011-wave1/arenas-identity/review.md",
+            "minimumRecords": 4
+        },
+        {
+            "id": "wave1-identities",
+            "kind": "identities",
+            "sourcePath": "research/aggregated/20261011-wave1/arenas-identity/normalized-identities.json",
+            "reviewPath": "research/aggregated/20261011-wave1/arenas-identity/review.md",
+            "minimumRecords": 45
+        }
+    ]
+}
