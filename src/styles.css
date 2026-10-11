@@ -374,6 +374,12 @@ a.model-name {
     margin: 0;
 }
 
+.vendor-advice {
+    margin-top: 24px;
+    border-left: 3px solid var(--line);
+    padding-left: 16px;
+}
+
 .agent-name,
 .availability-note {
     margin-top: 5px;

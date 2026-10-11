@@ -5,6 +5,7 @@ import { comparisonBenchmarks, comparisonCatalog, comparisonRuns } from './data/
 import type { ComparisonBenchmark, ComparisonRun } from './data/comparison-ranking'
 import { comparisonStandings } from './data/comparison-ranking'
 import { verifiedIdentities } from './data/experience'
+import { vendorRecommendations } from './data/guide'
 
 const dateFormat = new Intl.DateTimeFormat('ru', {
     day: 'numeric',
@@ -197,6 +198,24 @@ export function ModelSection() {
                         modelBands.standing.medals.bronze
                     ).toString()}`}
             </p>
+            {vendorRecommendations.recommendations
+                .filter((recommendation) => recommendation.catalogId === model.id)
+                .map((recommendation) => (
+                    <article className="vendor-advice" key={recommendation.id}>
+                        <h3>Что советует вендор</h3>
+                        <p>«{recommendation.quote}»</p>
+                        <p>Задачи: {recommendation.tasks}</p>
+                        <p>
+                            <a href={recommendation.sourceUrl}>
+                                {recommendation.vendor} · оригинал
+                            </a>{' '}
+                            · Проверено{' '}
+                            <time dateTime={recommendation.checkedAt}>
+                                {dateFormat.format(new Date(recommendation.checkedAt))}
+                            </time>
+                        </p>
+                    </article>
+                ))}
             {measured.map((benchmark) => {
                 const group = (byBenchmark.get(benchmark.id) ?? []).toSorted(
                     (a, b) => b.score - a.score,
