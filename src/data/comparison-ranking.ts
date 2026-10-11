@@ -44,6 +44,8 @@ export interface ComparisonStanding {
     medals: { gold: number; silver: number; bronze: number }
     top3: number
     top10: number
+    close95: number
+    close80: number
     measured: number
 }
 
@@ -89,7 +91,27 @@ function rankCells(standings: ComparisonStanding[], benchmarkId: string) {
     return values.length
 }
 
+function proximityTop(standings: ComparisonStanding[], benchmarkId: string) {
+    const scores = standings.flatMap((standing) => {
+        const selected = standing.cells.get(benchmarkId)?.selected
+        return selected && !selected.estimated ? [selected.score] : []
+    })
+    return scores.length > 0 ? Math.max(...scores) : 0
+}
+
+function awardProximity(standing: ComparisonStanding, benchmarkId: string, top: number) {
+    // Proximity bands against the best measured score: 95%+ and 80–95%.
+    // Estimates never qualify; a zero top score disables the bands.
+    const selected = standing.cells.get(benchmarkId)?.selected
+    if (top > 0 && selected && !selected.estimated) {
+        const ratio = selected.score / top
+        if (ratio >= 0.95) standing.close95++
+        else if (ratio >= 0.8) standing.close80++
+    }
+}
+
 function awardPlaces(standings: ComparisonStanding[], benchmarkId: string) {
+    const top = proximityTop(standings, benchmarkId)
     for (const standing of standings) {
         const rank = standing.cells.get(benchmarkId)?.rank
         if (rank === undefined) continue
@@ -99,12 +121,15 @@ function awardPlaces(standings: ComparisonStanding[], benchmarkId: string) {
         if (rank === 3) standing.medals.bronze++
         if (rank <= 3) standing.top3++
         if (rank <= 10) standing.top10++
+        awardProximity(standing, benchmarkId, top)
     }
 }
 
 function sortValue(standing: ComparisonStanding, metric: string) {
     if (metric === 'top3') return standing.top3
     if (metric === 'top10') return standing.top10
+    if (metric === 'close95') return standing.close95
+    if (metric === 'close80') return standing.close80
     return standing.cells.get(metric)?.selected?.score
 }
 
@@ -136,6 +161,8 @@ export function comparisonStandings(
         medals: { gold: 0, silver: 0, bronze: 0 },
         top3: 0,
         top10: 0,
+        close95: 0,
+        close80: 0,
         measured: 0,
     }))
     for (const benchmark of benchmarks) {

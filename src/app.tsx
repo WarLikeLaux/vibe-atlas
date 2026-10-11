@@ -3,6 +3,9 @@ import { useState } from 'react'
 import { ComparisonSection } from './comparison-section'
 import { catalog } from './data/catalog'
 import type { Source } from './data/catalog'
+import { ExperienceSection } from './experience-section'
+import { GuideSection } from './guide-section'
+import { ModelSection } from './model-section'
 
 const repository = 'https://github.com/WarLikeLaux/vibe-atlas'
 
@@ -44,6 +47,8 @@ export function App() {
                 </a>
                 <nav aria-label="Основная навигация">
                     <a href="#benchmarks">Бенчмарки</a>
+                    <a href="#experience">Опыт</a>
+                    <a href="#guide">Гид</a>
                     <a href="#sources">Источники</a>
                     <a href="#principles">Методология</a>
                     <a href="#roadmap">План</a>
@@ -93,6 +98,12 @@ export function App() {
                 </section>
 
                 <ComparisonSection />
+
+                <ModelSection />
+
+                <ExperienceSection />
+
+                <GuideSection />
 
                 <section className="catalog-section" id="sources" aria-labelledby="sources-title">
                     <div className="wrap">

@@ -94,6 +94,9 @@ function Achievements({ standing }: Readonly<{ standing: ComparisonStanding }>) 
                 Топ‑3: {standing.top3} / {standing.measured} · Топ‑10: {standing.top10} /{' '}
                 {standing.measured}
             </span>
+            <span>
+                95% от топ‑1: {standing.close95} · 80–95%: {standing.close80}
+            </span>
         </div>
     )
 }
@@ -311,7 +314,10 @@ export function ComparisonSection() {
         setSort(metric)
         setDirection(metric === sort && direction === 'descending' ? 'ascending' : 'descending')
         setLimit(10)
-        if (!['medals', 'top3', 'top10'].includes(metric) && !columns.includes(metric))
+        if (
+            !['medals', 'top3', 'top10', 'close95', 'close80'].includes(metric) &&
+            !columns.includes(metric)
+        )
             setColumns([...columns, metric])
     }
 
@@ -403,6 +409,8 @@ export function ComparisonSection() {
                         <option value="medals">Медалям</option>
                         <option value="top3">Попаданиям в топ‑3</option>
                         <option value="top10">Попаданиям в топ‑10</option>
+                        <option value="close95">Близости 95% к топ‑1</option>
+                        <option value="close80">Близости 80–95% к топ‑1</option>
                         {comparisonBenchmarks.map((benchmark) => (
                             <option key={benchmark.id} value={benchmark.id}>
                                 {benchmark.name} · {benchmark.context}
@@ -608,9 +616,12 @@ export function ComparisonSection() {
                                     <tbody key={standing.model.id} data-model={standing.model.id}>
                                         <tr>
                                             <th scope="row">
-                                                <span className="model-name">
+                                                <a
+                                                    className="model-name model-link"
+                                                    href={`#model/${standing.model.id}`}
+                                                >
                                                     {standing.model.name}
-                                                </span>
+                                                </a>
                                                 <span className="agent-name">
                                                     {standing.model.vendor}
                                                 </span>
@@ -820,6 +831,12 @@ export function ComparisonSection() {
                     ещё предстоит.
                 </p>
                 <p>
+                    Близость к лидеру считается отдельно от медалей: 95%+ от лучшего измеренного
+                    результата столбца и полоса 80–95%. Оценочные значения не участвуют, при нулевом
+                    топе полосы не выдаются. Полосы действуют в тех же выбранных столбцах, что и
+                    медали, и тоже требуют минимум две измеренные модели.
+                </p>
+                <p>
                     Рейтинг по медалям: сначала золото, затем серебро и бронза. Охват измерений
                     показан рядом с топами; модели с разным охватом не обязательно сопоставимы.
                     Порядок при полном равенстве — по названию.
@@ -858,17 +875,15 @@ export function ComparisonSection() {
                 </p>
             </details>
             <div className="benchmark-methodology" id="benchmark-methodology">
-                <h3>Методология выбранных бенчмарков</h3>
+                <h3>Методология всех бенчмарков</h3>
                 <p className="catalog-footnote">
-                    Паспорта и ограничения относятся к версии теста и протоколу запуска.
+                    Паспорта и ограничения относятся к версии теста и протоколу запуска. Показаны
+                    все {comparisonBenchmarks.length} тестов и протоколов таблицы, включая
+                    невыбранные столбцы.
                 </p>
-                {visibleBenchmarks.length > 0 ? (
-                    visibleBenchmarks.map((benchmark) => (
-                        <BenchmarkPassport key={benchmark.id} benchmark={benchmark} />
-                    ))
-                ) : (
-                    <p>Выберите бенчмарки, чтобы посмотреть их методологию.</p>
-                )}
+                {comparisonBenchmarks.map((benchmark) => (
+                    <BenchmarkPassport key={benchmark.id} benchmark={benchmark} />
+                ))}
             </div>
         </section>
     )

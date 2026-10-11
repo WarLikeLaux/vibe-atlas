@@ -1,0 +1,77 @@
+{
+    "version": 1,
+    "batchId": "20261012-vendor-recommendations-wave3",
+    "checkedAt": "2026-10-12T00:00:00Z",
+    "recommendations": [
+        {
+            "id": "vendor-gpt-6-1-sol",
+            "vendor": "OpenAI",
+            "model": "GPT-6.1 Sol",
+            "catalogId": "gpt-6-1-sol",
+            "quote": "GPT-6.1 Sol delivers near-Astra performance at a lower cost for complex coding, computer use, and professional work.",
+            "tasks": "Сложный кодинг, computer use, профессиональная работа.",
+            "sourceUrl": "https://developers.openai.com/api/docs/models/gpt-6.1-sol",
+            "checkedAt": "2026-10-12T00:00:00Z"
+        },
+        {
+            "id": "vendor-gpt-6-astra",
+            "vendor": "OpenAI",
+            "model": "GPT-6 Astra",
+            "catalogId": "gpt-6-astra",
+            "quote": "GPT-6 Astra is our most capable model for the most demanding work.",
+            "tasks": "Самые требовательные задачи: сложный кодинг, reasoning, computer use, исследования.",
+            "sourceUrl": "https://developers.openai.com/api/docs/models/gpt-6-astra",
+            "checkedAt": "2026-10-12T00:00:00Z"
+        },
+        {
+            "id": "vendor-glm-5-3",
+            "vendor": "Z.AI",
+            "model": "GLM-5.3",
+            "catalogId": "glm-5-3",
+            "quote": "For complex tasks such as coding, we recommend using `max`.",
+            "tasks": "Сложное программирование, long-horizon агентские задачи, full-stack разработка.",
+            "sourceUrl": "https://docs.z.ai/guides/llm/glm-5.3",
+            "checkedAt": "2026-10-12T00:00:00Z"
+        },
+        {
+            "id": "vendor-glm-5-3-flash",
+            "vendor": "Z.AI",
+            "model": "GLM-5.3-Flash",
+            "catalogId": "glm-5-3-flash",
+            "quote": "Now fully available, GLM-5.3-Flash can be used with your preferred tools, with 3x the available quota compared with GLM-5.3.",
+            "tasks": "Повседневные агентские кодинг-задачи, где важна скорость и экономия квоты.",
+            "sourceUrl": "https://docs.z.ai/guides/vlm/glm-5.3-flash",
+            "checkedAt": "2026-10-12T00:00:00Z"
+        },
+        {
+            "id": "vendor-composer-2-5",
+            "vendor": "Cursor",
+            "model": "Composer 2.5",
+            "catalogId": null,
+            "quote": "Use Composer 2.5 as your default for hands-on, agentic coding: the tight write, run, and fix loop.",
+            "tasks": "Повседневная разработка в Cursor: рефакторинги, отладка, CI-фиксы, ревью.",
+            "sourceUrl": "https://cursor.com/composer",
+            "checkedAt": "2026-10-12T00:00:00Z"
+        },
+        {
+            "id": "vendor-grok-4-7",
+            "vendor": "xAI",
+            "model": "Grok 4.7",
+            "catalogId": "grok-4-7",
+            "quote": "For everything else, including code, use Grok 4.7. It is the most capable model we've built.",
+            "tasks": "Кодинг, агентские задачи, knowledge work; пример — баг-репорт в проверенный фикс.",
+            "sourceUrl": "https://docs.x.ai/developers/models",
+            "checkedAt": "2026-10-12T00:00:00Z"
+        },
+        {
+            "id": "vendor-gemini-3-6-flash",
+            "vendor": "Google",
+            "model": "Gemini 3.6 Flash (линейка Flash; соответствие 3.8 не подтверждено)",
+            "catalogId": null,
+            "quote": "Gemini 3.6 Flash: Code generation, spatial/multimodal reasoning, multi-step agentic workflows.",
+            "tasks": "Генерация production-ready кода, full-stack рефакторинг, интерактивный веб-кодинг.",
+            "sourceUrl": "https://ai.google.dev/gemini-api/docs/whats-new-gemini-3.6",
+            "checkedAt": "2026-10-12T00:00:00Z"
+        }
+    ]
+}

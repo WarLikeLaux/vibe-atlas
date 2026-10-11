@@ -1,0 +1,1119 @@
+{
+    "taskId": "20261012-subscriptions-wave3",
+    "schemaVersion": 1,
+    "generatedAt": "2026-10-12T00:00:00+06:00",
+    "subscriptions": [
+        {
+            "id": "cursor-pro",
+            "status": "source-verified",
+            "vendor": "Cursor",
+            "product": "Cursor individual subscription",
+            "planId": "pro",
+            "planLabel": "Pro",
+            "billing": {
+                "amount": 20,
+                "currency": "USD",
+                "unit": "month",
+                "taxNote": "Prices exclusive of applicable taxes (cursor.com/pricing FAQ).",
+                "source": {
+                    "url": "https://prod.cursor.com/docs/models-and-pricing",
+                    "checkedAt": "2026-10-12T00:00:00+06:00",
+                    "excerpt": "Pro | $20/mo"
+                }
+            },
+            "agentsAndSurfaces": [
+                {
+                    "name": "Cursor Agent",
+                    "notes": "Extended agent usage limits vs Hobby; unlimited tab completions.",
+                    "source": {
+                        "url": "https://cursor.com/pricing",
+                        "checkedAt": "2026-10-12T00:00:00+06:00"
+                    }
+                },
+                {
+                    "name": "Cloud Agents",
+                    "source": {
+                        "url": "https://cursor.com/pricing",
+                        "checkedAt": "2026-10-12T00:00:00+06:00"
+                    }
+                }
+            ],
+            "modelsInScope": [
+                {
+                    "catalogPriority": "Grok 4.7",
+                    "pool": "Cursor Models",
+                    "identifiers": ["grok-4.7"],
+                    "source": {
+                        "url": "https://prod.cursor.com/docs/models-and-pricing",
+                        "checkedAt": "2026-10-12T00:00:00+06:00"
+                    }
+                },
+                {
+                    "catalogPriority": "Composer 2.5",
+                    "pool": "Cursor Models",
+                    "identifiers": ["composer-2.5"],
+                    "source": {
+                        "url": "https://prod.cursor.com/docs/models-and-pricing",
+                        "checkedAt": "2026-10-12T00:00:00+06:00"
+                    }
+                }
+            ],
+            "limits": [
+                {
+                    "name": "Cursor Models usage pool",
+                    "value": null,
+                    "unit": null,
+                    "unknownReason": "Official docs describe included usage qualitatively and meter consumption at per-million-token list rates; no fixed included dollar or token cap published on the pricing page.",
+                    "resetWindow": {
+                        "description": "Resets with monthly billing cycle.",
+                        "source": {
+                            "url": "https://prod.cursor.com/docs/models-and-pricing",
+                            "checkedAt": "2026-10-12T00:00:00+06:00",
+                            "excerpt": "each resetting with your monthly billing cycle"
+                        }
+                    }
+                },
+                {
+                    "name": "Other Models usage pool",
+                    "value": null,
+                    "unit": null,
+                    "unknownReason": "Included amount not published as a fixed quota; overage billed at model API rates (on-demand).",
+                    "resetWindow": {
+                        "description": "Resets with monthly billing cycle.",
+                        "source": {
+                            "url": "https://prod.cursor.com/docs/models-and-pricing",
+                            "checkedAt": "2026-10-12T00:00:00+06:00"
+                        }
+                    },
+                    "sharedPool": false,
+                    "notes": "Separate pool from Cursor Models; third-party models charged at API price when selected."
+                }
+            ],
+            "regionalConditions": [
+                {
+                    "region": "India",
+                    "note": "Start plan (₹649/mo, Cursor Models only) is separate from Pro.",
+                    "source": {
+                        "url": "https://prod.cursor.com/docs/models-and-pricing",
+                        "checkedAt": "2026-10-12T00:00:00+06:00"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "cursor-pro-plus",
+            "status": "source-verified",
+            "vendor": "Cursor",
+            "product": "Cursor individual subscription",
+            "planId": "pro-plus",
+            "planLabel": "Pro Plus",
+            "billing": {
+                "amount": 60,
+                "currency": "USD",
+                "unit": "month",
+                "source": {
+                    "url": "https://prod.cursor.com/docs/models-and-pricing",
+                    "checkedAt": "2026-10-12T00:00:00+06:00",
+                    "excerpt": "Pro Plus | $60/mo"
+                }
+            },
+            "modelsInScope": [
+                {
+                    "catalogPriority": "Grok 4.7",
+                    "pool": "Cursor Models",
+                    "source": {
+                        "url": "https://prod.cursor.com/docs/models-and-pricing",
+                        "checkedAt": "2026-10-12T00:00:00+06:00"
+                    }
+                },
+                {
+                    "catalogPriority": "Composer 2.5",
+                    "pool": "Cursor Models",
+                    "source": {
+                        "url": "https://prod.cursor.com/docs/models-and-pricing",
+                        "checkedAt": "2026-10-12T00:00:00+06:00"
+                    }
+                }
+            ],
+            "limits": [
+                {
+                    "name": "Cursor Models usage pool",
+                    "value": null,
+                    "unit": null,
+                    "unknownReason": "Higher tier than Pro; included volume not stated as a fixed number on the public docs page.",
+                    "resetWindow": {
+                        "description": "Monthly billing cycle.",
+                        "source": {
+                            "url": "https://prod.cursor.com/docs/models-and-pricing",
+                            "checkedAt": "2026-10-12T00:00:00+06:00"
+                        }
+                    }
+                },
+                {
+                    "name": "Other Models usage pool",
+                    "value": null,
+                    "unit": null,
+                    "unknownReason": "Included amount not published as a fixed quota.",
+                    "resetWindow": {
+                        "description": "Monthly billing cycle.",
+                        "source": {
+                            "url": "https://prod.cursor.com/docs/models-and-pricing",
+                            "checkedAt": "2026-10-12T00:00:00+06:00"
+                        }
+                    }
+                }
+            ],
+            "notes": [
+                {
+                    "text": "Docs suggest daily agent users often need roughly $60–$100/mo total usage; this is guidance, not a plan quota.",
+                    "source": {
+                        "url": "https://prod.cursor.com/docs/models-and-pricing",
+                        "checkedAt": "2026-10-12T00:00:00+06:00"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "cursor-ultra",
+            "status": "source-verified",
+            "vendor": "Cursor",
+            "product": "Cursor individual subscription",
+            "planId": "ultra",
+            "planLabel": "Ultra",
+            "billing": {
+                "amount": 200,
+                "currency": "USD",
+                "unit": "month",
+                "source": {
+                    "url": "https://prod.cursor.com/docs/models-and-pricing",
+                    "checkedAt": "2026-10-12T00:00:00+06:00",
+                    "excerpt": "Ultra | $200/mo"
+                }
+            },
+            "modelsInScope": [
+                {
+                    "catalogPriority": "Grok 4.7",
+                    "pool": "Cursor Models",
+                    "source": {
+                        "url": "https://prod.cursor.com/docs/models-and-pricing",
+                        "checkedAt": "2026-10-12T00:00:00+06:00"
+                    }
+                },
+                {
+                    "catalogPriority": "Composer 2.5",
+                    "pool": "Cursor Models",
+                    "source": {
+                        "url": "https://prod.cursor.com/docs/models-and-pricing",
+                        "checkedAt": "2026-10-12T00:00:00+06:00"
+                    }
+                }
+            ],
+            "limits": [
+                {
+                    "name": "Included usage pools (Cursor Models and Other Models)",
+                    "value": null,
+                    "unit": null,
+                    "unknownReason": "Largest individual tier; fixed included caps not published on the public pricing page.",
+                    "resetWindow": {
+                        "description": "Monthly billing cycle for both pools.",
+                        "source": {
+                            "url": "https://prod.cursor.com/docs/models-and-pricing",
+                            "checkedAt": "2026-10-12T00:00:00+06:00"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": "chatgpt-plus",
+            "status": "source-verified",
+            "vendor": "OpenAI",
+            "product": "ChatGPT consumer + shared Codex/ChatGPT Work usage",
+            "planId": "plus",
+            "planLabel": "Plus",
+            "billing": {
+                "amount": 20,
+                "currency": "USD",
+                "unit": "month",
+                "source": {
+                    "url": "https://openai.com/chatgpt/pricing/",
+                    "checkedAt": "2026-10-12T00:00:00+06:00",
+                    "excerpt": "Plus … $20"
+                }
+            },
+            "agentsAndSurfaces": [
+                {
+                    "name": "Codex",
+                    "notes": "CLI, IDE extension, web, iOS; cloud integrations per feature table.",
+                    "source": {
+                        "url": "https://learn.chatgpt.com/docs/pricing",
+                        "checkedAt": "2026-10-12T00:00:00+06:00"
+                    }
+                },
+                {
+                    "name": "ChatGPT Work",
+                    "notes": "Desktop, web, mobile on Plus.",
+                    "source": {
+                        "url": "https://learn.chatgpt.com/docs/pricing",
+                        "checkedAt": "2026-10-12T00:00:00+06:00"
+                    }
+                }
+            ],
+            "modelsInScope": [
+                {
+                    "catalogPriority": "GPT-6.1 Sol",
+                    "identifier": "gpt-6.1-sol",
+                    "availability": "Work and Codex; not Chat.",
+                    "source": {
+                        "url": "https://learn.chatgpt.com/docs/models",
+                        "checkedAt": "2026-10-12T00:00:00+06:00"
+                    }
+                },
+                {
+                    "catalogPriority": "GPT-6 Astra",
+                    "identifier": "gpt-6-astra",
+                    "source": {
+                        "url": "https://openai.com/chatgpt/pricing/",
+                        "checkedAt": "2026-10-12T00:00:00+06:00"
+                    }
+                },
+                {
+                    "catalogPriority": "GPT-6 Luna",
+                    "identifier": "gpt-6-luna",
+                    "source": {
+                        "url": "https://openai.com/chatgpt/pricing/",
+                        "checkedAt": "2026-10-12T00:00:00+06:00"
+                    }
+                }
+            ],
+            "limits": [
+                {
+                    "name": "Local messages (GPT-6.1 Sol)",
+                    "value": { "min": 15, "max": 160 },
+                    "unit": "messages per 5 hours",
+                    "scope": "Plus; estimates for local Codex/Work messages, not fixed caps.",
+                    "resetWindow": {
+                        "description": "Five-hour window; weekly limits may also apply.",
+                        "source": {
+                            "url": "https://learn.chatgpt.com/docs/pricing",
+                            "checkedAt": "2026-10-12T00:00:00+06:00"
+                        }
+                    },
+                    "sharedPool": true,
+                    "sharedWith": [
+                        "ChatGPT Work",
+                        "Codex",
+                        "other agentic features per OpenAI docs"
+                    ]
+                },
+                {
+                    "name": "Local messages (GPT-6 Astra)",
+                    "value": { "min": 5, "max": 45 },
+                    "unit": "messages per 5 hours",
+                    "scope": "Plus estimate.",
+                    "source": {
+                        "url": "https://learn.chatgpt.com/docs/pricing",
+                        "checkedAt": "2026-10-12T00:00:00+06:00"
+                    }
+                },
+                {
+                    "name": "Local messages (GPT-6 Luna)",
+                    "value": { "min": 350, "max": 3000 },
+                    "unit": "messages per 5 hours",
+                    "scope": "Plus estimate.",
+                    "source": {
+                        "url": "https://learn.chatgpt.com/docs/pricing",
+                        "checkedAt": "2026-10-12T00:00:00+06:00"
+                    }
+                },
+                {
+                    "name": "GPT Reasoning total context window",
+                    "value": 256000,
+                    "unit": "tokens",
+                    "source": {
+                        "url": "https://openai.com/chatgpt/pricing/",
+                        "checkedAt": "2026-10-12T00:00:00+06:00"
+                    }
+                },
+                {
+                    "name": "Credits (overage)",
+                    "value": null,
+                    "unit": "credits",
+                    "unknownReason": "Plus can buy ChatGPT credits after included limits; purchase rates published per model in token credit table, not a single plan-wide cap.",
+                    "source": {
+                        "url": "https://learn.chatgpt.com/docs/pricing",
+                        "checkedAt": "2026-10-12T00:00:00+06:00"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "chatgpt-pro-100",
+            "status": "source-verified",
+            "vendor": "OpenAI",
+            "product": "ChatGPT Pro (Codex/Work shared usage)",
+            "planId": "pro-100",
+            "planLabel": "Pro 100",
+            "billing": {
+                "amount": 100,
+                "currency": "USD",
+                "unit": "month",
+                "source": {
+                    "url": "https://help.openai.com/en/articles/9793128-about-chatgpt-pro-tiers",
+                    "checkedAt": "2026-10-12T00:00:00+06:00",
+                    "excerpt": "Pro 100 | $100"
+                }
+            },
+            "modelsInScope": [
+                {
+                    "catalogPriority": "GPT-6.1 Sol",
+                    "identifier": "gpt-6.1-sol",
+                    "source": {
+                        "url": "https://learn.chatgpt.com/docs/models",
+                        "checkedAt": "2026-10-12T00:00:00+06:00"
+                    }
+                },
+                {
+                    "catalogPriority": "GPT-6 Astra",
+                    "identifier": "gpt-6-astra",
+                    "notes": "Pro reasoning powered by GPT-6 Astra on consumer pricing page.",
+                    "source": {
+                        "url": "https://openai.com/chatgpt/pricing/",
+                        "checkedAt": "2026-10-12T00:00:00+06:00"
+                    }
+                }
+            ],
+            "limits": [
+                {
+                    "name": "Five-hour message cap (Pro plans)",
+                    "value": null,
+                    "unit": null,
+                    "unknownReason": "Pro plans currently have no five-hour limit on local messages per learn.chatgpt.com; per-model allowances still apply and are shown in the usage dashboard.",
+                    "source": {
+                        "url": "https://learn.chatgpt.com/docs/pricing",
+                        "checkedAt": "2026-10-12T00:00:00+06:00",
+                        "excerpt": "Pro plans currently have no five-hour limit"
+                    }
+                },
+                {
+                    "name": "Included usage (qualitative vs Pro 200/500)",
+                    "value": null,
+                    "unit": null,
+                    "unknownReason": "Help center states Pro 200 and Pro 500 include more included usage than Pro 100 but does not publish numeric caps.",
+                    "source": {
+                        "url": "https://help.openai.com/en/articles/9793128-about-chatgpt-pro-tiers",
+                        "checkedAt": "2026-10-12T00:00:00+06:00"
+                    }
+                },
+                {
+                    "name": "Ultrafast mode",
+                    "value": "not included",
+                    "unit": null,
+                    "source": {
+                        "url": "https://help.openai.com/en/articles/9793128-about-chatgpt-pro-tiers",
+                        "checkedAt": "2026-10-12T00:00:00+06:00"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "chatgpt-pro-500",
+            "status": "source-verified",
+            "vendor": "OpenAI",
+            "product": "ChatGPT Pro (Codex/Work shared usage)",
+            "planId": "pro-500",
+            "planLabel": "Pro 500",
+            "billing": {
+                "amount": 500,
+                "currency": "USD",
+                "unit": "month",
+                "source": {
+                    "url": "https://help.openai.com/en/articles/9793128-about-chatgpt-pro-tiers",
+                    "checkedAt": "2026-10-12T00:00:00+06:00"
+                }
+            },
+            "limits": [
+                {
+                    "name": "Ultrafast included usage multiplier",
+                    "value": 8,
+                    "unit": "× Standard included usage rate for GPT-6 Astra and GPT-6.1 Sol Ultrafast",
+                    "source": {
+                        "url": "https://help.openai.com/en/articles/9793128-about-chatgpt-pro-tiers",
+                        "checkedAt": "2026-10-12T00:00:00+06:00"
+                    }
+                },
+                {
+                    "name": "Highest included usage among Pro tiers",
+                    "value": null,
+                    "unit": null,
+                    "unknownReason": "Stated qualitatively only.",
+                    "source": {
+                        "url": "https://help.openai.com/en/articles/9793128-about-chatgpt-pro-tiers",
+                        "checkedAt": "2026-10-12T00:00:00+06:00"
+                    }
+                }
+            ],
+            "modelsInScope": [
+                {
+                    "catalogPriority": "GPT-6.1 Sol",
+                    "identifier": "gpt-6.1-sol",
+                    "modes": ["Ultrafast on Pro 500"],
+                    "source": {
+                        "url": "https://learn.chatgpt.com/docs/agent-configuration/speed",
+                        "checkedAt": "2026-10-12T00:00:00+06:00"
+                    }
+                },
+                {
+                    "catalogPriority": "GPT-6 Astra",
+                    "identifier": "gpt-6-astra",
+                    "modes": ["Ultrafast on Pro 500"],
+                    "source": {
+                        "url": "https://learn.chatgpt.com/docs/agent-configuration/speed",
+                        "checkedAt": "2026-10-12T00:00:00+06:00"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "anthropic-claude-pro",
+            "status": "source-verified",
+            "vendor": "Anthropic",
+            "product": "Claude consumer subscription",
+            "planId": "pro",
+            "planLabel": "Pro",
+            "billing": {
+                "amount": 20,
+                "currency": "USD",
+                "unit": "month",
+                "alternatives": [
+                    {
+                        "amount": 17,
+                        "currency": "USD",
+                        "unit": "month",
+                        "condition": "Annual subscription billed $200 up front.",
+                        "source": {
+                            "url": "https://www.anthropic.com/pricing",
+                            "checkedAt": "2026-10-12T00:00:00+06:00"
+                        }
+                    }
+                ],
+                "source": {
+                    "url": "https://www.anthropic.com/pricing",
+                    "checkedAt": "2026-10-12T00:00:00+06:00"
+                }
+            },
+            "agentsAndSurfaces": [
+                {
+                    "name": "Claude Code",
+                    "source": {
+                        "url": "https://www.anthropic.com/pricing",
+                        "checkedAt": "2026-10-12T00:00:00+06:00"
+                    }
+                }
+            ],
+            "modelsInScope": [
+                {
+                    "name": "Opus",
+                    "source": {
+                        "url": "https://www.anthropic.com/pricing",
+                        "checkedAt": "2026-10-12T00:00:00+06:00"
+                    }
+                },
+                {
+                    "name": "Sonnet",
+                    "source": {
+                        "url": "https://www.anthropic.com/pricing",
+                        "checkedAt": "2026-10-12T00:00:00+06:00"
+                    }
+                },
+                {
+                    "name": "Haiku",
+                    "source": {
+                        "url": "https://www.anthropic.com/pricing",
+                        "checkedAt": "2026-10-12T00:00:00+06:00"
+                    }
+                }
+            ],
+            "limits": [
+                {
+                    "name": "Usage vs Free",
+                    "value": 5,
+                    "unit": "× Free usage per 5-hour session (minimum stated)",
+                    "resetWindow": {
+                        "description": "Rolling 5-hour session window; paid plans add weekly limits.",
+                        "source": {
+                            "url": "https://www.anthropic.com/pricing",
+                            "checkedAt": "2026-10-12T00:00:00+06:00"
+                        }
+                    },
+                    "sharedPool": true,
+                    "sharedWith": ["Claude web", "desktop", "mobile", "Claude Code"],
+                    "unknownReason": "No fixed message count; usage depends on conversation length, model, and features."
+                },
+                {
+                    "name": "Weekly limits",
+                    "value": null,
+                    "unit": null,
+                    "unknownReason": "Weekly caps apply on paid plans; numeric values not published on pricing page.",
+                    "source": {
+                        "url": "https://www.anthropic.com/pricing",
+                        "checkedAt": "2026-10-12T00:00:00+06:00"
+                    }
+                },
+                {
+                    "name": "Context window",
+                    "value": null,
+                    "unit": "tokens",
+                    "unknownReason": "Up to 1M varies by model.",
+                    "source": {
+                        "url": "https://www.anthropic.com/pricing",
+                        "checkedAt": "2026-10-12T00:00:00+06:00",
+                        "excerpt": "Up to 1M varies by model"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "anthropic-claude-max-5x",
+            "status": "source-verified",
+            "vendor": "Anthropic",
+            "product": "Claude consumer subscription",
+            "planId": "max-5x",
+            "planLabel": "Max 5x",
+            "billing": {
+                "amount": 100,
+                "currency": "USD",
+                "unit": "month",
+                "source": {
+                    "url": "https://www.anthropic.com/pricing",
+                    "checkedAt": "2026-10-12T00:00:00+06:00",
+                    "excerpt": "From $100 Per month"
+                }
+            },
+            "limits": [
+                {
+                    "name": "Usage vs Pro",
+                    "value": 5,
+                    "unit": "× Pro usage per 5-hour session",
+                    "resetWindow": {
+                        "description": "Rolling 5-hour session; weekly limits also apply.",
+                        "source": {
+                            "url": "https://www.anthropic.com/pricing",
+                            "checkedAt": "2026-10-12T00:00:00+06:00"
+                        }
+                    }
+                },
+                {
+                    "name": "Monthly API credits (Claude Platform)",
+                    "value": 100,
+                    "currency": "USD",
+                    "unit": "month",
+                    "source": {
+                        "url": "https://www.anthropic.com/pricing",
+                        "checkedAt": "2026-10-12T00:00:00+06:00",
+                        "excerpt": "New Monthly API credits … $100/month"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "google-ai-plus",
+            "status": "source-verified",
+            "vendor": "Google",
+            "product": "Google AI (Google One)",
+            "planId": "ai-plus",
+            "planLabel": "Google AI Plus",
+            "billing": {
+                "amount": 4.99,
+                "currency": "USD",
+                "unit": "month",
+                "regionNote": "United States list price on gemini.google/subscriptions.",
+                "source": {
+                    "url": "https://gemini.google/subscriptions/",
+                    "checkedAt": "2026-10-12T00:00:00+06:00"
+                }
+            },
+            "modelsInScope": [
+                {
+                    "catalogPriority": "Gemini 3.8 Flash",
+                    "marketingName": "Gemini 3.8 Flash",
+                    "planAccess": "Google AI Pro tier on gemini.google lists 3.8 Flash; Plus lists up to 3.6 Flash on subscriptions page.",
+                    "source": {
+                        "url": "https://gemini.google/subscriptions/",
+                        "checkedAt": "2026-10-12T00:00:00+06:00"
+                    }
+                },
+                {
+                    "name": "Gemini 3.1 Pro",
+                    "source": {
+                        "url": "https://gemini.google/subscriptions/",
+                        "checkedAt": "2026-10-12T00:00:00+06:00"
+                    }
+                }
+            ],
+            "limits": [
+                {
+                    "name": "Gemini Apps usage vs Free",
+                    "value": 2,
+                    "unit": "× standard compute-based limits",
+                    "resetWindow": {
+                        "description": "Limit refreshes every 5 hours until weekly limit; compute-based (prompt complexity, features, chat length).",
+                        "source": {
+                            "url": "https://support.google.com/gemini/answer/16275805",
+                            "checkedAt": "2026-10-12T00:00:00+06:00"
+                        }
+                    }
+                },
+                {
+                    "name": "Context window (Gemini Apps)",
+                    "value": 128000,
+                    "unit": "tokens",
+                    "source": {
+                        "url": "https://support.google.com/gemini/answer/16275805",
+                        "checkedAt": "2026-10-12T00:00:00+06:00"
+                    }
+                },
+                {
+                    "name": "Cloud storage",
+                    "value": 400,
+                    "unit": "GB",
+                    "source": {
+                        "url": "https://one.google.com/about/google-ai-plans/",
+                        "checkedAt": "2026-10-12T00:00:00+06:00"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "google-ai-pro",
+            "status": "source-verified",
+            "vendor": "Google",
+            "product": "Google AI (Google One)",
+            "planId": "ai-pro",
+            "planLabel": "Google AI Pro",
+            "billing": {
+                "amount": 19.99,
+                "currency": "USD",
+                "unit": "month",
+                "regionNote": "United States list price.",
+                "source": {
+                    "url": "https://gemini.google/subscriptions/",
+                    "checkedAt": "2026-10-12T00:00:00+06:00"
+                }
+            },
+            "agentsAndSurfaces": [
+                {
+                    "name": "Jules",
+                    "notes": "Asynchronous coding agent; higher limits than lower tiers.",
+                    "source": {
+                        "url": "https://gemini.google/subscriptions/",
+                        "checkedAt": "2026-10-12T00:00:00+06:00"
+                    }
+                },
+                {
+                    "name": "Google Antigravity",
+                    "notes": "Entry rate limits to agent model.",
+                    "source": {
+                        "url": "https://gemini.google/subscriptions/",
+                        "checkedAt": "2026-10-12T00:00:00+06:00"
+                    }
+                }
+            ],
+            "modelsInScope": [
+                {
+                    "catalogPriority": "Gemini 3.8 Flash",
+                    "source": {
+                        "url": "https://gemini.google/subscriptions/",
+                        "checkedAt": "2026-10-12T00:00:00+06:00"
+                    }
+                },
+                {
+                    "name": "Gemini 3.1 Pro",
+                    "source": {
+                        "url": "https://gemini.google/subscriptions/",
+                        "checkedAt": "2026-10-12T00:00:00+06:00"
+                    }
+                }
+            ],
+            "limits": [
+                {
+                    "name": "Gemini Apps usage vs Free",
+                    "value": 4,
+                    "unit": "× standard compute-based limits",
+                    "resetWindow": {
+                        "description": "5-hour refresh until weekly cap.",
+                        "source": {
+                            "url": "https://support.google.com/gemini/answer/16275805",
+                            "checkedAt": "2026-10-12T00:00:00+06:00"
+                        }
+                    }
+                },
+                {
+                    "name": "Context window (Gemini Apps)",
+                    "value": 1000000,
+                    "unit": "tokens",
+                    "source": {
+                        "url": "https://support.google.com/gemini/answer/16275805",
+                        "checkedAt": "2026-10-12T00:00:00+06:00"
+                    }
+                },
+                {
+                    "name": "Google Flow credits",
+                    "value": 1000,
+                    "unit": "Google Flow Credits per month",
+                    "source": {
+                        "url": "https://gemini.google/subscriptions/",
+                        "checkedAt": "2026-10-12T00:00:00+06:00"
+                    }
+                },
+                {
+                    "name": "Cloud storage",
+                    "value": 5,
+                    "unit": "TB",
+                    "source": {
+                        "url": "https://one.google.com/about/google-ai-plans/",
+                        "checkedAt": "2026-10-12T00:00:00+06:00"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "google-ai-ultra-100",
+            "status": "source-verified",
+            "vendor": "Google",
+            "product": "Google AI Ultra",
+            "planId": "ai-ultra-100",
+            "planLabel": "Google AI Ultra ($100/mo tier)",
+            "billing": {
+                "amount": 100,
+                "currency": "USD",
+                "unit": "month",
+                "source": {
+                    "url": "https://blog.google/products-and-platforms/products/google-one/google-ai-subscriptions/",
+                    "checkedAt": "2026-10-12T00:00:00+06:00"
+                }
+            },
+            "limits": [
+                {
+                    "name": "Gemini Apps and Antigravity usage vs AI Pro",
+                    "value": 5,
+                    "unit": "× AI Pro compute-based limits",
+                    "source": {
+                        "url": "https://blog.google/products-and-platforms/products/google-one/google-ai-subscriptions/",
+                        "checkedAt": "2026-10-12T00:00:00+06:00"
+                    }
+                },
+                {
+                    "name": "Cloud storage",
+                    "value": 20,
+                    "unit": "TB",
+                    "source": {
+                        "url": "https://blog.google/products-and-platforms/products/google-one/google-ai-subscriptions/",
+                        "checkedAt": "2026-10-12T00:00:00+06:00"
+                    }
+                }
+            ],
+            "modelsInScope": [
+                {
+                    "name": "Gemini 3.5 Flash",
+                    "source": {
+                        "url": "https://blog.google/products-and-platforms/products/google-one/google-ai-subscriptions/",
+                        "checkedAt": "2026-10-12T00:00:00+06:00"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "glm-coding-plan-lite",
+            "status": "source-verified",
+            "vendor": "Z.AI",
+            "product": "GLM Coding Plan",
+            "planId": "lite",
+            "planLabel": "Lite",
+            "billing": {
+                "amount": null,
+                "currency": "USD",
+                "unit": "month",
+                "unknownReason": "Public docs state plans start at 18 USD/month but do not list Lite/Pro/Max USD prices on pages readable without signing in to the subscription checkout.",
+                "minimumPublished": {
+                    "amount": 18,
+                    "currency": "USD",
+                    "unit": "month",
+                    "appliesTo": "entry tier (Lite per product positioning)",
+                    "source": {
+                        "url": "https://docs.z.ai/devpack/overview",
+                        "checkedAt": "2026-10-12T00:00:00+06:00"
+                    }
+                }
+            },
+            "agentsAndSurfaces": [
+                {
+                    "name": "Supported agent tools",
+                    "notes": "ZCode, Claude Code, Codex, Cursor, OpenCode, Cline, and others per overview; quota applies only in supported clients.",
+                    "source": {
+                        "url": "https://docs.z.ai/devpack/overview",
+                        "checkedAt": "2026-10-12T00:00:00+06:00"
+                    }
+                }
+            ],
+            "modelsInScope": [
+                {
+                    "catalogPriority": "GLM-5.3",
+                    "identifier": "glm-5.3",
+                    "source": {
+                        "url": "https://docs.z.ai/devpack/overview",
+                        "checkedAt": "2026-10-12T00:00:00+06:00"
+                    }
+                },
+                {
+                    "catalogPriority": "GLM-5.3-Flash",
+                    "identifier": "glm-5.3-flash",
+                    "source": {
+                        "url": "https://docs.z.ai/devpack/overview",
+                        "checkedAt": "2026-10-12T00:00:00+06:00"
+                    }
+                }
+            ],
+            "limits": [
+                {
+                    "name": "5-hour credits",
+                    "value": 2000,
+                    "unit": "credits",
+                    "resetWindow": {
+                        "description": "Dynamically refreshed; quota resets 5 hours after consumption.",
+                        "source": {
+                            "url": "https://docs.z.ai/devpack/overview",
+                            "checkedAt": "2026-10-12T00:00:00+06:00"
+                        }
+                    }
+                },
+                {
+                    "name": "Weekly credits",
+                    "value": 10000,
+                    "unit": "credits",
+                    "resetWindow": {
+                        "description": "Activated on subscription; resets every 7 days from order time.",
+                        "source": {
+                            "url": "https://docs.z.ai/devpack/overview",
+                            "checkedAt": "2026-10-12T00:00:00+06:00"
+                        }
+                    }
+                },
+                {
+                    "name": "Off-peak credit multiplier",
+                    "value": 0.5,
+                    "unit": "× standard credit rate for models",
+                    "schedule": "Off-peak outside Mon–Fri 14:00–18:00 Singapore Standard Time (UTC+8); weekends billed at off-peak all day per plan update notice.",
+                    "source": {
+                        "url": "https://docs.z.ai/devpack/overview",
+                        "checkedAt": "2026-10-12T00:00:00+06:00"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "glm-coding-plan-pro",
+            "status": "source-verified",
+            "vendor": "Z.AI",
+            "product": "GLM Coding Plan",
+            "planId": "pro",
+            "planLabel": "Pro",
+            "billing": {
+                "amount": null,
+                "currency": "USD",
+                "unit": "month",
+                "unknownReason": "Checkout pricing not available in fetched public HTML; see open-questions.md."
+            },
+            "limits": [
+                {
+                    "name": "5-hour credits",
+                    "value": 12000,
+                    "unit": "credits",
+                    "source": {
+                        "url": "https://docs.z.ai/devpack/overview",
+                        "checkedAt": "2026-10-12T00:00:00+06:00"
+                    }
+                },
+                {
+                    "name": "Weekly credits",
+                    "value": 60000,
+                    "unit": "credits",
+                    "source": {
+                        "url": "https://docs.z.ai/devpack/overview",
+                        "checkedAt": "2026-10-12T00:00:00+06:00"
+                    }
+                }
+            ],
+            "modelsInScope": [
+                {
+                    "catalogPriority": "GLM-5.3",
+                    "identifier": "glm-5.3"
+                },
+                {
+                    "catalogPriority": "GLM-5.3-Flash",
+                    "identifier": "glm-5.3-flash"
+                }
+            ]
+        },
+        {
+            "id": "minimax-m-plan",
+            "status": "needs-context",
+            "vendor": "MiniMax",
+            "product": "MiniMax M Plan",
+            "planId": "m-plan",
+            "planLabel": "M Plan (tiers not confirmed)",
+            "billing": {
+                "amount": null,
+                "currency": null,
+                "unit": null,
+                "unknownReason": "https://www.minimax.io/m-plan returned navigation shell only; no prices or tier names in response body."
+            },
+            "modelsInScope": [
+                {
+                    "catalogPriority": "MiniMax-M3.1-Flash-Preview",
+                    "availability": "Only through M Plan and MiniMax Code per MiniMax models doc.",
+                    "source": {
+                        "url": "https://platform.minimax.io/docs/guides/models-intro",
+                        "checkedAt": "2026-10-12T00:00:00+06:00"
+                    }
+                }
+            ],
+            "limits": [
+                {
+                    "name": "M Plan included quota",
+                    "value": null,
+                    "unit": null,
+                    "unknownReason": "Official M Plan marketing page did not expose limits in automated fetch; platform docs reference M Plan quota for MCP API-vlm calls without publishing plan tiers."
+                }
+            ],
+            "relatedBilling": {
+                "note": "MiniMax Open Platform pay-as-you-go for M3 is documented separately; not equivalent to M Plan subscription.",
+                "source": {
+                    "url": "https://platform.minimax.io/docs/guides/pricing-paygo",
+                    "checkedAt": "2026-10-12T00:00:00+06:00"
+                }
+            }
+        },
+        {
+            "id": "muse-code-everyday",
+            "status": "source-verified",
+            "vendor": "Meta",
+            "product": "Muse Code subscription",
+            "planId": "everyday-usage",
+            "planLabel": "Everyday Usage",
+            "billing": {
+                "amount": null,
+                "currency": "USD",
+                "unit": "month",
+                "unknownReason": "Flat monthly rate shown only during Accounts Center checkout, not on public docs page."
+            },
+            "agentsAndSurfaces": [
+                {
+                    "name": "Muse Code CLI",
+                    "notes": "Subscription applies to Muse Code API key from CLI onboarding only.",
+                    "source": {
+                        "url": "https://ai.developer.meta.com/docs/muse-code/subscriptions",
+                        "checkedAt": "2026-10-12T00:00:00+06:00"
+                    }
+                }
+            ],
+            "modelsInScope": [
+                {
+                    "name": "Latest Muse models",
+                    "notes": "Muse Spark family used via Muse Code; exact checkpoint selectable in product.",
+                    "source": {
+                        "url": "https://ai.developer.meta.com/docs/muse-code/subscriptions",
+                        "checkedAt": "2026-10-12T00:00:00+06:00"
+                    }
+                }
+            ],
+            "limits": [
+                {
+                    "name": "Prompts",
+                    "value": { "min": 10, "max": 50 },
+                    "unit": "prompts per 5 hours",
+                    "notes": "Includes image and video uploads; voice mode and web search included.",
+                    "resetWindow": {
+                        "description": "Usage limit refreshes on billing-driven cycle; prompt window stated as 5 hours.",
+                        "source": {
+                            "url": "https://ai.developer.meta.com/docs/muse-code/subscriptions",
+                            "checkedAt": "2026-10-12T00:00:00+06:00"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": "meta-muse-spark-contributor-api",
+            "status": "source-verified",
+            "vendor": "Meta",
+            "product": "Meta Model API (pay-as-you-go, not a subscription)",
+            "planId": "contributor-tier",
+            "planLabel": "Contributor tier API pricing",
+            "billingModel": "pay-as-you-go",
+            "billing": {
+                "rates": [
+                    {
+                        "category": "input",
+                        "amount": 0.1,
+                        "currency": "USD",
+                        "unit": "per 1M tokens"
+                    },
+                    {
+                        "category": "output",
+                        "amount": 0.2,
+                        "currency": "USD",
+                        "unit": "per 1M tokens"
+                    },
+                    {
+                        "category": "cached input",
+                        "amount": 0.002,
+                        "currency": "USD",
+                        "unit": "per 1M tokens"
+                    }
+                ],
+                "source": {
+                    "url": "https://dev.meta.ai/docs/pricing-rate-limits",
+                    "checkedAt": "2026-10-12T00:00:00+06:00"
+                }
+            },
+            "modelsInScope": [
+                {
+                    "catalogPriority": "Muse Spark 1.3 Contributor",
+                    "identifier": "muse-spark-1.3-contributor",
+                    "trainingUse": "Prompts and completions may be used to train future Meta models.",
+                    "source": {
+                        "url": "https://dev.meta.ai/docs/pricing-rate-limits",
+                        "checkedAt": "2026-10-12T00:00:00+06:00"
+                    }
+                }
+            ],
+            "limits": [
+                {
+                    "name": "Rate limit",
+                    "value": 100,
+                    "unit": "requests per minute (team)",
+                    "source": {
+                        "url": "https://dev.meta.ai/docs/pricing-rate-limits",
+                        "checkedAt": "2026-10-12T00:00:00+06:00"
+                    }
+                },
+                {
+                    "name": "Token throughput",
+                    "value": 3000000,
+                    "unit": "tokens per minute (team)",
+                    "source": {
+                        "url": "https://dev.meta.ai/docs/pricing-rate-limits",
+                        "checkedAt": "2026-10-12T00:00:00+06:00"
+                    }
+                }
+            ],
+            "notes": [
+                {
+                    "text": "Catalog priority Muse Spark 1.3 Contributor is API access, distinct from Muse Code flat subscription.",
+                    "crossTask": "Overlap with vendor recommendations only on model naming; no subscription advice collected here."
+                }
+            ]
+        }
+    ]
+}

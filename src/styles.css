@@ -304,6 +304,76 @@ h1 {
     overflow-wrap: anywhere;
 }
 
+a.model-name {
+    color: inherit;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 3px;
+}
+
+.model-section {
+    padding-top: 8px;
+    padding-bottom: 32px;
+}
+
+.model-benchmark {
+    margin-top: 24px;
+    border-top: 1px solid var(--line);
+    padding-top: 16px;
+}
+
+.model-benchmark h3 {
+    overflow-wrap: anywhere;
+}
+
+.model-missing {
+    margin-top: 24px;
+}
+
+.poll-card {
+    margin-top: 32px;
+    border-top: 1px solid var(--line);
+    padding-top: 16px;
+}
+
+.poll-rows {
+    display: grid;
+    gap: 8px;
+    margin-top: 12px;
+    padding-left: 0;
+    list-style: none;
+}
+
+.poll-rows li {
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+    border-bottom: 1px dashed var(--line);
+    padding-bottom: 6px;
+}
+
+.identity-list {
+    display: grid;
+    gap: 8px;
+    margin-top: 16px;
+    padding: 12px 16px;
+    border: 1px solid var(--line);
+    border-radius: 12px;
+}
+
+.identity-list > div {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+.identity-list dt {
+    font-weight: 650;
+}
+
+.identity-list dd {
+    margin: 0;
+}
+
 .agent-name,
 .availability-note {
     margin-top: 5px;

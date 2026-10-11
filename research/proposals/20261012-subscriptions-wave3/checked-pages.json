@@ -1,0 +1,120 @@
+{
+    "task": "20261012-subscriptions-wave3",
+    "checkedAt": "2026-10-12T00:00:00+06:00",
+    "sources": [
+        {
+            "url": "https://prod.cursor.com/docs/models-and-pricing",
+            "status": "read",
+            "usedFor": ["cursor-pro", "cursor-pro-plus", "cursor-ultra"]
+        },
+        {
+            "url": "https://cursor.com/pricing",
+            "status": "read",
+            "usedFor": ["cursor-pro"]
+        },
+        {
+            "url": "https://openai.com/chatgpt/pricing/",
+            "status": "read",
+            "usedFor": ["chatgpt-plus"]
+        },
+        {
+            "url": "https://learn.chatgpt.com/docs/pricing",
+            "status": "read",
+            "usedFor": ["chatgpt-plus", "chatgpt-pro-100", "chatgpt-pro-500"]
+        },
+        {
+            "url": "https://learn.chatgpt.com/docs/models",
+            "status": "read",
+            "usedFor": ["chatgpt-plus", "chatgpt-pro-100"]
+        },
+        {
+            "url": "https://learn.chatgpt.com/docs/agent-configuration/speed",
+            "status": "read",
+            "usedFor": ["chatgpt-pro-500"]
+        },
+        {
+            "url": "https://help.openai.com/en/articles/9793128-about-chatgpt-pro-tiers",
+            "status": "read",
+            "usedFor": ["chatgpt-pro-100", "chatgpt-pro-500"]
+        },
+        {
+            "url": "https://www.anthropic.com/pricing",
+            "status": "read",
+            "usedFor": ["anthropic-claude-pro", "anthropic-claude-max-5x"]
+        },
+        {
+            "url": "https://gemini.google/subscriptions/",
+            "status": "read",
+            "usedFor": ["google-ai-plus", "google-ai-pro"],
+            "accessNote": "US prices confirmed via text extraction; page locale may vary."
+        },
+        {
+            "url": "https://one.google.com/about/google-ai-plans/",
+            "status": "read",
+            "usedFor": ["google-ai-plus", "google-ai-pro"]
+        },
+        {
+            "url": "https://support.google.com/gemini/answer/16275805",
+            "status": "read",
+            "usedFor": ["google-ai-plus", "google-ai-pro"]
+        },
+        {
+            "url": "https://blog.google/products-and-platforms/products/google-one/google-ai-subscriptions/",
+            "status": "read",
+            "usedFor": ["google-ai-ultra-100"]
+        },
+        {
+            "url": "https://docs.z.ai/devpack/overview",
+            "status": "read",
+            "usedFor": ["glm-coding-plan-lite", "glm-coding-plan-pro"]
+        },
+        {
+            "url": "https://docs.z.ai/devpack/notice/usage-revision",
+            "status": "read",
+            "usedFor": ["glm-coding-plan-lite"]
+        },
+        {
+            "url": "https://docs.z.ai/guides/overview/pricing",
+            "status": "read",
+            "usedFor": ["reference API rates only; not subscription"]
+        },
+        {
+            "url": "https://platform.minimax.io/docs/guides/models-intro",
+            "status": "read",
+            "usedFor": ["minimax-m-plan"]
+        },
+        {
+            "url": "https://www.minimax.io/m-plan",
+            "status": "read",
+            "httpNote": "Body contained title/navigation only; limits and prices not verified.",
+            "usedFor": ["minimax-m-plan"]
+        },
+        {
+            "url": "https://platform.minimax.io/docs/guides/pricing-paygo",
+            "status": "read",
+            "usedFor": ["minimax-m-plan relatedBilling"]
+        },
+        {
+            "url": "https://ai.developer.meta.com/docs/muse-code/subscriptions",
+            "status": "read",
+            "usedFor": ["muse-code-everyday"]
+        },
+        {
+            "url": "https://dev.meta.ai/docs/pricing-rate-limits",
+            "status": "read",
+            "usedFor": ["meta-muse-spark-contributor-api"]
+        },
+        {
+            "url": "https://z.ai/subscribe",
+            "status": "read",
+            "httpNote": "Client-rendered; no verifiable USD tier prices in fetched HTML.",
+            "usedFor": []
+        },
+        {
+            "url": "https://support.anthropic.com/en/articles/8325612-what-is-claude-pro",
+            "status": "error",
+            "httpStatus": 404,
+            "usedFor": []
+        }
+    ]
+}

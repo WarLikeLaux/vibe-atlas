@@ -47,7 +47,7 @@ export const comparisonBenchmarks: ComparisonBenchmark[] = [
     ...benchmarkDefinitions.benchmarks.map((benchmark) => ({
         id: `coding:${benchmark.id}`,
         name: benchmarkName(benchmark),
-        context: 'AA · coding agents',
+        context: `AA · харнесс coding agents · ${benchmark.taskCount.toString()} задач`,
         unit: '% pass@1',
         format: 'percent' as const,
         awardEligible: true,
@@ -78,7 +78,7 @@ export const comparisonBenchmarks: ComparisonBenchmark[] = [
     ...evaluationMetrics.map((metric) => ({
         id: `models:${metric.key}`,
         name: metric.name,
-        context: 'AA · протокол моделей',
+        context: 'AA · таблица моделей · харнесс не раскрыт',
         unit: metric.format === 'percent' ? '%' : metric.unit,
         format: metric.format,
         awardEligible: !excludedMetrics.has(metric.key),

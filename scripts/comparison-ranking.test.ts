@@ -143,3 +143,55 @@ await test('indices, singleton cohorts and estimates do not award medals; missin
         none.every((entry) => entry.top10 === 0 && entry.measured === 0 && entry.medals.gold === 0),
     )
 })
+
+await test('proximity bands reward 95% and 80% of the top score without touching medals', () => {
+    const five = [
+        { id: 'one', name: 'One', vendor: 'One' },
+        { id: 'two', name: 'Two', vendor: 'Two' },
+        { id: 'three', name: 'Three', vendor: 'Three' },
+        { id: 'four', name: 'Four', vendor: 'Four' },
+        { id: 'five', name: 'Five', vendor: 'Five' },
+    ]
+    const runs = [
+        run('one', 'one', 98),
+        run('two', 'two', 95),
+        run('three', 'three', 85),
+        run('four', 'four', 78),
+        { ...run('five-estimate', 'five', 97), estimated: true },
+    ]
+    const standings = comparisonStandings(
+        five,
+        [benchmark],
+        runs,
+        [benchmark.id],
+        new Map(),
+        'best',
+    )
+    assert.deepEqual(
+        standings.map((entry) => [entry.model.id, entry.close95, entry.close80]),
+        [
+            ['one', 1, 0],
+            ['two', 1, 0],
+            ['three', 0, 1],
+            ['four', 0, 0],
+            ['five', 0, 0],
+        ],
+    )
+    // Medals stay rank-based: estimate without rank gains nothing.
+    assert.deepEqual(standings.find((entry) => entry.model.id === 'five')?.medals, {
+        gold: 0,
+        silver: 0,
+        bronze: 0,
+    })
+    assert.equal(sortStandings(standings, 'close95', 'descending').at(0)?.model.id, 'one')
+    assert.equal(sortStandings(standings, 'close80', 'descending').at(0)?.model.id, 'three')
+    const zeros = comparisonStandings(
+        five,
+        [benchmark],
+        five.map((model) => run(model.id, model.id, 0)),
+        [benchmark.id],
+        new Map(),
+        'best',
+    )
+    assert.ok(zeros.every((entry) => entry.close95 === 0 && entry.close80 === 0))
+})

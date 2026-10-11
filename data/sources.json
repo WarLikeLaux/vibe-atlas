@@ -150,6 +150,66 @@
             "status": "imported",
             "registeredAt": "2026-10-11",
             "lastCheckedAt": "2026-10-11T04:28:19.604191Z"
+        },
+        {
+            "id": "livebench-if-20260625",
+            "name": "LiveBench IF",
+            "subject": "IF-подметрики релиза 2026-06-25",
+            "url": "https://livebench.ai/",
+            "kind": "benchmark",
+            "status": "imported",
+            "registeredAt": "2026-10-11",
+            "lastCheckedAt": "2026-10-11T20:59:04.451474Z"
+        },
+        {
+            "id": "hanifeval-v11",
+            "name": "HanIFEval v1.1",
+            "subject": "Корейские ограничения IFEval",
+            "url": "https://www.0hye.com/posts/hanifeval/",
+            "kind": "benchmark",
+            "status": "imported",
+            "registeredAt": "2026-10-11",
+            "lastCheckedAt": "2026-10-11T20:59:04.451474Z"
+        },
+        {
+            "id": "agentif-202610",
+            "name": "AgentIF",
+            "subject": "Октябрьский протокол 2026, CSR/ISR",
+            "url": "https://agentif.github.io/",
+            "kind": "benchmark",
+            "status": "imported",
+            "registeredAt": "2026-10-11",
+            "lastCheckedAt": "2026-10-11T20:59:04.451474Z"
+        },
+        {
+            "id": "browsecomp-mercor130",
+            "name": "BrowseComp Mercor",
+            "subject": "130 публичных задач, Pass@1",
+            "url": "https://www.mercor.com/apex/oss-benchmarks/oss-browsecomp-leaderboard/",
+            "kind": "benchmark",
+            "status": "imported",
+            "registeredAt": "2026-10-11",
+            "lastCheckedAt": "2026-10-11T20:59:04.451474Z"
+        },
+        {
+            "id": "deepsearchqa-parallel100",
+            "name": "DeepSearchQA Parallel",
+            "subject": "100 вопросов, with-search F1",
+            "url": "https://parallel.ai/leaderboard",
+            "kind": "benchmark",
+            "status": "imported",
+            "registeredAt": "2026-10-11",
+            "lastCheckedAt": "2026-10-11T20:59:04.451474Z"
+        },
+        {
+            "id": "drb2-mercor130",
+            "name": "DeepResearch Bench II Mercor",
+            "subject": "130 задач, Mean Score",
+            "url": "https://www.mercor.com/apex/oss-benchmarks/oss-deepresearch-bench-ii-leaderboard/",
+            "kind": "benchmark",
+            "status": "imported",
+            "registeredAt": "2026-10-11",
+            "lastCheckedAt": "2026-10-11T20:59:04.451474Z"
         }
     ]
 }
