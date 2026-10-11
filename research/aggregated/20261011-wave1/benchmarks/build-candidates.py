@@ -145,20 +145,17 @@ def swe_pro_hard():
         'reproducibility': ('unknown', 'Публичный V2 README даёт набор и процедуру. Версии агентов и выполнение именно этого протокола каждым замером не подтверждены.'),
         'comparability': ('disputed', 'HARD-51 отделён от Full. V2 README указывает 50 минут, страница также содержит старые лимиты 250 turns. Агенты разделены по столбцам, условия строк не полностью проверены.'),
     })
-    benchmarks = []
-    for agent, suffix in [('Claude Code', 'claude-code'), ('Codex', 'codex'), ('mini-swe-agent', 'mini-swe-agent')]:
-        benchmarks.append(benchmark(
-            f'swe-pro:v2-hard51-{suffix}', 'SWE-Bench Pro V2 HARD', f'HARD-51 · {agent}',
-            '% Pass@1', True, agent != 'Claude Code', source, method, 'Scale AI / Reflection',
-            'Исправление задач репозиториев. HARD-51 является отобранным поднабором V2.',
-            f'Заявленный locked protocol V2, HARD-51, агент {agent}. Точная версия агента неизвестна. Требования README не подтверждают условия каждой строки.',
-            'Опубликованный Pass@1, проценты 0–100. 51 задача. Число попыток и уровень показанного интервала отдельно не установлены.', assessments))
+    benchmarks = [benchmark(
+        'swe-pro:v2-hard51', 'SWE-Bench Pro V2 HARD', 'HARD-51 · все агенты',
+        '% Pass@1', True, True, source, method, 'Scale AI / Reflection',
+        'Исправление задач репозиториев. HARD-51 является отобранным поднабором V2.',
+        'Заявленный locked protocol V2, HARD-51. Каждая модель измерена через свой агент; агент указан в каждом запуске, точная версия агента неизвестна. Требования README не подтверждают условия каждой строки.',
+        'Опубликованный Pass@1, проценты 0–100. 51 задача. Число попыток и уровень показанного интервала отдельно не установлены.', assessments)]
     runs, receipts = [], []
     for index, row in enumerate(rows):
         match = re.fullmatch(r'(.+?) \((.+?)\) (\w+)\s*', row['model'])
         assert match is not None
         model_name, agent, effort = match.groups()
-        suffix = {'Claude Code': 'claude-code', 'Codex': 'codex', 'mini-swe-agent': 'mini-swe-agent'}[agent]
         item = dict(sourceModelName=row['model'], score=row['score'], agent=agent,
                     effort=effort, agentVersion=None, sampleSize=51, unit='percent',
                     displayedUncertainty=13.01 if model_name == 'Haiku 5.5' else None,
@@ -174,7 +171,7 @@ def swe_pro_hard():
         if item['displayedUncertainty'] is not None:
             notes.append('Страница сейчас показывает ±13.01 для Haiku 5.5, старое извлечение содержало 0. Метод и уровень интервала неизвестны.')
             telemetry.append(dict(name='Показанная неопределённость (уровень неизвестен)', value=13.01, unit='percentage-points'))
-        result = run(identifier, f'swe-pro:v2-hard51-{suffix}', row['model'], row['score'],
+        result = run(identifier, 'swe-pro:v2-hard51', row['model'], row['score'],
                      f'{agent} · {effort}', source, notes, telemetry, model_map.get(model_name))
         runs.append(result)
         receipts.append(receipt(result, f'/observations/{index}/score',

@@ -87,6 +87,10 @@ await test('Terminal-Bench CLI preserves percent precision, totals, unknown fiel
         assert.ok(unmapped)
         assert.equal(mapped.score, 12.34)
         assert.equal(mapped.modelId, 'gpt-6-astra')
+        assert.equal(published.benchmarks.length, 1)
+        assert.equal(published.benchmarks[0]?.id, 'terminal:4.0')
+        assert.equal(mapped.benchmarkId, 'terminal:4.0')
+        assert.equal(unmapped.benchmarkId, 'terminal:4.0')
         assert.equal(unmapped.modelId, undefined)
         assert.equal(unmapped.score, 0)
         assert.deepEqual(

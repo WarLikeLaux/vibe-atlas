@@ -177,5 +177,5 @@ await rename(
 await rename('data/benchmark-packs.json.tmp', 'data/benchmark-packs.json')
 await rename('data/sources.json.tmp', 'data/sources.json')
 console.info(
-    `Imported ${candidate.runs.length.toString()} Terminal-Bench runs across ${candidate.benchmarks.length.toString()} agent protocols`,
+    `Imported ${candidate.runs.length.toString()} Terminal-Bench runs into a single benchmark`,
 )

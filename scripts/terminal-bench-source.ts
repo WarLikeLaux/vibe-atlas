@@ -97,24 +97,26 @@ export function terminalPack(
         id: 'terminal-bench-4.0',
         sourceId: 'terminal-bench',
         checkedAt,
-        parserVersion: 'terminal-bench/1',
+        parserVersion: 'terminal-bench/2',
         snapshotPath: 'data/snapshots/terminal-bench/current.json',
         snapshotSha256,
-        benchmarks: definition.protocols.map((protocol) => ({
-            id: `terminal:${protocol.id}`,
-            name: 'Terminal-Bench 4.0',
-            context: `Официальный · ${protocol.agent}`,
-            unit: '% accuracy',
-            format: 'percent',
-            awardEligible: true,
-            sourceUrl: 'https://www.tbench.ai/',
-            methodologyUrl: 'https://www.tbench.ai/news/terminal-bench-4-0',
-            checkedAt,
-            passport: {
-                ...definition.passport,
-                requirements: `${definition.passport.requirements} Агент: ${protocol.agent}; точная версия агента в таблице не раскрыта.`,
+        benchmarks: [
+            {
+                id: 'terminal:4.0',
+                name: 'Terminal-Bench 4.0',
+                context: 'Официальный замер · полный датасет 4.0.0',
+                unit: '% accuracy',
+                format: 'percent',
+                awardEligible: true,
+                sourceUrl: 'https://www.tbench.ai/',
+                methodologyUrl: 'https://www.tbench.ai/news/terminal-bench-4-0',
+                checkedAt,
+                passport: {
+                    ...definition.passport,
+                    requirements: `${definition.passport.requirements} Каждая модель измерена через свой терминальный агент; агент указан в каждом запуске, точная версия агента в таблице не раскрыта.`,
+                },
             },
-        })),
+        ],
         runs: source.rows.map((row) => {
             const protocol = protocols.get(row.metadata.agent_display.label)
             if (!protocol) throw new Error('Unknown Terminal-Bench agent; review its protocol')
@@ -128,7 +130,7 @@ export function terminalPack(
                 id: `terminal:${row.id}`,
                 ...(modelId ? { modelId } : {}),
                 sourceModelName: row.metadata.model_display.label,
-                benchmarkId: `terminal:${protocol}`,
+                benchmarkId: 'terminal:4.0',
                 label: `${row.metadata.model_display.label} · ${row.metadata.agent_display.label} · effort ${row.metadata.reasoning_effort || 'не раскрыт'}`,
                 score: row.metrics.accuracy,
                 sourceUrl: 'https://www.tbench.ai/',
