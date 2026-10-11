@@ -1,0 +1,81 @@
+{
+    "capture_version": "proposal-evidence-v1",
+    "artifacts": [
+        {
+            "path": "evidence/mercor-browsecomp.json",
+            "source_url": "https://www.mercor.com/apex/oss-benchmarks/oss-browsecomp-leaderboard/",
+            "retrieved_at": "2026-10-11T20:37:08+00:00",
+            "verified_at": "2026-10-11T20:37:08+00:00",
+            "extraction": "__NEXT_DATA__.props.pageProps: benchmark, kind, leaderboardData, all rows, no sample prompts",
+            "response_sha256": "fe1a4de49b64dddf4f3f01ddaf6624e25018643bb77ab15ee00d7ed4139fd497",
+            "artifact_sha256": "4a55ee59efef77c5cb8ba0a7a27b8207dbde0a6da9b7c2308d05c509a4c86c9d",
+            "serialization": "Extracted JSON formatted with repository Prettier, field values unchanged"
+        },
+        {
+            "path": "evidence/mercor-browsecomp-extended.json",
+            "source_url": "https://www.mercor.com/apex/mercor-extended/ots-held-out-browsecomp-leaderboard/",
+            "retrieved_at": "2026-10-11T20:37:09+00:00",
+            "verified_at": "2026-10-11T20:37:09+00:00",
+            "extraction": "__NEXT_DATA__.props.pageProps: benchmark, kind, leaderboardData, all rows, no sample prompts",
+            "response_sha256": "66237a935e432e994b005410ddf6a34f0bf448e5ec5f0057fb5570cfcd34df9c",
+            "artifact_sha256": "aa9120c698fb44ec9e3dc5e7e8ce726420b6d5b68b2ad3723fbbc9cc3a3d79b1",
+            "serialization": "Extracted JSON formatted with repository Prettier, field values unchanged"
+        },
+        {
+            "path": "evidence/mercor-deepresearch-bench-ii.json",
+            "source_url": "https://www.mercor.com/apex/oss-benchmarks/oss-deepresearch-bench-ii-leaderboard/",
+            "retrieved_at": "2026-10-11T20:37:10+00:00",
+            "verified_at": "2026-10-11T20:37:10+00:00",
+            "extraction": "__NEXT_DATA__.props.pageProps: benchmark, kind, leaderboardData, all rows, no sample prompts",
+            "response_sha256": "4d674dc78281a38c43dcf6b534bdd2d6f8f8a51d4a1a43438dfcce139f90c822",
+            "artifact_sha256": "5f4c2ea4429f48a98e4c9c91c881913b5b6a2d1bffee45550fed939ccae17ba1",
+            "serialization": "Extracted JSON formatted with repository Prettier, field values unchanged"
+        },
+        {
+            "path": "evidence/parallel-search-capability.json",
+            "source_url": "https://parallel.ai/leaderboard",
+            "retrieved_at": "2026-10-11T20:37:11+00:00",
+            "verified_at": "2026-10-11T20:37:11+00:00",
+            "extraction": "Decoded React Flight JSON: complete objects with modelDisplay and searchCondition, deduplicated by published id",
+            "response_sha256": "940f7151bab67087c28c35daf6bf8635696536fa732b2bc6438298629a2ea0e9",
+            "artifact_sha256": "7bfe8952d351656866088890d2ec2e856a669b4281cecea48d5b90ebdf571a6e",
+            "serialization": "Extracted JSON formatted with repository Prettier, field values unchanged"
+        },
+        {
+            "path": "evidence/drb1-gemini25.csv",
+            "source_url": "https://huggingface.co/spaces/muset-ai/DeepResearch-Bench-Leaderboard/resolve/main/data/leaderboard.csv",
+            "retrieved_at": "2026-10-11T20:37:11+00:00",
+            "verified_at": "2026-10-11T20:37:11+00:00",
+            "extraction": "Original public leaderboard CSV, unchanged bytes",
+            "response_sha256": "dd184970c28f3e50467a379140f90e217d01ba59de3d784bf24f901dc2eeee30",
+            "artifact_sha256": "dd184970c28f3e50467a379140f90e217d01ba59de3d784bf24f901dc2eeee30"
+        },
+        {
+            "path": "evidence/drb1-gpt55.csv",
+            "source_url": "https://huggingface.co/spaces/muset-ai/DeepResearch-Bench-Leaderboard/resolve/main/data_gpt55/leaderboard.csv",
+            "retrieved_at": "2026-10-11T20:37:12+00:00",
+            "verified_at": "2026-10-11T20:37:12+00:00",
+            "extraction": "Original public leaderboard CSV, unchanged bytes",
+            "response_sha256": "c627e8a13684d5217cf651102bd0af496761b412751a3fab71af245260d9fd87",
+            "artifact_sha256": "c627e8a13684d5217cf651102bd0af496761b412751a3fab71af245260d9fd87"
+        },
+        {
+            "path": "evidence/drb2-gpt55.csv",
+            "source_url": "https://huggingface.co/spaces/muset-ai/DeepResearch-Bench-Leaderboard/resolve/main/data_drb2/leaderboard.csv",
+            "retrieved_at": "2026-10-11T20:37:13+00:00",
+            "verified_at": "2026-10-11T20:37:13+00:00",
+            "extraction": "Original public leaderboard CSV, unchanged bytes",
+            "response_sha256": "754b6715ce25c47e6fddc72000fb3b257516ccd2a57581ba2cf4a763c53d2b77",
+            "artifact_sha256": "754b6715ce25c47e6fddc72000fb3b257516ccd2a57581ba2cf4a763c53d2b77"
+        },
+        {
+            "path": "evidence/drb2-gemini25.csv",
+            "source_url": "https://huggingface.co/spaces/muset-ai/DeepResearch-Bench-Leaderboard/resolve/main/data_drb2/leaderboard_gemini25.csv",
+            "retrieved_at": "2026-10-11T20:37:14+00:00",
+            "verified_at": "2026-10-11T20:37:14+00:00",
+            "extraction": "Original public leaderboard CSV, unchanged bytes",
+            "response_sha256": "33315db080a5e5e18ab56c18905935d4d569c374842603bf4d0a2782d1e2639a",
+            "artifact_sha256": "33315db080a5e5e18ab56c18905935d4d569c374842603bf4d0a2782d1e2639a"
+        }
+    ]
+}

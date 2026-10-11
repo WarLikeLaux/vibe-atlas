@@ -1,0 +1,219 @@
+{
+    "version": "v1.1",
+    "source": "https://raw.githubusercontent.com/developer0hye/llm-evals/main/studies/2026-10-hanifeval/eval/v1.1/SUMMARY.md",
+    "studySource": "https://raw.githubusercontent.com/developer0hye/llm-evals/main/studies/2026-10-hanifeval/README.md",
+    "articleSource": "https://www.0hye.com/posts/hanifeval/",
+    "metricUnit": "percent",
+    "costUnit": "USD per 429 scored items, source estimated at historical list prices",
+    "tokenUnit": "mean tokens per scored item, reasoning and visible separate",
+    "rows": [
+        {
+            "section": "Overall (prompt- and instruction-level accuracy, %)",
+            "fields": {
+                "Model": "gpt-6-luna",
+                "scored / errors": "429 / 0",
+                "prompt strict [95% CI]": "93.2 [90.5, 95.3]",
+                "prompt loose": "94.2",
+                "inst strict": "95.1",
+                "inst loose": "95.7",
+                "truncated": "0",
+                "cost $": "0.159",
+                "mean reasoning tok": "301",
+                "mean visible tok": "426"
+            }
+        },
+        {
+            "section": "Overall (prompt- and instruction-level accuracy, %)",
+            "fields": {
+                "Model": "glm-5.3-flash",
+                "scored / errors": "429 / 0",
+                "prompt strict [95% CI]": "95.3 [92.9, 97.0]",
+                "prompt loose": "97.2",
+                "inst strict": "96.8",
+                "inst loose": "98.1",
+                "truncated": "0",
+                "cost $": "0.910",
+                "mean reasoning tok": "3201",
+                "mean visible tok": "1008"
+            }
+        },
+        {
+            "section": "Sensitivity (prompt-level strict, %)",
+            "fields": {
+                "Model": "gpt-6-luna",
+                "all": "93.2 (n=429)",
+                "without 8 known-issue items": "94.1 (n=421)",
+                "without truncated": "93.2 (n=429)",
+                "core subset": "93.2 (n=399)",
+                "response_language subset": "93.3 (n=30)"
+            }
+        },
+        {
+            "section": "Sensitivity (prompt-level strict, %)",
+            "fields": {
+                "Model": "glm-5.3-flash",
+                "all": "95.3 (n=429)",
+                "without 8 known-issue items": "96.2 (n=421)",
+                "without truncated": "95.3 (n=429)",
+                "core subset": "95.0 (n=399)",
+                "response_language subset": "100.0 (n=30)"
+            }
+        },
+        {
+            "section": "Paired comparison (prompt-level strict, McNemar exact, Bonferroni α = 0.0083 over 6 pairs)",
+            "fields": {
+                "A": "gpt-6-luna",
+                "B": "glm-5.3-flash",
+                "n (both scored)": "429",
+                "A only": "15",
+                "B only": "24",
+                "p": "0.1996",
+                "significant": "no"
+            }
+        },
+        {
+            "section": "Paired comparison (prompt-level strict, McNemar exact, Bonferroni α = 0.0083 over 6 pairs)",
+            "fields": {
+                "A": "gpt-6-luna",
+                "B": "solar-pro4",
+                "n (both scored)": "429",
+                "A only": "24",
+                "B only": "23",
+                "p": "1",
+                "significant": "no"
+            }
+        },
+        {
+            "section": "Paired comparison (prompt-level strict, McNemar exact, Bonferroni α = 0.0083 over 6 pairs)",
+            "fields": {
+                "A": "glm-5.3-flash",
+                "B": "solar-pro4",
+                "n (both scored)": "429",
+                "A only": "22",
+                "B only": "12",
+                "p": "0.1214",
+                "significant": "no"
+            }
+        }
+    ],
+    "configurations": {
+        "gpt-6-luna": {
+            "main": {
+                "source": "https://raw.githubusercontent.com/developer0hye/llm-evals/main/studies/2026-10-hanifeval/eval/main/gpt-6-luna.config.json",
+                "fields": {
+                    "model_id": "openai/gpt-6-luna",
+                    "provider": "openai",
+                    "reasoning": true,
+                    "max_tokens": 64000,
+                    "temperature": 0,
+                    "release_sha256": "46d85943714ed283787e5e5575181f837e1fdb46cdf4e6175537fdc050881fcc"
+                }
+            },
+            "v1.1_regen": {
+                "source": "https://raw.githubusercontent.com/developer0hye/llm-evals/main/studies/2026-10-hanifeval/eval/v1.1_regen/gpt-6-luna.config.json",
+                "fields": {
+                    "model_id": "openai/gpt-6-luna",
+                    "provider": "openai",
+                    "reasoning": true,
+                    "max_tokens": 64000,
+                    "temperature": 0,
+                    "release_sha256": "9d8f5792fa9a055a0193c2b830d738723a3ab639a613c21ed372a846c87663de"
+                }
+            }
+        },
+        "glm-5.3-flash": {
+            "main": {
+                "source": "https://raw.githubusercontent.com/developer0hye/llm-evals/main/studies/2026-10-hanifeval/eval/main/glm-5.3-flash.config.json",
+                "fields": {
+                    "model_id": "z-ai/glm-5.3-flash",
+                    "provider": "z-ai/fp8",
+                    "reasoning": true,
+                    "max_tokens": 64000,
+                    "temperature": 0,
+                    "release_sha256": "46d85943714ed283787e5e5575181f837e1fdb46cdf4e6175537fdc050881fcc"
+                }
+            },
+            "v1.1_regen": {
+                "source": "https://raw.githubusercontent.com/developer0hye/llm-evals/main/studies/2026-10-hanifeval/eval/v1.1_regen/glm-5.3-flash.config.json",
+                "fields": {
+                    "model_id": "z-ai/glm-5.3-flash",
+                    "provider": "z-ai/fp8",
+                    "reasoning": true,
+                    "max_tokens": 64000,
+                    "temperature": 0,
+                    "release_sha256": "9d8f5792fa9a055a0193c2b830d738723a3ab639a613c21ed372a846c87663de"
+                }
+            }
+        }
+    },
+    "articleFacts": [
+        {
+            "model": "GPT-6 Luna",
+            "promptStrict": "93.2",
+            "passed": 400,
+            "total": 429,
+            "ci95": ["90.5", "95.3"],
+            "costRoundedUSD": "0.16",
+            "meanReasoningTokens": 301
+        },
+        {
+            "model": "GLM 5.3 Flash",
+            "promptStrict": "95.3",
+            "passed": 409,
+            "total": 429,
+            "ci95": ["92.9", "97.0"],
+            "costRoundedUSD": "0.91",
+            "meanReasoningTokens": 3201
+        }
+    ],
+    "ciMethod": "Wilson, common/stats.py",
+    "note": "v1.1 reuses 413 v1 responses and regenerates 16 edited items. v1 is not an independent replicate. Per-constraint table is linked, not transcribed in full.",
+    "readmeSelectedRows": [
+        {
+            "section": "Results on v1.1: 5 models × 429 items (2026-10-03)",
+            "fields": {
+                "Model": "GLM 5.3 Flash",
+                "prompt strict [95% CI]": "95.3 [92.9, 97.0]",
+                "quality-controlled (n=421)": "96.2",
+                "prompt loose": "97.2",
+                "inst strict": "96.8",
+                "inst loose": "98.1"
+            }
+        },
+        {
+            "section": "Results on v1.1: 5 models × 429 items (2026-10-03)",
+            "fields": {
+                "Model": "GPT-6 Luna",
+                "prompt strict [95% CI]": "93.2 [90.5, 95.3]",
+                "quality-controlled (n=421)": "94.1",
+                "prompt loose": "94.2",
+                "inst strict": "95.1",
+                "inst loose": "95.7"
+            }
+        },
+        {
+            "section": "Results on v1: 4 models × 429 items (2026-10-02)",
+            "fields": {
+                "Model": "GLM 5.3 Flash",
+                "prompt strict [95% CI]": "95.3 [92.9, 97.0]",
+                "prompt loose": "97.2",
+                "inst strict": "96.8",
+                "inst loose": "98.1",
+                "cost": "$0.899"
+            }
+        },
+        {
+            "section": "Results on v1: 4 models × 429 items (2026-10-02)",
+            "fields": {
+                "Model": "GPT-6 Luna",
+                "prompt strict [95% CI]": "93.5 [90.7, 95.4]",
+                "prompt loose": "94.4",
+                "inst strict": "95.3",
+                "inst loose": "95.9",
+                "cost": "$0.159"
+            }
+        }
+    ],
+    "checkedAt": "2026-10-11T20:40:50+00:00",
+    "sourceManifest": "checked-pages.json"
+}

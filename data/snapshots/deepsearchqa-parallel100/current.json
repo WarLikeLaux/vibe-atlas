@@ -1,0 +1,65 @@
+{
+    "sourceUrl": "https://parallel.ai/leaderboard",
+    "methodologyUrl": "https://parallel.ai/leaderboard#methodology",
+    "checkedAt": "2026-10-11T20:59:04.451474Z",
+    "kind": "reviewed-observations",
+    "protocol": "Parallel Search Capability, DSQA subset",
+    "observations": [
+        {
+            "sourceModelName": "GPT-6.1 Sol (Parallel) with-search",
+            "effort": null,
+            "sampleSize": 100,
+            "score": 87.14,
+            "nTasksDsqa": 100
+        },
+        {
+            "sourceModelName": "GPT-6 Astra (Parallel) with-search",
+            "effort": null,
+            "sampleSize": 100,
+            "score": 89.54,
+            "nTasksDsqa": 100
+        },
+        {
+            "sourceModelName": "GPT-6 Luna (Parallel) with-search",
+            "effort": null,
+            "sampleSize": 100,
+            "score": 78.71,
+            "nTasksDsqa": 100
+        },
+        {
+            "sourceModelName": "GLM 5.3 (Parallel) with-search",
+            "effort": null,
+            "sampleSize": 100,
+            "score": 84.98,
+            "nTasksDsqa": 100
+        },
+        {
+            "sourceModelName": "GLM 5.3 Flash (Parallel) with-search",
+            "effort": null,
+            "sampleSize": 100,
+            "score": 81.43,
+            "nTasksDsqa": 100
+        },
+        {
+            "sourceModelName": "Gemini 3.8 Flash (Parallel) with-search",
+            "effort": null,
+            "sampleSize": 100,
+            "score": 80.26,
+            "nTasksDsqa": 100
+        },
+        {
+            "sourceModelName": "MiniMax-M3 (Parallel) with-search",
+            "effort": null,
+            "sampleSize": 100,
+            "score": 64.76,
+            "nTasksDsqa": 99
+        },
+        {
+            "sourceModelName": "Muse Spark 1.3 (Parallel) with-search",
+            "effort": null,
+            "sampleSize": 100,
+            "score": 85.21,
+            "nTasksDsqa": 99
+        }
+    ]
+}

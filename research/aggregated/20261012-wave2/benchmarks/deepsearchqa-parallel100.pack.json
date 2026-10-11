@@ -1,0 +1,242 @@
+{
+    "id": "deepsearchqa-parallel100-reviewed",
+    "sourceId": "deepsearchqa-parallel100",
+    "checkedAt": "2026-10-11T20:59:04.451474Z",
+    "parserVersion": "wave2-reviewed-observations/1",
+    "snapshotPath": "data/snapshots/deepsearchqa-parallel100/current.json",
+    "snapshotSha256": "e158fe44f0019208a838bafd74f6894117e70e9c794f69e5fd9f1ae559b851b4",
+    "benchmarks": [
+        {
+            "id": "deepsearchqa:parallel100-f1",
+            "name": "DeepSearchQA",
+            "context": "Parallel · 100 вопросов · with-search · F1",
+            "unit": "F1 0–100",
+            "format": "percent",
+            "awardEligible": true,
+            "sourceUrl": "https://parallel.ai/leaderboard",
+            "methodologyUrl": "https://parallel.ai/leaderboard#methodology",
+            "checkedAt": "2026-10-11T20:59:04.451474Z",
+            "passport": {
+                "author": "Google DeepMind и др. / замер Parallel",
+                "purpose": "Многошаговый поиск, полный сбор списка ответов, устранение повторов и проверка условий.",
+                "requirements": "Harness Parallel с Parallel Search Fast и Extract. Подвыборка 100 из 900 запросов, ревизия неизвестна.",
+                "scoring": "F1 на шкале 0–100, выше лучше. Контрольный режим without-search в пакет не входит.",
+                "reviews": [
+                    {
+                        "dimension": "independence",
+                        "status": "supported",
+                        "explanation": "Замер поставщика поискового инструмента Parallel, не безусловно независимый эксперимент.",
+                        "sourceUrl": "https://parallel.ai/leaderboard",
+                        "checkedAt": "2026-10-11T20:59:04.451474Z"
+                    },
+                    {
+                        "dimension": "contamination",
+                        "status": "unknown",
+                        "explanation": "Overlap с обучением и запрет нахождения эталонов не проверялись.",
+                        "sourceUrl": "https://parallel.ai/leaderboard",
+                        "checkedAt": "2026-10-11T20:59:04.451474Z"
+                    },
+                    {
+                        "dimension": "saturation",
+                        "status": "not-reviewed",
+                        "explanation": "F1 с частичным зачётом не равен доле полностью правильных ответов.",
+                        "sourceUrl": "https://parallel.ai/leaderboard",
+                        "checkedAt": "2026-10-11T20:59:04.451474Z"
+                    },
+                    {
+                        "dimension": "reproducibility",
+                        "status": "unknown",
+                        "explanation": "Подвыборка, harness, judge и бюджеты Parallel не установлены.",
+                        "sourceUrl": "https://parallel.ai/leaderboard",
+                        "checkedAt": "2026-10-11T20:59:04.451474Z"
+                    },
+                    {
+                        "dimension": "comparability",
+                        "status": "unknown",
+                        "explanation": "Нельзя смешивать с полной таблицей Kaggle или другим агентом.",
+                        "sourceUrl": "https://parallel.ai/leaderboard",
+                        "checkedAt": "2026-10-11T20:59:04.451474Z"
+                    }
+                ]
+            }
+        }
+    ],
+    "runs": [
+        {
+            "id": "deepsearchqa-reviewed-1",
+            "sourceModelName": "GPT-6.1 Sol (Parallel) with-search",
+            "benchmarkId": "deepsearchqa:parallel100-f1",
+            "label": "GPT-6.1 Sol · Parallel with-search",
+            "score": 87.14,
+            "sourceUrl": "https://parallel.ai/leaderboard",
+            "checkedAt": "2026-10-11T20:59:04.451474Z",
+            "notes": [
+                "nTasks.DSQA=100 при плановых 100; правила источника считают failed нулями.",
+                "Опубликованные стоимость и время относятся к смеси DSQA/HLE/WISER и на этот запуск не переносятся."
+            ],
+            "telemetry": [
+                {
+                    "name": "Задачи DSQA",
+                    "value": 100.0,
+                    "unit": "nTasks"
+                }
+            ],
+            "estimated": false,
+            "modelId": "gpt-6-1-sol"
+        },
+        {
+            "id": "deepsearchqa-reviewed-2",
+            "sourceModelName": "GPT-6 Astra (Parallel) with-search",
+            "benchmarkId": "deepsearchqa:parallel100-f1",
+            "label": "GPT-6 Astra · Parallel with-search",
+            "score": 89.54,
+            "sourceUrl": "https://parallel.ai/leaderboard",
+            "checkedAt": "2026-10-11T20:59:04.451474Z",
+            "notes": [
+                "nTasks.DSQA=100 при плановых 100; правила источника считают failed нулями.",
+                "Опубликованные стоимость и время относятся к смеси DSQA/HLE/WISER и на этот запуск не переносятся."
+            ],
+            "telemetry": [
+                {
+                    "name": "Задачи DSQA",
+                    "value": 100.0,
+                    "unit": "nTasks"
+                }
+            ],
+            "estimated": false,
+            "modelId": "gpt-6-astra"
+        },
+        {
+            "id": "deepsearchqa-reviewed-3",
+            "sourceModelName": "GPT-6 Luna (Parallel) with-search",
+            "benchmarkId": "deepsearchqa:parallel100-f1",
+            "label": "GPT-6 Luna · Parallel with-search",
+            "score": 78.71,
+            "sourceUrl": "https://parallel.ai/leaderboard",
+            "checkedAt": "2026-10-11T20:59:04.451474Z",
+            "notes": [
+                "nTasks.DSQA=100 при плановых 100; правила источника считают failed нулями.",
+                "Опубликованные стоимость и время относятся к смеси DSQA/HLE/WISER и на этот запуск не переносятся."
+            ],
+            "telemetry": [
+                {
+                    "name": "Задачи DSQA",
+                    "value": 100.0,
+                    "unit": "nTasks"
+                }
+            ],
+            "estimated": false,
+            "modelId": "gpt-6-luna"
+        },
+        {
+            "id": "deepsearchqa-reviewed-4",
+            "sourceModelName": "GLM 5.3 (Parallel) with-search",
+            "benchmarkId": "deepsearchqa:parallel100-f1",
+            "label": "GLM 5.3 · Parallel with-search",
+            "score": 84.98,
+            "sourceUrl": "https://parallel.ai/leaderboard",
+            "checkedAt": "2026-10-11T20:59:04.451474Z",
+            "notes": [
+                "nTasks.DSQA=100 при плановых 100; правила источника считают failed нулями.",
+                "Опубликованные стоимость и время относятся к смеси DSQA/HLE/WISER и на этот запуск не переносятся."
+            ],
+            "telemetry": [
+                {
+                    "name": "Задачи DSQA",
+                    "value": 100.0,
+                    "unit": "nTasks"
+                }
+            ],
+            "estimated": false,
+            "modelId": "glm-5-3"
+        },
+        {
+            "id": "deepsearchqa-reviewed-5",
+            "sourceModelName": "GLM 5.3 Flash (Parallel) with-search",
+            "benchmarkId": "deepsearchqa:parallel100-f1",
+            "label": "GLM 5.3 Flash · Parallel with-search",
+            "score": 81.43,
+            "sourceUrl": "https://parallel.ai/leaderboard",
+            "checkedAt": "2026-10-11T20:59:04.451474Z",
+            "notes": [
+                "nTasks.DSQA=100 при плановых 100; правила источника считают failed нулями.",
+                "Опубликованные стоимость и время относятся к смеси DSQA/HLE/WISER и на этот запуск не переносятся."
+            ],
+            "telemetry": [
+                {
+                    "name": "Задачи DSQA",
+                    "value": 100.0,
+                    "unit": "nTasks"
+                }
+            ],
+            "estimated": false,
+            "modelId": "glm-5-3-flash"
+        },
+        {
+            "id": "deepsearchqa-reviewed-6",
+            "sourceModelName": "Gemini 3.8 Flash (Parallel) with-search",
+            "benchmarkId": "deepsearchqa:parallel100-f1",
+            "label": "Gemini 3.8 Flash · Parallel with-search",
+            "score": 80.26,
+            "sourceUrl": "https://parallel.ai/leaderboard",
+            "checkedAt": "2026-10-11T20:59:04.451474Z",
+            "notes": [
+                "nTasks.DSQA=100 при плановых 100; правила источника считают failed нулями.",
+                "Опубликованные стоимость и время относятся к смеси DSQA/HLE/WISER и на этот запуск не переносятся."
+            ],
+            "telemetry": [
+                {
+                    "name": "Задачи DSQA",
+                    "value": 100.0,
+                    "unit": "nTasks"
+                }
+            ],
+            "estimated": false,
+            "modelId": "gemini-3-8-flash"
+        },
+        {
+            "id": "deepsearchqa-reviewed-7",
+            "sourceModelName": "MiniMax-M3 (Parallel) with-search",
+            "benchmarkId": "deepsearchqa:parallel100-f1",
+            "label": "MiniMax-M3 · Parallel with-search",
+            "score": 64.76,
+            "sourceUrl": "https://parallel.ai/leaderboard",
+            "checkedAt": "2026-10-11T20:59:04.451474Z",
+            "notes": [
+                "nTasks.DSQA=99 при плановых 100; правила источника считают failed нулями.",
+                "Опубликованные стоимость и время относятся к смеси DSQA/HLE/WISER и на этот запуск не переносятся."
+            ],
+            "telemetry": [
+                {
+                    "name": "Задачи DSQA",
+                    "value": 99.0,
+                    "unit": "nTasks"
+                }
+            ],
+            "estimated": false,
+            "modelId": "minimax-m3"
+        },
+        {
+            "id": "deepsearchqa-reviewed-8",
+            "sourceModelName": "Muse Spark 1.3 (Parallel) with-search",
+            "benchmarkId": "deepsearchqa:parallel100-f1",
+            "label": "Muse Spark 1.3 · Parallel with-search",
+            "score": 85.21,
+            "sourceUrl": "https://parallel.ai/leaderboard",
+            "checkedAt": "2026-10-11T20:59:04.451474Z",
+            "notes": [
+                "nTasks.DSQA=99 при плановых 100; правила источника считают failed нулями.",
+                "Опубликованные стоимость и время относятся к смеси DSQA/HLE/WISER и на этот запуск не переносятся."
+            ],
+            "telemetry": [
+                {
+                    "name": "Задачи DSQA",
+                    "value": 99.0,
+                    "unit": "nTasks"
+                }
+            ],
+            "estimated": false,
+            "modelId": "muse-spark-1-3"
+        }
+    ]
+}

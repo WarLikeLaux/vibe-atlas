@@ -1,0 +1,3057 @@
+{
+    "source_url": "https://www.mercor.com/apex/mercor-extended/ots-held-out-browsecomp-leaderboard/",
+    "retrieved_at": "2026-10-11T20:37:09+00:00",
+    "kind": "mercor-extended",
+    "benchmark": {
+        "_id": "isvxExfKGAZ4WMrYLtkJtu",
+        "availablePasses": [
+            {
+                "label": "Pass@1",
+                "value": "pass-1"
+            }
+        ],
+        "benchmarkId": "ots-held-out-browsecomp",
+        "blogLink": null,
+        "cardSubheading": null,
+        "chartAxisRanges": null,
+        "codeLink": "https://github.com/openai/simple-evals",
+        "criteriaCount": null,
+        "dataLink": "https://github.com/openai/simple-evals",
+        "description": "130 questions requiring agents to persistently navigate the internet to locate hard-to-find, entangled information. Tests information-discovery competence through persistence and creative problem-solving.",
+        "displayName": "BrowseComp Extended",
+        "domainsHeading": null,
+        "extendsBenchmark": {
+            "globalLeaderboard": [
+                {
+                    "modelId": "claude-sonnet-4-6-high",
+                    "passScores": [
+                        {
+                            "error": 7.2,
+                            "pass": "pass-1",
+                            "score": 56.7
+                        },
+                        {
+                            "error": 7.2,
+                            "pass": "mean-score",
+                            "score": 56.7
+                        }
+                    ]
+                },
+                {
+                    "modelId": "claude-opus-5",
+                    "passScores": [
+                        {
+                            "error": 5.1,
+                            "pass": "pass-1",
+                            "score": 84.6
+                        },
+                        {
+                            "error": 5.1,
+                            "pass": "mean-score",
+                            "score": 84.6
+                        }
+                    ]
+                },
+                {
+                    "modelId": "claude-opus-4-8",
+                    "passScores": [
+                        {
+                            "error": 6.2,
+                            "pass": "pass-1",
+                            "score": 73.7
+                        },
+                        {
+                            "error": 6.2,
+                            "pass": "mean-score",
+                            "score": 73.7
+                        }
+                    ]
+                },
+                {
+                    "modelId": "claude-opus-4-7",
+                    "passScores": [
+                        {
+                            "error": 7,
+                            "pass": "pass-1",
+                            "score": 60.6
+                        },
+                        {
+                            "error": 7,
+                            "pass": "mean-score",
+                            "score": 60.6
+                        }
+                    ]
+                },
+                {
+                    "modelId": "claude-fable-5-high",
+                    "passScores": [
+                        {
+                            "error": 5.6,
+                            "pass": "pass-1",
+                            "score": 82.5
+                        },
+                        {
+                            "error": 5.6,
+                            "pass": "mean-score",
+                            "score": 82.5
+                        }
+                    ]
+                },
+                {
+                    "modelId": "deepseek-v4-flash",
+                    "passScores": [
+                        {
+                            "error": 6.1,
+                            "pass": "pass-1",
+                            "score": 77.1
+                        },
+                        {
+                            "error": 6.1,
+                            "pass": "mean-score",
+                            "score": 77.1
+                        }
+                    ]
+                },
+                {
+                    "modelId": "deepseek-ai/DeepSeek-V3.2",
+                    "passScores": [
+                        {
+                            "error": 7,
+                            "pass": "pass-1",
+                            "score": 38.1
+                        },
+                        {
+                            "error": 7,
+                            "pass": "mean-score",
+                            "score": 38.1
+                        }
+                    ]
+                },
+                {
+                    "modelId": "deepseek-v4-pro",
+                    "passScores": [
+                        {
+                            "error": 6.4,
+                            "pass": "pass-1",
+                            "score": 62.3
+                        },
+                        {
+                            "error": 6.4,
+                            "pass": "mean-score",
+                            "score": 62.3
+                        }
+                    ]
+                },
+                {
+                    "modelId": "gemini-3.6-flash",
+                    "passScores": [
+                        {
+                            "error": 6.1,
+                            "pass": "pass-1",
+                            "score": 54.6
+                        },
+                        {
+                            "error": 6.1,
+                            "pass": "mean-score",
+                            "score": 54.6
+                        }
+                    ]
+                },
+                {
+                    "modelId": "gemini-3.5-flash",
+                    "passScores": [
+                        {
+                            "error": 6.7,
+                            "pass": "pass-1",
+                            "score": 43.3
+                        },
+                        {
+                            "error": 6.7,
+                            "pass": "mean-score",
+                            "score": 43.3
+                        }
+                    ]
+                },
+                {
+                    "modelId": "gemini-3.1-pro-preview-high",
+                    "passScores": [
+                        {
+                            "error": 6.3,
+                            "pass": "pass-1",
+                            "score": 75.6
+                        },
+                        {
+                            "error": 6.3,
+                            "pass": "mean-score",
+                            "score": 75.6
+                        }
+                    ]
+                },
+                {
+                    "modelId": "gemini-3.7-flash",
+                    "passScores": [
+                        {
+                            "error": 6,
+                            "pass": "pass-1",
+                            "score": 79.2
+                        },
+                        {
+                            "error": 6,
+                            "pass": "mean-score",
+                            "score": 79.2
+                        }
+                    ]
+                },
+                {
+                    "modelId": "glm-5-2",
+                    "passScores": [
+                        {
+                            "error": 6.7,
+                            "pass": "pass-1",
+                            "score": 65.4
+                        },
+                        {
+                            "error": 6.7,
+                            "pass": "mean-score",
+                            "score": 65.4
+                        }
+                    ]
+                },
+                {
+                    "modelId": "claude-sonnet-5-max",
+                    "passScores": [
+                        {
+                            "error": 6.4,
+                            "pass": "pass-1",
+                            "score": 68.7
+                        },
+                        {
+                            "error": 6.4,
+                            "pass": "mean-score",
+                            "score": 68.7
+                        }
+                    ]
+                },
+                {
+                    "modelId": "gpt-5.5-xhigh",
+                    "passScores": [
+                        {
+                            "error": 5.8,
+                            "pass": "pass-1",
+                            "score": 77.7
+                        },
+                        {
+                            "error": 5.8,
+                            "pass": "mean-score",
+                            "score": 77.7
+                        }
+                    ]
+                },
+                {
+                    "modelId": "gpt-5.6-terra-max",
+                    "passScores": [
+                        {
+                            "error": 5.2,
+                            "pass": "pass-1",
+                            "score": 85.8
+                        },
+                        {
+                            "error": 5.2,
+                            "pass": "mean-score",
+                            "score": 85.8
+                        }
+                    ]
+                },
+                {
+                    "modelId": "responses/gpt-5.4",
+                    "passScores": [
+                        {
+                            "error": 6.2,
+                            "pass": "pass-1",
+                            "score": 73.3
+                        },
+                        {
+                            "error": 6.2,
+                            "pass": "mean-score",
+                            "score": 73.3
+                        }
+                    ]
+                },
+                {
+                    "modelId": "gpt-5.6-luna-max",
+                    "passScores": [
+                        {
+                            "error": 5.4,
+                            "pass": "pass-1",
+                            "score": 83.8
+                        },
+                        {
+                            "error": 5.4,
+                            "pass": "mean-score",
+                            "score": 83.8
+                        }
+                    ]
+                },
+                {
+                    "modelId": "grok-4-6-xhigh",
+                    "passScores": [
+                        {
+                            "error": 5.1,
+                            "pass": "pass-1",
+                            "score": 84
+                        },
+                        {
+                            "error": 5.1,
+                            "pass": "mean-score",
+                            "score": 84
+                        }
+                    ]
+                },
+                {
+                    "modelId": "inkling",
+                    "passScores": [
+                        {
+                            "error": 6.9,
+                            "pass": "pass-1",
+                            "score": 50.4
+                        },
+                        {
+                            "error": 6.9,
+                            "pass": "mean-score",
+                            "score": 50.4
+                        }
+                    ]
+                },
+                {
+                    "modelId": "kimi-k2-7-code-high",
+                    "passScores": [
+                        {
+                            "error": 6.2,
+                            "pass": "pass-1",
+                            "score": 43.5
+                        },
+                        {
+                            "error": 6.2,
+                            "pass": "mean-score",
+                            "score": 43.5
+                        }
+                    ]
+                },
+                {
+                    "modelId": "gpt-5-6-sol-xhigh",
+                    "passScores": [
+                        {
+                            "error": 4.4,
+                            "pass": "pass-1",
+                            "score": 90.6
+                        },
+                        {
+                            "error": 4.4,
+                            "pass": "mean-score",
+                            "score": 90.6
+                        }
+                    ]
+                },
+                {
+                    "modelId": "grok-4-5",
+                    "passScores": [
+                        {
+                            "error": 6.1,
+                            "pass": "pass-1",
+                            "score": 75.8
+                        },
+                        {
+                            "error": 6.1,
+                            "pass": "mean-score",
+                            "score": 75.8
+                        }
+                    ]
+                },
+                {
+                    "modelId": "minimax-m2-7",
+                    "passScores": [
+                        {
+                            "error": 7,
+                            "pass": "pass-1",
+                            "score": 38.3
+                        },
+                        {
+                            "error": 7,
+                            "pass": "mean-score",
+                            "score": 38.3
+                        }
+                    ]
+                },
+                {
+                    "modelId": "minimax-m3",
+                    "passScores": [
+                        {
+                            "error": 6.7,
+                            "pass": "pass-1",
+                            "score": 53.3
+                        },
+                        {
+                            "error": 6.7,
+                            "pass": "mean-score",
+                            "score": 53.3
+                        }
+                    ]
+                },
+                {
+                    "modelId": "kimi-k3",
+                    "passScores": [
+                        {
+                            "error": 4.4,
+                            "pass": "pass-1",
+                            "score": 89
+                        },
+                        {
+                            "error": 4.4,
+                            "pass": "mean-score",
+                            "score": 89
+                        }
+                    ]
+                },
+                {
+                    "modelId": "deepseek-v4-pro-08-13",
+                    "passScores": [
+                        {
+                            "error": 6,
+                            "pass": "pass-1",
+                            "score": 73.5
+                        },
+                        {
+                            "error": 6,
+                            "pass": "mean-score",
+                            "score": 73.5
+                        }
+                    ]
+                },
+                {
+                    "modelId": "gpt-6-astra",
+                    "passScores": [
+                        {
+                            "error": 3.2,
+                            "pass": "pass-1",
+                            "score": 94.2
+                        },
+                        {
+                            "error": 3.2,
+                            "pass": "mean-score",
+                            "score": 94.2
+                        }
+                    ]
+                },
+                {
+                    "modelId": "claude-fable-5.1-high",
+                    "passScores": [
+                        {
+                            "error": 6.1,
+                            "pass": "pass-1",
+                            "score": 78.3
+                        },
+                        {
+                            "error": 6.1,
+                            "pass": "mean-score",
+                            "score": 78.3
+                        }
+                    ]
+                },
+                {
+                    "modelId": "deepseek-v4-1-flash",
+                    "passScores": [
+                        {
+                            "error": 9,
+                            "pass": "pass-1",
+                            "score": 85.8
+                        },
+                        {
+                            "error": 9,
+                            "pass": "mean-score",
+                            "score": 85.8
+                        }
+                    ]
+                },
+                {
+                    "modelId": "gpt-6-luna",
+                    "passScores": [
+                        {
+                            "error": 5.4,
+                            "pass": "pass-1",
+                            "score": 83.3
+                        },
+                        {
+                            "error": 5.4,
+                            "pass": "mean-score",
+                            "score": 83.3
+                        }
+                    ]
+                },
+                {
+                    "modelId": "gpt-6-sol",
+                    "passScores": [
+                        {
+                            "error": 4.5,
+                            "pass": "pass-1",
+                            "score": 89.4
+                        },
+                        {
+                            "error": 4.5,
+                            "pass": "mean-score",
+                            "score": 89.4
+                        }
+                    ]
+                },
+                {
+                    "modelId": "claude-opus-5-5",
+                    "passScores": [
+                        {
+                            "error": 5,
+                            "pass": "pass-1",
+                            "score": 88.5
+                        },
+                        {
+                            "error": 5,
+                            "pass": "mean-score",
+                            "score": 88.5
+                        }
+                    ]
+                },
+                {
+                    "modelId": "qwen-3-8-max-xhigh",
+                    "passScores": [
+                        {
+                            "error": 6.5,
+                            "pass": "pass-1",
+                            "score": 67.9
+                        },
+                        {
+                            "error": 6.5,
+                            "pass": "mean-score",
+                            "score": 67.9
+                        }
+                    ]
+                },
+                {
+                    "modelId": "claude-sonnet-5-5",
+                    "passScores": [
+                        {
+                            "error": 5,
+                            "pass": "pass-1",
+                            "score": 86.6
+                        },
+                        {
+                            "error": 5,
+                            "pass": "mean-score",
+                            "score": 86.6
+                        }
+                    ]
+                },
+                {
+                    "modelId": "claude-fable-5.1",
+                    "passScores": [
+                        {
+                            "error": 5.3,
+                            "pass": "pass-1",
+                            "score": 85.2
+                        },
+                        {
+                            "error": 5.3,
+                            "pass": "mean-score",
+                            "score": 85.2
+                        }
+                    ]
+                },
+                {
+                    "modelId": "gpt-6-1-sol",
+                    "passScores": [
+                        {
+                            "error": 3.1,
+                            "pass": "pass-1",
+                            "score": 95.4
+                        },
+                        {
+                            "error": 3.1,
+                            "pass": "mean-score",
+                            "score": 95.4
+                        }
+                    ]
+                },
+                {
+                    "modelId": "muse-spark-1-2",
+                    "passScores": [
+                        {
+                            "error": 6.3,
+                            "pass": "pass-1",
+                            "score": 75.2
+                        },
+                        {
+                            "error": 6.3,
+                            "pass": "mean-score",
+                            "score": 75.2
+                        }
+                    ]
+                },
+                {
+                    "modelId": "gemini-3.8-flash",
+                    "passScores": [
+                        {
+                            "error": 5.3,
+                            "pass": "pass-1",
+                            "score": 83.1
+                        },
+                        {
+                            "error": 5.3,
+                            "pass": "mean-score",
+                            "score": 83.1
+                        }
+                    ]
+                },
+                {
+                    "modelId": "grok-4.7",
+                    "passScores": [
+                        {
+                            "error": 6.3,
+                            "pass": "pass-1",
+                            "score": 75.8
+                        },
+                        {
+                            "error": 6.3,
+                            "pass": "mean-score",
+                            "score": 75.8
+                        }
+                    ]
+                },
+                {
+                    "modelId": "gpt-5-6-sol-max-pro",
+                    "passScores": [
+                        {
+                            "error": 2.9,
+                            "pass": "pass-1",
+                            "score": 95.7
+                        },
+                        {
+                            "error": 2.9,
+                            "pass": "mean-score",
+                            "score": 95.7
+                        }
+                    ]
+                },
+                {
+                    "modelId": "claude-haiku-5-5",
+                    "passScores": [
+                        {
+                            "error": 7.1,
+                            "pass": "pass-1",
+                            "score": 56.3
+                        },
+                        {
+                            "error": 7.1,
+                            "pass": "mean-score",
+                            "score": 56.3
+                        }
+                    ]
+                }
+            ],
+            "leaderboardKey": "oss-browsecomp-leaderboard"
+        },
+        "globalLeaderboard": [
+            {
+                "model": {
+                    "_id": "0ed1ef93-e04f-4e8d-bac5-bbc72dff9a53",
+                    "company": null,
+                    "descriptors": null,
+                    "effort": "xhigh",
+                    "modelId": "gpt-5.5-xhigh",
+                    "modelName": "GPT-5.5",
+                    "provider": {
+                        "colorFrom": "#ffd900",
+                        "colorTo": "#ffb814",
+                        "colorVia": null,
+                        "logo": "https://cdn.sanity.io/images/h6s14f4z/production/d0157b817dd39b0eeb64cd582258759f8577ce42-20x20.svg",
+                        "name": "OpenAI",
+                        "providerId": "gpt"
+                    },
+                    "releaseDate": "2026-04-23"
+                },
+                "nSamples": 400,
+                "passScores": [
+                    {
+                        "error": 6,
+                        "pass": "pass-1",
+                        "score": 19
+                    },
+                    {
+                        "error": 6,
+                        "pass": "mean-score",
+                        "score": 19
+                    }
+                ]
+            },
+            {
+                "model": {
+                    "_id": "UohOeKbgohNmjusgcicLCD",
+                    "company": null,
+                    "descriptors": null,
+                    "effort": "max",
+                    "modelId": "gpt-5.6-luna-max",
+                    "modelName": "GPT-5.6 Luna",
+                    "provider": {
+                        "colorFrom": "#ffd900",
+                        "colorTo": "#ffb814",
+                        "colorVia": null,
+                        "logo": "https://cdn.sanity.io/images/h6s14f4z/production/d0157b817dd39b0eeb64cd582258759f8577ce42-20x20.svg",
+                        "name": "OpenAI",
+                        "providerId": "gpt"
+                    },
+                    "releaseDate": "2026-07-09"
+                },
+                "nSamples": 400,
+                "passScores": [
+                    {
+                        "error": 5.9,
+                        "pass": "pass-1",
+                        "score": 16.5
+                    },
+                    {
+                        "error": 5.9,
+                        "pass": "mean-score",
+                        "score": 16.5
+                    }
+                ]
+            },
+            {
+                "model": {
+                    "_id": "isvxExfKGAZ4WMrYLuW50g",
+                    "company": null,
+                    "descriptors": null,
+                    "effort": "max",
+                    "modelId": "gpt-5.6-terra-max",
+                    "modelName": "GPT-5.6 Terra",
+                    "provider": {
+                        "colorFrom": "#ffd900",
+                        "colorTo": "#ffb814",
+                        "colorVia": null,
+                        "logo": "https://cdn.sanity.io/images/h6s14f4z/production/d0157b817dd39b0eeb64cd582258759f8577ce42-20x20.svg",
+                        "name": "OpenAI",
+                        "providerId": "gpt"
+                    },
+                    "releaseDate": "2026-07-09"
+                },
+                "nSamples": 400,
+                "passScores": [
+                    {
+                        "error": 6.8,
+                        "pass": "pass-1",
+                        "score": 25.3
+                    },
+                    {
+                        "error": 6.8,
+                        "pass": "mean-score",
+                        "score": 25.3
+                    }
+                ]
+            },
+            {
+                "model": {
+                    "_id": "UohOeKbgohNmjusgcijiyH",
+                    "company": null,
+                    "descriptors": null,
+                    "effort": "high",
+                    "modelId": "inkling",
+                    "modelName": "Inkling",
+                    "provider": {
+                        "colorFrom": "#D4CECE",
+                        "colorTo": "#A19696",
+                        "colorVia": null,
+                        "logo": "https://cdn.sanity.io/images/h6s14f4z/production/16834b49720d8d9d9cb700a60aa11689ec4bc27a-20x20.svg",
+                        "name": "Thinking Machines",
+                        "providerId": "thinking-machines"
+                    },
+                    "releaseDate": "2026-07-15"
+                },
+                "nSamples": 400,
+                "passScores": [
+                    {
+                        "error": 2.7,
+                        "pass": "pass-1",
+                        "score": 4.5
+                    },
+                    {
+                        "error": 2.7,
+                        "pass": "mean-score",
+                        "score": 4.5
+                    }
+                ]
+            },
+            {
+                "model": {
+                    "_id": "GSi7csNcf5OYJ80OKftMtA",
+                    "company": null,
+                    "descriptors": null,
+                    "effort": "high",
+                    "modelId": "kimi-k2-7-code-high",
+                    "modelName": "Kimi K2.7 Code",
+                    "provider": {
+                        "colorFrom": "#bdcfdc",
+                        "colorTo": "#7c94a5",
+                        "colorVia": null,
+                        "logo": "https://cdn.sanity.io/images/h6s14f4z/production/ae0bd249960a1f6790b07a1d74b9275313bc427b-20x20.svg",
+                        "name": "Kimi",
+                        "providerId": "kimi"
+                    },
+                    "releaseDate": null
+                },
+                "nSamples": 400,
+                "passScores": [
+                    {
+                        "error": 4,
+                        "pass": "pass-1",
+                        "score": 8
+                    },
+                    {
+                        "error": 4,
+                        "pass": "mean-score",
+                        "score": 8
+                    }
+                ]
+            },
+            {
+                "model": {
+                    "_id": "183b7a4e-fb0e-467e-87f7-8e3795ba7623",
+                    "company": null,
+                    "descriptors": null,
+                    "effort": "max",
+                    "modelId": "kimi-k3",
+                    "modelName": "Kimi K3",
+                    "provider": {
+                        "colorFrom": "#bdcfdc",
+                        "colorTo": "#7c94a5",
+                        "colorVia": null,
+                        "logo": "https://cdn.sanity.io/images/h6s14f4z/production/ae0bd249960a1f6790b07a1d74b9275313bc427b-20x20.svg",
+                        "name": "Kimi",
+                        "providerId": "kimi"
+                    },
+                    "releaseDate": "2026-07-27"
+                },
+                "nSamples": 400,
+                "passScores": [
+                    {
+                        "error": 6.9,
+                        "pass": "pass-1",
+                        "score": 28.5
+                    },
+                    {
+                        "error": 6.9,
+                        "pass": "mean-score",
+                        "score": 28.5
+                    }
+                ]
+            },
+            {
+                "model": {
+                    "_id": "6e729361-72e0-49bc-8756-c9e9c1917469",
+                    "company": null,
+                    "descriptors": null,
+                    "effort": "high",
+                    "modelId": "grok-4-5",
+                    "modelName": "Grok 4.5",
+                    "provider": {
+                        "colorFrom": "#e2e2e2",
+                        "colorTo": "#767676",
+                        "colorVia": null,
+                        "logo": "https://cdn.sanity.io/images/h6s14f4z/production/b16de16ffcb7238e086ea99505637838caa37afc-20x20.svg",
+                        "name": "xAI",
+                        "providerId": "xai"
+                    },
+                    "releaseDate": "2026-07-08"
+                },
+                "nSamples": 400,
+                "passScores": [
+                    {
+                        "error": 5.9,
+                        "pass": "pass-1",
+                        "score": 14.2
+                    },
+                    {
+                        "error": 5.9,
+                        "pass": "mean-score",
+                        "score": 14.2
+                    }
+                ]
+            },
+            {
+                "model": {
+                    "_id": "NAciSVwSmWIjTOVlvdcGns",
+                    "company": null,
+                    "descriptors": null,
+                    "effort": "high",
+                    "modelId": "minimax-m2-7",
+                    "modelName": "MiniMax-M2.7",
+                    "provider": {
+                        "colorFrom": "#ffb9c5",
+                        "colorTo": "#ff5371",
+                        "colorVia": null,
+                        "logo": "https://cdn.sanity.io/images/h6s14f4z/production/e230cc3be938804212b18e376dad70671df5c8cd-17x14.svg",
+                        "name": "MiniMax",
+                        "providerId": "minimax"
+                    },
+                    "releaseDate": null
+                },
+                "nSamples": 400,
+                "passScores": [
+                    {
+                        "error": 0.7,
+                        "pass": "pass-1",
+                        "score": 0.5
+                    },
+                    {
+                        "error": 0.7,
+                        "pass": "mean-score",
+                        "score": 0.5
+                    }
+                ]
+            },
+            {
+                "model": {
+                    "_id": "UohOeKbgohNmjusgcidPoR",
+                    "company": null,
+                    "descriptors": null,
+                    "effort": "high",
+                    "modelId": "minimax-m3",
+                    "modelName": "MiniMax-M3",
+                    "provider": {
+                        "colorFrom": "#ffb9c5",
+                        "colorTo": "#ff5371",
+                        "colorVia": null,
+                        "logo": "https://cdn.sanity.io/images/h6s14f4z/production/e230cc3be938804212b18e376dad70671df5c8cd-17x14.svg",
+                        "name": "MiniMax",
+                        "providerId": "minimax"
+                    },
+                    "releaseDate": null
+                },
+                "nSamples": 400,
+                "passScores": [
+                    {
+                        "error": 3.7,
+                        "pass": "pass-1",
+                        "score": 7.7
+                    },
+                    {
+                        "error": 3.7,
+                        "pass": "mean-score",
+                        "score": 7.7
+                    }
+                ]
+            },
+            {
+                "model": {
+                    "_id": "15db1be8-dd58-4bef-98ca-bc4816acd920",
+                    "company": null,
+                    "descriptors": null,
+                    "effort": "xhigh",
+                    "modelId": "gpt-5-6-sol-xhigh",
+                    "modelName": "GPT-5.6 Sol",
+                    "provider": {
+                        "colorFrom": "#ffd900",
+                        "colorTo": "#ffb814",
+                        "colorVia": null,
+                        "logo": "https://cdn.sanity.io/images/h6s14f4z/production/d0157b817dd39b0eeb64cd582258759f8577ce42-20x20.svg",
+                        "name": "OpenAI",
+                        "providerId": "gpt"
+                    },
+                    "releaseDate": "2026-07-09"
+                },
+                "nSamples": 400,
+                "passScores": [
+                    {
+                        "error": 7.6,
+                        "pass": "pass-1",
+                        "score": 32.3
+                    },
+                    {
+                        "error": 7.6,
+                        "pass": "mean-score",
+                        "score": 32.3
+                    }
+                ]
+            },
+            {
+                "model": {
+                    "_id": "0c5e0d8b-1601-4380-b522-595816dc5f2a",
+                    "company": null,
+                    "descriptors": null,
+                    "effort": "max",
+                    "modelId": "claude-opus-5",
+                    "modelName": "Opus 5",
+                    "provider": {
+                        "colorFrom": "#ff9b5e",
+                        "colorTo": "#ea6234",
+                        "colorVia": null,
+                        "logo": "https://cdn.sanity.io/images/h6s14f4z/production/6f898fa35f2eb8458e60c6dd43a1dc553b0a5674-20x20.svg",
+                        "name": "Anthropic",
+                        "providerId": "claude"
+                    },
+                    "releaseDate": "2026-07-24"
+                },
+                "nSamples": 400,
+                "passScores": [
+                    {
+                        "error": 8,
+                        "pass": "pass-1",
+                        "score": 44
+                    },
+                    {
+                        "error": 8,
+                        "pass": "mean-score",
+                        "score": 44
+                    }
+                ]
+            },
+            {
+                "model": {
+                    "_id": "9c00a5f9-5593-4402-a744-027545a6abfc",
+                    "company": "claude",
+                    "descriptors": null,
+                    "effort": "max",
+                    "modelId": "claude-opus-4-7",
+                    "modelName": "Opus 4.7",
+                    "provider": {
+                        "colorFrom": "#ff9b5e",
+                        "colorTo": "#ea6234",
+                        "colorVia": null,
+                        "logo": "https://cdn.sanity.io/images/h6s14f4z/production/6f898fa35f2eb8458e60c6dd43a1dc553b0a5674-20x20.svg",
+                        "name": "Anthropic",
+                        "providerId": "claude"
+                    },
+                    "releaseDate": "2026-04-16"
+                },
+                "nSamples": 400,
+                "passScores": [
+                    {
+                        "error": 5,
+                        "pass": "pass-1",
+                        "score": 14.2
+                    },
+                    {
+                        "error": 5,
+                        "pass": "mean-score",
+                        "score": 14.2
+                    }
+                ]
+            },
+            {
+                "model": {
+                    "_id": "2zbSlM3OBmWfM8O6fBZmSp",
+                    "company": null,
+                    "descriptors": null,
+                    "effort": "high",
+                    "modelId": "claude-fable-5-high",
+                    "modelName": "Fable 5",
+                    "provider": {
+                        "colorFrom": "#ff9b5e",
+                        "colorTo": "#ea6234",
+                        "colorVia": null,
+                        "logo": "https://cdn.sanity.io/images/h6s14f4z/production/6f898fa35f2eb8458e60c6dd43a1dc553b0a5674-20x20.svg",
+                        "name": "Anthropic",
+                        "providerId": "claude"
+                    },
+                    "releaseDate": "2026-06-09"
+                },
+                "nSamples": 400,
+                "passScores": [
+                    {
+                        "error": 8,
+                        "pass": "pass-1",
+                        "score": 44.5
+                    },
+                    {
+                        "error": 8,
+                        "pass": "mean-score",
+                        "score": 44.5
+                    }
+                ]
+            },
+            {
+                "model": {
+                    "_id": "32d4ac7f-3e3d-4834-945c-9953e1e70e4c",
+                    "company": null,
+                    "descriptors": null,
+                    "effort": "max",
+                    "modelId": "claude-opus-4-8",
+                    "modelName": "Opus 4.8",
+                    "provider": {
+                        "colorFrom": "#ff9b5e",
+                        "colorTo": "#ea6234",
+                        "colorVia": null,
+                        "logo": "https://cdn.sanity.io/images/h6s14f4z/production/6f898fa35f2eb8458e60c6dd43a1dc553b0a5674-20x20.svg",
+                        "name": "Anthropic",
+                        "providerId": "claude"
+                    },
+                    "releaseDate": "2026-05-28"
+                },
+                "nSamples": 400,
+                "passScores": [
+                    {
+                        "error": 6.9,
+                        "pass": "pass-1",
+                        "score": 30
+                    },
+                    {
+                        "error": 6.9,
+                        "pass": "mean-score",
+                        "score": 30
+                    }
+                ]
+            },
+            {
+                "model": {
+                    "_id": "a3c3577b-7c1d-46cc-a847-69447e6490c1",
+                    "company": null,
+                    "descriptors": null,
+                    "effort": "high",
+                    "modelId": "claude-sonnet-4-6-high",
+                    "modelName": "Sonnet 4.6",
+                    "provider": {
+                        "colorFrom": "#ff9b5e",
+                        "colorTo": "#ea6234",
+                        "colorVia": null,
+                        "logo": "https://cdn.sanity.io/images/h6s14f4z/production/6f898fa35f2eb8458e60c6dd43a1dc553b0a5674-20x20.svg",
+                        "name": "Anthropic",
+                        "providerId": "claude"
+                    },
+                    "releaseDate": "2026-02-17"
+                },
+                "nSamples": 400,
+                "passScores": [
+                    {
+                        "error": 5.3,
+                        "pass": "pass-1",
+                        "score": 14.2
+                    },
+                    {
+                        "error": 5.3,
+                        "pass": "mean-score",
+                        "score": 14.2
+                    }
+                ]
+            },
+            {
+                "model": {
+                    "_id": "UohOeKbgohNmjusgciidWB",
+                    "company": null,
+                    "descriptors": null,
+                    "effort": "max",
+                    "modelId": "claude-sonnet-5-max",
+                    "modelName": "Sonnet 5",
+                    "provider": {
+                        "colorFrom": "#ff9b5e",
+                        "colorTo": "#ea6234",
+                        "colorVia": null,
+                        "logo": "https://cdn.sanity.io/images/h6s14f4z/production/6f898fa35f2eb8458e60c6dd43a1dc553b0a5674-20x20.svg",
+                        "name": "Anthropic",
+                        "providerId": "claude"
+                    },
+                    "releaseDate": "2026-06-30"
+                },
+                "nSamples": 400,
+                "passScores": [
+                    {
+                        "error": 6,
+                        "pass": "pass-1",
+                        "score": 19
+                    },
+                    {
+                        "error": 6,
+                        "pass": "mean-score",
+                        "score": 19
+                    }
+                ]
+            },
+            {
+                "model": {
+                    "_id": "b2945249-5d1a-4da1-983b-eeed84589795",
+                    "company": null,
+                    "descriptors": null,
+                    "effort": null,
+                    "modelId": "deepseek-ai/DeepSeek-V3.2",
+                    "modelName": "DeepSeek-V3.2",
+                    "provider": {
+                        "colorFrom": "#b8c4ff",
+                        "colorTo": "#6882ff",
+                        "colorVia": null,
+                        "logo": "https://cdn.sanity.io/images/h6s14f4z/production/ff33d5e41c990bfae7566b9adb61924b766d2bb8-20x20.svg",
+                        "name": "DeepSeek",
+                        "providerId": "deepseek"
+                    },
+                    "releaseDate": "2025-12-01"
+                },
+                "nSamples": 400,
+                "passScores": [
+                    {
+                        "error": 2.9,
+                        "pass": "pass-1",
+                        "score": 3.3
+                    },
+                    {
+                        "error": 2.9,
+                        "pass": "mean-score",
+                        "score": 3.3
+                    }
+                ]
+            },
+            {
+                "model": {
+                    "_id": "UohOeKbgohNmjusgcihhVn",
+                    "company": null,
+                    "descriptors": null,
+                    "effort": "max",
+                    "modelId": "deepseek-v4-pro",
+                    "modelName": "DeepSeek-V4-Pro",
+                    "provider": {
+                        "colorFrom": "#b8c4ff",
+                        "colorTo": "#6882ff",
+                        "colorVia": null,
+                        "logo": "https://cdn.sanity.io/images/h6s14f4z/production/ff33d5e41c990bfae7566b9adb61924b766d2bb8-20x20.svg",
+                        "name": "DeepSeek",
+                        "providerId": "deepseek"
+                    },
+                    "releaseDate": "2026-04-23"
+                },
+                "nSamples": 400,
+                "passScores": [
+                    {
+                        "error": 4,
+                        "pass": "pass-1",
+                        "score": 8.3
+                    },
+                    {
+                        "error": 4,
+                        "pass": "mean-score",
+                        "score": 8.3
+                    }
+                ]
+            },
+            {
+                "model": {
+                    "_id": "cVrkQw9RUFqXFdt7sJc9MM",
+                    "company": null,
+                    "descriptors": null,
+                    "effort": "max",
+                    "modelId": "deepseek-v4-pro-08-13",
+                    "modelName": "DeepSeek-V4-Pro-0813",
+                    "provider": {
+                        "colorFrom": "#b8c4ff",
+                        "colorTo": "#6882ff",
+                        "colorVia": null,
+                        "logo": "https://cdn.sanity.io/images/h6s14f4z/production/ff33d5e41c990bfae7566b9adb61924b766d2bb8-20x20.svg",
+                        "name": "DeepSeek",
+                        "providerId": "deepseek"
+                    },
+                    "releaseDate": "2026-08-13"
+                },
+                "nSamples": 400,
+                "passScores": [
+                    {
+                        "error": 6.9,
+                        "pass": "pass-1",
+                        "score": 27
+                    },
+                    {
+                        "error": 6.9,
+                        "pass": "mean-score",
+                        "score": 27
+                    }
+                ]
+            },
+            {
+                "model": {
+                    "_id": "7f62f16f-5e81-43ea-a459-717189b1eb0a",
+                    "company": null,
+                    "descriptors": null,
+                    "effort": "high",
+                    "modelId": "gemini-3.5-flash",
+                    "modelName": "Gemini 3.5 Flash",
+                    "provider": {
+                        "colorFrom": "#8eb7ff",
+                        "colorTo": "#468aff",
+                        "colorVia": null,
+                        "logo": "https://cdn.sanity.io/images/h6s14f4z/production/a1acc8dde3315d66c95f7b6bc705df1e05757018-20x20.svg",
+                        "name": "Google",
+                        "providerId": "google"
+                    },
+                    "releaseDate": "2026-05-19"
+                },
+                "nSamples": 400,
+                "passScores": [
+                    {
+                        "error": 0.9,
+                        "pass": "pass-1",
+                        "score": 0.7
+                    },
+                    {
+                        "error": 0.9,
+                        "pass": "mean-score",
+                        "score": 0.7
+                    }
+                ]
+            },
+            {
+                "model": {
+                    "_id": "839babe2-d33d-463a-ae5b-a2102c6323f7",
+                    "company": null,
+                    "descriptors": null,
+                    "effort": "high",
+                    "modelId": "gemini-3.1-pro-preview-high",
+                    "modelName": "Gemini 3.1 Pro",
+                    "provider": {
+                        "colorFrom": "#8eb7ff",
+                        "colorTo": "#468aff",
+                        "colorVia": null,
+                        "logo": "https://cdn.sanity.io/images/h6s14f4z/production/a1acc8dde3315d66c95f7b6bc705df1e05757018-20x20.svg",
+                        "name": "Google",
+                        "providerId": "google"
+                    },
+                    "releaseDate": "2026-02-19"
+                },
+                "nSamples": 400,
+                "passScores": [
+                    {
+                        "error": 4.5,
+                        "pass": "pass-1",
+                        "score": 10.7
+                    },
+                    {
+                        "error": 4.5,
+                        "pass": "mean-score",
+                        "score": 10.7
+                    }
+                ]
+            },
+            {
+                "model": {
+                    "_id": "878e0bf3-57fb-4982-b61b-10174e4cea24",
+                    "company": null,
+                    "descriptors": null,
+                    "effort": "high",
+                    "modelId": "gemini-3.6-flash",
+                    "modelName": "Gemini 3.6 Flash",
+                    "provider": {
+                        "colorFrom": "#8eb7ff",
+                        "colorTo": "#468aff",
+                        "colorVia": null,
+                        "logo": "https://cdn.sanity.io/images/h6s14f4z/production/a1acc8dde3315d66c95f7b6bc705df1e05757018-20x20.svg",
+                        "name": "Google",
+                        "providerId": "google"
+                    },
+                    "releaseDate": "2026-07-21"
+                },
+                "nSamples": 400,
+                "passScores": [
+                    {
+                        "error": 5,
+                        "pass": "pass-1",
+                        "score": 13.8
+                    },
+                    {
+                        "error": 5,
+                        "pass": "mean-score",
+                        "score": 13.8
+                    }
+                ]
+            },
+            {
+                "model": {
+                    "_id": "FhdzFh8Qul2l86kjUjd1QC",
+                    "company": null,
+                    "descriptors": null,
+                    "effort": "high",
+                    "modelId": "gemini-3.7-flash",
+                    "modelName": "Gemini 3.7 Flash",
+                    "provider": {
+                        "colorFrom": "#8eb7ff",
+                        "colorTo": "#468aff",
+                        "colorVia": null,
+                        "logo": "https://cdn.sanity.io/images/h6s14f4z/production/a1acc8dde3315d66c95f7b6bc705df1e05757018-20x20.svg",
+                        "name": "Google",
+                        "providerId": "google"
+                    },
+                    "releaseDate": "2026-08-13"
+                },
+                "nSamples": 400,
+                "passScores": [
+                    {
+                        "error": 6.9,
+                        "pass": "pass-1",
+                        "score": 25.5
+                    },
+                    {
+                        "error": 6.9,
+                        "pass": "mean-score",
+                        "score": 25.5
+                    }
+                ]
+            },
+            {
+                "model": {
+                    "_id": "d5710a5d-6dbd-4bd0-866c-36bfdf4103dc",
+                    "company": null,
+                    "descriptors": null,
+                    "effort": "xhigh",
+                    "modelId": "responses/gpt-5.4",
+                    "modelName": "GPT-5.4",
+                    "provider": {
+                        "colorFrom": "#ffd900",
+                        "colorTo": "#ffb814",
+                        "colorVia": null,
+                        "logo": "https://cdn.sanity.io/images/h6s14f4z/production/d0157b817dd39b0eeb64cd582258759f8577ce42-20x20.svg",
+                        "name": "OpenAI",
+                        "providerId": "gpt"
+                    },
+                    "releaseDate": "2026-03-05"
+                },
+                "nSamples": 400,
+                "passScores": [
+                    {
+                        "error": 5.4,
+                        "pass": "pass-1",
+                        "score": 14
+                    },
+                    {
+                        "error": 5.4,
+                        "pass": "mean-score",
+                        "score": 14
+                    }
+                ]
+            },
+            {
+                "model": {
+                    "_id": "f4fc438e-9f7d-406d-802b-1c0cd837bb4c",
+                    "company": null,
+                    "descriptors": null,
+                    "effort": "max",
+                    "modelId": "deepseek-v4-flash",
+                    "modelName": "DeepSeek-V4-Flash",
+                    "provider": {
+                        "colorFrom": "#b8c4ff",
+                        "colorTo": "#6882ff",
+                        "colorVia": null,
+                        "logo": "https://cdn.sanity.io/images/h6s14f4z/production/ff33d5e41c990bfae7566b9adb61924b766d2bb8-20x20.svg",
+                        "name": "DeepSeek",
+                        "providerId": "deepseek"
+                    },
+                    "releaseDate": "2026-07-31"
+                },
+                "nSamples": 400,
+                "passScores": [
+                    {
+                        "error": 6.5,
+                        "pass": "pass-1",
+                        "score": 22
+                    },
+                    {
+                        "error": 6.5,
+                        "pass": "mean-score",
+                        "score": 22
+                    }
+                ]
+            },
+            {
+                "model": {
+                    "_id": "OWQLnPQUqDBNbIeXTwFbr8",
+                    "company": null,
+                    "descriptors": null,
+                    "effort": "xhigh",
+                    "modelId": "qwen-3-8-max-xhigh",
+                    "modelName": "Qwen3.8-Max",
+                    "provider": {
+                        "colorFrom": "#c1bcff",
+                        "colorTo": "#766bff",
+                        "colorVia": null,
+                        "logo": "https://cdn.sanity.io/images/h6s14f4z/production/86b12c706a7eab193bb495dc072c98564d5a841d-20x20.svg",
+                        "name": "Alibaba",
+                        "providerId": "alibaba"
+                    },
+                    "releaseDate": "2026-08-02"
+                },
+                "nSamples": 400,
+                "passScores": [
+                    {
+                        "error": 6,
+                        "pass": "pass-1",
+                        "score": 21.5
+                    },
+                    {
+                        "error": 6,
+                        "pass": "mean-score",
+                        "score": 21.5
+                    }
+                ]
+            },
+            {
+                "model": {
+                    "_id": "rXV6uHApUz4KWEoFnjIUWr",
+                    "company": null,
+                    "descriptors": null,
+                    "effort": "xhigh",
+                    "modelId": "grok-4-6-xhigh",
+                    "modelName": "Grok 4.6",
+                    "provider": {
+                        "colorFrom": "#e2e2e2",
+                        "colorTo": "#767676",
+                        "colorVia": null,
+                        "logo": "https://cdn.sanity.io/images/h6s14f4z/production/b16de16ffcb7238e086ea99505637838caa37afc-20x20.svg",
+                        "name": "xAI",
+                        "providerId": "xai"
+                    },
+                    "releaseDate": "2026-08-12"
+                },
+                "nSamples": 400,
+                "passScores": [
+                    {
+                        "error": 6.6,
+                        "pass": "pass-1",
+                        "score": 21.5
+                    },
+                    {
+                        "error": 6.6,
+                        "pass": "mean-score",
+                        "score": 21.5
+                    }
+                ]
+            },
+            {
+                "model": {
+                    "_id": "FpgS21bgw2I3VNplb8tObs",
+                    "company": null,
+                    "descriptors": null,
+                    "effort": "max",
+                    "modelId": "deepseek-v4-1-flash",
+                    "modelName": "DeepSeek-V4.1-Flash",
+                    "provider": {
+                        "colorFrom": "#b8c4ff",
+                        "colorTo": "#6882ff",
+                        "colorVia": null,
+                        "logo": "https://cdn.sanity.io/images/h6s14f4z/production/ff33d5e41c990bfae7566b9adb61924b766d2bb8-20x20.svg",
+                        "name": "DeepSeek",
+                        "providerId": "deepseek"
+                    },
+                    "releaseDate": "2026-09-09"
+                },
+                "nSamples": 186,
+                "passScores": [
+                    {
+                        "error": 9.3,
+                        "pass": "pass-1",
+                        "score": 48.2
+                    },
+                    {
+                        "error": 9.3,
+                        "pass": "mean-score",
+                        "score": 48.2
+                    }
+                ]
+            },
+            {
+                "model": {
+                    "_id": "FwIXcKGbnc0ALnAVPQ73IV",
+                    "company": null,
+                    "descriptors": null,
+                    "effort": "max",
+                    "modelId": "gpt-6-luna",
+                    "modelName": "GPT-6 Luna",
+                    "provider": {
+                        "colorFrom": "#ffd900",
+                        "colorTo": "#ffb814",
+                        "colorVia": null,
+                        "logo": "https://cdn.sanity.io/images/h6s14f4z/production/d0157b817dd39b0eeb64cd582258759f8577ce42-20x20.svg",
+                        "name": "OpenAI",
+                        "providerId": "gpt"
+                    },
+                    "releaseDate": "2026-09-22"
+                },
+                "nSamples": 400,
+                "passScores": [
+                    {
+                        "error": 8.9,
+                        "pass": "pass-1",
+                        "score": 47.2
+                    },
+                    {
+                        "error": 8.9,
+                        "pass": "mean-score",
+                        "score": 47.2
+                    }
+                ]
+            },
+            {
+                "model": {
+                    "_id": "sXAOucYh4ND7hTHZiC0sRZ",
+                    "company": null,
+                    "descriptors": null,
+                    "effort": "max",
+                    "modelId": "gpt-6-sol",
+                    "modelName": "GPT-6 Sol",
+                    "provider": {
+                        "colorFrom": "#ffd900",
+                        "colorTo": "#ffb814",
+                        "colorVia": null,
+                        "logo": "https://cdn.sanity.io/images/h6s14f4z/production/d0157b817dd39b0eeb64cd582258759f8577ce42-20x20.svg",
+                        "name": "OpenAI",
+                        "providerId": "gpt"
+                    },
+                    "releaseDate": "2026-09-22"
+                },
+                "nSamples": 400,
+                "passScores": [
+                    {
+                        "error": 8.3,
+                        "pass": "pass-1",
+                        "score": 63.2
+                    },
+                    {
+                        "error": 8.3,
+                        "pass": "mean-score",
+                        "score": 63.2
+                    }
+                ]
+            },
+            {
+                "model": {
+                    "_id": "FwIXcKGbnc0ALnAVPNmxfQ",
+                    "company": null,
+                    "descriptors": null,
+                    "effort": "max",
+                    "modelId": "claude-opus-5-5",
+                    "modelName": "Opus 5.5",
+                    "provider": {
+                        "colorFrom": "#ff9b5e",
+                        "colorTo": "#ea6234",
+                        "colorVia": null,
+                        "logo": "https://cdn.sanity.io/images/h6s14f4z/production/6f898fa35f2eb8458e60c6dd43a1dc553b0a5674-20x20.svg",
+                        "name": "Anthropic",
+                        "providerId": "claude"
+                    },
+                    "releaseDate": "2026-09-22"
+                },
+                "nSamples": 400,
+                "passScores": [
+                    {
+                        "error": 8.4,
+                        "pass": "pass-1",
+                        "score": 60.5
+                    },
+                    {
+                        "error": 8.4,
+                        "pass": "mean-score",
+                        "score": 60.5
+                    }
+                ]
+            },
+            {
+                "model": {
+                    "_id": "331r9LTHpoLfChrVY8HGE3",
+                    "company": null,
+                    "descriptors": null,
+                    "effort": "max",
+                    "modelId": "claude-sonnet-5-5",
+                    "modelName": "Sonnet 5.5",
+                    "provider": {
+                        "colorFrom": "#ff9b5e",
+                        "colorTo": "#ea6234",
+                        "colorVia": null,
+                        "logo": "https://cdn.sanity.io/images/h6s14f4z/production/6f898fa35f2eb8458e60c6dd43a1dc553b0a5674-20x20.svg",
+                        "name": "Anthropic",
+                        "providerId": "claude"
+                    },
+                    "releaseDate": null
+                },
+                "nSamples": 338,
+                "passScores": [
+                    {
+                        "error": 8.1,
+                        "pass": "pass-1",
+                        "score": 73
+                    },
+                    {
+                        "error": 8.1,
+                        "pass": "mean-score",
+                        "score": 73
+                    }
+                ]
+            },
+            {
+                "model": {
+                    "_id": "czbC94OhwAuPY9WPtpIaZZ",
+                    "company": null,
+                    "descriptors": null,
+                    "effort": "max",
+                    "modelId": "claude-fable-5.1",
+                    "modelName": "Fable 5.1",
+                    "provider": {
+                        "colorFrom": "#ff9b5e",
+                        "colorTo": "#ea6234",
+                        "colorVia": null,
+                        "logo": "https://cdn.sanity.io/images/h6s14f4z/production/6f898fa35f2eb8458e60c6dd43a1dc553b0a5674-20x20.svg",
+                        "name": "Anthropic",
+                        "providerId": "claude"
+                    },
+                    "releaseDate": "2026-09-01"
+                },
+                "nSamples": 377,
+                "passScores": [
+                    {
+                        "error": 8.5,
+                        "pass": "pass-1",
+                        "score": 63.3
+                    },
+                    {
+                        "error": 8.5,
+                        "pass": "mean-score",
+                        "score": 63.3
+                    }
+                ]
+            },
+            {
+                "model": {
+                    "_id": "WWzzLHZkjbvI25zYheECpG",
+                    "company": null,
+                    "descriptors": null,
+                    "effort": "max",
+                    "modelId": "gpt-6-1-sol",
+                    "modelName": "GPT-6.1 Sol",
+                    "provider": {
+                        "colorFrom": "#ffd900",
+                        "colorTo": "#ffb814",
+                        "colorVia": null,
+                        "logo": "https://cdn.sanity.io/images/h6s14f4z/production/d0157b817dd39b0eeb64cd582258759f8577ce42-20x20.svg",
+                        "name": "OpenAI",
+                        "providerId": "gpt"
+                    },
+                    "releaseDate": "2026-09-29"
+                },
+                "nSamples": 400,
+                "passScores": [
+                    {
+                        "error": 8.1,
+                        "pass": "pass-1",
+                        "score": 67.7
+                    },
+                    {
+                        "error": 8.1,
+                        "pass": "mean-score",
+                        "score": 67.7
+                    }
+                ]
+            },
+            {
+                "model": {
+                    "_id": "976efCaf0nN4uyJqDJns3v",
+                    "company": null,
+                    "descriptors": null,
+                    "effort": "high",
+                    "modelId": "gemini-3.8-flash",
+                    "modelName": "Gemini 3.8 Flash",
+                    "provider": {
+                        "colorFrom": "#8eb7ff",
+                        "colorTo": "#468aff",
+                        "colorVia": null,
+                        "logo": "https://cdn.sanity.io/images/h6s14f4z/production/a1acc8dde3315d66c95f7b6bc705df1e05757018-20x20.svg",
+                        "name": "Google",
+                        "providerId": "google"
+                    },
+                    "releaseDate": "2026-09-02"
+                },
+                "nSamples": 399,
+                "passScores": [
+                    {
+                        "error": 8.4,
+                        "pass": "pass-1",
+                        "score": 41.5
+                    },
+                    {
+                        "error": 8.4,
+                        "pass": "mean-score",
+                        "score": 41.5
+                    }
+                ]
+            },
+            {
+                "model": {
+                    "_id": "JUJ76Jeotj8XRslslwICk2",
+                    "company": null,
+                    "descriptors": null,
+                    "effort": "xhigh",
+                    "modelId": "muse-spark-1-2",
+                    "modelName": "Muse Spark 1.2",
+                    "provider": {
+                        "colorFrom": "#7cd3ff",
+                        "colorTo": "#3281ee",
+                        "colorVia": null,
+                        "logo": "https://cdn.sanity.io/images/h6s14f4z/production/9acfeac811b8266d47c46a63b3ce28b22491dfaf-20x20.svg",
+                        "name": "Meta",
+                        "providerId": "meta"
+                    },
+                    "releaseDate": "2026-08-05"
+                },
+                "nSamples": 389,
+                "passScores": [
+                    {
+                        "error": 7.8,
+                        "pass": "pass-1",
+                        "score": 32.5
+                    },
+                    {
+                        "error": 7.8,
+                        "pass": "mean-score",
+                        "score": 32.5
+                    }
+                ]
+            },
+            {
+                "model": {
+                    "_id": "NPK5uFSBckNMMDqpCmjlf3",
+                    "company": null,
+                    "descriptors": null,
+                    "effort": "xhigh",
+                    "modelId": "grok-4.7",
+                    "modelName": "Grok 4.7",
+                    "provider": {
+                        "colorFrom": "#e2e2e2",
+                        "colorTo": "#767676",
+                        "colorVia": null,
+                        "logo": "https://cdn.sanity.io/images/h6s14f4z/production/b16de16ffcb7238e086ea99505637838caa37afc-20x20.svg",
+                        "name": "xAI",
+                        "providerId": "xai"
+                    },
+                    "releaseDate": "2026-09-21"
+                },
+                "nSamples": 398,
+                "passScores": [
+                    {
+                        "error": 8,
+                        "pass": "pass-1",
+                        "score": 39.5
+                    },
+                    {
+                        "error": 8,
+                        "pass": "mean-score",
+                        "score": 39.5
+                    }
+                ]
+            },
+            {
+                "model": {
+                    "_id": "isvxExfKGAZ4WMrYLuZN2o",
+                    "company": null,
+                    "descriptors": null,
+                    "effort": "max",
+                    "modelId": "glm-5-2",
+                    "modelName": "GLM-5.2",
+                    "provider": {
+                        "colorFrom": "#e2e2e2",
+                        "colorTo": "#848484",
+                        "colorVia": null,
+                        "logo": "https://cdn.sanity.io/images/h6s14f4z/production/aa7bca59e8147d8872f46859bb6ec753845106cc-20x20.svg",
+                        "name": "Zhipu",
+                        "providerId": "zhipu"
+                    },
+                    "releaseDate": "2026-06-16"
+                },
+                "nSamples": 394,
+                "passScores": [
+                    {
+                        "error": 6.1,
+                        "pass": "pass-1",
+                        "score": 23
+                    },
+                    {
+                        "error": 6.1,
+                        "pass": "mean-score",
+                        "score": 23
+                    }
+                ]
+            },
+            {
+                "model": {
+                    "_id": "WIfJeImXG63qVgIPsb0kVZ",
+                    "company": null,
+                    "descriptors": null,
+                    "effort": "max",
+                    "modelId": "claude-haiku-5-5",
+                    "modelName": "Haiku 5.5",
+                    "provider": {
+                        "colorFrom": "#ff9b5e",
+                        "colorTo": "#ea6234",
+                        "colorVia": null,
+                        "logo": "https://cdn.sanity.io/images/h6s14f4z/production/6f898fa35f2eb8458e60c6dd43a1dc553b0a5674-20x20.svg",
+                        "name": "Anthropic",
+                        "providerId": "claude"
+                    },
+                    "releaseDate": null
+                },
+                "nSamples": 396,
+                "passScores": [
+                    {
+                        "error": 7.2,
+                        "pass": "pass-1",
+                        "score": 27.5
+                    },
+                    {
+                        "error": 7.2,
+                        "pass": "mean-score",
+                        "score": 27.5
+                    }
+                ]
+            }
+        ],
+        "isReady": true,
+        "isUnlisted": null,
+        "kind": "mercor-extended",
+        "leaderboardDescription": null,
+        "leaderboardHeading": null,
+        "leaderboardKey": "ots-held-out-browsecomp-leaderboard",
+        "mercorTaskCount": 100,
+        "pageSubtitle": "Persistent web research and information discovery.",
+        "pageTitle": null,
+        "paperLink": "https://arxiv.org/abs/2504.12516",
+        "partner": null,
+        "publicTaskCount": 130,
+        "sampleTaskLink": null,
+        "seoDescription": null,
+        "seoTitle": null,
+        "stats": null
+    },
+    "leaderboardData": [
+        {
+            "model_name": "GPT-5.5",
+            "model_id": "gpt-5.5-xhigh",
+            "score": {
+                "pass-1": 19,
+                "mean-score": 19
+            },
+            "error": {
+                "pass-1": 6,
+                "mean-score": 6
+            },
+            "original_score": {
+                "pass-1": 77.7,
+                "mean-score": 77.7
+            },
+            "original_error": {
+                "pass-1": 5.8,
+                "mean-score": 5.8
+            },
+            "effort": "xhigh",
+            "company": "gpt",
+            "logoUrl": "https://cdn.sanity.io/images/h6s14f4z/production/d0157b817dd39b0eeb64cd582258759f8577ce42-20x20.svg",
+            "darkLogoUrl": null,
+            "providerColorTo": "#ffb814",
+            "providerName": "OpenAI",
+            "gradientStyle": "linear-gradient(to right, #ffd900, #ffb814)",
+            "release_date": "2026-04-23",
+            "n_samples": 400
+        },
+        {
+            "model_name": "GPT-5.6 Luna",
+            "model_id": "gpt-5.6-luna-max",
+            "score": {
+                "pass-1": 16.5,
+                "mean-score": 16.5
+            },
+            "error": {
+                "pass-1": 5.9,
+                "mean-score": 5.9
+            },
+            "original_score": {
+                "pass-1": 83.8,
+                "mean-score": 83.8
+            },
+            "original_error": {
+                "pass-1": 5.4,
+                "mean-score": 5.4
+            },
+            "effort": "max",
+            "company": "gpt",
+            "logoUrl": "https://cdn.sanity.io/images/h6s14f4z/production/d0157b817dd39b0eeb64cd582258759f8577ce42-20x20.svg",
+            "darkLogoUrl": null,
+            "providerColorTo": "#ffb814",
+            "providerName": "OpenAI",
+            "gradientStyle": "linear-gradient(to right, #ffd900, #ffb814)",
+            "release_date": "2026-07-09",
+            "n_samples": 400
+        },
+        {
+            "model_name": "GPT-5.6 Terra",
+            "model_id": "gpt-5.6-terra-max",
+            "score": {
+                "pass-1": 25.3,
+                "mean-score": 25.3
+            },
+            "error": {
+                "pass-1": 6.8,
+                "mean-score": 6.8
+            },
+            "original_score": {
+                "pass-1": 85.8,
+                "mean-score": 85.8
+            },
+            "original_error": {
+                "pass-1": 5.2,
+                "mean-score": 5.2
+            },
+            "effort": "max",
+            "company": "gpt",
+            "logoUrl": "https://cdn.sanity.io/images/h6s14f4z/production/d0157b817dd39b0eeb64cd582258759f8577ce42-20x20.svg",
+            "darkLogoUrl": null,
+            "providerColorTo": "#ffb814",
+            "providerName": "OpenAI",
+            "gradientStyle": "linear-gradient(to right, #ffd900, #ffb814)",
+            "release_date": "2026-07-09",
+            "n_samples": 400
+        },
+        {
+            "model_name": "Inkling",
+            "model_id": "inkling",
+            "score": {
+                "pass-1": 4.5,
+                "mean-score": 4.5
+            },
+            "error": {
+                "pass-1": 2.7,
+                "mean-score": 2.7
+            },
+            "original_score": {
+                "pass-1": 50.4,
+                "mean-score": 50.4
+            },
+            "original_error": {
+                "pass-1": 6.9,
+                "mean-score": 6.9
+            },
+            "effort": "high",
+            "company": "thinking-machines",
+            "logoUrl": "https://cdn.sanity.io/images/h6s14f4z/production/16834b49720d8d9d9cb700a60aa11689ec4bc27a-20x20.svg",
+            "darkLogoUrl": null,
+            "providerColorTo": "#A19696",
+            "providerName": "Thinking Machines",
+            "gradientStyle": "linear-gradient(to right, #D4CECE, #A19696)",
+            "release_date": "2026-07-15",
+            "n_samples": 400
+        },
+        {
+            "model_name": "Kimi K2.7 Code",
+            "model_id": "kimi-k2-7-code-high",
+            "score": {
+                "pass-1": 8,
+                "mean-score": 8
+            },
+            "error": {
+                "pass-1": 4,
+                "mean-score": 4
+            },
+            "original_score": {
+                "pass-1": 43.5,
+                "mean-score": 43.5
+            },
+            "original_error": {
+                "pass-1": 6.2,
+                "mean-score": 6.2
+            },
+            "effort": "high",
+            "company": "kimi",
+            "logoUrl": "https://cdn.sanity.io/images/h6s14f4z/production/ae0bd249960a1f6790b07a1d74b9275313bc427b-20x20.svg",
+            "darkLogoUrl": null,
+            "providerColorTo": "#7c94a5",
+            "providerName": "Kimi",
+            "gradientStyle": "linear-gradient(to right, #bdcfdc, #7c94a5)",
+            "release_date": "",
+            "n_samples": 400
+        },
+        {
+            "model_name": "Kimi K3",
+            "model_id": "kimi-k3",
+            "score": {
+                "pass-1": 28.5,
+                "mean-score": 28.5
+            },
+            "error": {
+                "pass-1": 6.9,
+                "mean-score": 6.9
+            },
+            "original_score": {
+                "pass-1": 89,
+                "mean-score": 89
+            },
+            "original_error": {
+                "pass-1": 4.4,
+                "mean-score": 4.4
+            },
+            "effort": "max",
+            "company": "kimi",
+            "logoUrl": "https://cdn.sanity.io/images/h6s14f4z/production/ae0bd249960a1f6790b07a1d74b9275313bc427b-20x20.svg",
+            "darkLogoUrl": null,
+            "providerColorTo": "#7c94a5",
+            "providerName": "Kimi",
+            "gradientStyle": "linear-gradient(to right, #bdcfdc, #7c94a5)",
+            "release_date": "2026-07-27",
+            "n_samples": 400
+        },
+        {
+            "model_name": "Grok 4.5",
+            "model_id": "grok-4-5",
+            "score": {
+                "pass-1": 14.2,
+                "mean-score": 14.2
+            },
+            "error": {
+                "pass-1": 5.9,
+                "mean-score": 5.9
+            },
+            "original_score": {
+                "pass-1": 75.8,
+                "mean-score": 75.8
+            },
+            "original_error": {
+                "pass-1": 6.1,
+                "mean-score": 6.1
+            },
+            "effort": "high",
+            "company": "xai",
+            "logoUrl": "https://cdn.sanity.io/images/h6s14f4z/production/b16de16ffcb7238e086ea99505637838caa37afc-20x20.svg",
+            "darkLogoUrl": null,
+            "providerColorTo": "#767676",
+            "providerName": "xAI",
+            "gradientStyle": "linear-gradient(to right, #e2e2e2, #767676)",
+            "release_date": "2026-07-08",
+            "n_samples": 400
+        },
+        {
+            "model_name": "MiniMax-M2.7",
+            "model_id": "minimax-m2-7",
+            "score": {
+                "pass-1": 0.5,
+                "mean-score": 0.5
+            },
+            "error": {
+                "pass-1": 0.7,
+                "mean-score": 0.7
+            },
+            "original_score": {
+                "pass-1": 38.3,
+                "mean-score": 38.3
+            },
+            "original_error": {
+                "pass-1": 7,
+                "mean-score": 7
+            },
+            "effort": "high",
+            "company": "minimax",
+            "logoUrl": "https://cdn.sanity.io/images/h6s14f4z/production/e230cc3be938804212b18e376dad70671df5c8cd-17x14.svg",
+            "darkLogoUrl": null,
+            "providerColorTo": "#ff5371",
+            "providerName": "MiniMax",
+            "gradientStyle": "linear-gradient(to right, #ffb9c5, #ff5371)",
+            "release_date": "",
+            "n_samples": 400
+        },
+        {
+            "model_name": "MiniMax-M3",
+            "model_id": "minimax-m3",
+            "score": {
+                "pass-1": 7.7,
+                "mean-score": 7.7
+            },
+            "error": {
+                "pass-1": 3.7,
+                "mean-score": 3.7
+            },
+            "original_score": {
+                "pass-1": 53.3,
+                "mean-score": 53.3
+            },
+            "original_error": {
+                "pass-1": 6.7,
+                "mean-score": 6.7
+            },
+            "effort": "high",
+            "company": "minimax",
+            "logoUrl": "https://cdn.sanity.io/images/h6s14f4z/production/e230cc3be938804212b18e376dad70671df5c8cd-17x14.svg",
+            "darkLogoUrl": null,
+            "providerColorTo": "#ff5371",
+            "providerName": "MiniMax",
+            "gradientStyle": "linear-gradient(to right, #ffb9c5, #ff5371)",
+            "release_date": "",
+            "n_samples": 400
+        },
+        {
+            "model_name": "GPT-5.6 Sol",
+            "model_id": "gpt-5-6-sol-xhigh",
+            "score": {
+                "pass-1": 32.3,
+                "mean-score": 32.3
+            },
+            "error": {
+                "pass-1": 7.6,
+                "mean-score": 7.6
+            },
+            "original_score": {
+                "pass-1": 90.6,
+                "mean-score": 90.6
+            },
+            "original_error": {
+                "pass-1": 4.4,
+                "mean-score": 4.4
+            },
+            "effort": "xhigh",
+            "company": "gpt",
+            "logoUrl": "https://cdn.sanity.io/images/h6s14f4z/production/d0157b817dd39b0eeb64cd582258759f8577ce42-20x20.svg",
+            "darkLogoUrl": null,
+            "providerColorTo": "#ffb814",
+            "providerName": "OpenAI",
+            "gradientStyle": "linear-gradient(to right, #ffd900, #ffb814)",
+            "release_date": "2026-07-09",
+            "n_samples": 400
+        },
+        {
+            "model_name": "Opus 5",
+            "model_id": "claude-opus-5",
+            "score": {
+                "pass-1": 44,
+                "mean-score": 44
+            },
+            "error": {
+                "pass-1": 8,
+                "mean-score": 8
+            },
+            "original_score": {
+                "pass-1": 84.6,
+                "mean-score": 84.6
+            },
+            "original_error": {
+                "pass-1": 5.1,
+                "mean-score": 5.1
+            },
+            "effort": "max",
+            "company": "claude",
+            "logoUrl": "https://cdn.sanity.io/images/h6s14f4z/production/6f898fa35f2eb8458e60c6dd43a1dc553b0a5674-20x20.svg",
+            "darkLogoUrl": null,
+            "providerColorTo": "#ea6234",
+            "providerName": "Anthropic",
+            "gradientStyle": "linear-gradient(to right, #ff9b5e, #ea6234)",
+            "release_date": "2026-07-24",
+            "n_samples": 400
+        },
+        {
+            "model_name": "Opus 4.7",
+            "model_id": "claude-opus-4-7",
+            "score": {
+                "pass-1": 14.2,
+                "mean-score": 14.2
+            },
+            "error": {
+                "pass-1": 5,
+                "mean-score": 5
+            },
+            "original_score": {
+                "pass-1": 60.6,
+                "mean-score": 60.6
+            },
+            "original_error": {
+                "pass-1": 7,
+                "mean-score": 7
+            },
+            "effort": "max",
+            "company": "claude",
+            "logoUrl": "https://cdn.sanity.io/images/h6s14f4z/production/6f898fa35f2eb8458e60c6dd43a1dc553b0a5674-20x20.svg",
+            "darkLogoUrl": null,
+            "providerColorTo": "#ea6234",
+            "providerName": "Anthropic",
+            "gradientStyle": "linear-gradient(to right, #ff9b5e, #ea6234)",
+            "release_date": "2026-04-16",
+            "n_samples": 400
+        },
+        {
+            "model_name": "Fable 5",
+            "model_id": "claude-fable-5-high",
+            "score": {
+                "pass-1": 44.5,
+                "mean-score": 44.5
+            },
+            "error": {
+                "pass-1": 8,
+                "mean-score": 8
+            },
+            "original_score": {
+                "pass-1": 82.5,
+                "mean-score": 82.5
+            },
+            "original_error": {
+                "pass-1": 5.6,
+                "mean-score": 5.6
+            },
+            "effort": "high",
+            "company": "claude",
+            "logoUrl": "https://cdn.sanity.io/images/h6s14f4z/production/6f898fa35f2eb8458e60c6dd43a1dc553b0a5674-20x20.svg",
+            "darkLogoUrl": null,
+            "providerColorTo": "#ea6234",
+            "providerName": "Anthropic",
+            "gradientStyle": "linear-gradient(to right, #ff9b5e, #ea6234)",
+            "release_date": "2026-06-09",
+            "n_samples": 400
+        },
+        {
+            "model_name": "Opus 4.8",
+            "model_id": "claude-opus-4-8",
+            "score": {
+                "pass-1": 30,
+                "mean-score": 30
+            },
+            "error": {
+                "pass-1": 6.9,
+                "mean-score": 6.9
+            },
+            "original_score": {
+                "pass-1": 73.7,
+                "mean-score": 73.7
+            },
+            "original_error": {
+                "pass-1": 6.2,
+                "mean-score": 6.2
+            },
+            "effort": "max",
+            "company": "claude",
+            "logoUrl": "https://cdn.sanity.io/images/h6s14f4z/production/6f898fa35f2eb8458e60c6dd43a1dc553b0a5674-20x20.svg",
+            "darkLogoUrl": null,
+            "providerColorTo": "#ea6234",
+            "providerName": "Anthropic",
+            "gradientStyle": "linear-gradient(to right, #ff9b5e, #ea6234)",
+            "release_date": "2026-05-28",
+            "n_samples": 400
+        },
+        {
+            "model_name": "Sonnet 4.6",
+            "model_id": "claude-sonnet-4-6-high",
+            "score": {
+                "pass-1": 14.2,
+                "mean-score": 14.2
+            },
+            "error": {
+                "pass-1": 5.3,
+                "mean-score": 5.3
+            },
+            "original_score": {
+                "pass-1": 56.7,
+                "mean-score": 56.7
+            },
+            "original_error": {
+                "pass-1": 7.2,
+                "mean-score": 7.2
+            },
+            "effort": "high",
+            "company": "claude",
+            "logoUrl": "https://cdn.sanity.io/images/h6s14f4z/production/6f898fa35f2eb8458e60c6dd43a1dc553b0a5674-20x20.svg",
+            "darkLogoUrl": null,
+            "providerColorTo": "#ea6234",
+            "providerName": "Anthropic",
+            "gradientStyle": "linear-gradient(to right, #ff9b5e, #ea6234)",
+            "release_date": "2026-02-17",
+            "n_samples": 400
+        },
+        {
+            "model_name": "Sonnet 5",
+            "model_id": "claude-sonnet-5-max",
+            "score": {
+                "pass-1": 19,
+                "mean-score": 19
+            },
+            "error": {
+                "pass-1": 6,
+                "mean-score": 6
+            },
+            "original_score": {
+                "pass-1": 68.7,
+                "mean-score": 68.7
+            },
+            "original_error": {
+                "pass-1": 6.4,
+                "mean-score": 6.4
+            },
+            "effort": "max",
+            "company": "claude",
+            "logoUrl": "https://cdn.sanity.io/images/h6s14f4z/production/6f898fa35f2eb8458e60c6dd43a1dc553b0a5674-20x20.svg",
+            "darkLogoUrl": null,
+            "providerColorTo": "#ea6234",
+            "providerName": "Anthropic",
+            "gradientStyle": "linear-gradient(to right, #ff9b5e, #ea6234)",
+            "release_date": "2026-06-30",
+            "n_samples": 400
+        },
+        {
+            "model_name": "DeepSeek-V3.2",
+            "model_id": "deepseek-ai/DeepSeek-V3.2",
+            "score": {
+                "pass-1": 3.3,
+                "mean-score": 3.3
+            },
+            "error": {
+                "pass-1": 2.9,
+                "mean-score": 2.9
+            },
+            "original_score": {
+                "pass-1": 38.1,
+                "mean-score": 38.1
+            },
+            "original_error": {
+                "pass-1": 7,
+                "mean-score": 7
+            },
+            "company": "deepseek",
+            "logoUrl": "https://cdn.sanity.io/images/h6s14f4z/production/ff33d5e41c990bfae7566b9adb61924b766d2bb8-20x20.svg",
+            "darkLogoUrl": null,
+            "providerColorTo": "#6882ff",
+            "providerName": "DeepSeek",
+            "gradientStyle": "linear-gradient(to right, #b8c4ff, #6882ff)",
+            "release_date": "2025-12-01",
+            "n_samples": 400
+        },
+        {
+            "model_name": "DeepSeek-V4-Pro",
+            "model_id": "deepseek-v4-pro",
+            "score": {
+                "pass-1": 8.3,
+                "mean-score": 8.3
+            },
+            "error": {
+                "pass-1": 4,
+                "mean-score": 4
+            },
+            "original_score": {
+                "pass-1": 62.3,
+                "mean-score": 62.3
+            },
+            "original_error": {
+                "pass-1": 6.4,
+                "mean-score": 6.4
+            },
+            "effort": "max",
+            "company": "deepseek",
+            "logoUrl": "https://cdn.sanity.io/images/h6s14f4z/production/ff33d5e41c990bfae7566b9adb61924b766d2bb8-20x20.svg",
+            "darkLogoUrl": null,
+            "providerColorTo": "#6882ff",
+            "providerName": "DeepSeek",
+            "gradientStyle": "linear-gradient(to right, #b8c4ff, #6882ff)",
+            "release_date": "2026-04-23",
+            "n_samples": 400
+        },
+        {
+            "model_name": "DeepSeek-V4-Pro-0813",
+            "model_id": "deepseek-v4-pro-08-13",
+            "score": {
+                "pass-1": 27,
+                "mean-score": 27
+            },
+            "error": {
+                "pass-1": 6.9,
+                "mean-score": 6.9
+            },
+            "original_score": {
+                "pass-1": 73.5,
+                "mean-score": 73.5
+            },
+            "original_error": {
+                "pass-1": 6,
+                "mean-score": 6
+            },
+            "effort": "max",
+            "company": "deepseek",
+            "logoUrl": "https://cdn.sanity.io/images/h6s14f4z/production/ff33d5e41c990bfae7566b9adb61924b766d2bb8-20x20.svg",
+            "darkLogoUrl": null,
+            "providerColorTo": "#6882ff",
+            "providerName": "DeepSeek",
+            "gradientStyle": "linear-gradient(to right, #b8c4ff, #6882ff)",
+            "release_date": "2026-08-13",
+            "n_samples": 400
+        },
+        {
+            "model_name": "Gemini 3.5 Flash",
+            "model_id": "gemini-3.5-flash",
+            "score": {
+                "pass-1": 0.7,
+                "mean-score": 0.7
+            },
+            "error": {
+                "pass-1": 0.9,
+                "mean-score": 0.9
+            },
+            "original_score": {
+                "pass-1": 43.3,
+                "mean-score": 43.3
+            },
+            "original_error": {
+                "pass-1": 6.7,
+                "mean-score": 6.7
+            },
+            "effort": "high",
+            "company": "google",
+            "logoUrl": "https://cdn.sanity.io/images/h6s14f4z/production/a1acc8dde3315d66c95f7b6bc705df1e05757018-20x20.svg",
+            "darkLogoUrl": null,
+            "providerColorTo": "#468aff",
+            "providerName": "Google",
+            "gradientStyle": "linear-gradient(to right, #8eb7ff, #468aff)",
+            "release_date": "2026-05-19",
+            "n_samples": 400
+        },
+        {
+            "model_name": "Gemini 3.1 Pro",
+            "model_id": "gemini-3.1-pro-preview-high",
+            "score": {
+                "pass-1": 10.7,
+                "mean-score": 10.7
+            },
+            "error": {
+                "pass-1": 4.5,
+                "mean-score": 4.5
+            },
+            "original_score": {
+                "pass-1": 75.6,
+                "mean-score": 75.6
+            },
+            "original_error": {
+                "pass-1": 6.3,
+                "mean-score": 6.3
+            },
+            "effort": "high",
+            "company": "google",
+            "logoUrl": "https://cdn.sanity.io/images/h6s14f4z/production/a1acc8dde3315d66c95f7b6bc705df1e05757018-20x20.svg",
+            "darkLogoUrl": null,
+            "providerColorTo": "#468aff",
+            "providerName": "Google",
+            "gradientStyle": "linear-gradient(to right, #8eb7ff, #468aff)",
+            "release_date": "2026-02-19",
+            "n_samples": 400
+        },
+        {
+            "model_name": "Gemini 3.6 Flash",
+            "model_id": "gemini-3.6-flash",
+            "score": {
+                "pass-1": 13.8,
+                "mean-score": 13.8
+            },
+            "error": {
+                "pass-1": 5,
+                "mean-score": 5
+            },
+            "original_score": {
+                "pass-1": 54.6,
+                "mean-score": 54.6
+            },
+            "original_error": {
+                "pass-1": 6.1,
+                "mean-score": 6.1
+            },
+            "effort": "high",
+            "company": "google",
+            "logoUrl": "https://cdn.sanity.io/images/h6s14f4z/production/a1acc8dde3315d66c95f7b6bc705df1e05757018-20x20.svg",
+            "darkLogoUrl": null,
+            "providerColorTo": "#468aff",
+            "providerName": "Google",
+            "gradientStyle": "linear-gradient(to right, #8eb7ff, #468aff)",
+            "release_date": "2026-07-21",
+            "n_samples": 400
+        },
+        {
+            "model_name": "Gemini 3.7 Flash",
+            "model_id": "gemini-3.7-flash",
+            "score": {
+                "pass-1": 25.5,
+                "mean-score": 25.5
+            },
+            "error": {
+                "pass-1": 6.9,
+                "mean-score": 6.9
+            },
+            "original_score": {
+                "pass-1": 79.2,
+                "mean-score": 79.2
+            },
+            "original_error": {
+                "pass-1": 6,
+                "mean-score": 6
+            },
+            "effort": "high",
+            "company": "google",
+            "logoUrl": "https://cdn.sanity.io/images/h6s14f4z/production/a1acc8dde3315d66c95f7b6bc705df1e05757018-20x20.svg",
+            "darkLogoUrl": null,
+            "providerColorTo": "#468aff",
+            "providerName": "Google",
+            "gradientStyle": "linear-gradient(to right, #8eb7ff, #468aff)",
+            "release_date": "2026-08-13",
+            "n_samples": 400
+        },
+        {
+            "model_name": "GPT-5.4",
+            "model_id": "responses/gpt-5.4",
+            "score": {
+                "pass-1": 14,
+                "mean-score": 14
+            },
+            "error": {
+                "pass-1": 5.4,
+                "mean-score": 5.4
+            },
+            "original_score": {
+                "pass-1": 73.3,
+                "mean-score": 73.3
+            },
+            "original_error": {
+                "pass-1": 6.2,
+                "mean-score": 6.2
+            },
+            "effort": "xhigh",
+            "company": "gpt",
+            "logoUrl": "https://cdn.sanity.io/images/h6s14f4z/production/d0157b817dd39b0eeb64cd582258759f8577ce42-20x20.svg",
+            "darkLogoUrl": null,
+            "providerColorTo": "#ffb814",
+            "providerName": "OpenAI",
+            "gradientStyle": "linear-gradient(to right, #ffd900, #ffb814)",
+            "release_date": "2026-03-05",
+            "n_samples": 400
+        },
+        {
+            "model_name": "DeepSeek-V4-Flash",
+            "model_id": "deepseek-v4-flash",
+            "score": {
+                "pass-1": 22,
+                "mean-score": 22
+            },
+            "error": {
+                "pass-1": 6.5,
+                "mean-score": 6.5
+            },
+            "original_score": {
+                "pass-1": 77.1,
+                "mean-score": 77.1
+            },
+            "original_error": {
+                "pass-1": 6.1,
+                "mean-score": 6.1
+            },
+            "effort": "max",
+            "company": "deepseek",
+            "logoUrl": "https://cdn.sanity.io/images/h6s14f4z/production/ff33d5e41c990bfae7566b9adb61924b766d2bb8-20x20.svg",
+            "darkLogoUrl": null,
+            "providerColorTo": "#6882ff",
+            "providerName": "DeepSeek",
+            "gradientStyle": "linear-gradient(to right, #b8c4ff, #6882ff)",
+            "release_date": "2026-07-31",
+            "n_samples": 400
+        },
+        {
+            "model_name": "Qwen3.8-Max",
+            "model_id": "qwen-3-8-max-xhigh",
+            "score": {
+                "pass-1": 21.5,
+                "mean-score": 21.5
+            },
+            "error": {
+                "pass-1": 6,
+                "mean-score": 6
+            },
+            "original_score": {
+                "pass-1": 67.9,
+                "mean-score": 67.9
+            },
+            "original_error": {
+                "pass-1": 6.5,
+                "mean-score": 6.5
+            },
+            "effort": "xhigh",
+            "company": "alibaba",
+            "logoUrl": "https://cdn.sanity.io/images/h6s14f4z/production/86b12c706a7eab193bb495dc072c98564d5a841d-20x20.svg",
+            "darkLogoUrl": null,
+            "providerColorTo": "#766bff",
+            "providerName": "Alibaba",
+            "gradientStyle": "linear-gradient(to right, #c1bcff, #766bff)",
+            "release_date": "2026-08-02",
+            "n_samples": 400
+        },
+        {
+            "model_name": "Grok 4.6",
+            "model_id": "grok-4-6-xhigh",
+            "score": {
+                "pass-1": 21.5,
+                "mean-score": 21.5
+            },
+            "error": {
+                "pass-1": 6.6,
+                "mean-score": 6.6
+            },
+            "original_score": {
+                "pass-1": 84,
+                "mean-score": 84
+            },
+            "original_error": {
+                "pass-1": 5.1,
+                "mean-score": 5.1
+            },
+            "effort": "xhigh",
+            "company": "xai",
+            "logoUrl": "https://cdn.sanity.io/images/h6s14f4z/production/b16de16ffcb7238e086ea99505637838caa37afc-20x20.svg",
+            "darkLogoUrl": null,
+            "providerColorTo": "#767676",
+            "providerName": "xAI",
+            "gradientStyle": "linear-gradient(to right, #e2e2e2, #767676)",
+            "release_date": "2026-08-12",
+            "n_samples": 400
+        },
+        {
+            "model_name": "DeepSeek-V4.1-Flash",
+            "model_id": "deepseek-v4-1-flash",
+            "score": {
+                "pass-1": 48.2,
+                "mean-score": 48.2
+            },
+            "error": {
+                "pass-1": 9.3,
+                "mean-score": 9.3
+            },
+            "original_score": {
+                "pass-1": 85.8,
+                "mean-score": 85.8
+            },
+            "original_error": {
+                "pass-1": 9,
+                "mean-score": 9
+            },
+            "effort": "max",
+            "company": "deepseek",
+            "logoUrl": "https://cdn.sanity.io/images/h6s14f4z/production/ff33d5e41c990bfae7566b9adb61924b766d2bb8-20x20.svg",
+            "darkLogoUrl": null,
+            "providerColorTo": "#6882ff",
+            "providerName": "DeepSeek",
+            "gradientStyle": "linear-gradient(to right, #b8c4ff, #6882ff)",
+            "release_date": "2026-09-09",
+            "n_samples": 186
+        },
+        {
+            "model_name": "GPT-6 Luna",
+            "model_id": "gpt-6-luna",
+            "score": {
+                "pass-1": 47.2,
+                "mean-score": 47.2
+            },
+            "error": {
+                "pass-1": 8.9,
+                "mean-score": 8.9
+            },
+            "original_score": {
+                "pass-1": 83.3,
+                "mean-score": 83.3
+            },
+            "original_error": {
+                "pass-1": 5.4,
+                "mean-score": 5.4
+            },
+            "effort": "max",
+            "company": "gpt",
+            "logoUrl": "https://cdn.sanity.io/images/h6s14f4z/production/d0157b817dd39b0eeb64cd582258759f8577ce42-20x20.svg",
+            "darkLogoUrl": null,
+            "providerColorTo": "#ffb814",
+            "providerName": "OpenAI",
+            "gradientStyle": "linear-gradient(to right, #ffd900, #ffb814)",
+            "release_date": "2026-09-22",
+            "n_samples": 400
+        },
+        {
+            "model_name": "GPT-6 Sol",
+            "model_id": "gpt-6-sol",
+            "score": {
+                "pass-1": 63.2,
+                "mean-score": 63.2
+            },
+            "error": {
+                "pass-1": 8.3,
+                "mean-score": 8.3
+            },
+            "original_score": {
+                "pass-1": 89.4,
+                "mean-score": 89.4
+            },
+            "original_error": {
+                "pass-1": 4.5,
+                "mean-score": 4.5
+            },
+            "effort": "max",
+            "company": "gpt",
+            "logoUrl": "https://cdn.sanity.io/images/h6s14f4z/production/d0157b817dd39b0eeb64cd582258759f8577ce42-20x20.svg",
+            "darkLogoUrl": null,
+            "providerColorTo": "#ffb814",
+            "providerName": "OpenAI",
+            "gradientStyle": "linear-gradient(to right, #ffd900, #ffb814)",
+            "release_date": "2026-09-22",
+            "n_samples": 400
+        },
+        {
+            "model_name": "Opus 5.5",
+            "model_id": "claude-opus-5-5",
+            "score": {
+                "pass-1": 60.5,
+                "mean-score": 60.5
+            },
+            "error": {
+                "pass-1": 8.4,
+                "mean-score": 8.4
+            },
+            "original_score": {
+                "pass-1": 88.5,
+                "mean-score": 88.5
+            },
+            "original_error": {
+                "pass-1": 5,
+                "mean-score": 5
+            },
+            "effort": "max",
+            "company": "claude",
+            "logoUrl": "https://cdn.sanity.io/images/h6s14f4z/production/6f898fa35f2eb8458e60c6dd43a1dc553b0a5674-20x20.svg",
+            "darkLogoUrl": null,
+            "providerColorTo": "#ea6234",
+            "providerName": "Anthropic",
+            "gradientStyle": "linear-gradient(to right, #ff9b5e, #ea6234)",
+            "release_date": "2026-09-22",
+            "n_samples": 400
+        },
+        {
+            "model_name": "Sonnet 5.5",
+            "model_id": "claude-sonnet-5-5",
+            "score": {
+                "pass-1": 73,
+                "mean-score": 73
+            },
+            "error": {
+                "pass-1": 8.1,
+                "mean-score": 8.1
+            },
+            "original_score": {
+                "pass-1": 86.6,
+                "mean-score": 86.6
+            },
+            "original_error": {
+                "pass-1": 5,
+                "mean-score": 5
+            },
+            "effort": "max",
+            "company": "claude",
+            "logoUrl": "https://cdn.sanity.io/images/h6s14f4z/production/6f898fa35f2eb8458e60c6dd43a1dc553b0a5674-20x20.svg",
+            "darkLogoUrl": null,
+            "providerColorTo": "#ea6234",
+            "providerName": "Anthropic",
+            "gradientStyle": "linear-gradient(to right, #ff9b5e, #ea6234)",
+            "release_date": "",
+            "n_samples": 338
+        },
+        {
+            "model_name": "Fable 5.1",
+            "model_id": "claude-fable-5.1",
+            "score": {
+                "pass-1": 63.3,
+                "mean-score": 63.3
+            },
+            "error": {
+                "pass-1": 8.5,
+                "mean-score": 8.5
+            },
+            "original_score": {
+                "pass-1": 85.2,
+                "mean-score": 85.2
+            },
+            "original_error": {
+                "pass-1": 5.3,
+                "mean-score": 5.3
+            },
+            "effort": "max",
+            "company": "claude",
+            "logoUrl": "https://cdn.sanity.io/images/h6s14f4z/production/6f898fa35f2eb8458e60c6dd43a1dc553b0a5674-20x20.svg",
+            "darkLogoUrl": null,
+            "providerColorTo": "#ea6234",
+            "providerName": "Anthropic",
+            "gradientStyle": "linear-gradient(to right, #ff9b5e, #ea6234)",
+            "release_date": "2026-09-01",
+            "n_samples": 377
+        },
+        {
+            "model_name": "GPT-6.1 Sol",
+            "model_id": "gpt-6-1-sol",
+            "score": {
+                "pass-1": 67.7,
+                "mean-score": 67.7
+            },
+            "error": {
+                "pass-1": 8.1,
+                "mean-score": 8.1
+            },
+            "original_score": {
+                "pass-1": 95.4,
+                "mean-score": 95.4
+            },
+            "original_error": {
+                "pass-1": 3.1,
+                "mean-score": 3.1
+            },
+            "effort": "max",
+            "company": "gpt",
+            "logoUrl": "https://cdn.sanity.io/images/h6s14f4z/production/d0157b817dd39b0eeb64cd582258759f8577ce42-20x20.svg",
+            "darkLogoUrl": null,
+            "providerColorTo": "#ffb814",
+            "providerName": "OpenAI",
+            "gradientStyle": "linear-gradient(to right, #ffd900, #ffb814)",
+            "release_date": "2026-09-29",
+            "n_samples": 400
+        },
+        {
+            "model_name": "Gemini 3.8 Flash",
+            "model_id": "gemini-3.8-flash",
+            "score": {
+                "pass-1": 41.5,
+                "mean-score": 41.5
+            },
+            "error": {
+                "pass-1": 8.4,
+                "mean-score": 8.4
+            },
+            "original_score": {
+                "pass-1": 83.1,
+                "mean-score": 83.1
+            },
+            "original_error": {
+                "pass-1": 5.3,
+                "mean-score": 5.3
+            },
+            "effort": "high",
+            "company": "google",
+            "logoUrl": "https://cdn.sanity.io/images/h6s14f4z/production/a1acc8dde3315d66c95f7b6bc705df1e05757018-20x20.svg",
+            "darkLogoUrl": null,
+            "providerColorTo": "#468aff",
+            "providerName": "Google",
+            "gradientStyle": "linear-gradient(to right, #8eb7ff, #468aff)",
+            "release_date": "2026-09-02",
+            "n_samples": 399
+        },
+        {
+            "model_name": "Muse Spark 1.2",
+            "model_id": "muse-spark-1-2",
+            "score": {
+                "pass-1": 32.5,
+                "mean-score": 32.5
+            },
+            "error": {
+                "pass-1": 7.8,
+                "mean-score": 7.8
+            },
+            "original_score": {
+                "pass-1": 75.2,
+                "mean-score": 75.2
+            },
+            "original_error": {
+                "pass-1": 6.3,
+                "mean-score": 6.3
+            },
+            "effort": "xhigh",
+            "company": "meta",
+            "logoUrl": "https://cdn.sanity.io/images/h6s14f4z/production/9acfeac811b8266d47c46a63b3ce28b22491dfaf-20x20.svg",
+            "darkLogoUrl": null,
+            "providerColorTo": "#3281ee",
+            "providerName": "Meta",
+            "gradientStyle": "linear-gradient(to right, #7cd3ff, #3281ee)",
+            "release_date": "2026-08-05",
+            "n_samples": 389
+        },
+        {
+            "model_name": "Grok 4.7",
+            "model_id": "grok-4.7",
+            "score": {
+                "pass-1": 39.5,
+                "mean-score": 39.5
+            },
+            "error": {
+                "pass-1": 8,
+                "mean-score": 8
+            },
+            "original_score": {
+                "pass-1": 75.8,
+                "mean-score": 75.8
+            },
+            "original_error": {
+                "pass-1": 6.3,
+                "mean-score": 6.3
+            },
+            "effort": "xhigh",
+            "company": "xai",
+            "logoUrl": "https://cdn.sanity.io/images/h6s14f4z/production/b16de16ffcb7238e086ea99505637838caa37afc-20x20.svg",
+            "darkLogoUrl": null,
+            "providerColorTo": "#767676",
+            "providerName": "xAI",
+            "gradientStyle": "linear-gradient(to right, #e2e2e2, #767676)",
+            "release_date": "2026-09-21",
+            "n_samples": 398
+        },
+        {
+            "model_name": "GLM-5.2",
+            "model_id": "glm-5-2",
+            "score": {
+                "pass-1": 23,
+                "mean-score": 23
+            },
+            "error": {
+                "pass-1": 6.1,
+                "mean-score": 6.1
+            },
+            "original_score": {
+                "pass-1": 65.4,
+                "mean-score": 65.4
+            },
+            "original_error": {
+                "pass-1": 6.7,
+                "mean-score": 6.7
+            },
+            "effort": "max",
+            "company": "zhipu",
+            "logoUrl": "https://cdn.sanity.io/images/h6s14f4z/production/aa7bca59e8147d8872f46859bb6ec753845106cc-20x20.svg",
+            "darkLogoUrl": null,
+            "providerColorTo": "#848484",
+            "providerName": "Zhipu",
+            "gradientStyle": "linear-gradient(to right, #e2e2e2, #848484)",
+            "release_date": "2026-06-16",
+            "n_samples": 394
+        },
+        {
+            "model_name": "Haiku 5.5",
+            "model_id": "claude-haiku-5-5",
+            "score": {
+                "pass-1": 27.5,
+                "mean-score": 27.5
+            },
+            "error": {
+                "pass-1": 7.2,
+                "mean-score": 7.2
+            },
+            "original_score": {
+                "pass-1": 56.3,
+                "mean-score": 56.3
+            },
+            "original_error": {
+                "pass-1": 7.1,
+                "mean-score": 7.1
+            },
+            "effort": "max",
+            "company": "claude",
+            "logoUrl": "https://cdn.sanity.io/images/h6s14f4z/production/6f898fa35f2eb8458e60c6dd43a1dc553b0a5674-20x20.svg",
+            "darkLogoUrl": null,
+            "providerColorTo": "#ea6234",
+            "providerName": "Anthropic",
+            "gradientStyle": "linear-gradient(to right, #ff9b5e, #ea6234)",
+            "release_date": "",
+            "n_samples": 396
+        }
+    ]
+}

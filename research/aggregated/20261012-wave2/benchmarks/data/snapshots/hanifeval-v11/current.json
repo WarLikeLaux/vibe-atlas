@@ -1,0 +1,109 @@
+{
+    "sourceUrl": "https://www.0hye.com/posts/hanifeval/",
+    "methodologyUrl": "https://github.com/developer0hye/llm-evals/blob/main/studies/2026-10-hanifeval/README.md",
+    "checkedAt": "2026-10-11T20:59:04.451474Z",
+    "kind": "reviewed-observations",
+    "version": "v1.1",
+    "observations": [
+        {
+            "sourceModelName": "GPT-6 Luna",
+            "effort": null,
+            "sampleSize": 429,
+            "metric": "prompt-strict",
+            "score": 93.2,
+            "costUsd": 0.159,
+            "meanReasoningTokens": 301.0,
+            "meanVisibleTokens": 426.0
+        },
+        {
+            "sourceModelName": "GPT-6 Luna",
+            "effort": null,
+            "sampleSize": 429,
+            "metric": "prompt-loose",
+            "score": 94.2,
+            "costUsd": 0.159,
+            "meanReasoningTokens": 301.0,
+            "meanVisibleTokens": 426.0
+        },
+        {
+            "sourceModelName": "GPT-6 Luna",
+            "effort": null,
+            "sampleSize": 429,
+            "metric": "instruction-strict",
+            "score": 95.1,
+            "costUsd": 0.159,
+            "meanReasoningTokens": 301.0,
+            "meanVisibleTokens": 426.0
+        },
+        {
+            "sourceModelName": "GPT-6 Luna",
+            "effort": null,
+            "sampleSize": 429,
+            "metric": "instruction-loose",
+            "score": 95.7,
+            "costUsd": 0.159,
+            "meanReasoningTokens": 301.0,
+            "meanVisibleTokens": 426.0
+        },
+        {
+            "sourceModelName": "GPT-6 Luna",
+            "effort": null,
+            "sampleSize": 421,
+            "metric": "prompt-strict-qc421",
+            "score": 94.1,
+            "costUsd": 0.159,
+            "meanReasoningTokens": 301.0,
+            "meanVisibleTokens": 426.0
+        },
+        {
+            "sourceModelName": "GLM 5.3 Flash",
+            "effort": null,
+            "sampleSize": 429,
+            "metric": "prompt-strict",
+            "score": 95.3,
+            "costUsd": 0.91,
+            "meanReasoningTokens": 3201.0,
+            "meanVisibleTokens": 1008.0
+        },
+        {
+            "sourceModelName": "GLM 5.3 Flash",
+            "effort": null,
+            "sampleSize": 429,
+            "metric": "prompt-loose",
+            "score": 97.2,
+            "costUsd": 0.91,
+            "meanReasoningTokens": 3201.0,
+            "meanVisibleTokens": 1008.0
+        },
+        {
+            "sourceModelName": "GLM 5.3 Flash",
+            "effort": null,
+            "sampleSize": 429,
+            "metric": "instruction-strict",
+            "score": 96.8,
+            "costUsd": 0.91,
+            "meanReasoningTokens": 3201.0,
+            "meanVisibleTokens": 1008.0
+        },
+        {
+            "sourceModelName": "GLM 5.3 Flash",
+            "effort": null,
+            "sampleSize": 429,
+            "metric": "instruction-loose",
+            "score": 98.1,
+            "costUsd": 0.91,
+            "meanReasoningTokens": 3201.0,
+            "meanVisibleTokens": 1008.0
+        },
+        {
+            "sourceModelName": "GLM 5.3 Flash",
+            "effort": null,
+            "sampleSize": 421,
+            "metric": "prompt-strict-qc421",
+            "score": 96.2,
+            "costUsd": 0.91,
+            "meanReasoningTokens": 3201.0,
+            "meanVisibleTokens": 1008.0
+        }
+    ]
+}

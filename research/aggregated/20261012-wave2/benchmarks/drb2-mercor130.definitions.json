@@ -1,0 +1,88 @@
+{
+    "id": "drb2-mercor130-reviewed",
+    "sourceId": "drb2-mercor130",
+    "checkedAt": "2026-10-11T20:59:04.451474Z",
+    "parserVersion": "wave2-reviewed-observations/1",
+    "benchmarks": [
+        {
+            "id": "drb2:mercor130-mean-score",
+            "name": "DeepResearch Bench II",
+            "context": "Mercor · 130 задач · Mean Score",
+            "unit": "% Mean Score",
+            "format": "percent",
+            "awardEligible": true,
+            "sourceUrl": "https://www.mercor.com/apex/oss-benchmarks/oss-deepresearch-bench-ii-leaderboard/",
+            "methodologyUrl": "https://arxiv.org/html/2601.08536v3",
+            "checkedAt": "2026-10-11T20:59:04.451474Z",
+            "passport": {
+                "author": "USTC/Metastone / замер Mercor",
+                "purpose": "Длинный исследовательский отчёт: поиск, анализ и представление по экспертным рубрикам.",
+                "requirements": "Агент Mercor, версия и judge неизвестны. Оригинал: 132 задачи и 9 430 рубрик; у Mercor 130 и 9 287.",
+                "scoring": "Активна Mean Score, %, выше лучше. Нули неактивного Pass@1 оценкой не считаются.",
+                "reviews": [
+                    {
+                        "dimension": "independence",
+                        "status": "supported",
+                        "explanation": "Авторы теста и Mercor разделены по двум оригиналам; финансирование unknown.",
+                        "sourceUrl": "https://www.mercor.com/apex/oss-benchmarks/oss-deepresearch-bench-ii-leaderboard/",
+                        "checkedAt": "2026-10-11T20:59:04.451474Z"
+                    },
+                    {
+                        "dimension": "contamination",
+                        "status": "supported",
+                        "explanation": "Статья описывает blocked list; соблюдение запрета современными моделями unknown.",
+                        "sourceUrl": "https://www.mercor.com/apex/oss-benchmarks/oss-deepresearch-bench-ii-leaderboard/",
+                        "checkedAt": "2026-10-11T20:59:04.451474Z"
+                    },
+                    {
+                        "dimension": "saturation",
+                        "status": "not-reviewed",
+                        "explanation": "Вывод статьи о моделях её периода не переносится на новые модели.",
+                        "sourceUrl": "https://www.mercor.com/apex/oss-benchmarks/oss-deepresearch-bench-ii-leaderboard/",
+                        "checkedAt": "2026-10-11T20:59:04.451474Z"
+                    },
+                    {
+                        "dimension": "reproducibility",
+                        "status": "supported",
+                        "explanation": "Официальный код и рубрики доступны; воспроизведение Mercor unknown.",
+                        "sourceUrl": "https://www.mercor.com/apex/oss-benchmarks/oss-deepresearch-bench-ii-leaderboard/",
+                        "checkedAt": "2026-10-11T20:59:04.451474Z"
+                    },
+                    {
+                        "dimension": "comparability",
+                        "status": "unknown",
+                        "explanation": "130/9 287 и авторские 132/9 430 не смешиваются; judge Mercor не установлен.",
+                        "sourceUrl": "https://www.mercor.com/apex/oss-benchmarks/oss-deepresearch-bench-ii-leaderboard/",
+                        "checkedAt": "2026-10-11T20:59:04.451474Z"
+                    }
+                ]
+            }
+        }
+    ],
+    "mappings": [
+        {
+            "runId": "drb2-reviewed-1",
+            "benchmarkId": "drb2:mercor130-mean-score",
+            "modelId": "gpt-6-astra"
+        },
+        {
+            "runId": "drb2-reviewed-2",
+            "benchmarkId": "drb2:mercor130-mean-score",
+            "modelId": "gpt-6-luna"
+        },
+        {
+            "runId": "drb2-reviewed-3",
+            "benchmarkId": "drb2:mercor130-mean-score",
+            "modelId": "glm-5-3"
+        },
+        {
+            "runId": "drb2-reviewed-4",
+            "benchmarkId": "drb2:mercor130-mean-score",
+            "modelId": "grok-4-7"
+        },
+        {
+            "runId": "drb2-reviewed-5",
+            "benchmarkId": "drb2:mercor130-mean-score"
+        }
+    ]
+}

@@ -1,0 +1,255 @@
+{
+    "checkedAt": "2026-10-11T20:59:04.451474Z",
+    "snapshotPath": "data/snapshots/deepsearchqa-parallel100/current.json",
+    "snapshotSha256": "e158fe44f0019208a838bafd74f6894117e70e9c794f69e5fd9f1ae559b851b4",
+    "runs": [
+        {
+            "runId": "deepsearchqa-reviewed-1",
+            "scorePointer": "/observations/0/score",
+            "score": 87.14,
+            "sourceUrl": "https://parallel.ai/leaderboard",
+            "sourceModelName": "GPT-6.1 Sol (Parallel) with-search",
+            "sourceModelNamePointer": "/observations/0/sourceModelName",
+            "observationSourceUrl": "https://parallel.ai/leaderboard",
+            "label": "GPT-6.1 Sol · Parallel with-search",
+            "notes": [
+                "nTasks.DSQA=100 при плановых 100; правила источника считают failed нулями.",
+                "Опубликованные стоимость и время относятся к смеси DSQA/HLE/WISER и на этот запуск не переносятся."
+            ],
+            "configuration": {
+                "effort": null,
+                "sampleSize": 100
+            },
+            "configurationPointers": {
+                "effort": "/observations/0/effort",
+                "sampleSize": "/observations/0/sampleSize"
+            },
+            "telemetryPointers": [
+                {
+                    "name": "Задачи DSQA",
+                    "unit": "nTasks",
+                    "valuePointer": "/observations/0/nTasksDsqa",
+                    "transformations": []
+                }
+            ],
+            "transformations": []
+        },
+        {
+            "runId": "deepsearchqa-reviewed-2",
+            "scorePointer": "/observations/1/score",
+            "score": 89.54,
+            "sourceUrl": "https://parallel.ai/leaderboard",
+            "sourceModelName": "GPT-6 Astra (Parallel) with-search",
+            "sourceModelNamePointer": "/observations/1/sourceModelName",
+            "observationSourceUrl": "https://parallel.ai/leaderboard",
+            "label": "GPT-6 Astra · Parallel with-search",
+            "notes": [
+                "nTasks.DSQA=100 при плановых 100; правила источника считают failed нулями.",
+                "Опубликованные стоимость и время относятся к смеси DSQA/HLE/WISER и на этот запуск не переносятся."
+            ],
+            "configuration": {
+                "effort": null,
+                "sampleSize": 100
+            },
+            "configurationPointers": {
+                "effort": "/observations/1/effort",
+                "sampleSize": "/observations/1/sampleSize"
+            },
+            "telemetryPointers": [
+                {
+                    "name": "Задачи DSQA",
+                    "unit": "nTasks",
+                    "valuePointer": "/observations/1/nTasksDsqa",
+                    "transformations": []
+                }
+            ],
+            "transformations": []
+        },
+        {
+            "runId": "deepsearchqa-reviewed-3",
+            "scorePointer": "/observations/2/score",
+            "score": 78.71,
+            "sourceUrl": "https://parallel.ai/leaderboard",
+            "sourceModelName": "GPT-6 Luna (Parallel) with-search",
+            "sourceModelNamePointer": "/observations/2/sourceModelName",
+            "observationSourceUrl": "https://parallel.ai/leaderboard",
+            "label": "GPT-6 Luna · Parallel with-search",
+            "notes": [
+                "nTasks.DSQA=100 при плановых 100; правила источника считают failed нулями.",
+                "Опубликованные стоимость и время относятся к смеси DSQA/HLE/WISER и на этот запуск не переносятся."
+            ],
+            "configuration": {
+                "effort": null,
+                "sampleSize": 100
+            },
+            "configurationPointers": {
+                "effort": "/observations/2/effort",
+                "sampleSize": "/observations/2/sampleSize"
+            },
+            "telemetryPointers": [
+                {
+                    "name": "Задачи DSQA",
+                    "unit": "nTasks",
+                    "valuePointer": "/observations/2/nTasksDsqa",
+                    "transformations": []
+                }
+            ],
+            "transformations": []
+        },
+        {
+            "runId": "deepsearchqa-reviewed-4",
+            "scorePointer": "/observations/3/score",
+            "score": 84.98,
+            "sourceUrl": "https://parallel.ai/leaderboard",
+            "sourceModelName": "GLM 5.3 (Parallel) with-search",
+            "sourceModelNamePointer": "/observations/3/sourceModelName",
+            "observationSourceUrl": "https://parallel.ai/leaderboard",
+            "label": "GLM 5.3 · Parallel with-search",
+            "notes": [
+                "nTasks.DSQA=100 при плановых 100; правила источника считают failed нулями.",
+                "Опубликованные стоимость и время относятся к смеси DSQA/HLE/WISER и на этот запуск не переносятся."
+            ],
+            "configuration": {
+                "effort": null,
+                "sampleSize": 100
+            },
+            "configurationPointers": {
+                "effort": "/observations/3/effort",
+                "sampleSize": "/observations/3/sampleSize"
+            },
+            "telemetryPointers": [
+                {
+                    "name": "Задачи DSQA",
+                    "unit": "nTasks",
+                    "valuePointer": "/observations/3/nTasksDsqa",
+                    "transformations": []
+                }
+            ],
+            "transformations": []
+        },
+        {
+            "runId": "deepsearchqa-reviewed-5",
+            "scorePointer": "/observations/4/score",
+            "score": 81.43,
+            "sourceUrl": "https://parallel.ai/leaderboard",
+            "sourceModelName": "GLM 5.3 Flash (Parallel) with-search",
+            "sourceModelNamePointer": "/observations/4/sourceModelName",
+            "observationSourceUrl": "https://parallel.ai/leaderboard",
+            "label": "GLM 5.3 Flash · Parallel with-search",
+            "notes": [
+                "nTasks.DSQA=100 при плановых 100; правила источника считают failed нулями.",
+                "Опубликованные стоимость и время относятся к смеси DSQA/HLE/WISER и на этот запуск не переносятся."
+            ],
+            "configuration": {
+                "effort": null,
+                "sampleSize": 100
+            },
+            "configurationPointers": {
+                "effort": "/observations/4/effort",
+                "sampleSize": "/observations/4/sampleSize"
+            },
+            "telemetryPointers": [
+                {
+                    "name": "Задачи DSQA",
+                    "unit": "nTasks",
+                    "valuePointer": "/observations/4/nTasksDsqa",
+                    "transformations": []
+                }
+            ],
+            "transformations": []
+        },
+        {
+            "runId": "deepsearchqa-reviewed-6",
+            "scorePointer": "/observations/5/score",
+            "score": 80.26,
+            "sourceUrl": "https://parallel.ai/leaderboard",
+            "sourceModelName": "Gemini 3.8 Flash (Parallel) with-search",
+            "sourceModelNamePointer": "/observations/5/sourceModelName",
+            "observationSourceUrl": "https://parallel.ai/leaderboard",
+            "label": "Gemini 3.8 Flash · Parallel with-search",
+            "notes": [
+                "nTasks.DSQA=100 при плановых 100; правила источника считают failed нулями.",
+                "Опубликованные стоимость и время относятся к смеси DSQA/HLE/WISER и на этот запуск не переносятся."
+            ],
+            "configuration": {
+                "effort": null,
+                "sampleSize": 100
+            },
+            "configurationPointers": {
+                "effort": "/observations/5/effort",
+                "sampleSize": "/observations/5/sampleSize"
+            },
+            "telemetryPointers": [
+                {
+                    "name": "Задачи DSQA",
+                    "unit": "nTasks",
+                    "valuePointer": "/observations/5/nTasksDsqa",
+                    "transformations": []
+                }
+            ],
+            "transformations": []
+        },
+        {
+            "runId": "deepsearchqa-reviewed-7",
+            "scorePointer": "/observations/6/score",
+            "score": 64.76,
+            "sourceUrl": "https://parallel.ai/leaderboard",
+            "sourceModelName": "MiniMax-M3 (Parallel) with-search",
+            "sourceModelNamePointer": "/observations/6/sourceModelName",
+            "observationSourceUrl": "https://parallel.ai/leaderboard",
+            "label": "MiniMax-M3 · Parallel with-search",
+            "notes": [
+                "nTasks.DSQA=99 при плановых 100; правила источника считают failed нулями.",
+                "Опубликованные стоимость и время относятся к смеси DSQA/HLE/WISER и на этот запуск не переносятся."
+            ],
+            "configuration": {
+                "effort": null,
+                "sampleSize": 100
+            },
+            "configurationPointers": {
+                "effort": "/observations/6/effort",
+                "sampleSize": "/observations/6/sampleSize"
+            },
+            "telemetryPointers": [
+                {
+                    "name": "Задачи DSQA",
+                    "unit": "nTasks",
+                    "valuePointer": "/observations/6/nTasksDsqa",
+                    "transformations": []
+                }
+            ],
+            "transformations": []
+        },
+        {
+            "runId": "deepsearchqa-reviewed-8",
+            "scorePointer": "/observations/7/score",
+            "score": 85.21,
+            "sourceUrl": "https://parallel.ai/leaderboard",
+            "sourceModelName": "Muse Spark 1.3 (Parallel) with-search",
+            "sourceModelNamePointer": "/observations/7/sourceModelName",
+            "observationSourceUrl": "https://parallel.ai/leaderboard",
+            "label": "Muse Spark 1.3 · Parallel with-search",
+            "notes": [
+                "nTasks.DSQA=99 при плановых 100; правила источника считают failed нулями.",
+                "Опубликованные стоимость и время относятся к смеси DSQA/HLE/WISER и на этот запуск не переносятся."
+            ],
+            "configuration": {
+                "effort": null,
+                "sampleSize": 100
+            },
+            "configurationPointers": {
+                "effort": "/observations/7/effort",
+                "sampleSize": "/observations/7/sampleSize"
+            },
+            "telemetryPointers": [
+                {
+                    "name": "Задачи DSQA",
+                    "unit": "nTasks",
+                    "valuePointer": "/observations/7/nTasksDsqa",
+                    "transformations": []
+                }
+            ],
+            "transformations": []
+        }
+    ]
+}

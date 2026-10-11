@@ -1,0 +1,261 @@
+{
+    "id": "browsecomp-mercor130-reviewed",
+    "sourceId": "browsecomp-mercor130",
+    "checkedAt": "2026-10-11T20:59:04.451474Z",
+    "parserVersion": "wave2-reviewed-observations/1",
+    "snapshotPath": "data/snapshots/browsecomp-mercor130/current.json",
+    "snapshotSha256": "e86339ba4d9f375aaa6efa463fde07b5450b96593e4f73891b641fa1f648c850",
+    "benchmarks": [
+        {
+            "id": "browsecomp:mercor130-pass1",
+            "name": "BrowseComp",
+            "context": "Mercor · 130 публичных задач · Pass@1",
+            "unit": "% Pass@1",
+            "format": "percent",
+            "awardEligible": true,
+            "sourceUrl": "https://www.mercor.com/apex/oss-benchmarks/oss-browsecomp-leaderboard/",
+            "methodologyUrl": "https://openai.com/index/browsecomp/",
+            "checkedAt": "2026-10-11T20:59:04.451474Z",
+            "passport": {
+                "author": "OpenAI / замер Mercor",
+                "purpose": "Последовательный поиск трудно находимого факта в открытой сети.",
+                "requirements": "Исследовательский агент Mercor, версия неизвестна. Полный BrowseComp содержит 1 266 задач; выбраны 130, список неизвестен.",
+                "scoring": "Pass@1, %, выше лучше.",
+                "reviews": [
+                    {
+                        "dimension": "independence",
+                        "status": "supported",
+                        "explanation": "Mercor атрибутирован исполнителем по оригинальной таблице; финансирование unknown.",
+                        "sourceUrl": "https://www.mercor.com/apex/oss-benchmarks/oss-browsecomp-leaderboard/",
+                        "checkedAt": "2026-10-11T20:59:04.451474Z"
+                    },
+                    {
+                        "dimension": "contamination",
+                        "status": "unknown",
+                        "explanation": "Canary авторов не доказывает отсутствие обучения или получения эталона через сеть.",
+                        "sourceUrl": "https://www.mercor.com/apex/oss-benchmarks/oss-browsecomp-leaderboard/",
+                        "checkedAt": "2026-10-11T20:59:04.451474Z"
+                    },
+                    {
+                        "dimension": "saturation",
+                        "status": "not-reviewed",
+                        "explanation": "Высокие баллы на подвыборке не подтверждают насыщение полного BrowseComp.",
+                        "sourceUrl": "https://www.mercor.com/apex/oss-benchmarks/oss-browsecomp-leaderboard/",
+                        "checkedAt": "2026-10-11T20:59:04.451474Z"
+                    },
+                    {
+                        "dimension": "reproducibility",
+                        "status": "unknown",
+                        "explanation": "Исходный код доступен, но подвыборка, агент и judge замера Mercor не установлены.",
+                        "sourceUrl": "https://www.mercor.com/apex/oss-benchmarks/oss-browsecomp-leaderboard/",
+                        "checkedAt": "2026-10-11T20:59:04.451474Z"
+                    },
+                    {
+                        "dimension": "comparability",
+                        "status": "unknown",
+                        "explanation": "Нельзя сравнивать с полными 1 266 задачами и другими протоколами без сверки split.",
+                        "sourceUrl": "https://www.mercor.com/apex/oss-benchmarks/oss-browsecomp-leaderboard/",
+                        "checkedAt": "2026-10-11T20:59:04.451474Z"
+                    }
+                ]
+            }
+        }
+    ],
+    "runs": [
+        {
+            "id": "browsecomp-reviewed-1",
+            "sourceModelName": "GPT-6.1 Sol (Mercor) max",
+            "benchmarkId": "browsecomp:mercor130-pass1",
+            "label": "GPT-6.1 Sol · Mercor · effort max",
+            "score": 95.4,
+            "sourceUrl": "https://www.mercor.com/apex/oss-benchmarks/oss-browsecomp-leaderboard/",
+            "checkedAt": "2026-10-11T20:59:04.451474Z",
+            "notes": [
+                "Подвыборка 130 из 1 266 задач, точный список неизвестен. n_samples=496.",
+                "Поле error сохранено без пересчёта; уровень и метод неизвестны, это не 95% CI.",
+                "Замер Mercor нельзя считать запуском через пользовательский агент."
+            ],
+            "telemetry": [
+                {
+                    "name": "Опубликованная погрешность",
+                    "value": 3.1,
+                    "unit": "процентных пункта; метод неизвестен"
+                },
+                {
+                    "name": "Образцы",
+                    "value": 496.0,
+                    "unit": "n_samples"
+                }
+            ],
+            "estimated": false,
+            "modelId": "gpt-6-1-sol"
+        },
+        {
+            "id": "browsecomp-reviewed-2",
+            "sourceModelName": "GPT-6 Astra (Mercor) xhigh",
+            "benchmarkId": "browsecomp:mercor130-pass1",
+            "label": "GPT-6 Astra · Mercor · effort xhigh",
+            "score": 94.2,
+            "sourceUrl": "https://www.mercor.com/apex/oss-benchmarks/oss-browsecomp-leaderboard/",
+            "checkedAt": "2026-10-11T20:59:04.451474Z",
+            "notes": [
+                "Подвыборка 130 из 1 266 задач, точный список неизвестен. n_samples=520.",
+                "Поле error сохранено без пересчёта; уровень и метод неизвестны, это не 95% CI.",
+                "Замер Mercor нельзя считать запуском через пользовательский агент."
+            ],
+            "telemetry": [
+                {
+                    "name": "Опубликованная погрешность",
+                    "value": 3.2,
+                    "unit": "процентных пункта; метод неизвестен"
+                },
+                {
+                    "name": "Образцы",
+                    "value": 520.0,
+                    "unit": "n_samples"
+                }
+            ],
+            "estimated": false,
+            "modelId": "gpt-6-astra"
+        },
+        {
+            "id": "browsecomp-reviewed-3",
+            "sourceModelName": "GPT-6 Luna (Mercor) max",
+            "benchmarkId": "browsecomp:mercor130-pass1",
+            "label": "GPT-6 Luna · Mercor · effort max",
+            "score": 83.3,
+            "sourceUrl": "https://www.mercor.com/apex/oss-benchmarks/oss-browsecomp-leaderboard/",
+            "checkedAt": "2026-10-11T20:59:04.451474Z",
+            "notes": [
+                "Подвыборка 130 из 1 266 задач, точный список неизвестен. n_samples=520.",
+                "Поле error сохранено без пересчёта; уровень и метод неизвестны, это не 95% CI.",
+                "Замер Mercor нельзя считать запуском через пользовательский агент."
+            ],
+            "telemetry": [
+                {
+                    "name": "Опубликованная погрешность",
+                    "value": 5.4,
+                    "unit": "процентных пункта; метод неизвестен"
+                },
+                {
+                    "name": "Образцы",
+                    "value": 520.0,
+                    "unit": "n_samples"
+                }
+            ],
+            "estimated": false,
+            "modelId": "gpt-6-luna"
+        },
+        {
+            "id": "browsecomp-reviewed-4",
+            "sourceModelName": "Gemini 3.8 Flash (Mercor) high",
+            "benchmarkId": "browsecomp:mercor130-pass1",
+            "label": "Gemini 3.8 Flash · Mercor · effort high",
+            "score": 83.1,
+            "sourceUrl": "https://www.mercor.com/apex/oss-benchmarks/oss-browsecomp-leaderboard/",
+            "checkedAt": "2026-10-11T20:59:04.451474Z",
+            "notes": [
+                "Подвыборка 130 из 1 266 задач, точный список неизвестен. n_samples=519.",
+                "Поле error сохранено без пересчёта; уровень и метод неизвестны, это не 95% CI.",
+                "Замер Mercor нельзя считать запуском через пользовательский агент."
+            ],
+            "telemetry": [
+                {
+                    "name": "Опубликованная погрешность",
+                    "value": 5.3,
+                    "unit": "процентных пункта; метод неизвестен"
+                },
+                {
+                    "name": "Образцы",
+                    "value": 519.0,
+                    "unit": "n_samples"
+                }
+            ],
+            "estimated": false,
+            "modelId": "gemini-3-8-flash"
+        },
+        {
+            "id": "browsecomp-reviewed-5",
+            "sourceModelName": "Grok 4.7 (Mercor) xhigh",
+            "benchmarkId": "browsecomp:mercor130-pass1",
+            "label": "Grok 4.7 · Mercor · effort xhigh",
+            "score": 75.8,
+            "sourceUrl": "https://www.mercor.com/apex/oss-benchmarks/oss-browsecomp-leaderboard/",
+            "checkedAt": "2026-10-11T20:59:04.451474Z",
+            "notes": [
+                "Подвыборка 130 из 1 266 задач, точный список неизвестен. n_samples=518.",
+                "Поле error сохранено без пересчёта; уровень и метод неизвестны, это не 95% CI.",
+                "Замер Mercor нельзя считать запуском через пользовательский агент."
+            ],
+            "telemetry": [
+                {
+                    "name": "Опубликованная погрешность",
+                    "value": 6.3,
+                    "unit": "процентных пункта; метод неизвестен"
+                },
+                {
+                    "name": "Образцы",
+                    "value": 518.0,
+                    "unit": "n_samples"
+                }
+            ],
+            "estimated": false,
+            "modelId": "grok-4-7"
+        },
+        {
+            "id": "browsecomp-reviewed-6",
+            "sourceModelName": "MiniMax-M3 (Mercor) high",
+            "benchmarkId": "browsecomp:mercor130-pass1",
+            "label": "MiniMax-M3 · Mercor · effort high",
+            "score": 53.3,
+            "sourceUrl": "https://www.mercor.com/apex/oss-benchmarks/oss-browsecomp-leaderboard/",
+            "checkedAt": "2026-10-11T20:59:04.451474Z",
+            "notes": [
+                "Подвыборка 130 из 1 266 задач, точный список неизвестен. n_samples=520.",
+                "Поле error сохранено без пересчёта; уровень и метод неизвестны, это не 95% CI.",
+                "Замер Mercor нельзя считать запуском через пользовательский агент."
+            ],
+            "telemetry": [
+                {
+                    "name": "Опубликованная погрешность",
+                    "value": 6.7,
+                    "unit": "процентных пункта; метод неизвестен"
+                },
+                {
+                    "name": "Образцы",
+                    "value": 520.0,
+                    "unit": "n_samples"
+                }
+            ],
+            "estimated": false,
+            "modelId": "minimax-m3"
+        },
+        {
+            "id": "browsecomp-reviewed-7",
+            "sourceModelName": "GPT-6 Sol (Mercor) max",
+            "benchmarkId": "browsecomp:mercor130-pass1",
+            "label": "GPT-6 Sol · Mercor · effort max",
+            "score": 89.4,
+            "sourceUrl": "https://www.mercor.com/apex/oss-benchmarks/oss-browsecomp-leaderboard/",
+            "checkedAt": "2026-10-11T20:59:04.451474Z",
+            "notes": [
+                "Подвыборка 130 из 1 266 задач, точный список неизвестен. n_samples=520.",
+                "Поле error сохранено без пересчёта; уровень и метод неизвестны, это не 95% CI.",
+                "Замер Mercor нельзя считать запуском через пользовательский агент."
+            ],
+            "telemetry": [
+                {
+                    "name": "Опубликованная погрешность",
+                    "value": 4.5,
+                    "unit": "процентных пункта; метод неизвестен"
+                },
+                {
+                    "name": "Образцы",
+                    "value": 520.0,
+                    "unit": "n_samples"
+                }
+            ],
+            "estimated": false
+        }
+    ]
+}

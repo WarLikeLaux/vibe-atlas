@@ -1,0 +1,1567 @@
+{
+    "checkedAt": "2026-10-11T20:59:04.451474Z",
+    "snapshotPath": "data/snapshots/livebench-if-20260625/current.json",
+    "snapshotSha256": "10812dcafa2707de1e83e1e806fe17ed4180000b8f50985ae706bbc48f2d134e",
+    "runs": [
+        {
+            "runId": "livebench-if-reviewed-1",
+            "scorePointer": "/observations/0/score",
+            "score": 55.933,
+            "sourceUrl": "https://livebench.ai/",
+            "sourceModelName": "minimax-m3",
+            "sourceModelNamePointer": "/observations/0/sourceModelName",
+            "observationSourceUrl": "https://livebench.ai/",
+            "label": "minimax-m3 · effort не раскрыт",
+            "notes": [
+                "Релиз 2026-06-25, категория IF. Версия harness и бюджеты строк не раскрыты.",
+                "Стоимость относится ко всему релизу, не только к категории IF."
+            ],
+            "configuration": {
+                "effort": null,
+                "metric": "paraphrase",
+                "sampleSize": 200
+            },
+            "configurationPointers": {
+                "effort": "/observations/0/effort",
+                "metric": "/observations/0/metric",
+                "sampleSize": "/observations/0/sampleSize"
+            },
+            "telemetryPointers": [
+                {
+                    "name": "Стоимость вопроса",
+                    "unit": "USD, весь релиз",
+                    "valuePointer": "/observations/0/costPerQuestion",
+                    "transformations": []
+                },
+                {
+                    "name": "Стоимость успешной задачи",
+                    "unit": "USD, весь релиз",
+                    "valuePointer": "/observations/0/costPerSuccessfulTask",
+                    "transformations": []
+                }
+            ],
+            "transformations": []
+        },
+        {
+            "runId": "livebench-if-reviewed-2",
+            "scorePointer": "/observations/1/score",
+            "score": 56.617,
+            "sourceUrl": "https://livebench.ai/",
+            "sourceModelName": "minimax-m3",
+            "sourceModelNamePointer": "/observations/1/sourceModelName",
+            "observationSourceUrl": "https://livebench.ai/",
+            "label": "minimax-m3 · effort не раскрыт",
+            "notes": [
+                "Релиз 2026-06-25, категория IF. Версия harness и бюджеты строк не раскрыты.",
+                "Стоимость относится ко всему релизу, не только к категории IF."
+            ],
+            "configuration": {
+                "effort": null,
+                "metric": "simplify",
+                "sampleSize": 200
+            },
+            "configurationPointers": {
+                "effort": "/observations/1/effort",
+                "metric": "/observations/1/metric",
+                "sampleSize": "/observations/1/sampleSize"
+            },
+            "telemetryPointers": [
+                {
+                    "name": "Стоимость вопроса",
+                    "unit": "USD, весь релиз",
+                    "valuePointer": "/observations/1/costPerQuestion",
+                    "transformations": []
+                },
+                {
+                    "name": "Стоимость успешной задачи",
+                    "unit": "USD, весь релиз",
+                    "valuePointer": "/observations/1/costPerSuccessfulTask",
+                    "transformations": []
+                }
+            ],
+            "transformations": []
+        },
+        {
+            "runId": "livebench-if-reviewed-3",
+            "scorePointer": "/observations/2/score",
+            "score": 63.55,
+            "sourceUrl": "https://livebench.ai/",
+            "sourceModelName": "minimax-m3",
+            "sourceModelNamePointer": "/observations/2/sourceModelName",
+            "observationSourceUrl": "https://livebench.ai/",
+            "label": "minimax-m3 · effort не раскрыт",
+            "notes": [
+                "Релиз 2026-06-25, категория IF. Версия harness и бюджеты строк не раскрыты.",
+                "Стоимость относится ко всему релизу, не только к категории IF."
+            ],
+            "configuration": {
+                "effort": null,
+                "metric": "story_generation",
+                "sampleSize": 200
+            },
+            "configurationPointers": {
+                "effort": "/observations/2/effort",
+                "metric": "/observations/2/metric",
+                "sampleSize": "/observations/2/sampleSize"
+            },
+            "telemetryPointers": [
+                {
+                    "name": "Стоимость вопроса",
+                    "unit": "USD, весь релиз",
+                    "valuePointer": "/observations/2/costPerQuestion",
+                    "transformations": []
+                },
+                {
+                    "name": "Стоимость успешной задачи",
+                    "unit": "USD, весь релиз",
+                    "valuePointer": "/observations/2/costPerSuccessfulTask",
+                    "transformations": []
+                }
+            ],
+            "transformations": []
+        },
+        {
+            "runId": "livebench-if-reviewed-4",
+            "scorePointer": "/observations/3/score",
+            "score": 53.933,
+            "sourceUrl": "https://livebench.ai/",
+            "sourceModelName": "minimax-m3",
+            "sourceModelNamePointer": "/observations/3/sourceModelName",
+            "observationSourceUrl": "https://livebench.ai/",
+            "label": "minimax-m3 · effort не раскрыт",
+            "notes": [
+                "Релиз 2026-06-25, категория IF. Версия harness и бюджеты строк не раскрыты.",
+                "Стоимость относится ко всему релизу, не только к категории IF."
+            ],
+            "configuration": {
+                "effort": null,
+                "metric": "summarize",
+                "sampleSize": 200
+            },
+            "configurationPointers": {
+                "effort": "/observations/3/effort",
+                "metric": "/observations/3/metric",
+                "sampleSize": "/observations/3/sampleSize"
+            },
+            "telemetryPointers": [
+                {
+                    "name": "Стоимость вопроса",
+                    "unit": "USD, весь релиз",
+                    "valuePointer": "/observations/3/costPerQuestion",
+                    "transformations": []
+                },
+                {
+                    "name": "Стоимость успешной задачи",
+                    "unit": "USD, весь релиз",
+                    "valuePointer": "/observations/3/costPerSuccessfulTask",
+                    "transformations": []
+                }
+            ],
+            "transformations": []
+        },
+        {
+            "runId": "livebench-if-reviewed-5",
+            "scorePointer": "/observations/4/score",
+            "score": 64.683,
+            "sourceUrl": "https://livebench.ai/",
+            "sourceModelName": "glm-5.3",
+            "sourceModelNamePointer": "/observations/4/sourceModelName",
+            "observationSourceUrl": "https://livebench.ai/",
+            "label": "glm-5.3 · effort не раскрыт",
+            "notes": [
+                "Релиз 2026-06-25, категория IF. Версия harness и бюджеты строк не раскрыты.",
+                "Стоимость относится ко всему релизу, не только к категории IF."
+            ],
+            "configuration": {
+                "effort": null,
+                "metric": "paraphrase",
+                "sampleSize": 200
+            },
+            "configurationPointers": {
+                "effort": "/observations/4/effort",
+                "metric": "/observations/4/metric",
+                "sampleSize": "/observations/4/sampleSize"
+            },
+            "telemetryPointers": [
+                {
+                    "name": "Стоимость вопроса",
+                    "unit": "USD, весь релиз",
+                    "valuePointer": "/observations/4/costPerQuestion",
+                    "transformations": []
+                },
+                {
+                    "name": "Стоимость успешной задачи",
+                    "unit": "USD, весь релиз",
+                    "valuePointer": "/observations/4/costPerSuccessfulTask",
+                    "transformations": []
+                }
+            ],
+            "transformations": []
+        },
+        {
+            "runId": "livebench-if-reviewed-6",
+            "scorePointer": "/observations/5/score",
+            "score": 65.85,
+            "sourceUrl": "https://livebench.ai/",
+            "sourceModelName": "glm-5.3",
+            "sourceModelNamePointer": "/observations/5/sourceModelName",
+            "observationSourceUrl": "https://livebench.ai/",
+            "label": "glm-5.3 · effort не раскрыт",
+            "notes": [
+                "Релиз 2026-06-25, категория IF. Версия harness и бюджеты строк не раскрыты.",
+                "Стоимость относится ко всему релизу, не только к категории IF."
+            ],
+            "configuration": {
+                "effort": null,
+                "metric": "simplify",
+                "sampleSize": 200
+            },
+            "configurationPointers": {
+                "effort": "/observations/5/effort",
+                "metric": "/observations/5/metric",
+                "sampleSize": "/observations/5/sampleSize"
+            },
+            "telemetryPointers": [
+                {
+                    "name": "Стоимость вопроса",
+                    "unit": "USD, весь релиз",
+                    "valuePointer": "/observations/5/costPerQuestion",
+                    "transformations": []
+                },
+                {
+                    "name": "Стоимость успешной задачи",
+                    "unit": "USD, весь релиз",
+                    "valuePointer": "/observations/5/costPerSuccessfulTask",
+                    "transformations": []
+                }
+            ],
+            "transformations": []
+        },
+        {
+            "runId": "livebench-if-reviewed-7",
+            "scorePointer": "/observations/6/score",
+            "score": 72.133,
+            "sourceUrl": "https://livebench.ai/",
+            "sourceModelName": "glm-5.3",
+            "sourceModelNamePointer": "/observations/6/sourceModelName",
+            "observationSourceUrl": "https://livebench.ai/",
+            "label": "glm-5.3 · effort не раскрыт",
+            "notes": [
+                "Релиз 2026-06-25, категория IF. Версия harness и бюджеты строк не раскрыты.",
+                "Стоимость относится ко всему релизу, не только к категории IF."
+            ],
+            "configuration": {
+                "effort": null,
+                "metric": "story_generation",
+                "sampleSize": 200
+            },
+            "configurationPointers": {
+                "effort": "/observations/6/effort",
+                "metric": "/observations/6/metric",
+                "sampleSize": "/observations/6/sampleSize"
+            },
+            "telemetryPointers": [
+                {
+                    "name": "Стоимость вопроса",
+                    "unit": "USD, весь релиз",
+                    "valuePointer": "/observations/6/costPerQuestion",
+                    "transformations": []
+                },
+                {
+                    "name": "Стоимость успешной задачи",
+                    "unit": "USD, весь релиз",
+                    "valuePointer": "/observations/6/costPerSuccessfulTask",
+                    "transformations": []
+                }
+            ],
+            "transformations": []
+        },
+        {
+            "runId": "livebench-if-reviewed-8",
+            "scorePointer": "/observations/7/score",
+            "score": 74.55,
+            "sourceUrl": "https://livebench.ai/",
+            "sourceModelName": "glm-5.3",
+            "sourceModelNamePointer": "/observations/7/sourceModelName",
+            "observationSourceUrl": "https://livebench.ai/",
+            "label": "glm-5.3 · effort не раскрыт",
+            "notes": [
+                "Релиз 2026-06-25, категория IF. Версия harness и бюджеты строк не раскрыты.",
+                "Стоимость относится ко всему релизу, не только к категории IF."
+            ],
+            "configuration": {
+                "effort": null,
+                "metric": "summarize",
+                "sampleSize": 200
+            },
+            "configurationPointers": {
+                "effort": "/observations/7/effort",
+                "metric": "/observations/7/metric",
+                "sampleSize": "/observations/7/sampleSize"
+            },
+            "telemetryPointers": [
+                {
+                    "name": "Стоимость вопроса",
+                    "unit": "USD, весь релиз",
+                    "valuePointer": "/observations/7/costPerQuestion",
+                    "transformations": []
+                },
+                {
+                    "name": "Стоимость успешной задачи",
+                    "unit": "USD, весь релиз",
+                    "valuePointer": "/observations/7/costPerSuccessfulTask",
+                    "transformations": []
+                }
+            ],
+            "transformations": []
+        },
+        {
+            "runId": "livebench-if-reviewed-9",
+            "scorePointer": "/observations/8/score",
+            "score": 47.983,
+            "sourceUrl": "https://livebench.ai/",
+            "sourceModelName": "glm-5.3-flash",
+            "sourceModelNamePointer": "/observations/8/sourceModelName",
+            "observationSourceUrl": "https://livebench.ai/",
+            "label": "glm-5.3-flash · effort не раскрыт",
+            "notes": [
+                "Релиз 2026-06-25, категория IF. Версия harness и бюджеты строк не раскрыты.",
+                "Стоимость относится ко всему релизу, не только к категории IF."
+            ],
+            "configuration": {
+                "effort": null,
+                "metric": "paraphrase",
+                "sampleSize": 200
+            },
+            "configurationPointers": {
+                "effort": "/observations/8/effort",
+                "metric": "/observations/8/metric",
+                "sampleSize": "/observations/8/sampleSize"
+            },
+            "telemetryPointers": [
+                {
+                    "name": "Стоимость вопроса",
+                    "unit": "USD, весь релиз",
+                    "valuePointer": "/observations/8/costPerQuestion",
+                    "transformations": []
+                },
+                {
+                    "name": "Стоимость успешной задачи",
+                    "unit": "USD, весь релиз",
+                    "valuePointer": "/observations/8/costPerSuccessfulTask",
+                    "transformations": []
+                }
+            ],
+            "transformations": []
+        },
+        {
+            "runId": "livebench-if-reviewed-10",
+            "scorePointer": "/observations/9/score",
+            "score": 46.95,
+            "sourceUrl": "https://livebench.ai/",
+            "sourceModelName": "glm-5.3-flash",
+            "sourceModelNamePointer": "/observations/9/sourceModelName",
+            "observationSourceUrl": "https://livebench.ai/",
+            "label": "glm-5.3-flash · effort не раскрыт",
+            "notes": [
+                "Релиз 2026-06-25, категория IF. Версия harness и бюджеты строк не раскрыты.",
+                "Стоимость относится ко всему релизу, не только к категории IF."
+            ],
+            "configuration": {
+                "effort": null,
+                "metric": "simplify",
+                "sampleSize": 200
+            },
+            "configurationPointers": {
+                "effort": "/observations/9/effort",
+                "metric": "/observations/9/metric",
+                "sampleSize": "/observations/9/sampleSize"
+            },
+            "telemetryPointers": [
+                {
+                    "name": "Стоимость вопроса",
+                    "unit": "USD, весь релиз",
+                    "valuePointer": "/observations/9/costPerQuestion",
+                    "transformations": []
+                },
+                {
+                    "name": "Стоимость успешной задачи",
+                    "unit": "USD, весь релиз",
+                    "valuePointer": "/observations/9/costPerSuccessfulTask",
+                    "transformations": []
+                }
+            ],
+            "transformations": []
+        },
+        {
+            "runId": "livebench-if-reviewed-11",
+            "scorePointer": "/observations/10/score",
+            "score": 59.883,
+            "sourceUrl": "https://livebench.ai/",
+            "sourceModelName": "glm-5.3-flash",
+            "sourceModelNamePointer": "/observations/10/sourceModelName",
+            "observationSourceUrl": "https://livebench.ai/",
+            "label": "glm-5.3-flash · effort не раскрыт",
+            "notes": [
+                "Релиз 2026-06-25, категория IF. Версия harness и бюджеты строк не раскрыты.",
+                "Стоимость относится ко всему релизу, не только к категории IF."
+            ],
+            "configuration": {
+                "effort": null,
+                "metric": "story_generation",
+                "sampleSize": 200
+            },
+            "configurationPointers": {
+                "effort": "/observations/10/effort",
+                "metric": "/observations/10/metric",
+                "sampleSize": "/observations/10/sampleSize"
+            },
+            "telemetryPointers": [
+                {
+                    "name": "Стоимость вопроса",
+                    "unit": "USD, весь релиз",
+                    "valuePointer": "/observations/10/costPerQuestion",
+                    "transformations": []
+                },
+                {
+                    "name": "Стоимость успешной задачи",
+                    "unit": "USD, весь релиз",
+                    "valuePointer": "/observations/10/costPerSuccessfulTask",
+                    "transformations": []
+                }
+            ],
+            "transformations": []
+        },
+        {
+            "runId": "livebench-if-reviewed-12",
+            "scorePointer": "/observations/11/score",
+            "score": 56.467,
+            "sourceUrl": "https://livebench.ai/",
+            "sourceModelName": "glm-5.3-flash",
+            "sourceModelNamePointer": "/observations/11/sourceModelName",
+            "observationSourceUrl": "https://livebench.ai/",
+            "label": "glm-5.3-flash · effort не раскрыт",
+            "notes": [
+                "Релиз 2026-06-25, категория IF. Версия harness и бюджеты строк не раскрыты.",
+                "Стоимость относится ко всему релизу, не только к категории IF."
+            ],
+            "configuration": {
+                "effort": null,
+                "metric": "summarize",
+                "sampleSize": 200
+            },
+            "configurationPointers": {
+                "effort": "/observations/11/effort",
+                "metric": "/observations/11/metric",
+                "sampleSize": "/observations/11/sampleSize"
+            },
+            "telemetryPointers": [
+                {
+                    "name": "Стоимость вопроса",
+                    "unit": "USD, весь релиз",
+                    "valuePointer": "/observations/11/costPerQuestion",
+                    "transformations": []
+                },
+                {
+                    "name": "Стоимость успешной задачи",
+                    "unit": "USD, весь релиз",
+                    "valuePointer": "/observations/11/costPerSuccessfulTask",
+                    "transformations": []
+                }
+            ],
+            "transformations": []
+        },
+        {
+            "runId": "livebench-if-reviewed-13",
+            "scorePointer": "/observations/12/score",
+            "score": 80.0,
+            "sourceUrl": "https://livebench.ai/",
+            "sourceModelName": "gemini-3.8-flash-high",
+            "sourceModelNamePointer": "/observations/12/sourceModelName",
+            "observationSourceUrl": "https://livebench.ai/",
+            "label": "gemini-3.8-flash-high · effort high",
+            "notes": [
+                "Релиз 2026-06-25, категория IF. Версия harness и бюджеты строк не раскрыты.",
+                "Стоимость относится ко всему релизу, не только к категории IF."
+            ],
+            "configuration": {
+                "effort": "high",
+                "metric": "paraphrase",
+                "sampleSize": 200
+            },
+            "configurationPointers": {
+                "effort": "/observations/12/effort",
+                "metric": "/observations/12/metric",
+                "sampleSize": "/observations/12/sampleSize"
+            },
+            "telemetryPointers": [
+                {
+                    "name": "Стоимость вопроса",
+                    "unit": "USD, весь релиз",
+                    "valuePointer": "/observations/12/costPerQuestion",
+                    "transformations": []
+                },
+                {
+                    "name": "Стоимость успешной задачи",
+                    "unit": "USD, весь релиз",
+                    "valuePointer": "/observations/12/costPerSuccessfulTask",
+                    "transformations": []
+                }
+            ],
+            "transformations": []
+        },
+        {
+            "runId": "livebench-if-reviewed-14",
+            "scorePointer": "/observations/13/score",
+            "score": 75.4,
+            "sourceUrl": "https://livebench.ai/",
+            "sourceModelName": "gemini-3.8-flash-high",
+            "sourceModelNamePointer": "/observations/13/sourceModelName",
+            "observationSourceUrl": "https://livebench.ai/",
+            "label": "gemini-3.8-flash-high · effort high",
+            "notes": [
+                "Релиз 2026-06-25, категория IF. Версия harness и бюджеты строк не раскрыты.",
+                "Стоимость относится ко всему релизу, не только к категории IF."
+            ],
+            "configuration": {
+                "effort": "high",
+                "metric": "simplify",
+                "sampleSize": 200
+            },
+            "configurationPointers": {
+                "effort": "/observations/13/effort",
+                "metric": "/observations/13/metric",
+                "sampleSize": "/observations/13/sampleSize"
+            },
+            "telemetryPointers": [
+                {
+                    "name": "Стоимость вопроса",
+                    "unit": "USD, весь релиз",
+                    "valuePointer": "/observations/13/costPerQuestion",
+                    "transformations": []
+                },
+                {
+                    "name": "Стоимость успешной задачи",
+                    "unit": "USD, весь релиз",
+                    "valuePointer": "/observations/13/costPerSuccessfulTask",
+                    "transformations": []
+                }
+            ],
+            "transformations": []
+        },
+        {
+            "runId": "livebench-if-reviewed-15",
+            "scorePointer": "/observations/14/score",
+            "score": 82.75,
+            "sourceUrl": "https://livebench.ai/",
+            "sourceModelName": "gemini-3.8-flash-high",
+            "sourceModelNamePointer": "/observations/14/sourceModelName",
+            "observationSourceUrl": "https://livebench.ai/",
+            "label": "gemini-3.8-flash-high · effort high",
+            "notes": [
+                "Релиз 2026-06-25, категория IF. Версия harness и бюджеты строк не раскрыты.",
+                "Стоимость относится ко всему релизу, не только к категории IF."
+            ],
+            "configuration": {
+                "effort": "high",
+                "metric": "story_generation",
+                "sampleSize": 200
+            },
+            "configurationPointers": {
+                "effort": "/observations/14/effort",
+                "metric": "/observations/14/metric",
+                "sampleSize": "/observations/14/sampleSize"
+            },
+            "telemetryPointers": [
+                {
+                    "name": "Стоимость вопроса",
+                    "unit": "USD, весь релиз",
+                    "valuePointer": "/observations/14/costPerQuestion",
+                    "transformations": []
+                },
+                {
+                    "name": "Стоимость успешной задачи",
+                    "unit": "USD, весь релиз",
+                    "valuePointer": "/observations/14/costPerSuccessfulTask",
+                    "transformations": []
+                }
+            ],
+            "transformations": []
+        },
+        {
+            "runId": "livebench-if-reviewed-16",
+            "scorePointer": "/observations/15/score",
+            "score": 87.5,
+            "sourceUrl": "https://livebench.ai/",
+            "sourceModelName": "gemini-3.8-flash-high",
+            "sourceModelNamePointer": "/observations/15/sourceModelName",
+            "observationSourceUrl": "https://livebench.ai/",
+            "label": "gemini-3.8-flash-high · effort high",
+            "notes": [
+                "Релиз 2026-06-25, категория IF. Версия harness и бюджеты строк не раскрыты.",
+                "Стоимость относится ко всему релизу, не только к категории IF."
+            ],
+            "configuration": {
+                "effort": "high",
+                "metric": "summarize",
+                "sampleSize": 200
+            },
+            "configurationPointers": {
+                "effort": "/observations/15/effort",
+                "metric": "/observations/15/metric",
+                "sampleSize": "/observations/15/sampleSize"
+            },
+            "telemetryPointers": [
+                {
+                    "name": "Стоимость вопроса",
+                    "unit": "USD, весь релиз",
+                    "valuePointer": "/observations/15/costPerQuestion",
+                    "transformations": []
+                },
+                {
+                    "name": "Стоимость успешной задачи",
+                    "unit": "USD, весь релиз",
+                    "valuePointer": "/observations/15/costPerSuccessfulTask",
+                    "transformations": []
+                }
+            ],
+            "transformations": []
+        },
+        {
+            "runId": "livebench-if-reviewed-17",
+            "scorePointer": "/observations/16/score",
+            "score": 78.617,
+            "sourceUrl": "https://livebench.ai/",
+            "sourceModelName": "muse-spark-1.3-xhigh",
+            "sourceModelNamePointer": "/observations/16/sourceModelName",
+            "observationSourceUrl": "https://livebench.ai/",
+            "label": "muse-spark-1.3-xhigh · effort xhigh",
+            "notes": [
+                "Релиз 2026-06-25, категория IF. Версия harness и бюджеты строк не раскрыты.",
+                "Стоимость относится ко всему релизу, не только к категории IF."
+            ],
+            "configuration": {
+                "effort": "xhigh",
+                "metric": "paraphrase",
+                "sampleSize": 200
+            },
+            "configurationPointers": {
+                "effort": "/observations/16/effort",
+                "metric": "/observations/16/metric",
+                "sampleSize": "/observations/16/sampleSize"
+            },
+            "telemetryPointers": [
+                {
+                    "name": "Стоимость вопроса",
+                    "unit": "USD, весь релиз",
+                    "valuePointer": "/observations/16/costPerQuestion",
+                    "transformations": []
+                },
+                {
+                    "name": "Стоимость успешной задачи",
+                    "unit": "USD, весь релиз",
+                    "valuePointer": "/observations/16/costPerSuccessfulTask",
+                    "transformations": []
+                }
+            ],
+            "transformations": []
+        },
+        {
+            "runId": "livebench-if-reviewed-18",
+            "scorePointer": "/observations/17/score",
+            "score": 72.517,
+            "sourceUrl": "https://livebench.ai/",
+            "sourceModelName": "muse-spark-1.3-xhigh",
+            "sourceModelNamePointer": "/observations/17/sourceModelName",
+            "observationSourceUrl": "https://livebench.ai/",
+            "label": "muse-spark-1.3-xhigh · effort xhigh",
+            "notes": [
+                "Релиз 2026-06-25, категория IF. Версия harness и бюджеты строк не раскрыты.",
+                "Стоимость относится ко всему релизу, не только к категории IF."
+            ],
+            "configuration": {
+                "effort": "xhigh",
+                "metric": "simplify",
+                "sampleSize": 200
+            },
+            "configurationPointers": {
+                "effort": "/observations/17/effort",
+                "metric": "/observations/17/metric",
+                "sampleSize": "/observations/17/sampleSize"
+            },
+            "telemetryPointers": [
+                {
+                    "name": "Стоимость вопроса",
+                    "unit": "USD, весь релиз",
+                    "valuePointer": "/observations/17/costPerQuestion",
+                    "transformations": []
+                },
+                {
+                    "name": "Стоимость успешной задачи",
+                    "unit": "USD, весь релиз",
+                    "valuePointer": "/observations/17/costPerSuccessfulTask",
+                    "transformations": []
+                }
+            ],
+            "transformations": []
+        },
+        {
+            "runId": "livebench-if-reviewed-19",
+            "scorePointer": "/observations/18/score",
+            "score": 77.483,
+            "sourceUrl": "https://livebench.ai/",
+            "sourceModelName": "muse-spark-1.3-xhigh",
+            "sourceModelNamePointer": "/observations/18/sourceModelName",
+            "observationSourceUrl": "https://livebench.ai/",
+            "label": "muse-spark-1.3-xhigh · effort xhigh",
+            "notes": [
+                "Релиз 2026-06-25, категория IF. Версия harness и бюджеты строк не раскрыты.",
+                "Стоимость относится ко всему релизу, не только к категории IF."
+            ],
+            "configuration": {
+                "effort": "xhigh",
+                "metric": "story_generation",
+                "sampleSize": 200
+            },
+            "configurationPointers": {
+                "effort": "/observations/18/effort",
+                "metric": "/observations/18/metric",
+                "sampleSize": "/observations/18/sampleSize"
+            },
+            "telemetryPointers": [
+                {
+                    "name": "Стоимость вопроса",
+                    "unit": "USD, весь релиз",
+                    "valuePointer": "/observations/18/costPerQuestion",
+                    "transformations": []
+                },
+                {
+                    "name": "Стоимость успешной задачи",
+                    "unit": "USD, весь релиз",
+                    "valuePointer": "/observations/18/costPerSuccessfulTask",
+                    "transformations": []
+                }
+            ],
+            "transformations": []
+        },
+        {
+            "runId": "livebench-if-reviewed-20",
+            "scorePointer": "/observations/19/score",
+            "score": 83.4,
+            "sourceUrl": "https://livebench.ai/",
+            "sourceModelName": "muse-spark-1.3-xhigh",
+            "sourceModelNamePointer": "/observations/19/sourceModelName",
+            "observationSourceUrl": "https://livebench.ai/",
+            "label": "muse-spark-1.3-xhigh · effort xhigh",
+            "notes": [
+                "Релиз 2026-06-25, категория IF. Версия harness и бюджеты строк не раскрыты.",
+                "Стоимость относится ко всему релизу, не только к категории IF."
+            ],
+            "configuration": {
+                "effort": "xhigh",
+                "metric": "summarize",
+                "sampleSize": 200
+            },
+            "configurationPointers": {
+                "effort": "/observations/19/effort",
+                "metric": "/observations/19/metric",
+                "sampleSize": "/observations/19/sampleSize"
+            },
+            "telemetryPointers": [
+                {
+                    "name": "Стоимость вопроса",
+                    "unit": "USD, весь релиз",
+                    "valuePointer": "/observations/19/costPerQuestion",
+                    "transformations": []
+                },
+                {
+                    "name": "Стоимость успешной задачи",
+                    "unit": "USD, весь релиз",
+                    "valuePointer": "/observations/19/costPerSuccessfulTask",
+                    "transformations": []
+                }
+            ],
+            "transformations": []
+        },
+        {
+            "runId": "livebench-if-reviewed-21",
+            "scorePointer": "/observations/20/score",
+            "score": 78.25,
+            "sourceUrl": "https://livebench.ai/",
+            "sourceModelName": "gpt-6-astra-max",
+            "sourceModelNamePointer": "/observations/20/sourceModelName",
+            "observationSourceUrl": "https://livebench.ai/",
+            "label": "gpt-6-astra-max · effort max",
+            "notes": [
+                "Релиз 2026-06-25, категория IF. Версия harness и бюджеты строк не раскрыты.",
+                "Стоимость относится ко всему релизу, не только к категории IF."
+            ],
+            "configuration": {
+                "effort": "max",
+                "metric": "paraphrase",
+                "sampleSize": 200
+            },
+            "configurationPointers": {
+                "effort": "/observations/20/effort",
+                "metric": "/observations/20/metric",
+                "sampleSize": "/observations/20/sampleSize"
+            },
+            "telemetryPointers": [
+                {
+                    "name": "Стоимость вопроса",
+                    "unit": "USD, весь релиз",
+                    "valuePointer": "/observations/20/costPerQuestion",
+                    "transformations": []
+                },
+                {
+                    "name": "Стоимость успешной задачи",
+                    "unit": "USD, весь релиз",
+                    "valuePointer": "/observations/20/costPerSuccessfulTask",
+                    "transformations": []
+                }
+            ],
+            "transformations": []
+        },
+        {
+            "runId": "livebench-if-reviewed-22",
+            "scorePointer": "/observations/21/score",
+            "score": 70.533,
+            "sourceUrl": "https://livebench.ai/",
+            "sourceModelName": "gpt-6-astra-max",
+            "sourceModelNamePointer": "/observations/21/sourceModelName",
+            "observationSourceUrl": "https://livebench.ai/",
+            "label": "gpt-6-astra-max · effort max",
+            "notes": [
+                "Релиз 2026-06-25, категория IF. Версия harness и бюджеты строк не раскрыты.",
+                "Стоимость относится ко всему релизу, не только к категории IF."
+            ],
+            "configuration": {
+                "effort": "max",
+                "metric": "simplify",
+                "sampleSize": 200
+            },
+            "configurationPointers": {
+                "effort": "/observations/21/effort",
+                "metric": "/observations/21/metric",
+                "sampleSize": "/observations/21/sampleSize"
+            },
+            "telemetryPointers": [
+                {
+                    "name": "Стоимость вопроса",
+                    "unit": "USD, весь релиз",
+                    "valuePointer": "/observations/21/costPerQuestion",
+                    "transformations": []
+                },
+                {
+                    "name": "Стоимость успешной задачи",
+                    "unit": "USD, весь релиз",
+                    "valuePointer": "/observations/21/costPerSuccessfulTask",
+                    "transformations": []
+                }
+            ],
+            "transformations": []
+        },
+        {
+            "runId": "livebench-if-reviewed-23",
+            "scorePointer": "/observations/22/score",
+            "score": 73.983,
+            "sourceUrl": "https://livebench.ai/",
+            "sourceModelName": "gpt-6-astra-max",
+            "sourceModelNamePointer": "/observations/22/sourceModelName",
+            "observationSourceUrl": "https://livebench.ai/",
+            "label": "gpt-6-astra-max · effort max",
+            "notes": [
+                "Релиз 2026-06-25, категория IF. Версия harness и бюджеты строк не раскрыты.",
+                "Стоимость относится ко всему релизу, не только к категории IF."
+            ],
+            "configuration": {
+                "effort": "max",
+                "metric": "story_generation",
+                "sampleSize": 200
+            },
+            "configurationPointers": {
+                "effort": "/observations/22/effort",
+                "metric": "/observations/22/metric",
+                "sampleSize": "/observations/22/sampleSize"
+            },
+            "telemetryPointers": [
+                {
+                    "name": "Стоимость вопроса",
+                    "unit": "USD, весь релиз",
+                    "valuePointer": "/observations/22/costPerQuestion",
+                    "transformations": []
+                },
+                {
+                    "name": "Стоимость успешной задачи",
+                    "unit": "USD, весь релиз",
+                    "valuePointer": "/observations/22/costPerSuccessfulTask",
+                    "transformations": []
+                }
+            ],
+            "transformations": []
+        },
+        {
+            "runId": "livebench-if-reviewed-24",
+            "scorePointer": "/observations/23/score",
+            "score": 79.55,
+            "sourceUrl": "https://livebench.ai/",
+            "sourceModelName": "gpt-6-astra-max",
+            "sourceModelNamePointer": "/observations/23/sourceModelName",
+            "observationSourceUrl": "https://livebench.ai/",
+            "label": "gpt-6-astra-max · effort max",
+            "notes": [
+                "Релиз 2026-06-25, категория IF. Версия harness и бюджеты строк не раскрыты.",
+                "Стоимость относится ко всему релизу, не только к категории IF."
+            ],
+            "configuration": {
+                "effort": "max",
+                "metric": "summarize",
+                "sampleSize": 200
+            },
+            "configurationPointers": {
+                "effort": "/observations/23/effort",
+                "metric": "/observations/23/metric",
+                "sampleSize": "/observations/23/sampleSize"
+            },
+            "telemetryPointers": [
+                {
+                    "name": "Стоимость вопроса",
+                    "unit": "USD, весь релиз",
+                    "valuePointer": "/observations/23/costPerQuestion",
+                    "transformations": []
+                },
+                {
+                    "name": "Стоимость успешной задачи",
+                    "unit": "USD, весь релиз",
+                    "valuePointer": "/observations/23/costPerSuccessfulTask",
+                    "transformations": []
+                }
+            ],
+            "transformations": []
+        },
+        {
+            "runId": "livebench-if-reviewed-25",
+            "scorePointer": "/observations/24/score",
+            "score": 78.05,
+            "sourceUrl": "https://livebench.ai/",
+            "sourceModelName": "grok-4.7-xhigh",
+            "sourceModelNamePointer": "/observations/24/sourceModelName",
+            "observationSourceUrl": "https://livebench.ai/",
+            "label": "grok-4.7-xhigh · effort xhigh",
+            "notes": [
+                "Релиз 2026-06-25, категория IF. Версия harness и бюджеты строк не раскрыты.",
+                "Стоимость относится ко всему релизу, не только к категории IF."
+            ],
+            "configuration": {
+                "effort": "xhigh",
+                "metric": "paraphrase",
+                "sampleSize": 200
+            },
+            "configurationPointers": {
+                "effort": "/observations/24/effort",
+                "metric": "/observations/24/metric",
+                "sampleSize": "/observations/24/sampleSize"
+            },
+            "telemetryPointers": [
+                {
+                    "name": "Стоимость вопроса",
+                    "unit": "USD, весь релиз",
+                    "valuePointer": "/observations/24/costPerQuestion",
+                    "transformations": []
+                },
+                {
+                    "name": "Стоимость успешной задачи",
+                    "unit": "USD, весь релиз",
+                    "valuePointer": "/observations/24/costPerSuccessfulTask",
+                    "transformations": []
+                }
+            ],
+            "transformations": []
+        },
+        {
+            "runId": "livebench-if-reviewed-26",
+            "scorePointer": "/observations/25/score",
+            "score": 69.967,
+            "sourceUrl": "https://livebench.ai/",
+            "sourceModelName": "grok-4.7-xhigh",
+            "sourceModelNamePointer": "/observations/25/sourceModelName",
+            "observationSourceUrl": "https://livebench.ai/",
+            "label": "grok-4.7-xhigh · effort xhigh",
+            "notes": [
+                "Релиз 2026-06-25, категория IF. Версия harness и бюджеты строк не раскрыты.",
+                "Стоимость относится ко всему релизу, не только к категории IF."
+            ],
+            "configuration": {
+                "effort": "xhigh",
+                "metric": "simplify",
+                "sampleSize": 200
+            },
+            "configurationPointers": {
+                "effort": "/observations/25/effort",
+                "metric": "/observations/25/metric",
+                "sampleSize": "/observations/25/sampleSize"
+            },
+            "telemetryPointers": [
+                {
+                    "name": "Стоимость вопроса",
+                    "unit": "USD, весь релиз",
+                    "valuePointer": "/observations/25/costPerQuestion",
+                    "transformations": []
+                },
+                {
+                    "name": "Стоимость успешной задачи",
+                    "unit": "USD, весь релиз",
+                    "valuePointer": "/observations/25/costPerSuccessfulTask",
+                    "transformations": []
+                }
+            ],
+            "transformations": []
+        },
+        {
+            "runId": "livebench-if-reviewed-27",
+            "scorePointer": "/observations/26/score",
+            "score": 74.917,
+            "sourceUrl": "https://livebench.ai/",
+            "sourceModelName": "grok-4.7-xhigh",
+            "sourceModelNamePointer": "/observations/26/sourceModelName",
+            "observationSourceUrl": "https://livebench.ai/",
+            "label": "grok-4.7-xhigh · effort xhigh",
+            "notes": [
+                "Релиз 2026-06-25, категория IF. Версия harness и бюджеты строк не раскрыты.",
+                "Стоимость относится ко всему релизу, не только к категории IF."
+            ],
+            "configuration": {
+                "effort": "xhigh",
+                "metric": "story_generation",
+                "sampleSize": 200
+            },
+            "configurationPointers": {
+                "effort": "/observations/26/effort",
+                "metric": "/observations/26/metric",
+                "sampleSize": "/observations/26/sampleSize"
+            },
+            "telemetryPointers": [
+                {
+                    "name": "Стоимость вопроса",
+                    "unit": "USD, весь релиз",
+                    "valuePointer": "/observations/26/costPerQuestion",
+                    "transformations": []
+                },
+                {
+                    "name": "Стоимость успешной задачи",
+                    "unit": "USD, весь релиз",
+                    "valuePointer": "/observations/26/costPerSuccessfulTask",
+                    "transformations": []
+                }
+            ],
+            "transformations": []
+        },
+        {
+            "runId": "livebench-if-reviewed-28",
+            "scorePointer": "/observations/27/score",
+            "score": 78.167,
+            "sourceUrl": "https://livebench.ai/",
+            "sourceModelName": "grok-4.7-xhigh",
+            "sourceModelNamePointer": "/observations/27/sourceModelName",
+            "observationSourceUrl": "https://livebench.ai/",
+            "label": "grok-4.7-xhigh · effort xhigh",
+            "notes": [
+                "Релиз 2026-06-25, категория IF. Версия harness и бюджеты строк не раскрыты.",
+                "Стоимость относится ко всему релизу, не только к категории IF."
+            ],
+            "configuration": {
+                "effort": "xhigh",
+                "metric": "summarize",
+                "sampleSize": 200
+            },
+            "configurationPointers": {
+                "effort": "/observations/27/effort",
+                "metric": "/observations/27/metric",
+                "sampleSize": "/observations/27/sampleSize"
+            },
+            "telemetryPointers": [
+                {
+                    "name": "Стоимость вопроса",
+                    "unit": "USD, весь релиз",
+                    "valuePointer": "/observations/27/costPerQuestion",
+                    "transformations": []
+                },
+                {
+                    "name": "Стоимость успешной задачи",
+                    "unit": "USD, весь релиз",
+                    "valuePointer": "/observations/27/costPerSuccessfulTask",
+                    "transformations": []
+                }
+            ],
+            "transformations": []
+        },
+        {
+            "runId": "livebench-if-reviewed-29",
+            "scorePointer": "/observations/28/score",
+            "score": 49.7,
+            "sourceUrl": "https://livebench.ai/",
+            "sourceModelName": "gpt-6-luna-max",
+            "sourceModelNamePointer": "/observations/28/sourceModelName",
+            "observationSourceUrl": "https://livebench.ai/",
+            "label": "gpt-6-luna-max · effort max",
+            "notes": [
+                "Релиз 2026-06-25, категория IF. Версия harness и бюджеты строк не раскрыты.",
+                "Стоимость относится ко всему релизу, не только к категории IF."
+            ],
+            "configuration": {
+                "effort": "max",
+                "metric": "paraphrase",
+                "sampleSize": 200
+            },
+            "configurationPointers": {
+                "effort": "/observations/28/effort",
+                "metric": "/observations/28/metric",
+                "sampleSize": "/observations/28/sampleSize"
+            },
+            "telemetryPointers": [
+                {
+                    "name": "Стоимость вопроса",
+                    "unit": "USD, весь релиз",
+                    "valuePointer": "/observations/28/costPerQuestion",
+                    "transformations": []
+                },
+                {
+                    "name": "Стоимость успешной задачи",
+                    "unit": "USD, весь релиз",
+                    "valuePointer": "/observations/28/costPerSuccessfulTask",
+                    "transformations": []
+                }
+            ],
+            "transformations": []
+        },
+        {
+            "runId": "livebench-if-reviewed-30",
+            "scorePointer": "/observations/29/score",
+            "score": 55.433,
+            "sourceUrl": "https://livebench.ai/",
+            "sourceModelName": "gpt-6-luna-max",
+            "sourceModelNamePointer": "/observations/29/sourceModelName",
+            "observationSourceUrl": "https://livebench.ai/",
+            "label": "gpt-6-luna-max · effort max",
+            "notes": [
+                "Релиз 2026-06-25, категория IF. Версия harness и бюджеты строк не раскрыты.",
+                "Стоимость относится ко всему релизу, не только к категории IF."
+            ],
+            "configuration": {
+                "effort": "max",
+                "metric": "simplify",
+                "sampleSize": 200
+            },
+            "configurationPointers": {
+                "effort": "/observations/29/effort",
+                "metric": "/observations/29/metric",
+                "sampleSize": "/observations/29/sampleSize"
+            },
+            "telemetryPointers": [
+                {
+                    "name": "Стоимость вопроса",
+                    "unit": "USD, весь релиз",
+                    "valuePointer": "/observations/29/costPerQuestion",
+                    "transformations": []
+                },
+                {
+                    "name": "Стоимость успешной задачи",
+                    "unit": "USD, весь релиз",
+                    "valuePointer": "/observations/29/costPerSuccessfulTask",
+                    "transformations": []
+                }
+            ],
+            "transformations": []
+        },
+        {
+            "runId": "livebench-if-reviewed-31",
+            "scorePointer": "/observations/30/score",
+            "score": 63.283,
+            "sourceUrl": "https://livebench.ai/",
+            "sourceModelName": "gpt-6-luna-max",
+            "sourceModelNamePointer": "/observations/30/sourceModelName",
+            "observationSourceUrl": "https://livebench.ai/",
+            "label": "gpt-6-luna-max · effort max",
+            "notes": [
+                "Релиз 2026-06-25, категория IF. Версия harness и бюджеты строк не раскрыты.",
+                "Стоимость относится ко всему релизу, не только к категории IF."
+            ],
+            "configuration": {
+                "effort": "max",
+                "metric": "story_generation",
+                "sampleSize": 200
+            },
+            "configurationPointers": {
+                "effort": "/observations/30/effort",
+                "metric": "/observations/30/metric",
+                "sampleSize": "/observations/30/sampleSize"
+            },
+            "telemetryPointers": [
+                {
+                    "name": "Стоимость вопроса",
+                    "unit": "USD, весь релиз",
+                    "valuePointer": "/observations/30/costPerQuestion",
+                    "transformations": []
+                },
+                {
+                    "name": "Стоимость успешной задачи",
+                    "unit": "USD, весь релиз",
+                    "valuePointer": "/observations/30/costPerSuccessfulTask",
+                    "transformations": []
+                }
+            ],
+            "transformations": []
+        },
+        {
+            "runId": "livebench-if-reviewed-32",
+            "scorePointer": "/observations/31/score",
+            "score": 55.317,
+            "sourceUrl": "https://livebench.ai/",
+            "sourceModelName": "gpt-6-luna-max",
+            "sourceModelNamePointer": "/observations/31/sourceModelName",
+            "observationSourceUrl": "https://livebench.ai/",
+            "label": "gpt-6-luna-max · effort max",
+            "notes": [
+                "Релиз 2026-06-25, категория IF. Версия harness и бюджеты строк не раскрыты.",
+                "Стоимость относится ко всему релизу, не только к категории IF."
+            ],
+            "configuration": {
+                "effort": "max",
+                "metric": "summarize",
+                "sampleSize": 200
+            },
+            "configurationPointers": {
+                "effort": "/observations/31/effort",
+                "metric": "/observations/31/metric",
+                "sampleSize": "/observations/31/sampleSize"
+            },
+            "telemetryPointers": [
+                {
+                    "name": "Стоимость вопроса",
+                    "unit": "USD, весь релиз",
+                    "valuePointer": "/observations/31/costPerQuestion",
+                    "transformations": []
+                },
+                {
+                    "name": "Стоимость успешной задачи",
+                    "unit": "USD, весь релиз",
+                    "valuePointer": "/observations/31/costPerSuccessfulTask",
+                    "transformations": []
+                }
+            ],
+            "transformations": []
+        },
+        {
+            "runId": "livebench-if-reviewed-33",
+            "scorePointer": "/observations/32/score",
+            "score": 72.583,
+            "sourceUrl": "https://livebench.ai/",
+            "sourceModelName": "gpt-6.1-sol-max",
+            "sourceModelNamePointer": "/observations/32/sourceModelName",
+            "observationSourceUrl": "https://livebench.ai/",
+            "label": "gpt-6.1-sol-max · effort max",
+            "notes": [
+                "Релиз 2026-06-25, категория IF. Версия harness и бюджеты строк не раскрыты.",
+                "Стоимость относится ко всему релизу, не только к категории IF."
+            ],
+            "configuration": {
+                "effort": "max",
+                "metric": "paraphrase",
+                "sampleSize": 200
+            },
+            "configurationPointers": {
+                "effort": "/observations/32/effort",
+                "metric": "/observations/32/metric",
+                "sampleSize": "/observations/32/sampleSize"
+            },
+            "telemetryPointers": [
+                {
+                    "name": "Стоимость вопроса",
+                    "unit": "USD, весь релиз",
+                    "valuePointer": "/observations/32/costPerQuestion",
+                    "transformations": []
+                },
+                {
+                    "name": "Стоимость успешной задачи",
+                    "unit": "USD, весь релиз",
+                    "valuePointer": "/observations/32/costPerSuccessfulTask",
+                    "transformations": []
+                }
+            ],
+            "transformations": []
+        },
+        {
+            "runId": "livebench-if-reviewed-34",
+            "scorePointer": "/observations/33/score",
+            "score": 71.967,
+            "sourceUrl": "https://livebench.ai/",
+            "sourceModelName": "gpt-6.1-sol-max",
+            "sourceModelNamePointer": "/observations/33/sourceModelName",
+            "observationSourceUrl": "https://livebench.ai/",
+            "label": "gpt-6.1-sol-max · effort max",
+            "notes": [
+                "Релиз 2026-06-25, категория IF. Версия harness и бюджеты строк не раскрыты.",
+                "Стоимость относится ко всему релизу, не только к категории IF."
+            ],
+            "configuration": {
+                "effort": "max",
+                "metric": "simplify",
+                "sampleSize": 200
+            },
+            "configurationPointers": {
+                "effort": "/observations/33/effort",
+                "metric": "/observations/33/metric",
+                "sampleSize": "/observations/33/sampleSize"
+            },
+            "telemetryPointers": [
+                {
+                    "name": "Стоимость вопроса",
+                    "unit": "USD, весь релиз",
+                    "valuePointer": "/observations/33/costPerQuestion",
+                    "transformations": []
+                },
+                {
+                    "name": "Стоимость успешной задачи",
+                    "unit": "USD, весь релиз",
+                    "valuePointer": "/observations/33/costPerSuccessfulTask",
+                    "transformations": []
+                }
+            ],
+            "transformations": []
+        },
+        {
+            "runId": "livebench-if-reviewed-35",
+            "scorePointer": "/observations/34/score",
+            "score": 70.817,
+            "sourceUrl": "https://livebench.ai/",
+            "sourceModelName": "gpt-6.1-sol-max",
+            "sourceModelNamePointer": "/observations/34/sourceModelName",
+            "observationSourceUrl": "https://livebench.ai/",
+            "label": "gpt-6.1-sol-max · effort max",
+            "notes": [
+                "Релиз 2026-06-25, категория IF. Версия harness и бюджеты строк не раскрыты.",
+                "Стоимость относится ко всему релизу, не только к категории IF."
+            ],
+            "configuration": {
+                "effort": "max",
+                "metric": "story_generation",
+                "sampleSize": 200
+            },
+            "configurationPointers": {
+                "effort": "/observations/34/effort",
+                "metric": "/observations/34/metric",
+                "sampleSize": "/observations/34/sampleSize"
+            },
+            "telemetryPointers": [
+                {
+                    "name": "Стоимость вопроса",
+                    "unit": "USD, весь релиз",
+                    "valuePointer": "/observations/34/costPerQuestion",
+                    "transformations": []
+                },
+                {
+                    "name": "Стоимость успешной задачи",
+                    "unit": "USD, весь релиз",
+                    "valuePointer": "/observations/34/costPerSuccessfulTask",
+                    "transformations": []
+                }
+            ],
+            "transformations": []
+        },
+        {
+            "runId": "livebench-if-reviewed-36",
+            "scorePointer": "/observations/35/score",
+            "score": 81.25,
+            "sourceUrl": "https://livebench.ai/",
+            "sourceModelName": "gpt-6.1-sol-max",
+            "sourceModelNamePointer": "/observations/35/sourceModelName",
+            "observationSourceUrl": "https://livebench.ai/",
+            "label": "gpt-6.1-sol-max · effort max",
+            "notes": [
+                "Релиз 2026-06-25, категория IF. Версия harness и бюджеты строк не раскрыты.",
+                "Стоимость относится ко всему релизу, не только к категории IF."
+            ],
+            "configuration": {
+                "effort": "max",
+                "metric": "summarize",
+                "sampleSize": 200
+            },
+            "configurationPointers": {
+                "effort": "/observations/35/effort",
+                "metric": "/observations/35/metric",
+                "sampleSize": "/observations/35/sampleSize"
+            },
+            "telemetryPointers": [
+                {
+                    "name": "Стоимость вопроса",
+                    "unit": "USD, весь релиз",
+                    "valuePointer": "/observations/35/costPerQuestion",
+                    "transformations": []
+                },
+                {
+                    "name": "Стоимость успешной задачи",
+                    "unit": "USD, весь релиз",
+                    "valuePointer": "/observations/35/costPerSuccessfulTask",
+                    "transformations": []
+                }
+            ],
+            "transformations": []
+        },
+        {
+            "runId": "livebench-if-reviewed-37",
+            "scorePointer": "/observations/36/score",
+            "score": 71.033,
+            "sourceUrl": "https://livebench.ai/",
+            "sourceModelName": "gpt-6.1-sol-xhigh",
+            "sourceModelNamePointer": "/observations/36/sourceModelName",
+            "observationSourceUrl": "https://livebench.ai/",
+            "label": "gpt-6.1-sol-xhigh · effort xhigh",
+            "notes": [
+                "Релиз 2026-06-25, категория IF. Версия harness и бюджеты строк не раскрыты.",
+                "Стоимость относится ко всему релизу, не только к категории IF."
+            ],
+            "configuration": {
+                "effort": "xhigh",
+                "metric": "paraphrase",
+                "sampleSize": 200
+            },
+            "configurationPointers": {
+                "effort": "/observations/36/effort",
+                "metric": "/observations/36/metric",
+                "sampleSize": "/observations/36/sampleSize"
+            },
+            "telemetryPointers": [
+                {
+                    "name": "Стоимость вопроса",
+                    "unit": "USD, весь релиз",
+                    "valuePointer": "/observations/36/costPerQuestion",
+                    "transformations": []
+                },
+                {
+                    "name": "Стоимость успешной задачи",
+                    "unit": "USD, весь релиз",
+                    "valuePointer": "/observations/36/costPerSuccessfulTask",
+                    "transformations": []
+                }
+            ],
+            "transformations": []
+        },
+        {
+            "runId": "livebench-if-reviewed-38",
+            "scorePointer": "/observations/37/score",
+            "score": 68.167,
+            "sourceUrl": "https://livebench.ai/",
+            "sourceModelName": "gpt-6.1-sol-xhigh",
+            "sourceModelNamePointer": "/observations/37/sourceModelName",
+            "observationSourceUrl": "https://livebench.ai/",
+            "label": "gpt-6.1-sol-xhigh · effort xhigh",
+            "notes": [
+                "Релиз 2026-06-25, категория IF. Версия harness и бюджеты строк не раскрыты.",
+                "Стоимость относится ко всему релизу, не только к категории IF."
+            ],
+            "configuration": {
+                "effort": "xhigh",
+                "metric": "simplify",
+                "sampleSize": 200
+            },
+            "configurationPointers": {
+                "effort": "/observations/37/effort",
+                "metric": "/observations/37/metric",
+                "sampleSize": "/observations/37/sampleSize"
+            },
+            "telemetryPointers": [
+                {
+                    "name": "Стоимость вопроса",
+                    "unit": "USD, весь релиз",
+                    "valuePointer": "/observations/37/costPerQuestion",
+                    "transformations": []
+                },
+                {
+                    "name": "Стоимость успешной задачи",
+                    "unit": "USD, весь релиз",
+                    "valuePointer": "/observations/37/costPerSuccessfulTask",
+                    "transformations": []
+                }
+            ],
+            "transformations": []
+        },
+        {
+            "runId": "livebench-if-reviewed-39",
+            "scorePointer": "/observations/38/score",
+            "score": 70.567,
+            "sourceUrl": "https://livebench.ai/",
+            "sourceModelName": "gpt-6.1-sol-xhigh",
+            "sourceModelNamePointer": "/observations/38/sourceModelName",
+            "observationSourceUrl": "https://livebench.ai/",
+            "label": "gpt-6.1-sol-xhigh · effort xhigh",
+            "notes": [
+                "Релиз 2026-06-25, категория IF. Версия harness и бюджеты строк не раскрыты.",
+                "Стоимость относится ко всему релизу, не только к категории IF."
+            ],
+            "configuration": {
+                "effort": "xhigh",
+                "metric": "story_generation",
+                "sampleSize": 200
+            },
+            "configurationPointers": {
+                "effort": "/observations/38/effort",
+                "metric": "/observations/38/metric",
+                "sampleSize": "/observations/38/sampleSize"
+            },
+            "telemetryPointers": [
+                {
+                    "name": "Стоимость вопроса",
+                    "unit": "USD, весь релиз",
+                    "valuePointer": "/observations/38/costPerQuestion",
+                    "transformations": []
+                },
+                {
+                    "name": "Стоимость успешной задачи",
+                    "unit": "USD, весь релиз",
+                    "valuePointer": "/observations/38/costPerSuccessfulTask",
+                    "transformations": []
+                }
+            ],
+            "transformations": []
+        },
+        {
+            "runId": "livebench-if-reviewed-40",
+            "scorePointer": "/observations/39/score",
+            "score": 75.533,
+            "sourceUrl": "https://livebench.ai/",
+            "sourceModelName": "gpt-6.1-sol-xhigh",
+            "sourceModelNamePointer": "/observations/39/sourceModelName",
+            "observationSourceUrl": "https://livebench.ai/",
+            "label": "gpt-6.1-sol-xhigh · effort xhigh",
+            "notes": [
+                "Релиз 2026-06-25, категория IF. Версия harness и бюджеты строк не раскрыты.",
+                "Стоимость относится ко всему релизу, не только к категории IF."
+            ],
+            "configuration": {
+                "effort": "xhigh",
+                "metric": "summarize",
+                "sampleSize": 200
+            },
+            "configurationPointers": {
+                "effort": "/observations/39/effort",
+                "metric": "/observations/39/metric",
+                "sampleSize": "/observations/39/sampleSize"
+            },
+            "telemetryPointers": [
+                {
+                    "name": "Стоимость вопроса",
+                    "unit": "USD, весь релиз",
+                    "valuePointer": "/observations/39/costPerQuestion",
+                    "transformations": []
+                },
+                {
+                    "name": "Стоимость успешной задачи",
+                    "unit": "USD, весь релиз",
+                    "valuePointer": "/observations/39/costPerSuccessfulTask",
+                    "transformations": []
+                }
+            ],
+            "transformations": []
+        }
+    ]
+}

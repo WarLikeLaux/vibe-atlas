@@ -1,0 +1,138 @@
+{
+    "id": "agentif-202610-reviewed",
+    "sourceId": "agentif-202610",
+    "checkedAt": "2026-10-11T20:59:04.451474Z",
+    "parserVersion": "wave2-reviewed-observations/1",
+    "benchmarks": [
+        {
+            "id": "agentif:csr",
+            "name": "AgentIF",
+            "context": "Октябрьский протокол 2026 · CSR · доля выполненных ограничений",
+            "unit": "%",
+            "format": "percent",
+            "awardEligible": true,
+            "sourceUrl": "https://agentif.github.io/",
+            "methodologyUrl": "https://github.com/THU-KEG/AgentIF",
+            "checkedAt": "2026-10-11T20:59:04.451474Z",
+            "passport": {
+                "author": "AgentIF Team, THU-KEG",
+                "purpose": "Длинные системные инструкции из агентских сценариев, условия и спецификации инструментов.",
+                "requirements": "Config-driven run.sh, backend API, effort max, temperature 1.0. Judge gpt-5.6-luna, effort medium. Версия API snapshot не опубликована.",
+                "scoring": "CSR и ISR, проценты, выше лучше. 707 инструкций, три независимых samples.",
+                "reviews": [
+                    {
+                        "dimension": "independence",
+                        "status": "unknown",
+                        "explanation": "Исполнители названы как команда benchmark, финансирование не выяснено.",
+                        "sourceUrl": "https://agentif.github.io/",
+                        "checkedAt": "2026-10-11T20:59:04.451474Z"
+                    },
+                    {
+                        "dimension": "contamination",
+                        "status": "unknown",
+                        "explanation": "Набор открыт, пересечения с обучением актуальных GLM не проверены.",
+                        "sourceUrl": "https://agentif.github.io/",
+                        "checkedAt": "2026-10-11T20:59:04.451474Z"
+                    },
+                    {
+                        "dimension": "saturation",
+                        "status": "not-reviewed",
+                        "explanation": "Диапазон двух моделей не позволяет оценить весь каталог.",
+                        "sourceUrl": "https://agentif.github.io/",
+                        "checkedAt": "2026-10-11T20:59:04.451474Z"
+                    },
+                    {
+                        "dimension": "reproducibility",
+                        "status": "supported",
+                        "explanation": "Публичные протокол, данные и configs; независимый повтор unknown.",
+                        "sourceUrl": "https://agentif.github.io/",
+                        "checkedAt": "2026-10-11T20:59:04.451474Z"
+                    },
+                    {
+                        "dimension": "comparability",
+                        "status": "supported",
+                        "explanation": "Legacy и current смешивать запрещено авторами; параметры двух GLM одинаковы.",
+                        "sourceUrl": "https://agentif.github.io/",
+                        "checkedAt": "2026-10-11T20:59:04.451474Z"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "agentif:isr",
+            "name": "AgentIF",
+            "context": "Октябрьский протокол 2026 · ISR · доля полностью выполненных инструкций",
+            "unit": "%",
+            "format": "percent",
+            "awardEligible": true,
+            "sourceUrl": "https://agentif.github.io/",
+            "methodologyUrl": "https://github.com/THU-KEG/AgentIF",
+            "checkedAt": "2026-10-11T20:59:04.451474Z",
+            "passport": {
+                "author": "AgentIF Team, THU-KEG",
+                "purpose": "Длинные системные инструкции из агентских сценариев, условия и спецификации инструментов.",
+                "requirements": "Config-driven run.sh, backend API, effort max, temperature 1.0. Judge gpt-5.6-luna, effort medium. Версия API snapshot не опубликована.",
+                "scoring": "CSR и ISR, проценты, выше лучше. 707 инструкций, три независимых samples.",
+                "reviews": [
+                    {
+                        "dimension": "independence",
+                        "status": "unknown",
+                        "explanation": "Исполнители названы как команда benchmark, финансирование не выяснено.",
+                        "sourceUrl": "https://agentif.github.io/",
+                        "checkedAt": "2026-10-11T20:59:04.451474Z"
+                    },
+                    {
+                        "dimension": "contamination",
+                        "status": "unknown",
+                        "explanation": "Набор открыт, пересечения с обучением актуальных GLM не проверены.",
+                        "sourceUrl": "https://agentif.github.io/",
+                        "checkedAt": "2026-10-11T20:59:04.451474Z"
+                    },
+                    {
+                        "dimension": "saturation",
+                        "status": "not-reviewed",
+                        "explanation": "Диапазон двух моделей не позволяет оценить весь каталог.",
+                        "sourceUrl": "https://agentif.github.io/",
+                        "checkedAt": "2026-10-11T20:59:04.451474Z"
+                    },
+                    {
+                        "dimension": "reproducibility",
+                        "status": "supported",
+                        "explanation": "Публичные протокол, данные и configs; независимый повтор unknown.",
+                        "sourceUrl": "https://agentif.github.io/",
+                        "checkedAt": "2026-10-11T20:59:04.451474Z"
+                    },
+                    {
+                        "dimension": "comparability",
+                        "status": "supported",
+                        "explanation": "Legacy и current смешивать запрещено авторами; параметры двух GLM одинаковы.",
+                        "sourceUrl": "https://agentif.github.io/",
+                        "checkedAt": "2026-10-11T20:59:04.451474Z"
+                    }
+                ]
+            }
+        }
+    ],
+    "mappings": [
+        {
+            "runId": "agentif-reviewed-1",
+            "benchmarkId": "agentif:csr",
+            "modelId": "glm-5-3-flash"
+        },
+        {
+            "runId": "agentif-reviewed-2",
+            "benchmarkId": "agentif:isr",
+            "modelId": "glm-5-3-flash"
+        },
+        {
+            "runId": "agentif-reviewed-3",
+            "benchmarkId": "agentif:csr",
+            "modelId": "glm-5-3"
+        },
+        {
+            "runId": "agentif-reviewed-4",
+            "benchmarkId": "agentif:isr",
+            "modelId": "glm-5-3"
+        }
+    ]
+}

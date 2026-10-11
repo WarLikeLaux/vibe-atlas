@@ -1,0 +1,65 @@
+{
+    "sourceUrl": "https://www.mercor.com/apex/oss-benchmarks/oss-browsecomp-leaderboard/",
+    "methodologyUrl": "https://openai.com/index/browsecomp/",
+    "checkedAt": "2026-10-11T20:59:04.451474Z",
+    "kind": "reviewed-observations",
+    "protocol": "oss-browsecomp, 130 public tasks",
+    "observations": [
+        {
+            "sourceModelName": "GPT-6.1 Sol (Mercor) max",
+            "effort": "max",
+            "sampleSize": 130,
+            "score": 95.4,
+            "error": 3.1,
+            "nSamples": 496
+        },
+        {
+            "sourceModelName": "GPT-6 Astra (Mercor) xhigh",
+            "effort": "xhigh",
+            "sampleSize": 130,
+            "score": 94.2,
+            "error": 3.2,
+            "nSamples": 520
+        },
+        {
+            "sourceModelName": "GPT-6 Luna (Mercor) max",
+            "effort": "max",
+            "sampleSize": 130,
+            "score": 83.3,
+            "error": 5.4,
+            "nSamples": 520
+        },
+        {
+            "sourceModelName": "Gemini 3.8 Flash (Mercor) high",
+            "effort": "high",
+            "sampleSize": 130,
+            "score": 83.1,
+            "error": 5.3,
+            "nSamples": 519
+        },
+        {
+            "sourceModelName": "Grok 4.7 (Mercor) xhigh",
+            "effort": "xhigh",
+            "sampleSize": 130,
+            "score": 75.8,
+            "error": 6.3,
+            "nSamples": 518
+        },
+        {
+            "sourceModelName": "MiniMax-M3 (Mercor) high",
+            "effort": "high",
+            "sampleSize": 130,
+            "score": 53.3,
+            "error": 6.7,
+            "nSamples": 520
+        },
+        {
+            "sourceModelName": "GPT-6 Sol (Mercor) max",
+            "effort": "max",
+            "sampleSize": 130,
+            "score": 89.4,
+            "error": 4.5,
+            "nSamples": 520
+        }
+    ]
+}

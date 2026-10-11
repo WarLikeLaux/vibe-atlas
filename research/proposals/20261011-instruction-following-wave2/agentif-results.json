@@ -1,0 +1,59 @@
+{
+    "source": "https://agentif.github.io/",
+    "leaderboardUpdated": "2026-10-11",
+    "protocol": "2026-10 update, fixed checkers, gpt-5.6-luna judge, three runs",
+    "unit": "percent",
+    "dispersion": "sample standard deviation over three runs, not a confidence interval",
+    "rows": [
+        {
+            "rank": "",
+            "model": "[T]GLM-5.3-Flash",
+            "size": "Large",
+            "CSR": "64.43 ± 0.19",
+            "ISR": "24.89 ± 0.37",
+            "Vanilla": "65.92",
+            "Condition": "46.16",
+            "Example": "75.95",
+            "Formatting": "65.97",
+            "Semantic": "68.19",
+            "Tool": "45.50"
+        },
+        {
+            "rank": "",
+            "model": "[T]GLM-5.3",
+            "size": "Large",
+            "CSR": "64.21 ± 0.26",
+            "ISR": "27.06 ± 1.04",
+            "Vanilla": "65.91",
+            "Condition": "45.39",
+            "Example": "73.95",
+            "Formatting": "66.45",
+            "Semantic": "67.25",
+            "Tool": "47.18"
+        }
+    ],
+    "configurations": {
+        "glm-5.3": {
+            "source": "https://raw.githubusercontent.com/THU-KEG/AgentIF/main/configs/glm-5.3.yaml",
+            "apiModel": "glm-5.3",
+            "temperature": 1.0,
+            "top_p": 0.95,
+            "max_tokens": 32768,
+            "reasoning_effort": "max",
+            "mode": "thinking",
+            "backend": "api"
+        },
+        "glm-5.3-flash": {
+            "source": "https://raw.githubusercontent.com/THU-KEG/AgentIF/main/configs/glm-5.3-flash.yaml",
+            "apiModel": "glm-5.3-flash",
+            "temperature": 1.0,
+            "top_p": 0.95,
+            "max_tokens": 32768,
+            "reasoning_effort": "max",
+            "mode": "thinking",
+            "backend": "api"
+        }
+    },
+    "checkedAt": "2026-10-11T20:40:50+00:00",
+    "sourceManifest": "checked-pages.json"
+}

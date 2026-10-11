@@ -1,0 +1,37 @@
+{
+    "sourceUrl": "https://agentif.github.io/",
+    "methodologyUrl": "https://github.com/THU-KEG/AgentIF",
+    "checkedAt": "2026-10-11T20:59:04.451474Z",
+    "kind": "reviewed-observations",
+    "protocol": "October 2026 setting",
+    "observations": [
+        {
+            "sourceModelName": "[T]GLM-5.3-Flash",
+            "effort": "max",
+            "sampleSize": 707,
+            "metric": "csr",
+            "score": 64.43
+        },
+        {
+            "sourceModelName": "[T]GLM-5.3-Flash",
+            "effort": "max",
+            "sampleSize": 707,
+            "metric": "isr",
+            "score": 24.89
+        },
+        {
+            "sourceModelName": "[T]GLM-5.3",
+            "effort": "max",
+            "sampleSize": 707,
+            "metric": "csr",
+            "score": 64.21
+        },
+        {
+            "sourceModelName": "[T]GLM-5.3",
+            "effort": "max",
+            "sampleSize": 707,
+            "metric": "isr",
+            "score": 27.06
+        }
+    ]
+}

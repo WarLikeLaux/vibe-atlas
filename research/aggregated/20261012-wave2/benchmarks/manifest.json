@@ -1,0 +1,71 @@
+{
+    "checkedAt": "2026-10-11T20:59:04.451474Z",
+    "packs": [
+        {
+            "sourceId": "livebench-if-20260625",
+            "pack": "livebench-if-20260625.pack.json",
+            "definitions": "livebench-if-20260625.definitions.json",
+            "receipt": "livebench-if-20260625.receipt.json",
+            "snapshot": "data/snapshots/livebench-if-20260625/current.json",
+            "snapshotSha256": "10812dcafa2707de1e83e1e806fe17ed4180000b8f50985ae706bbc48f2d134e",
+            "benchmarkCount": 4,
+            "runCount": 40,
+            "mappedRunCount": 40
+        },
+        {
+            "sourceId": "hanifeval-v11",
+            "pack": "hanifeval-v11.pack.json",
+            "definitions": "hanifeval-v11.definitions.json",
+            "receipt": "hanifeval-v11.receipt.json",
+            "snapshot": "data/snapshots/hanifeval-v11/current.json",
+            "snapshotSha256": "d66e224701ca218be4064fb547a5d162bfc7a00a636123dc5e2f4c3582a2d50a",
+            "benchmarkCount": 5,
+            "runCount": 10,
+            "mappedRunCount": 10
+        },
+        {
+            "sourceId": "agentif-202610",
+            "pack": "agentif-202610.pack.json",
+            "definitions": "agentif-202610.definitions.json",
+            "receipt": "agentif-202610.receipt.json",
+            "snapshot": "data/snapshots/agentif-202610/current.json",
+            "snapshotSha256": "38e3c9d6c38afb76a8d60080e234f6595f43d3d5657532eec3ef528ce684c501",
+            "benchmarkCount": 2,
+            "runCount": 4,
+            "mappedRunCount": 4
+        },
+        {
+            "sourceId": "browsecomp-mercor130",
+            "pack": "browsecomp-mercor130.pack.json",
+            "definitions": "browsecomp-mercor130.definitions.json",
+            "receipt": "browsecomp-mercor130.receipt.json",
+            "snapshot": "data/snapshots/browsecomp-mercor130/current.json",
+            "snapshotSha256": "e86339ba4d9f375aaa6efa463fde07b5450b96593e4f73891b641fa1f648c850",
+            "benchmarkCount": 1,
+            "runCount": 7,
+            "mappedRunCount": 6
+        },
+        {
+            "sourceId": "deepsearchqa-parallel100",
+            "pack": "deepsearchqa-parallel100.pack.json",
+            "definitions": "deepsearchqa-parallel100.definitions.json",
+            "receipt": "deepsearchqa-parallel100.receipt.json",
+            "snapshot": "data/snapshots/deepsearchqa-parallel100/current.json",
+            "snapshotSha256": "e158fe44f0019208a838bafd74f6894117e70e9c794f69e5fd9f1ae559b851b4",
+            "benchmarkCount": 1,
+            "runCount": 8,
+            "mappedRunCount": 8
+        },
+        {
+            "sourceId": "drb2-mercor130",
+            "pack": "drb2-mercor130.pack.json",
+            "definitions": "drb2-mercor130.definitions.json",
+            "receipt": "drb2-mercor130.receipt.json",
+            "snapshot": "data/snapshots/drb2-mercor130/current.json",
+            "snapshotSha256": "71ea627df6ba18d55580e63f7ea03671417237a966c8d4e0660f3ba157c242da",
+            "benchmarkCount": 1,
+            "runCount": 5,
+            "mappedRunCount": 4
+        }
+    ]
+}

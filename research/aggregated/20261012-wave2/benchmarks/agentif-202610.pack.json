@@ -1,0 +1,184 @@
+{
+    "id": "agentif-202610-reviewed",
+    "sourceId": "agentif-202610",
+    "checkedAt": "2026-10-11T20:59:04.451474Z",
+    "parserVersion": "wave2-reviewed-observations/1",
+    "snapshotPath": "data/snapshots/agentif-202610/current.json",
+    "snapshotSha256": "38e3c9d6c38afb76a8d60080e234f6595f43d3d5657532eec3ef528ce684c501",
+    "benchmarks": [
+        {
+            "id": "agentif:csr",
+            "name": "AgentIF",
+            "context": "Октябрьский протокол 2026 · CSR · доля выполненных ограничений",
+            "unit": "%",
+            "format": "percent",
+            "awardEligible": true,
+            "sourceUrl": "https://agentif.github.io/",
+            "methodologyUrl": "https://github.com/THU-KEG/AgentIF",
+            "checkedAt": "2026-10-11T20:59:04.451474Z",
+            "passport": {
+                "author": "AgentIF Team, THU-KEG",
+                "purpose": "Длинные системные инструкции из агентских сценариев, условия и спецификации инструментов.",
+                "requirements": "Config-driven run.sh, backend API, effort max, temperature 1.0. Judge gpt-5.6-luna, effort medium. Версия API snapshot не опубликована.",
+                "scoring": "CSR и ISR, проценты, выше лучше. 707 инструкций, три независимых samples.",
+                "reviews": [
+                    {
+                        "dimension": "independence",
+                        "status": "unknown",
+                        "explanation": "Исполнители названы как команда benchmark, финансирование не выяснено.",
+                        "sourceUrl": "https://agentif.github.io/",
+                        "checkedAt": "2026-10-11T20:59:04.451474Z"
+                    },
+                    {
+                        "dimension": "contamination",
+                        "status": "unknown",
+                        "explanation": "Набор открыт, пересечения с обучением актуальных GLM не проверены.",
+                        "sourceUrl": "https://agentif.github.io/",
+                        "checkedAt": "2026-10-11T20:59:04.451474Z"
+                    },
+                    {
+                        "dimension": "saturation",
+                        "status": "not-reviewed",
+                        "explanation": "Диапазон двух моделей не позволяет оценить весь каталог.",
+                        "sourceUrl": "https://agentif.github.io/",
+                        "checkedAt": "2026-10-11T20:59:04.451474Z"
+                    },
+                    {
+                        "dimension": "reproducibility",
+                        "status": "supported",
+                        "explanation": "Публичные протокол, данные и configs; независимый повтор unknown.",
+                        "sourceUrl": "https://agentif.github.io/",
+                        "checkedAt": "2026-10-11T20:59:04.451474Z"
+                    },
+                    {
+                        "dimension": "comparability",
+                        "status": "supported",
+                        "explanation": "Legacy и current смешивать запрещено авторами; параметры двух GLM одинаковы.",
+                        "sourceUrl": "https://agentif.github.io/",
+                        "checkedAt": "2026-10-11T20:59:04.451474Z"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "agentif:isr",
+            "name": "AgentIF",
+            "context": "Октябрьский протокол 2026 · ISR · доля полностью выполненных инструкций",
+            "unit": "%",
+            "format": "percent",
+            "awardEligible": true,
+            "sourceUrl": "https://agentif.github.io/",
+            "methodologyUrl": "https://github.com/THU-KEG/AgentIF",
+            "checkedAt": "2026-10-11T20:59:04.451474Z",
+            "passport": {
+                "author": "AgentIF Team, THU-KEG",
+                "purpose": "Длинные системные инструкции из агентских сценариев, условия и спецификации инструментов.",
+                "requirements": "Config-driven run.sh, backend API, effort max, temperature 1.0. Judge gpt-5.6-luna, effort medium. Версия API snapshot не опубликована.",
+                "scoring": "CSR и ISR, проценты, выше лучше. 707 инструкций, три независимых samples.",
+                "reviews": [
+                    {
+                        "dimension": "independence",
+                        "status": "unknown",
+                        "explanation": "Исполнители названы как команда benchmark, финансирование не выяснено.",
+                        "sourceUrl": "https://agentif.github.io/",
+                        "checkedAt": "2026-10-11T20:59:04.451474Z"
+                    },
+                    {
+                        "dimension": "contamination",
+                        "status": "unknown",
+                        "explanation": "Набор открыт, пересечения с обучением актуальных GLM не проверены.",
+                        "sourceUrl": "https://agentif.github.io/",
+                        "checkedAt": "2026-10-11T20:59:04.451474Z"
+                    },
+                    {
+                        "dimension": "saturation",
+                        "status": "not-reviewed",
+                        "explanation": "Диапазон двух моделей не позволяет оценить весь каталог.",
+                        "sourceUrl": "https://agentif.github.io/",
+                        "checkedAt": "2026-10-11T20:59:04.451474Z"
+                    },
+                    {
+                        "dimension": "reproducibility",
+                        "status": "supported",
+                        "explanation": "Публичные протокол, данные и configs; независимый повтор unknown.",
+                        "sourceUrl": "https://agentif.github.io/",
+                        "checkedAt": "2026-10-11T20:59:04.451474Z"
+                    },
+                    {
+                        "dimension": "comparability",
+                        "status": "supported",
+                        "explanation": "Legacy и current смешивать запрещено авторами; параметры двух GLM одинаковы.",
+                        "sourceUrl": "https://agentif.github.io/",
+                        "checkedAt": "2026-10-11T20:59:04.451474Z"
+                    }
+                ]
+            }
+        }
+    ],
+    "runs": [
+        {
+            "id": "agentif-reviewed-1",
+            "sourceModelName": "[T]GLM-5.3-Flash",
+            "benchmarkId": "agentif:csr",
+            "label": "[T]GLM-5.3-Flash · effort max",
+            "score": 64.43,
+            "sourceUrl": "https://agentif.github.io/",
+            "checkedAt": "2026-10-11T20:59:04.451474Z",
+            "notes": [
+                "Разброс трёх запусков: CSR 64.43 ± 0.19, ISR 24.89 ± 0.37. Знак ± это sample std, не CI.",
+                "Шесть breakdown-подметрик сохранены в снимке предложения, не отдельные замеры."
+            ],
+            "telemetry": [],
+            "estimated": false,
+            "modelId": "glm-5-3-flash"
+        },
+        {
+            "id": "agentif-reviewed-2",
+            "sourceModelName": "[T]GLM-5.3-Flash",
+            "benchmarkId": "agentif:isr",
+            "label": "[T]GLM-5.3-Flash · effort max",
+            "score": 24.89,
+            "sourceUrl": "https://agentif.github.io/",
+            "checkedAt": "2026-10-11T20:59:04.451474Z",
+            "notes": [
+                "Разброс трёх запусков: CSR 64.43 ± 0.19, ISR 24.89 ± 0.37. Знак ± это sample std, не CI.",
+                "Шесть breakdown-подметрик сохранены в снимке предложения, не отдельные замеры."
+            ],
+            "telemetry": [],
+            "estimated": false,
+            "modelId": "glm-5-3-flash"
+        },
+        {
+            "id": "agentif-reviewed-3",
+            "sourceModelName": "[T]GLM-5.3",
+            "benchmarkId": "agentif:csr",
+            "label": "[T]GLM-5.3 · effort max",
+            "score": 64.21,
+            "sourceUrl": "https://agentif.github.io/",
+            "checkedAt": "2026-10-11T20:59:04.451474Z",
+            "notes": [
+                "Разброс трёх запусков: CSR 64.21 ± 0.26, ISR 27.06 ± 1.04. Знак ± это sample std, не CI.",
+                "Шесть breakdown-подметрик сохранены в снимке предложения, не отдельные замеры."
+            ],
+            "telemetry": [],
+            "estimated": false,
+            "modelId": "glm-5-3"
+        },
+        {
+            "id": "agentif-reviewed-4",
+            "sourceModelName": "[T]GLM-5.3",
+            "benchmarkId": "agentif:isr",
+            "label": "[T]GLM-5.3 · effort max",
+            "score": 27.06,
+            "sourceUrl": "https://agentif.github.io/",
+            "checkedAt": "2026-10-11T20:59:04.451474Z",
+            "notes": [
+                "Разброс трёх запусков: CSR 64.21 ± 0.26, ISR 27.06 ± 1.04. Знак ± это sample std, не CI.",
+                "Шесть breakdown-подметрик сохранены в снимке предложения, не отдельные замеры."
+            ],
+            "telemetry": [],
+            "estimated": false,
+            "modelId": "glm-5-3"
+        }
+    ]
+}

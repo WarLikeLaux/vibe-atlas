@@ -1,0 +1,104 @@
+{
+    "id": "deepsearchqa-parallel100-reviewed",
+    "sourceId": "deepsearchqa-parallel100",
+    "checkedAt": "2026-10-11T20:59:04.451474Z",
+    "parserVersion": "wave2-reviewed-observations/1",
+    "benchmarks": [
+        {
+            "id": "deepsearchqa:parallel100-f1",
+            "name": "DeepSearchQA",
+            "context": "Parallel · 100 вопросов · with-search · F1",
+            "unit": "F1 0–100",
+            "format": "percent",
+            "awardEligible": true,
+            "sourceUrl": "https://parallel.ai/leaderboard",
+            "methodologyUrl": "https://parallel.ai/leaderboard#methodology",
+            "checkedAt": "2026-10-11T20:59:04.451474Z",
+            "passport": {
+                "author": "Google DeepMind и др. / замер Parallel",
+                "purpose": "Многошаговый поиск, полный сбор списка ответов, устранение повторов и проверка условий.",
+                "requirements": "Harness Parallel с Parallel Search Fast и Extract. Подвыборка 100 из 900 запросов, ревизия неизвестна.",
+                "scoring": "F1 на шкале 0–100, выше лучше. Контрольный режим without-search в пакет не входит.",
+                "reviews": [
+                    {
+                        "dimension": "independence",
+                        "status": "supported",
+                        "explanation": "Замер поставщика поискового инструмента Parallel, не безусловно независимый эксперимент.",
+                        "sourceUrl": "https://parallel.ai/leaderboard",
+                        "checkedAt": "2026-10-11T20:59:04.451474Z"
+                    },
+                    {
+                        "dimension": "contamination",
+                        "status": "unknown",
+                        "explanation": "Overlap с обучением и запрет нахождения эталонов не проверялись.",
+                        "sourceUrl": "https://parallel.ai/leaderboard",
+                        "checkedAt": "2026-10-11T20:59:04.451474Z"
+                    },
+                    {
+                        "dimension": "saturation",
+                        "status": "not-reviewed",
+                        "explanation": "F1 с частичным зачётом не равен доле полностью правильных ответов.",
+                        "sourceUrl": "https://parallel.ai/leaderboard",
+                        "checkedAt": "2026-10-11T20:59:04.451474Z"
+                    },
+                    {
+                        "dimension": "reproducibility",
+                        "status": "unknown",
+                        "explanation": "Подвыборка, harness, judge и бюджеты Parallel не установлены.",
+                        "sourceUrl": "https://parallel.ai/leaderboard",
+                        "checkedAt": "2026-10-11T20:59:04.451474Z"
+                    },
+                    {
+                        "dimension": "comparability",
+                        "status": "unknown",
+                        "explanation": "Нельзя смешивать с полной таблицей Kaggle или другим агентом.",
+                        "sourceUrl": "https://parallel.ai/leaderboard",
+                        "checkedAt": "2026-10-11T20:59:04.451474Z"
+                    }
+                ]
+            }
+        }
+    ],
+    "mappings": [
+        {
+            "runId": "deepsearchqa-reviewed-1",
+            "benchmarkId": "deepsearchqa:parallel100-f1",
+            "modelId": "gpt-6-1-sol"
+        },
+        {
+            "runId": "deepsearchqa-reviewed-2",
+            "benchmarkId": "deepsearchqa:parallel100-f1",
+            "modelId": "gpt-6-astra"
+        },
+        {
+            "runId": "deepsearchqa-reviewed-3",
+            "benchmarkId": "deepsearchqa:parallel100-f1",
+            "modelId": "gpt-6-luna"
+        },
+        {
+            "runId": "deepsearchqa-reviewed-4",
+            "benchmarkId": "deepsearchqa:parallel100-f1",
+            "modelId": "glm-5-3"
+        },
+        {
+            "runId": "deepsearchqa-reviewed-5",
+            "benchmarkId": "deepsearchqa:parallel100-f1",
+            "modelId": "glm-5-3-flash"
+        },
+        {
+            "runId": "deepsearchqa-reviewed-6",
+            "benchmarkId": "deepsearchqa:parallel100-f1",
+            "modelId": "gemini-3-8-flash"
+        },
+        {
+            "runId": "deepsearchqa-reviewed-7",
+            "benchmarkId": "deepsearchqa:parallel100-f1",
+            "modelId": "minimax-m3"
+        },
+        {
+            "runId": "deepsearchqa-reviewed-8",
+            "benchmarkId": "deepsearchqa:parallel100-f1",
+            "modelId": "muse-spark-1-3"
+        }
+    ]
+}

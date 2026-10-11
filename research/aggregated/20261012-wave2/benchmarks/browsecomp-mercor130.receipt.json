@@ -1,0 +1,273 @@
+{
+    "checkedAt": "2026-10-11T20:59:04.451474Z",
+    "snapshotPath": "data/snapshots/browsecomp-mercor130/current.json",
+    "snapshotSha256": "e86339ba4d9f375aaa6efa463fde07b5450b96593e4f73891b641fa1f648c850",
+    "runs": [
+        {
+            "runId": "browsecomp-reviewed-1",
+            "scorePointer": "/observations/0/score",
+            "score": 95.4,
+            "sourceUrl": "https://www.mercor.com/apex/oss-benchmarks/oss-browsecomp-leaderboard/",
+            "sourceModelName": "GPT-6.1 Sol (Mercor) max",
+            "sourceModelNamePointer": "/observations/0/sourceModelName",
+            "observationSourceUrl": "https://www.mercor.com/apex/oss-benchmarks/oss-browsecomp-leaderboard/",
+            "label": "GPT-6.1 Sol · Mercor · effort max",
+            "notes": [
+                "Подвыборка 130 из 1 266 задач, точный список неизвестен. n_samples=496.",
+                "Поле error сохранено без пересчёта; уровень и метод неизвестны, это не 95% CI.",
+                "Замер Mercor нельзя считать запуском через пользовательский агент."
+            ],
+            "configuration": {
+                "effort": "max",
+                "sampleSize": 130
+            },
+            "configurationPointers": {
+                "effort": "/observations/0/effort",
+                "sampleSize": "/observations/0/sampleSize"
+            },
+            "telemetryPointers": [
+                {
+                    "name": "Опубликованная погрешность",
+                    "unit": "процентных пункта; метод неизвестен",
+                    "valuePointer": "/observations/0/error",
+                    "transformations": []
+                },
+                {
+                    "name": "Образцы",
+                    "unit": "n_samples",
+                    "valuePointer": "/observations/0/nSamples",
+                    "transformations": []
+                }
+            ],
+            "transformations": []
+        },
+        {
+            "runId": "browsecomp-reviewed-2",
+            "scorePointer": "/observations/1/score",
+            "score": 94.2,
+            "sourceUrl": "https://www.mercor.com/apex/oss-benchmarks/oss-browsecomp-leaderboard/",
+            "sourceModelName": "GPT-6 Astra (Mercor) xhigh",
+            "sourceModelNamePointer": "/observations/1/sourceModelName",
+            "observationSourceUrl": "https://www.mercor.com/apex/oss-benchmarks/oss-browsecomp-leaderboard/",
+            "label": "GPT-6 Astra · Mercor · effort xhigh",
+            "notes": [
+                "Подвыборка 130 из 1 266 задач, точный список неизвестен. n_samples=520.",
+                "Поле error сохранено без пересчёта; уровень и метод неизвестны, это не 95% CI.",
+                "Замер Mercor нельзя считать запуском через пользовательский агент."
+            ],
+            "configuration": {
+                "effort": "xhigh",
+                "sampleSize": 130
+            },
+            "configurationPointers": {
+                "effort": "/observations/1/effort",
+                "sampleSize": "/observations/1/sampleSize"
+            },
+            "telemetryPointers": [
+                {
+                    "name": "Опубликованная погрешность",
+                    "unit": "процентных пункта; метод неизвестен",
+                    "valuePointer": "/observations/1/error",
+                    "transformations": []
+                },
+                {
+                    "name": "Образцы",
+                    "unit": "n_samples",
+                    "valuePointer": "/observations/1/nSamples",
+                    "transformations": []
+                }
+            ],
+            "transformations": []
+        },
+        {
+            "runId": "browsecomp-reviewed-3",
+            "scorePointer": "/observations/2/score",
+            "score": 83.3,
+            "sourceUrl": "https://www.mercor.com/apex/oss-benchmarks/oss-browsecomp-leaderboard/",
+            "sourceModelName": "GPT-6 Luna (Mercor) max",
+            "sourceModelNamePointer": "/observations/2/sourceModelName",
+            "observationSourceUrl": "https://www.mercor.com/apex/oss-benchmarks/oss-browsecomp-leaderboard/",
+            "label": "GPT-6 Luna · Mercor · effort max",
+            "notes": [
+                "Подвыборка 130 из 1 266 задач, точный список неизвестен. n_samples=520.",
+                "Поле error сохранено без пересчёта; уровень и метод неизвестны, это не 95% CI.",
+                "Замер Mercor нельзя считать запуском через пользовательский агент."
+            ],
+            "configuration": {
+                "effort": "max",
+                "sampleSize": 130
+            },
+            "configurationPointers": {
+                "effort": "/observations/2/effort",
+                "sampleSize": "/observations/2/sampleSize"
+            },
+            "telemetryPointers": [
+                {
+                    "name": "Опубликованная погрешность",
+                    "unit": "процентных пункта; метод неизвестен",
+                    "valuePointer": "/observations/2/error",
+                    "transformations": []
+                },
+                {
+                    "name": "Образцы",
+                    "unit": "n_samples",
+                    "valuePointer": "/observations/2/nSamples",
+                    "transformations": []
+                }
+            ],
+            "transformations": []
+        },
+        {
+            "runId": "browsecomp-reviewed-4",
+            "scorePointer": "/observations/3/score",
+            "score": 83.1,
+            "sourceUrl": "https://www.mercor.com/apex/oss-benchmarks/oss-browsecomp-leaderboard/",
+            "sourceModelName": "Gemini 3.8 Flash (Mercor) high",
+            "sourceModelNamePointer": "/observations/3/sourceModelName",
+            "observationSourceUrl": "https://www.mercor.com/apex/oss-benchmarks/oss-browsecomp-leaderboard/",
+            "label": "Gemini 3.8 Flash · Mercor · effort high",
+            "notes": [
+                "Подвыборка 130 из 1 266 задач, точный список неизвестен. n_samples=519.",
+                "Поле error сохранено без пересчёта; уровень и метод неизвестны, это не 95% CI.",
+                "Замер Mercor нельзя считать запуском через пользовательский агент."
+            ],
+            "configuration": {
+                "effort": "high",
+                "sampleSize": 130
+            },
+            "configurationPointers": {
+                "effort": "/observations/3/effort",
+                "sampleSize": "/observations/3/sampleSize"
+            },
+            "telemetryPointers": [
+                {
+                    "name": "Опубликованная погрешность",
+                    "unit": "процентных пункта; метод неизвестен",
+                    "valuePointer": "/observations/3/error",
+                    "transformations": []
+                },
+                {
+                    "name": "Образцы",
+                    "unit": "n_samples",
+                    "valuePointer": "/observations/3/nSamples",
+                    "transformations": []
+                }
+            ],
+            "transformations": []
+        },
+        {
+            "runId": "browsecomp-reviewed-5",
+            "scorePointer": "/observations/4/score",
+            "score": 75.8,
+            "sourceUrl": "https://www.mercor.com/apex/oss-benchmarks/oss-browsecomp-leaderboard/",
+            "sourceModelName": "Grok 4.7 (Mercor) xhigh",
+            "sourceModelNamePointer": "/observations/4/sourceModelName",
+            "observationSourceUrl": "https://www.mercor.com/apex/oss-benchmarks/oss-browsecomp-leaderboard/",
+            "label": "Grok 4.7 · Mercor · effort xhigh",
+            "notes": [
+                "Подвыборка 130 из 1 266 задач, точный список неизвестен. n_samples=518.",
+                "Поле error сохранено без пересчёта; уровень и метод неизвестны, это не 95% CI.",
+                "Замер Mercor нельзя считать запуском через пользовательский агент."
+            ],
+            "configuration": {
+                "effort": "xhigh",
+                "sampleSize": 130
+            },
+            "configurationPointers": {
+                "effort": "/observations/4/effort",
+                "sampleSize": "/observations/4/sampleSize"
+            },
+            "telemetryPointers": [
+                {
+                    "name": "Опубликованная погрешность",
+                    "unit": "процентных пункта; метод неизвестен",
+                    "valuePointer": "/observations/4/error",
+                    "transformations": []
+                },
+                {
+                    "name": "Образцы",
+                    "unit": "n_samples",
+                    "valuePointer": "/observations/4/nSamples",
+                    "transformations": []
+                }
+            ],
+            "transformations": []
+        },
+        {
+            "runId": "browsecomp-reviewed-6",
+            "scorePointer": "/observations/5/score",
+            "score": 53.3,
+            "sourceUrl": "https://www.mercor.com/apex/oss-benchmarks/oss-browsecomp-leaderboard/",
+            "sourceModelName": "MiniMax-M3 (Mercor) high",
+            "sourceModelNamePointer": "/observations/5/sourceModelName",
+            "observationSourceUrl": "https://www.mercor.com/apex/oss-benchmarks/oss-browsecomp-leaderboard/",
+            "label": "MiniMax-M3 · Mercor · effort high",
+            "notes": [
+                "Подвыборка 130 из 1 266 задач, точный список неизвестен. n_samples=520.",
+                "Поле error сохранено без пересчёта; уровень и метод неизвестны, это не 95% CI.",
+                "Замер Mercor нельзя считать запуском через пользовательский агент."
+            ],
+            "configuration": {
+                "effort": "high",
+                "sampleSize": 130
+            },
+            "configurationPointers": {
+                "effort": "/observations/5/effort",
+                "sampleSize": "/observations/5/sampleSize"
+            },
+            "telemetryPointers": [
+                {
+                    "name": "Опубликованная погрешность",
+                    "unit": "процентных пункта; метод неизвестен",
+                    "valuePointer": "/observations/5/error",
+                    "transformations": []
+                },
+                {
+                    "name": "Образцы",
+                    "unit": "n_samples",
+                    "valuePointer": "/observations/5/nSamples",
+                    "transformations": []
+                }
+            ],
+            "transformations": []
+        },
+        {
+            "runId": "browsecomp-reviewed-7",
+            "scorePointer": "/observations/6/score",
+            "score": 89.4,
+            "sourceUrl": "https://www.mercor.com/apex/oss-benchmarks/oss-browsecomp-leaderboard/",
+            "sourceModelName": "GPT-6 Sol (Mercor) max",
+            "sourceModelNamePointer": "/observations/6/sourceModelName",
+            "observationSourceUrl": "https://www.mercor.com/apex/oss-benchmarks/oss-browsecomp-leaderboard/",
+            "label": "GPT-6 Sol · Mercor · effort max",
+            "notes": [
+                "Подвыборка 130 из 1 266 задач, точный список неизвестен. n_samples=520.",
+                "Поле error сохранено без пересчёта; уровень и метод неизвестны, это не 95% CI.",
+                "Замер Mercor нельзя считать запуском через пользовательский агент."
+            ],
+            "configuration": {
+                "effort": "max",
+                "sampleSize": 130
+            },
+            "configurationPointers": {
+                "effort": "/observations/6/effort",
+                "sampleSize": "/observations/6/sampleSize"
+            },
+            "telemetryPointers": [
+                {
+                    "name": "Опубликованная погрешность",
+                    "unit": "процентных пункта; метод неизвестен",
+                    "valuePointer": "/observations/6/error",
+                    "transformations": []
+                },
+                {
+                    "name": "Образцы",
+                    "unit": "n_samples",
+                    "valuePointer": "/observations/6/nSamples",
+                    "transformations": []
+                }
+            ],
+            "transformations": []
+        }
+    ]
+}

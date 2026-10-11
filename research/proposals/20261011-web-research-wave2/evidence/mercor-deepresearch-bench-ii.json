@@ -1,0 +1,1529 @@
+{
+    "source_url": "https://www.mercor.com/apex/oss-benchmarks/oss-deepresearch-bench-ii-leaderboard/",
+    "retrieved_at": "2026-10-11T20:37:10+00:00",
+    "kind": "open-source",
+    "benchmark": {
+        "_id": "56fb7a05-bc3e-4ddc-89d3-8a353f63332e",
+        "availablePasses": [
+            {
+                "label": "Mean Score",
+                "value": "mean-score"
+            }
+        ],
+        "benchmarkId": "oss-deepresearch-bench-ii",
+        "blogLink": null,
+        "cardSubheading": null,
+        "chartAxisRanges": null,
+        "codeLink": "https://github.com/imlrz/DeepResearch-Bench-II",
+        "criteriaCount": null,
+        "dataLink": "https://huggingface.co/datasets/muset-ai/DeepResearch-Bench-II-Dataset",
+        "description": "A bilingual benchmark of 130 open-ended research briefs across 22 domains, scored against 9,287 expert-written criteria. Each task is derived from a real review article that the model is explicitly forbidden from consulting, and credit only comes from independently rediscovering the findings.",
+        "displayName": "DeepResearch Bench II",
+        "domainsHeading": null,
+        "extendsBenchmark": null,
+        "globalLeaderboard": [
+            {
+                "model": {
+                    "_id": "de35a625-057d-4e96-9202-9b80135622f5",
+                    "company": null,
+                    "descriptors": null,
+                    "effort": "high",
+                    "modelId": "claude-opus-4-7-high",
+                    "modelName": "Opus 4.7",
+                    "provider": {
+                        "colorFrom": "#ff9b5e",
+                        "colorTo": "#ea6234",
+                        "colorVia": null,
+                        "logo": "https://cdn.sanity.io/images/h6s14f4z/production/6f898fa35f2eb8458e60c6dd43a1dc553b0a5674-20x20.svg",
+                        "name": "Anthropic",
+                        "providerId": "claude"
+                    },
+                    "releaseDate": "2026-04-16"
+                },
+                "nSamples": 130,
+                "passScores": [
+                    {
+                        "error": 0,
+                        "pass": "pass-1",
+                        "score": 0
+                    },
+                    {
+                        "error": 3.3,
+                        "pass": "mean-score",
+                        "score": 45.4
+                    }
+                ]
+            },
+            {
+                "model": {
+                    "_id": "efb6296e-da01-400e-9a47-71991e48f287",
+                    "company": null,
+                    "descriptors": null,
+                    "effort": "high",
+                    "modelId": "claude-opus-4-8-high",
+                    "modelName": "Opus 4.8",
+                    "provider": {
+                        "colorFrom": "#ff9b5e",
+                        "colorTo": "#ea6234",
+                        "colorVia": null,
+                        "logo": "https://cdn.sanity.io/images/h6s14f4z/production/6f898fa35f2eb8458e60c6dd43a1dc553b0a5674-20x20.svg",
+                        "name": "Anthropic",
+                        "providerId": "claude"
+                    },
+                    "releaseDate": "2026-05-28"
+                },
+                "nSamples": 130,
+                "passScores": [
+                    {
+                        "error": 0,
+                        "pass": "pass-1",
+                        "score": 0
+                    },
+                    {
+                        "error": 3,
+                        "pass": "mean-score",
+                        "score": 44.6
+                    }
+                ]
+            },
+            {
+                "model": {
+                    "_id": "eh48d1geyhXR7n3BXyNbMa",
+                    "company": null,
+                    "descriptors": null,
+                    "effort": "high",
+                    "modelId": "claude-opus-5-high",
+                    "modelName": "Opus 5",
+                    "provider": {
+                        "colorFrom": "#ff9b5e",
+                        "colorTo": "#ea6234",
+                        "colorVia": null,
+                        "logo": "https://cdn.sanity.io/images/h6s14f4z/production/6f898fa35f2eb8458e60c6dd43a1dc553b0a5674-20x20.svg",
+                        "name": "Anthropic",
+                        "providerId": "claude"
+                    },
+                    "releaseDate": "2026-07-24"
+                },
+                "nSamples": 130,
+                "passScores": [
+                    {
+                        "error": 0,
+                        "pass": "pass-1",
+                        "score": 0
+                    },
+                    {
+                        "error": 3.4,
+                        "pass": "mean-score",
+                        "score": 56.1
+                    }
+                ]
+            },
+            {
+                "model": {
+                    "_id": "a3c3577b-7c1d-46cc-a847-69447e6490c1",
+                    "company": null,
+                    "descriptors": null,
+                    "effort": "high",
+                    "modelId": "claude-sonnet-4-6-high",
+                    "modelName": "Sonnet 4.6",
+                    "provider": {
+                        "colorFrom": "#ff9b5e",
+                        "colorTo": "#ea6234",
+                        "colorVia": null,
+                        "logo": "https://cdn.sanity.io/images/h6s14f4z/production/6f898fa35f2eb8458e60c6dd43a1dc553b0a5674-20x20.svg",
+                        "name": "Anthropic",
+                        "providerId": "claude"
+                    },
+                    "releaseDate": "2026-02-17"
+                },
+                "nSamples": 130,
+                "passScores": [
+                    {
+                        "error": 1.2,
+                        "pass": "pass-1",
+                        "score": 0.8
+                    },
+                    {
+                        "error": 3.5,
+                        "pass": "mean-score",
+                        "score": 53.3
+                    }
+                ]
+            },
+            {
+                "model": {
+                    "_id": "4053aafc-6287-4180-ac94-71ed083ff402",
+                    "company": null,
+                    "descriptors": null,
+                    "effort": "high",
+                    "modelId": "claude-sonnet-5",
+                    "modelName": "Sonnet 5",
+                    "provider": {
+                        "colorFrom": "#ff9b5e",
+                        "colorTo": "#ea6234",
+                        "colorVia": null,
+                        "logo": "https://cdn.sanity.io/images/h6s14f4z/production/6f898fa35f2eb8458e60c6dd43a1dc553b0a5674-20x20.svg",
+                        "name": "Anthropic",
+                        "providerId": "claude"
+                    },
+                    "releaseDate": "2026-06-30"
+                },
+                "nSamples": 130,
+                "passScores": [
+                    {
+                        "error": 0,
+                        "pass": "pass-1",
+                        "score": 0
+                    },
+                    {
+                        "error": 3.8,
+                        "pass": "mean-score",
+                        "score": 39.7
+                    }
+                ]
+            },
+            {
+                "model": {
+                    "_id": "6e729361-72e0-49bc-8756-c9e9c1917469",
+                    "company": null,
+                    "descriptors": null,
+                    "effort": "high",
+                    "modelId": "grok-4-5",
+                    "modelName": "Grok 4.5",
+                    "provider": {
+                        "colorFrom": "#e2e2e2",
+                        "colorTo": "#767676",
+                        "colorVia": null,
+                        "logo": "https://cdn.sanity.io/images/h6s14f4z/production/b16de16ffcb7238e086ea99505637838caa37afc-20x20.svg",
+                        "name": "xAI",
+                        "providerId": "xai"
+                    },
+                    "releaseDate": "2026-07-08"
+                },
+                "nSamples": 130,
+                "passScores": [
+                    {
+                        "error": 0,
+                        "pass": "pass-1",
+                        "score": 0
+                    },
+                    {
+                        "error": 3.1,
+                        "pass": "mean-score",
+                        "score": 47.1
+                    }
+                ]
+            },
+            {
+                "model": {
+                    "_id": "OWQLnPQUqDBNbIeXU0SIQg",
+                    "company": null,
+                    "descriptors": null,
+                    "effort": "high",
+                    "modelId": "deepseek-v4-pro-high",
+                    "modelName": "DeepSeek-V4-Pro",
+                    "provider": {
+                        "colorFrom": "#b8c4ff",
+                        "colorTo": "#6882ff",
+                        "colorVia": null,
+                        "logo": "https://cdn.sanity.io/images/h6s14f4z/production/ff33d5e41c990bfae7566b9adb61924b766d2bb8-20x20.svg",
+                        "name": "DeepSeek",
+                        "providerId": "deepseek"
+                    },
+                    "releaseDate": "2026-04-23"
+                },
+                "nSamples": 130,
+                "passScores": [
+                    {
+                        "error": 1.2,
+                        "pass": "pass-1",
+                        "score": 0.8
+                    },
+                    {
+                        "error": 3.6,
+                        "pass": "mean-score",
+                        "score": 44.2
+                    }
+                ]
+            },
+            {
+                "model": {
+                    "_id": "azoqjsy5ct6IDwXe4Sjn4h",
+                    "company": null,
+                    "descriptors": null,
+                    "effort": "medium",
+                    "modelId": "gemini-3.6-flash-medium",
+                    "modelName": "Gemini 3.6 Flash",
+                    "provider": {
+                        "colorFrom": "#8eb7ff",
+                        "colorTo": "#468aff",
+                        "colorVia": null,
+                        "logo": "https://cdn.sanity.io/images/h6s14f4z/production/a1acc8dde3315d66c95f7b6bc705df1e05757018-20x20.svg",
+                        "name": "Google",
+                        "providerId": "google"
+                    },
+                    "releaseDate": "2026-07-21"
+                },
+                "nSamples": 130,
+                "passScores": [
+                    {
+                        "error": 0,
+                        "pass": "pass-1",
+                        "score": 0
+                    },
+                    {
+                        "error": 3.9,
+                        "pass": "mean-score",
+                        "score": 36.3
+                    }
+                ]
+            },
+            {
+                "model": {
+                    "_id": "OWQLnPQUqDBNbIeXU0SNgN",
+                    "company": null,
+                    "descriptors": null,
+                    "effort": "medium",
+                    "modelId": "gemini-3.7-flash-medium",
+                    "modelName": "Gemini 3.7 Flash",
+                    "provider": {
+                        "colorFrom": "#8eb7ff",
+                        "colorTo": "#468aff",
+                        "colorVia": null,
+                        "logo": "https://cdn.sanity.io/images/h6s14f4z/production/a1acc8dde3315d66c95f7b6bc705df1e05757018-20x20.svg",
+                        "name": "Google",
+                        "providerId": "google"
+                    },
+                    "releaseDate": "2026-08-13"
+                },
+                "nSamples": 130,
+                "passScores": [
+                    {
+                        "error": 0,
+                        "pass": "pass-1",
+                        "score": 0
+                    },
+                    {
+                        "error": 2.9,
+                        "pass": "mean-score",
+                        "score": 43.4
+                    }
+                ]
+            },
+            {
+                "model": {
+                    "_id": "azoqjsy5ct6IDwXe4SpudL",
+                    "company": null,
+                    "descriptors": null,
+                    "effort": "none",
+                    "modelId": "gpt-5.4-none",
+                    "modelName": "GPT 5.4",
+                    "provider": {
+                        "colorFrom": "#ffd900",
+                        "colorTo": "#ffb814",
+                        "colorVia": null,
+                        "logo": "https://cdn.sanity.io/images/h6s14f4z/production/d0157b817dd39b0eeb64cd582258759f8577ce42-20x20.svg",
+                        "name": "OpenAI",
+                        "providerId": "gpt"
+                    },
+                    "releaseDate": "2026-03-05"
+                },
+                "nSamples": 130,
+                "passScores": [
+                    {
+                        "error": 0,
+                        "pass": "pass-1",
+                        "score": 0
+                    },
+                    {
+                        "error": 3.5,
+                        "pass": "mean-score",
+                        "score": 38.4
+                    }
+                ]
+            },
+            {
+                "model": {
+                    "_id": "azoqjsy5ct6IDwXe4SqrAV",
+                    "company": null,
+                    "descriptors": null,
+                    "effort": "medium",
+                    "modelId": "gpt-5.5-medium",
+                    "modelName": "GPT 5.5",
+                    "provider": {
+                        "colorFrom": "#ffd900",
+                        "colorTo": "#ffb814",
+                        "colorVia": null,
+                        "logo": "https://cdn.sanity.io/images/h6s14f4z/production/d0157b817dd39b0eeb64cd582258759f8577ce42-20x20.svg",
+                        "name": "OpenAI",
+                        "providerId": "gpt"
+                    },
+                    "releaseDate": "2026-04-23"
+                },
+                "nSamples": 130,
+                "passScores": [
+                    {
+                        "error": 0,
+                        "pass": "pass-1",
+                        "score": 0
+                    },
+                    {
+                        "error": 3.2,
+                        "pass": "mean-score",
+                        "score": 45.4
+                    }
+                ]
+            },
+            {
+                "model": {
+                    "_id": "gG4opIZXf9JnbHfDsVjSLQ",
+                    "company": null,
+                    "descriptors": null,
+                    "effort": "medium",
+                    "modelId": "gpt-5.6-luna-medium",
+                    "modelName": "GPT 5.6 Luna",
+                    "provider": {
+                        "colorFrom": "#ffd900",
+                        "colorTo": "#ffb814",
+                        "colorVia": null,
+                        "logo": "https://cdn.sanity.io/images/h6s14f4z/production/d0157b817dd39b0eeb64cd582258759f8577ce42-20x20.svg",
+                        "name": "OpenAI",
+                        "providerId": "gpt"
+                    },
+                    "releaseDate": "2026-07-09"
+                },
+                "nSamples": 130,
+                "passScores": [
+                    {
+                        "error": 0,
+                        "pass": "pass-1",
+                        "score": 0
+                    },
+                    {
+                        "error": 3,
+                        "pass": "mean-score",
+                        "score": 43.9
+                    }
+                ]
+            },
+            {
+                "model": {
+                    "_id": "gG4opIZXf9JnbHfDsVjJT4",
+                    "company": null,
+                    "descriptors": null,
+                    "effort": "medium",
+                    "modelId": "gpt-5.6-sol-medium",
+                    "modelName": "GPT 5.6 Sol",
+                    "provider": {
+                        "colorFrom": "#ffd900",
+                        "colorTo": "#ffb814",
+                        "colorVia": null,
+                        "logo": "https://cdn.sanity.io/images/h6s14f4z/production/d0157b817dd39b0eeb64cd582258759f8577ce42-20x20.svg",
+                        "name": "OpenAI",
+                        "providerId": "gpt"
+                    },
+                    "releaseDate": "2026-07-09"
+                },
+                "nSamples": 130,
+                "passScores": [
+                    {
+                        "error": 0,
+                        "pass": "pass-1",
+                        "score": 0
+                    },
+                    {
+                        "error": 3.1,
+                        "pass": "mean-score",
+                        "score": 51.5
+                    }
+                ]
+            },
+            {
+                "model": {
+                    "_id": "azoqjsy5ct6IDwXe4Srloh",
+                    "company": null,
+                    "descriptors": null,
+                    "effort": "medium",
+                    "modelId": "gpt-5.6-terra-medium",
+                    "modelName": "GPT 5.6 Terra",
+                    "provider": {
+                        "colorFrom": "#ffd900",
+                        "colorTo": "#ffb814",
+                        "colorVia": null,
+                        "logo": "https://cdn.sanity.io/images/h6s14f4z/production/d0157b817dd39b0eeb64cd582258759f8577ce42-20x20.svg",
+                        "name": "OpenAI",
+                        "providerId": "gpt"
+                    },
+                    "releaseDate": "2026-07-09"
+                },
+                "nSamples": 130,
+                "passScores": [
+                    {
+                        "error": 0,
+                        "pass": "pass-1",
+                        "score": 0
+                    },
+                    {
+                        "error": 3.2,
+                        "pass": "mean-score",
+                        "score": 47.2
+                    }
+                ]
+            },
+            {
+                "model": {
+                    "_id": "qv2QwcmoTmbRKJaMCypQfO",
+                    "company": null,
+                    "descriptors": null,
+                    "effort": "xhigh",
+                    "modelId": "gpt-6-astra",
+                    "modelName": "GPT-6 Astra",
+                    "provider": {
+                        "colorFrom": "#ffd900",
+                        "colorTo": "#ffb814",
+                        "colorVia": null,
+                        "logo": "https://cdn.sanity.io/images/h6s14f4z/production/d0157b817dd39b0eeb64cd582258759f8577ce42-20x20.svg",
+                        "name": "OpenAI",
+                        "providerId": "gpt"
+                    },
+                    "releaseDate": "2026-09-03"
+                },
+                "nSamples": 130,
+                "passScores": [
+                    {
+                        "error": 0,
+                        "pass": "pass-1",
+                        "score": 0
+                    },
+                    {
+                        "error": 3.4,
+                        "pass": "mean-score",
+                        "score": 50.1
+                    }
+                ]
+            },
+            {
+                "model": {
+                    "_id": "eKMtfbisbMTQ7cvSo993yr",
+                    "company": null,
+                    "descriptors": null,
+                    "effort": "high",
+                    "modelId": "claude-fable-5.1-high",
+                    "modelName": "Fable 5.1",
+                    "provider": {
+                        "colorFrom": "#ff9b5e",
+                        "colorTo": "#ea6234",
+                        "colorVia": null,
+                        "logo": "https://cdn.sanity.io/images/h6s14f4z/production/6f898fa35f2eb8458e60c6dd43a1dc553b0a5674-20x20.svg",
+                        "name": "Anthropic",
+                        "providerId": "claude"
+                    },
+                    "releaseDate": "2026-09-01"
+                },
+                "nSamples": 130,
+                "passScores": [
+                    {
+                        "error": 0,
+                        "pass": "pass-1",
+                        "score": 0
+                    },
+                    {
+                        "error": 4,
+                        "pass": "mean-score",
+                        "score": 45.9
+                    }
+                ]
+            },
+            {
+                "model": {
+                    "_id": "FwIXcKGbnc0ALnAVPQ73IV",
+                    "company": null,
+                    "descriptors": null,
+                    "effort": "max",
+                    "modelId": "gpt-6-luna",
+                    "modelName": "GPT-6 Luna",
+                    "provider": {
+                        "colorFrom": "#ffd900",
+                        "colorTo": "#ffb814",
+                        "colorVia": null,
+                        "logo": "https://cdn.sanity.io/images/h6s14f4z/production/d0157b817dd39b0eeb64cd582258759f8577ce42-20x20.svg",
+                        "name": "OpenAI",
+                        "providerId": "gpt"
+                    },
+                    "releaseDate": "2026-09-22"
+                },
+                "nSamples": 130,
+                "passScores": [
+                    {
+                        "error": 0,
+                        "pass": "pass-1",
+                        "score": 0
+                    },
+                    {
+                        "error": 3,
+                        "pass": "mean-score",
+                        "score": 42.9
+                    }
+                ]
+            },
+            {
+                "model": {
+                    "_id": "FpgS21bgw2I3VNplb8tObs",
+                    "company": null,
+                    "descriptors": null,
+                    "effort": "max",
+                    "modelId": "deepseek-v4-1-flash",
+                    "modelName": "DeepSeek-V4.1-Flash",
+                    "provider": {
+                        "colorFrom": "#b8c4ff",
+                        "colorTo": "#6882ff",
+                        "colorVia": null,
+                        "logo": "https://cdn.sanity.io/images/h6s14f4z/production/ff33d5e41c990bfae7566b9adb61924b766d2bb8-20x20.svg",
+                        "name": "DeepSeek",
+                        "providerId": "deepseek"
+                    },
+                    "releaseDate": "2026-09-09"
+                },
+                "nSamples": 130,
+                "passScores": [
+                    {
+                        "error": 0,
+                        "pass": "pass-1",
+                        "score": 0
+                    },
+                    {
+                        "error": 3.3,
+                        "pass": "mean-score",
+                        "score": 53.2
+                    }
+                ]
+            },
+            {
+                "model": {
+                    "_id": "sXAOucYh4ND7hTHZiC0sRZ",
+                    "company": null,
+                    "descriptors": null,
+                    "effort": "max",
+                    "modelId": "gpt-6-sol",
+                    "modelName": "GPT-6 Sol",
+                    "provider": {
+                        "colorFrom": "#ffd900",
+                        "colorTo": "#ffb814",
+                        "colorVia": null,
+                        "logo": "https://cdn.sanity.io/images/h6s14f4z/production/d0157b817dd39b0eeb64cd582258759f8577ce42-20x20.svg",
+                        "name": "OpenAI",
+                        "providerId": "gpt"
+                    },
+                    "releaseDate": "2026-09-22"
+                },
+                "nSamples": 130,
+                "passScores": [
+                    {
+                        "error": 0,
+                        "pass": "pass-1",
+                        "score": 0
+                    },
+                    {
+                        "error": 3.1,
+                        "pass": "mean-score",
+                        "score": 42.9
+                    }
+                ]
+            },
+            {
+                "model": {
+                    "_id": "isvxExfKGAZ4WMrYLuW50g",
+                    "company": null,
+                    "descriptors": null,
+                    "effort": "max",
+                    "modelId": "gpt-5.6-terra-max",
+                    "modelName": "GPT-5.6 Terra",
+                    "provider": {
+                        "colorFrom": "#ffd900",
+                        "colorTo": "#ffb814",
+                        "colorVia": null,
+                        "logo": "https://cdn.sanity.io/images/h6s14f4z/production/d0157b817dd39b0eeb64cd582258759f8577ce42-20x20.svg",
+                        "name": "OpenAI",
+                        "providerId": "gpt"
+                    },
+                    "releaseDate": "2026-07-09"
+                },
+                "nSamples": 130,
+                "passScores": [
+                    {
+                        "error": 0,
+                        "pass": "pass-1",
+                        "score": 0
+                    },
+                    {
+                        "error": 3.9,
+                        "pass": "mean-score",
+                        "score": 45.8
+                    }
+                ]
+            },
+            {
+                "model": {
+                    "_id": "FwIXcKGbnc0ALnAVPNmxfQ",
+                    "company": null,
+                    "descriptors": null,
+                    "effort": "max",
+                    "modelId": "claude-opus-5-5",
+                    "modelName": "Opus 5.5",
+                    "provider": {
+                        "colorFrom": "#ff9b5e",
+                        "colorTo": "#ea6234",
+                        "colorVia": null,
+                        "logo": "https://cdn.sanity.io/images/h6s14f4z/production/6f898fa35f2eb8458e60c6dd43a1dc553b0a5674-20x20.svg",
+                        "name": "Anthropic",
+                        "providerId": "claude"
+                    },
+                    "releaseDate": "2026-09-22"
+                },
+                "nSamples": 125,
+                "passScores": [
+                    {
+                        "error": 0,
+                        "pass": "pass-1",
+                        "score": 0
+                    },
+                    {
+                        "error": 3.5,
+                        "pass": "mean-score",
+                        "score": 53.3
+                    }
+                ]
+            },
+            {
+                "model": {
+                    "_id": "UohOeKbgohNmjusgcicLCD",
+                    "company": null,
+                    "descriptors": null,
+                    "effort": "max",
+                    "modelId": "gpt-5.6-luna-max",
+                    "modelName": "GPT-5.6 Luna",
+                    "provider": {
+                        "colorFrom": "#ffd900",
+                        "colorTo": "#ffb814",
+                        "colorVia": null,
+                        "logo": "https://cdn.sanity.io/images/h6s14f4z/production/d0157b817dd39b0eeb64cd582258759f8577ce42-20x20.svg",
+                        "name": "OpenAI",
+                        "providerId": "gpt"
+                    },
+                    "releaseDate": "2026-07-09"
+                },
+                "nSamples": 129,
+                "passScores": [
+                    {
+                        "error": 0,
+                        "pass": "pass-1",
+                        "score": 0
+                    },
+                    {
+                        "error": 3.4,
+                        "pass": "mean-score",
+                        "score": 49.7
+                    }
+                ]
+            },
+            {
+                "model": {
+                    "_id": "OWQLnPQUqDBNbIeXTwFbr8",
+                    "company": null,
+                    "descriptors": null,
+                    "effort": "xhigh",
+                    "modelId": "qwen-3-8-max-xhigh",
+                    "modelName": "Qwen3.8-Max",
+                    "provider": {
+                        "colorFrom": "#c1bcff",
+                        "colorTo": "#766bff",
+                        "colorVia": null,
+                        "logo": "https://cdn.sanity.io/images/h6s14f4z/production/86b12c706a7eab193bb495dc072c98564d5a841d-20x20.svg",
+                        "name": "Alibaba",
+                        "providerId": "alibaba"
+                    },
+                    "releaseDate": "2026-08-02"
+                },
+                "nSamples": 128,
+                "passScores": [
+                    {
+                        "error": 0,
+                        "pass": "pass-1",
+                        "score": 0
+                    },
+                    {
+                        "error": 3.4,
+                        "pass": "mean-score",
+                        "score": 51
+                    }
+                ]
+            },
+            {
+                "model": {
+                    "_id": "331r9LTHpoLfChrVY8HGE3",
+                    "company": null,
+                    "descriptors": null,
+                    "effort": "max",
+                    "modelId": "claude-sonnet-5-5",
+                    "modelName": "Sonnet 5.5",
+                    "provider": {
+                        "colorFrom": "#ff9b5e",
+                        "colorTo": "#ea6234",
+                        "colorVia": null,
+                        "logo": "https://cdn.sanity.io/images/h6s14f4z/production/6f898fa35f2eb8458e60c6dd43a1dc553b0a5674-20x20.svg",
+                        "name": "Anthropic",
+                        "providerId": "claude"
+                    },
+                    "releaseDate": null
+                },
+                "nSamples": 130,
+                "passScores": [
+                    {
+                        "error": 0,
+                        "pass": "pass-1",
+                        "score": 0
+                    },
+                    {
+                        "error": 3.3,
+                        "pass": "mean-score",
+                        "score": 51.7
+                    }
+                ]
+            },
+            {
+                "model": {
+                    "_id": "czbC94OhwAuPY9WPtpIaZZ",
+                    "company": null,
+                    "descriptors": null,
+                    "effort": "max",
+                    "modelId": "claude-fable-5.1",
+                    "modelName": "Fable 5.1",
+                    "provider": {
+                        "colorFrom": "#ff9b5e",
+                        "colorTo": "#ea6234",
+                        "colorVia": null,
+                        "logo": "https://cdn.sanity.io/images/h6s14f4z/production/6f898fa35f2eb8458e60c6dd43a1dc553b0a5674-20x20.svg",
+                        "name": "Anthropic",
+                        "providerId": "claude"
+                    },
+                    "releaseDate": "2026-09-01"
+                },
+                "nSamples": 124,
+                "passScores": [
+                    {
+                        "error": 0,
+                        "pass": "pass-1",
+                        "score": 0
+                    },
+                    {
+                        "error": 3.8,
+                        "pass": "mean-score",
+                        "score": 55
+                    }
+                ]
+            },
+            {
+                "model": {
+                    "_id": "NPK5uFSBckNMMDqpCmjlf3",
+                    "company": null,
+                    "descriptors": null,
+                    "effort": "xhigh",
+                    "modelId": "grok-4.7",
+                    "modelName": "Grok 4.7",
+                    "provider": {
+                        "colorFrom": "#e2e2e2",
+                        "colorTo": "#767676",
+                        "colorVia": null,
+                        "logo": "https://cdn.sanity.io/images/h6s14f4z/production/b16de16ffcb7238e086ea99505637838caa37afc-20x20.svg",
+                        "name": "xAI",
+                        "providerId": "xai"
+                    },
+                    "releaseDate": "2026-09-21"
+                },
+                "nSamples": 127,
+                "passScores": [
+                    {
+                        "error": 0,
+                        "pass": "pass-1",
+                        "score": 0
+                    },
+                    {
+                        "error": 3.5,
+                        "pass": "mean-score",
+                        "score": 49
+                    }
+                ]
+            },
+            {
+                "model": {
+                    "_id": "0tAPacA3ryVv3lqaGQgfGR",
+                    "company": null,
+                    "descriptors": null,
+                    "effort": "max",
+                    "modelId": "glm-5-3",
+                    "modelName": "GLM-5.3",
+                    "provider": {
+                        "colorFrom": "#e2e2e2",
+                        "colorTo": "#848484",
+                        "colorVia": null,
+                        "logo": "https://cdn.sanity.io/images/h6s14f4z/production/aa7bca59e8147d8872f46859bb6ec753845106cc-20x20.svg",
+                        "name": "Zhipu",
+                        "providerId": "zhipu"
+                    },
+                    "releaseDate": "2026-08-14"
+                },
+                "nSamples": 128,
+                "passScores": [
+                    {
+                        "error": 0,
+                        "pass": "pass-1",
+                        "score": 0
+                    },
+                    {
+                        "error": 3.6,
+                        "pass": "mean-score",
+                        "score": 52
+                    }
+                ]
+            },
+            {
+                "model": {
+                    "_id": "WIfJeImXG63qVgIPsb0kVZ",
+                    "company": null,
+                    "descriptors": null,
+                    "effort": "max",
+                    "modelId": "claude-haiku-5-5",
+                    "modelName": "Haiku 5.5",
+                    "provider": {
+                        "colorFrom": "#ff9b5e",
+                        "colorTo": "#ea6234",
+                        "colorVia": null,
+                        "logo": "https://cdn.sanity.io/images/h6s14f4z/production/6f898fa35f2eb8458e60c6dd43a1dc553b0a5674-20x20.svg",
+                        "name": "Anthropic",
+                        "providerId": "claude"
+                    },
+                    "releaseDate": null
+                },
+                "nSamples": 128,
+                "passScores": [
+                    {
+                        "error": 0,
+                        "pass": "pass-1",
+                        "score": 0
+                    },
+                    {
+                        "error": 3,
+                        "pass": "mean-score",
+                        "score": 34.3
+                    }
+                ]
+            }
+        ],
+        "isReady": true,
+        "isUnlisted": null,
+        "kind": "open-source",
+        "leaderboardDescription": null,
+        "leaderboardHeading": null,
+        "leaderboardKey": "oss-deepresearch-bench-ii-leaderboard",
+        "mercorTaskCount": null,
+        "pageSubtitle": "Long-form web research, graded against expert rubrics.",
+        "pageTitle": null,
+        "paperLink": "https://arxiv.org/abs/2601.08536",
+        "partner": null,
+        "publicTaskCount": 130,
+        "sampleTaskLink": null,
+        "seoDescription": null,
+        "seoTitle": null,
+        "stats": null
+    },
+    "leaderboardData": [
+        {
+            "model_name": "Opus 4.7",
+            "model_id": "claude-opus-4-7-high",
+            "score": {
+                "pass-1": 0,
+                "mean-score": 45.4
+            },
+            "error": {
+                "pass-1": 0,
+                "mean-score": 3.3
+            },
+            "effort": "high",
+            "company": "claude",
+            "logoUrl": "https://cdn.sanity.io/images/h6s14f4z/production/6f898fa35f2eb8458e60c6dd43a1dc553b0a5674-20x20.svg",
+            "darkLogoUrl": null,
+            "providerColorTo": "#ea6234",
+            "providerName": "Anthropic",
+            "gradientStyle": "linear-gradient(to right, #ff9b5e, #ea6234)",
+            "release_date": "2026-04-16",
+            "n_samples": 130
+        },
+        {
+            "model_name": "Opus 4.8",
+            "model_id": "claude-opus-4-8-high",
+            "score": {
+                "pass-1": 0,
+                "mean-score": 44.6
+            },
+            "error": {
+                "pass-1": 0,
+                "mean-score": 3
+            },
+            "effort": "high",
+            "company": "claude",
+            "logoUrl": "https://cdn.sanity.io/images/h6s14f4z/production/6f898fa35f2eb8458e60c6dd43a1dc553b0a5674-20x20.svg",
+            "darkLogoUrl": null,
+            "providerColorTo": "#ea6234",
+            "providerName": "Anthropic",
+            "gradientStyle": "linear-gradient(to right, #ff9b5e, #ea6234)",
+            "release_date": "2026-05-28",
+            "n_samples": 130
+        },
+        {
+            "model_name": "Opus 5",
+            "model_id": "claude-opus-5-high",
+            "score": {
+                "pass-1": 0,
+                "mean-score": 56.1
+            },
+            "error": {
+                "pass-1": 0,
+                "mean-score": 3.4
+            },
+            "effort": "high",
+            "company": "claude",
+            "logoUrl": "https://cdn.sanity.io/images/h6s14f4z/production/6f898fa35f2eb8458e60c6dd43a1dc553b0a5674-20x20.svg",
+            "darkLogoUrl": null,
+            "providerColorTo": "#ea6234",
+            "providerName": "Anthropic",
+            "gradientStyle": "linear-gradient(to right, #ff9b5e, #ea6234)",
+            "release_date": "2026-07-24",
+            "n_samples": 130
+        },
+        {
+            "model_name": "Sonnet 4.6",
+            "model_id": "claude-sonnet-4-6-high",
+            "score": {
+                "pass-1": 0.8,
+                "mean-score": 53.3
+            },
+            "error": {
+                "pass-1": 1.2,
+                "mean-score": 3.5
+            },
+            "effort": "high",
+            "company": "claude",
+            "logoUrl": "https://cdn.sanity.io/images/h6s14f4z/production/6f898fa35f2eb8458e60c6dd43a1dc553b0a5674-20x20.svg",
+            "darkLogoUrl": null,
+            "providerColorTo": "#ea6234",
+            "providerName": "Anthropic",
+            "gradientStyle": "linear-gradient(to right, #ff9b5e, #ea6234)",
+            "release_date": "2026-02-17",
+            "n_samples": 130
+        },
+        {
+            "model_name": "Sonnet 5",
+            "model_id": "claude-sonnet-5",
+            "score": {
+                "pass-1": 0,
+                "mean-score": 39.7
+            },
+            "error": {
+                "pass-1": 0,
+                "mean-score": 3.8
+            },
+            "effort": "high",
+            "company": "claude",
+            "logoUrl": "https://cdn.sanity.io/images/h6s14f4z/production/6f898fa35f2eb8458e60c6dd43a1dc553b0a5674-20x20.svg",
+            "darkLogoUrl": null,
+            "providerColorTo": "#ea6234",
+            "providerName": "Anthropic",
+            "gradientStyle": "linear-gradient(to right, #ff9b5e, #ea6234)",
+            "release_date": "2026-06-30",
+            "n_samples": 130
+        },
+        {
+            "model_name": "Grok 4.5",
+            "model_id": "grok-4-5",
+            "score": {
+                "pass-1": 0,
+                "mean-score": 47.1
+            },
+            "error": {
+                "pass-1": 0,
+                "mean-score": 3.1
+            },
+            "effort": "high",
+            "company": "xai",
+            "logoUrl": "https://cdn.sanity.io/images/h6s14f4z/production/b16de16ffcb7238e086ea99505637838caa37afc-20x20.svg",
+            "darkLogoUrl": null,
+            "providerColorTo": "#767676",
+            "providerName": "xAI",
+            "gradientStyle": "linear-gradient(to right, #e2e2e2, #767676)",
+            "release_date": "2026-07-08",
+            "n_samples": 130
+        },
+        {
+            "model_name": "DeepSeek-V4-Pro",
+            "model_id": "deepseek-v4-pro-high",
+            "score": {
+                "pass-1": 0.8,
+                "mean-score": 44.2
+            },
+            "error": {
+                "pass-1": 1.2,
+                "mean-score": 3.6
+            },
+            "effort": "high",
+            "company": "deepseek",
+            "logoUrl": "https://cdn.sanity.io/images/h6s14f4z/production/ff33d5e41c990bfae7566b9adb61924b766d2bb8-20x20.svg",
+            "darkLogoUrl": null,
+            "providerColorTo": "#6882ff",
+            "providerName": "DeepSeek",
+            "gradientStyle": "linear-gradient(to right, #b8c4ff, #6882ff)",
+            "release_date": "2026-04-23",
+            "n_samples": 130
+        },
+        {
+            "model_name": "Gemini 3.6 Flash",
+            "model_id": "gemini-3.6-flash-medium",
+            "score": {
+                "pass-1": 0,
+                "mean-score": 36.3
+            },
+            "error": {
+                "pass-1": 0,
+                "mean-score": 3.9
+            },
+            "effort": "medium",
+            "company": "google",
+            "logoUrl": "https://cdn.sanity.io/images/h6s14f4z/production/a1acc8dde3315d66c95f7b6bc705df1e05757018-20x20.svg",
+            "darkLogoUrl": null,
+            "providerColorTo": "#468aff",
+            "providerName": "Google",
+            "gradientStyle": "linear-gradient(to right, #8eb7ff, #468aff)",
+            "release_date": "2026-07-21",
+            "n_samples": 130
+        },
+        {
+            "model_name": "Gemini 3.7 Flash",
+            "model_id": "gemini-3.7-flash-medium",
+            "score": {
+                "pass-1": 0,
+                "mean-score": 43.4
+            },
+            "error": {
+                "pass-1": 0,
+                "mean-score": 2.9
+            },
+            "effort": "medium",
+            "company": "google",
+            "logoUrl": "https://cdn.sanity.io/images/h6s14f4z/production/a1acc8dde3315d66c95f7b6bc705df1e05757018-20x20.svg",
+            "darkLogoUrl": null,
+            "providerColorTo": "#468aff",
+            "providerName": "Google",
+            "gradientStyle": "linear-gradient(to right, #8eb7ff, #468aff)",
+            "release_date": "2026-08-13",
+            "n_samples": 130
+        },
+        {
+            "model_name": "GPT 5.4",
+            "model_id": "gpt-5.4-none",
+            "score": {
+                "pass-1": 0,
+                "mean-score": 38.4
+            },
+            "error": {
+                "pass-1": 0,
+                "mean-score": 3.5
+            },
+            "effort": "none",
+            "company": "gpt",
+            "logoUrl": "https://cdn.sanity.io/images/h6s14f4z/production/d0157b817dd39b0eeb64cd582258759f8577ce42-20x20.svg",
+            "darkLogoUrl": null,
+            "providerColorTo": "#ffb814",
+            "providerName": "OpenAI",
+            "gradientStyle": "linear-gradient(to right, #ffd900, #ffb814)",
+            "release_date": "2026-03-05",
+            "n_samples": 130
+        },
+        {
+            "model_name": "GPT 5.5",
+            "model_id": "gpt-5.5-medium",
+            "score": {
+                "pass-1": 0,
+                "mean-score": 45.4
+            },
+            "error": {
+                "pass-1": 0,
+                "mean-score": 3.2
+            },
+            "effort": "medium",
+            "company": "gpt",
+            "logoUrl": "https://cdn.sanity.io/images/h6s14f4z/production/d0157b817dd39b0eeb64cd582258759f8577ce42-20x20.svg",
+            "darkLogoUrl": null,
+            "providerColorTo": "#ffb814",
+            "providerName": "OpenAI",
+            "gradientStyle": "linear-gradient(to right, #ffd900, #ffb814)",
+            "release_date": "2026-04-23",
+            "n_samples": 130
+        },
+        {
+            "model_name": "GPT 5.6 Luna",
+            "model_id": "gpt-5.6-luna-medium",
+            "score": {
+                "pass-1": 0,
+                "mean-score": 43.9
+            },
+            "error": {
+                "pass-1": 0,
+                "mean-score": 3
+            },
+            "effort": "medium",
+            "company": "gpt",
+            "logoUrl": "https://cdn.sanity.io/images/h6s14f4z/production/d0157b817dd39b0eeb64cd582258759f8577ce42-20x20.svg",
+            "darkLogoUrl": null,
+            "providerColorTo": "#ffb814",
+            "providerName": "OpenAI",
+            "gradientStyle": "linear-gradient(to right, #ffd900, #ffb814)",
+            "release_date": "2026-07-09",
+            "n_samples": 130
+        },
+        {
+            "model_name": "GPT 5.6 Sol",
+            "model_id": "gpt-5.6-sol-medium",
+            "score": {
+                "pass-1": 0,
+                "mean-score": 51.5
+            },
+            "error": {
+                "pass-1": 0,
+                "mean-score": 3.1
+            },
+            "effort": "medium",
+            "company": "gpt",
+            "logoUrl": "https://cdn.sanity.io/images/h6s14f4z/production/d0157b817dd39b0eeb64cd582258759f8577ce42-20x20.svg",
+            "darkLogoUrl": null,
+            "providerColorTo": "#ffb814",
+            "providerName": "OpenAI",
+            "gradientStyle": "linear-gradient(to right, #ffd900, #ffb814)",
+            "release_date": "2026-07-09",
+            "n_samples": 130
+        },
+        {
+            "model_name": "GPT 5.6 Terra",
+            "model_id": "gpt-5.6-terra-medium",
+            "score": {
+                "pass-1": 0,
+                "mean-score": 47.2
+            },
+            "error": {
+                "pass-1": 0,
+                "mean-score": 3.2
+            },
+            "effort": "medium",
+            "company": "gpt",
+            "logoUrl": "https://cdn.sanity.io/images/h6s14f4z/production/d0157b817dd39b0eeb64cd582258759f8577ce42-20x20.svg",
+            "darkLogoUrl": null,
+            "providerColorTo": "#ffb814",
+            "providerName": "OpenAI",
+            "gradientStyle": "linear-gradient(to right, #ffd900, #ffb814)",
+            "release_date": "2026-07-09",
+            "n_samples": 130
+        },
+        {
+            "model_name": "GPT-6 Astra",
+            "model_id": "gpt-6-astra",
+            "score": {
+                "pass-1": 0,
+                "mean-score": 50.1
+            },
+            "error": {
+                "pass-1": 0,
+                "mean-score": 3.4
+            },
+            "effort": "xhigh",
+            "company": "gpt",
+            "logoUrl": "https://cdn.sanity.io/images/h6s14f4z/production/d0157b817dd39b0eeb64cd582258759f8577ce42-20x20.svg",
+            "darkLogoUrl": null,
+            "providerColorTo": "#ffb814",
+            "providerName": "OpenAI",
+            "gradientStyle": "linear-gradient(to right, #ffd900, #ffb814)",
+            "release_date": "2026-09-03",
+            "n_samples": 130
+        },
+        {
+            "model_name": "Fable 5.1",
+            "model_id": "claude-fable-5.1-high",
+            "score": {
+                "pass-1": 0,
+                "mean-score": 45.9
+            },
+            "error": {
+                "pass-1": 0,
+                "mean-score": 4
+            },
+            "effort": "high",
+            "company": "claude",
+            "logoUrl": "https://cdn.sanity.io/images/h6s14f4z/production/6f898fa35f2eb8458e60c6dd43a1dc553b0a5674-20x20.svg",
+            "darkLogoUrl": null,
+            "providerColorTo": "#ea6234",
+            "providerName": "Anthropic",
+            "gradientStyle": "linear-gradient(to right, #ff9b5e, #ea6234)",
+            "release_date": "2026-09-01",
+            "n_samples": 130
+        },
+        {
+            "model_name": "GPT-6 Luna",
+            "model_id": "gpt-6-luna",
+            "score": {
+                "pass-1": 0,
+                "mean-score": 42.9
+            },
+            "error": {
+                "pass-1": 0,
+                "mean-score": 3
+            },
+            "effort": "max",
+            "company": "gpt",
+            "logoUrl": "https://cdn.sanity.io/images/h6s14f4z/production/d0157b817dd39b0eeb64cd582258759f8577ce42-20x20.svg",
+            "darkLogoUrl": null,
+            "providerColorTo": "#ffb814",
+            "providerName": "OpenAI",
+            "gradientStyle": "linear-gradient(to right, #ffd900, #ffb814)",
+            "release_date": "2026-09-22",
+            "n_samples": 130
+        },
+        {
+            "model_name": "DeepSeek-V4.1-Flash",
+            "model_id": "deepseek-v4-1-flash",
+            "score": {
+                "pass-1": 0,
+                "mean-score": 53.2
+            },
+            "error": {
+                "pass-1": 0,
+                "mean-score": 3.3
+            },
+            "effort": "max",
+            "company": "deepseek",
+            "logoUrl": "https://cdn.sanity.io/images/h6s14f4z/production/ff33d5e41c990bfae7566b9adb61924b766d2bb8-20x20.svg",
+            "darkLogoUrl": null,
+            "providerColorTo": "#6882ff",
+            "providerName": "DeepSeek",
+            "gradientStyle": "linear-gradient(to right, #b8c4ff, #6882ff)",
+            "release_date": "2026-09-09",
+            "n_samples": 130
+        },
+        {
+            "model_name": "GPT-6 Sol",
+            "model_id": "gpt-6-sol",
+            "score": {
+                "pass-1": 0,
+                "mean-score": 42.9
+            },
+            "error": {
+                "pass-1": 0,
+                "mean-score": 3.1
+            },
+            "effort": "max",
+            "company": "gpt",
+            "logoUrl": "https://cdn.sanity.io/images/h6s14f4z/production/d0157b817dd39b0eeb64cd582258759f8577ce42-20x20.svg",
+            "darkLogoUrl": null,
+            "providerColorTo": "#ffb814",
+            "providerName": "OpenAI",
+            "gradientStyle": "linear-gradient(to right, #ffd900, #ffb814)",
+            "release_date": "2026-09-22",
+            "n_samples": 130
+        },
+        {
+            "model_name": "GPT-5.6 Terra",
+            "model_id": "gpt-5.6-terra-max",
+            "score": {
+                "pass-1": 0,
+                "mean-score": 45.8
+            },
+            "error": {
+                "pass-1": 0,
+                "mean-score": 3.9
+            },
+            "effort": "max",
+            "company": "gpt",
+            "logoUrl": "https://cdn.sanity.io/images/h6s14f4z/production/d0157b817dd39b0eeb64cd582258759f8577ce42-20x20.svg",
+            "darkLogoUrl": null,
+            "providerColorTo": "#ffb814",
+            "providerName": "OpenAI",
+            "gradientStyle": "linear-gradient(to right, #ffd900, #ffb814)",
+            "release_date": "2026-07-09",
+            "n_samples": 130
+        },
+        {
+            "model_name": "Opus 5.5",
+            "model_id": "claude-opus-5-5",
+            "score": {
+                "pass-1": 0,
+                "mean-score": 53.3
+            },
+            "error": {
+                "pass-1": 0,
+                "mean-score": 3.5
+            },
+            "effort": "max",
+            "company": "claude",
+            "logoUrl": "https://cdn.sanity.io/images/h6s14f4z/production/6f898fa35f2eb8458e60c6dd43a1dc553b0a5674-20x20.svg",
+            "darkLogoUrl": null,
+            "providerColorTo": "#ea6234",
+            "providerName": "Anthropic",
+            "gradientStyle": "linear-gradient(to right, #ff9b5e, #ea6234)",
+            "release_date": "2026-09-22",
+            "n_samples": 125
+        },
+        {
+            "model_name": "GPT-5.6 Luna",
+            "model_id": "gpt-5.6-luna-max",
+            "score": {
+                "pass-1": 0,
+                "mean-score": 49.7
+            },
+            "error": {
+                "pass-1": 0,
+                "mean-score": 3.4
+            },
+            "effort": "max",
+            "company": "gpt",
+            "logoUrl": "https://cdn.sanity.io/images/h6s14f4z/production/d0157b817dd39b0eeb64cd582258759f8577ce42-20x20.svg",
+            "darkLogoUrl": null,
+            "providerColorTo": "#ffb814",
+            "providerName": "OpenAI",
+            "gradientStyle": "linear-gradient(to right, #ffd900, #ffb814)",
+            "release_date": "2026-07-09",
+            "n_samples": 129
+        },
+        {
+            "model_name": "Qwen3.8-Max",
+            "model_id": "qwen-3-8-max-xhigh",
+            "score": {
+                "pass-1": 0,
+                "mean-score": 51
+            },
+            "error": {
+                "pass-1": 0,
+                "mean-score": 3.4
+            },
+            "effort": "xhigh",
+            "company": "alibaba",
+            "logoUrl": "https://cdn.sanity.io/images/h6s14f4z/production/86b12c706a7eab193bb495dc072c98564d5a841d-20x20.svg",
+            "darkLogoUrl": null,
+            "providerColorTo": "#766bff",
+            "providerName": "Alibaba",
+            "gradientStyle": "linear-gradient(to right, #c1bcff, #766bff)",
+            "release_date": "2026-08-02",
+            "n_samples": 128
+        },
+        {
+            "model_name": "Sonnet 5.5",
+            "model_id": "claude-sonnet-5-5",
+            "score": {
+                "pass-1": 0,
+                "mean-score": 51.7
+            },
+            "error": {
+                "pass-1": 0,
+                "mean-score": 3.3
+            },
+            "effort": "max",
+            "company": "claude",
+            "logoUrl": "https://cdn.sanity.io/images/h6s14f4z/production/6f898fa35f2eb8458e60c6dd43a1dc553b0a5674-20x20.svg",
+            "darkLogoUrl": null,
+            "providerColorTo": "#ea6234",
+            "providerName": "Anthropic",
+            "gradientStyle": "linear-gradient(to right, #ff9b5e, #ea6234)",
+            "release_date": "",
+            "n_samples": 130
+        },
+        {
+            "model_name": "Fable 5.1",
+            "model_id": "claude-fable-5.1",
+            "score": {
+                "pass-1": 0,
+                "mean-score": 55
+            },
+            "error": {
+                "pass-1": 0,
+                "mean-score": 3.8
+            },
+            "effort": "max",
+            "company": "claude",
+            "logoUrl": "https://cdn.sanity.io/images/h6s14f4z/production/6f898fa35f2eb8458e60c6dd43a1dc553b0a5674-20x20.svg",
+            "darkLogoUrl": null,
+            "providerColorTo": "#ea6234",
+            "providerName": "Anthropic",
+            "gradientStyle": "linear-gradient(to right, #ff9b5e, #ea6234)",
+            "release_date": "2026-09-01",
+            "n_samples": 124
+        },
+        {
+            "model_name": "Grok 4.7",
+            "model_id": "grok-4.7",
+            "score": {
+                "pass-1": 0,
+                "mean-score": 49
+            },
+            "error": {
+                "pass-1": 0,
+                "mean-score": 3.5
+            },
+            "effort": "xhigh",
+            "company": "xai",
+            "logoUrl": "https://cdn.sanity.io/images/h6s14f4z/production/b16de16ffcb7238e086ea99505637838caa37afc-20x20.svg",
+            "darkLogoUrl": null,
+            "providerColorTo": "#767676",
+            "providerName": "xAI",
+            "gradientStyle": "linear-gradient(to right, #e2e2e2, #767676)",
+            "release_date": "2026-09-21",
+            "n_samples": 127
+        },
+        {
+            "model_name": "GLM-5.3",
+            "model_id": "glm-5-3",
+            "score": {
+                "pass-1": 0,
+                "mean-score": 52
+            },
+            "error": {
+                "pass-1": 0,
+                "mean-score": 3.6
+            },
+            "effort": "max",
+            "company": "zhipu",
+            "logoUrl": "https://cdn.sanity.io/images/h6s14f4z/production/aa7bca59e8147d8872f46859bb6ec753845106cc-20x20.svg",
+            "darkLogoUrl": null,
+            "providerColorTo": "#848484",
+            "providerName": "Zhipu",
+            "gradientStyle": "linear-gradient(to right, #e2e2e2, #848484)",
+            "release_date": "2026-08-14",
+            "n_samples": 128
+        },
+        {
+            "model_name": "Haiku 5.5",
+            "model_id": "claude-haiku-5-5",
+            "score": {
+                "pass-1": 0,
+                "mean-score": 34.3
+            },
+            "error": {
+                "pass-1": 0,
+                "mean-score": 3
+            },
+            "effort": "max",
+            "company": "claude",
+            "logoUrl": "https://cdn.sanity.io/images/h6s14f4z/production/6f898fa35f2eb8458e60c6dd43a1dc553b0a5674-20x20.svg",
+            "darkLogoUrl": null,
+            "providerColorTo": "#ea6234",
+            "providerName": "Anthropic",
+            "gradientStyle": "linear-gradient(to right, #ff9b5e, #ea6234)",
+            "release_date": "",
+            "n_samples": 128
+        }
+    ]
+}

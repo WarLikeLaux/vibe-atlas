@@ -1,0 +1,192 @@
+{
+    "checkedAt": "2026-10-11T20:59:04.451474Z",
+    "snapshotPath": "data/snapshots/drb2-mercor130/current.json",
+    "snapshotSha256": "71ea627df6ba18d55580e63f7ea03671417237a966c8d4e0660f3ba157c242da",
+    "runs": [
+        {
+            "runId": "drb2-reviewed-1",
+            "scorePointer": "/observations/0/score",
+            "score": 50.1,
+            "sourceUrl": "https://www.mercor.com/apex/oss-benchmarks/oss-deepresearch-bench-ii-leaderboard/",
+            "sourceModelName": "GPT-6 Astra (Mercor) xhigh",
+            "sourceModelNamePointer": "/observations/0/sourceModelName",
+            "observationSourceUrl": "https://www.mercor.com/apex/oss-benchmarks/oss-deepresearch-bench-ii-leaderboard/",
+            "label": "GPT-6 Astra · Mercor · effort xhigh",
+            "notes": [
+                "Авторские Gemini-2.5 и GPT-5.5 Text-only Eval — отдельные протоколы, в пакет не входят.",
+                "Поле error сохранено без пересчёта; уровень и метод неизвестны."
+            ],
+            "configuration": {
+                "effort": "xhigh",
+                "sampleSize": 130
+            },
+            "configurationPointers": {
+                "effort": "/observations/0/effort",
+                "sampleSize": "/observations/0/sampleSize"
+            },
+            "telemetryPointers": [
+                {
+                    "name": "Опубликованная погрешность",
+                    "unit": "процентных пункта; метод неизвестен",
+                    "valuePointer": "/observations/0/error",
+                    "transformations": []
+                },
+                {
+                    "name": "Образцы",
+                    "unit": "n_samples",
+                    "valuePointer": "/observations/0/nSamples",
+                    "transformations": []
+                }
+            ],
+            "transformations": []
+        },
+        {
+            "runId": "drb2-reviewed-2",
+            "scorePointer": "/observations/1/score",
+            "score": 42.9,
+            "sourceUrl": "https://www.mercor.com/apex/oss-benchmarks/oss-deepresearch-bench-ii-leaderboard/",
+            "sourceModelName": "GPT-6 Luna (Mercor) max",
+            "sourceModelNamePointer": "/observations/1/sourceModelName",
+            "observationSourceUrl": "https://www.mercor.com/apex/oss-benchmarks/oss-deepresearch-bench-ii-leaderboard/",
+            "label": "GPT-6 Luna · Mercor · effort max",
+            "notes": [
+                "Авторские Gemini-2.5 и GPT-5.5 Text-only Eval — отдельные протоколы, в пакет не входят.",
+                "Поле error сохранено без пересчёта; уровень и метод неизвестны."
+            ],
+            "configuration": {
+                "effort": "max",
+                "sampleSize": 130
+            },
+            "configurationPointers": {
+                "effort": "/observations/1/effort",
+                "sampleSize": "/observations/1/sampleSize"
+            },
+            "telemetryPointers": [
+                {
+                    "name": "Опубликованная погрешность",
+                    "unit": "процентных пункта; метод неизвестен",
+                    "valuePointer": "/observations/1/error",
+                    "transformations": []
+                },
+                {
+                    "name": "Образцы",
+                    "unit": "n_samples",
+                    "valuePointer": "/observations/1/nSamples",
+                    "transformations": []
+                }
+            ],
+            "transformations": []
+        },
+        {
+            "runId": "drb2-reviewed-3",
+            "scorePointer": "/observations/2/score",
+            "score": 52.0,
+            "sourceUrl": "https://www.mercor.com/apex/oss-benchmarks/oss-deepresearch-bench-ii-leaderboard/",
+            "sourceModelName": "GLM-5.3 (Mercor) max",
+            "sourceModelNamePointer": "/observations/2/sourceModelName",
+            "observationSourceUrl": "https://www.mercor.com/apex/oss-benchmarks/oss-deepresearch-bench-ii-leaderboard/",
+            "label": "GLM-5.3 · Mercor · effort max",
+            "notes": [
+                "Авторские Gemini-2.5 и GPT-5.5 Text-only Eval — отдельные протоколы, в пакет не входят.",
+                "Поле error сохранено без пересчёта; уровень и метод неизвестны."
+            ],
+            "configuration": {
+                "effort": "max",
+                "sampleSize": 130
+            },
+            "configurationPointers": {
+                "effort": "/observations/2/effort",
+                "sampleSize": "/observations/2/sampleSize"
+            },
+            "telemetryPointers": [
+                {
+                    "name": "Опубликованная погрешность",
+                    "unit": "процентных пункта; метод неизвестен",
+                    "valuePointer": "/observations/2/error",
+                    "transformations": []
+                },
+                {
+                    "name": "Образцы",
+                    "unit": "n_samples",
+                    "valuePointer": "/observations/2/nSamples",
+                    "transformations": []
+                }
+            ],
+            "transformations": []
+        },
+        {
+            "runId": "drb2-reviewed-4",
+            "scorePointer": "/observations/3/score",
+            "score": 49.0,
+            "sourceUrl": "https://www.mercor.com/apex/oss-benchmarks/oss-deepresearch-bench-ii-leaderboard/",
+            "sourceModelName": "Grok 4.7 (Mercor) xhigh",
+            "sourceModelNamePointer": "/observations/3/sourceModelName",
+            "observationSourceUrl": "https://www.mercor.com/apex/oss-benchmarks/oss-deepresearch-bench-ii-leaderboard/",
+            "label": "Grok 4.7 · Mercor · effort xhigh",
+            "notes": [
+                "Авторские Gemini-2.5 и GPT-5.5 Text-only Eval — отдельные протоколы, в пакет не входят.",
+                "Поле error сохранено без пересчёта; уровень и метод неизвестны."
+            ],
+            "configuration": {
+                "effort": "xhigh",
+                "sampleSize": 130
+            },
+            "configurationPointers": {
+                "effort": "/observations/3/effort",
+                "sampleSize": "/observations/3/sampleSize"
+            },
+            "telemetryPointers": [
+                {
+                    "name": "Опубликованная погрешность",
+                    "unit": "процентных пункта; метод неизвестен",
+                    "valuePointer": "/observations/3/error",
+                    "transformations": []
+                },
+                {
+                    "name": "Образцы",
+                    "unit": "n_samples",
+                    "valuePointer": "/observations/3/nSamples",
+                    "transformations": []
+                }
+            ],
+            "transformations": []
+        },
+        {
+            "runId": "drb2-reviewed-5",
+            "scorePointer": "/observations/4/score",
+            "score": 42.9,
+            "sourceUrl": "https://www.mercor.com/apex/oss-benchmarks/oss-deepresearch-bench-ii-leaderboard/",
+            "sourceModelName": "GPT-6 Sol (Mercor) max",
+            "sourceModelNamePointer": "/observations/4/sourceModelName",
+            "observationSourceUrl": "https://www.mercor.com/apex/oss-benchmarks/oss-deepresearch-bench-ii-leaderboard/",
+            "label": "GPT-6 Sol · Mercor · effort max",
+            "notes": [
+                "Авторские Gemini-2.5 и GPT-5.5 Text-only Eval — отдельные протоколы, в пакет не входят.",
+                "Поле error сохранено без пересчёта; уровень и метод неизвестны."
+            ],
+            "configuration": {
+                "effort": "max",
+                "sampleSize": 130
+            },
+            "configurationPointers": {
+                "effort": "/observations/4/effort",
+                "sampleSize": "/observations/4/sampleSize"
+            },
+            "telemetryPointers": [
+                {
+                    "name": "Опубликованная погрешность",
+                    "unit": "процентных пункта; метод неизвестен",
+                    "valuePointer": "/observations/4/error",
+                    "transformations": []
+                },
+                {
+                    "name": "Образцы",
+                    "unit": "n_samples",
+                    "valuePointer": "/observations/4/nSamples",
+                    "transformations": []
+                }
+            ],
+            "transformations": []
+        }
+    ]
+}

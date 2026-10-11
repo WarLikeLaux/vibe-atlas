@@ -1,0 +1,587 @@
+{
+    "source": "https://raw.githubusercontent.com/DistylAI/distylai.github.io/main/IFScale/results.csv",
+    "latencySource": "https://raw.githubusercontent.com/DistylAI/distylai.github.io/main/IFScale/merged_accuracy_latency_data.csv",
+    "unit": "accuracy and sample standard deviation in percent, latency in seconds",
+    "selection": "All Google/OpenAI/xAI configurations at 10/50/100/250/500 density, historical only. None mapped to current target version.",
+    "rows": [
+        {
+            "Model": "gemini-2.5-flash-preview",
+            "10 Instructions accuracy": "100.0%",
+            "50 Instructions accuracy": "96.0%",
+            "100 Instructions accuracy": "82.0%",
+            "250 Instructions accuracy": "50.7%",
+            "500 Instructions accuracy": "34.2%",
+            "10 Instructions std.dev": "0.0%",
+            "50 Instructions std.dev": "1.4%",
+            "100 Instructions std.dev": "4.5%",
+            "250 Instructions std.dev": "7.8%",
+            "500 Instructions std.dev": "4.2%",
+            " Organization": "Google"
+        },
+        {
+            "Model": "gemini-2.5-pro-preview",
+            "10 Instructions accuracy": "100.0%",
+            "50 Instructions accuracy": "99.6%",
+            "100 Instructions accuracy": "98.4%",
+            "250 Instructions accuracy": "84.8%",
+            "500 Instructions accuracy": "68.9%",
+            "10 Instructions std.dev": "0.0%",
+            "50 Instructions std.dev": "0.9%",
+            "100 Instructions std.dev": "1.3%",
+            "250 Instructions std.dev": "7.2%",
+            "500 Instructions std.dev": "2.6%",
+            " Organization": "Google"
+        },
+        {
+            "Model": "gpt-4.1",
+            "10 Instructions accuracy": "98.0%",
+            "50 Instructions accuracy": "98.8%",
+            "100 Instructions accuracy": "95.4%",
+            "250 Instructions accuracy": "74.0%",
+            "500 Instructions accuracy": "48.9%",
+            "10 Instructions std.dev": "4.5%",
+            "50 Instructions std.dev": "1.8%",
+            "100 Instructions std.dev": "2.7%",
+            "250 Instructions std.dev": "4.3%",
+            "500 Instructions std.dev": "5.0%",
+            " Organization": "OpenAI"
+        },
+        {
+            "Model": "gpt-4.1-mini",
+            "10 Instructions accuracy": "100.0%",
+            "50 Instructions accuracy": "93.2%",
+            "100 Instructions accuracy": "80.0%",
+            "250 Instructions accuracy": "44.5%",
+            "500 Instructions accuracy": "27.2%",
+            "10 Instructions std.dev": "0.0%",
+            "50 Instructions std.dev": "4.1%",
+            "100 Instructions std.dev": "4.2%",
+            "250 Instructions std.dev": "2.6%",
+            "500 Instructions std.dev": "1.7%",
+            " Organization": "OpenAI"
+        },
+        {
+            "Model": "gpt-4.1-nano",
+            "10 Instructions accuracy": "94.0%",
+            "50 Instructions accuracy": "72.8%",
+            "100 Instructions accuracy": "51.6%",
+            "250 Instructions accuracy": "25.7%",
+            "500 Instructions accuracy": "16.2%",
+            "10 Instructions std.dev": "5.5%",
+            "50 Instructions std.dev": "5.0%",
+            "100 Instructions std.dev": "4.5%",
+            "250 Instructions std.dev": "4.5%",
+            "500 Instructions std.dev": "1.8%",
+            " Organization": "OpenAI"
+        },
+        {
+            "Model": "gpt-4o",
+            "10 Instructions accuracy": "94.0%",
+            "50 Instructions accuracy": "82.8%",
+            "100 Instructions accuracy": "49.0%",
+            "250 Instructions accuracy": "22.2%",
+            "500 Instructions accuracy": "15.4%",
+            "10 Instructions std.dev": "8.9%",
+            "50 Instructions std.dev": "6.3%",
+            "100 Instructions std.dev": "4.8%",
+            "250 Instructions std.dev": "2.0%",
+            "500 Instructions std.dev": "1.8%",
+            " Organization": "OpenAI"
+        },
+        {
+            "Model": "gpt-4o-mini",
+            "10 Instructions accuracy": "94.0%",
+            "50 Instructions accuracy": "65.6%",
+            "100 Instructions accuracy": "41.8%",
+            "250 Instructions accuracy": "18.3%",
+            "500 Instructions accuracy": "10.4%",
+            "10 Instructions std.dev": "8.9%",
+            "50 Instructions std.dev": "3.8%",
+            "100 Instructions std.dev": "3.6%",
+            "250 Instructions std.dev": "1.8%",
+            "500 Instructions std.dev": "0.7%",
+            " Organization": "OpenAI"
+        },
+        {
+            "Model": "gpt-4.5-preview",
+            "10 Instructions accuracy": "100.0%",
+            "50 Instructions accuracy": "93.6%",
+            "100 Instructions accuracy": "90.8%",
+            "250 Instructions accuracy": "65.0%",
+            "500 Instructions accuracy": "43.0%",
+            "10 Instructions std.dev": "0.0%",
+            "50 Instructions std.dev": "1.7%",
+            "100 Instructions std.dev": "1.8%",
+            "250 Instructions std.dev": "2.7%",
+            "500 Instructions std.dev": "2.1%",
+            " Organization": "OpenAI"
+        },
+        {
+            "Model": "o3 (medium)",
+            "10 Instructions accuracy": "98.0%",
+            "50 Instructions accuracy": "99.2%",
+            "100 Instructions accuracy": "98.4%",
+            "250 Instructions accuracy": "91.8%",
+            "500 Instructions accuracy": "51.6%",
+            "10 Instructions std.dev": "4.5%",
+            "50 Instructions std.dev": "1.1%",
+            "100 Instructions std.dev": "1.5%",
+            "250 Instructions std.dev": "8.6%",
+            "500 Instructions std.dev": "8.0%",
+            " Organization": "OpenAI"
+        },
+        {
+            "Model": "o3 (high)",
+            "10 Instructions accuracy": "100.0%",
+            "50 Instructions accuracy": "99.6%",
+            "100 Instructions accuracy": "98.2%",
+            "250 Instructions accuracy": "97.8%",
+            "500 Instructions accuracy": "62.8%",
+            "10 Instructions std.dev": "0.0%",
+            "50 Instructions std.dev": "0.9%",
+            "100 Instructions std.dev": "1.5%",
+            "250 Instructions std.dev": "1.5%",
+            "500 Instructions std.dev": "10.6%",
+            " Organization": "OpenAI"
+        },
+        {
+            "Model": "o4-mini (medium)",
+            "10 Instructions accuracy": "100.0%",
+            "50 Instructions accuracy": "99.6%",
+            "100 Instructions accuracy": "97.8%",
+            "250 Instructions accuracy": "86.8%",
+            "500 Instructions accuracy": "34.4%",
+            "10 Instructions std.dev": "0.0%",
+            "50 Instructions std.dev": "0.9%",
+            "100 Instructions std.dev": "1.8%",
+            "250 Instructions std.dev": "9.7%",
+            "500 Instructions std.dev": "2.6%",
+            " Organization": "OpenAI"
+        },
+        {
+            "Model": "grok-3-beta",
+            "10 Instructions accuracy": "100.0%",
+            "50 Instructions accuracy": "100.0%",
+            "100 Instructions accuracy": "98.8%",
+            "250 Instructions accuracy": "86.2%",
+            "500 Instructions accuracy": "61.9%",
+            "10 Instructions std.dev": "0.0%",
+            "50 Instructions std.dev": "0.0%",
+            "100 Instructions std.dev": "1.1%",
+            "250 Instructions std.dev": "4.6%",
+            "500 Instructions std.dev": "2.7%",
+            " Organization": "xAI"
+        },
+        {
+            "Model": "grok-3-mini-beta",
+            "10 Instructions accuracy": "100.0%",
+            "50 Instructions accuracy": "99.2%",
+            "100 Instructions accuracy": "92.8%",
+            "250 Instructions accuracy": "56.6%",
+            "500 Instructions accuracy": "36.4%",
+            "10 Instructions std.dev": "0.0%",
+            "50 Instructions std.dev": "1.1%",
+            "100 Instructions std.dev": "3.3%",
+            "250 Instructions std.dev": "1.9%",
+            "500 Instructions std.dev": "3.0%",
+            " Organization": "xAI"
+        }
+    ],
+    "latencyRows": [
+        {
+            "model": "google/gemini-2.5-flash-preview-05-20",
+            "num_rules": "10",
+            "accuracy": "100.0",
+            "mean_latency": "6.407"
+        },
+        {
+            "model": "google/gemini-2.5-pro-preview",
+            "num_rules": "10",
+            "accuracy": "100.0",
+            "mean_latency": "21.543"
+        },
+        {
+            "model": "openai/gpt-4.1",
+            "num_rules": "10",
+            "accuracy": "98.0",
+            "mean_latency": "12.071"
+        },
+        {
+            "model": "openai/gpt-4.1-mini",
+            "num_rules": "10",
+            "accuracy": "100.0",
+            "mean_latency": "9.277"
+        },
+        {
+            "model": "openai/gpt-4.1-nano",
+            "num_rules": "10",
+            "accuracy": "94.0",
+            "mean_latency": "5.389"
+        },
+        {
+            "model": "openai/gpt-4o",
+            "num_rules": "10",
+            "accuracy": "94.0",
+            "mean_latency": "9.29"
+        },
+        {
+            "model": "openai/gpt-4o-mini",
+            "num_rules": "10",
+            "accuracy": "94.0",
+            "mean_latency": "11.075"
+        },
+        {
+            "model": "openai/gpt-4.5-preview",
+            "num_rules": "10",
+            "accuracy": "100.0",
+            "mean_latency": "17.248"
+        },
+        {
+            "model": "openai/o3",
+            "num_rules": "10",
+            "accuracy": "98.0",
+            "mean_latency": "13.858"
+        },
+        {
+            "model": "openai/o3-high-reasoning",
+            "num_rules": "10",
+            "accuracy": "100.0",
+            "mean_latency": "26.298"
+        },
+        {
+            "model": "openai/o4-mini",
+            "num_rules": "10",
+            "accuracy": "100.0",
+            "mean_latency": "12.403"
+        },
+        {
+            "model": "x-ai/grok-3-beta",
+            "num_rules": "10",
+            "accuracy": "100.0",
+            "mean_latency": "8.998"
+        },
+        {
+            "model": "x-ai/grok-3-mini-beta",
+            "num_rules": "10",
+            "accuracy": "100.0",
+            "mean_latency": "8.317"
+        },
+        {
+            "model": "google/gemini-2.5-flash-preview-05-20",
+            "num_rules": "50",
+            "accuracy": "96.0",
+            "mean_latency": "7.401"
+        },
+        {
+            "model": "google/gemini-2.5-pro-preview",
+            "num_rules": "50",
+            "accuracy": "99.6",
+            "mean_latency": "34.917"
+        },
+        {
+            "model": "openai/gpt-4.1",
+            "num_rules": "50",
+            "accuracy": "98.8",
+            "mean_latency": "21.25"
+        },
+        {
+            "model": "openai/gpt-4.1-mini",
+            "num_rules": "50",
+            "accuracy": "93.2",
+            "mean_latency": "13.675"
+        },
+        {
+            "model": "openai/gpt-4.1-nano",
+            "num_rules": "50",
+            "accuracy": "72.8",
+            "mean_latency": "6.796"
+        },
+        {
+            "model": "openai/gpt-4o",
+            "num_rules": "50",
+            "accuracy": "82.8",
+            "mean_latency": "15.445"
+        },
+        {
+            "model": "openai/gpt-4o-mini",
+            "num_rules": "50",
+            "accuracy": "65.6",
+            "mean_latency": "11.661"
+        },
+        {
+            "model": "openai/gpt-4.5-preview",
+            "num_rules": "50",
+            "accuracy": "93.6",
+            "mean_latency": "22.856"
+        },
+        {
+            "model": "openai/o3",
+            "num_rules": "50",
+            "accuracy": "99.2",
+            "mean_latency": "19.994"
+        },
+        {
+            "model": "openai/o3-high-reasoning",
+            "num_rules": "50",
+            "accuracy": "99.6",
+            "mean_latency": "68.078"
+        },
+        {
+            "model": "openai/o4-mini",
+            "num_rules": "50",
+            "accuracy": "99.6",
+            "mean_latency": "26.228"
+        },
+        {
+            "model": "x-ai/grok-3-beta",
+            "num_rules": "50",
+            "accuracy": "100.0",
+            "mean_latency": "17.566"
+        },
+        {
+            "model": "x-ai/grok-3-mini-beta",
+            "num_rules": "50",
+            "accuracy": "99.2",
+            "mean_latency": "9.924"
+        },
+        {
+            "model": "google/gemini-2.5-flash-preview-05-20",
+            "num_rules": "100",
+            "accuracy": "82.0",
+            "mean_latency": "10.677"
+        },
+        {
+            "model": "google/gemini-2.5-pro-preview",
+            "num_rules": "100",
+            "accuracy": "98.4",
+            "mean_latency": "50.764"
+        },
+        {
+            "model": "openai/gpt-4.1",
+            "num_rules": "100",
+            "accuracy": "95.4",
+            "mean_latency": "20.66"
+        },
+        {
+            "model": "openai/gpt-4.1-mini",
+            "num_rules": "100",
+            "accuracy": "80.0",
+            "mean_latency": "13.723"
+        },
+        {
+            "model": "openai/gpt-4.1-nano",
+            "num_rules": "100",
+            "accuracy": "51.6",
+            "mean_latency": "7.921"
+        },
+        {
+            "model": "openai/gpt-4o",
+            "num_rules": "100",
+            "accuracy": "49.0",
+            "mean_latency": "14.055"
+        },
+        {
+            "model": "openai/gpt-4o-mini",
+            "num_rules": "100",
+            "accuracy": "41.8",
+            "mean_latency": "12.466"
+        },
+        {
+            "model": "openai/gpt-4.5-preview",
+            "num_rules": "100",
+            "accuracy": "90.8",
+            "mean_latency": "33.228"
+        },
+        {
+            "model": "openai/o3",
+            "num_rules": "100",
+            "accuracy": "98.4",
+            "mean_latency": "30.153"
+        },
+        {
+            "model": "openai/o3-high-reasoning",
+            "num_rules": "100",
+            "accuracy": "98.2",
+            "mean_latency": "100.4"
+        },
+        {
+            "model": "openai/o4-mini",
+            "num_rules": "100",
+            "accuracy": "97.8",
+            "mean_latency": "65.049"
+        },
+        {
+            "model": "x-ai/grok-3-beta",
+            "num_rules": "100",
+            "accuracy": "98.8",
+            "mean_latency": "24.092"
+        },
+        {
+            "model": "x-ai/grok-3-mini-beta",
+            "num_rules": "100",
+            "accuracy": "92.8",
+            "mean_latency": "11.183"
+        },
+        {
+            "model": "google/gemini-2.5-flash-preview-05-20",
+            "num_rules": "250",
+            "accuracy": "50.7",
+            "mean_latency": "12.955"
+        },
+        {
+            "model": "google/gemini-2.5-pro-preview",
+            "num_rules": "250",
+            "accuracy": "84.8",
+            "mean_latency": "63.366"
+        },
+        {
+            "model": "openai/gpt-4.1",
+            "num_rules": "250",
+            "accuracy": "74.0",
+            "mean_latency": "24.788"
+        },
+        {
+            "model": "openai/gpt-4.1-mini",
+            "num_rules": "250",
+            "accuracy": "44.5",
+            "mean_latency": "15.487"
+        },
+        {
+            "model": "openai/gpt-4.1-nano",
+            "num_rules": "250",
+            "accuracy": "25.7",
+            "mean_latency": "7.172"
+        },
+        {
+            "model": "openai/gpt-4o",
+            "num_rules": "250",
+            "accuracy": "22.2",
+            "mean_latency": "12.8"
+        },
+        {
+            "model": "openai/gpt-4o-mini",
+            "num_rules": "250",
+            "accuracy": "18.3",
+            "mean_latency": "13.291"
+        },
+        {
+            "model": "openai/gpt-4.5-preview",
+            "num_rules": "250",
+            "accuracy": "65.0",
+            "mean_latency": "38.06"
+        },
+        {
+            "model": "openai/o3",
+            "num_rules": "250",
+            "accuracy": "91.8",
+            "mean_latency": "66.471"
+        },
+        {
+            "model": "openai/o3-high-reasoning",
+            "num_rules": "250",
+            "accuracy": "97.8",
+            "mean_latency": "219.578"
+        },
+        {
+            "model": "openai/o4-mini",
+            "num_rules": "250",
+            "accuracy": "86.8",
+            "mean_latency": "436.189"
+        },
+        {
+            "model": "x-ai/grok-3-beta",
+            "num_rules": "250",
+            "accuracy": "86.2",
+            "mean_latency": "33.318"
+        },
+        {
+            "model": "x-ai/grok-3-mini-beta",
+            "num_rules": "250",
+            "accuracy": "56.6",
+            "mean_latency": "11.62"
+        },
+        {
+            "model": "google/gemini-2.5-flash-preview-05-20",
+            "num_rules": "500",
+            "accuracy": "34.2",
+            "mean_latency": "13.76"
+        },
+        {
+            "model": "google/gemini-2.5-pro-preview",
+            "num_rules": "500",
+            "accuracy": "68.9",
+            "mean_latency": "69.362"
+        },
+        {
+            "model": "openai/gpt-4.1",
+            "num_rules": "500",
+            "accuracy": "48.9",
+            "mean_latency": "30.814"
+        },
+        {
+            "model": "openai/gpt-4.1-mini",
+            "num_rules": "500",
+            "accuracy": "27.2",
+            "mean_latency": "14.779"
+        },
+        {
+            "model": "openai/gpt-4.1-nano",
+            "num_rules": "500",
+            "accuracy": "16.2",
+            "mean_latency": "9.909"
+        },
+        {
+            "model": "openai/gpt-4o",
+            "num_rules": "500",
+            "accuracy": "15.4",
+            "mean_latency": "13.195"
+        },
+        {
+            "model": "openai/gpt-4o-mini",
+            "num_rules": "500",
+            "accuracy": "10.4",
+            "mean_latency": "12.6"
+        },
+        {
+            "model": "openai/gpt-4.5-preview",
+            "num_rules": "500",
+            "accuracy": "43.0",
+            "mean_latency": "44.947"
+        },
+        {
+            "model": "openai/o3",
+            "num_rules": "500",
+            "accuracy": "51.6",
+            "mean_latency": "25.794"
+        },
+        {
+            "model": "openai/o3-high-reasoning",
+            "num_rules": "500",
+            "accuracy": "62.8",
+            "mean_latency": "158.283"
+        },
+        {
+            "model": "openai/o4-mini",
+            "num_rules": "500",
+            "accuracy": "34.4",
+            "mean_latency": "28.733"
+        },
+        {
+            "model": "x-ai/grok-3-beta",
+            "num_rules": "500",
+            "accuracy": "61.9",
+            "mean_latency": "30.986"
+        },
+        {
+            "model": "x-ai/grok-3-mini-beta",
+            "num_rules": "500",
+            "accuracy": "36.4",
+            "mean_latency": "12.429"
+        }
+    ],
+    "joinStatus": "Not merged: preview labels and Google latency disagree with paper Table 1. Source records retained separately.",
+    "confidenceInterval": null,
+    "confidenceIntervalUnknownReason": "Source supplies sample standard deviations, not confidence intervals.",
+    "checkedAt": "2026-10-11T20:40:50+00:00",
+    "sourceManifest": "checked-pages.json"
+}

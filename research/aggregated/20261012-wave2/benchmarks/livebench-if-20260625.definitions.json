@@ -1,0 +1,426 @@
+{
+    "id": "livebench-if-20260625-reviewed",
+    "sourceId": "livebench-if-20260625",
+    "checkedAt": "2026-10-11T20:59:04.451474Z",
+    "parserVersion": "wave2-reviewed-observations/1",
+    "benchmarks": [
+        {
+            "id": "livebench:if-paraphrase",
+            "name": "LiveBench IF",
+            "context": "IF · Paraphrase · релиз 2026-06-25",
+            "unit": "% баллов 0–100",
+            "format": "percent",
+            "awardEligible": true,
+            "sourceUrl": "https://livebench.ai/",
+            "methodologyUrl": "https://github.com/LiveBench/LiveBench",
+            "checkedAt": "2026-10-11T20:59:04.451474Z",
+            "passport": {
+                "author": "LiveBench Team",
+                "purpose": "Ограничения в перефразировании, упрощении, генерации историй и суммаризации.",
+                "requirements": "Релиз LiveBench 2026-06-25, категория IF. Версия harness, temperature, seed и бюджеты строк не раскрыты CSV.",
+                "scoring": "Баллы подзадач на шкале 0–100, выше лучше. По 50 задач каждой IF-подзадачи.",
+                "reviews": [
+                    {
+                        "dimension": "independence",
+                        "status": "unknown",
+                        "explanation": "Авторство и спонсор указаны сайтом, происхождение отдельных замеров и связи с тестируемыми вендорами не проверены.",
+                        "sourceUrl": "https://livebench.ai/",
+                        "checkedAt": "2026-10-11T20:59:04.451474Z"
+                    },
+                    {
+                        "dimension": "contamination",
+                        "status": "unknown",
+                        "explanation": "Заявление LiveBench о снижении загрязнения не является проверкой обучения этих моделей.",
+                        "sourceUrl": "https://livebench.ai/",
+                        "checkedAt": "2026-10-11T20:59:04.451474Z"
+                    },
+                    {
+                        "dimension": "saturation",
+                        "status": "not-reviewed",
+                        "explanation": "Статистический анализ и интервалы отсутствуют в этой партии.",
+                        "sourceUrl": "https://livebench.ai/",
+                        "checkedAt": "2026-10-11T20:59:04.451474Z"
+                    },
+                    {
+                        "dimension": "reproducibility",
+                        "status": "unknown",
+                        "explanation": "Числовые файлы открыты, но привязка релиза к commit и параметрам не установлена.",
+                        "sourceUrl": "https://livebench.ai/",
+                        "checkedAt": "2026-10-11T20:59:04.451474Z"
+                    },
+                    {
+                        "dimension": "comparability",
+                        "status": "unknown",
+                        "explanation": "Категория и релиз общие, effort различается, прочие условия неизвестны.",
+                        "sourceUrl": "https://livebench.ai/",
+                        "checkedAt": "2026-10-11T20:59:04.451474Z"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "livebench:if-simplify",
+            "name": "LiveBench IF",
+            "context": "IF · Simplify · релиз 2026-06-25",
+            "unit": "% баллов 0–100",
+            "format": "percent",
+            "awardEligible": true,
+            "sourceUrl": "https://livebench.ai/",
+            "methodologyUrl": "https://github.com/LiveBench/LiveBench",
+            "checkedAt": "2026-10-11T20:59:04.451474Z",
+            "passport": {
+                "author": "LiveBench Team",
+                "purpose": "Ограничения в перефразировании, упрощении, генерации историй и суммаризации.",
+                "requirements": "Релиз LiveBench 2026-06-25, категория IF. Версия harness, temperature, seed и бюджеты строк не раскрыты CSV.",
+                "scoring": "Баллы подзадач на шкале 0–100, выше лучше. По 50 задач каждой IF-подзадачи.",
+                "reviews": [
+                    {
+                        "dimension": "independence",
+                        "status": "unknown",
+                        "explanation": "Авторство и спонсор указаны сайтом, происхождение отдельных замеров и связи с тестируемыми вендорами не проверены.",
+                        "sourceUrl": "https://livebench.ai/",
+                        "checkedAt": "2026-10-11T20:59:04.451474Z"
+                    },
+                    {
+                        "dimension": "contamination",
+                        "status": "unknown",
+                        "explanation": "Заявление LiveBench о снижении загрязнения не является проверкой обучения этих моделей.",
+                        "sourceUrl": "https://livebench.ai/",
+                        "checkedAt": "2026-10-11T20:59:04.451474Z"
+                    },
+                    {
+                        "dimension": "saturation",
+                        "status": "not-reviewed",
+                        "explanation": "Статистический анализ и интервалы отсутствуют в этой партии.",
+                        "sourceUrl": "https://livebench.ai/",
+                        "checkedAt": "2026-10-11T20:59:04.451474Z"
+                    },
+                    {
+                        "dimension": "reproducibility",
+                        "status": "unknown",
+                        "explanation": "Числовые файлы открыты, но привязка релиза к commit и параметрам не установлена.",
+                        "sourceUrl": "https://livebench.ai/",
+                        "checkedAt": "2026-10-11T20:59:04.451474Z"
+                    },
+                    {
+                        "dimension": "comparability",
+                        "status": "unknown",
+                        "explanation": "Категория и релиз общие, effort различается, прочие условия неизвестны.",
+                        "sourceUrl": "https://livebench.ai/",
+                        "checkedAt": "2026-10-11T20:59:04.451474Z"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "livebench:if-story_generation",
+            "name": "LiveBench IF",
+            "context": "IF · Story generation · релиз 2026-06-25",
+            "unit": "% баллов 0–100",
+            "format": "percent",
+            "awardEligible": true,
+            "sourceUrl": "https://livebench.ai/",
+            "methodologyUrl": "https://github.com/LiveBench/LiveBench",
+            "checkedAt": "2026-10-11T20:59:04.451474Z",
+            "passport": {
+                "author": "LiveBench Team",
+                "purpose": "Ограничения в перефразировании, упрощении, генерации историй и суммаризации.",
+                "requirements": "Релиз LiveBench 2026-06-25, категория IF. Версия harness, temperature, seed и бюджеты строк не раскрыты CSV.",
+                "scoring": "Баллы подзадач на шкале 0–100, выше лучше. По 50 задач каждой IF-подзадачи.",
+                "reviews": [
+                    {
+                        "dimension": "independence",
+                        "status": "unknown",
+                        "explanation": "Авторство и спонсор указаны сайтом, происхождение отдельных замеров и связи с тестируемыми вендорами не проверены.",
+                        "sourceUrl": "https://livebench.ai/",
+                        "checkedAt": "2026-10-11T20:59:04.451474Z"
+                    },
+                    {
+                        "dimension": "contamination",
+                        "status": "unknown",
+                        "explanation": "Заявление LiveBench о снижении загрязнения не является проверкой обучения этих моделей.",
+                        "sourceUrl": "https://livebench.ai/",
+                        "checkedAt": "2026-10-11T20:59:04.451474Z"
+                    },
+                    {
+                        "dimension": "saturation",
+                        "status": "not-reviewed",
+                        "explanation": "Статистический анализ и интервалы отсутствуют в этой партии.",
+                        "sourceUrl": "https://livebench.ai/",
+                        "checkedAt": "2026-10-11T20:59:04.451474Z"
+                    },
+                    {
+                        "dimension": "reproducibility",
+                        "status": "unknown",
+                        "explanation": "Числовые файлы открыты, но привязка релиза к commit и параметрам не установлена.",
+                        "sourceUrl": "https://livebench.ai/",
+                        "checkedAt": "2026-10-11T20:59:04.451474Z"
+                    },
+                    {
+                        "dimension": "comparability",
+                        "status": "unknown",
+                        "explanation": "Категория и релиз общие, effort различается, прочие условия неизвестны.",
+                        "sourceUrl": "https://livebench.ai/",
+                        "checkedAt": "2026-10-11T20:59:04.451474Z"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "livebench:if-summarize",
+            "name": "LiveBench IF",
+            "context": "IF · Summarize · релиз 2026-06-25",
+            "unit": "% баллов 0–100",
+            "format": "percent",
+            "awardEligible": true,
+            "sourceUrl": "https://livebench.ai/",
+            "methodologyUrl": "https://github.com/LiveBench/LiveBench",
+            "checkedAt": "2026-10-11T20:59:04.451474Z",
+            "passport": {
+                "author": "LiveBench Team",
+                "purpose": "Ограничения в перефразировании, упрощении, генерации историй и суммаризации.",
+                "requirements": "Релиз LiveBench 2026-06-25, категория IF. Версия harness, temperature, seed и бюджеты строк не раскрыты CSV.",
+                "scoring": "Баллы подзадач на шкале 0–100, выше лучше. По 50 задач каждой IF-подзадачи.",
+                "reviews": [
+                    {
+                        "dimension": "independence",
+                        "status": "unknown",
+                        "explanation": "Авторство и спонсор указаны сайтом, происхождение отдельных замеров и связи с тестируемыми вендорами не проверены.",
+                        "sourceUrl": "https://livebench.ai/",
+                        "checkedAt": "2026-10-11T20:59:04.451474Z"
+                    },
+                    {
+                        "dimension": "contamination",
+                        "status": "unknown",
+                        "explanation": "Заявление LiveBench о снижении загрязнения не является проверкой обучения этих моделей.",
+                        "sourceUrl": "https://livebench.ai/",
+                        "checkedAt": "2026-10-11T20:59:04.451474Z"
+                    },
+                    {
+                        "dimension": "saturation",
+                        "status": "not-reviewed",
+                        "explanation": "Статистический анализ и интервалы отсутствуют в этой партии.",
+                        "sourceUrl": "https://livebench.ai/",
+                        "checkedAt": "2026-10-11T20:59:04.451474Z"
+                    },
+                    {
+                        "dimension": "reproducibility",
+                        "status": "unknown",
+                        "explanation": "Числовые файлы открыты, но привязка релиза к commit и параметрам не установлена.",
+                        "sourceUrl": "https://livebench.ai/",
+                        "checkedAt": "2026-10-11T20:59:04.451474Z"
+                    },
+                    {
+                        "dimension": "comparability",
+                        "status": "unknown",
+                        "explanation": "Категория и релиз общие, effort различается, прочие условия неизвестны.",
+                        "sourceUrl": "https://livebench.ai/",
+                        "checkedAt": "2026-10-11T20:59:04.451474Z"
+                    }
+                ]
+            }
+        }
+    ],
+    "mappings": [
+        {
+            "runId": "livebench-if-reviewed-1",
+            "benchmarkId": "livebench:if-paraphrase",
+            "modelId": "minimax-m3"
+        },
+        {
+            "runId": "livebench-if-reviewed-2",
+            "benchmarkId": "livebench:if-simplify",
+            "modelId": "minimax-m3"
+        },
+        {
+            "runId": "livebench-if-reviewed-3",
+            "benchmarkId": "livebench:if-story_generation",
+            "modelId": "minimax-m3"
+        },
+        {
+            "runId": "livebench-if-reviewed-4",
+            "benchmarkId": "livebench:if-summarize",
+            "modelId": "minimax-m3"
+        },
+        {
+            "runId": "livebench-if-reviewed-5",
+            "benchmarkId": "livebench:if-paraphrase",
+            "modelId": "glm-5-3"
+        },
+        {
+            "runId": "livebench-if-reviewed-6",
+            "benchmarkId": "livebench:if-simplify",
+            "modelId": "glm-5-3"
+        },
+        {
+            "runId": "livebench-if-reviewed-7",
+            "benchmarkId": "livebench:if-story_generation",
+            "modelId": "glm-5-3"
+        },
+        {
+            "runId": "livebench-if-reviewed-8",
+            "benchmarkId": "livebench:if-summarize",
+            "modelId": "glm-5-3"
+        },
+        {
+            "runId": "livebench-if-reviewed-9",
+            "benchmarkId": "livebench:if-paraphrase",
+            "modelId": "glm-5-3-flash"
+        },
+        {
+            "runId": "livebench-if-reviewed-10",
+            "benchmarkId": "livebench:if-simplify",
+            "modelId": "glm-5-3-flash"
+        },
+        {
+            "runId": "livebench-if-reviewed-11",
+            "benchmarkId": "livebench:if-story_generation",
+            "modelId": "glm-5-3-flash"
+        },
+        {
+            "runId": "livebench-if-reviewed-12",
+            "benchmarkId": "livebench:if-summarize",
+            "modelId": "glm-5-3-flash"
+        },
+        {
+            "runId": "livebench-if-reviewed-13",
+            "benchmarkId": "livebench:if-paraphrase",
+            "modelId": "gemini-3-8-flash"
+        },
+        {
+            "runId": "livebench-if-reviewed-14",
+            "benchmarkId": "livebench:if-simplify",
+            "modelId": "gemini-3-8-flash"
+        },
+        {
+            "runId": "livebench-if-reviewed-15",
+            "benchmarkId": "livebench:if-story_generation",
+            "modelId": "gemini-3-8-flash"
+        },
+        {
+            "runId": "livebench-if-reviewed-16",
+            "benchmarkId": "livebench:if-summarize",
+            "modelId": "gemini-3-8-flash"
+        },
+        {
+            "runId": "livebench-if-reviewed-17",
+            "benchmarkId": "livebench:if-paraphrase",
+            "modelId": "muse-spark-1-3"
+        },
+        {
+            "runId": "livebench-if-reviewed-18",
+            "benchmarkId": "livebench:if-simplify",
+            "modelId": "muse-spark-1-3"
+        },
+        {
+            "runId": "livebench-if-reviewed-19",
+            "benchmarkId": "livebench:if-story_generation",
+            "modelId": "muse-spark-1-3"
+        },
+        {
+            "runId": "livebench-if-reviewed-20",
+            "benchmarkId": "livebench:if-summarize",
+            "modelId": "muse-spark-1-3"
+        },
+        {
+            "runId": "livebench-if-reviewed-21",
+            "benchmarkId": "livebench:if-paraphrase",
+            "modelId": "gpt-6-astra"
+        },
+        {
+            "runId": "livebench-if-reviewed-22",
+            "benchmarkId": "livebench:if-simplify",
+            "modelId": "gpt-6-astra"
+        },
+        {
+            "runId": "livebench-if-reviewed-23",
+            "benchmarkId": "livebench:if-story_generation",
+            "modelId": "gpt-6-astra"
+        },
+        {
+            "runId": "livebench-if-reviewed-24",
+            "benchmarkId": "livebench:if-summarize",
+            "modelId": "gpt-6-astra"
+        },
+        {
+            "runId": "livebench-if-reviewed-25",
+            "benchmarkId": "livebench:if-paraphrase",
+            "modelId": "grok-4-7"
+        },
+        {
+            "runId": "livebench-if-reviewed-26",
+            "benchmarkId": "livebench:if-simplify",
+            "modelId": "grok-4-7"
+        },
+        {
+            "runId": "livebench-if-reviewed-27",
+            "benchmarkId": "livebench:if-story_generation",
+            "modelId": "grok-4-7"
+        },
+        {
+            "runId": "livebench-if-reviewed-28",
+            "benchmarkId": "livebench:if-summarize",
+            "modelId": "grok-4-7"
+        },
+        {
+            "runId": "livebench-if-reviewed-29",
+            "benchmarkId": "livebench:if-paraphrase",
+            "modelId": "gpt-6-luna"
+        },
+        {
+            "runId": "livebench-if-reviewed-30",
+            "benchmarkId": "livebench:if-simplify",
+            "modelId": "gpt-6-luna"
+        },
+        {
+            "runId": "livebench-if-reviewed-31",
+            "benchmarkId": "livebench:if-story_generation",
+            "modelId": "gpt-6-luna"
+        },
+        {
+            "runId": "livebench-if-reviewed-32",
+            "benchmarkId": "livebench:if-summarize",
+            "modelId": "gpt-6-luna"
+        },
+        {
+            "runId": "livebench-if-reviewed-33",
+            "benchmarkId": "livebench:if-paraphrase",
+            "modelId": "gpt-6-1-sol"
+        },
+        {
+            "runId": "livebench-if-reviewed-34",
+            "benchmarkId": "livebench:if-simplify",
+            "modelId": "gpt-6-1-sol"
+        },
+        {
+            "runId": "livebench-if-reviewed-35",
+            "benchmarkId": "livebench:if-story_generation",
+            "modelId": "gpt-6-1-sol"
+        },
+        {
+            "runId": "livebench-if-reviewed-36",
+            "benchmarkId": "livebench:if-summarize",
+            "modelId": "gpt-6-1-sol"
+        },
+        {
+            "runId": "livebench-if-reviewed-37",
+            "benchmarkId": "livebench:if-paraphrase",
+            "modelId": "gpt-6-1-sol"
+        },
+        {
+            "runId": "livebench-if-reviewed-38",
+            "benchmarkId": "livebench:if-simplify",
+            "modelId": "gpt-6-1-sol"
+        },
+        {
+            "runId": "livebench-if-reviewed-39",
+            "benchmarkId": "livebench:if-story_generation",
+            "modelId": "gpt-6-1-sol"
+        },
+        {
+            "runId": "livebench-if-reviewed-40",
+            "benchmarkId": "livebench:if-summarize",
+            "modelId": "gpt-6-1-sol"
+        }
+    ]
+}

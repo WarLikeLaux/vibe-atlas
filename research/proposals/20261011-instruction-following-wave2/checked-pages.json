@@ -1,0 +1,384 @@
+{
+    "task": "20261011-instruction-following-wave2",
+    "sources": [
+        {
+            "url": "https://livebench.ai/",
+            "retrievedAt": "2026-10-11T20:36:31+00:00",
+            "checkedAt": "2026-10-11T20:36:31+00:00",
+            "status": "read",
+            "httpStatus": 200,
+            "sha256ReceivedBody": "c75c4f577485f35c0f19cbb79a7c28aa5d49c2a8624ea8bb854d734914088aa3",
+            "bodyStored": false
+        },
+        {
+            "url": "https://livebench.ai/static/js/main.f39710c8.js",
+            "retrievedAt": "2026-10-11T20:36:32+00:00",
+            "checkedAt": "2026-10-11T20:36:32+00:00",
+            "status": "read",
+            "httpStatus": 200,
+            "sha256ReceivedBody": "26e57ef0c8ddbd131add4b314d2f77ad2af7cc0e3682e35835dae2d75729d7fa",
+            "bodyStored": false
+        },
+        {
+            "url": "https://livebench.ai/table_2026_06_25.csv",
+            "retrievedAt": "2026-10-11T20:36:32+00:00",
+            "checkedAt": "2026-10-11T20:36:32+00:00",
+            "status": "read",
+            "httpStatus": 200,
+            "sha256ReceivedBody": "620e6d46b85269c7efa9b7644ff2f4e12a2305aca9d6824b937421063286fc31",
+            "bodyStored": false
+        },
+        {
+            "url": "https://livebench.ai/categories_2026_06_25.json",
+            "retrievedAt": "2026-10-11T20:36:33+00:00",
+            "checkedAt": "2026-10-11T20:36:33+00:00",
+            "status": "read",
+            "httpStatus": 200,
+            "sha256ReceivedBody": "dad300ad18655b69db720e1b88fc5a5eac06c5b2f0e52c2bf50f10ff057674f3",
+            "bodyStored": false
+        },
+        {
+            "url": "https://livebench.ai/cost_2026_06_25.csv",
+            "retrievedAt": "2026-10-11T20:36:33+00:00",
+            "checkedAt": "2026-10-11T20:36:33+00:00",
+            "status": "read",
+            "httpStatus": 200,
+            "sha256ReceivedBody": "3f86c0c386951ca1dd8d030f4f5f77515080bfc8941be5a86f7b7a731a6e01ee",
+            "bodyStored": false
+        },
+        {
+            "url": "https://agentif.github.io/",
+            "retrievedAt": "2026-10-11T20:36:33+00:00",
+            "checkedAt": "2026-10-11T20:36:33+00:00",
+            "status": "read",
+            "httpStatus": 200,
+            "sha256ReceivedBody": "3f16a77213aef00e344aacd44d8221a2a2615b91befa0a8808d6ddd7e013122a",
+            "bodyStored": false
+        },
+        {
+            "url": "https://raw.githubusercontent.com/THU-KEG/AgentIF/main/configs/glm-5.3.yaml",
+            "retrievedAt": "2026-10-11T20:36:34+00:00",
+            "checkedAt": "2026-10-11T20:36:34+00:00",
+            "status": "read",
+            "httpStatus": 200,
+            "sha256ReceivedBody": "b8be8badb3e2a19d2da6ce4971bdc5a003f6d4e240e47800ea086383a1518ff7",
+            "bodyStored": false
+        },
+        {
+            "url": "https://raw.githubusercontent.com/THU-KEG/AgentIF/main/configs/glm-5.3-flash.yaml",
+            "retrievedAt": "2026-10-11T20:36:34+00:00",
+            "checkedAt": "2026-10-11T20:36:34+00:00",
+            "status": "read",
+            "httpStatus": 200,
+            "sha256ReceivedBody": "c3fb2ec2197cf4f2b014995cea7c7266ef92dc9c91f29cb8c3141295a977ee43",
+            "bodyStored": false
+        },
+        {
+            "url": "https://raw.githubusercontent.com/THU-KEG/AgentIF/main/README.md",
+            "retrievedAt": "2026-10-11T20:36:35+00:00",
+            "checkedAt": "2026-10-11T20:36:35+00:00",
+            "status": "read",
+            "httpStatus": 200,
+            "sha256ReceivedBody": "9ba0f7da18a2e2c19541d3673db17a9fdd07d6af950d26dc9746addafbfc6cf1",
+            "bodyStored": false
+        },
+        {
+            "url": "https://www.0hye.com/posts/hanifeval/",
+            "retrievedAt": "2026-10-11T20:36:35+00:00",
+            "checkedAt": "2026-10-11T20:36:35+00:00",
+            "status": "read",
+            "httpStatus": 200,
+            "sha256ReceivedBody": "ff4692be1dafd52c3f822843aa75771237f3e631617efa0acc0f3cac3f00acf6",
+            "bodyStored": false
+        },
+        {
+            "url": "https://raw.githubusercontent.com/developer0hye/llm-evals/main/README.md",
+            "retrievedAt": "2026-10-11T20:36:37+00:00",
+            "checkedAt": "2026-10-11T20:36:37+00:00",
+            "status": "read",
+            "httpStatus": 200,
+            "sha256ReceivedBody": "3801e64058664b2fa1397da1dfc6ef753aad506ad9829fc73b32ebc37173db8d",
+            "bodyStored": false
+        },
+        {
+            "url": "https://raw.githubusercontent.com/developer0hye/llm-evals/main/common/models.py",
+            "retrievedAt": "2026-10-11T20:36:37+00:00",
+            "checkedAt": "2026-10-11T20:36:37+00:00",
+            "status": "read",
+            "httpStatus": 200,
+            "sha256ReceivedBody": "0541ca3a7a67ce0efc54f50128e765f744232db69f2542285c67a263689b1ae1",
+            "bodyStored": false
+        },
+        {
+            "url": "https://raw.githubusercontent.com/developer0hye/llm-evals/main/common/stats.py",
+            "retrievedAt": "2026-10-11T20:36:38+00:00",
+            "checkedAt": "2026-10-11T20:36:38+00:00",
+            "status": "read",
+            "httpStatus": 200,
+            "sha256ReceivedBody": "3669fdf86a6def836f34a9a24e008d0369904d9fd3f14ff53a93e18633dd7b70",
+            "bodyStored": false
+        },
+        {
+            "url": "https://raw.githubusercontent.com/developer0hye/llm-evals/main/studies/2026-10-hanifeval/README.md",
+            "retrievedAt": "2026-10-11T20:36:38+00:00",
+            "checkedAt": "2026-10-11T20:36:38+00:00",
+            "status": "read",
+            "httpStatus": 200,
+            "sha256ReceivedBody": "9a6f1f6c355cfa5233589c18f0de108f623c5461fd0787662399ebf8eba51400",
+            "bodyStored": false
+        },
+        {
+            "url": "https://raw.githubusercontent.com/developer0hye/llm-evals/main/studies/2026-10-hanifeval/eval/v1.1/SUMMARY.md",
+            "retrievedAt": "2026-10-11T20:36:38+00:00",
+            "checkedAt": "2026-10-11T20:36:38+00:00",
+            "status": "read",
+            "httpStatus": 200,
+            "sha256ReceivedBody": "709872f6a299f460af9615279b83cefe5645e515ae72f8b30ccff5cce58d2651",
+            "bodyStored": false
+        },
+        {
+            "url": "https://raw.githubusercontent.com/developer0hye/llm-evals/main/studies/2026-10-hanifeval/eval/main/gpt-6-luna.config.json",
+            "retrievedAt": "2026-10-11T20:36:39+00:00",
+            "checkedAt": "2026-10-11T20:36:39+00:00",
+            "status": "read",
+            "httpStatus": 200,
+            "sha256ReceivedBody": "4ae448e18e103e2378fff653e5d49f9f116fcf1f66c81cc95d6e68a019433a8f",
+            "bodyStored": false
+        },
+        {
+            "url": "https://raw.githubusercontent.com/developer0hye/llm-evals/main/studies/2026-10-hanifeval/eval/v1.1_regen/gpt-6-luna.config.json",
+            "retrievedAt": "2026-10-11T20:36:39+00:00",
+            "checkedAt": "2026-10-11T20:36:39+00:00",
+            "status": "read",
+            "httpStatus": 200,
+            "sha256ReceivedBody": "2be24358d113b6677a9b60227655768693f51327f9affaf7732f46b6012649c4",
+            "bodyStored": false
+        },
+        {
+            "url": "https://raw.githubusercontent.com/developer0hye/llm-evals/main/studies/2026-10-hanifeval/eval/main/glm-5.3-flash.config.json",
+            "retrievedAt": "2026-10-11T20:36:39+00:00",
+            "checkedAt": "2026-10-11T20:36:39+00:00",
+            "status": "read",
+            "httpStatus": 200,
+            "sha256ReceivedBody": "579693a07d3a00545a7ddd8cab15917ac54ee94b508b80776f9d40195714e331",
+            "bodyStored": false
+        },
+        {
+            "url": "https://raw.githubusercontent.com/developer0hye/llm-evals/main/studies/2026-10-hanifeval/eval/v1.1_regen/glm-5.3-flash.config.json",
+            "retrievedAt": "2026-10-11T20:36:40+00:00",
+            "checkedAt": "2026-10-11T20:36:40+00:00",
+            "status": "read",
+            "httpStatus": 200,
+            "sha256ReceivedBody": "04c5bd926fb4b8a7eb57d79bee92495fb046bb8105723f9817f28c429656e7a7",
+            "bodyStored": false
+        },
+        {
+            "url": "https://huggingface.co/datasets/developer0hye/HanIFEval/resolve/v1.1/README.md",
+            "retrievedAt": "2026-10-11T20:36:40+00:00",
+            "checkedAt": "2026-10-11T20:36:40+00:00",
+            "status": "read",
+            "httpStatus": 200,
+            "sha256ReceivedBody": "b68bed357664ef8b52f4eb0f29aeb3dc14e4408c528e97aa8900f6a1a6e06102",
+            "bodyStored": false
+        },
+        {
+            "url": "https://raw.githubusercontent.com/NNNtrance/GLM-5.3-Flash-NVFP4-TP3-3x-DGX-Spark/main/docs/06-benchmarks.md",
+            "retrievedAt": "2026-10-11T20:36:41+00:00",
+            "checkedAt": "2026-10-11T20:36:41+00:00",
+            "status": "read",
+            "httpStatus": 200,
+            "sha256ReceivedBody": "e60fb038ca4ab3785a68abe0cdf0906452052e091443c201f90d93ea7590a495",
+            "bodyStored": false
+        },
+        {
+            "url": "https://raw.githubusercontent.com/NNNtrance/GLM-5.3-Flash-NVFP4-TP3-3x-DGX-Spark/main/results/ifeval/ifeval-541-prompts-report.md",
+            "retrievedAt": "2026-10-11T20:36:42+00:00",
+            "checkedAt": "2026-10-11T20:36:42+00:00",
+            "status": "read",
+            "httpStatus": 200,
+            "sha256ReceivedBody": "ca85c7b4fb662de7b2740a11fb39c7d38eb4ae075d744f4991078a2f826109b0",
+            "bodyStored": false
+        },
+        {
+            "url": "https://distylai.github.io/IFScale/",
+            "retrievedAt": "2026-10-11T20:36:42+00:00",
+            "checkedAt": "2026-10-11T20:36:42+00:00",
+            "status": "read",
+            "httpStatus": 200,
+            "sha256ReceivedBody": "c37a5cd3be70ac80ec56253519f616a3ce3e8fcaf72b340bdb08549f6fe1d163",
+            "bodyStored": false
+        },
+        {
+            "url": "https://raw.githubusercontent.com/DistylAI/distylai.github.io/main/IFScale/results.csv",
+            "retrievedAt": "2026-10-11T20:36:42+00:00",
+            "checkedAt": "2026-10-11T20:36:42+00:00",
+            "status": "read",
+            "httpStatus": 200,
+            "sha256ReceivedBody": "c896d1f93e81c4e718ffccf9294fa20b0ca32811cddcbd0719e6b11b47bf4c9b",
+            "bodyStored": false
+        },
+        {
+            "url": "https://raw.githubusercontent.com/DistylAI/distylai.github.io/main/IFScale/merged_accuracy_latency_data.csv",
+            "retrievedAt": "2026-10-11T20:36:43+00:00",
+            "checkedAt": "2026-10-11T20:36:43+00:00",
+            "status": "read",
+            "httpStatus": 200,
+            "sha256ReceivedBody": "928a7586b944c120592ea1982af6be4556f76a94c892b04aaa06ff5cd51dea7d",
+            "bodyStored": false
+        },
+        {
+            "url": "https://raw.githubusercontent.com/DistylAI/distylai.github.io/main/README.md",
+            "retrievedAt": "2026-10-11T20:36:43+00:00",
+            "checkedAt": "2026-10-11T20:36:43+00:00",
+            "status": "read",
+            "httpStatus": 200,
+            "sha256ReceivedBody": "16ea63c092ff3d70e98cd409e9f2710121328990f6d97f80f90438ee24c2ecaa",
+            "bodyStored": false
+        },
+        {
+            "url": "https://raw.githubusercontent.com/DistylAI/distylai.github.io/main/src/config.json",
+            "retrievedAt": "2026-10-11T20:36:44+00:00",
+            "checkedAt": "2026-10-11T20:36:44+00:00",
+            "status": "read",
+            "httpStatus": 200,
+            "sha256ReceivedBody": "2e6a012b6b600d2cf6e10b49923745902106ddc7ac7b9f9f6c4200d309860044",
+            "bodyStored": false
+        },
+        {
+            "url": "https://arxiv.org/abs/2311.07911",
+            "retrievedAt": "2026-10-11T20:36:44+00:00",
+            "checkedAt": "2026-10-11T20:36:44+00:00",
+            "status": "read",
+            "httpStatus": 200,
+            "sha256ReceivedBody": "90c737e5844073654afca0636e5d230050a10d9188efd3877533f522744aeeaf",
+            "bodyStored": false
+        },
+        {
+            "url": "https://raw.githubusercontent.com/google-research/google-research/master/instruction_following_eval/README.md",
+            "retrievedAt": "2026-10-11T20:36:44+00:00",
+            "checkedAt": "2026-10-11T20:36:44+00:00",
+            "status": "read",
+            "httpStatus": 200,
+            "sha256ReceivedBody": "fef3c44408e4b39837af345095ccce7da798853fd60ea94a1de63afa9d3d67b3",
+            "bodyStored": false
+        },
+        {
+            "url": "https://arxiv.org/abs/2410.15553",
+            "retrievedAt": "2026-10-11T20:36:45+00:00",
+            "checkedAt": "2026-10-11T20:36:45+00:00",
+            "status": "read",
+            "httpStatus": 200,
+            "sha256ReceivedBody": "c17aa63b2143f10be7b611add06e342f7969406f3dbcbd8e83248c9fce59d02c",
+            "bodyStored": false
+        },
+        {
+            "url": "https://arxiv.org/html/2410.15553v2",
+            "retrievedAt": "2026-10-11T20:36:45+00:00",
+            "checkedAt": "2026-10-11T20:36:45+00:00",
+            "status": "read",
+            "httpStatus": 200,
+            "sha256ReceivedBody": "3c46d1ecb7272bf7a414805cf48864736449b3bedd11c76629af91ec10f31a05",
+            "bodyStored": false
+        },
+        {
+            "url": "https://raw.githubusercontent.com/facebookresearch/Multi-IF/main/README.md",
+            "retrievedAt": "2026-10-11T20:36:46+00:00",
+            "checkedAt": "2026-10-11T20:36:46+00:00",
+            "status": "read",
+            "httpStatus": 200,
+            "sha256ReceivedBody": "6e75ce9ca552b67fe2496d72bbfc5f3224cc69bb1710e60680c0822c1182af9b",
+            "bodyStored": false
+        },
+        {
+            "url": "https://arxiv.org/abs/2507.11538",
+            "retrievedAt": "2026-10-11T20:36:46+00:00",
+            "checkedAt": "2026-10-11T20:36:46+00:00",
+            "status": "read",
+            "httpStatus": 200,
+            "sha256ReceivedBody": "0497a76a949f5c5909aa0f89f40ebf88d8e07604699e32947fbdea20f0418dea",
+            "bodyStored": false
+        },
+        {
+            "url": "https://arxiv.org/html/2507.11538v1",
+            "retrievedAt": "2026-10-11T20:36:47+00:00",
+            "checkedAt": "2026-10-11T20:36:47+00:00",
+            "status": "read",
+            "httpStatus": 200,
+            "sha256ReceivedBody": "037c2cb4b2caf2fda8416a1a2e7a560adf17cd870218cf748816224e80a62273",
+            "bodyStored": false
+        },
+        {
+            "url": "https://arxiv.org/abs/2505.16944",
+            "retrievedAt": "2026-10-11T20:36:47+00:00",
+            "checkedAt": "2026-10-11T20:36:47+00:00",
+            "status": "read",
+            "httpStatus": 200,
+            "sha256ReceivedBody": "a4595ebffc5b3d9933907dad906d0a4d6681df3c2c3cb4a5049369e80ccf4183",
+            "bodyStored": false
+        },
+        {
+            "url": "https://raw.githubusercontent.com/LiveBench/LiveBench/main/README.md",
+            "retrievedAt": "2026-10-11T20:36:48+00:00",
+            "checkedAt": "2026-10-11T20:36:48+00:00",
+            "status": "read",
+            "httpStatus": 200,
+            "sha256ReceivedBody": "daedd942e98b2d4cc7f83e574368ba99823f4e9df9edf73619c3099a939e9944",
+            "bodyStored": false
+        },
+        {
+            "url": "https://raw.githubusercontent.com/LiveBench/LiveBench/main/changelog.md",
+            "retrievedAt": "2026-10-11T20:36:48+00:00",
+            "checkedAt": "2026-10-11T20:36:48+00:00",
+            "status": "read",
+            "httpStatus": 200,
+            "sha256ReceivedBody": "30ad469f14072892ff10f3683594a879e57951d10971a66e4459e66717038d2d",
+            "bodyStored": false
+        },
+        {
+            "url": "https://raw.githubusercontent.com/developer0hye/llm-evals/main/studies/2026-10-hanifeval/README.md",
+            "retrievedAt": "2026-10-11T20:40:47+00:00",
+            "checkedAt": "2026-10-11T20:40:47+00:00",
+            "status": "read",
+            "httpStatus": 200,
+            "sha256ReceivedBody": "9a6f1f6c355cfa5233589c18f0de108f623c5461fd0787662399ebf8eba51400",
+            "bodyStored": false
+        },
+        {
+            "url": "https://huggingface.co/zai-org/GLM-5.3/resolve/main/README.md",
+            "retrievedAt": "2026-10-11T20:40:48+00:00",
+            "checkedAt": "2026-10-11T20:40:48+00:00",
+            "status": "read",
+            "httpStatus": 200,
+            "sha256ReceivedBody": "ed1c0a4563c437a32f8953d637a1db9bd831de1b24bd3062a5ace9e04340b1cf",
+            "bodyStored": false
+        },
+        {
+            "url": "https://arxiv.org/abs/2407.03978",
+            "retrievedAt": "2026-10-11T20:40:49+00:00",
+            "checkedAt": "2026-10-11T20:40:49+00:00",
+            "status": "read",
+            "httpStatus": 200,
+            "sha256ReceivedBody": "d71564ec8c0877ebac06f7fa337b537fa0e5b641f04522c79af95b74fa930e84",
+            "bodyStored": false
+        },
+        {
+            "url": "https://arxiv.org/html/2407.03978v2",
+            "retrievedAt": "2026-10-11T20:40:49+00:00",
+            "checkedAt": "2026-10-11T20:40:49+00:00",
+            "status": "read",
+            "httpStatus": 200,
+            "sha256ReceivedBody": "fa5ab628ce98130785e8d948c5b1a6c4067ada23e1f58d72fa66a55515daa3bb",
+            "bodyStored": false
+        },
+        {
+            "url": "https://raw.githubusercontent.com/thu-coai/ComplexBench/main/README.md",
+            "retrievedAt": "2026-10-11T20:40:50+00:00",
+            "checkedAt": "2026-10-11T20:40:50+00:00",
+            "status": "read",
+            "httpStatus": 200,
+            "sha256ReceivedBody": "f95e917464a28a486ea7153f9ab8f632225eeb17f301a37633cace7d9210f59d",
+            "bodyStored": false
+        }
+    ],
+    "note": "SHA-256 hashes the full received response in memory. Only numerical excerpts are saved, not full source bodies. Errors from earlier navigation are listed in report.md."
+}

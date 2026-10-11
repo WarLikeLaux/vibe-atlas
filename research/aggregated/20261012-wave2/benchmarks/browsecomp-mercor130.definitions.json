@@ -1,0 +1,98 @@
+{
+    "id": "browsecomp-mercor130-reviewed",
+    "sourceId": "browsecomp-mercor130",
+    "checkedAt": "2026-10-11T20:59:04.451474Z",
+    "parserVersion": "wave2-reviewed-observations/1",
+    "benchmarks": [
+        {
+            "id": "browsecomp:mercor130-pass1",
+            "name": "BrowseComp",
+            "context": "Mercor · 130 публичных задач · Pass@1",
+            "unit": "% Pass@1",
+            "format": "percent",
+            "awardEligible": true,
+            "sourceUrl": "https://www.mercor.com/apex/oss-benchmarks/oss-browsecomp-leaderboard/",
+            "methodologyUrl": "https://openai.com/index/browsecomp/",
+            "checkedAt": "2026-10-11T20:59:04.451474Z",
+            "passport": {
+                "author": "OpenAI / замер Mercor",
+                "purpose": "Последовательный поиск трудно находимого факта в открытой сети.",
+                "requirements": "Исследовательский агент Mercor, версия неизвестна. Полный BrowseComp содержит 1 266 задач; выбраны 130, список неизвестен.",
+                "scoring": "Pass@1, %, выше лучше.",
+                "reviews": [
+                    {
+                        "dimension": "independence",
+                        "status": "supported",
+                        "explanation": "Mercor атрибутирован исполнителем по оригинальной таблице; финансирование unknown.",
+                        "sourceUrl": "https://www.mercor.com/apex/oss-benchmarks/oss-browsecomp-leaderboard/",
+                        "checkedAt": "2026-10-11T20:59:04.451474Z"
+                    },
+                    {
+                        "dimension": "contamination",
+                        "status": "unknown",
+                        "explanation": "Canary авторов не доказывает отсутствие обучения или получения эталона через сеть.",
+                        "sourceUrl": "https://www.mercor.com/apex/oss-benchmarks/oss-browsecomp-leaderboard/",
+                        "checkedAt": "2026-10-11T20:59:04.451474Z"
+                    },
+                    {
+                        "dimension": "saturation",
+                        "status": "not-reviewed",
+                        "explanation": "Высокие баллы на подвыборке не подтверждают насыщение полного BrowseComp.",
+                        "sourceUrl": "https://www.mercor.com/apex/oss-benchmarks/oss-browsecomp-leaderboard/",
+                        "checkedAt": "2026-10-11T20:59:04.451474Z"
+                    },
+                    {
+                        "dimension": "reproducibility",
+                        "status": "unknown",
+                        "explanation": "Исходный код доступен, но подвыборка, агент и judge замера Mercor не установлены.",
+                        "sourceUrl": "https://www.mercor.com/apex/oss-benchmarks/oss-browsecomp-leaderboard/",
+                        "checkedAt": "2026-10-11T20:59:04.451474Z"
+                    },
+                    {
+                        "dimension": "comparability",
+                        "status": "unknown",
+                        "explanation": "Нельзя сравнивать с полными 1 266 задачами и другими протоколами без сверки split.",
+                        "sourceUrl": "https://www.mercor.com/apex/oss-benchmarks/oss-browsecomp-leaderboard/",
+                        "checkedAt": "2026-10-11T20:59:04.451474Z"
+                    }
+                ]
+            }
+        }
+    ],
+    "mappings": [
+        {
+            "runId": "browsecomp-reviewed-1",
+            "benchmarkId": "browsecomp:mercor130-pass1",
+            "modelId": "gpt-6-1-sol"
+        },
+        {
+            "runId": "browsecomp-reviewed-2",
+            "benchmarkId": "browsecomp:mercor130-pass1",
+            "modelId": "gpt-6-astra"
+        },
+        {
+            "runId": "browsecomp-reviewed-3",
+            "benchmarkId": "browsecomp:mercor130-pass1",
+            "modelId": "gpt-6-luna"
+        },
+        {
+            "runId": "browsecomp-reviewed-4",
+            "benchmarkId": "browsecomp:mercor130-pass1",
+            "modelId": "gemini-3-8-flash"
+        },
+        {
+            "runId": "browsecomp-reviewed-5",
+            "benchmarkId": "browsecomp:mercor130-pass1",
+            "modelId": "grok-4-7"
+        },
+        {
+            "runId": "browsecomp-reviewed-6",
+            "benchmarkId": "browsecomp:mercor130-pass1",
+            "modelId": "minimax-m3"
+        },
+        {
+            "runId": "browsecomp-reviewed-7",
+            "benchmarkId": "browsecomp:mercor130-pass1"
+        }
+    ]
+}

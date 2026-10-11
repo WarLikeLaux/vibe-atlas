@@ -1,0 +1,20 @@
+model,total_score,info_recall,analysis,presentation,organization,source_type,link
+AI21-DeepResearch,64.38,60.35,71.00,92.89,AI21 Labs,Closed-source,
+Dalpha DeepResearch,61.01,58.62,61.36,93.41,Dalpha,Closed-source,https://github.com/dalphakr/Dalpha-DeepResearch
+WhaleCloud-DocChain,60.94,57.20,64.91,92.59,WhaleCloud,Closed-source,https://lab.hjcloud.com/chat-agent/deepresearch
+iFlow-Researcher,59.91,54.99,69.54,92.56,NJU&Alibaba,Closed-source,https://iflow.cn/public/iflow-researcher.html
+Xiaoyi DeepResearch 6.0,58.72,53.05,69.90,91.12,"Huawei, 2026",Closed-source,https://xiaoyi.huawei.com/chat/research
+Hermes Ultra,55.64,50.83,61.12,92.56,Nous Research,Closed-source,
+Octen Deep Research,55.58,50.14,61.39,94.42,Octen AI,Closed-source,https://octen.ai/platform/deep-research
+CMCC-DeepInsight,55.39,49.60,62.95,92.94,"China Mobile, 2026",Closed-source,
+GTHT-DeepResearch,54.72,48.48,64.47,94.77,GTHT,Closed-source,
+"nvidia-aiq (Nemotron 3, Opus 4.6)",54.50,49.23,61.55,93.15,NVIDIA,Open-source,https://github.com/NVIDIA-AI-Blueprints/aiq
+Hermes Agent,51.88,46.88,55.83,92.69,Nous Research,Open-source,
+OpenAI-GPT-o3 Deep Research,45.40,39.98,49.85,89.16,"OpenAI, 2025",Closed-source,https://openai.com/index/introducing-deep-research/
+Gemini-3-Pro Deep Research,44.60,39.09,48.94,91.85,"Google, 2025",Closed-source,
+Gemini-2.5-Pro Deep Research,41.98,34.91,51.91,90.24,"Google, 2024",Closed-source,https://gemini.google/overview/deep-research/
+Doubao Deep Research,40.99,34.83,49.43,83.51,ByteDance,Closed-source,https://www.doubao.com/chat/
+Qwen3-Max Deep Research,39.25,34.18,48.04,74.59,"Alibaba Cloud, 2025",Closed-source,
+Grok Deep Search,39.23,33.52,42.50,91.42,xAI,Closed-source,https://x.ai/grok
+Perplexity Research,38.58,33.05,44.47,79.34,"Perplexity AI, 2025",Closed-source,https://www.perplexity.ai/
+Tongyi Deep Research,29.89,22.95,35.89,86.13,"Alibaba, 2025",Open-source,

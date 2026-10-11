@@ -1,0 +1,200 @@
+{
+    "id": "drb2-mercor130-reviewed",
+    "sourceId": "drb2-mercor130",
+    "checkedAt": "2026-10-11T20:59:04.451474Z",
+    "parserVersion": "wave2-reviewed-observations/1",
+    "snapshotPath": "data/snapshots/drb2-mercor130/current.json",
+    "snapshotSha256": "71ea627df6ba18d55580e63f7ea03671417237a966c8d4e0660f3ba157c242da",
+    "benchmarks": [
+        {
+            "id": "drb2:mercor130-mean-score",
+            "name": "DeepResearch Bench II",
+            "context": "Mercor · 130 задач · Mean Score",
+            "unit": "% Mean Score",
+            "format": "percent",
+            "awardEligible": true,
+            "sourceUrl": "https://www.mercor.com/apex/oss-benchmarks/oss-deepresearch-bench-ii-leaderboard/",
+            "methodologyUrl": "https://arxiv.org/html/2601.08536v3",
+            "checkedAt": "2026-10-11T20:59:04.451474Z",
+            "passport": {
+                "author": "USTC/Metastone / замер Mercor",
+                "purpose": "Длинный исследовательский отчёт: поиск, анализ и представление по экспертным рубрикам.",
+                "requirements": "Агент Mercor, версия и judge неизвестны. Оригинал: 132 задачи и 9 430 рубрик; у Mercor 130 и 9 287.",
+                "scoring": "Активна Mean Score, %, выше лучше. Нули неактивного Pass@1 оценкой не считаются.",
+                "reviews": [
+                    {
+                        "dimension": "independence",
+                        "status": "supported",
+                        "explanation": "Авторы теста и Mercor разделены по двум оригиналам; финансирование unknown.",
+                        "sourceUrl": "https://www.mercor.com/apex/oss-benchmarks/oss-deepresearch-bench-ii-leaderboard/",
+                        "checkedAt": "2026-10-11T20:59:04.451474Z"
+                    },
+                    {
+                        "dimension": "contamination",
+                        "status": "supported",
+                        "explanation": "Статья описывает blocked list; соблюдение запрета современными моделями unknown.",
+                        "sourceUrl": "https://www.mercor.com/apex/oss-benchmarks/oss-deepresearch-bench-ii-leaderboard/",
+                        "checkedAt": "2026-10-11T20:59:04.451474Z"
+                    },
+                    {
+                        "dimension": "saturation",
+                        "status": "not-reviewed",
+                        "explanation": "Вывод статьи о моделях её периода не переносится на новые модели.",
+                        "sourceUrl": "https://www.mercor.com/apex/oss-benchmarks/oss-deepresearch-bench-ii-leaderboard/",
+                        "checkedAt": "2026-10-11T20:59:04.451474Z"
+                    },
+                    {
+                        "dimension": "reproducibility",
+                        "status": "supported",
+                        "explanation": "Официальный код и рубрики доступны; воспроизведение Mercor unknown.",
+                        "sourceUrl": "https://www.mercor.com/apex/oss-benchmarks/oss-deepresearch-bench-ii-leaderboard/",
+                        "checkedAt": "2026-10-11T20:59:04.451474Z"
+                    },
+                    {
+                        "dimension": "comparability",
+                        "status": "unknown",
+                        "explanation": "130/9 287 и авторские 132/9 430 не смешиваются; judge Mercor не установлен.",
+                        "sourceUrl": "https://www.mercor.com/apex/oss-benchmarks/oss-deepresearch-bench-ii-leaderboard/",
+                        "checkedAt": "2026-10-11T20:59:04.451474Z"
+                    }
+                ]
+            }
+        }
+    ],
+    "runs": [
+        {
+            "id": "drb2-reviewed-1",
+            "sourceModelName": "GPT-6 Astra (Mercor) xhigh",
+            "benchmarkId": "drb2:mercor130-mean-score",
+            "label": "GPT-6 Astra · Mercor · effort xhigh",
+            "score": 50.1,
+            "sourceUrl": "https://www.mercor.com/apex/oss-benchmarks/oss-deepresearch-bench-ii-leaderboard/",
+            "checkedAt": "2026-10-11T20:59:04.451474Z",
+            "notes": [
+                "Авторские Gemini-2.5 и GPT-5.5 Text-only Eval — отдельные протоколы, в пакет не входят.",
+                "Поле error сохранено без пересчёта; уровень и метод неизвестны."
+            ],
+            "telemetry": [
+                {
+                    "name": "Опубликованная погрешность",
+                    "value": 3.4,
+                    "unit": "процентных пункта; метод неизвестен"
+                },
+                {
+                    "name": "Образцы",
+                    "value": 130.0,
+                    "unit": "n_samples"
+                }
+            ],
+            "estimated": false,
+            "modelId": "gpt-6-astra"
+        },
+        {
+            "id": "drb2-reviewed-2",
+            "sourceModelName": "GPT-6 Luna (Mercor) max",
+            "benchmarkId": "drb2:mercor130-mean-score",
+            "label": "GPT-6 Luna · Mercor · effort max",
+            "score": 42.9,
+            "sourceUrl": "https://www.mercor.com/apex/oss-benchmarks/oss-deepresearch-bench-ii-leaderboard/",
+            "checkedAt": "2026-10-11T20:59:04.451474Z",
+            "notes": [
+                "Авторские Gemini-2.5 и GPT-5.5 Text-only Eval — отдельные протоколы, в пакет не входят.",
+                "Поле error сохранено без пересчёта; уровень и метод неизвестны."
+            ],
+            "telemetry": [
+                {
+                    "name": "Опубликованная погрешность",
+                    "value": 3.0,
+                    "unit": "процентных пункта; метод неизвестен"
+                },
+                {
+                    "name": "Образцы",
+                    "value": 130.0,
+                    "unit": "n_samples"
+                }
+            ],
+            "estimated": false,
+            "modelId": "gpt-6-luna"
+        },
+        {
+            "id": "drb2-reviewed-3",
+            "sourceModelName": "GLM-5.3 (Mercor) max",
+            "benchmarkId": "drb2:mercor130-mean-score",
+            "label": "GLM-5.3 · Mercor · effort max",
+            "score": 52.0,
+            "sourceUrl": "https://www.mercor.com/apex/oss-benchmarks/oss-deepresearch-bench-ii-leaderboard/",
+            "checkedAt": "2026-10-11T20:59:04.451474Z",
+            "notes": [
+                "Авторские Gemini-2.5 и GPT-5.5 Text-only Eval — отдельные протоколы, в пакет не входят.",
+                "Поле error сохранено без пересчёта; уровень и метод неизвестны."
+            ],
+            "telemetry": [
+                {
+                    "name": "Опубликованная погрешность",
+                    "value": 3.6,
+                    "unit": "процентных пункта; метод неизвестен"
+                },
+                {
+                    "name": "Образцы",
+                    "value": 128.0,
+                    "unit": "n_samples"
+                }
+            ],
+            "estimated": false,
+            "modelId": "glm-5-3"
+        },
+        {
+            "id": "drb2-reviewed-4",
+            "sourceModelName": "Grok 4.7 (Mercor) xhigh",
+            "benchmarkId": "drb2:mercor130-mean-score",
+            "label": "Grok 4.7 · Mercor · effort xhigh",
+            "score": 49.0,
+            "sourceUrl": "https://www.mercor.com/apex/oss-benchmarks/oss-deepresearch-bench-ii-leaderboard/",
+            "checkedAt": "2026-10-11T20:59:04.451474Z",
+            "notes": [
+                "Авторские Gemini-2.5 и GPT-5.5 Text-only Eval — отдельные протоколы, в пакет не входят.",
+                "Поле error сохранено без пересчёта; уровень и метод неизвестны."
+            ],
+            "telemetry": [
+                {
+                    "name": "Опубликованная погрешность",
+                    "value": 3.5,
+                    "unit": "процентных пункта; метод неизвестен"
+                },
+                {
+                    "name": "Образцы",
+                    "value": 127.0,
+                    "unit": "n_samples"
+                }
+            ],
+            "estimated": false,
+            "modelId": "grok-4-7"
+        },
+        {
+            "id": "drb2-reviewed-5",
+            "sourceModelName": "GPT-6 Sol (Mercor) max",
+            "benchmarkId": "drb2:mercor130-mean-score",
+            "label": "GPT-6 Sol · Mercor · effort max",
+            "score": 42.9,
+            "sourceUrl": "https://www.mercor.com/apex/oss-benchmarks/oss-deepresearch-bench-ii-leaderboard/",
+            "checkedAt": "2026-10-11T20:59:04.451474Z",
+            "notes": [
+                "Авторские Gemini-2.5 и GPT-5.5 Text-only Eval — отдельные протоколы, в пакет не входят.",
+                "Поле error сохранено без пересчёта; уровень и метод неизвестны."
+            ],
+            "telemetry": [
+                {
+                    "name": "Опубликованная погрешность",
+                    "value": 3.1,
+                    "unit": "процентных пункта; метод неизвестен"
+                },
+                {
+                    "name": "Образцы",
+                    "value": 130.0,
+                    "unit": "n_samples"
+                }
+            ],
+            "estimated": false
+        }
+    ]
+}

@@ -1,0 +1,330 @@
+{
+    "id": "hanifeval-v11-reviewed",
+    "sourceId": "hanifeval-v11",
+    "checkedAt": "2026-10-11T20:59:04.451474Z",
+    "parserVersion": "wave2-reviewed-observations/1",
+    "benchmarks": [
+        {
+            "id": "hanifeval:prompt-strict",
+            "name": "HanIFEval v1.1",
+            "context": "Корейские ограничения · Prompt strict",
+            "unit": "% accuracy",
+            "format": "percent",
+            "awardEligible": true,
+            "sourceUrl": "https://www.0hye.com/posts/hanifeval/",
+            "methodologyUrl": "https://github.com/developer0hye/llm-evals/blob/main/studies/2026-10-hanifeval/README.md",
+            "checkedAt": "2026-10-11T20:59:04.451474Z",
+            "passport": {
+                "author": "developer0hye / 0hye",
+                "purpose": "Перевод ограничений IFEval на корейский вместе с аргументами checker.",
+                "requirements": "Авторский runner, reasoning включён, temperature 0, max_tokens=64000, один провайдер без fallback. Версия сервиса не опубликована.",
+                "scoring": "Prompt/instruction strict/loose, проценты, выше лучше. Основной срез 429 prompt, QC-срез 421.",
+                "reviews": [
+                    {
+                        "dimension": "independence",
+                        "status": "unknown",
+                        "explanation": "Коммерческие связи не выяснены. Модели GPT-6 участвовали в ревью набора.",
+                        "sourceUrl": "https://www.0hye.com/posts/hanifeval/",
+                        "checkedAt": "2026-10-11T20:59:04.451474Z"
+                    },
+                    {
+                        "dimension": "contamination",
+                        "status": "unknown",
+                        "explanation": "Новый перевод основан на публичном IFEval; canary не доказывает отсутствие обучения.",
+                        "sourceUrl": "https://www.0hye.com/posts/hanifeval/",
+                        "checkedAt": "2026-10-11T20:59:04.451474Z"
+                    },
+                    {
+                        "dimension": "saturation",
+                        "status": "supported",
+                        "explanation": "Автор сообщает о близости к потолку именно выборки пяти моделей.",
+                        "sourceUrl": "https://www.0hye.com/posts/hanifeval/",
+                        "checkedAt": "2026-10-11T20:59:04.451474Z"
+                    },
+                    {
+                        "dimension": "reproducibility",
+                        "status": "supported",
+                        "explanation": "Доступны версии, configs и per-item responses; независимый повтор unknown.",
+                        "sourceUrl": "https://www.0hye.com/posts/hanifeval/",
+                        "checkedAt": "2026-10-11T20:59:04.451474Z"
+                    },
+                    {
+                        "dimension": "comparability",
+                        "status": "supported",
+                        "explanation": "Разделены v1/v1.1 и срезы 429/421; их нельзя смешивать.",
+                        "sourceUrl": "https://www.0hye.com/posts/hanifeval/",
+                        "checkedAt": "2026-10-11T20:59:04.451474Z"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "hanifeval:prompt-loose",
+            "name": "HanIFEval v1.1",
+            "context": "Корейские ограничения · Prompt loose",
+            "unit": "% accuracy",
+            "format": "percent",
+            "awardEligible": true,
+            "sourceUrl": "https://www.0hye.com/posts/hanifeval/",
+            "methodologyUrl": "https://github.com/developer0hye/llm-evals/blob/main/studies/2026-10-hanifeval/README.md",
+            "checkedAt": "2026-10-11T20:59:04.451474Z",
+            "passport": {
+                "author": "developer0hye / 0hye",
+                "purpose": "Перевод ограничений IFEval на корейский вместе с аргументами checker.",
+                "requirements": "Авторский runner, reasoning включён, temperature 0, max_tokens=64000, один провайдер без fallback. Версия сервиса не опубликована.",
+                "scoring": "Prompt/instruction strict/loose, проценты, выше лучше. Основной срез 429 prompt, QC-срез 421.",
+                "reviews": [
+                    {
+                        "dimension": "independence",
+                        "status": "unknown",
+                        "explanation": "Коммерческие связи не выяснены. Модели GPT-6 участвовали в ревью набора.",
+                        "sourceUrl": "https://www.0hye.com/posts/hanifeval/",
+                        "checkedAt": "2026-10-11T20:59:04.451474Z"
+                    },
+                    {
+                        "dimension": "contamination",
+                        "status": "unknown",
+                        "explanation": "Новый перевод основан на публичном IFEval; canary не доказывает отсутствие обучения.",
+                        "sourceUrl": "https://www.0hye.com/posts/hanifeval/",
+                        "checkedAt": "2026-10-11T20:59:04.451474Z"
+                    },
+                    {
+                        "dimension": "saturation",
+                        "status": "supported",
+                        "explanation": "Автор сообщает о близости к потолку именно выборки пяти моделей.",
+                        "sourceUrl": "https://www.0hye.com/posts/hanifeval/",
+                        "checkedAt": "2026-10-11T20:59:04.451474Z"
+                    },
+                    {
+                        "dimension": "reproducibility",
+                        "status": "supported",
+                        "explanation": "Доступны версии, configs и per-item responses; независимый повтор unknown.",
+                        "sourceUrl": "https://www.0hye.com/posts/hanifeval/",
+                        "checkedAt": "2026-10-11T20:59:04.451474Z"
+                    },
+                    {
+                        "dimension": "comparability",
+                        "status": "supported",
+                        "explanation": "Разделены v1/v1.1 и срезы 429/421; их нельзя смешивать.",
+                        "sourceUrl": "https://www.0hye.com/posts/hanifeval/",
+                        "checkedAt": "2026-10-11T20:59:04.451474Z"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "hanifeval:instruction-strict",
+            "name": "HanIFEval v1.1",
+            "context": "Корейские ограничения · Instruction strict",
+            "unit": "% accuracy",
+            "format": "percent",
+            "awardEligible": true,
+            "sourceUrl": "https://www.0hye.com/posts/hanifeval/",
+            "methodologyUrl": "https://github.com/developer0hye/llm-evals/blob/main/studies/2026-10-hanifeval/README.md",
+            "checkedAt": "2026-10-11T20:59:04.451474Z",
+            "passport": {
+                "author": "developer0hye / 0hye",
+                "purpose": "Перевод ограничений IFEval на корейский вместе с аргументами checker.",
+                "requirements": "Авторский runner, reasoning включён, temperature 0, max_tokens=64000, один провайдер без fallback. Версия сервиса не опубликована.",
+                "scoring": "Prompt/instruction strict/loose, проценты, выше лучше. Основной срез 429 prompt, QC-срез 421.",
+                "reviews": [
+                    {
+                        "dimension": "independence",
+                        "status": "unknown",
+                        "explanation": "Коммерческие связи не выяснены. Модели GPT-6 участвовали в ревью набора.",
+                        "sourceUrl": "https://www.0hye.com/posts/hanifeval/",
+                        "checkedAt": "2026-10-11T20:59:04.451474Z"
+                    },
+                    {
+                        "dimension": "contamination",
+                        "status": "unknown",
+                        "explanation": "Новый перевод основан на публичном IFEval; canary не доказывает отсутствие обучения.",
+                        "sourceUrl": "https://www.0hye.com/posts/hanifeval/",
+                        "checkedAt": "2026-10-11T20:59:04.451474Z"
+                    },
+                    {
+                        "dimension": "saturation",
+                        "status": "supported",
+                        "explanation": "Автор сообщает о близости к потолку именно выборки пяти моделей.",
+                        "sourceUrl": "https://www.0hye.com/posts/hanifeval/",
+                        "checkedAt": "2026-10-11T20:59:04.451474Z"
+                    },
+                    {
+                        "dimension": "reproducibility",
+                        "status": "supported",
+                        "explanation": "Доступны версии, configs и per-item responses; независимый повтор unknown.",
+                        "sourceUrl": "https://www.0hye.com/posts/hanifeval/",
+                        "checkedAt": "2026-10-11T20:59:04.451474Z"
+                    },
+                    {
+                        "dimension": "comparability",
+                        "status": "supported",
+                        "explanation": "Разделены v1/v1.1 и срезы 429/421; их нельзя смешивать.",
+                        "sourceUrl": "https://www.0hye.com/posts/hanifeval/",
+                        "checkedAt": "2026-10-11T20:59:04.451474Z"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "hanifeval:instruction-loose",
+            "name": "HanIFEval v1.1",
+            "context": "Корейские ограничения · Instruction loose",
+            "unit": "% accuracy",
+            "format": "percent",
+            "awardEligible": true,
+            "sourceUrl": "https://www.0hye.com/posts/hanifeval/",
+            "methodologyUrl": "https://github.com/developer0hye/llm-evals/blob/main/studies/2026-10-hanifeval/README.md",
+            "checkedAt": "2026-10-11T20:59:04.451474Z",
+            "passport": {
+                "author": "developer0hye / 0hye",
+                "purpose": "Перевод ограничений IFEval на корейский вместе с аргументами checker.",
+                "requirements": "Авторский runner, reasoning включён, temperature 0, max_tokens=64000, один провайдер без fallback. Версия сервиса не опубликована.",
+                "scoring": "Prompt/instruction strict/loose, проценты, выше лучше. Основной срез 429 prompt, QC-срез 421.",
+                "reviews": [
+                    {
+                        "dimension": "independence",
+                        "status": "unknown",
+                        "explanation": "Коммерческие связи не выяснены. Модели GPT-6 участвовали в ревью набора.",
+                        "sourceUrl": "https://www.0hye.com/posts/hanifeval/",
+                        "checkedAt": "2026-10-11T20:59:04.451474Z"
+                    },
+                    {
+                        "dimension": "contamination",
+                        "status": "unknown",
+                        "explanation": "Новый перевод основан на публичном IFEval; canary не доказывает отсутствие обучения.",
+                        "sourceUrl": "https://www.0hye.com/posts/hanifeval/",
+                        "checkedAt": "2026-10-11T20:59:04.451474Z"
+                    },
+                    {
+                        "dimension": "saturation",
+                        "status": "supported",
+                        "explanation": "Автор сообщает о близости к потолку именно выборки пяти моделей.",
+                        "sourceUrl": "https://www.0hye.com/posts/hanifeval/",
+                        "checkedAt": "2026-10-11T20:59:04.451474Z"
+                    },
+                    {
+                        "dimension": "reproducibility",
+                        "status": "supported",
+                        "explanation": "Доступны версии, configs и per-item responses; независимый повтор unknown.",
+                        "sourceUrl": "https://www.0hye.com/posts/hanifeval/",
+                        "checkedAt": "2026-10-11T20:59:04.451474Z"
+                    },
+                    {
+                        "dimension": "comparability",
+                        "status": "supported",
+                        "explanation": "Разделены v1/v1.1 и срезы 429/421; их нельзя смешивать.",
+                        "sourceUrl": "https://www.0hye.com/posts/hanifeval/",
+                        "checkedAt": "2026-10-11T20:59:04.451474Z"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "hanifeval:prompt-strict-qc421",
+            "name": "HanIFEval v1.1",
+            "context": "Корейские ограничения · Prompt strict · quality-controlled n=421",
+            "unit": "% accuracy",
+            "format": "percent",
+            "awardEligible": true,
+            "sourceUrl": "https://www.0hye.com/posts/hanifeval/",
+            "methodologyUrl": "https://github.com/developer0hye/llm-evals/blob/main/studies/2026-10-hanifeval/README.md",
+            "checkedAt": "2026-10-11T20:59:04.451474Z",
+            "passport": {
+                "author": "developer0hye / 0hye",
+                "purpose": "Перевод ограничений IFEval на корейский вместе с аргументами checker.",
+                "requirements": "Авторский runner, reasoning включён, temperature 0, max_tokens=64000, один провайдер без fallback. Версия сервиса не опубликована.",
+                "scoring": "Prompt/instruction strict/loose, проценты, выше лучше. Основной срез 429 prompt, QC-срез 421.",
+                "reviews": [
+                    {
+                        "dimension": "independence",
+                        "status": "unknown",
+                        "explanation": "Коммерческие связи не выяснены. Модели GPT-6 участвовали в ревью набора.",
+                        "sourceUrl": "https://www.0hye.com/posts/hanifeval/",
+                        "checkedAt": "2026-10-11T20:59:04.451474Z"
+                    },
+                    {
+                        "dimension": "contamination",
+                        "status": "unknown",
+                        "explanation": "Новый перевод основан на публичном IFEval; canary не доказывает отсутствие обучения.",
+                        "sourceUrl": "https://www.0hye.com/posts/hanifeval/",
+                        "checkedAt": "2026-10-11T20:59:04.451474Z"
+                    },
+                    {
+                        "dimension": "saturation",
+                        "status": "supported",
+                        "explanation": "Автор сообщает о близости к потолку именно выборки пяти моделей.",
+                        "sourceUrl": "https://www.0hye.com/posts/hanifeval/",
+                        "checkedAt": "2026-10-11T20:59:04.451474Z"
+                    },
+                    {
+                        "dimension": "reproducibility",
+                        "status": "supported",
+                        "explanation": "Доступны версии, configs и per-item responses; независимый повтор unknown.",
+                        "sourceUrl": "https://www.0hye.com/posts/hanifeval/",
+                        "checkedAt": "2026-10-11T20:59:04.451474Z"
+                    },
+                    {
+                        "dimension": "comparability",
+                        "status": "supported",
+                        "explanation": "Разделены v1/v1.1 и срезы 429/421; их нельзя смешивать.",
+                        "sourceUrl": "https://www.0hye.com/posts/hanifeval/",
+                        "checkedAt": "2026-10-11T20:59:04.451474Z"
+                    }
+                ]
+            }
+        }
+    ],
+    "mappings": [
+        {
+            "runId": "hanifeval-reviewed-1",
+            "benchmarkId": "hanifeval:prompt-strict",
+            "modelId": "gpt-6-luna"
+        },
+        {
+            "runId": "hanifeval-reviewed-2",
+            "benchmarkId": "hanifeval:prompt-loose",
+            "modelId": "gpt-6-luna"
+        },
+        {
+            "runId": "hanifeval-reviewed-3",
+            "benchmarkId": "hanifeval:instruction-strict",
+            "modelId": "gpt-6-luna"
+        },
+        {
+            "runId": "hanifeval-reviewed-4",
+            "benchmarkId": "hanifeval:instruction-loose",
+            "modelId": "gpt-6-luna"
+        },
+        {
+            "runId": "hanifeval-reviewed-5",
+            "benchmarkId": "hanifeval:prompt-strict-qc421",
+            "modelId": "gpt-6-luna"
+        },
+        {
+            "runId": "hanifeval-reviewed-6",
+            "benchmarkId": "hanifeval:prompt-strict",
+            "modelId": "glm-5-3-flash"
+        },
+        {
+            "runId": "hanifeval-reviewed-7",
+            "benchmarkId": "hanifeval:prompt-loose",
+            "modelId": "glm-5-3-flash"
+        },
+        {
+            "runId": "hanifeval-reviewed-8",
+            "benchmarkId": "hanifeval:instruction-strict",
+            "modelId": "glm-5-3-flash"
+        },
+        {
+            "runId": "hanifeval-reviewed-9",
+            "benchmarkId": "hanifeval:instruction-loose",
+            "modelId": "glm-5-3-flash"
+        },
+        {
+            "runId": "hanifeval-reviewed-10",
+            "benchmarkId": "hanifeval:prompt-strict-qc421",
+            "modelId": "glm-5-3-flash"
+        }
+    ]
+}

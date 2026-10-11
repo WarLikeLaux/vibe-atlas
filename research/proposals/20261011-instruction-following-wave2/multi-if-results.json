@@ -1,0 +1,88 @@
+{
+    "source": "https://arxiv.org/html/2410.15553v2",
+    "locator": "Table 1, Appendix A Table 3",
+    "dataset": "multiIF_20241018.csv",
+    "paperVersion": "arXiv 2410.15553v2",
+    "metric": "Mean of four accuracies: instruction-strict, conversation-strict, instruction-loose, conversation-loose.",
+    "unit": "fraction 0–1, kept as table prints it",
+    "selection": "Historical protocol examples only. No current target result found in checked originals.",
+    "records": [
+        {
+            "modelAsPublished": "GPT-4o",
+            "versionAsPublishedInAppendixA": "gpt-4o-2024-08-06",
+            "mapping": "Historical model, no mapping to current target. Gemini section 4.2 uses preview ID; Appendix A omits preview. Alias conflict remains open.",
+            "temperature": "0.6",
+            "top_p": "0.9",
+            "maxNewTokens": 1024,
+            "scores": [
+                {
+                    "turn": 1,
+                    "allLanguageAverage": "0.843",
+                    "russian": "0.789"
+                },
+                {
+                    "turn": 2,
+                    "allLanguageAverage": "0.724",
+                    "russian": "0.601"
+                },
+                {
+                    "turn": 3,
+                    "allLanguageAverage": "0.631",
+                    "russian": "0.501"
+                }
+            ]
+        },
+        {
+            "modelAsPublished": "Gemini-1.5 flash",
+            "versionAsPublishedInAppendixA": "gemini-1.5-flash-0514",
+            "mapping": "Historical model, no mapping to current target. Gemini section 4.2 uses preview ID; Appendix A omits preview. Alias conflict remains open.",
+            "temperature": "0.6",
+            "top_p": "0.9",
+            "maxNewTokens": 1024,
+            "scores": [
+                {
+                    "turn": 1,
+                    "allLanguageAverage": "0.725",
+                    "russian": "0.686"
+                },
+                {
+                    "turn": 2,
+                    "allLanguageAverage": "0.570",
+                    "russian": "0.420"
+                },
+                {
+                    "turn": 3,
+                    "allLanguageAverage": "0.496",
+                    "russian": "0.346"
+                }
+            ]
+        },
+        {
+            "modelAsPublished": "Gemini-1.5 pro",
+            "versionAsPublishedInAppendixA": "gemini-1.5-pro-0514",
+            "mapping": "Historical model, no mapping to current target. Gemini section 4.2 uses preview ID; Appendix A omits preview. Alias conflict remains open.",
+            "temperature": "0.6",
+            "top_p": "0.9",
+            "maxNewTokens": 1024,
+            "scores": [
+                {
+                    "turn": 1,
+                    "allLanguageAverage": "0.758",
+                    "russian": "0.743"
+                },
+                {
+                    "turn": 2,
+                    "allLanguageAverage": "0.624",
+                    "russian": "0.565"
+                },
+                {
+                    "turn": 3,
+                    "allLanguageAverage": "0.540",
+                    "russian": "0.467"
+                }
+            ]
+        }
+    ],
+    "checkedAt": "2026-10-11T20:40:50+00:00",
+    "sourceManifest": "checked-pages.json"
+}

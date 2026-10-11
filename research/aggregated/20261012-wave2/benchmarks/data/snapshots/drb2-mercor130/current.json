@@ -1,0 +1,49 @@
+{
+    "sourceUrl": "https://www.mercor.com/apex/oss-benchmarks/oss-deepresearch-bench-ii-leaderboard/",
+    "methodologyUrl": "https://arxiv.org/html/2601.08536v3",
+    "checkedAt": "2026-10-11T20:59:04.451474Z",
+    "kind": "reviewed-observations",
+    "protocol": "oss-deepresearch-bench-ii, 130 tasks",
+    "observations": [
+        {
+            "sourceModelName": "GPT-6 Astra (Mercor) xhigh",
+            "effort": "xhigh",
+            "sampleSize": 130,
+            "score": 50.1,
+            "error": 3.4,
+            "nSamples": 130
+        },
+        {
+            "sourceModelName": "GPT-6 Luna (Mercor) max",
+            "effort": "max",
+            "sampleSize": 130,
+            "score": 42.9,
+            "error": 3.0,
+            "nSamples": 130
+        },
+        {
+            "sourceModelName": "GLM-5.3 (Mercor) max",
+            "effort": "max",
+            "sampleSize": 130,
+            "score": 52.0,
+            "error": 3.6,
+            "nSamples": 128
+        },
+        {
+            "sourceModelName": "Grok 4.7 (Mercor) xhigh",
+            "effort": "xhigh",
+            "sampleSize": 130,
+            "score": 49.0,
+            "error": 3.5,
+            "nSamples": 127
+        },
+        {
+            "sourceModelName": "GPT-6 Sol (Mercor) max",
+            "effort": "max",
+            "sampleSize": 130,
+            "score": 42.9,
+            "error": 3.1,
+            "nSamples": 130
+        }
+    ]
+}

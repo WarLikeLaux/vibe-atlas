@@ -62,6 +62,48 @@ const snapshotWriters = new Map([
             await writeFile('data/snapshots/slopcode/current.json', text)
         },
     ],
+    [
+        'data/snapshots/livebench-if-20260625/current.json',
+        async (text: string) => {
+            await mkdir('data/snapshots/livebench-if-20260625', { recursive: true })
+            await writeFile('data/snapshots/livebench-if-20260625/current.json', text)
+        },
+    ],
+    [
+        'data/snapshots/hanifeval-v11/current.json',
+        async (text: string) => {
+            await mkdir('data/snapshots/hanifeval-v11', { recursive: true })
+            await writeFile('data/snapshots/hanifeval-v11/current.json', text)
+        },
+    ],
+    [
+        'data/snapshots/agentif-202610/current.json',
+        async (text: string) => {
+            await mkdir('data/snapshots/agentif-202610', { recursive: true })
+            await writeFile('data/snapshots/agentif-202610/current.json', text)
+        },
+    ],
+    [
+        'data/snapshots/browsecomp-mercor130/current.json',
+        async (text: string) => {
+            await mkdir('data/snapshots/browsecomp-mercor130', { recursive: true })
+            await writeFile('data/snapshots/browsecomp-mercor130/current.json', text)
+        },
+    ],
+    [
+        'data/snapshots/deepsearchqa-parallel100/current.json',
+        async (text: string) => {
+            await mkdir('data/snapshots/deepsearchqa-parallel100', { recursive: true })
+            await writeFile('data/snapshots/deepsearchqa-parallel100/current.json', text)
+        },
+    ],
+    [
+        'data/snapshots/drb2-mercor130/current.json',
+        async (text: string) => {
+            await mkdir('data/snapshots/drb2-mercor130', { recursive: true })
+            await writeFile('data/snapshots/drb2-mercor130/current.json', text)
+        },
+    ],
 ])
 for (const candidate of candidates) {
     const writer = snapshotWriters.get(candidate.pack.snapshotPath)

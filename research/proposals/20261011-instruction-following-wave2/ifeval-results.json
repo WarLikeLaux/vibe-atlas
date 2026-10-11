@@ -1,0 +1,203 @@
+{
+    "source": "https://raw.githubusercontent.com/NNNtrance/GLM-5.3-Flash-NVFP4-TP3-3x-DGX-Spark/main/results/ifeval/ifeval-541-prompts-report.md",
+    "runId": "2026-09-03T12-52-19.520030Z_0691a0ff",
+    "measuredAt": "2026-09-03T12:52:19.520075+00:00",
+    "modelLabelAsPublished": "glm-5.3-flash",
+    "checkpoint": "local-inference-lab/GLM-5.3-Flash-NVFP4",
+    "modelMapping": "quantized variant of zai-org/GLM-5.3-Flash, not the unquantized/API result",
+    "metrics": [
+        {
+            "nameAsPublished": "Prompt-level Accuracy",
+            "variant": "strict according to benchmark write-up",
+            "valueAsPublished": "78.9%",
+            "passed": 427,
+            "total": 541
+        },
+        {
+            "nameAsPublished": "Instruction-level Accuracy",
+            "variant": null,
+            "variantUnknownReason": "Report does not explicitly label strict/loose for this metric.",
+            "valueAsPublished": "85.1%",
+            "passed": 710,
+            "total": 834
+        }
+    ],
+    "durationSecondsAsPublished": "7828.5",
+    "durationRoundedAsPublished": "2 h 10 min",
+    "tokensAsPublished": 252781,
+    "tokensCategoryUnknownReason": "Report publishes one total without billed category breakdown.",
+    "failedPrompts": 114,
+    "completionAsPublished": "100.0%",
+    "constraintRows": [
+        {
+            "constraint": "`length_constraints:number_paragraphs`",
+            "passed": "3",
+            "total": "27",
+            "accuracy": "11.1%"
+        },
+        {
+            "constraint": "`length_constraints:number_sentences`",
+            "passed": "35",
+            "total": "52",
+            "accuracy": "67.3%"
+        },
+        {
+            "constraint": "`keywords:letter_frequency`",
+            "passed": "24",
+            "total": "33",
+            "accuracy": "72.7%"
+        },
+        {
+            "constraint": "`length_constraints:nth_paragraph_first_word`",
+            "passed": "9",
+            "total": "12",
+            "accuracy": "75.0%"
+        },
+        {
+            "constraint": "`change_case:capital_word_frequency`",
+            "passed": "19",
+            "total": "25",
+            "accuracy": "76.0%"
+        },
+        {
+            "constraint": "`keywords:forbidden_words`",
+            "passed": "38",
+            "total": "49",
+            "accuracy": "77.6%"
+        },
+        {
+            "constraint": "`detectable_format:title`",
+            "passed": "29",
+            "total": "37",
+            "accuracy": "78.4%"
+        },
+        {
+            "constraint": "`detectable_content:postscript`",
+            "passed": "21",
+            "total": "26",
+            "accuracy": "80.8%"
+        },
+        {
+            "constraint": "`punctuation:no_comma`",
+            "passed": "55",
+            "total": "66",
+            "accuracy": "83.3%"
+        },
+        {
+            "constraint": "`change_case:english_lowercase`",
+            "passed": "34",
+            "total": "39",
+            "accuracy": "87.2%"
+        },
+        {
+            "constraint": "`change_case:english_capital`",
+            "passed": "22",
+            "total": "25",
+            "accuracy": "88.0%"
+        },
+        {
+            "constraint": "`detectable_format:json_format`",
+            "passed": "15",
+            "total": "17",
+            "accuracy": "88.2%"
+        },
+        {
+            "constraint": "`detectable_format:number_bullet_lists`",
+            "passed": "28",
+            "total": "31",
+            "accuracy": "90.3%"
+        },
+        {
+            "constraint": "`length_constraints:number_words`",
+            "passed": "47",
+            "total": "52",
+            "accuracy": "90.4%"
+        },
+        {
+            "constraint": "`startend:end_checker`",
+            "passed": "24",
+            "total": "26",
+            "accuracy": "92.3%"
+        },
+        {
+            "constraint": "`detectable_content:number_placeholders`",
+            "passed": "25",
+            "total": "27",
+            "accuracy": "92.6%"
+        },
+        {
+            "constraint": "`keywords:frequency`",
+            "passed": "39",
+            "total": "42",
+            "accuracy": "92.9%"
+        },
+        {
+            "constraint": "`language:response_language`",
+            "passed": "30",
+            "total": "31",
+            "accuracy": "96.8%"
+        },
+        {
+            "constraint": "`keywords:existence`",
+            "passed": "38",
+            "total": "39",
+            "accuracy": "97.4%"
+        },
+        {
+            "constraint": "`combination:repeat_prompt`",
+            "passed": "40",
+            "total": "41",
+            "accuracy": "97.6%"
+        },
+        {
+            "constraint": "`startend:quotation`",
+            "passed": "40",
+            "total": "41",
+            "accuracy": "97.6%"
+        },
+        {
+            "constraint": "`detectable_format:number_highlighted_sections`",
+            "passed": "47",
+            "total": "48",
+            "accuracy": "97.9%"
+        },
+        {
+            "constraint": "`combination:two_responses`",
+            "passed": "24",
+            "total": "24",
+            "accuracy": "100.0%"
+        },
+        {
+            "constraint": "`detectable_format:constrained_response`",
+            "passed": "10",
+            "total": "10",
+            "accuracy": "100.0%"
+        },
+        {
+            "constraint": "`detectable_format:multiple_sections`",
+            "passed": "14",
+            "total": "14",
+            "accuracy": "100.0%"
+        }
+    ],
+    "settings": {
+        "temperature": 0,
+        "reasoning_effort": "low",
+        "thinking": true,
+        "max_tokens": 4096,
+        "harnessConcurrency": 1,
+        "engineVersion": "vLLM 0.1.dev0+lil.jovian.9c4dd0548",
+        "engineImage": "harem/glm53-lil:t10",
+        "quantization": "NVFP4",
+        "tensorParallelism": 3,
+        "expertParallelism": true,
+        "kvCacheDtype": "fp8",
+        "max_model_len": 1000000,
+        "hardware": "3 × DGX Spark GB10",
+        "speculativeDraft": "DFlash2",
+        "draft_k": 7
+    },
+    "limitation": "Authors report suspected checker error for title constraint, official scorer cross-check not done. Preserve published score without correction.",
+    "checkedAt": "2026-10-11T20:40:50+00:00",
+    "sourceManifest": "checked-pages.json"
+}
