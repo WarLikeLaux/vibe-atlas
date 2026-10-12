@@ -171,7 +171,6 @@ function modelPage(standing: ComparisonStanding, standings: ComparisonStanding[]
             ),
         )
         .join('')
-    const medals = standing.medals.gold + standing.medals.silver + standing.medals.bronze
     const identityBlocks = identities
         .map((identity) => {
             const apiIds = identity.identifiers
@@ -192,9 +191,9 @@ function modelPage(standing: ComparisonStanding, standings: ComparisonStanding[]
     const adviceBlocks = advice
         .map(
             (recommendation) =>
-                '<article class="vendor-advice"><h2>Что советует вендор</h2><p>«' +
+                '<article class="vendor-advice"><h2>Что советует вендор</h2><blockquote>«' +
                 escape(recommendation.quote) +
-                '»</p><p>Задачи: ' +
+                '»</blockquote><p>Задачи: ' +
                 escape(recommendation.tasks) +
                 '</p><p><a href="' +
                 escape(recommendation.sourceUrl) +
@@ -228,17 +227,21 @@ function modelPage(standing: ComparisonStanding, standings: ComparisonStanding[]
         escape(definition?.note ?? '') +
         '</p>'
     const counts =
-        '<p class="result-count" role="status">Измерена в ' +
+        '<dl class="model-summary"><div><dt>Измерена</dt><dd>в ' +
         measured.length.toString() +
         ' из ' +
         comparisonBenchmarks.length.toString() +
-        ' тестов и протоколов · 95% от топ‑1: ' +
+        ' тестов и протоколов</dd></div><div><dt>Медали</dt><dd>золото ' +
+        standing.medals.gold.toString() +
+        ' · серебро ' +
+        standing.medals.silver.toString() +
+        ' · бронза ' +
+        standing.medals.bronze.toString() +
+        '</dd></div><div><dt>Близость к топ‑1</dt><dd>95%+: ' +
         standing.close95.toString() +
         ' · 80–95%: ' +
         standing.close80.toString() +
-        ' · медалей: ' +
-        medals.toString() +
-        '</p>'
+        '</dd></div></dl>'
     const tail =
         '<details class="model-missing"><summary>Нет данных: ' +
         missing.length.toString() +

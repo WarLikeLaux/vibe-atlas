@@ -375,13 +375,49 @@ a.model-name {
 }
 
 .vendor-advice {
-    margin-top: 24px;
-    border-left: 3px solid var(--line);
-    padding-left: 16px;
+    margin-top: 28px;
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    padding: 4px 16px 12px;
+}
+
+.vendor-advice blockquote {
+    margin: 12px 0;
+    font-size: 17px;
+}
+
+.model-summary {
+    display: grid;
+    gap: 8px;
+    margin: 24px 0 8px;
+    padding: 12px 16px;
+    border: 1px solid var(--line);
+    border-radius: 12px;
+}
+
+.model-summary > div {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+.model-summary dt {
+    font-weight: 650;
+}
+
+.model-summary dd {
+    margin: 0;
+    font-variant-numeric: tabular-nums;
+}
+
+.model-benchmark h2 {
+    margin-top: 32px;
+    text-wrap: balance;
 }
 
 .model-benchmark-result {
     font-size: 15px;
+    font-variant-numeric: tabular-nums;
 }
 
 .model-runs {
