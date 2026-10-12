@@ -380,6 +380,14 @@ a.model-name {
     padding-left: 16px;
 }
 
+.model-benchmark-result {
+    font-size: 15px;
+}
+
+.model-runs {
+    margin-top: 8px;
+}
+
 .agent-name,
 .availability-note {
     margin-top: 5px;
@@ -1063,6 +1071,11 @@ input::placeholder {
 
 .medal-bronze {
     color: #92502c;
+}
+
+.model-benchmark-result .medal {
+    margin-left: 8px;
+    font-size: 12px;
 }
 
 .result-cell {

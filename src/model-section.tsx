@@ -25,6 +25,20 @@ function scoreText(score: number | undefined, benchmark: ComparisonBenchmark, pr
     return `${formatNumber(score, precision)}${suffix}`
 }
 
+function medalFor(
+    rank: number | undefined,
+    eligible: boolean,
+    cohort: number,
+): { name: string; className: string } {
+    if (eligible && cohort >= 2 && rank === 1)
+        return { name: 'Золото', className: 'medal medal-gold' }
+    if (eligible && cohort >= 2 && rank === 2)
+        return { name: 'Серебро', className: 'medal medal-silver' }
+    if (eligible && cohort >= 2 && rank === 3)
+        return { name: 'Бронза', className: 'medal medal-bronze' }
+    return { name: '', className: '' }
+}
+
 function ModelRun({
     run,
     benchmark,
@@ -223,6 +237,8 @@ export function ModelSection() {
                 const scores = group.map((run) => run.score)
                 const min = Math.min(...scores)
                 const max = Math.max(...scores)
+                const cell = modelBands.standing?.cells.get(benchmark.id)
+                const medal = medalFor(cell?.rank, benchmark.awardEligible, cell?.cohort ?? 0)
                 return (
                     <article key={benchmark.id} className="model-benchmark">
                         <h3>
@@ -232,21 +248,38 @@ export function ModelSection() {
                                 · {benchmark.context} · {benchmark.unit}
                             </span>
                         </h3>
+                        <p className="model-benchmark-result">
+                            <strong>{scoreText(max, benchmark)}</strong>
+                            {cell?.rank !== undefined && cell.cohort > 0 && (
+                                <span>
+                                    {' '}
+                                    · №{cell.rank.toString()} из {cell.cohort.toString()}
+                                </span>
+                            )}
+                            {medal.name !== '' && (
+                                <span className={medal.className}>{' ' + medal.name}</span>
+                            )}
+                        </p>
                         <p>
-                            Лучший запуск {scoreText(max, benchmark)}
                             {group.length > 1 &&
-                                ` · диапазон ${scoreText(min, benchmark)}–${scoreText(max, benchmark)} · ${group.length.toString()} конф.`}
+                                `Диапазон ${scoreText(min, benchmark)}–${scoreText(max, benchmark)} · ${group.length.toString()} конф.`}
+                            {group.length <= 1 && 'Одна конфигурация'}
                             {benchmark.awardEligible ? '' : ' · без медалей'}
                             {modelBands.bands.get(benchmark.id) === 'close95' &&
                                 ' · в полосе 95%+ от топ‑1'}
                             {modelBands.bands.get(benchmark.id) === 'close80' &&
                                 ' · в полосе 80–95% от топ‑1'}
                         </p>
-                        <ul className="run-evidence-list">
-                            {group.map((run) => (
-                                <ModelRun key={run.id} run={run} benchmark={benchmark} />
-                            ))}
-                        </ul>
+                        <details className="model-runs">
+                            <summary>
+                                Запуски: {group.length.toString()} · источники и телеметрия внутри
+                            </summary>
+                            <ul className="run-evidence-list">
+                                {group.map((run) => (
+                                    <ModelRun key={run.id} run={run} benchmark={benchmark} />
+                                ))}
+                            </ul>
+                        </details>
                     </article>
                 )
             })}
