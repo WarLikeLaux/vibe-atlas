@@ -21,17 +21,25 @@ function priceText(billing: {
 }
 
 function modelScopeText(
-    entries: { catalogPriority: string; pool?: string | null | undefined }[] | null | undefined,
+    entries:
+        | {
+              catalogPriority?: string | null | undefined
+              name?: string | null | undefined
+              pool?: string | null | undefined
+          }[]
+        | null
+        | undefined,
 ): string {
     return (entries ?? [])
-        .map((entry) =>
-            entry.pool ? `${entry.catalogPriority} (${entry.pool})` : entry.catalogPriority,
-        )
+        .map((entry) => {
+            const label = scopeName(entry)
+            return entry.pool ? `${label} (${entry.pool})` : label
+        })
         .join(' · ')
 }
 
 function limitText(limit: {
-    value?: number | string | null | undefined
+    value?: number | string | { min: number; max: number } | null | undefined
     unit?: string | null | undefined
     unknownReason?: string | null | undefined
 }): string {
@@ -39,7 +47,15 @@ function limitText(limit: {
         return limit.unknownReason ?? 'Неизвестно'
     if (typeof limit.value === 'number')
         return `${limit.value.toLocaleString('ru')} ${limit.unit ?? ''}`
-    return `${limit.value} ${limit.unit ?? ''}`
+    if (typeof limit.value === 'string') return `${limit.value} ${limit.unit ?? ''}`
+    return `${limit.value.min.toLocaleString('ru')}–${limit.value.max.toLocaleString('ru')} ${limit.unit ?? ''}`
+}
+
+function scopeName(entry: {
+    catalogPriority?: string | null | undefined
+    name?: string | null | undefined
+}): string {
+    return entry.catalogPriority ?? entry.name ?? 'Модель'
 }
 
 export function GuideSection() {
@@ -47,7 +63,7 @@ export function GuideSection() {
     const normalizedQuery = query.trim().toLocaleLowerCase('ru')
     const subscriptions = subscriptionGuide.subscriptions.filter((subscription) =>
         `${subscription.vendor} ${subscription.planLabel} ${(subscription.modelsInScope ?? [])
-            .map((entry) => entry.catalogPriority)
+            .map((entry) => scopeName(entry))
             .join(' ')}`
             .toLocaleLowerCase('ru')
             .includes(normalizedQuery),

@@ -158,7 +158,7 @@ export function ModelSection() {
                 <p className="availability-note">Точная версия пока не подтверждена</p>
             )}
             {verifiedIdentities
-                .filter((identity) => identity.proposedMapping?.catalogId === model.id)
+                .filter((identity) => identity.proposedMapping.catalogId === model.id)
                 .map((identity) => (
                     <dl className="identity-list" key={identity.id}>
                         {identity.identifiers

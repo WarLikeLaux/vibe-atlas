@@ -21,14 +21,17 @@ const recommendationsSchema = z.strictObject({
     recommendations: z.array(recommendationSchema).min(1),
 })
 
-const sourceSchema = z.strictObject({
+const sourceSchema = z.looseObject({
     url: z.url({ protocol: /^https$/ }),
     checkedAt: z.string().min(1),
 })
 
 const limitSchema = z.looseObject({
     name: z.string().min(1),
-    value: z.union([z.number(), z.string()]).nullable().optional(),
+    value: z
+        .union([z.number(), z.string(), z.looseObject({ min: z.number(), max: z.number() })])
+        .nullable()
+        .optional(),
     unit: z.string().nullable().optional(),
     unknownReason: z.string().nullish(),
     resetWindow: z.looseObject({ description: z.string().min(1) }).nullish(),
@@ -48,12 +51,18 @@ const subscriptionSchema = z.looseObject({
         })
         .nullish(),
     modelsInScope: z
-        .array(z.looseObject({ catalogPriority: z.string().min(1), pool: z.string().nullish() }))
+        .array(
+            z.looseObject({
+                catalogPriority: z.string().min(1).nullish(),
+                name: z.string().min(1).nullish(),
+                pool: z.string().nullish(),
+            }),
+        )
         .nullish(),
     limits: z.array(limitSchema),
 })
 
-const subscriptionsSchema = z.strictObject({
+const subscriptionsSchema = z.looseObject({
     version: z.literal(1),
     batchId: z.string().min(1),
     checkedAt: z.iso.datetime(),
