@@ -901,6 +901,19 @@ input::placeholder {
     background: var(--surface);
 }
 
+.picker-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 12px;
+}
+
+.picker-actions .show-more {
+    margin-top: 0;
+    min-height: 40px;
+    padding: 8px 14px;
+}
+
 .metric-unit {
     display: block;
     color: var(--muted);

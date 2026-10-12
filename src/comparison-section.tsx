@@ -305,6 +305,13 @@ export function ComparisonSection() {
     ).length
     const sortBenchmark = comparisonBenchmarks.find((benchmark) => benchmark.id === sort)
 
+    const normalizedBenchmarkQuery = benchmarkQuery.trim().toLocaleLowerCase('ru')
+    const filteredBenchmarks = comparisonBenchmarks.filter((benchmark) =>
+        `${benchmark.name} ${benchmark.context}`
+            .toLocaleLowerCase('ru')
+            .includes(normalizedBenchmarkQuery),
+    )
+
     function sortSuffix(metric: string) {
         if (sort !== metric) return ''
         return direction === 'descending' ? ' ↓' : ' ↑'
@@ -425,7 +432,9 @@ export function ComparisonSection() {
                 </div>
             </div>
             <details className="column-picker">
-                <summary>Выбрать бенчмарки · включено {columns.length}</summary>
+                <summary>
+                    Выбрать бенчмарки · включено {columns.length} из {comparisonBenchmarks.length}
+                </summary>
                 <div className="search-field benchmark-search">
                     <label htmlFor="benchmark-query">Поиск бенчмарка</label>
                     <input
@@ -438,15 +447,57 @@ export function ComparisonSection() {
                         }}
                     />
                 </div>
+                <div className="picker-actions" role="group" aria-label="Массовый выбор бенчмарков">
+                    <button
+                        type="button"
+                        className="show-more"
+                        onClick={() => {
+                            setColumns(filteredBenchmarks.map((benchmark) => benchmark.id))
+                            setLimit(10)
+                        }}
+                    >
+                        Выбрать все
+                        {benchmarkQuery.trim()
+                            ? ` (${filteredBenchmarks.length.toString()})`
+                            : ` (${comparisonBenchmarks.length.toString()})`}
+                    </button>
+                    <button
+                        type="button"
+                        className="show-more"
+                        onClick={() => {
+                            setColumns(
+                                columns.filter(
+                                    (id) =>
+                                        !filteredBenchmarks.some(
+                                            (benchmark) => benchmark.id === id,
+                                        ),
+                                ),
+                            )
+                            setLimit(10)
+                        }}
+                    >
+                        Снять все
+                        {benchmarkQuery.trim() ? ` (${filteredBenchmarks.length.toString()})` : ''}
+                    </button>
+                    <button
+                        type="button"
+                        className="show-more"
+                        onClick={() => {
+                            setColumns(
+                                comparisonBenchmarks
+                                    .filter((benchmark) => benchmark.awardEligible)
+                                    .map((benchmark) => benchmark.id),
+                            )
+                            setLimit(10)
+                        }}
+                    >
+                        Только с медалями
+                    </button>
+                </div>
                 <fieldset>
                     <legend>Выбранные тесты определяют столбцы и медали</legend>
-                    {comparisonBenchmarks
-                        .filter((benchmark) =>
-                            `${benchmark.name} ${benchmark.context}`
-                                .toLocaleLowerCase('ru')
-                                .includes(benchmarkQuery.trim().toLocaleLowerCase('ru')),
-                        )
-                        .map((benchmark) => (
+                    {filteredBenchmarks.length > 0 ? (
+                        filteredBenchmarks.map((benchmark) => (
                             <label key={benchmark.id}>
                                 <input
                                     type="checkbox"
@@ -463,7 +514,23 @@ export function ComparisonSection() {
                                     </small>
                                 </span>
                             </label>
-                        ))}
+                        ))
+                    ) : (
+                        <p className="catalog-footnote">
+                            По запросу «{benchmarkQuery.trim()}» ничего не найдено. Измените запрос
+                            или{' '}
+                            <button
+                                type="button"
+                                className="inline-action"
+                                onClick={() => {
+                                    setBenchmarkQuery('')
+                                }}
+                            >
+                                покажите все бенчмарки
+                            </button>
+                            .
+                        </p>
+                    )}
                 </fieldset>
                 <button
                     type="button"
