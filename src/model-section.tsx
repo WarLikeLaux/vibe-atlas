@@ -92,6 +92,12 @@ export function ModelSection() {
         }
     }, [])
 
+    useEffect(() => {
+        if (modelId !== undefined) {
+            document.querySelector('.model-section')?.scrollIntoView({ block: 'start' })
+        }
+    }, [modelId])
+
     // Bands are computed over the full benchmark set in best mode, like the table defaults.
     const modelBands = useMemo(() => {
         const bands = new Map<string, 'close95' | 'close80'>()
