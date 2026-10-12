@@ -685,7 +685,7 @@ export function ComparisonSection() {
                                             <th scope="row">
                                                 <a
                                                     className="model-name model-link"
-                                                    href={`#model/${standing.model.id}`}
+                                                    href={`model/${standing.model.id}/`}
                                                 >
                                                     {standing.model.name}
                                                 </a>

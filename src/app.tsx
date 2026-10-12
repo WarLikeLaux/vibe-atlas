@@ -5,7 +5,6 @@ import { catalog } from './data/catalog'
 import type { Source } from './data/catalog'
 import { ExperienceSection } from './experience-section'
 import { GuideSection } from './guide-section'
-import { ModelSection } from './model-section'
 
 const repository = 'https://github.com/WarLikeLaux/vibe-atlas'
 
@@ -98,8 +97,6 @@ export function App() {
                 </section>
 
                 <ComparisonSection />
-
-                <ModelSection />
 
                 <ExperienceSection />
 
